@@ -2,19 +2,19 @@
 
 在这个 repo 中，大家将练习使用 GitHub 提交翻译。通过此培训，同学应该能够：
 
-1. 熟练使用 GitHub 提交翻译；
-2. 熟练使用 GitHub 校对别人的的翻译；
+1. 熟练使用 GitHub 提交翻译
+2. 熟练使用 GitHub 校对别人的的翻译
 3. 熟悉字幕组要求与规范
 
 
 技能点包括但不限于：
 
-- 克隆 repo；
-- 创建 branch；
-- 提交 pull request；
-- 修复学员在论坛的报错；
+- 克隆 repo
+- 创建 branch
+- 提交 pull request
+- 修复学员在论坛的报错
 
-
+<br>
 
 ## 如何发布任务
 
@@ -22,7 +22,7 @@
 
 请在[此表格](https://docs.google.com/spreadsheets/d/19xqzOCJGk4rQ0G3YTXXQG5YNbsLSFsbpooQXEUYfdnA/edit?usp=sharing)的“任务表” sheet 填写任务信息（B-E 列为必填，并将 I 列“状态”改为待认领），并将相关文档上传到此 repo 的 [tasks](/tasks) 文件夹，文件名需以任务编号开头。
 
-
+<br>
 
 ## 如何认领任务
 
@@ -32,7 +32,7 @@
 
 要提交任务，请将翻译好的文件提交到 [submissions](/submissions) 文件夹。文件名与原始文件一致。
 
-
+<br>
 
 ## 如何毕业
 
@@ -40,7 +40,7 @@
 
 请在“[见习生](https://docs.google.com/spreadsheets/d/19xqzOCJGk4rQ0G3YTXXQG5YNbsLSFsbpooQXEUYfdnA/edit#gid=1039672470)” sheet 的“已完成任务”列输入该见习者已完成的任务编号，并在“准许毕业？”列中填入“是”。通知 Chenwei，他会给予该毕业生相关权限。
 
-
+<br>
 
 ## 一般要求
 
@@ -53,14 +53,14 @@
 
 注：毕业后，在正式的课程翻译组中，也需遵守以上要求。
 
-
+<br>
 
 ## 毕业要求
 
 - 见习者已完成至少 2 个任务；
 - 审核者认为见习者已经掌握前述技能点。
 
-
+<br>
 
 ## 有用链接
 

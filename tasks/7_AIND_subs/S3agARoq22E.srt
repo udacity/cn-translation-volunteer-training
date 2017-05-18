@@ -1,0 +1,132 @@
+﻿1
+00:00:00,580 --> 00:00:03,718
+Our hope in designing this program
+was to create something that
+
+2
+00:00:03,718 --> 00:00:06,810
+combined the very best
+materials on offer.
+
+3
+00:00:06,809 --> 00:00:11,759
+We wanted to deliver a class that was
+better than anything any one person or
+
+4
+00:00:11,759 --> 00:00:13,619
+organization could do.
+
+5
+00:00:13,619 --> 00:00:18,155
+So we've combined the very best
+foundational information with exclusive
+
+6
+00:00:18,155 --> 00:00:19,092
+new material.
+
+7
+00:00:19,092 --> 00:00:23,623
+We've also put together a team of the
+best AI brains on the planet to act as
+
+8
+00:00:23,623 --> 00:00:25,370
+your guides.
+
+9
+00:00:25,370 --> 00:00:28,740
+We are delighted, this program
+features my friend Peter Norvig,
+
+10
+00:00:28,739 --> 00:00:30,859
+director of research at Google,
+
+11
+00:00:30,859 --> 00:00:35,409
+who quite literally wrote the leading
+textbook on artificial intelligence.
+
+12
+00:00:35,409 --> 00:00:39,479
+We also meet my friend Thad Starner,
+who's founder and director
+
+13
+00:00:39,479 --> 00:00:43,899
+of the Contextual Computing Group at
+Georgia Tech's College of Computing and
+
+14
+00:00:43,899 --> 00:00:47,049
+a researcher at my very own Google X.
+
+15
+00:00:47,049 --> 00:00:50,359
+In fact, much of the material in this
+program is taught to computer science
+
+16
+00:00:50,359 --> 00:00:54,909
+master students around the world
+including Stanford and Georgia Tech.
+
+17
+00:00:54,909 --> 00:00:58,369
+I hope that gives you a sense of
+the quality of the teaching here.
+
+18
+00:00:58,369 --> 00:01:04,159
+Arpan Chakraborty and David Joyner, will
+act as further guides on your journey.
+
+19
+00:01:04,159 --> 00:01:06,269
+Arpan has a PhD in computer vision,
+
+20
+00:01:06,269 --> 00:01:10,849
+while David won Georgia Tech's
+Lockheed Excellence Teaching Award and
+
+21
+00:01:10,849 --> 00:01:14,479
+has been lecturing in AI for
+more than three years.
+
+22
+00:01:14,480 --> 00:01:19,555
+And in the next few videos, Dhruv
+Parthasarathy who focused on AI for
+
+23
+00:01:19,555 --> 00:01:22,982
+both his undergrad and
+masters degree at MIT.
+
+24
+00:01:22,981 --> 00:01:25,978
+And who is the director of
+the AI Program here at Udacity,
+
+25
+00:01:25,978 --> 00:01:29,795
+will give you a bird's eye
+view of this new nanodegree.
+
+26
+00:01:29,795 --> 00:01:31,890
+You'll even see more of me again.
+
+27
+00:01:31,890 --> 00:01:37,123
+So now, over to Dhruv who'll show you
+what you built during this course.
+
+28
+00:01:37,123 --> 00:01:40,118
+[BLANK_AUDIO]
+

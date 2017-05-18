@@ -1,0 +1,79 @@
+﻿1
+00:00:00,285 --> 00:00:03,905
+Hi, I'm Sebastian,
+I'm delighted to welcome you to
+
+2
+00:00:03,904 --> 00:00:07,926
+Udacity's Artificial Intelligence
+Nano Degree program.
+
+3
+00:00:07,926 --> 00:00:12,064
+We think it provides
+an experience unlike any other.
+
+4
+00:00:12,064 --> 00:00:16,623
+AI is really about unleashing one of
+the most amazing things in the entire
+
+5
+00:00:16,623 --> 00:00:18,429
+universe, intelligence.
+
+6
+00:00:18,429 --> 00:00:20,858
+AI is growing exponentially.
+
+7
+00:00:20,858 --> 00:00:26,435
+And we've changed our world at the rate
+with the fast to fast work by humans,
+
+8
+00:00:26,435 --> 00:00:30,429
+because AIs can learn
+much faster than us.
+
+9
+00:00:30,429 --> 00:00:32,728
+Just look at self-driving cars.
+
+10
+00:00:32,728 --> 00:00:36,030
+Anytime you drive,
+only one person gets better.
+
+11
+00:00:36,030 --> 00:00:36,670
+You.
+
+12
+00:00:36,670 --> 00:00:41,100
+But with AI, anytime an AI car drives,
+all cars get better,
+
+13
+00:00:41,100 --> 00:00:44,050
+including all future unborn cars.
+
+14
+00:00:44,049 --> 00:00:48,159
+After completing this program, you'll
+be positioned to take full advantage
+
+15
+00:00:48,159 --> 00:00:50,844
+of such changes that AI will usher in.
+
+16
+00:00:50,844 --> 00:00:55,200
+You will be ready to work with
+trans-disciplinary thinkers and
+
+17
+00:00:55,200 --> 00:01:00,700
+practitioners to create technologies
+that will shape our future world.
+

@@ -1,0 +1,251 @@
+﻿1
+00:00:01,060 --> 00:00:03,000
+Hi, welcome to the program.
+
+2
+00:00:03,000 --> 00:00:06,029
+We're thrilled to have you here, and I'm
+looking forward to guiding your journey
+
+3
+00:00:06,030 --> 00:00:08,800
+to the cutting edge of
+artificial intelligence.
+
+4
+00:00:08,800 --> 00:00:11,890
+You are now an essential member
+of the Udacity community.
+
+5
+00:00:11,890 --> 00:00:13,990
+We're here to make sure you
+fulfill your goals, but
+
+6
+00:00:13,990 --> 00:00:15,210
+we also want to learn from you.
+
+7
+00:00:15,210 --> 00:00:17,929
+Your experience will guide future
+development, and we'd love to hear your
+
+8
+00:00:17,929 --> 00:00:22,429
+thoughts on how we can improve and
+make this program better for others.
+
+9
+00:00:22,429 --> 00:00:25,449
+Now let's take a quick walk through
+the Udacity office to get a flavor of
+
+10
+00:00:25,449 --> 00:00:27,089
+how we do things here.
+
+11
+00:00:27,089 --> 00:00:29,129
+So we believe in learning by doing.
+
+12
+00:00:29,129 --> 00:00:31,219
+So rather than simply watching videos,
+or
+
+13
+00:00:31,219 --> 00:00:34,329
+taking tests on AI, you'll build
+real artificial intelligence.
+
+14
+00:00:34,329 --> 00:00:38,000
+And watch those AIs solve complex
+problems that humans like me and
+
+15
+00:00:38,000 --> 00:00:40,350
+you simply can't do with
+the same speed or accuracy.
+
+16
+00:00:40,350 --> 00:00:42,320
+>> Hey, can I get some help?
+
+17
+00:00:42,320 --> 00:00:43,960
+>> Yeah, of course.
+
+18
+00:00:43,960 --> 00:00:48,609
+Looks like we can just sub
+in 0.9 here from here.
+
+19
+00:00:48,609 --> 00:00:50,570
+And looks like we can
+likewise sub in 0.8 here.
+
+20
+00:00:50,570 --> 00:00:53,539
+You want to finish the rest?
+
+21
+00:00:53,539 --> 00:00:54,226
+Looks like we got it.
+
+22
+00:00:54,226 --> 00:00:56,521
+[MUSIC]
+
+23
+00:00:56,521 --> 00:01:00,250
+In the first project, you build a simple
+AI agent that solves any Sudoku problem
+
+24
+00:01:00,250 --> 00:01:03,329
+in the world, and
+learn two foundational AI techniques.
+
+25
+00:01:03,329 --> 00:01:05,469
+Constraint propagation, and search.
+
+26
+00:01:05,469 --> 00:01:08,769
+This project is just a little teaser
+to get your feet wet, and show you how
+
+27
+00:01:08,769 --> 00:01:12,429
+quickly you can start applying AI
+concepts to problems around you.
+
+28
+00:01:12,430 --> 00:01:13,370
+Hey Christina.
+
+29
+00:01:13,370 --> 00:01:14,320
+>> Hey, Dhruv.
+
+30
+00:01:14,319 --> 00:01:15,469
+>> Nice work, solving Sudoku.
+
+31
+00:01:16,760 --> 00:01:19,945
+You'll also be given the chance to go
+above and beyond by using advanced Sudoku
+
+32
+00:01:19,944 --> 00:01:21,913
+strategies to improve
+the speed of your agent.
+
+33
+00:01:21,914 --> 00:01:24,534
+[MUSIC]
+
+34
+00:01:24,534 --> 00:01:25,506
+In the next project,
+
+35
+00:01:25,507 --> 00:01:29,024
+you'll build an AI agent that can
+routinely defeat opponents in Isolation.
+
+36
+00:01:29,024 --> 00:01:32,064
+Here you'll apply Minimax and
+Alpha-beta pruning,
+
+37
+00:01:32,064 --> 00:01:35,724
+two strategies used by Google's
+world-beating Go agent AlphaGo.
+
+38
+00:01:35,724 --> 00:01:38,484
+You go on to create an AI that
+guides Pac-Man through his maze and
+
+39
+00:01:38,484 --> 00:01:41,674
+allows him to eat all the food in
+the most efficient way possible.
+
+40
+00:01:41,674 --> 00:01:44,105
+Definitely more efficient
+than Ryan over here.
+
+41
+00:01:44,105 --> 00:01:45,730
+>> I'm still practicing.
+
+42
+00:01:45,730 --> 00:01:48,082
+>> Using simple techniques
+such as breadth-first search,
+
+43
+00:01:48,081 --> 00:01:51,345
+depth-first search and A-Star search
+your AI agent will traverse Pac-Man's
+
+44
+00:01:51,346 --> 00:01:53,805
+maze faster than any other human player.
+
+45
+00:01:53,805 --> 00:01:56,299
+Next you will be tasked with
+finding the optimal route for
+
+46
+00:01:56,299 --> 00:01:58,593
+taking cargo from one place to another.
+
+47
+00:01:58,593 --> 00:02:02,478
+Planning problems like this are the very
+core of the logistics industry.
+
+48
+00:02:04,379 --> 00:02:08,340
+And you'll see just how powerful AI is
+in solving these kinds of problems.
+
+49
+00:02:08,340 --> 00:02:11,939
+And finally, you use hidden Markov
+models to automatically read sign
+
+50
+00:02:11,939 --> 00:02:15,740
+languages characters and convert them
+into their English text counterparts.
+
+51
+00:02:15,740 --> 00:02:18,920
+This is just one of
+the many examples of how AI
+
+52
+00:02:18,919 --> 00:02:22,439
+is making a meaningful
+impact in society at large.
+
+53
+00:02:22,439 --> 00:02:24,889
+And all this is just in term one.
+
+54
+00:02:24,889 --> 00:02:27,559
+We think you'll have a lot of fun, and
+we can't wait to see you get started.
+

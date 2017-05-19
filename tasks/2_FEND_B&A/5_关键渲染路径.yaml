@@ -1,0 +1,1555 @@
+id: 192503
+key: '1464158642'
+locale: zh-cn
+version: 1.0.0
+title: 关键渲染路径
+semantic_type: Lesson
+updated_at: 'Fri Oct 28 2016 02:46:05 GMT+0000 (UTC)'
+is_public: true
+image: null
+video: null
+summary: 学习为什么性能很重要，浏览器如何让你的代码变成栩栩如生的网页，以及如何使用 Google Chrome 的开发者工具查看页面。
+duration: 240
+is_project_lesson: false
+_concepts_ids:
+  - 191591
+  - 191592
+  - 191595
+  - 191593
+  - 191598
+  - 191594
+  - 191596
+  - 191597
+  - 191599
+  - 191600
+  - 191601
+  - 191602
+  - 191603
+  - 191604
+  - 191609
+  - 191605
+  - 191606
+  - 191607
+  - 191612
+  - 191608
+  - 191611
+  - 191610
+  - 149496
+_project_id: null
+concepts:
+  - id: 191591
+    key: '15290985480923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 关键渲染路径
+    semantic_type: Concept
+    updated_at: 'Fri Oct 28 2016 02:34:56 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 190490
+    atoms:
+      - id: 190490
+        key: '1529098548'
+        locale: zh-cn
+        version: 1.0.0
+        title: 关键渲染路径
+        semantic_type: VideoAtom
+        updated_at: 'Fri Apr 14 2017 18:17:37 GMT+0000 (UTC)'
+        is_public: true
+        tags: []
+        instructor_notes: '使用 Google 的 <a href="https://developers.google.com/web/fundamentals/" target="_blank">Web Fundamentals</a> 手册详细了解<a href="https://developers.google.com/web/fundamentals/performance/critical-rendering-path/" target="_blank">关键渲染路径</a>。'
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        video:
+          youtube_id: d_oIZzkyQ-E
+          subtitles:
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d0af3f_critical-rendering-path-walkthrough-website-performance-optimization/subtitles/lang_ja_vs1.srt'
+              language_code: ja
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d0af3f_critical-rendering-path-walkthrough-website-performance-optimization/subtitles/lang_pt-br_vs13.srt'
+              language_code: pt-br
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d0af3f_critical-rendering-path-walkthrough-website-performance-optimization/subtitles/lang_ar_vs1.srt'
+              language_code: ar
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d0af3f_critical-rendering-path-walkthrough-website-performance-optimization/subtitles/lang_es-mx_vs3.srt'
+              language_code: es-mx
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d0af3f_critical-rendering-path-walkthrough-website-performance-optimization/subtitles/lang_ko_vs7.srt'
+              language_code: ko
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d0af3f_critical-rendering-path-walkthrough-website-performance-optimization/subtitles/lang_en_vs5.srt'
+              language_code: en
+          transcodings:
+            uri_480p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.1529098548/video_17fbc2a83c147c822b359e8e540bf785_480p.mp4'
+            uri_480p_1000kbps_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.1529098548/video_17fbc2a83c147c822b359e8e540bf785_480p_1000kbps.mp4'
+            uri_480p_ogg: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.1529098548/video_17fbc2a83c147c822b359e8e540bf785_480p.ogg'
+            uri_720p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.1529098548/video_17fbc2a83c147c822b359e8e540bf785_720p.mp4'
+            uri_hls: null
+  - id: 191592
+    key: '15290985490923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 将 HTML 转换为 DOM
+    semantic_type: Concept
+    updated_at: 'Fri Oct 28 2016 02:34:56 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 190491
+    atoms:
+      - id: 190491
+        key: '1529098549'
+        locale: zh-cn
+        version: 1.0.0
+        title: 将 HTML 转换为 DOM
+        semantic_type: VideoAtom
+        updated_at: 'Fri Apr 14 2017 18:21:20 GMT+0000 (UTC)'
+        is_public: true
+        tags: []
+        instructor_notes: |-
+          查看本示例中的<a href="http://udacity-crp.herokuapp.com/cssom.html" target="_blank">演示页面</a>。要详细了解 DOM：
+          <ul>
+          <li><a href="https://developer.mozilla.org/zh-CN/docs/Web/API/Document_Object_Model/Introduction" target="_blank">什么是 Document Object Model（DOM）？</a>
+          <li><a href="https://developers.google.com/web/fundamentals/performance/critical-rendering-path/constructing-the-object-model#document-object-model-dom" target="_blank">构建对象模型</a>
+          <li><a href="https://developer.mozilla.org/zh-CN/docs/Web/Guide/HTML/HTML5" target="_blank">HTML5 标准</a>
+          </ul>
+
+          我们使用 `curl` 通过 Mac 上的终端来下载 HTML。如果你是 Windows 用户，并且想要尝试 `curl`，请查看此 <a href="http://superuser.com/questions/344927/powershell-equivalent-of-curl" target="_blank">StackOverflow 讨论</a>。
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        video:
+          youtube_id: qjEyIpm6D_Q
+          subtitles:
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d1ca5b_converting-html-to-the-dom-website-performance-optimization/subtitles/lang_en_vs5.srt'
+              language_code: en
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d1ca5b_converting-html-to-the-dom-website-performance-optimization/subtitles/lang_pt-br_vs14.srt'
+              language_code: pt-br
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d1ca5b_converting-html-to-the-dom-website-performance-optimization/subtitles/lang_ko_vs10.srt'
+              language_code: ko
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d1ca5b_converting-html-to-the-dom-website-performance-optimization/subtitles/lang_ja_vs1.srt'
+              language_code: ja
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d1ca5b_converting-html-to-the-dom-website-performance-optimization/subtitles/lang_ar_vs1.srt'
+              language_code: ar
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d1ca5b_converting-html-to-the-dom-website-performance-optimization/subtitles/lang_es-mx_vs8.srt'
+              language_code: es-mx
+          transcodings:
+            uri_480p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.1529098549/video_e72e343cc2766a8dbd5c4e01572b8e82_480p.mp4'
+            uri_480p_1000kbps_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.1529098549/video_e72e343cc2766a8dbd5c4e01572b8e82_480p_1000kbps.mp4'
+            uri_480p_ogg: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.1529098549/video_e72e343cc2766a8dbd5c4e01572b8e82_480p.ogg'
+            uri_720p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.1529098549/video_e72e343cc2766a8dbd5c4e01572b8e82_720p.mp4'
+            uri_hls: null
+  - id: 191595
+    key: '15290985500923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 快速 Google 搜索响应
+    semantic_type: Concept
+    updated_at: 'Fri Oct 28 2016 02:34:58 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 190492
+    atoms:
+      - id: 190492
+        key: '1529098550'
+        locale: zh-cn
+        version: 1.0.0
+        title: 快速 Google 搜索响应
+        semantic_type: VideoAtom
+        updated_at: 'Fri Apr 14 2017 18:21:20 GMT+0000 (UTC)'
+        is_public: true
+        tags: []
+        instructor_notes: |-
+          **Ilya 说**：我知道你在想什么...“请稍等，但每位用户的标题都不相同，因为你一旦注册，右上角就会出现自定义图标和导航！”...对吗？
+
+          此优化仍然有效！Google 搜索团队已经构建了一项优化服务，能够检索和构建自定义标题，其中包括在请求首次到达服务器后几微秒内的自定义用户信息 - 因此，即使在解析搜索查询前，它们也可以将标题反冲到客户端中。或者，许多站点使用静态标题，然后使用 JavaScript 来填充自定义位 - 这使它们能够为相同的标题提供服务，而无论用户状态如何。
+
+          在任何一种情况下，重要的部分都在于服务器不需要等待渲染完整响应，然后再将其返回至客户端。你刷新某些数据的速度越快，浏览器可以开始构建 DOM 并发现和分配其他关键资源的请求的速度也越快。
+
+          请参阅<a href="http://www.stevesouders.com/blog/2009/05/18/flushing-the-document-early/" target="_blank">提早清洗文档</a>以了解更多信息。
+
+          此外，请查看 [Chunk Scatter](http://blog.cowchimp.com/chunk-scatter-http-chunked-response-analysis-tool/)，一款用于可视化成块 HTTP 响应的出色工具。
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        video:
+          youtube_id: jw4tVn7CRcI
+          subtitles:
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d13a5f_fast-google-search-responses-website-performance-optimization/subtitles/lang_ja_vs1.srt'
+              language_code: ja
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d13a5f_fast-google-search-responses-website-performance-optimization/subtitles/lang_pt-br_vs20.srt'
+              language_code: pt-br
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d13a5f_fast-google-search-responses-website-performance-optimization/subtitles/lang_ar_vs1.srt'
+              language_code: ar
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d13a5f_fast-google-search-responses-website-performance-optimization/subtitles/lang_es-mx_vs3.srt'
+              language_code: es-mx
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d13a5f_fast-google-search-responses-website-performance-optimization/subtitles/lang_ko_vs6.srt'
+              language_code: ko
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d13a5f_fast-google-search-responses-website-performance-optimization/subtitles/lang_en_vs5.srt'
+              language_code: en
+          transcodings:
+            uri_480p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.1529098550/video_77fa63854f1592efb91c6dd648ec22ea_480p.mp4'
+            uri_480p_1000kbps_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.1529098550/video_77fa63854f1592efb91c6dd648ec22ea_480p_1000kbps.mp4'
+            uri_480p_ogg: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.1529098550/video_77fa63854f1592efb91c6dd648ec22ea_480p.ogg'
+            uri_720p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.1529098550/video_77fa63854f1592efb91c6dd648ec22ea_720p.mp4'
+            uri_hls: null
+  - id: 191593
+    key: '16135285350923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 探索时间线踪迹
+    semantic_type: Concept
+    updated_at: 'Tue Feb 28 2017 14:52:31 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 190493
+    atoms:
+      - id: 190493
+        key: '1613528535'
+        locale: zh-cn
+        version: 1.0.0
+        title: 探索时间线踪迹
+        semantic_type: QuizAtom
+        updated_at: 'Fri Apr 14 2017 18:12:32 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |-
+          详细了解 Chrome 开发者工具中的时间线面板：[如何使用 Timeline 工具](https://developers.google.com/web/tools/chrome-devtools/evaluate-performance/timeline-tool)
+
+          如果 DevTools 中的“时间线”选项卡与视频中显示的不一样，请注意，Chrome Canary 和 Chrome 是不断变化的平台，会不断推出新版本。遇到自己努力尝试过后也无法解决的问题，请在[论坛](http://discussions.youdaxue.com/c/nd001-website-optimization)提问。
+
+          Cameron 将在回答视频中分析 <a href="http://www.cnn.com" target="_blank">cnn.com</a>。
+
+          <ul>
+          <li>在 Windows 上使用 **Ctrl+Shift+I** 或者在 Mac 上使用 **Cmd+Opt+I** 以打开开发者工具。
+          <li>在 Windows 上使用 **Ctrl+Shift+R** 或者在 Mac 上使用 **Cmd+Shift+R** 来重新加载页面并捕捉时间线。
+          </ul>
+
+          高级技巧：要使用硬重新加载技巧来捕捉完整踪迹，你需要先加载页面，在开发者工具中打开时间线，开始和停止录制，然后使用上述快捷方式重新加载页面。基本上，打开开发者工具并点击录制按钮两次，然后再执行硬重新加载。
+
+          请查看 <a href="https://developer.chrome.com/devtools/docs/mobile-emulation" target="_blank">开发者工具模拟文档</a>，详细了解如何模拟移动设备。
+
+          - 中文: [如何使用时间轴工具](http://www.jianshu.com/p/4da0f0bda768)
+          - 中文: [开发者工具模拟文档](http://www.css88.com/doc/chrome-devtools/device-mode/)
+        instruction:
+          video:
+            youtube_id: oJQf6OGzVWs
+            subtitles:
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57cfab4d_exploring-timeline-traces-website-performance-optimization/subtitles/lang_es-mx_vs3.srt'
+                language_code: es-mx
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57cfab4d_exploring-timeline-traces-website-performance-optimization/subtitles/lang_ko_vs7.srt'
+                language_code: ko
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57cfab4d_exploring-timeline-traces-website-performance-optimization/subtitles/lang_ar_vs1.srt'
+                language_code: ar
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57cfab4d_exploring-timeline-traces-website-performance-optimization/subtitles/lang_pt-br_vs13.srt'
+                language_code: pt-br
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57cfab4d_exploring-timeline-traces-website-performance-optimization/subtitles/lang_ja_vs1.srt'
+                language_code: ja
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57cfab4d_exploring-timeline-traces-website-performance-optimization/subtitles/lang_en_vs5.srt'
+                language_code: en
+            transcodings:
+              uri_480p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.1590888557/video_0a873ebfedf9fb2cf199b0aea4b07f2c_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.1590888557/video_0a873ebfedf9fb2cf199b0aea4b07f2c_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.1590888557/video_0a873ebfedf9fb2cf199b0aea4b07f2c_480p.ogg'
+              uri_720p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.1590888557/video_0a873ebfedf9fb2cf199b0aea4b07f2c_720p.mp4'
+              uri_hls: null
+          text: null
+        question:
+          title: 探索时间线踪迹
+          background_image: '//lh3.ggpht.com/-0LG8CYEAS1UAFouT-jkwaYj_n4VS4o7COrnj5uNrbMAM-sbp0n5if7WvsgVvNKK_uRGjkx8dEuiJpbdGUE=s0#w=1920&h=1080'
+          alt_text: ''
+          semantic_type: ImageFormQuestion
+          evaluation_id: '1595848547'
+        answer:
+          text: null
+          video:
+            youtube_id: oe-Wil19ihA
+            subtitles:
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57cfbbb4_cnns-timeline-trace-website-performance-optimization/subtitles/lang_en_vs5.srt'
+                language_code: en
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57cfbbb4_cnns-timeline-trace-website-performance-optimization/subtitles/lang_ko_vs10.srt'
+                language_code: ko
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57cfbbb4_cnns-timeline-trace-website-performance-optimization/subtitles/lang_es-mx_vs12.srt'
+                language_code: es-mx
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57cfbbb4_cnns-timeline-trace-website-performance-optimization/subtitles/lang_ar_vs1.srt'
+                language_code: ar
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57cfbbb4_cnns-timeline-trace-website-performance-optimization/subtitles/lang_pt-br_vs18.srt'
+                language_code: pt-br
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57cfbbb4_cnns-timeline-trace-website-performance-optimization/subtitles/lang_ja_vs1.srt'
+                language_code: ja
+            transcodings:
+              uri_480p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.1590888558/video_83532f747633b2031634b3cb02b08b99_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.1590888558/video_83532f747633b2031634b3cb02b08b99_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.1590888558/video_83532f747633b2031634b3cb02b08b99_480p.ogg'
+              uri_720p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.1590888558/video_83532f747633b2031634b3cb02b08b99_720p.mp4'
+              uri_hls: null
+  - id: 191598
+    key: '15290985510923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 你能否概括 DOM？
+    semantic_type: Concept
+    updated_at: 'Fri Oct 28 2016 02:35:00 GMT+0000 (UTC)'
+    is_public: false
+    resources: null
+    _atoms_ids:
+      - 190494
+    atoms:
+      - id: 190494
+        key: '1529098551'
+        locale: zh-cn
+        version: 1.0.0
+        title: 你能否概括 DOM？
+        semantic_type: QuizAtom
+        updated_at: 'Fri Apr 14 2017 18:06:57 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: ''
+        instruction:
+          video:
+            youtube_id: tJvAsE6UwoQ
+            subtitles:
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57cfb4e2_can-you-summarize-dom-construction-website-performance-optimization/subtitles/lang_en_vs5.srt'
+                language_code: en
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57cfb4e2_can-you-summarize-dom-construction-website-performance-optimization/subtitles/lang_ko_vs7.srt'
+                language_code: ko
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57cfb4e2_can-you-summarize-dom-construction-website-performance-optimization/subtitles/lang_es-mx_vs4.srt'
+                language_code: es-mx
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57cfb4e2_can-you-summarize-dom-construction-website-performance-optimization/subtitles/lang_pt-br_vs7.srt'
+                language_code: pt-br
+            transcodings:
+              uri_480p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.1529098552/video_9db1935682347b32ec124aadf1dd523e_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.1529098552/video_9db1935682347b32ec124aadf1dd523e_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.1529098552/video_9db1935682347b32ec124aadf1dd523e_480p.ogg'
+              uri_720p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.1529098552/video_9db1935682347b32ec124aadf1dd523e_720p.mp4'
+              uri_hls: null
+          text: null
+        question:
+          title: 你能否概括 DOM？
+          background_image: '//lh3.ggpht.com/WIvB2qVB3_fNVk7i4EaTl6A9Ib5j_y35GInAAZ46pBwPW2hQYlFoZkrqj6rt2u39PpWtTXgNEXBgiwWBxx0=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '1523928661'
+        answer:
+          text: null
+          video:
+            youtube_id: PEMOhOvQwjU
+            subtitles:
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57cfa813_cameron-summarizes-dom-construction-website-performance-optimization/subtitles/lang_pt-br_vs7.srt'
+                language_code: pt-br
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57cfa813_cameron-summarizes-dom-construction-website-performance-optimization/subtitles/lang_en_vs5.srt'
+                language_code: en
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57cfa813_cameron-summarizes-dom-construction-website-performance-optimization/subtitles/lang_ko_vs6.srt'
+                language_code: ko
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57cfa813_cameron-summarizes-dom-construction-website-performance-optimization/subtitles/lang_es-mx_vs2.srt'
+                language_code: es-mx
+            transcodings:
+              uri_480p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.1464409138/video_20290d23700bd651a326b78c53b8590e_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.1464409138/video_20290d23700bd651a326b78c53b8590e_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.1464409138/video_20290d23700bd651a326b78c53b8590e_480p.ogg'
+              uri_720p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.1464409138/video_20290d23700bd651a326b78c53b8590e_720p.mp4'
+              uri_hls: null
+  - id: 191594
+    key: '23525785480923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 构建 DOM
+    semantic_type: Concept
+    updated_at: 'Tue Feb 28 2017 15:06:20 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 190495
+    atoms:
+      - id: 190495
+        key: '2352578548'
+        locale: zh-cn
+        version: 1.0.0
+        title: 构建 DOM
+        semantic_type: QuizAtom
+        updated_at: 'Fri Apr 14 2017 18:05:37 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: ''
+        instruction:
+          video:
+            youtube_id: Jm3ja6GZugE
+            subtitles:
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d13486_can-you-summarize-dom-construction-website-performance-optimization/subtitles/lang_es_vs2.srt'
+                language_code: es
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d13486_can-you-summarize-dom-construction-website-performance-optimization/subtitles/lang_ja_vs1.srt'
+                language_code: ja
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d13486_can-you-summarize-dom-construction-website-performance-optimization/subtitles/lang_pt-br_vs10.srt'
+                language_code: pt-br
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d13486_can-you-summarize-dom-construction-website-performance-optimization/subtitles/lang_ar_vs1.srt'
+                language_code: ar
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d13486_can-you-summarize-dom-construction-website-performance-optimization/subtitles/lang_es-mx_vs3.srt'
+                language_code: es-mx
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d13486_can-you-summarize-dom-construction-website-performance-optimization/subtitles/lang_ko_vs6.srt'
+                language_code: ko
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d13486_can-you-summarize-dom-construction-website-performance-optimization/subtitles/lang_en_vs4.srt'
+                language_code: en
+            transcodings:
+              uri_480p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.2405028545/video_96e86b6b34dde586b1a39d50699c3b0c_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.2405028545/video_96e86b6b34dde586b1a39d50699c3b0c_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.2405028545/video_96e86b6b34dde586b1a39d50699c3b0c_480p.ogg'
+              uri_720p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.2405028545/video_96e86b6b34dde586b1a39d50699c3b0c_720p.mp4'
+              uri_hls: null
+          text: null
+        question:
+          title: 构建 DOM - 练习
+          background_image: '//lh5.ggpht.com/9ELpnSN2ZoSjJO7GuybS9r04AM1FdV31vDuRXRLpKIKJ3KKwKSmdeD7jS07yG9unRoVvn5vTvFBppKRaIUA=s0#w=1881&h=1058'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '2356788664'
+        answer:
+          text: null
+          video:
+            youtube_id: C-jX2U1JZJ4
+            subtitles:
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57cfc192_summarize-dom-construction-solution-website-performance-optimization/subtitles/lang_ja_vs1.srt'
+                language_code: ja
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57cfc192_summarize-dom-construction-solution-website-performance-optimization/subtitles/lang_pt-br_vs12.srt'
+                language_code: pt-br
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57cfc192_summarize-dom-construction-solution-website-performance-optimization/subtitles/lang_ar_vs1.srt'
+                language_code: ar
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57cfc192_summarize-dom-construction-solution-website-performance-optimization/subtitles/lang_es-mx_vs2.srt'
+                language_code: es-mx
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57cfc192_summarize-dom-construction-solution-website-performance-optimization/subtitles/lang_ko_vs8.srt'
+                language_code: ko
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57cfc192_summarize-dom-construction-solution-website-performance-optimization/subtitles/lang_en_vs4.srt'
+                language_code: en
+            transcodings:
+              uri_480p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.2378018550/video_6054fc96bc9cf2df6e927cdc806c9097_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.2378018550/video_6054fc96bc9cf2df6e927cdc806c9097_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.2378018550/video_6054fc96bc9cf2df6e927cdc806c9097_480p.ogg'
+              uri_720p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.2378018550/video_6054fc96bc9cf2df6e927cdc806c9097_720p.mp4'
+              uri_hls: null
+  - id: 191596
+    key: '15290985530923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 将 CSS 转换为 CSSOM
+    semantic_type: Concept
+    updated_at: 'Tue Feb 28 2017 15:07:07 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 190496
+    atoms:
+      - id: 190496
+        key: '1529098553'
+        locale: zh-cn
+        version: 1.0.0
+        title: 将 CSS 转换为 CSSOM
+        semantic_type: VideoAtom
+        updated_at: 'Fri Apr 14 2017 18:17:37 GMT+0000 (UTC)'
+        is_public: true
+        tags: []
+        instructor_notes: |
+          <ul>
+          <li>详细了解<a href="https://developers.google.com/web/fundamentals/performance/critical-rendering-path/constructing-the-object-model#css-object-model-cssom" target="_blank">构建对象模型</a> 
+          <li>详细了解 <a href="https://developers.google.com/web/fundamentals/performance/critical-rendering-path/render-blocking-css" target="_blank">阻塞渲染的 CSS</a>
+          </ul>
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        video:
+          youtube_id: '-CATiyw2-Ns'
+          subtitles:
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d06923_converting-css-to-the-cssom-website-performance-optimization/subtitles/lang_ja_vs1.srt'
+              language_code: ja
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d06923_converting-css-to-the-cssom-website-performance-optimization/subtitles/lang_pt-br_vs17.srt'
+              language_code: pt-br
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d06923_converting-css-to-the-cssom-website-performance-optimization/subtitles/lang_ar_vs3.srt'
+              language_code: ar
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d06923_converting-css-to-the-cssom-website-performance-optimization/subtitles/lang_es-mx_vs8.srt'
+              language_code: es-mx
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d06923_converting-css-to-the-cssom-website-performance-optimization/subtitles/lang_ko_vs6.srt'
+              language_code: ko
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d06923_converting-css-to-the-cssom-website-performance-optimization/subtitles/lang_en_vs8.srt'
+              language_code: en
+          transcodings:
+            uri_480p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.1529098553/video_5747d51a30cc181422a44f1e17fb74bd_480p.mp4'
+            uri_480p_1000kbps_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.1529098553/video_5747d51a30cc181422a44f1e17fb74bd_480p_1000kbps.mp4'
+            uri_480p_ogg: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.1529098553/video_5747d51a30cc181422a44f1e17fb74bd_480p.ogg'
+            uri_720p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.1529098553/video_5747d51a30cc181422a44f1e17fb74bd_720p.mp4'
+            uri_hls: null
+  - id: 191597
+    key: '15290985540923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 哪种样式渲染得更快？
+    semantic_type: Concept
+    updated_at: 'Fri Oct 28 2016 02:35:03 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 190497
+    atoms:
+      - id: 190497
+        key: '1529098554'
+        locale: zh-cn
+        version: 1.0.0
+        title: 哪种样式渲染得更快？
+        semantic_type: QuizAtom
+        updated_at: 'Fri Apr 14 2017 18:05:10 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |-
+          **拼写错误**：第二个响应的 CSS 应该为 `div p { font-size: 12px }`。感谢 Alexander-892 指出此问题！
+
+          浏览器为什么要从右向左匹配 CSS 选择器？请查看<a href="http://stackoverflow.com/questions/5797014/why-do-browsers-match-css-selectors-from-right-to-left" target="_blank">StackOverflow 上的热烈讨论</a>。
+        instruction:
+          video:
+            youtube_id: GSLTbV9D0vg
+            subtitles:
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d0fb06_which-styles-render-faster-website-performance-optimization/subtitles/lang_ja_vs1.srt'
+                language_code: ja
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d0fb06_which-styles-render-faster-website-performance-optimization/subtitles/lang_pt-br_vs13.srt'
+                language_code: pt-br
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d0fb06_which-styles-render-faster-website-performance-optimization/subtitles/lang_ar_vs1.srt'
+                language_code: ar
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d0fb06_which-styles-render-faster-website-performance-optimization/subtitles/lang_es-mx_vs2.srt'
+                language_code: es-mx
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d0fb06_which-styles-render-faster-website-performance-optimization/subtitles/lang_ko_vs6.srt'
+                language_code: ko
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d0fb06_which-styles-render-faster-website-performance-optimization/subtitles/lang_en_vs5.srt'
+                language_code: en
+            transcodings:
+              uri_480p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.1529098555/video_86498743eefc485985e99823b2d3ab5a_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.1529098555/video_86498743eefc485985e99823b2d3ab5a_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.1529098555/video_86498743eefc485985e99823b2d3ab5a_480p.ogg'
+              uri_720p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.1529098555/video_86498743eefc485985e99823b2d3ab5a_720p.mp4'
+              uri_hls: null
+          text: null
+        question:
+          title: 哪种样式渲染得更快？
+          background_image: '//lh5.ggpht.com/EsP_L6ZN6guv9t_XmPSPA9aREu7R0Hv4_QcxucGz2VAnAAEifu3h7vwiy6wEQP3envCL7lEKQuMl395pmCY=s0#w=1920&h=1080'
+          alt_text: Which style is faster to render?
+          semantic_type: ImageFormQuestion
+          evaluation_id: '1510348567'
+        answer:
+          text: null
+          video:
+            youtube_id: gkTy6G4FtMg
+            subtitles:
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d0f6e3_which-styles-render-faster-website-performance-optimization/subtitles/lang_ja_vs1.srt'
+                language_code: ja
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d0f6e3_which-styles-render-faster-website-performance-optimization/subtitles/lang_pt-br_vs17.srt'
+                language_code: pt-br
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d0f6e3_which-styles-render-faster-website-performance-optimization/subtitles/lang_ar_vs1.srt'
+                language_code: ar
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d0f6e3_which-styles-render-faster-website-performance-optimization/subtitles/lang_es-mx_vs4.srt'
+                language_code: es-mx
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d0f6e3_which-styles-render-faster-website-performance-optimization/subtitles/lang_ko_vs5.srt'
+                language_code: ko
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d0f6e3_which-styles-render-faster-website-performance-optimization/subtitles/lang_en_vs5.srt'
+                language_code: en
+            transcodings:
+              uri_480p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.1529098556/video_d2f1ac565aaa740591bfe4dab1cc7126_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.1529098556/video_d2f1ac565aaa740591bfe4dab1cc7126_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.1529098556/video_d2f1ac565aaa740591bfe4dab1cc7126_480p.ogg'
+              uri_720p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.1529098556/video_d2f1ac565aaa740591bfe4dab1cc7126_720p.mp4'
+              uri_hls: null
+  - id: 191599
+    key: '15290985570923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 在 DevTools 中重新计算 CSS 样式
+    semantic_type: Concept
+    updated_at: 'Tue Feb 28 2017 15:09:17 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 190498
+    atoms:
+      - id: 190498
+        key: '1529098557'
+        locale: zh-cn
+        version: 1.0.0
+        title: 在 DevTools 中重新计算 CSS 样式
+        semantic_type: VideoAtom
+        updated_at: 'Fri Apr 14 2017 18:17:37 GMT+0000 (UTC)'
+        is_public: true
+        tags: []
+        instructor_notes: '详细了解<a href="https://developer.chrome.com/devtools/docs/timeline#saving-and-loading-recordings" target="_blank">如何使用时间轴工具</a>'
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        video:
+          youtube_id: '-bPpSzPOuBA'
+          subtitles:
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d0691c_recalculating-css-styles-in-devtools-website-performance-optimization/subtitles/lang_ja_vs1.srt'
+              language_code: ja
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d0691c_recalculating-css-styles-in-devtools-website-performance-optimization/subtitles/lang_pt-br_vs15.srt'
+              language_code: pt-br
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d0691c_recalculating-css-styles-in-devtools-website-performance-optimization/subtitles/lang_ar_vs3.srt'
+              language_code: ar
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d0691c_recalculating-css-styles-in-devtools-website-performance-optimization/subtitles/lang_es-mx_vs4.srt'
+              language_code: es-mx
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d0691c_recalculating-css-styles-in-devtools-website-performance-optimization/subtitles/lang_ko_vs5.srt'
+              language_code: ko
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d0691c_recalculating-css-styles-in-devtools-website-performance-optimization/subtitles/lang_en_vs8.srt'
+              language_code: en
+          transcodings:
+            uri_480p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.1529098557/video_a9de81de2cc4ba35cb7bcacad59bbd8b_480p.mp4'
+            uri_480p_1000kbps_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.1529098557/video_a9de81de2cc4ba35cb7bcacad59bbd8b_480p_1000kbps.mp4'
+            uri_480p_ogg: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.1529098557/video_a9de81de2cc4ba35cb7bcacad59bbd8b_480p.ogg'
+            uri_720p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.1529098557/video_a9de81de2cc4ba35cb7bcacad59bbd8b_720p.mp4'
+            uri_hls: null
+  - id: 191600
+    key: '15290985580923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 渲染树
+    semantic_type: Concept
+    updated_at: 'Tue Feb 28 2017 15:09:58 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 190499
+    atoms:
+      - id: 190499
+        key: '1529098558'
+        locale: zh-cn
+        version: 1.0.0
+        title: 渲染树
+        semantic_type: VideoAtom
+        updated_at: 'Fri Apr 14 2017 18:17:36 GMT+0000 (UTC)'
+        is_public: true
+        tags: []
+        instructor_notes: |-
+          查看我们在此示例中使用的<a href="http://udacity-crp.herokuapp.com/cssom.html" target="_blank">演示页面</a>：将 HTML 与生成的渲染树以及你在屏幕上看到的内容进行比较。清楚明了，对吗？
+
+          你可以在 Google 的 Web Fundamentals 手册中详细了解<a href="https://developers.google.com/web/fundamentals/performance/critical-rendering-path/render-tree-construction" target="_blank">渲染树构建、布局及绘制</a>
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        video:
+          youtube_id: lvb06W_VKVE
+          subtitles:
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d161d0_the-render-tree-website-performance-optimization/subtitles/lang_ar_vs1.srt'
+              language_code: ar
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d161d0_the-render-tree-website-performance-optimization/subtitles/lang_ko_vs6.srt'
+              language_code: ko
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d161d0_the-render-tree-website-performance-optimization/subtitles/lang_ja_vs1.srt'
+              language_code: ja
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d161d0_the-render-tree-website-performance-optimization/subtitles/lang_en_vs5.srt'
+              language_code: en
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d161d0_the-render-tree-website-performance-optimization/subtitles/lang_es-mx_vs6.srt'
+              language_code: es-mx
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d161d0_the-render-tree-website-performance-optimization/subtitles/lang_pt-br_vs15.srt'
+              language_code: pt-br
+          transcodings:
+            uri_480p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.1529098558/video_a048d6b5a90aac5967c8c5134f3b0913_480p.mp4'
+            uri_480p_1000kbps_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.1529098558/video_a048d6b5a90aac5967c8c5134f3b0913_480p_1000kbps.mp4'
+            uri_480p_ogg: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.1529098558/video_a048d6b5a90aac5967c8c5134f3b0913_480p.ogg'
+            uri_720p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.1529098558/video_a048d6b5a90aac5967c8c5134f3b0913_720p.mp4'
+            uri_hls: null
+  - id: 191601
+    key: '15290985590923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 哪些屏幕元素可见？
+    semantic_type: Concept
+    updated_at: 'Fri Oct 28 2016 02:35:05 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 190500
+    atoms:
+      - id: 190500
+        key: '1529098559'
+        locale: zh-cn
+        version: 1.0.0
+        title: 哪些屏幕元素可见？
+        semantic_type: QuizAtom
+        updated_at: 'Fri Apr 14 2017 18:06:57 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: ''
+        instruction:
+          video:
+            youtube_id: xAUMgeJBj-c
+            subtitles:
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d1d029_which-screen-elements-are-visible-website-performance-optimization/subtitles/lang_ar_vs1.srt'
+                language_code: ar
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d1d029_which-screen-elements-are-visible-website-performance-optimization/subtitles/lang_ko_vs4.srt'
+                language_code: ko
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d1d029_which-screen-elements-are-visible-website-performance-optimization/subtitles/lang_ja_vs1.srt'
+                language_code: ja
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d1d029_which-screen-elements-are-visible-website-performance-optimization/subtitles/lang_pt-br_vs10.srt'
+                language_code: pt-br
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d1d029_which-screen-elements-are-visible-website-performance-optimization/subtitles/lang_es-mx_vs2.srt'
+                language_code: es-mx
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d1d029_which-screen-elements-are-visible-website-performance-optimization/subtitles/lang_en_vs5.srt'
+                language_code: en
+            transcodings:
+              uri_480p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.1529098560/video_c928915cf109db9e3bd4b9658ad9120d_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.1529098560/video_c928915cf109db9e3bd4b9658ad9120d_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.1529098560/video_c928915cf109db9e3bd4b9658ad9120d_480p.ogg'
+              uri_720p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.1529098560/video_c928915cf109db9e3bd4b9658ad9120d_720p.mp4'
+              uri_hls: null
+          text: null
+        question:
+          title: 哪些屏幕元素可见？
+          background_image: '//lh6.ggpht.com/vQTLLEON1jDe8xtUgnfqPgR05PJxZHpar7kqaBN3raE728nVGAAIfwwG93f8R1TTjySEklCoEePY0JkWiTk7=s0#w=1920&h=1080'
+          alt_text: Render Tree Text
+          semantic_type: ImageFormQuestion
+          evaluation_id: '1547838541'
+        answer:
+          text: null
+          video:
+            youtube_id: CKEFdlxHhAs
+            subtitles:
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d0abd5_which-screen-elements-are-visible-website-performance-optimization/subtitles/lang_ja_vs1.srt'
+                language_code: ja
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d0abd5_which-screen-elements-are-visible-website-performance-optimization/subtitles/lang_pt-br_vs20.srt'
+                language_code: pt-br
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d0abd5_which-screen-elements-are-visible-website-performance-optimization/subtitles/lang_ar_vs1.srt'
+                language_code: ar
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d0abd5_which-screen-elements-are-visible-website-performance-optimization/subtitles/lang_es-mx_vs4.srt'
+                language_code: es-mx
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d0abd5_which-screen-elements-are-visible-website-performance-optimization/subtitles/lang_ko_vs4.srt'
+                language_code: ko
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d0abd5_which-screen-elements-are-visible-website-performance-optimization/subtitles/lang_en_vs5.srt'
+                language_code: en
+            transcodings:
+              uri_480p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.1529098561/video_cb20813044a8403db972d94d342b1f71_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.1529098561/video_cb20813044a8403db972d94d342b1f71_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.1529098561/video_cb20813044a8403db972d94d342b1f71_480p.ogg'
+              uri_720p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.1529098561/video_cb20813044a8403db972d94d342b1f71_720p.mp4'
+              uri_hls: null
+  - id: 191602
+    key: '15290985620923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 布局
+    semantic_type: Concept
+    updated_at: 'Fri Oct 28 2016 02:35:05 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 190501
+    atoms:
+      - id: 190501
+        key: '1529098562'
+        locale: zh-cn
+        version: 1.0.0
+        title: 布局
+        semantic_type: VideoAtom
+        updated_at: 'Fri Apr 14 2017 18:17:37 GMT+0000 (UTC)'
+        is_public: true
+        tags: []
+        instructor_notes: |-
+          <ul>
+          <li>详细了解<a href="https://developers.google.com/web/fundamentals/performance/critical-rendering-path/render-tree-construction" target="_blank">渲染树的结构、布局和绘制</a>
+          <li>详细了解<a href="https://developers.google.com/web/fundamentals/layouts/rwd-fundamentals/" target="_blank">响应式 Web 设计的布局窗口和基础知识</a>
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        video:
+          youtube_id: mFiyWrwyV9s
+          subtitles:
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d16c50_layout-website-performance-optimization/subtitles/lang_es-mx_vs3.srt'
+              language_code: es-mx
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d16c50_layout-website-performance-optimization/subtitles/lang_en_vs5.srt'
+              language_code: en
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d16c50_layout-website-performance-optimization/subtitles/lang_ja_vs1.srt'
+              language_code: ja
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d16c50_layout-website-performance-optimization/subtitles/lang_pt-br_vs14.srt'
+              language_code: pt-br
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d16c50_layout-website-performance-optimization/subtitles/lang_ko_vs6.srt'
+              language_code: ko
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d16c50_layout-website-performance-optimization/subtitles/lang_ar_vs1.srt'
+              language_code: ar
+          transcodings:
+            uri_480p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.1529098562/video_64068d7fdd29767e1ba4e25e14e39249_480p.mp4'
+            uri_480p_1000kbps_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.1529098562/video_64068d7fdd29767e1ba4e25e14e39249_480p_1000kbps.mp4'
+            uri_480p_ogg: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.1529098562/video_64068d7fdd29767e1ba4e25e14e39249_480p.ogg'
+            uri_720p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.1529098562/video_64068d7fdd29767e1ba4e25e14e39249_720p.mp4'
+            uri_hls: null
+  - id: 191603
+    key: '15290985630923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 计算布局
+    semantic_type: Concept
+    updated_at: 'Fri Oct 28 2016 02:35:06 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 190502
+    atoms:
+      - id: 190502
+        key: '1529098563'
+        locale: zh-cn
+        version: 1.0.0
+        title: 计算布局
+        semantic_type: QuizAtom
+        updated_at: 'Fri Apr 14 2017 18:06:58 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: '**Cameron：** 优达学城的学生 Aliaksei 和 everdimension 已经提醒我注意，`<em>` 和 `<span>` 实际上是 `inline` 元素。除非它们转换为 `display: block` 或 `display: inline-block`，否则它们的宽度将由其包含的文本确定。'
+        instruction:
+          video:
+            youtube_id: ReQ1m0n3Kmc
+            subtitles:
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d1d964_can-you-run-layout-website-performance-optimization/subtitles/lang_es-mx_vs3.srt'
+                language_code: es-mx
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d1d964_can-you-run-layout-website-performance-optimization/subtitles/lang_ar_vs1.srt'
+                language_code: ar
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d1d964_can-you-run-layout-website-performance-optimization/subtitles/lang_pt-br_vs16.srt'
+                language_code: pt-br
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d1d964_can-you-run-layout-website-performance-optimization/subtitles/lang_en_vs5.srt'
+                language_code: en
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d1d964_can-you-run-layout-website-performance-optimization/subtitles/lang_ko_vs3.srt'
+                language_code: ko
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d1d964_can-you-run-layout-website-performance-optimization/subtitles/lang_ja_vs1.srt'
+                language_code: ja
+            transcodings:
+              uri_480p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.1529098564/video_28402239080849c88e359079a64da7e4_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.1529098564/video_28402239080849c88e359079a64da7e4_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.1529098564/video_28402239080849c88e359079a64da7e4_480p.ogg'
+              uri_720p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.1529098564/video_28402239080849c88e359079a64da7e4_720p.mp4'
+              uri_hls: null
+          text: null
+        question:
+          title: 你可以运行布局吗？
+          background_image: '//lh5.ggpht.com/asRzWn1CV7QAwvJfAAnI5TmCgMmGA22VizVSaHCLJpO1pTetFsYnQ4QApqycgMJ3k4ieb6FDogXsMhYklqYc=s0#w=1280&h=717'
+          alt_text: Calculate Layout
+          semantic_type: ImageFormQuestion
+          evaluation_id: '1572028556'
+        answer:
+          text: null
+          video:
+            youtube_id: A_9mC12yJUU
+            subtitles:
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d09f38_can-you-run-layout-website-performance-optimization/subtitles/lang_ja_vs1.srt'
+                language_code: ja
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d09f38_can-you-run-layout-website-performance-optimization/subtitles/lang_pt-br_vs10.srt'
+                language_code: pt-br
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d09f38_can-you-run-layout-website-performance-optimization/subtitles/lang_ar_vs1.srt'
+                language_code: ar
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d09f38_can-you-run-layout-website-performance-optimization/subtitles/lang_es-mx_vs2.srt'
+                language_code: es-mx
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d09f38_can-you-run-layout-website-performance-optimization/subtitles/lang_ko_vs5.srt'
+                language_code: ko
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d09f38_can-you-run-layout-website-performance-optimization/subtitles/lang_en_vs5.srt'
+                language_code: en
+            transcodings:
+              uri_480p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.1529098565/video_f43c02b972b49bd0f47de408eaac8cc7_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.1529098565/video_f43c02b972b49bd0f47de408eaac8cc7_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.1529098565/video_f43c02b972b49bd0f47de408eaac8cc7_480p.ogg'
+              uri_720p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.1529098565/video_f43c02b972b49bd0f47de408eaac8cc7_720p.mp4'
+              uri_hls: null
+  - id: 191604
+    key: '15290985660923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 在 DevTools 中分析布局
+    semantic_type: Concept
+    updated_at: 'Fri Oct 28 2016 02:35:07 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 190503
+    atoms:
+      - id: 190503
+        key: '1529098566'
+        locale: zh-cn
+        version: 1.0.0
+        title: 在 DevTools 中分析布局
+        semantic_type: VideoAtom
+        updated_at: 'Fri Apr 14 2017 18:20:44 GMT+0000 (UTC)'
+        is_public: true
+        tags: []
+        instructor_notes: |-
+          如果你对查看其布局感兴趣，这里是 Ilya 和 Cameron 使用的<a href="http://udacity-crp.herokuapp.com/cssom.html" target="_blank">示例页面</a>。
+
+          *注意：布局可能会被以下操作触发：手机上的设备方向更改、窗口大小调节或会修改 DOM 内容的任何其他操作 - 例如，向 DOM 树添加内容或从中移除内容、在节点上切换 CSSOM 属性等等！*
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        video:
+          youtube_id: TzMr38lFzf4
+          subtitles:
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d272e3_analyzing-layout-in-devtools-website-performance-optimization/subtitles/lang_ar_vs1.srt'
+              language_code: ar
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d272e3_analyzing-layout-in-devtools-website-performance-optimization/subtitles/lang_es-mx_vs5.srt'
+              language_code: es-mx
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d272e3_analyzing-layout-in-devtools-website-performance-optimization/subtitles/lang_pt-br_vs19.srt'
+              language_code: pt-br
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d272e3_analyzing-layout-in-devtools-website-performance-optimization/subtitles/lang_ko_vs7.srt'
+              language_code: ko
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d272e3_analyzing-layout-in-devtools-website-performance-optimization/subtitles/lang_ja_vs1.srt'
+              language_code: ja
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d272e3_analyzing-layout-in-devtools-website-performance-optimization/subtitles/lang_en_vs5.srt'
+              language_code: en
+          transcodings:
+            uri_480p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.1529098566/video_38e375e9b13c483eac0e4bf3c17c1366_480p.mp4'
+            uri_480p_1000kbps_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.1529098566/video_38e375e9b13c483eac0e4bf3c17c1366_480p_1000kbps.mp4'
+            uri_480p_ogg: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.1529098566/video_38e375e9b13c483eac0e4bf3c17c1366_480p.ogg'
+            uri_720p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.1529098566/video_38e375e9b13c483eac0e4bf3c17c1366_720p.mp4'
+            uri_hls: null
+  - id: 191609
+    key: '15290985670923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 查找昂贵布局的示例
+    semantic_type: Concept
+    updated_at: 'Tue Feb 28 2017 15:12:26 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 190507
+    atoms:
+      - id: 190507
+        key: '1529098567'
+        locale: zh-cn
+        version: 1.0.0
+        title: 查找昂贵布局的示例
+        semantic_type: QuizAtom
+        updated_at: 'Fri Apr 14 2017 18:06:58 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |-
+          如果你想按照说明操作，Cameron 将会在解决方案视频中分析 <a href="http://www.nbcnews.com" target="_blank">NBC 新闻</a>。他将在调整浏览器窗口大小时分析布局事件的性能。
+
+          注意：布局可能会被以下操作触发：手机上的设备方向更改、窗口大小调节或会修改 DOM 内容的任何其他操作 - 例如，向 DOM 树添加内容或从中移除内容、在节点上切换 CSSOM 属性等等！
+
+          *此外，NBC 新闻很有可能在本视频拍摄后发生更改。你看到的某些内容可能会与 Cameron 看到的不同。*
+
+          <ul>
+          <li>在 Windows 上使用 **Ctrl+Shift+I** 或者在 Mac 上使用 **Cmd+Opt+I** 以打开 DevTools。
+          <li>在 Windows 上使用 **Ctrl+Shift+R** 或者在 Mac 上使用 **Cmd+Shift+R** 来重新加载页面并捕捉时间线。
+          </ul>
+          要使用硬重新加载技巧来捕捉完整踪迹，你需要先加载页面，在 DevTools 中打开时间线，开始和停止录制，然后使用上述快捷方式重新加载页面。基本上，打开 DevTools 并点击录制按钮两次，然后再执行硬重新加载。
+
+          请查看 <a href="https://developer.chrome.com/devtools/docs/mobile-emulation" target="_blank">DevTools 模拟文档</a>，详细了解如何模拟移动设备。
+        instruction:
+          video:
+            youtube_id: 9IDaac2O3KA
+            subtitles:
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d09955_finding-examples-of-expensive-layouts-website-performance-optimization/subtitles/lang_ja_vs1.srt'
+                language_code: ja
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d09955_finding-examples-of-expensive-layouts-website-performance-optimization/subtitles/lang_pt-br_vs14.srt'
+                language_code: pt-br
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d09955_finding-examples-of-expensive-layouts-website-performance-optimization/subtitles/lang_ar_vs1.srt'
+                language_code: ar
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d09955_finding-examples-of-expensive-layouts-website-performance-optimization/subtitles/lang_es-mx_vs6.srt'
+                language_code: es-mx
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d09955_finding-examples-of-expensive-layouts-website-performance-optimization/subtitles/lang_ko_vs4.srt'
+                language_code: ko
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d09955_finding-examples-of-expensive-layouts-website-performance-optimization/subtitles/lang_en_vs5.srt'
+                language_code: en
+            transcodings:
+              uri_480p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.1529098568/video_4a842a60dcb597f3dcf2e6e8db4a8b07_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.1529098568/video_4a842a60dcb597f3dcf2e6e8db4a8b07_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.1529098568/video_4a842a60dcb597f3dcf2e6e8db4a8b07_480p.ogg'
+              uri_720p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.1529098568/video_4a842a60dcb597f3dcf2e6e8db4a8b07_720p.mp4'
+              uri_hls: null
+          text: null
+        question:
+          title: 查找昂贵布局的示例
+          background_image: '//lh4.ggpht.com/WQdG2ACMXccxjUu_QlINfILbjxGYcvIsLuPmOKxOw9ESiotQZbJhh0YiEr1KTcUfx8Yaiwt_PSiqOb7QNfA=s0#w=960&h=540'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '1562128578'
+        answer:
+          text: null
+          video:
+            youtube_id: AnWkC_WR9Iw
+            subtitles:
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d0a02a_cameron-analyzes-nbc-news-layout-website-performance-optimization/subtitles/lang_ja_vs1.srt'
+                language_code: ja
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d0a02a_cameron-analyzes-nbc-news-layout-website-performance-optimization/subtitles/lang_pt-br_vs14.srt'
+                language_code: pt-br
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d0a02a_cameron-analyzes-nbc-news-layout-website-performance-optimization/subtitles/lang_ar_vs1.srt'
+                language_code: ar
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d0a02a_cameron-analyzes-nbc-news-layout-website-performance-optimization/subtitles/lang_es-mx_vs3.srt'
+                language_code: es-mx
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d0a02a_cameron-analyzes-nbc-news-layout-website-performance-optimization/subtitles/lang_ko_vs6.srt'
+                language_code: ko
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d0a02a_cameron-analyzes-nbc-news-layout-website-performance-optimization/subtitles/lang_en_vs5.srt'
+                language_code: en
+            transcodings:
+              uri_480p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.1557878637/video_d003cc47e955baedb0117e07944f4cc8_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.1557878637/video_d003cc47e955baedb0117e07944f4cc8_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.1557878637/video_d003cc47e955baedb0117e07944f4cc8_480p.ogg'
+              uri_720p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.1557878637/video_d003cc47e955baedb0117e07944f4cc8_720p.mp4'
+              uri_hls: null
+  - id: 191605
+    key: '15290985690923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 是时候绘制页面了！
+    semantic_type: Concept
+    updated_at: 'Tue Feb 28 2017 15:12:55 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 190504
+    atoms:
+      - id: 190504
+        key: '1529098569'
+        locale: zh-cn
+        version: 1.0.0
+        title: 是时候绘制页面了！
+        semantic_type: QuizAtom
+        updated_at: 'Fri Apr 14 2017 18:06:57 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: '详细了解<a href="https://developers.google.com/web/fundamentals/performance/critical-rendering-path/render-tree-construction" target="_blank">渲染树的结构、布局和绘制</a>'
+        instruction:
+          video:
+            youtube_id: tEKq_tMJ8oY
+            subtitles:
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d26694_time-to-paint-the-page-website-performance-optimization/subtitles/lang_en_vs5.srt'
+                language_code: en
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d26694_time-to-paint-the-page-website-performance-optimization/subtitles/lang_ja_vs1.srt'
+                language_code: ja
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d26694_time-to-paint-the-page-website-performance-optimization/subtitles/lang_ko_vs4.srt'
+                language_code: ko
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d26694_time-to-paint-the-page-website-performance-optimization/subtitles/lang_ar_vs1.srt'
+                language_code: ar
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d26694_time-to-paint-the-page-website-performance-optimization/subtitles/lang_es-mx_vs2.srt'
+                language_code: es-mx
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d26694_time-to-paint-the-page-website-performance-optimization/subtitles/lang_pt-br_vs13.srt'
+                language_code: pt-br
+            transcodings:
+              uri_480p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.1529098570/video_f57ad468eda5bbb1ca85bae4c089e1d9_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.1529098570/video_f57ad468eda5bbb1ca85bae4c089e1d9_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.1529098570/video_f57ad468eda5bbb1ca85bae4c089e1d9_480p.ogg'
+              uri_720p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.1529098570/video_f57ad468eda5bbb1ca85bae4c089e1d9_720p.mp4'
+              uri_hls: null
+          text: null
+        question:
+          title: 哪种绘制更快？
+          background_image: '//lh3.ggpht.com/WPys2luNuu-S_erQA1_xYqE-FnHuCT9-pmAN3A9F5bGR5nwZMSOaPeYAcMKtI6kzNOji7O2gVwZpbtgRBfE=s0#w=1280&h=717'
+          alt_text: ''
+          semantic_type: ImageFormQuestion
+          evaluation_id: '1550088630'
+        answer:
+          text: null
+          video:
+            youtube_id: xe5zR1nYZag
+            subtitles:
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d1d1fe_which-is-a-faster-paint-website-performance-optimization/subtitles/lang_ja_vs1.srt'
+                language_code: ja
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d1d1fe_which-is-a-faster-paint-website-performance-optimization/subtitles/lang_ko_vs6.srt'
+                language_code: ko
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d1d1fe_which-is-a-faster-paint-website-performance-optimization/subtitles/lang_pt-br_vs15.srt'
+                language_code: pt-br
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d1d1fe_which-is-a-faster-paint-website-performance-optimization/subtitles/lang_en_vs5.srt'
+                language_code: en
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d1d1fe_which-is-a-faster-paint-website-performance-optimization/subtitles/lang_ar_vs1.srt'
+                language_code: ar
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d1d1fe_which-is-a-faster-paint-website-performance-optimization/subtitles/lang_es-mx_vs5.srt'
+                language_code: es-mx
+            transcodings:
+              uri_480p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.1529098571/video_add499716ac6cd69b0e909fa8ecb3a7f_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.1529098571/video_add499716ac6cd69b0e909fa8ecb3a7f_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.1529098571/video_add499716ac6cd69b0e909fa8ecb3a7f_480p.ogg'
+              uri_720p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.1529098571/video_add499716ac6cd69b0e909fa8ecb3a7f_720p.mp4'
+              uri_hls: null
+  - id: 191606
+    key: '15908885590923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 在 DevTools 中分析绘制
+    semantic_type: Concept
+    updated_at: 'Fri Oct 28 2016 02:35:09 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 190505
+    atoms:
+      - id: 190505
+        key: '1590888559'
+        locale: zh-cn
+        version: 1.0.0
+        title: 在 DevTools 中分析绘制
+        semantic_type: VideoAtom
+        updated_at: 'Fri Apr 14 2017 18:21:19 GMT+0000 (UTC)'
+        is_public: true
+        tags: []
+        instructor_notes: |-
+          跟着 Ilya 一起，尝试记录你自己的踪迹！这里是<a href="http://mobile.nytimes.com" target="_blank">纽约时报移动站点</a>的链接。
+
+          Cameron 说：纽约时报移动站点很有可能在本课程发布后发生更改。你看到的某些内容可能会与 Ilya 在本视频中看到的不同。
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        video:
+          youtube_id: lY9uEa2GNB0
+          subtitles:
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d163c5_analyzing-paint-in-devtools-website-performance-optimization/subtitles/lang_pt-br_vs14.srt'
+              language_code: pt-br
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d163c5_analyzing-paint-in-devtools-website-performance-optimization/subtitles/lang_ar_vs1.srt'
+              language_code: ar
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d163c5_analyzing-paint-in-devtools-website-performance-optimization/subtitles/lang_en_vs5.srt'
+              language_code: en
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d163c5_analyzing-paint-in-devtools-website-performance-optimization/subtitles/lang_ja_vs1.srt'
+              language_code: ja
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d163c5_analyzing-paint-in-devtools-website-performance-optimization/subtitles/lang_ko_vs6.srt'
+              language_code: ko
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d163c5_analyzing-paint-in-devtools-website-performance-optimization/subtitles/lang_es-mx_vs3.srt'
+              language_code: es-mx
+          transcodings:
+            uri_480p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.1590888559/video_8fd27dfe8cd5952c00ab049c67cf3fe5_480p.mp4'
+            uri_480p_1000kbps_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.1590888559/video_8fd27dfe8cd5952c00ab049c67cf3fe5_480p_1000kbps.mp4'
+            uri_480p_ogg: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.1590888559/video_8fd27dfe8cd5952c00ab049c67cf3fe5_480p.ogg'
+            uri_720p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.1590888559/video_8fd27dfe8cd5952c00ab049c67cf3fe5_720p.mp4'
+            uri_hls: null
+  - id: 191607
+    key: '15562486280923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 概括关键渲染路径
+    semantic_type: Concept
+    updated_at: 'Fri Oct 28 2016 02:35:09 GMT+0000 (UTC)'
+    is_public: false
+    resources: null
+    _atoms_ids:
+      - 190506
+    atoms:
+      - id: 190506
+        key: '1556248628'
+        locale: zh-cn
+        version: 1.0.0
+        title: 概括关键渲染路径
+        semantic_type: QuizAtom
+        updated_at: 'Fri Apr 14 2017 18:06:57 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: ''
+        instruction:
+          video:
+            youtube_id: 92ORLfak58g
+            subtitles:
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d09893_can-you-summarize-the-crp-website-performance-optimization/subtitles/lang_es-mx_vs8.srt'
+                language_code: es-mx
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d09893_can-you-summarize-the-crp-website-performance-optimization/subtitles/lang_ko_vs4.srt'
+                language_code: ko
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d09893_can-you-summarize-the-crp-website-performance-optimization/subtitles/lang_en_vs5.srt'
+                language_code: en
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d09893_can-you-summarize-the-crp-website-performance-optimization/subtitles/lang_pt-br_vs4.srt'
+                language_code: pt-br
+            transcodings:
+              uri_480p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.1590888561/video_acc34602ec951cc3f962bd7ee1d3d683_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.1590888561/video_acc34602ec951cc3f962bd7ee1d3d683_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.1590888561/video_acc34602ec951cc3f962bd7ee1d3d683_480p.ogg'
+              uri_720p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.1590888561/video_acc34602ec951cc3f962bd7ee1d3d683_720p.mp4'
+              uri_hls: null
+          text: null
+        question:
+          title: 你可以概括关键渲染路径吗？
+          background_image: '//lh4.ggpht.com/m2LjbTRXW2psKVCIa1INDKZgvBHWef0CnYWZUDI_pnNBdrbb9T6mhqpun6yDa7_oa167BpPp6xEc0iBa3Zs=s0#w=960&h=540'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '1570348641'
+        answer:
+          text: null
+          video:
+            youtube_id: AVmqV9EH3ko
+            subtitles:
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d0a27e_cameron-summarizes-the-crp-website-performance-optimization/subtitles/lang_es-mx_vs2.srt'
+                language_code: es-mx
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d0a27e_cameron-summarizes-the-crp-website-performance-optimization/subtitles/lang_ko_vs5.srt'
+                language_code: ko
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d0a27e_cameron-summarizes-the-crp-website-performance-optimization/subtitles/lang_en_vs5.srt'
+                language_code: en
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d0a27e_cameron-summarizes-the-crp-website-performance-optimization/subtitles/lang_pt-br_vs4.srt'
+                language_code: pt-br
+            transcodings:
+              uri_480p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.1590888562/video_61e466d889eee88290e3d6a07ec44043_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.1590888562/video_61e466d889eee88290e3d6a07ec44043_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.1590888562/video_61e466d889eee88290e3d6a07ec44043_480p.ogg'
+              uri_720p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.1590888562/video_61e466d889eee88290e3d6a07ec44043_720p.mp4'
+              uri_hls: null
+  - id: 191612
+    key: '23732285930923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 渲染页面的步骤
+    semantic_type: Concept
+    updated_at: 'Fri Oct 28 2016 02:35:10 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 190511
+    atoms:
+      - id: 190511
+        key: '2373228593'
+        locale: zh-cn
+        version: 1.0.0
+        title: 渲染页面的步骤
+        semantic_type: QuizAtom
+        updated_at: 'Fri Apr 14 2017 18:06:57 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: ''
+        instruction:
+          video:
+            youtube_id: '-iH8pfLSCwE'
+            subtitles:
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d0698a_summarize-the-crp-website-performance-optimization/subtitles/lang_ja_vs1.srt'
+                language_code: ja
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d0698a_summarize-the-crp-website-performance-optimization/subtitles/lang_pt-br_vs15.srt'
+                language_code: pt-br
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d0698a_summarize-the-crp-website-performance-optimization/subtitles/lang_ar_vs3.srt'
+                language_code: ar
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d0698a_summarize-the-crp-website-performance-optimization/subtitles/lang_es-mx_vs3.srt'
+                language_code: es-mx
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d0698a_summarize-the-crp-website-performance-optimization/subtitles/lang_ko_vs4.srt'
+                language_code: ko
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d0698a_summarize-the-crp-website-performance-optimization/subtitles/lang_en_vs7.srt'
+                language_code: en
+            transcodings:
+              uri_480p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.2460728536/video_3fe6604de86c9e36fc7a8824d0b3e7f6_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.2460728536/video_3fe6604de86c9e36fc7a8824d0b3e7f6_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.2460728536/video_3fe6604de86c9e36fc7a8824d0b3e7f6_480p.ogg'
+              uri_720p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.2460728536/video_3fe6604de86c9e36fc7a8824d0b3e7f6_720p.mp4'
+              uri_hls: null
+          text: null
+        question:
+          title: 概括关键渲染路径 - 练习
+          background_image: '//lh4.ggpht.com/lEBumW78KPr3SrBQQ7dMWh7iX1WQBNYfHSRIjHlCyjTexlOnqJEE7ixhX5fC18u4uY9PTXm8BPWWkG34Ug=s0#w=1881&h=1058'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '2451008538'
+        answer:
+          text: null
+          video:
+            youtube_id: YWjJHdGphOE
+            subtitles:
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d1ce2c_summarize-the-crp-solution-website-performance-optimization/subtitles/lang_ja_vs1.srt'
+                language_code: ja
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d1ce2c_summarize-the-crp-solution-website-performance-optimization/subtitles/lang_ko_vs5.srt'
+                language_code: ko
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d1ce2c_summarize-the-crp-solution-website-performance-optimization/subtitles/lang_ar_vs1.srt'
+                language_code: ar
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d1ce2c_summarize-the-crp-solution-website-performance-optimization/subtitles/lang_pt-br_vs14.srt'
+                language_code: pt-br
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d1ce2c_summarize-the-crp-solution-website-performance-optimization/subtitles/lang_es-mx_vs4.srt'
+                language_code: es-mx
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d1ce2c_summarize-the-crp-solution-website-performance-optimization/subtitles/lang_en_vs4.srt'
+                language_code: en
+            transcodings:
+              uri_480p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.2384188709/video_9baa3d2b496f41b8cc4758665bde41c3_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.2384188709/video_9baa3d2b496f41b8cc4758665bde41c3_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.2384188709/video_9baa3d2b496f41b8cc4758665bde41c3_480p.ogg'
+              uri_720p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.2384188709/video_9baa3d2b496f41b8cc4758665bde41c3_720p.mp4'
+              uri_hls: null
+  - id: 191608
+    key: '15908885630923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 在 DevTools 中分析整个 CRP
+    semantic_type: Concept
+    updated_at: 'Tue Feb 28 2017 15:14:18 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 190508
+    atoms:
+      - id: 190508
+        key: '1590888563'
+        locale: zh-cn
+        version: 1.0.0
+        title: 在 DevTools 中分析整个 CRP
+        semantic_type: VideoAtom
+        updated_at: 'Fri Apr 14 2017 18:20:44 GMT+0000 (UTC)'
+        is_public: true
+        tags: []
+        instructor_notes: '这里是 Ilya 使用的<a href="http://udacity-crp.herokuapp.com/cssom-inline.html" target="_blank">示例页面</a>的链接。要获得奖励，请查看 Google Web Fundamentals 手册中的<a href="https://developers.google.com/web/fundamentals/performance/critical-rendering-path/" target="_blank">关键渲染路径内容</a>。'
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        video:
+          youtube_id: rudzzPkViiY
+          subtitles:
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d1e19d_analyzing-the-entire-crp-in-devtools-website-performance-optimization/subtitles/lang_pt-br_vs13.srt'
+              language_code: pt-br
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d1e19d_analyzing-the-entire-crp-in-devtools-website-performance-optimization/subtitles/lang_es-mx_vs6.srt'
+              language_code: es-mx
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d1e19d_analyzing-the-entire-crp-in-devtools-website-performance-optimization/subtitles/lang_en_vs5.srt'
+              language_code: en
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d1e19d_analyzing-the-entire-crp-in-devtools-website-performance-optimization/subtitles/lang_ja_vs1.srt'
+              language_code: ja
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d1e19d_analyzing-the-entire-crp-in-devtools-website-performance-optimization/subtitles/lang_ko_vs8.srt'
+              language_code: ko
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d1e19d_analyzing-the-entire-crp-in-devtools-website-performance-optimization/subtitles/lang_ar_vs1.srt'
+              language_code: ar
+          transcodings:
+            uri_480p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.1590888563/video_921c471f52ba588714c0ea076d00a2ed_480p.mp4'
+            uri_480p_1000kbps_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.1590888563/video_921c471f52ba588714c0ea076d00a2ed_480p_1000kbps.mp4'
+            uri_480p_ogg: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.1590888563/video_921c471f52ba588714c0ea076d00a2ed_480p.ogg'
+            uri_720p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.1590888563/video_921c471f52ba588714c0ea076d00a2ed_720p.mp4'
+            uri_hls: null
+  - id: 191611
+    key: '16127785370923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 练习优化 CRP
+    semantic_type: Concept
+    updated_at: 'Tue Feb 28 2017 15:15:50 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 190509
+    atoms:
+      - id: 190509
+        key: '1612778537'
+        locale: zh-cn
+        version: 1.0.0
+        title: 练习优化 CRP
+        semantic_type: QuizAtom
+        updated_at: 'Fri Apr 14 2017 18:05:10 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |-
+          Cameron 将在回答视频中分析 <a href="http://www.netflix.com" target="_blank">Netflix</a>。
+
+          Cameron 说：Netflix 很有可能会在本视频录制后发生更改。你查看后可能会发现某些操作与我的操作不同。
+
+          <ul>
+          <li>详细了解 <a href="https://developers.google.com/speed/pagespeed/service/MinifyCSS" target="_blank">CSS 压缩</a>
+          <li>详细了解 <a href="https://developers.google.com/speed/pagespeed/service/PrioritizeCriticalCss" target="_blank">内联和优化“关键 CSS”</a>
+          </ul>
+        instruction:
+          video:
+            youtube_id: WnWk56CYINI
+            subtitles:
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d2992b_practice-optimizing-the-crp-website-performance-optimization/subtitles/lang_ja_vs1.srt'
+                language_code: ja
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d2992b_practice-optimizing-the-crp-website-performance-optimization/subtitles/lang_pt-br_vs14.srt'
+                language_code: pt-br
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d2992b_practice-optimizing-the-crp-website-performance-optimization/subtitles/lang_es-mx_vs5.srt'
+                language_code: es-mx
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d2992b_practice-optimizing-the-crp-website-performance-optimization/subtitles/lang_en_vs5.srt'
+                language_code: en
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d2992b_practice-optimizing-the-crp-website-performance-optimization/subtitles/lang_ko_vs5.srt'
+                language_code: ko
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d2992b_practice-optimizing-the-crp-website-performance-optimization/subtitles/lang_ar_vs1.srt'
+                language_code: ar
+            transcodings:
+              uri_480p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.1590888564/video_9f6562d861b9a17afd1b577a754bd3c2_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.1590888564/video_9f6562d861b9a17afd1b577a754bd3c2_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.1590888564/video_9f6562d861b9a17afd1b577a754bd3c2_480p.ogg'
+              uri_720p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.1590888564/video_9f6562d861b9a17afd1b577a754bd3c2_720p.mp4'
+              uri_hls: null
+          text: null
+        question:
+          title: 你能优化 CRP 吗？
+          background_image: '//lh5.ggpht.com/BTJbLk8duBZbMQzUeEvi7O-3YB0Be-Xxz6Djw7KW2P-JJf5OCGS0ydf8gUT0iCCoH6kMxsh3ZSX62VJQpMc=s0#w=960&h=540'
+          alt_text: ''
+          semantic_type: ImageFormQuestion
+          evaluation_id: '1567088625'
+        answer:
+          text: null
+          video:
+            youtube_id: XXegKcbVs-w
+            subtitles:
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d1d6cf_camerons-netflix-optimizations-website-performance-optimization/subtitles/lang_ko_vs4.srt'
+                language_code: ko
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d1d6cf_camerons-netflix-optimizations-website-performance-optimization/subtitles/lang_ar_vs1.srt'
+                language_code: ar
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d1d6cf_camerons-netflix-optimizations-website-performance-optimization/subtitles/lang_en_vs5.srt'
+                language_code: en
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d1d6cf_camerons-netflix-optimizations-website-performance-optimization/subtitles/lang_pt-br_vs12.srt'
+                language_code: pt-br
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d1d6cf_camerons-netflix-optimizations-website-performance-optimization/subtitles/lang_es-mx_vs3.srt'
+                language_code: es-mx
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d1d6cf_camerons-netflix-optimizations-website-performance-optimization/subtitles/lang_ja_vs1.srt'
+                language_code: ja
+            transcodings:
+              uri_480p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.1590888565/video_c2e1120c7c076a3b7f9c3611835f4d57_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.1590888565/video_c2e1120c7c076a3b7f9c3611835f4d57_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.1590888565/video_c2e1120c7c076a3b7f9c3611835f4d57_480p.ogg'
+              uri_720p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.1590888565/video_c2e1120c7c076a3b7f9c3611835f4d57_720p.mp4'
+              uri_hls: null
+  - id: 191610
+    key: '15290985750923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 总结
+    semantic_type: Concept
+    updated_at: 'Fri Oct 28 2016 02:35:12 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 190510
+    atoms:
+      - id: 190510
+        key: '1529098575'
+        locale: zh-cn
+        version: 1.0.0
+        title: 总结
+        semantic_type: VideoAtom
+        updated_at: 'Fri Apr 14 2017 18:21:19 GMT+0000 (UTC)'
+        is_public: true
+        tags: []
+        instructor_notes: ''
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        video:
+          youtube_id: uI_dt7VNvLc
+          subtitles:
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57cfae11_crp-wrap-up-website-performance-optimization/subtitles/lang_es-mx_vs2.srt'
+              language_code: es-mx
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57cfae11_crp-wrap-up-website-performance-optimization/subtitles/lang_ar_vs1.srt'
+              language_code: ar
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57cfae11_crp-wrap-up-website-performance-optimization/subtitles/lang_pt-br_vs14.srt'
+              language_code: pt-br
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57cfae11_crp-wrap-up-website-performance-optimization/subtitles/lang_ko_vs4.srt'
+              language_code: ko
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57cfae11_crp-wrap-up-website-performance-optimization/subtitles/lang_ja_vs1.srt'
+              language_code: ja
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57cfae11_crp-wrap-up-website-performance-optimization/subtitles/lang_en_vs5.srt'
+              language_code: en
+          transcodings:
+            uri_480p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.1529098575/video_7903f9163de91bc7992208db5b456f3a_480p.mp4'
+            uri_480p_1000kbps_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.1529098575/video_7903f9163de91bc7992208db5b456f3a_480p_1000kbps.mp4'
+            uri_480p_ogg: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.1529098575/video_7903f9163de91bc7992208db5b456f3a_480p.ogg'
+            uri_720p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.1529098575/video_7903f9163de91bc7992208db5b456f3a_720p.mp4'
+            uri_hls: null
+  - id: 149496
+    key: '19263086652589030923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 调查能说明一切！
+    semantic_type: Concept
+    updated_at: 'Sat Nov 05 2016 13:53:06 GMT+0000 (UTC)'
+    is_public: false
+    resources: null
+    _atoms_ids:
+      - 148286
+    atoms:
+      - id: 148286
+        key: '1926308665258903'
+        locale: zh-cn
+        version: 1.0.0
+        title: 调查能说明一切！
+        semantic_type: QuizAtom
+        updated_at: 'Sat Nov 05 2016 13:53:05 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |-
+          调查链接：http://goo.gl/QA3hGF
+
+          提前感谢你参与调查！说明：此调查是可选的，你可能需要 VPN 访问此链接。
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 调查能说明一切！
+          background_image: '//lh5.ggpht.com/kjf6XQfrGr5VLqDZBZid7ksrZSmBQ9LxEQXDISAI0YTV6vStYv6fX11TwdqwUA4pE-ag74SYJp9CpNMj-Tw=s0#w=1440&h=810'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '1926308665'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null

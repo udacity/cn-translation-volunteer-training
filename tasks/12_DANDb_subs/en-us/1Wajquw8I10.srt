@@ -1,0 +1,11 @@
+1
+00:00:00,012 --> 00:00:05,518
+So try and match each construct here with a possible operational definition. Now
+
+2
+00:00:05,530 --> 00:00:10,404
+these aren't necessarily the operational definitions for each of these
+
+3
+00:00:10,416 --> 00:00:12,922
+constructs. These are just examples of how we could measure them.

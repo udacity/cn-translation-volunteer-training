@@ -1,0 +1,2427 @@
+id: 178910
+key: '4601188734'
+locale: zh-cn
+version: 1.0.0
+title: 第 1 课：研究方法入门
+semantic_type: Lesson
+updated_at: 'Mon May 15 2017 03:28:42 GMT+0000 (UTC)'
+is_public: true
+image:
+  url: 'https://d17h27t6h515a5.cloudfront.net/topher/2017/April/58fdc81e_309868688/309868688.jpg'
+  width: 500
+  height: 500
+video: null
+summary: 学习构建、总体与样本、相关与因果、假设与试验。
+duration: 240
+is_project_lesson: false
+_concepts_ids:
+  - 176615
+  - 176431
+  - 176432
+  - 176435
+  - 176433
+  - 176434
+  - 176436
+  - 176437
+  - 176439
+  - 176438
+  - 176440
+  - 176442
+  - 176441
+  - 176443
+  - 176445
+  - 176446
+  - 176444
+  - 176448
+  - 176447
+  - 176451
+  - 176449
+  - 176452
+  - 176450
+  - 176453
+  - 176454
+  - 176456
+  - 176455
+  - 176458
+  - 176457
+  - 176459
+  - 176463
+  - 176462
+  - 176460
+  - 176461
+  - 176464
+  - 176465
+_project_id: null
+concepts:
+  - id: 176615
+    key: '46251285610923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 简介
+    semantic_type: Concept
+    updated_at: 'Mon Aug 22 2016 07:13:14 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174243
+    atoms:
+      - id: 174243
+        key: '4625128561'
+        locale: zh-cn
+        version: 1.0.0
+        title: 简介
+        semantic_type: VideoAtom
+        updated_at: 'Wed Apr 19 2017 21:39:51 GMT+0000 (UTC)'
+        is_public: true
+        tags: []
+        instructor_notes: '由于第 12-16 课对于完成纳米学位项目的剩余内容并非必须，所以本版本课程中并不包括这些部分。如果你要了解第 12-16 课中介绍的方差分析、相关性、线性回归和/或卡方检验，可以查看我们的免费课程[推论统计学入门](https://cn.udacity.com/course/intro-to-inferential-statistics--ud201/)。'
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        video:
+          youtube_id: jOhaqX_9oy8
+          subtitles:
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d13619_intro/subtitles/lang_pt-br_vs1.srt'
+              language_code: pt-br
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d13619_intro/subtitles/lang_en_vs2.srt'
+              language_code: en
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d13619_intro/subtitles/lang_zh-cn_vs1.srt'
+              language_code: zh-cn
+          transcodings:
+            uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d13619_intro/intro_480p.mp4'
+            uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d13619_intro/intro_480p_1000kbps.mp4'
+            uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d13619_intro/intro_480p.ogg'
+            uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d13619_intro/intro_720p.mp4'
+            uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d13619_intro/hls/playlist.m3u8'
+  - id: 176431
+    key: '2094326200923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 相信结果
+    semantic_type: Concept
+    updated_at: 'Mon Sep 05 2016 16:00:06 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174053
+    atoms:
+      - id: 174053
+        key: '209432620'
+        locale: zh-cn
+        version: 1.0.0
+        title: 相信结果
+        semantic_type: QuizAtom
+        updated_at: 'Wed Apr 19 2017 22:01:59 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |-
+          ## 假如你明天有一场大考，你要尽力保证自己记忆力清晰，你会做什么准备呢？
+
+          调查结果：
+          - 42% 努力健身
+          - 28% 好好吃一顿
+          - 16% 通宵达旦地学习
+          - 13% 睡个好觉
+          - 1% 其他
+
+          你信任调查结果吗？在下结论前，你想要了解什么呢？
+          -  我调查了多少人
+          -  我调查了哪些人
+          -  调查是怎样进行的
+        instruction:
+          video:
+            youtube_id: veRRrAR2xF4
+            subtitles:
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d281ad_believe-results-intro-to-descriptive-statistics/subtitles/lang_es_vs1.srt'
+                language_code: es
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d281ad_believe-results-intro-to-descriptive-statistics/subtitles/lang_pt-br_vs2.srt'
+                language_code: pt-br
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d281ad_believe-results-intro-to-descriptive-statistics/subtitles/lang_zh-cn_vs2.srt'
+                language_code: zh-cn
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d281ad_believe-results-intro-to-descriptive-statistics/subtitles/lang_en_vs3.srt'
+                language_code: en
+            transcodings:
+              uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d281ad_believe-results-intro-to-descriptive-statistics/believe-results-intro-to-descriptive-statistics_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d281ad_believe-results-intro-to-descriptive-statistics/believe-results-intro-to-descriptive-statistics_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d281ad_believe-results-intro-to-descriptive-statistics/believe-results-intro-to-descriptive-statistics_480p.ogg'
+              uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d281ad_believe-results-intro-to-descriptive-statistics/believe-results-intro-to-descriptive-statistics_720p.mp4'
+              uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d281ad_believe-results-intro-to-descriptive-statistics/hls/playlist.m3u8'
+          text: null
+        question:
+          title: 相信结果
+          background_image: '//lh3.ggpht.com/tNVdA6qIuTyMdxTaNsl8NOIML_w5DxmcjjYTtdaUnqLo9zAf-7ga984cYU5culjVDU8-7E-e-rAPvpso7UK3=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '209432622'
+        answer:
+          text: null
+          video:
+            youtube_id: kSyGb-QYfcU
+            subtitles:
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d14cfe_believe-results-intro-to-descriptive-statistics/subtitles/lang_zh-cn_vs2.srt'
+                language_code: zh-cn
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d14cfe_believe-results-intro-to-descriptive-statistics/subtitles/lang_pt-br_vs2.srt'
+                language_code: pt-br
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d14cfe_believe-results-intro-to-descriptive-statistics/subtitles/lang_en_vs4.srt'
+                language_code: en
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d14cfe_believe-results-intro-to-descriptive-statistics/subtitles/lang_es_vs1.srt'
+                language_code: es
+            transcodings:
+              uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d14cfe_believe-results-intro-to-descriptive-statistics/believe-results-intro-to-descriptive-statistics_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d14cfe_believe-results-intro-to-descriptive-statistics/believe-results-intro-to-descriptive-statistics_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d14cfe_believe-results-intro-to-descriptive-statistics/believe-results-intro-to-descriptive-statistics_480p.ogg'
+              uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d14cfe_believe-results-intro-to-descriptive-statistics/believe-results-intro-to-descriptive-statistics_720p.mp4'
+              uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d14cfe_believe-results-intro-to-descriptive-statistics/hls/playlist.m3u8'
+  - id: 176432
+    key: '595961680923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 测量记忆
+    semantic_type: Concept
+    updated_at: 'Mon Sep 05 2016 16:00:06 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174054
+    atoms:
+      - id: 174054
+        key: '59596168'
+        locale: zh-cn
+        version: 1.0.0
+        title: 测量记忆
+        semantic_type: QuizAtom
+        updated_at: 'Wed Apr 19 2017 21:58:27 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |-
+          ## 很多因素都会影响记忆，但是首先，你要如何去测量记忆呢？
+
+          将你的答案写在方框中。
+        instruction:
+          video:
+            youtube_id: TSm4D-YHvzM
+            subtitles:
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d26f00_measure-memory-intro-to-descriptive-statistics/subtitles/lang_pt-br_vs1.srt'
+                language_code: pt-br
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d26f00_measure-memory-intro-to-descriptive-statistics/subtitles/lang_en_vs4.srt'
+                language_code: en
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d26f00_measure-memory-intro-to-descriptive-statistics/subtitles/lang_zh-cn_vs2.srt'
+                language_code: zh-cn
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d26f00_measure-memory-intro-to-descriptive-statistics/subtitles/lang_es_vs2.srt'
+                language_code: es
+            transcodings:
+              uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d26f00_measure-memory-intro-to-descriptive-statistics/measure-memory-intro-to-descriptive-statistics_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d26f00_measure-memory-intro-to-descriptive-statistics/measure-memory-intro-to-descriptive-statistics_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d26f00_measure-memory-intro-to-descriptive-statistics/measure-memory-intro-to-descriptive-statistics_480p.ogg'
+              uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d26f00_measure-memory-intro-to-descriptive-statistics/measure-memory-intro-to-descriptive-statistics_720p.mp4'
+              uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d26f00_measure-memory-intro-to-descriptive-statistics/hls/playlist.m3u8'
+          text: null
+        question:
+          title: 测量记忆
+          background_image: '//lh6.ggpht.com/tWUsIoGaEDdNj79SRlDC0T2Rz31F_X3Ds7lNvILThP0iIMhw7y9Q8sVKkkMP9dP8EOX7whJaoo-ha7pJMAUM=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '59393645'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 176435
+    key: '563595600923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 定义抽象概念
+    semantic_type: Concept
+    updated_at: 'Mon Sep 05 2016 16:00:08 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174055
+    atoms:
+      - id: 174055
+        key: '56359560'
+        locale: zh-cn
+        version: 1.0.0
+        title: 定义抽象概念
+        semantic_type: VideoAtom
+        updated_at: 'Wed Apr 19 2017 21:40:01 GMT+0000 (UTC)'
+        is_public: true
+        tags: []
+        instructor_notes: ''
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        video:
+          youtube_id: J2kY_Xf7i1E
+          subtitles:
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d12abf_define-constructs-intro-to-descriptive-statistics/subtitles/lang_es_vs1.srt'
+              language_code: es
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d12abf_define-constructs-intro-to-descriptive-statistics/subtitles/lang_pt-br_vs1.srt'
+              language_code: pt-br
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d12abf_define-constructs-intro-to-descriptive-statistics/subtitles/lang_en_vs4.srt'
+              language_code: en
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d12abf_define-constructs-intro-to-descriptive-statistics/subtitles/lang_zh-cn_vs2.srt'
+              language_code: zh-cn
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d12abf_define-constructs-intro-to-descriptive-statistics/subtitles/lang_en-us_vs2.srt'
+              language_code: en-us
+          transcodings:
+            uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d12abf_define-constructs-intro-to-descriptive-statistics/define-constructs-intro-to-descriptive-statistics_480p.mp4'
+            uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d12abf_define-constructs-intro-to-descriptive-statistics/define-constructs-intro-to-descriptive-statistics_480p_1000kbps.mp4'
+            uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d12abf_define-constructs-intro-to-descriptive-statistics/define-constructs-intro-to-descriptive-statistics_480p.ogg'
+            uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d12abf_define-constructs-intro-to-descriptive-statistics/define-constructs-intro-to-descriptive-statistics_720p.mp4'
+            uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d12abf_define-constructs-intro-to-descriptive-statistics/hls/playlist.m3u8'
+  - id: 176433
+    key: '561816430923'
+    locale: zh-cn
+    version: 1.0.0
+    title: BBC 记忆测试
+    semantic_type: Concept
+    updated_at: 'Mon Sep 05 2016 16:00:09 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174056
+    atoms:
+      - id: 174056
+        key: '56181643'
+        locale: zh-cn
+        version: 1.0.0
+        title: BBC 记忆测试
+        semantic_type: VideoAtom
+        updated_at: 'Wed Apr 19 2017 21:33:14 GMT+0000 (UTC)'
+        is_public: true
+        tags: []
+        instructor_notes: 可惜，BBC 已经不再提供人脸记忆测试了。
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        video:
+          youtube_id: R_St8V4O9aQ
+          subtitles:
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1d63d_bbc-click-link-in-bottom-right-intro-to-descriptive-statistics/subtitles/lang_pt-br_vs1.srt'
+              language_code: pt-br
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1d63d_bbc-click-link-in-bottom-right-intro-to-descriptive-statistics/subtitles/lang_es_vs1.srt'
+              language_code: es
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1d63d_bbc-click-link-in-bottom-right-intro-to-descriptive-statistics/subtitles/lang_en_vs4.srt'
+              language_code: en
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1d63d_bbc-click-link-in-bottom-right-intro-to-descriptive-statistics/subtitles/lang_zh-cn_vs2.srt'
+              language_code: zh-cn
+          transcodings:
+            uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1d63d_bbc-click-link-in-bottom-right-intro-to-descriptive-statistics/bbc-click-link-in-bottom-right-intro-to-descriptive-statistics_480p.mp4'
+            uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1d63d_bbc-click-link-in-bottom-right-intro-to-descriptive-statistics/bbc-click-link-in-bottom-right-intro-to-descriptive-statistics_480p_1000kbps.mp4'
+            uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1d63d_bbc-click-link-in-bottom-right-intro-to-descriptive-statistics/bbc-click-link-in-bottom-right-intro-to-descriptive-statistics_480p.ogg'
+            uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1d63d_bbc-click-link-in-bottom-right-intro-to-descriptive-statistics/bbc-click-link-in-bottom-right-intro-to-descriptive-statistics_720p.mp4'
+            uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1d63d_bbc-click-link-in-bottom-right-intro-to-descriptive-statistics/hls/playlist.m3u8'
+  - id: 176434
+    key: '46656288790923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 记忆测试描述
+    semantic_type: Concept
+    updated_at: 'Mon Sep 05 2016 16:00:10 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174057
+    atoms:
+      - id: 174057
+        key: '4665628879'
+        locale: zh-cn
+        version: 1.0.0
+        title: 记忆测试描述
+        semantic_type: TextAtom
+        updated_at: 'Mon Sep 05 2016 16:00:09 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          ## 记忆测试描述
+
+          可惜，BBC 已经不再提供人脸记忆测试了。
+
+          下面是此测试的简单描述，以帮助你跟上课程其余部分。该测试包含三个部分：
+
+          1. 在第一部分向用户展示 12 张照片。
+          2. 在第二部分向用户展示另外 12 张照片。
+          3. 在第三部分向用户展示 48 张照片，并询问他们是否在第一部分/第二部分见过每一张照片或在这两个部分都没见过。
+
+          测试之后，用户会得到两个分数：
+
+           * “识别得分”，用户正确猜出某张人脸他是否见过的比例，不论用户看到的是人脸的哪个部分。
+           * “短期记忆得分”，用户正确猜出某张人脸属于第一部分还是第二部分的比例。
+
+
+          测试建议用户在完成第一部分，开始第二部分前休息5分钟。
+        instructor_notes: null
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+  - id: 176436
+    key: '561816440923'
+    locale: zh-cn
+    version: 1.0.0
+    title: BBC 分数
+    semantic_type: Concept
+    updated_at: 'Mon Sep 05 2016 16:00:11 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174058
+    atoms:
+      - id: 174058
+        key: '56181644'
+        locale: zh-cn
+        version: 1.0.0
+        title: BBC 分数
+        semantic_type: VideoAtom
+        updated_at: 'Mon Apr 24 2017 05:22:25 GMT+0000 (UTC)'
+        is_public: true
+        tags: []
+        instructor_notes: 可惜，BBC 已经不再提供此测试了。不过，我们会在后面的视频中提供学习所需的数据集。
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        video:
+          youtube_id: 5IhpLHnTZoE
+          subtitles:
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d07f86_bbc-scores-intro-to-descriptive-statistics/subtitles/lang_es_vs1.srt'
+              language_code: es
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d07f86_bbc-scores-intro-to-descriptive-statistics/subtitles/lang_pt-br_vs2.srt'
+              language_code: pt-br
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d07f86_bbc-scores-intro-to-descriptive-statistics/subtitles/lang_en_vs4.srt'
+              language_code: en
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d07f86_bbc-scores-intro-to-descriptive-statistics/subtitles/lang_zh-cn_vs2.srt'
+              language_code: zh-cn
+          transcodings:
+            uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d07f86_bbc-scores-intro-to-descriptive-statistics/bbc-scores-intro-to-descriptive-statistics_480p.mp4'
+            uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d07f86_bbc-scores-intro-to-descriptive-statistics/bbc-scores-intro-to-descriptive-statistics_480p_1000kbps.mp4'
+            uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d07f86_bbc-scores-intro-to-descriptive-statistics/bbc-scores-intro-to-descriptive-statistics_480p.ogg'
+            uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d07f86_bbc-scores-intro-to-descriptive-statistics/bbc-scores-intro-to-descriptive-statistics_720p.mp4'
+            uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d07f86_bbc-scores-intro-to-descriptive-statistics/hls/playlist.m3u8'
+  - id: 176437
+    key: '561816450923'
+    locale: zh-cn
+    version: 1.0.0
+    title: Google 账户
+    semantic_type: Concept
+    updated_at: 'Mon Sep 05 2016 16:00:11 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174059
+    atoms:
+      - id: 174059
+        key: '56181645'
+        locale: zh-cn
+        version: 1.0.0
+        title: Google 账户
+        semantic_type: VideoAtom
+        updated_at: 'Mon Apr 24 2017 05:25:11 GMT+0000 (UTC)'
+        is_public: true
+        tags: []
+        instructor_notes: '国内使用 Google 服务可能有些困难，你仍可以[点此创建 Google 账户](https://accounts.google.com/NewAccount)，或直接下载 Excel 版本的其他人的得分：[BBC 结果](https://s3.cn-north-1.amazonaws.com.cn/static-documents/nd002/BBC+Results+-+Lesson+1.xlsx)'
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        video:
+          youtube_id: 7C3vCAVaPXo
+          subtitles:
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d03414_google-account-intro-to-descriptive-statistics/subtitles/lang_es_vs1.srt'
+              language_code: es
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d03414_google-account-intro-to-descriptive-statistics/subtitles/lang_pt-br_vs2.srt'
+              language_code: pt-br
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d03414_google-account-intro-to-descriptive-statistics/subtitles/lang_en_vs4.srt'
+              language_code: en
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d03414_google-account-intro-to-descriptive-statistics/subtitles/lang_zh-cn_vs2.srt'
+              language_code: zh-cn
+          transcodings:
+            uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d03414_google-account-intro-to-descriptive-statistics/google-account-intro-to-descriptive-statistics_480p.mp4'
+            uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d03414_google-account-intro-to-descriptive-statistics/google-account-intro-to-descriptive-statistics_480p_1000kbps.mp4'
+            uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d03414_google-account-intro-to-descriptive-statistics/google-account-intro-to-descriptive-statistics_480p.ogg'
+            uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d03414_google-account-intro-to-descriptive-statistics/google-account-intro-to-descriptive-statistics_720p.mp4'
+            uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d03414_google-account-intro-to-descriptive-statistics/hls/playlist.m3u8'
+  - id: 176439
+    key: '560159620923'
+    locale: zh-cn
+    version: 1.0.0
+    title: BBC 测量
+    semantic_type: Concept
+    updated_at: 'Mon Sep 05 2016 16:00:13 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174060
+    atoms:
+      - id: 174060
+        key: '56015962'
+        locale: zh-cn
+        version: 1.0.0
+        title: BBC 测量
+        semantic_type: QuizAtom
+        updated_at: 'Wed Apr 19 2017 21:58:27 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |-
+          ## BBC 是如何测量记忆的？
+
+          - 你记住了哪些脸型？
+          - 从第一部分和第二部分正确识别和放置的百分比？
+          - 知道你是第一次还是第二次见到某个面孔？
+          - 知道某个面孔是否已存在？
+          - 你记住的面孔数量？
+        instruction:
+          video:
+            youtube_id: t78PB0L8eDU
+            subtitles:
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d26255_bbc-measurement-intro-to-descriptive-statistics/subtitles/lang_en_vs4.srt'
+                language_code: en
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d26255_bbc-measurement-intro-to-descriptive-statistics/subtitles/lang_es_vs2.srt'
+                language_code: es
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d26255_bbc-measurement-intro-to-descriptive-statistics/subtitles/lang_zh-cn_vs3.srt'
+                language_code: zh-cn
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d26255_bbc-measurement-intro-to-descriptive-statistics/subtitles/lang_pt-br_vs2.srt'
+                language_code: pt-br
+            transcodings:
+              uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d26255_bbc-measurement-intro-to-descriptive-statistics/bbc-measurement-intro-to-descriptive-statistics_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d26255_bbc-measurement-intro-to-descriptive-statistics/bbc-measurement-intro-to-descriptive-statistics_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d26255_bbc-measurement-intro-to-descriptive-statistics/bbc-measurement-intro-to-descriptive-statistics_480p.ogg'
+              uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d26255_bbc-measurement-intro-to-descriptive-statistics/bbc-measurement-intro-to-descriptive-statistics_720p.mp4'
+              uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d26255_bbc-measurement-intro-to-descriptive-statistics/hls/playlist.m3u8'
+          text: null
+        question:
+          title: BBC 测量
+          background_image: '//lh4.ggpht.com/rgZHbug4qxHzWMx9COn7ZbLPb9HSUMl4bMB7GETraunYb2Ui63ykqtKE5Po0NM76-f_h-POWakUaIJJ09sE=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '59393646'
+        answer:
+          text: null
+          video:
+            youtube_id: gTTwyzbOOgU
+            subtitles:
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0fbbd_bbc-measurement-intro-to-descriptive-statistics/subtitles/lang_es_vs1.srt'
+                language_code: es
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0fbbd_bbc-measurement-intro-to-descriptive-statistics/subtitles/lang_pt-br_vs2.srt'
+                language_code: pt-br
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0fbbd_bbc-measurement-intro-to-descriptive-statistics/subtitles/lang_en_vs4.srt'
+                language_code: en
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0fbbd_bbc-measurement-intro-to-descriptive-statistics/subtitles/lang_zh-cn_vs2.srt'
+                language_code: zh-cn
+            transcodings:
+              uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0fbbd_bbc-measurement-intro-to-descriptive-statistics/bbc-measurement-intro-to-descriptive-statistics_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0fbbd_bbc-measurement-intro-to-descriptive-statistics/bbc-measurement-intro-to-descriptive-statistics_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0fbbd_bbc-measurement-intro-to-descriptive-statistics/bbc-measurement-intro-to-descriptive-statistics_480p.ogg'
+              uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0fbbd_bbc-measurement-intro-to-descriptive-statistics/bbc-measurement-intro-to-descriptive-statistics_720p.mp4'
+              uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0fbbd_bbc-measurement-intro-to-descriptive-statistics/hls/playlist.m3u8'
+  - id: 176438
+    key: '561816480923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 操作定义
+    semantic_type: Concept
+    updated_at: 'Mon Sep 05 2016 16:00:14 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174061
+    atoms:
+      - id: 174061
+        key: '56181648'
+        locale: zh-cn
+        version: 1.0.0
+        title: 操作定义
+        semantic_type: VideoAtom
+        updated_at: 'Wed Apr 19 2017 21:40:00 GMT+0000 (UTC)'
+        is_public: true
+        tags: []
+        instructor_notes: null
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        video:
+          youtube_id: khRQslIcqyY
+          subtitles:
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d145ec_operational-definition-intro-to-descriptive-statistics/subtitles/lang_zh-cn_vs2.srt'
+              language_code: zh-cn
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d145ec_operational-definition-intro-to-descriptive-statistics/subtitles/lang_en_vs4.srt'
+              language_code: en
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d145ec_operational-definition-intro-to-descriptive-statistics/subtitles/lang_pt-br_vs2.srt'
+              language_code: pt-br
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d145ec_operational-definition-intro-to-descriptive-statistics/subtitles/lang_es_vs1.srt'
+              language_code: es
+          transcodings:
+            uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d145ec_operational-definition-intro-to-descriptive-statistics/operational-definition-intro-to-descriptive-statistics_480p.mp4'
+            uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d145ec_operational-definition-intro-to-descriptive-statistics/operational-definition-intro-to-descriptive-statistics_480p_1000kbps.mp4'
+            uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d145ec_operational-definition-intro-to-descriptive-statistics/operational-definition-intro-to-descriptive-statistics_480p.ogg'
+            uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d145ec_operational-definition-intro-to-descriptive-statistics/operational-definition-intro-to-descriptive-statistics_720p.mp4'
+            uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d145ec_operational-definition-intro-to-descriptive-statistics/hls/playlist.m3u8'
+  - id: 176440
+    key: '560159630923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 抽象概念
+    semantic_type: Concept
+    updated_at: 'Mon Sep 05 2016 16:00:16 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174062
+    atoms:
+      - id: 174062
+        key: '56015963'
+        locale: zh-cn
+        version: 1.0.0
+        title: 抽象概念
+        semantic_type: QuizAtom
+        updated_at: 'Wed Apr 19 2017 21:58:27 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |-
+          ## 以下哪些属于抽象概念？
+
+          -  几加仑的汽油
+          -  智力
+          -  努力
+          -  年龄
+          -  饥饿
+          -  有多少美元的年薪
+          -  痒
+
+          ----
+
+          你认为成熟和智慧属于“操作定义”还是“抽象概念”？请在论坛中与大家分享你的看法。
+        instruction:
+          video:
+            youtube_id: 7umkXt9U5lE
+            subtitles:
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d09627_constructs-intro-to-descriptive-statistics/subtitles/lang_es_vs1.srt'
+                language_code: es
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d09627_constructs-intro-to-descriptive-statistics/subtitles/lang_pt-br_vs2.srt'
+                language_code: pt-br
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d09627_constructs-intro-to-descriptive-statistics/subtitles/lang_en_vs5.srt'
+                language_code: en
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d09627_constructs-intro-to-descriptive-statistics/subtitles/lang_zh-cn_vs2.srt'
+                language_code: zh-cn
+            transcodings:
+              uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d09627_constructs-intro-to-descriptive-statistics/constructs-intro-to-descriptive-statistics_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d09627_constructs-intro-to-descriptive-statistics/constructs-intro-to-descriptive-statistics_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d09627_constructs-intro-to-descriptive-statistics/constructs-intro-to-descriptive-statistics_480p.ogg'
+              uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d09627_constructs-intro-to-descriptive-statistics/constructs-intro-to-descriptive-statistics_720p.mp4'
+              uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d09627_constructs-intro-to-descriptive-statistics/hls/playlist.m3u8'
+          text: null
+        question:
+          title: 抽象概念
+          background_image: '//lh5.ggpht.com/LO1jGJNftU76xv9nv7PLYc1qzOEIzaXETZl07pkfvTdYNf86b4lPjrS7_ScRDgJrTE86ezGt-boX8pKk_fM=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '59393647'
+        answer:
+          text: null
+          video:
+            youtube_id: KYAUEz-50-Q
+            subtitles:
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57cf960d_constructs-intro-to-descriptive-statistics/subtitles/lang_zh-cn_vs4.srt'
+                language_code: zh-cn
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57cf960d_constructs-intro-to-descriptive-statistics/subtitles/lang_en_vs4.srt'
+                language_code: en
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57cf960d_constructs-intro-to-descriptive-statistics/subtitles/lang_pt-br_vs2.srt'
+                language_code: pt-br
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57cf960d_constructs-intro-to-descriptive-statistics/subtitles/lang_es_vs1.srt'
+                language_code: es
+            transcodings:
+              uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57cf960d_constructs-intro-to-descriptive-statistics/constructs-intro-to-descriptive-statistics_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57cf960d_constructs-intro-to-descriptive-statistics/constructs-intro-to-descriptive-statistics_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57cf960d_constructs-intro-to-descriptive-statistics/constructs-intro-to-descriptive-statistics_480p.ogg'
+              uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57cf960d_constructs-intro-to-descriptive-statistics/constructs-intro-to-descriptive-statistics_720p.mp4'
+              uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57cf960d_constructs-intro-to-descriptive-statistics/hls/playlist.m3u8'
+  - id: 176442
+    key: '560159640923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 操作定义
+    semantic_type: Concept
+    updated_at: 'Mon Sep 05 2016 16:00:17 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174063
+    atoms:
+      - id: 174063
+        key: '56015964'
+        locale: zh-cn
+        version: 1.0.0
+        title: 操作定义
+        semantic_type: QuizAtom
+        updated_at: 'Wed Apr 19 2017 21:58:27 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |
+          ## 你可以为左边的抽象概念，从右边选出恰当的操作定义吗？
+
+          | **抽象概念**  | **操作定义**                |
+          | ----- | ------------------- |
+          | 抑郁    | A. 静息心率             |
+          | 饥饿    | B. 皮质醇水平（压力激素）      |
+          | 压力    | C. 准备考试花费的时间        |
+          | 愤怒    | D. 贝克抑郁自评量表         |
+          | 快乐    | E. 身体质量指数（BMI）      |
+          | 健康    | F. 每一年对某一特定品牌产品的购买量        |
+          | 肥胖    | G. 每分钟说了多少脏话 |
+          | 努力    | H. 食物消耗量            |
+          | 品牌忠诚度 | I. 微笑的时间除以不笑的时间     |
+        instruction:
+          video:
+            youtube_id: 1Wajquw8I10
+            subtitles:
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57cf9a93_operational-definitions-intro-to-descriptive-statistics/subtitles/lang_es_vs1.srt'
+                language_code: es
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57cf9a93_operational-definitions-intro-to-descriptive-statistics/subtitles/lang_pt-br_vs2.srt'
+                language_code: pt-br
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57cf9a93_operational-definitions-intro-to-descriptive-statistics/subtitles/lang_en_vs5.srt'
+                language_code: en
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57cf9a93_operational-definitions-intro-to-descriptive-statistics/subtitles/lang_zh-cn_vs2.srt'
+                language_code: zh-cn
+            transcodings:
+              uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57cf9a93_operational-definitions-intro-to-descriptive-statistics/operational-definitions-intro-to-descriptive-statistics_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57cf9a93_operational-definitions-intro-to-descriptive-statistics/operational-definitions-intro-to-descriptive-statistics_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57cf9a93_operational-definitions-intro-to-descriptive-statistics/operational-definitions-intro-to-descriptive-statistics_480p.ogg'
+              uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57cf9a93_operational-definitions-intro-to-descriptive-statistics/operational-definitions-intro-to-descriptive-statistics_720p.mp4'
+              uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57cf9a93_operational-definitions-intro-to-descriptive-statistics/hls/playlist.m3u8'
+          text: null
+        question:
+          title: 操作定义
+          background_image: '//lh5.ggpht.com/4mWxAyoeI-sNOKz7JrhO3yQwSLNvM55Y6_fTBdBioRdVVI9ud8irUpy7ZBFZf_PhaixiZDFPx-_GHpURNGbo=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '59393648'
+        answer:
+          text: null
+          video:
+            youtube_id: oTZO4DxRbAU
+            subtitles:
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1ab28_operational-definitions-intro-to-descriptive-statistics/subtitles/lang_es_vs1.srt'
+                language_code: es
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1ab28_operational-definitions-intro-to-descriptive-statistics/subtitles/lang_zh-cn_vs3.srt'
+                language_code: zh-cn
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1ab28_operational-definitions-intro-to-descriptive-statistics/subtitles/lang_pt-br_vs2.srt'
+                language_code: pt-br
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1ab28_operational-definitions-intro-to-descriptive-statistics/subtitles/lang_en_vs5.srt'
+                language_code: en
+            transcodings:
+              uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1ab28_operational-definitions-intro-to-descriptive-statistics/operational-definitions-intro-to-descriptive-statistics_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1ab28_operational-definitions-intro-to-descriptive-statistics/operational-definitions-intro-to-descriptive-statistics_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1ab28_operational-definitions-intro-to-descriptive-statistics/operational-definitions-intro-to-descriptive-statistics_480p.ogg'
+              uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1ab28_operational-definitions-intro-to-descriptive-statistics/operational-definitions-intro-to-descriptive-statistics_720p.mp4'
+              uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1ab28_operational-definitions-intro-to-descriptive-statistics/hls/playlist.m3u8'
+  - id: 176441
+    key: '561816530923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 数据
+    semantic_type: Concept
+    updated_at: 'Mon Sep 05 2016 16:00:18 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174064
+    atoms:
+      - id: 174064
+        key: '56181653'
+        locale: zh-cn
+        version: 1.0.0
+        title: 数据
+        semantic_type: VideoAtom
+        updated_at: 'Wed Apr 19 2017 21:40:00 GMT+0000 (UTC)'
+        is_public: true
+        tags: []
+        instructor_notes: null
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        video:
+          youtube_id: d7aERRVkccY
+          subtitles:
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0af46_data-intro-to-descriptive-statistics/subtitles/lang_es_vs1.srt'
+              language_code: es
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0af46_data-intro-to-descriptive-statistics/subtitles/lang_pt-br_vs2.srt'
+              language_code: pt-br
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0af46_data-intro-to-descriptive-statistics/subtitles/lang_en_vs4.srt'
+              language_code: en
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0af46_data-intro-to-descriptive-statistics/subtitles/lang_zh-cn_vs1.srt'
+              language_code: zh-cn
+          transcodings:
+            uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0af46_data-intro-to-descriptive-statistics/data-intro-to-descriptive-statistics_480p.mp4'
+            uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0af46_data-intro-to-descriptive-statistics/data-intro-to-descriptive-statistics_480p_1000kbps.mp4'
+            uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0af46_data-intro-to-descriptive-statistics/data-intro-to-descriptive-statistics_480p.ogg'
+            uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0af46_data-intro-to-descriptive-statistics/data-intro-to-descriptive-statistics_720p.mp4'
+            uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0af46_data-intro-to-descriptive-statistics/hls/playlist.m3u8'
+  - id: 176443
+    key: '560159650923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 睡眠与记忆
+    semantic_type: Concept
+    updated_at: 'Mon Sep 05 2016 16:00:19 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174065
+    atoms:
+      - id: 174065
+        key: '56015965'
+        locale: zh-cn
+        version: 1.0.0
+        title: 睡眠与记忆
+        semantic_type: QuizAtom
+        updated_at: 'Wed Apr 19 2017 22:01:56 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |-
+          ## 哪个结论是最可信的？
+
+          -  睡的越少记忆力越好
+          -  睡的越多记忆力越好
+          -  不论睡多睡少，总是得到一样的记忆分数
+          -  睡眠和记忆力沾不上边
+        instruction:
+          video:
+            youtube_id: 9-dCjOMkrRw
+            subtitles:
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d098c4_sleep-and-memory-intro-to-descriptive-statistics/subtitles/lang_es_vs1.srt'
+                language_code: es
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d098c4_sleep-and-memory-intro-to-descriptive-statistics/subtitles/lang_pt-br_vs2.srt'
+                language_code: pt-br
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d098c4_sleep-and-memory-intro-to-descriptive-statistics/subtitles/lang_en_vs4.srt'
+                language_code: en
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d098c4_sleep-and-memory-intro-to-descriptive-statistics/subtitles/lang_zh-cn_vs2.srt'
+                language_code: zh-cn
+            transcodings:
+              uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d098c4_sleep-and-memory-intro-to-descriptive-statistics/sleep-and-memory-intro-to-descriptive-statistics_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d098c4_sleep-and-memory-intro-to-descriptive-statistics/sleep-and-memory-intro-to-descriptive-statistics_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d098c4_sleep-and-memory-intro-to-descriptive-statistics/sleep-and-memory-intro-to-descriptive-statistics_480p.ogg'
+              uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d098c4_sleep-and-memory-intro-to-descriptive-statistics/sleep-and-memory-intro-to-descriptive-statistics_720p.mp4'
+              uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d098c4_sleep-and-memory-intro-to-descriptive-statistics/hls/playlist.m3u8'
+          text: null
+        question:
+          title: 睡眠与记忆
+          background_image: '//lh5.ggpht.com/A6Ely7MWdh3fWLYkCa05mg7NO4sQmnw4fzSkdliUY0k3TlpjJFPnpfzkNeiwOoeKVUWme937waTwn_CpHw=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '59393649'
+        answer:
+          text: null
+          video:
+            youtube_id: 9DARTybbf1c
+            subtitles:
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0993b_sleep-and-memory-intro-to-descriptive-statistics/subtitles/lang_es_vs1.srt'
+                language_code: es
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0993b_sleep-and-memory-intro-to-descriptive-statistics/subtitles/lang_pt-br_vs2.srt'
+                language_code: pt-br
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0993b_sleep-and-memory-intro-to-descriptive-statistics/subtitles/lang_en_vs4.srt'
+                language_code: en
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0993b_sleep-and-memory-intro-to-descriptive-statistics/subtitles/lang_zh-cn_vs1.srt'
+                language_code: zh-cn
+            transcodings:
+              uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0993b_sleep-and-memory-intro-to-descriptive-statistics/sleep-and-memory-intro-to-descriptive-statistics_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0993b_sleep-and-memory-intro-to-descriptive-statistics/sleep-and-memory-intro-to-descriptive-statistics_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0993b_sleep-and-memory-intro-to-descriptive-statistics/sleep-and-memory-intro-to-descriptive-statistics_480p.ogg'
+              uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0993b_sleep-and-memory-intro-to-descriptive-statistics/sleep-and-memory-intro-to-descriptive-statistics_720p.mp4'
+              uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0993b_sleep-and-memory-intro-to-descriptive-statistics/hls/playlist.m3u8'
+  - id: 176445
+    key: '564604830923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 影响记忆
+    semantic_type: Concept
+    updated_at: 'Mon Sep 05 2016 16:00:22 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174066
+    atoms:
+      - id: 174066
+        key: '56460483'
+        locale: zh-cn
+        version: 1.0.0
+        title: 影响记忆
+        semantic_type: QuizAtom
+        updated_at: 'Wed Apr 19 2017 22:01:56 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |-
+          ## 还有哪些因素会影响你的记忆力？
+
+          -  进行测试的时间
+          -  夏威夷的棕榈树棵数
+          -  你是否压力很大
+          -  牛奶的价格
+          -  是否按照建议休息了 5 分钟
+          -  冥王星的质量
+          -  你的年龄
+          -  不够专心
+        instruction:
+          video:
+            youtube_id: tM3xOOtcSL4
+            subtitles:
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57cfb4d1_influence-memory-intro-to-descriptive-statistics/subtitles/lang_zh-cn_vs2.srt'
+                language_code: zh-cn
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57cfb4d1_influence-memory-intro-to-descriptive-statistics/subtitles/lang_pt-br_vs2.srt'
+                language_code: pt-br
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57cfb4d1_influence-memory-intro-to-descriptive-statistics/subtitles/lang_es_vs1.srt'
+                language_code: es
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57cfb4d1_influence-memory-intro-to-descriptive-statistics/subtitles/lang_en_vs4.srt'
+                language_code: en
+            transcodings:
+              uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57cfb4d1_influence-memory-intro-to-descriptive-statistics/influence-memory-intro-to-descriptive-statistics_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57cfb4d1_influence-memory-intro-to-descriptive-statistics/influence-memory-intro-to-descriptive-statistics_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57cfb4d1_influence-memory-intro-to-descriptive-statistics/influence-memory-intro-to-descriptive-statistics_480p.ogg'
+              uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57cfb4d1_influence-memory-intro-to-descriptive-statistics/influence-memory-intro-to-descriptive-statistics_720p.mp4'
+              uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57cfb4d1_influence-memory-intro-to-descriptive-statistics/hls/playlist.m3u8'
+          text: null
+        question:
+          title: 影响记忆
+          background_image: '//lh5.ggpht.com/Nfedlngy9E4zviVpR_R6inE7ycFSXyepASrfiIqz3uCdS9JyQYVeE4VPCAG5vWfXblZqH6a0dFDOEXADSfA=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '59393650'
+        answer:
+          text: null
+          video:
+            youtube_id: N9VgCuxpb0I
+            subtitles:
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d17dfc_influence-memory-intro-to-descriptive-statistics/subtitles/lang_pt-br_vs2.srt'
+                language_code: pt-br
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d17dfc_influence-memory-intro-to-descriptive-statistics/subtitles/lang_en_vs5.srt'
+                language_code: en
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d17dfc_influence-memory-intro-to-descriptive-statistics/subtitles/lang_es_vs2.srt'
+                language_code: es
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d17dfc_influence-memory-intro-to-descriptive-statistics/subtitles/lang_zh-cn_vs1.srt'
+                language_code: zh-cn
+            transcodings:
+              uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d17dfc_influence-memory-intro-to-descriptive-statistics/influence-memory-intro-to-descriptive-statistics_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d17dfc_influence-memory-intro-to-descriptive-statistics/influence-memory-intro-to-descriptive-statistics_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d17dfc_influence-memory-intro-to-descriptive-statistics/influence-memory-intro-to-descriptive-statistics_480p.ogg'
+              uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d17dfc_influence-memory-intro-to-descriptive-statistics/influence-memory-intro-to-descriptive-statistics_720p.mp4'
+              uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d17dfc_influence-memory-intro-to-descriptive-statistics/hls/playlist.m3u8'
+  - id: 176446
+    key: '565334200923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 控制测试时间
+    semantic_type: Concept
+    updated_at: 'Mon Sep 05 2016 16:00:23 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174067
+    atoms:
+      - id: 174067
+        key: '56533420'
+        locale: zh-cn
+        version: 1.0.0
+        title: 控制测试时间
+        semantic_type: QuizAtom
+        updated_at: 'Wed Apr 19 2017 21:56:40 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |-
+          ## 如果都是在同一时间参加该测试，你会更加信任数据吗？
+
+          - 是 
+          - 否
+        instruction:
+          video:
+            youtube_id: ZFPsrfUZ0ZU
+            subtitles:
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1b67e_control-for-time-of-day-intro-to-descriptive-statistics/subtitles/lang_zh-cn_vs1.srt'
+                language_code: zh-cn
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1b67e_control-for-time-of-day-intro-to-descriptive-statistics/subtitles/lang_pt-br_vs2.srt'
+                language_code: pt-br
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1b67e_control-for-time-of-day-intro-to-descriptive-statistics/subtitles/lang_en_vs4.srt'
+                language_code: en
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1b67e_control-for-time-of-day-intro-to-descriptive-statistics/subtitles/lang_es_vs1.srt'
+                language_code: es
+            transcodings:
+              uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1b67e_control-for-time-of-day-intro-to-descriptive-statistics/control-for-time-of-day-intro-to-descriptive-statistics_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1b67e_control-for-time-of-day-intro-to-descriptive-statistics/control-for-time-of-day-intro-to-descriptive-statistics_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1b67e_control-for-time-of-day-intro-to-descriptive-statistics/control-for-time-of-day-intro-to-descriptive-statistics_480p.ogg'
+              uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1b67e_control-for-time-of-day-intro-to-descriptive-statistics/control-for-time-of-day-intro-to-descriptive-statistics_720p.mp4'
+              uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1b67e_control-for-time-of-day-intro-to-descriptive-statistics/hls/playlist.m3u8'
+          text: null
+        question:
+          title: 控制测试时间
+          background_image: '//lh6.ggpht.com/mfJa-W2vVVC2WSUjLZswP4DGH683ajwm_zOVywSvVG5jl3UrZ58pkjWX2xj3v2xaq8F434hoBbp8nDgo41k=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '59393651'
+        answer:
+          text: null
+          video:
+            youtube_id: M1EgoHdFSaE
+            subtitles:
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d16674_control-for-time-of-day-intro-to-descriptive-statistics/subtitles/lang_es_vs1.srt'
+                language_code: es
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d16674_control-for-time-of-day-intro-to-descriptive-statistics/subtitles/lang_en_vs4.srt'
+                language_code: en
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d16674_control-for-time-of-day-intro-to-descriptive-statistics/subtitles/lang_pt-br_vs2.srt'
+                language_code: pt-br
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d16674_control-for-time-of-day-intro-to-descriptive-statistics/subtitles/lang_zh-cn_vs1.srt'
+                language_code: zh-cn
+            transcodings:
+              uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d16674_control-for-time-of-day-intro-to-descriptive-statistics/control-for-time-of-day-intro-to-descriptive-statistics_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d16674_control-for-time-of-day-intro-to-descriptive-statistics/control-for-time-of-day-intro-to-descriptive-statistics_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d16674_control-for-time-of-day-intro-to-descriptive-statistics/control-for-time-of-day-intro-to-descriptive-statistics_480p.ogg'
+              uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d16674_control-for-time-of-day-intro-to-descriptive-statistics/control-for-time-of-day-intro-to-descriptive-statistics_720p.mp4'
+              uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d16674_control-for-time-of-day-intro-to-descriptive-statistics/hls/playlist.m3u8'
+  - id: 176444
+    key: '565334210923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 相同分数
+    semantic_type: Concept
+    updated_at: 'Mon Sep 05 2016 16:00:26 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174068
+    atoms:
+      - id: 174068
+        key: '56533421'
+        locale: zh-cn
+        version: 1.0.0
+        title: 相同分数
+        semantic_type: QuizAtom
+        updated_at: 'Wed Apr 19 2017 21:58:27 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |-
+          ## 你认为这节课学员的平均得分会与这些平均结果完全一样吗？
+
+          - 一样 
+          - 不一样
+
+          ----
+
+          总体<b>参数</b>（如 mu 或 <span class="mathquill" >\mu</span>）是用来描述整个总体的值。
+
+          样本<b>统计量</b>（如 X-bar 或 <span class="mathquill">\bar x</span>）是用来描述样本的值；我们使用统计量来估计总体参数。估计值是我们对总体参数的最佳猜测。所以，我们可以使用 X-bar 来估计 mu。
+        instruction:
+          video:
+            youtube_id: VLgrNOLomc0
+            subtitles:
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d28513_same-scores-intro-to-descriptive-statistics/subtitles/lang_es_vs1.srt'
+                language_code: es
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d28513_same-scores-intro-to-descriptive-statistics/subtitles/lang_pt-br_vs2.srt'
+                language_code: pt-br
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d28513_same-scores-intro-to-descriptive-statistics/subtitles/lang_en_vs4.srt'
+                language_code: en
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d28513_same-scores-intro-to-descriptive-statistics/subtitles/lang_zh-cn_vs2.srt'
+                language_code: zh-cn
+            transcodings:
+              uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d28513_same-scores-intro-to-descriptive-statistics/same-scores-intro-to-descriptive-statistics_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d28513_same-scores-intro-to-descriptive-statistics/same-scores-intro-to-descriptive-statistics_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d28513_same-scores-intro-to-descriptive-statistics/same-scores-intro-to-descriptive-statistics_480p.ogg'
+              uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d28513_same-scores-intro-to-descriptive-statistics/same-scores-intro-to-descriptive-statistics_720p.mp4'
+              uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d28513_same-scores-intro-to-descriptive-statistics/hls/playlist.m3u8'
+          text: null
+        question:
+          title: 相同分数
+          background_image: '//lh3.ggpht.com/zEkli-GXGIv3WFzK_iC4wnxL4ffkGxYsMrBh-M4vbVQCMpaX3Sqh7w-WY-exjjrxnPgM7073K0dEoyT4RQ=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '59393652'
+        answer:
+          text: null
+          video:
+            youtube_id: RZPKn5DKB0Q
+            subtitles:
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1e394_same-scores-intro-to-descriptive-statistics/subtitles/lang_es_vs2.srt'
+                language_code: es
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1e394_same-scores-intro-to-descriptive-statistics/subtitles/lang_en_vs4.srt'
+                language_code: en
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1e394_same-scores-intro-to-descriptive-statistics/subtitles/lang_pt-br_vs2.srt'
+                language_code: pt-br
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1e394_same-scores-intro-to-descriptive-statistics/subtitles/lang_zh-cn_vs1.srt'
+                language_code: zh-cn
+            transcodings:
+              uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1e394_same-scores-intro-to-descriptive-statistics/same-scores-intro-to-descriptive-statistics_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1e394_same-scores-intro-to-descriptive-statistics/same-scores-intro-to-descriptive-statistics_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1e394_same-scores-intro-to-descriptive-statistics/same-scores-intro-to-descriptive-statistics_480p.ogg'
+              uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1e394_same-scores-intro-to-descriptive-statistics/same-scores-intro-to-descriptive-statistics_720p.mp4'
+              uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1e394_same-scores-intro-to-descriptive-statistics/hls/playlist.m3u8'
+  - id: 176448
+    key: '562408160923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 样本平均值
+    semantic_type: Concept
+    updated_at: 'Mon Sep 05 2016 16:00:27 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174069
+    atoms:
+      - id: 174069
+        key: '56240816'
+        locale: zh-cn
+        version: 1.0.0
+        title: 样本平均值
+        semantic_type: QuizAtom
+        updated_at: 'Wed Apr 19 2017 22:01:59 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |-
+          ## 该样本的平均结果是大于、等于还是小于总体的平均结果？
+
+          - 大于 
+          - 等于 
+          - 小于
+        instruction:
+          video:
+            youtube_id: 90OMETgfDyk
+            subtitles:
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d098e8_sample-average-intro-to-descriptive-statistics/subtitles/lang_es_vs1.srt'
+                language_code: es
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d098e8_sample-average-intro-to-descriptive-statistics/subtitles/lang_pt-br_vs2.srt'
+                language_code: pt-br
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d098e8_sample-average-intro-to-descriptive-statistics/subtitles/lang_en_vs4.srt'
+                language_code: en
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d098e8_sample-average-intro-to-descriptive-statistics/subtitles/lang_zh-cn_vs1.srt'
+                language_code: zh-cn
+            transcodings:
+              uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d098e8_sample-average-intro-to-descriptive-statistics/sample-average-intro-to-descriptive-statistics_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d098e8_sample-average-intro-to-descriptive-statistics/sample-average-intro-to-descriptive-statistics_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d098e8_sample-average-intro-to-descriptive-statistics/sample-average-intro-to-descriptive-statistics_480p.ogg'
+              uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d098e8_sample-average-intro-to-descriptive-statistics/sample-average-intro-to-descriptive-statistics_720p.mp4'
+              uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d098e8_sample-average-intro-to-descriptive-statistics/hls/playlist.m3u8'
+          text: null
+        question:
+          title: 样本平均值
+          background_image: '//lh4.ggpht.com/Zw7qcnvyTpTl6-nkRs4miIuZsnP8iBA-VFMAhok5IIKrVgOv4EsJpJz2ZVNl8H6UN0V3GKCsh9s6dH0EFmoF=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '59393653'
+        answer:
+          text: null
+          video:
+            youtube_id: lR1rf2NQ6_M
+            subtitles:
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d15f5a_sample-average-intro-to-descriptive-statistics/subtitles/lang_pt-br_vs2.srt'
+                language_code: pt-br
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d15f5a_sample-average-intro-to-descriptive-statistics/subtitles/lang_es_vs1.srt'
+                language_code: es
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d15f5a_sample-average-intro-to-descriptive-statistics/subtitles/lang_en_vs4.srt'
+                language_code: en
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d15f5a_sample-average-intro-to-descriptive-statistics/subtitles/lang_zh-cn_vs1.srt'
+                language_code: zh-cn
+            transcodings:
+              uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d15f5a_sample-average-intro-to-descriptive-statistics/sample-average-intro-to-descriptive-statistics_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d15f5a_sample-average-intro-to-descriptive-statistics/sample-average-intro-to-descriptive-statistics_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d15f5a_sample-average-intro-to-descriptive-statistics/sample-average-intro-to-descriptive-statistics_480p.ogg'
+              uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d15f5a_sample-average-intro-to-descriptive-statistics/sample-average-intro-to-descriptive-statistics_720p.mp4'
+              uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d15f5a_sample-average-intro-to-descriptive-statistics/hls/playlist.m3u8'
+  - id: 176447
+    key: '564604840923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 更好的样本
+    semantic_type: Concept
+    updated_at: 'Mon Sep 05 2016 16:00:29 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174070
+    atoms:
+      - id: 174070
+        key: '56460484'
+        locale: zh-cn
+        version: 1.0.0
+        title: 更好的样本
+        semantic_type: QuizAtom
+        updated_at: 'Wed Apr 19 2017 22:01:57 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |-
+          ## 怎么才能使样本统计数据的平均值 X 更接近于总体参数 μ ？
+
+          - 使用更小样本量
+          - 使用更大样本量
+        instruction:
+          video:
+            youtube_id: I487nBkmUoM
+            subtitles:
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d11822_better-sample-intro-to-descriptive-statistics/subtitles/lang_es_vs1.srt'
+                language_code: es
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d11822_better-sample-intro-to-descriptive-statistics/subtitles/lang_pt-br_vs2.srt'
+                language_code: pt-br
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d11822_better-sample-intro-to-descriptive-statistics/subtitles/lang_en_vs5.srt'
+                language_code: en
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d11822_better-sample-intro-to-descriptive-statistics/subtitles/lang_zh-cn_vs2.srt'
+                language_code: zh-cn
+            transcodings:
+              uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d11822_better-sample-intro-to-descriptive-statistics/better-sample-intro-to-descriptive-statistics_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d11822_better-sample-intro-to-descriptive-statistics/better-sample-intro-to-descriptive-statistics_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d11822_better-sample-intro-to-descriptive-statistics/better-sample-intro-to-descriptive-statistics_480p.ogg'
+              uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d11822_better-sample-intro-to-descriptive-statistics/better-sample-intro-to-descriptive-statistics_720p.mp4'
+              uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d11822_better-sample-intro-to-descriptive-statistics/hls/playlist.m3u8'
+          text: null
+        question:
+          title: 更好的样本
+          background_image: '//lh4.ggpht.com/SE8C8RDf-uOGVLi9zH5VaEZfjn1gxX_o8FbnZPaJ1HF56hmCegdB7aQPfIEkRCPZjwopxerEm6SP5ip6hw=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '59393654'
+        answer:
+          text: null
+          video:
+            youtube_id: 9na_mOWP7pw
+            subtitles:
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d09b54_better-sample-intro-to-descriptive-statistics/subtitles/lang_es_vs2.srt'
+                language_code: es
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d09b54_better-sample-intro-to-descriptive-statistics/subtitles/lang_pt-br_vs2.srt'
+                language_code: pt-br
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d09b54_better-sample-intro-to-descriptive-statistics/subtitles/lang_en_vs4.srt'
+                language_code: en
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d09b54_better-sample-intro-to-descriptive-statistics/subtitles/lang_zh-cn_vs1.srt'
+                language_code: zh-cn
+            transcodings:
+              uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d09b54_better-sample-intro-to-descriptive-statistics/better-sample-intro-to-descriptive-statistics_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d09b54_better-sample-intro-to-descriptive-statistics/better-sample-intro-to-descriptive-statistics_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d09b54_better-sample-intro-to-descriptive-statistics/better-sample-intro-to-descriptive-statistics_480p.ogg'
+              uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d09b54_better-sample-intro-to-descriptive-statistics/better-sample-intro-to-descriptive-statistics_720p.mp4'
+              uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d09b54_better-sample-intro-to-descriptive-statistics/hls/playlist.m3u8'
+  - id: 176451
+    key: '603589360923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 随机性
+    semantic_type: Concept
+    updated_at: 'Mon Sep 05 2016 16:00:30 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174071
+    atoms:
+      - id: 174071
+        key: '60358936'
+        locale: zh-cn
+        version: 1.0.0
+        title: 随机性
+        semantic_type: VideoAtom
+        updated_at: 'Wed Apr 19 2017 21:40:00 GMT+0000 (UTC)'
+        is_public: true
+        tags: []
+        instructor_notes: null
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        video:
+          youtube_id: KwmQDhUkLAE
+          subtitles:
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d14f0e_randomness-intro-to-descriptive-statistics/subtitles/lang_pt-br_vs2.srt'
+              language_code: pt-br
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d14f0e_randomness-intro-to-descriptive-statistics/subtitles/lang_zh-cn_vs1.srt'
+              language_code: zh-cn
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d14f0e_randomness-intro-to-descriptive-statistics/subtitles/lang_en_vs3.srt'
+              language_code: en
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d14f0e_randomness-intro-to-descriptive-statistics/subtitles/lang_es_vs1.srt'
+              language_code: es
+          transcodings:
+            uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d14f0e_randomness-intro-to-descriptive-statistics/randomness-intro-to-descriptive-statistics_480p.mp4'
+            uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d14f0e_randomness-intro-to-descriptive-statistics/randomness-intro-to-descriptive-statistics_480p_1000kbps.mp4'
+            uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d14f0e_randomness-intro-to-descriptive-statistics/randomness-intro-to-descriptive-statistics_480p.ogg'
+            uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d14f0e_randomness-intro-to-descriptive-statistics/randomness-intro-to-descriptive-statistics_720p.mp4'
+            uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d14f0e_randomness-intro-to-descriptive-statistics/hls/playlist.m3u8'
+  - id: 176449
+    key: '2101291790923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 可视化关系
+    semantic_type: Concept
+    updated_at: 'Mon Sep 05 2016 16:00:33 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174072
+    atoms:
+      - id: 174072
+        key: '210129179'
+        locale: zh-cn
+        version: 1.0.0
+        title: 可视化关系
+        semantic_type: QuizAtom
+        updated_at: 'Wed Apr 19 2017 21:58:27 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |-
+          ## 睡眠时间和短时记忆得分之间有什么关系？
+
+          - 睡得越久，你的短时记忆得分就越高 
+          - 睡得越久，你的测试成绩越好 
+          - 睡得越久，你的记忆越差 
+          - 二者没有关系
+        instruction:
+          video:
+            youtube_id: 8_SBvU8NYak
+            subtitles:
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0972e_visualize-relationship-intro-to-descriptive-statistics/subtitles/lang_es_vs1.srt'
+                language_code: es
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0972e_visualize-relationship-intro-to-descriptive-statistics/subtitles/lang_pt-br_vs2.srt'
+                language_code: pt-br
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0972e_visualize-relationship-intro-to-descriptive-statistics/subtitles/lang_en_vs3.srt'
+                language_code: en
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0972e_visualize-relationship-intro-to-descriptive-statistics/subtitles/lang_zh-cn_vs1.srt'
+                language_code: zh-cn
+            transcodings:
+              uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0972e_visualize-relationship-intro-to-descriptive-statistics/visualize-relationship-intro-to-descriptive-statistics_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0972e_visualize-relationship-intro-to-descriptive-statistics/visualize-relationship-intro-to-descriptive-statistics_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0972e_visualize-relationship-intro-to-descriptive-statistics/visualize-relationship-intro-to-descriptive-statistics_480p.ogg'
+              uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0972e_visualize-relationship-intro-to-descriptive-statistics/visualize-relationship-intro-to-descriptive-statistics_720p.mp4'
+              uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0972e_visualize-relationship-intro-to-descriptive-statistics/hls/playlist.m3u8'
+          text: null
+        question:
+          title: 可视化关系
+          background_image: '//lh6.ggpht.com/wjeNJTRS5mLmmdYXWJEQ862D1kJXDkRK2vx7f7ATWDogVHbmMwkD12EFX2d59le5m65l7h5lNUVXKCbmYzo=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '210129181'
+        answer:
+          text: null
+          video:
+            youtube_id: fffGVf6-1-Y
+            subtitles:
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0deaa_visualize-relationship-intro-to-descriptive-statistics/subtitles/lang_es_vs1.srt'
+                language_code: es
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0deaa_visualize-relationship-intro-to-descriptive-statistics/subtitles/lang_pt-br_vs2.srt'
+                language_code: pt-br
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0deaa_visualize-relationship-intro-to-descriptive-statistics/subtitles/lang_en_vs4.srt'
+                language_code: en
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0deaa_visualize-relationship-intro-to-descriptive-statistics/subtitles/lang_zh-cn_vs1.srt'
+                language_code: zh-cn
+            transcodings:
+              uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0deaa_visualize-relationship-intro-to-descriptive-statistics/visualize-relationship-intro-to-descriptive-statistics_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0deaa_visualize-relationship-intro-to-descriptive-statistics/visualize-relationship-intro-to-descriptive-statistics_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0deaa_visualize-relationship-intro-to-descriptive-statistics/visualize-relationship-intro-to-descriptive-statistics_480p.ogg'
+              uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0deaa_visualize-relationship-intro-to-descriptive-statistics/visualize-relationship-intro-to-descriptive-statistics_720p.mp4'
+              uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0deaa_visualize-relationship-intro-to-descriptive-statistics/hls/playlist.m3u8'
+  - id: 176452
+    key: '564604860923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 真或假？
+    semantic_type: Concept
+    updated_at: 'Mon Sep 05 2016 16:00:35 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174073
+    atoms:
+      - id: 174073
+        key: '56460486'
+        locale: zh-cn
+        version: 1.0.0
+        title: 真或假？
+        semantic_type: QuizAtom
+        updated_at: 'Wed Apr 19 2017 21:58:27 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |-
+          ## 如果你更早去睡觉，第二天你的记忆力一定会更好吗？
+
+          - 是的 
+          - 才不是呢
+        instruction:
+          video:
+            youtube_id: Ftk7_ipeZH8
+            subtitles:
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0e7c0_true-or-not-intro-to-descriptive-statistics/subtitles/lang_es_vs1.srt'
+                language_code: es
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0e7c0_true-or-not-intro-to-descriptive-statistics/subtitles/lang_pt-br_vs2.srt'
+                language_code: pt-br
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0e7c0_true-or-not-intro-to-descriptive-statistics/subtitles/lang_en_vs4.srt'
+                language_code: en
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0e7c0_true-or-not-intro-to-descriptive-statistics/subtitles/lang_zh-cn_vs1.srt'
+                language_code: zh-cn
+            transcodings:
+              uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0e7c0_true-or-not-intro-to-descriptive-statistics/true-or-not-intro-to-descriptive-statistics_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0e7c0_true-or-not-intro-to-descriptive-statistics/true-or-not-intro-to-descriptive-statistics_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0e7c0_true-or-not-intro-to-descriptive-statistics/true-or-not-intro-to-descriptive-statistics_480p.ogg'
+              uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0e7c0_true-or-not-intro-to-descriptive-statistics/true-or-not-intro-to-descriptive-statistics_720p.mp4'
+              uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0e7c0_true-or-not-intro-to-descriptive-statistics/hls/playlist.m3u8'
+          text: null
+        question:
+          title: 真或假？
+          background_image: '//lh4.ggpht.com/7NPtWQG6lu64uYoAcc6Y2LlTaHOqp6B2RGIZsLR29vCh84bC8m_GvZiwnBIjdd0h7kqy-_eK7v4L20bD5w=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '59393658'
+        answer:
+          text: null
+          video:
+            youtube_id: HVa4G8jQbEo
+            subtitles:
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d113c9_true-or-not-intro-to-descriptive-statistics/subtitles/lang_es_vs2.srt'
+                language_code: es
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d113c9_true-or-not-intro-to-descriptive-statistics/subtitles/lang_pt-br_vs2.srt'
+                language_code: pt-br
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d113c9_true-or-not-intro-to-descriptive-statistics/subtitles/lang_en_vs4.srt'
+                language_code: en
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d113c9_true-or-not-intro-to-descriptive-statistics/subtitles/lang_zh-cn_vs1.srt'
+                language_code: zh-cn
+            transcodings:
+              uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d113c9_true-or-not-intro-to-descriptive-statistics/true-or-not-intro-to-descriptive-statistics_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d113c9_true-or-not-intro-to-descriptive-statistics/true-or-not-intro-to-descriptive-statistics_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d113c9_true-or-not-intro-to-descriptive-statistics/true-or-not-intro-to-descriptive-statistics_480p.ogg'
+              uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d113c9_true-or-not-intro-to-descriptive-statistics/true-or-not-intro-to-descriptive-statistics_720p.mp4'
+              uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d113c9_true-or-not-intro-to-descriptive-statistics/hls/playlist.m3u8'
+  - id: 176450
+    key: '561816740923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 金色拱门理论
+    semantic_type: Concept
+    updated_at: 'Mon Sep 05 2016 16:00:36 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174074
+    atoms:
+      - id: 174074
+        key: '56181674'
+        locale: zh-cn
+        version: 1.0.0
+        title: 金色拱门理论
+        semantic_type: VideoAtom
+        updated_at: 'Wed Apr 19 2017 21:33:14 GMT+0000 (UTC)'
+        is_public: true
+        tags: []
+        instructor_notes: 请注意，我们在此并非主张 Friedman 的理论，相反，我们在努力说明两个变量相关并不意味着其中一个是另一个发生的原因。
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        video:
+          youtube_id: C9NFjtqf-xU
+          subtitles:
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0a6d3_golden-arches-theory-intro-to-descriptive-statistics/subtitles/lang_es_vs2.srt'
+              language_code: es
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0a6d3_golden-arches-theory-intro-to-descriptive-statistics/subtitles/lang_pt-br_vs2.srt'
+              language_code: pt-br
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0a6d3_golden-arches-theory-intro-to-descriptive-statistics/subtitles/lang_en_vs4.srt'
+              language_code: en
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0a6d3_golden-arches-theory-intro-to-descriptive-statistics/subtitles/lang_zh-cn_vs1.srt'
+              language_code: zh-cn
+          transcodings:
+            uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0a6d3_golden-arches-theory-intro-to-descriptive-statistics/golden-arches-theory-intro-to-descriptive-statistics_480p.mp4'
+            uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0a6d3_golden-arches-theory-intro-to-descriptive-statistics/golden-arches-theory-intro-to-descriptive-statistics_480p_1000kbps.mp4'
+            uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0a6d3_golden-arches-theory-intro-to-descriptive-statistics/golden-arches-theory-intro-to-descriptive-statistics_480p.ogg'
+            uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0a6d3_golden-arches-theory-intro-to-descriptive-statistics/golden-arches-theory-intro-to-descriptive-statistics_720p.mp4'
+            uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0a6d3_golden-arches-theory-intro-to-descriptive-statistics/hls/playlist.m3u8'
+  - id: 176453
+    key: '608701610923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 麦当劳
+    semantic_type: Concept
+    updated_at: 'Mon Sep 05 2016 16:00:38 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174075
+    atoms:
+      - id: 174075
+        key: '60870161'
+        locale: zh-cn
+        version: 1.0.0
+        title: 麦当劳
+        semantic_type: VideoAtom
+        updated_at: 'Wed Apr 19 2017 21:40:01 GMT+0000 (UTC)'
+        is_public: true
+        tags: []
+        instructor_notes: null
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        video:
+          youtube_id: 29Vf6PytVbA
+          subtitles:
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0757e_mcdonalds-intro-to-descriptive-statistics/subtitles/lang_es_vs1.srt'
+              language_code: es
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0757e_mcdonalds-intro-to-descriptive-statistics/subtitles/lang_pt-br_vs2.srt'
+              language_code: pt-br
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0757e_mcdonalds-intro-to-descriptive-statistics/subtitles/lang_en_vs3.srt'
+              language_code: en
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0757e_mcdonalds-intro-to-descriptive-statistics/subtitles/lang_zh-cn_vs1.srt'
+              language_code: zh-cn
+          transcodings:
+            uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0757e_mcdonalds-intro-to-descriptive-statistics/mcdonalds-intro-to-descriptive-statistics_480p.mp4'
+            uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0757e_mcdonalds-intro-to-descriptive-statistics/mcdonalds-intro-to-descriptive-statistics_480p_1000kbps.mp4'
+            uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0757e_mcdonalds-intro-to-descriptive-statistics/mcdonalds-intro-to-descriptive-statistics_480p.ogg'
+            uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0757e_mcdonalds-intro-to-descriptive-statistics/mcdonalds-intro-to-descriptive-statistics_720p.mp4'
+            uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0757e_mcdonalds-intro-to-descriptive-statistics/hls/playlist.m3u8'
+  - id: 176454
+    key: '564604870923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 世界和平
+    semantic_type: Concept
+    updated_at: 'Mon Sep 05 2016 16:00:39 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174076
+    atoms:
+      - id: 174076
+        key: '56460487'
+        locale: zh-cn
+        version: 1.0.0
+        title: 世界和平
+        semantic_type: QuizAtom
+        updated_at: 'Wed Apr 19 2017 21:58:27 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |-
+          ## 你怎么看？
+
+          - 完全合理！麦当劳使人们更加开心，人们开心了，就不会有战争了。 
+          - 国家将好多钱花在开设麦当劳门店上，无法维持战争开销。 
+          - 开设麦当劳门店的国家的人民，吃得太不健康，结果没法打仗。 
+          - 开设麦当劳门店的国家，更愿意接受全球化和国外投资，不太会与其他开放国家交战。
+
+          ----
+
+          请注意，尽管这个理论有非常充分的实证支持，但是人类冲突是非常复杂的，无法仅由一个单方面的因素解释。
+        instruction:
+          video:
+            youtube_id: 0plipvHyAlk
+            subtitles:
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57cfb537_mcdonalds-world-peace-intro-to-descriptive-statistics/subtitles/lang_es_vs1.srt'
+                language_code: es
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57cfb537_mcdonalds-world-peace-intro-to-descriptive-statistics/subtitles/lang_pt-br_vs1.srt'
+                language_code: pt-br
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57cfb537_mcdonalds-world-peace-intro-to-descriptive-statistics/subtitles/lang_en_vs5.srt'
+                language_code: en
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57cfb537_mcdonalds-world-peace-intro-to-descriptive-statistics/subtitles/lang_zh-cn_vs2.srt'
+                language_code: zh-cn
+            transcodings:
+              uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57cfb537_mcdonalds-world-peace-intro-to-descriptive-statistics/mcdonalds-world-peace-intro-to-descriptive-statistics_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57cfb537_mcdonalds-world-peace-intro-to-descriptive-statistics/mcdonalds-world-peace-intro-to-descriptive-statistics_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57cfb537_mcdonalds-world-peace-intro-to-descriptive-statistics/mcdonalds-world-peace-intro-to-descriptive-statistics_480p.ogg'
+              uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57cfb537_mcdonalds-world-peace-intro-to-descriptive-statistics/mcdonalds-world-peace-intro-to-descriptive-statistics_720p.mp4'
+              uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57cfb537_mcdonalds-world-peace-intro-to-descriptive-statistics/hls/playlist.m3u8'
+          text: null
+        question:
+          title: 麦当劳 = 世界和平?
+          background_image: '//lh3.ggpht.com/Zt5wYMWik23eD5CGqJ-h0mOzn9mS9TOygq7Bvs21ivmhhfTCQT_IPQn1puST3S6yzmHTsKdJwwoM93yQcw=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '59393659'
+        answer:
+          text: null
+          video:
+            youtube_id: OT2aD9XgOWg
+            subtitles:
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1aa9d_mcdonalds-world-peace-intro-to-descriptive-statistics/subtitles/lang_es_vs1.srt'
+                language_code: es
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1aa9d_mcdonalds-world-peace-intro-to-descriptive-statistics/subtitles/lang_en_vs4.srt'
+                language_code: en
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1aa9d_mcdonalds-world-peace-intro-to-descriptive-statistics/subtitles/lang_pt-br_vs1.srt'
+                language_code: pt-br
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1aa9d_mcdonalds-world-peace-intro-to-descriptive-statistics/subtitles/lang_zh-cn_vs1.srt'
+                language_code: zh-cn
+            transcodings:
+              uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1aa9d_mcdonalds-world-peace-intro-to-descriptive-statistics/mcdonalds-world-peace-intro-to-descriptive-statistics_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1aa9d_mcdonalds-world-peace-intro-to-descriptive-statistics/mcdonalds-world-peace-intro-to-descriptive-statistics_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1aa9d_mcdonalds-world-peace-intro-to-descriptive-statistics/mcdonalds-world-peace-intro-to-descriptive-statistics_480p.ogg'
+              uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1aa9d_mcdonalds-world-peace-intro-to-descriptive-statistics/mcdonalds-world-peace-intro-to-descriptive-statistics_720p.mp4'
+              uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1aa9d_mcdonalds-world-peace-intro-to-descriptive-statistics/hls/playlist.m3u8'
+  - id: 176456
+    key: '2092360000923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 因果推理
+    semantic_type: Concept
+    updated_at: 'Mon Sep 05 2016 16:00:40 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174077
+    atoms:
+      - id: 174077
+        key: '209236000'
+        locale: zh-cn
+        version: 1.0.0
+        title: 因果推理
+        semantic_type: VideoAtom
+        updated_at: 'Wed Apr 19 2017 21:40:01 GMT+0000 (UTC)'
+        is_public: true
+        tags: []
+        instructor_notes: null
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        video:
+          youtube_id: Ozsae1O5LYs
+          subtitles:
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1aee1_causal-inference-intro-to-descriptive-statistics/subtitles/lang_en_vs3.srt'
+              language_code: en
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1aee1_causal-inference-intro-to-descriptive-statistics/subtitles/lang_pt-br_vs2.srt'
+              language_code: pt-br
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1aee1_causal-inference-intro-to-descriptive-statistics/subtitles/lang_es_vs1.srt'
+              language_code: es
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1aee1_causal-inference-intro-to-descriptive-statistics/subtitles/lang_th_vs6.srt'
+              language_code: th
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1aee1_causal-inference-intro-to-descriptive-statistics/subtitles/lang_pt_vs1.srt'
+              language_code: pt
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1aee1_causal-inference-intro-to-descriptive-statistics/subtitles/lang_zh-cn_vs1.srt'
+              language_code: zh-cn
+          transcodings:
+            uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1aee1_causal-inference-intro-to-descriptive-statistics/causal-inference-intro-to-descriptive-statistics_480p.mp4'
+            uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1aee1_causal-inference-intro-to-descriptive-statistics/causal-inference-intro-to-descriptive-statistics_480p_1000kbps.mp4'
+            uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1aee1_causal-inference-intro-to-descriptive-statistics/causal-inference-intro-to-descriptive-statistics_480p.ogg'
+            uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1aee1_causal-inference-intro-to-descriptive-statistics/causal-inference-intro-to-descriptive-statistics_720p.mp4'
+            uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1aee1_causal-inference-intro-to-descriptive-statistics/hls/playlist.m3u8'
+  - id: 176455
+    key: '564604880923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 调查问卷的优势
+    semantic_type: Concept
+    updated_at: 'Mon Sep 05 2016 16:00:42 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174078
+    atoms:
+      - id: 174078
+        key: '56460488'
+        locale: zh-cn
+        version: 1.0.0
+        title: 调查问卷的优势
+        semantic_type: QuizAtom
+        updated_at: 'Wed Apr 19 2017 21:57:26 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |-
+          ## 你认为通过调查问卷展开调查的好处有哪些？
+
+          - 它是了解总体的最简单方式之一  
+          - 相对来说成本较低 
+          - 可以远程进行 
+          - 任何人都可以访问并分析调查结果
+        instruction:
+          video:
+            youtube_id: yw4LmtAVXGY
+            subtitles:
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1cd64_benefits-of-surveys-intro-to-descriptive-statistics/subtitles/lang_es_vs1.srt'
+                language_code: es
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1cd64_benefits-of-surveys-intro-to-descriptive-statistics/subtitles/lang_pt-br_vs2.srt'
+                language_code: pt-br
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1cd64_benefits-of-surveys-intro-to-descriptive-statistics/subtitles/lang_en_vs4.srt'
+                language_code: en
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1cd64_benefits-of-surveys-intro-to-descriptive-statistics/subtitles/lang_zh-cn_vs1.srt'
+                language_code: zh-cn
+            transcodings:
+              uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1cd64_benefits-of-surveys-intro-to-descriptive-statistics/benefits-of-surveys-intro-to-descriptive-statistics_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1cd64_benefits-of-surveys-intro-to-descriptive-statistics/benefits-of-surveys-intro-to-descriptive-statistics_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1cd64_benefits-of-surveys-intro-to-descriptive-statistics/benefits-of-surveys-intro-to-descriptive-statistics_480p.ogg'
+              uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1cd64_benefits-of-surveys-intro-to-descriptive-statistics/benefits-of-surveys-intro-to-descriptive-statistics_720p.mp4'
+              uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1cd64_benefits-of-surveys-intro-to-descriptive-statistics/hls/playlist.m3u8'
+          text: null
+        question:
+          title: 调查问卷的优势
+          background_image: '//lh5.ggpht.com/RX5sjHCWpWG_4Q8XS_vTC-ZAqk5Tuxb644m3cJ3A63L6Y2mNdZ59W929Bknxu-D5_4jdTtw0qc4PMktx5p0=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '59393661'
+        answer:
+          text: null
+          video:
+            youtube_id: MLGu66F25qU
+            subtitles:
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1702c_benefits-of-surveys-intro-to-descriptive-statistics/subtitles/lang_pt-br_vs1.srt'
+                language_code: pt-br
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1702c_benefits-of-surveys-intro-to-descriptive-statistics/subtitles/lang_en_vs4.srt'
+                language_code: en
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1702c_benefits-of-surveys-intro-to-descriptive-statistics/subtitles/lang_es_vs2.srt'
+                language_code: es
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1702c_benefits-of-surveys-intro-to-descriptive-statistics/subtitles/lang_zh-cn_vs1.srt'
+                language_code: zh-cn
+            transcodings:
+              uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1702c_benefits-of-surveys-intro-to-descriptive-statistics/benefits-of-surveys-intro-to-descriptive-statistics_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1702c_benefits-of-surveys-intro-to-descriptive-statistics/benefits-of-surveys-intro-to-descriptive-statistics_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1702c_benefits-of-surveys-intro-to-descriptive-statistics/benefits-of-surveys-intro-to-descriptive-statistics_480p.ogg'
+              uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1702c_benefits-of-surveys-intro-to-descriptive-statistics/benefits-of-surveys-intro-to-descriptive-statistics_720p.mp4'
+              uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1702c_benefits-of-surveys-intro-to-descriptive-statistics/hls/playlist.m3u8'
+  - id: 176458
+    key: '564604890923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 调查问卷的不足
+    semantic_type: Concept
+    updated_at: 'Mon Sep 05 2016 16:00:45 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174079
+    atoms:
+      - id: 174079
+        key: '56460489'
+        locale: zh-cn
+        version: 1.0.0
+        title: 调查问卷的不足
+        semantic_type: QuizAtom
+        updated_at: 'Wed Apr 19 2017 21:58:27 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |-
+          ## 你认为通过调查问卷有哪些不足呢？
+
+          - 不真实的回答 
+          - 有偏见的回答 
+          - 参与者没理解问题的意思 
+          - 参与者拒绝回答
+        instruction:
+          video:
+            youtube_id: mFV4DJuEFhQ
+            subtitles:
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d16cf9_downsides-of-surveys-intro-to-descriptive-statistics/subtitles/lang_es_vs1.srt'
+                language_code: es
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d16cf9_downsides-of-surveys-intro-to-descriptive-statistics/subtitles/lang_en_vs4.srt'
+                language_code: en
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d16cf9_downsides-of-surveys-intro-to-descriptive-statistics/subtitles/lang_zh-cn_vs2.srt'
+                language_code: zh-cn
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d16cf9_downsides-of-surveys-intro-to-descriptive-statistics/subtitles/lang_pt-br_vs2.srt'
+                language_code: pt-br
+            transcodings:
+              uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d16cf9_downsides-of-surveys-intro-to-descriptive-statistics/downsides-of-surveys-intro-to-descriptive-statistics_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d16cf9_downsides-of-surveys-intro-to-descriptive-statistics/downsides-of-surveys-intro-to-descriptive-statistics_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d16cf9_downsides-of-surveys-intro-to-descriptive-statistics/downsides-of-surveys-intro-to-descriptive-statistics_480p.ogg'
+              uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d16cf9_downsides-of-surveys-intro-to-descriptive-statistics/downsides-of-surveys-intro-to-descriptive-statistics_720p.mp4'
+              uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d16cf9_downsides-of-surveys-intro-to-descriptive-statistics/hls/playlist.m3u8'
+          text: null
+        question:
+          title: 调查问卷的不足
+          background_image: '//lh3.ggpht.com/NWdogEUQG7BVPvgVn1LQ7ZujBH3eACFpRVjVacJ0pUAMCEcyQKnfDB1M5AulILHt_2xa49sOTbkdRTt86uYm=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '59393662'
+        answer:
+          text: null
+          video:
+            youtube_id: 0ezYH2ppmT0
+            subtitles:
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d06bc0_downsides-of-surveys-intro-to-descriptive-statistics/subtitles/lang_es_vs2.srt'
+                language_code: es
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d06bc0_downsides-of-surveys-intro-to-descriptive-statistics/subtitles/lang_pt-br_vs2.srt'
+                language_code: pt-br
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d06bc0_downsides-of-surveys-intro-to-descriptive-statistics/subtitles/lang_en_vs5.srt'
+                language_code: en
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d06bc0_downsides-of-surveys-intro-to-descriptive-statistics/subtitles/lang_zh-cn_vs2.srt'
+                language_code: zh-cn
+            transcodings:
+              uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d06bc0_downsides-of-surveys-intro-to-descriptive-statistics/downsides-of-surveys-intro-to-descriptive-statistics_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d06bc0_downsides-of-surveys-intro-to-descriptive-statistics/downsides-of-surveys-intro-to-descriptive-statistics_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d06bc0_downsides-of-surveys-intro-to-descriptive-statistics/downsides-of-surveys-intro-to-descriptive-statistics_480p.ogg'
+              uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d06bc0_downsides-of-surveys-intro-to-descriptive-statistics/downsides-of-surveys-intro-to-descriptive-statistics_720p.mp4'
+              uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d06bc0_downsides-of-surveys-intro-to-descriptive-statistics/hls/playlist.m3u8'
+  - id: 176457
+    key: '562408190923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 安慰剂
+    semantic_type: Concept
+    updated_at: 'Mon Sep 05 2016 16:00:46 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174080
+    atoms:
+      - id: 174080
+        key: '56240819'
+        locale: zh-cn
+        version: 1.0.0
+        title: 安慰剂
+        semantic_type: QuizAtom
+        updated_at: 'Wed Apr 19 2017 22:01:56 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |-
+          ## 你认为给某些人派发没有疗效的药丸的目的是什么？
+
+          - 为了确保有效药丸没有副作用 
+          - 让服用有效药丸的人群有个对照组 
+          - 了解无效药丸是否有助于睡眠
+        instruction:
+          video:
+            youtube_id: lEl0alktZkM
+            subtitles:
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d157bb_placebo-intro-to-descriptive-statistics/subtitles/lang_en_vs5.srt'
+                language_code: en
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d157bb_placebo-intro-to-descriptive-statistics/subtitles/lang_pt-br_vs2.srt'
+                language_code: pt-br
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d157bb_placebo-intro-to-descriptive-statistics/subtitles/lang_zh-cn_vs1.srt'
+                language_code: zh-cn
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d157bb_placebo-intro-to-descriptive-statistics/subtitles/lang_es_vs1.srt'
+                language_code: es
+            transcodings:
+              uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d157bb_placebo-intro-to-descriptive-statistics/placebo-intro-to-descriptive-statistics_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d157bb_placebo-intro-to-descriptive-statistics/placebo-intro-to-descriptive-statistics_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d157bb_placebo-intro-to-descriptive-statistics/placebo-intro-to-descriptive-statistics_480p.ogg'
+              uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d157bb_placebo-intro-to-descriptive-statistics/placebo-intro-to-descriptive-statistics_720p.mp4'
+              uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d157bb_placebo-intro-to-descriptive-statistics/hls/playlist.m3u8'
+          text: null
+        question:
+          title: 安慰剂
+          background_image: '//lh5.ggpht.com/KLBNglT7ePugBJgbM6e_WkdZtxtkBG8INCZspyhnSDmlnnpUFGSsbBvoEWO_e954B_jCvf4qzeTAepkVHj8=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '59393663'
+        answer:
+          text: null
+          video:
+            youtube_id: IJZs7KARtFo
+            subtitles:
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d11fd6_placebo-intro-to-descriptive-statistics/subtitles/lang_es_vs1.srt'
+                language_code: es
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d11fd6_placebo-intro-to-descriptive-statistics/subtitles/lang_pt-br_vs2.srt'
+                language_code: pt-br
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d11fd6_placebo-intro-to-descriptive-statistics/subtitles/lang_en_vs4.srt'
+                language_code: en
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d11fd6_placebo-intro-to-descriptive-statistics/subtitles/lang_zh-cn_vs1.srt'
+                language_code: zh-cn
+            transcodings:
+              uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d11fd6_placebo-intro-to-descriptive-statistics/placebo-intro-to-descriptive-statistics_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d11fd6_placebo-intro-to-descriptive-statistics/placebo-intro-to-descriptive-statistics_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d11fd6_placebo-intro-to-descriptive-statistics/placebo-intro-to-descriptive-statistics_480p.ogg'
+              uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d11fd6_placebo-intro-to-descriptive-statistics/placebo-intro-to-descriptive-statistics_720p.mp4'
+              uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d11fd6_placebo-intro-to-descriptive-statistics/hls/playlist.m3u8'
+  - id: 176459
+    key: '560159670923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 单盲
+    semantic_type: Concept
+    updated_at: 'Mon Sep 05 2016 16:00:48 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174081
+    atoms:
+      - id: 174081
+        key: '56015967'
+        locale: zh-cn
+        version: 1.0.0
+        title: 单盲
+        semantic_type: QuizAtom
+        updated_at: 'Wed Apr 19 2017 21:55:58 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |-
+          ## 为什么不告诉参与者他们服用的是有效药丸还是无效药丸？
+
+          - 所有良好的研究都会欺骗参与者 
+          - 当参与者知道他们服用的是药物，就不会参与研究了 
+          - 让他们都认为自己服用的是药物 
+          - 当他们知道自己收到的不是药物，就不会参与研究了
+        instruction:
+          video:
+            youtube_id: NNE8Cr77ytg
+            subtitles:
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1867c_blind-intro-to-descriptive-statistics/subtitles/lang_zh-cn_vs2.srt'
+                language_code: zh-cn
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1867c_blind-intro-to-descriptive-statistics/subtitles/lang_es_vs1.srt'
+                language_code: es
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1867c_blind-intro-to-descriptive-statistics/subtitles/lang_pt-br_vs2.srt'
+                language_code: pt-br
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1867c_blind-intro-to-descriptive-statistics/subtitles/lang_en_vs5.srt'
+                language_code: en
+            transcodings:
+              uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1867c_blind-intro-to-descriptive-statistics/blind-intro-to-descriptive-statistics_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1867c_blind-intro-to-descriptive-statistics/blind-intro-to-descriptive-statistics_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1867c_blind-intro-to-descriptive-statistics/blind-intro-to-descriptive-statistics_480p.ogg'
+              uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1867c_blind-intro-to-descriptive-statistics/blind-intro-to-descriptive-statistics_720p.mp4'
+              uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1867c_blind-intro-to-descriptive-statistics/hls/playlist.m3u8'
+          text: null
+        question:
+          title: 单盲
+          background_image: '//lh3.ggpht.com/WrDKhhNZ7dSFzoEKhortPFzdpqJRxwj6lG4AlZrMagwDF7wSqZJs0Swj3j7dJig9kieG5OEhl4pQVo3PeDo=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '59393664'
+        answer:
+          text: null
+          video:
+            youtube_id: O0zo3-NtBSI
+            subtitles:
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d19c23_blind-intro-to-descriptive-statistics/subtitles/lang_zh-cn_vs1.srt'
+                language_code: zh-cn
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d19c23_blind-intro-to-descriptive-statistics/subtitles/lang_pt-br_vs2.srt'
+                language_code: pt-br
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d19c23_blind-intro-to-descriptive-statistics/subtitles/lang_es_vs2.srt'
+                language_code: es
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d19c23_blind-intro-to-descriptive-statistics/subtitles/lang_en_vs4.srt'
+                language_code: en
+            transcodings:
+              uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d19c23_blind-intro-to-descriptive-statistics/blind-intro-to-descriptive-statistics_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d19c23_blind-intro-to-descriptive-statistics/blind-intro-to-descriptive-statistics_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d19c23_blind-intro-to-descriptive-statistics/blind-intro-to-descriptive-statistics_480p.ogg'
+              uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d19c23_blind-intro-to-descriptive-statistics/blind-intro-to-descriptive-statistics_720p.mp4'
+              uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d19c23_blind-intro-to-descriptive-statistics/hls/playlist.m3u8'
+  - id: 176463
+    key: '564604900923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 双盲
+    semantic_type: Concept
+    updated_at: 'Mon Sep 05 2016 16:00:49 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174084
+    atoms:
+      - id: 174084
+        key: '56460490'
+        locale: zh-cn
+        version: 1.0.0
+        title: 双盲
+        semantic_type: QuizAtom
+        updated_at: 'Wed Apr 19 2017 22:02:07 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |-
+          ## 你认为这些研究人员应该知道参与者服用的是哪种药丸吗？
+
+          - 应该知道，因为他们的评分取决于参与者接受的疗法 
+          - 不应该知道，这样可以保持参与者机密性 
+          - 应该知道，这样研究人员的评分会更准确 
+          - 不应该知道，因为如果知道了，他们的判断就存在偏差了
+        instruction:
+          video:
+            youtube_id: Vx9bxJHQJf8
+            subtitles:
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d28bcf_double-blind-intro-to-descriptive-statistics/subtitles/lang_en_vs4.srt'
+                language_code: en
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d28bcf_double-blind-intro-to-descriptive-statistics/subtitles/lang_zh-cn_vs2.srt'
+                language_code: zh-cn
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d28bcf_double-blind-intro-to-descriptive-statistics/subtitles/lang_pt-br_vs2.srt'
+                language_code: pt-br
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d28bcf_double-blind-intro-to-descriptive-statistics/subtitles/lang_es_vs3.srt'
+                language_code: es
+            transcodings:
+              uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d28bcf_double-blind-intro-to-descriptive-statistics/double-blind-intro-to-descriptive-statistics_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d28bcf_double-blind-intro-to-descriptive-statistics/double-blind-intro-to-descriptive-statistics_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d28bcf_double-blind-intro-to-descriptive-statistics/double-blind-intro-to-descriptive-statistics_480p.ogg'
+              uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d28bcf_double-blind-intro-to-descriptive-statistics/double-blind-intro-to-descriptive-statistics_720p.mp4'
+              uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d28bcf_double-blind-intro-to-descriptive-statistics/hls/playlist.m3u8'
+          text: null
+        question:
+          title: 双盲
+          background_image: '//lh5.ggpht.com/BwriMb_QnLovIS6obWcHFYTIkZtp12TLd_e_qxoK133cRkyeJMMxF9fggz6Z8W66JA7c8I3r-uwL4Qw98hg=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '59393665'
+        answer:
+          text: null
+          video:
+            youtube_id: wRmbFgwsvQU
+            subtitles:
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d033fc_double-blind-intro-to-descriptive-statistics/subtitles/lang_zh-cn_vs1.srt'
+                language_code: zh-cn
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d033fc_double-blind-intro-to-descriptive-statistics/subtitles/lang_en_vs4.srt'
+                language_code: en
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d033fc_double-blind-intro-to-descriptive-statistics/subtitles/lang_pt-br_vs2.srt'
+                language_code: pt-br
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d033fc_double-blind-intro-to-descriptive-statistics/subtitles/lang_es_vs1.srt'
+                language_code: es
+            transcodings:
+              uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d033fc_double-blind-intro-to-descriptive-statistics/double-blind-intro-to-descriptive-statistics_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d033fc_double-blind-intro-to-descriptive-statistics/double-blind-intro-to-descriptive-statistics_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d033fc_double-blind-intro-to-descriptive-statistics/double-blind-intro-to-descriptive-statistics_480p.ogg'
+              uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d033fc_double-blind-intro-to-descriptive-statistics/double-blind-intro-to-descriptive-statistics_720p.mp4'
+              uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d033fc_double-blind-intro-to-descriptive-statistics/hls/playlist.m3u8'
+  - id: 176462
+    key: '562408200923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 受控因素
+    semantic_type: Concept
+    updated_at: 'Mon Sep 05 2016 16:00:50 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174085
+    atoms:
+      - id: 174085
+        key: '56240820'
+        locale: zh-cn
+        version: 1.0.0
+        title: 受控因素
+        semantic_type: QuizAtom
+        updated_at: 'Wed Apr 19 2017 21:58:27 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |-
+          ## 在这个实验中，我们控制了哪些因素？
+
+          - 参与者服用药丸的时间  
+          - 参与者睡眠地点 
+          - 参与者的性别 
+          - 参与者的年龄 
+          - 药丸的外观
+        instruction:
+          video:
+            youtube_id: 2ijmV_oIGHo
+            subtitles:
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d07639_controlled-factors-intro-to-descriptive-statistics/subtitles/lang_es_vs1.srt'
+                language_code: es
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d07639_controlled-factors-intro-to-descriptive-statistics/subtitles/lang_pt-br_vs2.srt'
+                language_code: pt-br
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d07639_controlled-factors-intro-to-descriptive-statistics/subtitles/lang_en_vs4.srt'
+                language_code: en
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d07639_controlled-factors-intro-to-descriptive-statistics/subtitles/lang_zh-cn_vs1.srt'
+                language_code: zh-cn
+            transcodings:
+              uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d07639_controlled-factors-intro-to-descriptive-statistics/controlled-factors-intro-to-descriptive-statistics_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d07639_controlled-factors-intro-to-descriptive-statistics/controlled-factors-intro-to-descriptive-statistics_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d07639_controlled-factors-intro-to-descriptive-statistics/controlled-factors-intro-to-descriptive-statistics_480p.ogg'
+              uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d07639_controlled-factors-intro-to-descriptive-statistics/controlled-factors-intro-to-descriptive-statistics_720p.mp4'
+              uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d07639_controlled-factors-intro-to-descriptive-statistics/hls/playlist.m3u8'
+          text: null
+        question:
+          title: 受控因素
+          background_image: '//lh3.ggpht.com/WTQWfCDtscQk7uw4A75iu3EiuxVj1jLjatj9P8mdvqwZHS-LKAcXkbzjm_kzGU3fGbOR0JzP4fQmWkW8y_Q=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '59393666'
+        answer:
+          text: null
+          video:
+            youtube_id: 0aDtHA_lGc8
+            subtitles:
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d071bb_controlled-factors-intro-to-descriptive-statistics/subtitles/lang_es_vs1.srt'
+                language_code: es
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d071bb_controlled-factors-intro-to-descriptive-statistics/subtitles/lang_pt-br_vs2.srt'
+                language_code: pt-br
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d071bb_controlled-factors-intro-to-descriptive-statistics/subtitles/lang_en_vs5.srt'
+                language_code: en
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d071bb_controlled-factors-intro-to-descriptive-statistics/subtitles/lang_zh-cn_vs1.srt'
+                language_code: zh-cn
+            transcodings:
+              uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d071bb_controlled-factors-intro-to-descriptive-statistics/controlled-factors-intro-to-descriptive-statistics_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d071bb_controlled-factors-intro-to-descriptive-statistics/controlled-factors-intro-to-descriptive-statistics_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d071bb_controlled-factors-intro-to-descriptive-statistics/controlled-factors-intro-to-descriptive-statistics_480p.ogg'
+              uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d071bb_controlled-factors-intro-to-descriptive-statistics/controlled-factors-intro-to-descriptive-statistics_720p.mp4'
+              uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d071bb_controlled-factors-intro-to-descriptive-statistics/hls/playlist.m3u8'
+  - id: 176460
+    key: '561816910923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 随机分配
+    semantic_type: Concept
+    updated_at: 'Mon Sep 05 2016 16:00:51 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174082
+    atoms:
+      - id: 174082
+        key: '56181691'
+        locale: zh-cn
+        version: 1.0.0
+        title: 随机分配
+        semantic_type: VideoAtom
+        updated_at: 'Wed Apr 19 2017 21:40:01 GMT+0000 (UTC)'
+        is_public: true
+        tags: []
+        instructor_notes: '<a target="_blank" href="http://blogs.kqed.org/mindshift/2013/01/why-sleeping-may-be-more-important-than-studying/">睡觉可能比学习更重要</a>。'
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        video:
+          youtube_id: 5AjiR_nLH2M
+          subtitles:
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57cfb26d_random-assignment-intro-to-descriptive-statistics/subtitles/lang_es_vs1.srt'
+              language_code: es
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57cfb26d_random-assignment-intro-to-descriptive-statistics/subtitles/lang_pt-br_vs3.srt'
+              language_code: pt-br
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57cfb26d_random-assignment-intro-to-descriptive-statistics/subtitles/lang_en_vs4.srt'
+              language_code: en
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57cfb26d_random-assignment-intro-to-descriptive-statistics/subtitles/lang_zh-cn_vs1.srt'
+              language_code: zh-cn
+          transcodings:
+            uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57cfb26d_random-assignment-intro-to-descriptive-statistics/random-assignment-intro-to-descriptive-statistics_480p.mp4'
+            uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57cfb26d_random-assignment-intro-to-descriptive-statistics/random-assignment-intro-to-descriptive-statistics_480p_1000kbps.mp4'
+            uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57cfb26d_random-assignment-intro-to-descriptive-statistics/random-assignment-intro-to-descriptive-statistics_480p.ogg'
+            uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57cfb26d_random-assignment-intro-to-descriptive-statistics/random-assignment-intro-to-descriptive-statistics_720p.mp4'
+            uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57cfb26d_random-assignment-intro-to-descriptive-statistics/hls/playlist.m3u8'
+  - id: 176461
+    key: '560159660923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 控制什么？
+    semantic_type: Concept
+    updated_at: 'Mon Sep 05 2016 16:00:54 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174083
+    atoms:
+      - id: 174083
+        key: '56015966'
+        locale: zh-cn
+        version: 1.0.0
+        title: 控制什么？
+        semantic_type: QuizAtom
+        updated_at: 'Fri Apr 28 2017 08:17:30 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |-
+          ## 如果我们让每个人参加两项记忆力测试，第一次测试前被试睡得很少，第二次测试前被试睡得很多，然后比较两次测试的结果。在这个试验中，我们控制了哪些因素？
+
+          - 因为性别不同造成的记忆力差别 
+          - 每个人的睡眠时间的长短 
+          - 每个人的记忆能力的差异 
+          - 被试在一天的什么时间参加记忆力测试
+        instruction:
+          video:
+            youtube_id: F-PiFb6Jcrk
+            subtitles:
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0d755_control-for-what-intro-to-descriptive-statistics/subtitles/lang_es_vs1.srt'
+                language_code: es
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0d755_control-for-what-intro-to-descriptive-statistics/subtitles/lang_pt-br_vs1.srt'
+                language_code: pt-br
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0d755_control-for-what-intro-to-descriptive-statistics/subtitles/lang_en_vs4.srt'
+                language_code: en
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0d755_control-for-what-intro-to-descriptive-statistics/subtitles/lang_zh-cn_vs2.srt'
+                language_code: zh-cn
+            transcodings:
+              uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0d755_control-for-what-intro-to-descriptive-statistics/control-for-what-intro-to-descriptive-statistics_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0d755_control-for-what-intro-to-descriptive-statistics/control-for-what-intro-to-descriptive-statistics_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0d755_control-for-what-intro-to-descriptive-statistics/control-for-what-intro-to-descriptive-statistics_480p.ogg'
+              uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0d755_control-for-what-intro-to-descriptive-statistics/control-for-what-intro-to-descriptive-statistics_720p.mp4'
+              uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0d755_control-for-what-intro-to-descriptive-statistics/hls/playlist.m3u8'
+          text: null
+        question:
+          title: 控制什么？
+          background_image: '//lh6.ggpht.com/7a5zEQ_R_yjHbbZZmu5_zzYpv76IQ5G2Zvm41HYRXgA0ynkHVoSM5J36r0VlQW7_IVh37vKzMWr2Goe3rw=s0#w=1920&h=1080'
+          alt_text: ''
+          semantic_type: ImageFormQuestion
+          evaluation_id: '59393667'
+        answer:
+          text: null
+          video:
+            youtube_id: kFKsCAyiPuY
+            subtitles:
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1441c_control-for-what-intro-to-descriptive-statistics/subtitles/lang_es_vs1.srt'
+                language_code: es
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1441c_control-for-what-intro-to-descriptive-statistics/subtitles/lang_en_vs4.srt'
+                language_code: en
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1441c_control-for-what-intro-to-descriptive-statistics/subtitles/lang_zh-cn_vs1.srt'
+                language_code: zh-cn
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1441c_control-for-what-intro-to-descriptive-statistics/subtitles/lang_pt-br_vs2.srt'
+                language_code: pt-br
+            transcodings:
+              uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1441c_control-for-what-intro-to-descriptive-statistics/control-for-what-intro-to-descriptive-statistics_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1441c_control-for-what-intro-to-descriptive-statistics/control-for-what-intro-to-descriptive-statistics_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1441c_control-for-what-intro-to-descriptive-statistics/control-for-what-intro-to-descriptive-statistics_480p.ogg'
+              uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1441c_control-for-what-intro-to-descriptive-statistics/control-for-what-intro-to-descriptive-statistics_720p.mp4'
+              uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1441c_control-for-what-intro-to-descriptive-statistics/hls/playlist.m3u8'
+  - id: 176464
+    key: '562408210923'
+    locale: zh-cn
+    version: 1.0.0
+    title: Katie 的手
+    semantic_type: Concept
+    updated_at: 'Mon Sep 05 2016 16:00:56 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174086
+    atoms:
+      - id: 174086
+        key: '56240821'
+        locale: zh-cn
+        version: 1.0.0
+        title: Katie 的手
+        semantic_type: QuizAtom
+        updated_at: 'Wed Apr 19 2017 21:58:27 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |-
+          ## Katie 的手的长度是 6.75 英寸，你认为她有多高？
+
+          ----
+
+          点击这里下载数据：[身高和手长](https://s3.cn-north-1.amazonaws.com.cn/static-documents/nd002/Height+and+hand+length+of+Udacians+-+Lesson+1.xlsx)。
+        instruction:
+          video:
+            youtube_id: qyyAtT9vgr4
+            subtitles:
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1d2b6_katies-hand-intro-to-descriptive-statistics/subtitles/lang_th_vs7.srt'
+                language_code: th
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1d2b6_katies-hand-intro-to-descriptive-statistics/subtitles/lang_zh-cn_vs5.srt'
+                language_code: zh-cn
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1d2b6_katies-hand-intro-to-descriptive-statistics/subtitles/lang_pt-br_vs1.srt'
+                language_code: pt-br
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1d2b6_katies-hand-intro-to-descriptive-statistics/subtitles/lang_en_vs7.srt'
+                language_code: en
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1d2b6_katies-hand-intro-to-descriptive-statistics/subtitles/lang_es_vs1.srt'
+                language_code: es
+            transcodings:
+              uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1d2b6_katies-hand-intro-to-descriptive-statistics/katies-hand-intro-to-descriptive-statistics_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1d2b6_katies-hand-intro-to-descriptive-statistics/katies-hand-intro-to-descriptive-statistics_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1d2b6_katies-hand-intro-to-descriptive-statistics/katies-hand-intro-to-descriptive-statistics_480p.ogg'
+              uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1d2b6_katies-hand-intro-to-descriptive-statistics/katies-hand-intro-to-descriptive-statistics_720p.mp4'
+              uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1d2b6_katies-hand-intro-to-descriptive-statistics/hls/playlist.m3u8'
+          text: null
+        question:
+          title: Katie 的手
+          background_image: '//lh3.ggpht.com/CIwYGHWjNj4jl0HP-YVnEwmibbtXzNP_XCcDoyJ2hCzof07Wk1MF_eiGlfpJV0FWaXbyJWdhhNsn6Lu-7X4=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '59393668'
+        answer:
+          text: null
+          video:
+            youtube_id: i87r_q2SrLI
+            subtitles:
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d11910_katies-hand-intro-to-descriptive-statistics/subtitles/lang_es_vs1.srt'
+                language_code: es
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d11910_katies-hand-intro-to-descriptive-statistics/subtitles/lang_pt-br_vs1.srt'
+                language_code: pt-br
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d11910_katies-hand-intro-to-descriptive-statistics/subtitles/lang_en_vs4.srt'
+                language_code: en
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d11910_katies-hand-intro-to-descriptive-statistics/subtitles/lang_zh-cn_vs1.srt'
+                language_code: zh-cn
+            transcodings:
+              uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d11910_katies-hand-intro-to-descriptive-statistics/katies-hand-intro-to-descriptive-statistics_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d11910_katies-hand-intro-to-descriptive-statistics/katies-hand-intro-to-descriptive-statistics_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d11910_katies-hand-intro-to-descriptive-statistics/katies-hand-intro-to-descriptive-statistics_480p.ogg'
+              uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d11910_katies-hand-intro-to-descriptive-statistics/katies-hand-intro-to-descriptive-statistics_720p.mp4'
+              uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d11910_katies-hand-intro-to-descriptive-statistics/hls/playlist.m3u8'
+  - id: 176465
+    key: '560159680923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 得出结论
+    semantic_type: Concept
+    updated_at: 'Mon Sep 05 2016 16:00:58 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174087
+    atoms:
+      - id: 174087
+        key: '56015968'
+        locale: zh-cn
+        version: 1.0.0
+        title: 得出结论
+        semantic_type: QuizAtom
+        updated_at: 'Wed Apr 19 2017 21:58:27 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |-
+          ## 考虑到我们已知 Kaite 的手长是6.75 英寸，我们可以从这组“身高和手长数据”中得出什么结论？
+
+          - 如果我想变的更高，我的指甲应该留得更长 
+          - 更高的人手更长
+          - 我不可能高于 7 英尺 
+          - 手更长的人，一般也更高
+        instruction:
+          video:
+            youtube_id: yeHOhz4ZF1c
+            subtitles:
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1c965_draw-conclusions-intro-to-descriptive-statistics/subtitles/lang_pt-br_vs1.srt'
+                language_code: pt-br
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1c965_draw-conclusions-intro-to-descriptive-statistics/subtitles/lang_en_vs3.srt'
+                language_code: en
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1c965_draw-conclusions-intro-to-descriptive-statistics/subtitles/lang_zh-cn_vs1.srt'
+                language_code: zh-cn
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1c965_draw-conclusions-intro-to-descriptive-statistics/subtitles/lang_es_vs2.srt'
+                language_code: es
+            transcodings:
+              uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1c965_draw-conclusions-intro-to-descriptive-statistics/draw-conclusions-intro-to-descriptive-statistics_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1c965_draw-conclusions-intro-to-descriptive-statistics/draw-conclusions-intro-to-descriptive-statistics_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1c965_draw-conclusions-intro-to-descriptive-statistics/draw-conclusions-intro-to-descriptive-statistics_480p.ogg'
+              uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1c965_draw-conclusions-intro-to-descriptive-statistics/draw-conclusions-intro-to-descriptive-statistics_720p.mp4'
+              uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1c965_draw-conclusions-intro-to-descriptive-statistics/hls/playlist.m3u8'
+          text: null
+        question:
+          title: 得出结论
+          background_image: '//lh6.ggpht.com/mqi0uOP3_Z-Ri-EqmAI2XX8KgCUJN5i08LdPVHrf5UJs1lpY2DfizxRosKiTsDPl3X8q5l9GJaCkIaWPjms=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '59393669'
+        answer:
+          text: null
+          video:
+            youtube_id: NymYenNcVdk
+            subtitles:
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d19a89_draw-conclusions-intro-to-descriptive-statistics/subtitles/lang_es_vs1.srt'
+                language_code: es
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d19a89_draw-conclusions-intro-to-descriptive-statistics/subtitles/lang_pt-br_vs1.srt'
+                language_code: pt-br
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d19a89_draw-conclusions-intro-to-descriptive-statistics/subtitles/lang_zh-cn_vs1.srt'
+                language_code: zh-cn
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d19a89_draw-conclusions-intro-to-descriptive-statistics/subtitles/lang_en_vs4.srt'
+                language_code: en
+            transcodings:
+              uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d19a89_draw-conclusions-intro-to-descriptive-statistics/draw-conclusions-intro-to-descriptive-statistics_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d19a89_draw-conclusions-intro-to-descriptive-statistics/draw-conclusions-intro-to-descriptive-statistics_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d19a89_draw-conclusions-intro-to-descriptive-statistics/draw-conclusions-intro-to-descriptive-statistics_480p.ogg'
+              uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d19a89_draw-conclusions-intro-to-descriptive-statistics/draw-conclusions-intro-to-descriptive-statistics_720p.mp4'
+              uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d19a89_draw-conclusions-intro-to-descriptive-statistics/hls/playlist.m3u8'

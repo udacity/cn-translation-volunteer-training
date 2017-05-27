@@ -20,7 +20,7 @@ you'll learn a lot in the process. We think that the easiest way to share this
 
 6
 00:00:17,113 --> 00:00:19,461
-data with you is with a Google account. Count.
+data with you is with a Google account.
 
 7
 00:00:19,466 --> 00:00:24,078

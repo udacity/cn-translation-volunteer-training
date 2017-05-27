@@ -1,0 +1,163 @@
+1
+00:00:00,620 --> 00:00:02,870
+Hi I'm Shanon Bradshaw director of education
+
+2
+00:00:02,870 --> 00:00:06,270
+at MongoDB, MongoDB is the company behind the
+
+3
+00:00:06,270 --> 00:00:11,690
+open source noSQL database of the same name. Prior to joining MongoDB, I was a
+
+4
+00:00:11,690 --> 00:00:16,200
+computer scientist working in academia and consulting
+
+5
+00:00:16,200 --> 00:00:18,170
+on a number of different data science projects
+
+6
+00:00:18,170 --> 00:00:21,510
+in the financial industry, social media and other
+
+7
+00:00:21,510 --> 00:00:24,810
+spaces. This is a class about data wrangling.
+
+8
+00:00:25,840 --> 00:00:28,760
+Data scientist spend about 70% of their time data
+
+9
+00:00:28,760 --> 00:00:32,409
+wrangling. So what is data wrangling? Well, it's a process
+
+10
+00:00:32,409 --> 00:00:38,210
+of gathering, extracting, cleaning, and storing our data. Only
+
+11
+00:00:38,210 --> 00:00:40,020
+after that does it really make sense to do any
+
+12
+00:00:40,020 --> 00:00:43,740
+analysis. So if you're quantum wall street and you
+
+13
+00:00:43,740 --> 00:00:45,910
+want to build models to automate trading you first need
+
+14
+00:00:45,910 --> 00:00:47,890
+to make sure you're basing your models on reliable
+
+15
+00:00:47,890 --> 00:00:50,970
+data. Or if you're building a map app you need
+
+16
+00:00:50,970 --> 00:00:53,820
+to ensure your data's correct, or you can quickly find yourself in something
+
+17
+00:00:53,820 --> 00:00:57,710
+of a public relations disaster. As another example if you're working on
+
+18
+00:00:57,710 --> 00:01:00,850
+a smaller scale Analyzing data for a research team, you want to
+
+19
+00:01:00,850 --> 00:01:04,200
+ensure your team can make decisions based on the data you're providing. If
+
+20
+00:01:04,200 --> 00:01:05,910
+you don't take the time to ensure your data is in good
+
+21
+00:01:05,910 --> 00:01:09,500
+shape before doing any analysis, you run a big risk of wasting
+
+22
+00:01:09,500 --> 00:01:12,710
+a lot of time later on, or worse, losing the faith of
+
+23
+00:01:12,710 --> 00:01:16,230
+your colleagues, who depend on the data you've prepared. It's a little like
+
+24
+00:01:16,230 --> 00:01:19,320
+putting the cart before the horse. So while we're going
+
+25
+00:01:19,320 --> 00:01:21,550
+to get to some analysis, That's why we're doing all this
+
+26
+00:01:21,550 --> 00:01:24,200
+in the first place. This class is really about getting
+
+27
+00:01:24,200 --> 00:01:26,650
+your data ready so that any analysis is built on a
+
+28
+00:01:26,650 --> 00:01:30,200
+solid foundation of good data. Here you're going to get
+
+29
+00:01:30,200 --> 00:01:32,700
+a chance to do some tinkering. We're going to develop your
+
+30
+00:01:32,700 --> 00:01:36,040
+hacker muscles, or, should I say, wrangler muscles. We'll work
+
+31
+00:01:36,040 --> 00:01:41,340
+with lots of different types of data. For music, energy, Wikipedia,
+
+32
+00:01:41,340 --> 00:01:44,090
+and Twitter, to name a few. We'll also teach you how
+
+33
+00:01:44,090 --> 00:01:46,280
+to work with data in most of the formats you're likely
+
+34
+00:01:46,280 --> 00:01:51,290
+to see. JSON, XML, CSV, Excel, and HTML. And even some
+
+35
+00:01:51,290 --> 00:01:54,170
+legacy text formats. In the last half of the course, we'll
+
+36
+00:01:54,170 --> 00:01:56,390
+show you how to store your data in MondoDB, and use
+
+37
+00:01:56,390 --> 00:02:00,390
+it to support analysis. Mongo DB is becoming increasingly important to
+
+38
+00:02:00,390 --> 00:02:03,930
+data scientists around the world, as a powerful and scalable tool
+
+39
+00:02:03,930 --> 00:02:06,370
+for big data problems. And we'll wrap it up with a
+
+40
+00:02:06,370 --> 00:02:09,300
+case study, that allows you to put all the pieces together.
+
+41
+00:02:09,300 --> 00:02:11,650
+We're happy to have you in the class. Let's get started.

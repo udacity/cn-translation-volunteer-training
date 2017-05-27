@@ -1,13 +1,10 @@
-declare -a arr=(
-"53b_nnGcnBY"
-"OeiBJ_D-ZsM"
-"YSEGZMBbxTk"
-"RJyVIgUUemE"
-"ax7aaLNZkPA"
+declare -a arr=("-S4vc6tvxoI"
+                "TcWtpvLSoG0"
+                "_Lp_3KUltFk"
+                "9L9bhMCHQ-M"
+                "Fi7RjhBLobY"
                 )
 
-mkdir en-us
-mkdir zh-cn
 
 for i in "${arr[@]}"
 do

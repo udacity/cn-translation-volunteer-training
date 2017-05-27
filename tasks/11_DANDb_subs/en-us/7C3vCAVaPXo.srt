@@ -4,7 +4,7 @@ Throughout this course, we're going to be sharing a lot of data that we collect
 
 2
 00:00:03,459 --> 00:00:06,875
-with you. We're going to be sharing a lot of data with you. Some of it will be
+with you. Some of it will be
 
 3
 00:00:06,887 --> 00:00:10,228

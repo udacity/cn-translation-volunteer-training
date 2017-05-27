@@ -13,8 +13,26 @@
 5. 在 Github 上提交 pull request
 
 
-#### 字幕文件
+
+
+## 字幕文件
 
 | Transfer Learning- | WmQwYr0DYjY | [https://www.youtube.com/watch?v=WmQwYr0DYjY](https://www.youtube.com/watch?v=WmQwYr0DYjY) | [https://s3.cn-north-1.amazonaws.com.cn/u-vid-hd/WmQwYr0DYjY.mp4](https://s3.cn-north-1.amazonaws.com.cn/u-vid-hd/WmQwYr0DYjY.mp4) |
 | ------------------ | ----------- | ---------------------------------------- | ---------------------------------------- |
 | Building VGGNet    | 615SslQiGvo | [https://www.youtube.com/watch?v=615SslQiGvo](https://www.youtube.com/watch?v=615SslQiGvo) | [https://s3.cn-north-1.amazonaws.com.cn/u-vid-hd/615SslQiGvo.mp4](https://s3.cn-north-1.amazonaws.com.cn/u-vid-hd/615SslQiGvo.mp4) |
+
+
+
+## 额外说明
+
+
+
+建议，校译标准：
+
+\1. 以中国学员能看懂为主，可以适当调整或解释中文表达 
+
+\2. 换行断句可根据中文习惯顺一点，如果英文在某个意群中间硬生生断成了两条字幕，中文中可以适当上移或下移，保持意群意思完整性
+
+\3. 因为英文语法结构习惯性地出现许多“我们的”，“我的”这样的废话，中文可以视情删除，以符合中文表达习惯，且让字幕简练一点。如 our network, our layer之类的。
+
+\4. 翻译时尽量使得视觉上看字幕的时候能看懂，可以译完以后可以自己放一遍，看思路能不能跟上字幕的flow

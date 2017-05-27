@@ -1,0 +1,1044 @@
+id: 116486
+key: '4591758867'
+locale: en-us
+version: 1.0.0
+title: 'PS 1a: Intro to Research Methods'
+semantic_type: Lesson
+updated_at: 'Sat Apr 29 2017 23:37:06 GMT+0000 (UTC)'
+is_public: true
+image: null
+video: null
+summary: Practice identifying the terminologies related to research and experimentation methods.
+duration: 60
+is_project_lesson: false
+_concepts_ids:
+  - 105985
+  - 47341
+  - 67546
+  - 33949
+  - 73209
+  - 56179
+  - 120754
+  - 6332
+  - 100504
+  - 117342
+  - 102370
+  - 46278
+  - 100447
+  - 76646
+  - 70787
+  - 119722
+  - 138891
+  - 139223
+  - 138835
+  - 66648
+  - 72296
+  - 23643
+_project_id: null
+concepts:
+  - id: 105985
+    key: '43991285560923'
+    locale: en-us
+    version: 1.0.0
+    title: Problem Set Numbering
+    semantic_type: Concept
+    updated_at: 'Tue May 31 2016 02:42:41 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 57412
+    atoms:
+      - id: 57412
+        key: '4399128556'
+        locale: en-us
+        version: 1.0.0
+        title: Problem Set Numbering
+        semantic_type: TextAtom
+        updated_at: 'Tue Jun 21 2016 22:18:25 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          ## Problem Set Numbering
+
+          You may notice as you go through the problem set "PS 1a: Intro to Research Methods" and other problem sets that the problem numbers in the progress bar are not always consecutive.
+
+          For lessons with two problem sets, if one problem set appears to be "missing" problems, those problems will appear in the other problem set for the lesson. For example, PS 1a skips from Problem 3 to 6 because Problems 4 and 5 are in PS 1b.
+
+          Problems with similar numbers usually cover similar topics. For example, Problems 1-3 from PS 1a and 4-5 from PS 1b all cover terminology for discussing populations and samples.
+        instructor_notes: null
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+  - id: 47341
+    key: '2514367150923'
+    locale: en-us
+    version: 1.0.0
+    title: 1. All California Residents
+    semantic_type: Concept
+    updated_at: 'Tue May 31 2016 02:45:43 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 109211
+    atoms:
+      - id: 109211
+        key: '251436715'
+        locale: en-us
+        version: 1.0.0
+        title: 1. All California Residents
+        semantic_type: QuizAtom
+        updated_at: 'Tue Jun 21 2016 22:16:48 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: ''
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 1. All California Residents
+          background_image: '//lh6.ggpht.com/THr70eQEzmHFdNb0qwcyo4y0bLbnNiIw14v-SrUqCd-O2n0PRM6XxxQu3T03gtgJXz72cBBYNOnsNpwJCg8=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '56631171'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 67546
+    key: '2514367160923'
+    locale: en-us
+    version: 1.0.0
+    title: 2. Sleepy College Students
+    semantic_type: Concept
+    updated_at: 'Tue May 31 2016 02:45:43 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 105481
+    atoms:
+      - id: 105481
+        key: '251436716'
+        locale: en-us
+        version: 1.0.0
+        title: 2. Sleepy College Students
+        semantic_type: QuizAtom
+        updated_at: 'Tue Jun 21 2016 22:16:48 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: ''
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 2. Sleepy College Students
+          background_image: '//lh6.ggpht.com/YvCcJM7e3vao-DNgtheRmt4NpwA5renG707Dnhtak6-RCkL9PmVXuKN-KWzQyYJZwtYTeiCZ3Hzb7l7S6w=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '56631172'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 33949
+    key: '2514367170923'
+    locale: en-us
+    version: 1.0.0
+    title: 3. Not Enough Sleep...?
+    semantic_type: Concept
+    updated_at: 'Tue May 31 2016 02:45:43 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 105480
+    atoms:
+      - id: 105480
+        key: '251436717'
+        locale: en-us
+        version: 1.0.0
+        title: 3. Not Enough Sleep...?
+        semantic_type: QuizAtom
+        updated_at: 'Tue Jun 21 2016 22:16:48 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: ''
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 3. Not Enough Sleep...?
+          background_image: '//lh3.ggpht.com/htEEspk45GfZFobTNp16YF0AOMxcCzuS0wQ9IGkdHYbooNXlKSZERMq5rvaEUPyiqCGDcvZCX4fKe5nVtaM=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '56631173'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 73209
+    key: '2514367200923'
+    locale: en-us
+    version: 1.0.0
+    title: 6. Characteristic of a Population
+    semantic_type: Concept
+    updated_at: 'Tue May 31 2016 02:45:43 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 99715
+    atoms:
+      - id: 99715
+        key: '251436720'
+        locale: en-us
+        version: 1.0.0
+        title: 6. Characteristic of a Population
+        semantic_type: QuizAtom
+        updated_at: 'Tue Jun 21 2016 22:16:31 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: ''
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 6. Characteristic of a Population
+          background_image: '//lh3.ggpht.com/2z9gBsFzHEi68UeChPnZZjrCYHrbT5nbll5cWCN63fDyDtBZt6S7P90GQrKnYaU2FhdcUh1AbEWYRWhBsg=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '56631176'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 56179
+    key: '2514367210923'
+    locale: en-us
+    version: 1.0.0
+    title: 7. Sample Approximates Population
+    semantic_type: Concept
+    updated_at: 'Tue May 31 2016 02:45:43 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 105486
+    atoms:
+      - id: 105486
+        key: '251436721'
+        locale: en-us
+        version: 1.0.0
+        title: 7. Sample Approximates Population
+        semantic_type: QuizAtom
+        updated_at: 'Tue Jun 21 2016 22:16:48 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: ''
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 7. Sample Approximates Population
+          background_image: '//lh6.ggpht.com/QU2-6Hr_V8yBjJ8A2P0sDIuv3AxRkd8Lzcmyu6v-w8sV9hvSXf0ewNqQUQEs68qO2M2EibSb1FKNoPtyGhs=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '56631177'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 120754
+    key: '2514367230923'
+    locale: en-us
+    version: 1.0.0
+    title: 9. Survey to Friends
+    semantic_type: Concept
+    updated_at: 'Tue May 31 2016 02:45:43 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 105523
+    atoms:
+      - id: 105523
+        key: '251436723'
+        locale: en-us
+        version: 1.0.0
+        title: 9. Survey to Friends
+        semantic_type: QuizAtom
+        updated_at: 'Tue Jun 21 2016 22:16:48 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: ''
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 9. Survey to Friends
+          background_image: '//lh5.ggpht.com/2YBCJ0IatFmCFKhdr-jKuevnWFp-swFa4z9_G5CAOAbEn1TTWkft29xEiNR9Xy7Pgl1tTbYS69U9iGq6Uw=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '56631179'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 6332
+    key: '2514367240923'
+    locale: en-us
+    version: 1.0.0
+    title: 10. Which Are Constructs?
+    semantic_type: Concept
+    updated_at: 'Tue May 31 2016 02:45:43 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 105519
+    atoms:
+      - id: 105519
+        key: '251436724'
+        locale: en-us
+        version: 1.0.0
+        title: 10. Which Are Constructs?
+        semantic_type: QuizAtom
+        updated_at: 'Tue Jun 21 2016 22:16:48 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: ''
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 10. Which Are Constructs?
+          background_image: '//lh6.ggpht.com/Xkz4L8CVHb5RCVn4VLgSif91209pkA0lcALhw0HaXrhH3DFp0eaZ4WLApXbOcPYTkRm0szCKt2qKjOzEJg=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '56631180'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 100504
+    key: '2514367260923'
+    locale: en-us
+    version: 1.0.0
+    title: 12. Define Operational Definition
+    semantic_type: Concept
+    updated_at: 'Tue May 31 2016 02:45:43 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 105173
+    atoms:
+      - id: 105173
+        key: '251436726'
+        locale: en-us
+        version: 1.0.0
+        title: 12. Define Operational Definition
+        semantic_type: QuizAtom
+        updated_at: 'Tue Jun 21 2016 22:16:52 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: ''
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 12. Define Operational Definition
+          background_image: '//lh6.ggpht.com/cu7oCDJghIsfXslP87eIZ6IhDkUsyGpZ2bCqqQaIa6Sc38Vj6aMy0QWqjvBfH8roOgNJlwYGQiWpBUsckf8=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '56631182'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 117342
+    key: '2514367270923'
+    locale: en-us
+    version: 1.0.0
+    title: 13. Research Studies
+    semantic_type: Concept
+    updated_at: 'Tue May 31 2016 02:45:43 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 105499
+    atoms:
+      - id: 105499
+        key: '251436727'
+        locale: en-us
+        version: 1.0.0
+        title: 13. Research Studies
+        semantic_type: QuizAtom
+        updated_at: 'Tue Jun 21 2016 22:16:48 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: ''
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 13. Research Studies
+          background_image: '//lh5.ggpht.com/lq3WhuvQv0awnUfQ_1y6KLwtQ3-JKVHKiZ1KdkLdJpfvL4O-n79gYkS5ugE-eUhIW-hVUKc1TaiJXlVJ7tY=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '56631183'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 102370
+    key: '2514367280923'
+    locale: en-us
+    version: 1.0.0
+    title: 14. Variables
+    semantic_type: Concept
+    updated_at: 'Tue May 31 2016 02:45:43 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 105184
+    atoms:
+      - id: 105184
+        key: '251436728'
+        locale: en-us
+        version: 1.0.0
+        title: 14. Variables
+        semantic_type: QuizAtom
+        updated_at: 'Tue Jun 21 2016 22:16:52 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: ''
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 14. Variables
+          background_image: '//lh3.ggpht.com/c14zgp425KZn7p2C4_PrB1PEOx8BiMeiSTuLvhnvOEaFx9U9Ih5_qhxG23U5JC7FJZMN-6NZ9wEWhWRcWDQ=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '56631184'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 46278
+    key: '2514367300923'
+    locale: en-us
+    version: 1.0.0
+    title: 16. Which Are Hypotheses?
+    semantic_type: Concept
+    updated_at: 'Tue May 31 2016 02:45:43 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 105487
+    atoms:
+      - id: 105487
+        key: '251436730'
+        locale: en-us
+        version: 1.0.0
+        title: 16. Which Are Hypotheses?
+        semantic_type: QuizAtom
+        updated_at: 'Tue Jun 21 2016 22:16:48 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: ''
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 16. Which Are Hypotheses?
+          background_image: '//lh3.ggpht.com/ivtAaBUpxt9IEn3AqJSgpWJGI4qESSLlwPRQKurlyrpbi5RUn9kVjYAidsMuXFJUIZeknRcM2pLJ1Jrsyg=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '56631186'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 100447
+    key: '2514367310923'
+    locale: en-us
+    version: 1.0.0
+    title: 17. Lurking Around
+    semantic_type: Concept
+    updated_at: 'Tue May 31 2016 02:45:43 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 105511
+    atoms:
+      - id: 105511
+        key: '251436731'
+        locale: en-us
+        version: 1.0.0
+        title: 17. Lurking Around
+        semantic_type: QuizAtom
+        updated_at: 'Tue Jun 21 2016 22:16:48 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: ''
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 17. Lurking Around
+          background_image: '//lh4.ggpht.com/_IMRm5oziZwIvC0jJG0KeC7g_yqdRugfkM8_TDT6AMRjbTA1qWE2JZPqO1dKMv1j5NfDrvt5l86ExpnoAN8s=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '56631187'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 76646
+    key: '2514367320923'
+    locale: en-us
+    version: 1.0.0
+    title: 18. Symbols = Fun Fun Fun!
+    semantic_type: Concept
+    updated_at: 'Tue May 31 2016 02:45:43 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 103198
+    atoms:
+      - id: 103198
+        key: '251436732'
+        locale: en-us
+        version: 1.0.0
+        title: 18. Symbols = Fun Fun Fun!
+        semantic_type: QuizAtom
+        updated_at: 'Tue Jun 21 2016 22:16:37 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: ''
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 18. Symbols = Fun Fun Fun!
+          background_image: '//lh5.ggpht.com/X7LRKoBn_PyFlYJtQ3ueYSvDmUpe6QSzL3OtfcJctl8tygHcASlpSfl-qjtREa6gbi_paJDN6ROkF9a0-7g=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '56631188'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 70787
+    key: '2514367350923'
+    locale: en-us
+    version: 1.0.0
+    title: 21. Random Sample
+    semantic_type: Concept
+    updated_at: 'Tue May 31 2016 02:45:43 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 99639
+    atoms:
+      - id: 99639
+        key: '251436735'
+        locale: en-us
+        version: 1.0.0
+        title: 21. Random Sample
+        semantic_type: QuizAtom
+        updated_at: 'Tue Jun 21 2016 22:16:31 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: ''
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 21. Random Sample
+          background_image: '//lh5.ggpht.com/BgOfjss_Fjdlq0zYc_C1CbUcQNmm4nuAEVSWy_N6fn9DOUeAnRFtseY0U_vb9G5ip6pQFw-EN2tykMogz7dy=s0#w=1280&h=720'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '56631191'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 119722
+    key: '2514367360923'
+    locale: en-us
+    version: 1.0.0
+    title: 22. Convenience Samples
+    semantic_type: Concept
+    updated_at: 'Tue May 31 2016 02:45:43 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 99630
+    atoms:
+      - id: 99630
+        key: '251436736'
+        locale: en-us
+        version: 1.0.0
+        title: 22. Convenience Samples
+        semantic_type: QuizAtom
+        updated_at: 'Tue Jun 21 2016 22:16:31 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: ''
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 22. Convenience Samples
+          background_image: '//lh5.ggpht.com/3pAJH1rr0G_7l7NGLo_9exHHxbOQxT1WiiFlNTRLzFJC4YjVHgXFaKWAYE62hzJ1913ESUR44Dkic_vK1z0=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '56631192'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 138891
+    key: '2514367370923'
+    locale: en-us
+    version: 1.0.0
+    title: 23. Sample vs. Population
+    semantic_type: Concept
+    updated_at: 'Tue May 31 2016 02:45:43 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 105520
+    atoms:
+      - id: 105520
+        key: '251436737'
+        locale: en-us
+        version: 1.0.0
+        title: 23. Sample vs. Population
+        semantic_type: QuizAtom
+        updated_at: 'Tue Jun 21 2016 22:16:48 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: ''
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 23. Sample vs. Population
+          background_image: '//lh4.ggpht.com/ReoiyjYfGIMSlxvZk4r0Pog1UFXnYQ8hSv3glTF_RVbw6EvOO_NL-cILoBO1MDyObZLuWi_-VfHOw7LmqS_F=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '56631193'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 139223
+    key: '595394880923'
+    locale: en-us
+    version: 1.0.0
+    title: 26. Video Games
+    semantic_type: Concept
+    updated_at: 'Tue May 31 2016 02:46:11 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 17163
+    atoms:
+      - id: 17163
+        key: '59539488'
+        locale: en-us
+        version: 1.0.0
+        title: 26. Video Games
+        semantic_type: QuizAtom
+        updated_at: 'Wed Apr 19 2017 22:01:29 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: ''
+        instruction:
+          video:
+            youtube_id: SyszPG1615c
+            subtitles:
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d25fa3_video-games-intro-to-descriptive-statistics/subtitles/lang_en_vs5.srt'
+                language_code: en
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d25fa3_video-games-intro-to-descriptive-statistics/subtitles/lang_es_vs2.srt'
+                language_code: es
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d25fa3_video-games-intro-to-descriptive-statistics/subtitles/lang_zh-cn_vs1.srt'
+                language_code: zh-cn
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d25fa3_video-games-intro-to-descriptive-statistics/subtitles/lang_pt-br_vs1.srt'
+                language_code: pt-br
+            transcodings:
+              uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d25fa3_video-games-intro-to-descriptive-statistics/video-games-intro-to-descriptive-statistics_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d25fa3_video-games-intro-to-descriptive-statistics/video-games-intro-to-descriptive-statistics_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d25fa3_video-games-intro-to-descriptive-statistics/video-games-intro-to-descriptive-statistics_480p.ogg'
+              uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d25fa3_video-games-intro-to-descriptive-statistics/video-games-intro-to-descriptive-statistics_720p.mp4'
+              uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d25fa3_video-games-intro-to-descriptive-statistics/hls/playlist.m3u8'
+          text: null
+        question:
+          title: Video Games
+          background_image: '//lh6.ggpht.com/ibG4LwsstQ3EyUF0AkZGL3O_V4eTs4KzT9RgkgbefY7sPcENQo1Z5OmRVCzAg_kpcBOvdXYi3_0FuYUfW8Q=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '56480595'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 138835
+    key: '2514367430923'
+    locale: en-us
+    version: 1.0.0
+    title: 33. All Kinds of Variables
+    semantic_type: Concept
+    updated_at: 'Tue May 31 2016 02:45:43 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 106324
+    atoms:
+      - id: 106324
+        key: '251436743'
+        locale: en-us
+        version: 1.0.0
+        title: 33. All Kinds of Variables
+        semantic_type: QuizAtom
+        updated_at: 'Tue Jun 21 2016 22:16:31 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: ''
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 33. All Kinds of Variables
+          background_image: '//lh4.ggpht.com/jYuif78Wt8svmGMxXB8UTNW9wzpsb-TqYDldvEkNmVTXW1z-wy2yMHUtb6nSRpLSFhqreEvaX-urOYzyKw=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '56480602'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 66648
+    key: '2514367440923'
+    locale: en-us
+    version: 1.0.0
+    title: 36. Student Satisfaction
+    semantic_type: Concept
+    updated_at: 'Tue May 31 2016 02:45:43 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 96793
+    atoms:
+      - id: 96793
+        key: '251436744'
+        locale: en-us
+        version: 1.0.0
+        title: 36. Student Satisfaction
+        semantic_type: QuizAtom
+        updated_at: 'Tue Jun 21 2016 22:16:25 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: ''
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 36. Student Satisfaction
+          background_image: '//lh6.ggpht.com/moBTkxAp26_oJcBZVy8a04dK2btjSmHWbfsiMo_t0J-NcLs3tJFlE_kNOcXgNrNxzM6qsGXcOJGkUzETSKs=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '56480604'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 72296
+    key: '595394910923'
+    locale: en-us
+    version: 1.0.0
+    title: 37. Insomnia
+    semantic_type: Concept
+    updated_at: 'Tue May 31 2016 02:46:11 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 83268
+    atoms:
+      - id: 83268
+        key: '59539491'
+        locale: en-us
+        version: 1.0.0
+        title: 37. Insomnia
+        semantic_type: QuizAtom
+        updated_at: 'Wed Apr 19 2017 21:56:59 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: ''
+        instruction:
+          video:
+            youtube_id: HbnB5SQqmoM
+            subtitles:
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d10470_insomnia-intro-to-descriptive-statistics/subtitles/lang_es_vs1.srt'
+                language_code: es
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d10470_insomnia-intro-to-descriptive-statistics/subtitles/lang_pt-br_vs1.srt'
+                language_code: pt-br
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d10470_insomnia-intro-to-descriptive-statistics/subtitles/lang_en_vs4.srt'
+                language_code: en
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d10470_insomnia-intro-to-descriptive-statistics/subtitles/lang_zh-cn_vs1.srt'
+                language_code: zh-cn
+            transcodings:
+              uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d10470_insomnia-intro-to-descriptive-statistics/insomnia-intro-to-descriptive-statistics_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d10470_insomnia-intro-to-descriptive-statistics/insomnia-intro-to-descriptive-statistics_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d10470_insomnia-intro-to-descriptive-statistics/insomnia-intro-to-descriptive-statistics_480p.ogg'
+              uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d10470_insomnia-intro-to-descriptive-statistics/insomnia-intro-to-descriptive-statistics_720p.mp4'
+              uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d10470_insomnia-intro-to-descriptive-statistics/hls/playlist.m3u8'
+          text: null
+        question:
+          title: Insomnia
+          background_image: '//lh4.ggpht.com/N10OCwk4gs1tGShOeKFN_veUGg9fPgidLHjl-0hntRMJKEuivQeexoy3nuPrT6YVkLAzEjh2fBQsVMw5mw=s0#w=1280&h=720'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '56480605'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 23643
+    key: '2514367450923'
+    locale: en-us
+    version: 1.0.0
+    title: 38. Insomnia
+    semantic_type: Concept
+    updated_at: 'Tue May 31 2016 02:45:43 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 105529
+    atoms:
+      - id: 105529
+        key: '251436745'
+        locale: en-us
+        version: 1.0.0
+        title: 38. Insomnia
+        semantic_type: QuizAtom
+        updated_at: 'Tue Jun 21 2016 22:16:48 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: ''
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 38. Insomnia
+          background_image: '//lh6.ggpht.com/OcrW7d38AyNzCHEw6ZP2twzcvpo4cCTH3DgmBbzoJbbX22QapSNOcw2ph1NgG0nPCip2d1uB6ARAbgHqOA=s0#w=1280&h=720'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '64863001'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null

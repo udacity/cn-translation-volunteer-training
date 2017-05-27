@@ -1,0 +1,211 @@
+1
+00:00:00,110 --> 00:00:03,380
+Okay, so let's get started on actually solving this problem. We've
+
+2
+00:00:03,380 --> 00:00:05,450
+got to remember that the first step in our procedure is
+
+3
+00:00:05,450 --> 00:00:08,860
+to extract the complete list of carriers and the complete list
+
+4
+00:00:08,860 --> 00:00:12,860
+of airports from one example page. So, what I've done here
+
+5
+00:00:12,860 --> 00:00:16,490
+is downloaded this page and I'm simply going to parse this
+
+6
+00:00:16,490 --> 00:00:18,890
+page in order to pull out both these lists. So let's
+
+7
+00:00:18,890 --> 00:00:21,130
+take a look at some code. Now, what I like to
+
+8
+00:00:21,130 --> 00:00:23,410
+use for parsing HTML is BeautifulSoup.
+
+9
+00:00:23,410 --> 00:00:25,860
+In particular, we're using BeautifulSoup four.
+
+10
+00:00:25,860 --> 00:00:28,740
+You can download and install BeautifulSoup on your own machine
+
+11
+00:00:28,740 --> 00:00:30,940
+using any one of a number of different package managers.
+
+12
+00:00:30,940 --> 00:00:33,470
+I like to use PIP. If you don't already have
+
+13
+00:00:33,470 --> 00:00:35,410
+BeautifulSoup installed, just Google for
+
+14
+00:00:35,410 --> 00:00:38,490
+installation instructions. Now, what BeautifulSoup gives
+
+15
+00:00:38,490 --> 00:00:41,450
+us the ability to do is parse the document tree,
+
+16
+00:00:41,450 --> 00:00:45,440
+the HTML document tree in this case. And, it's similar to
+
+17
+00:00:45,440 --> 00:00:48,540
+elementary for parsing XML. Okay. So let me walk you
+
+18
+00:00:48,540 --> 00:00:50,860
+through how this code works. So what I've done is I've
+
+19
+00:00:50,860 --> 00:00:53,310
+set this up so that it's the options function
+
+20
+00:00:53,310 --> 00:00:55,220
+that does the bulk of the work. I'm calling
+
+21
+00:00:55,220 --> 00:00:57,830
+options and note that what I'm calling it with
+
+22
+00:00:57,830 --> 00:01:01,170
+is this soup value. And soup is what I
+
+23
+00:01:01,170 --> 00:01:04,540
+get in response to having called beautiful soup on
+
+24
+00:01:04,540 --> 00:01:07,400
+the local file that is a saved copy Of
+
+25
+00:01:07,400 --> 00:01:11,540
+this one. In addition, I'm passing this string CarrierList.
+
+26
+00:01:12,570 --> 00:01:15,970
+Now what BeautifulSoup passed me back was the top level
+
+27
+00:01:15,970 --> 00:01:19,390
+element for this particular HTML document. And then what
+
+28
+00:01:19,390 --> 00:01:21,970
+I can do is I can use the find method
+
+29
+00:01:21,970 --> 00:01:23,830
+here. The meaning of this is find me the
+
+30
+00:01:23,830 --> 00:01:27,580
+the first descendant element in this document tree where the
+
+31
+00:01:27,580 --> 00:01:32,560
+ID attribute for the element is CarrierList. Okay? So
+
+32
+00:01:32,560 --> 00:01:34,830
+let's go look at the HTML, and see why we
+
+33
+00:01:34,830 --> 00:01:37,040
+wrote it that way. Okay? Again, I can get
+
+34
+00:01:37,040 --> 00:01:40,790
+to the HTML by using the Inspect Element feature of
+
+35
+00:01:40,790 --> 00:01:46,060
+Google Chrome. Okay. So here's the CarrierList, and note that the ID attribute
+
+36
+00:01:46,060 --> 00:01:51,540
+for this particular element here is CarrierList.
+
+37
+00:01:51,540 --> 00:01:55,850
+Okay, so CarrierList, then, will have the HTML element that we
+
+38
+00:01:55,850 --> 00:02:00,352
+just looked at as its value. Then what I'm going to do is call Find all
+
+39
+00:02:00,352 --> 00:02:03,464
+on CarrierList. Find all does something very similar
+
+40
+00:02:03,464 --> 00:02:06,790
+to what find does. It finds the descendants
+
+41
+00:02:06,790 --> 00:02:10,729
+that are option tags or option elements. Now unlike
+
+42
+00:02:10,729 --> 00:02:13,400
+find, find all will actually find all of the
+
+43
+00:02:13,400 --> 00:02:16,610
+sentence instead of just the first one. Okay, so
+
+44
+00:02:16,610 --> 00:02:18,760
+here what's going to happen is I'll just iterate through them
+
+45
+00:02:18,760 --> 00:02:21,520
+then, and I'm going to just build up a list
+
+46
+00:02:21,520 --> 00:02:24,360
+of all of the values. Now what I'm actually doing
+
+47
+00:02:24,360 --> 00:02:28,900
+here Is finding each one of these in turn
+
+48
+00:02:28,900 --> 00:02:33,100
+and I'm pulling out the value of their value attribute.
+
+49
+00:02:33,100 --> 00:02:36,960
+Because, it's this value that I need to pass in any subsequent http
+
+50
+00:02:36,960 --> 00:02:42,070
+requests for data having to do with, say, AirTran or Alaska airlines. So
+
+51
+00:02:42,070 --> 00:02:44,730
+that's how we get the carrier data we need. I use a very similar
+
+52
+00:02:44,730 --> 00:02:47,140
+process, in fact it's an identical process,
+
+53
+00:02:47,140 --> 00:02:48,760
+for getting the full list of airports.

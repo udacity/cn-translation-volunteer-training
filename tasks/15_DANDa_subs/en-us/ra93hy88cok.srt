@@ -1,0 +1,155 @@
+1
+00:00:00,170 --> 00:00:02,570
+A common way to distribute tabular data is in a
+
+2
+00:00:02,570 --> 00:00:06,340
+data format called CSV. Even if you're already familiar with
+
+3
+00:00:06,340 --> 00:00:09,710
+CSV, stay with us because in just a few minutes,
+
+4
+00:00:09,710 --> 00:00:13,150
+we'll look at using the CSV module in Python to make
+
+5
+00:00:13,150 --> 00:00:15,570
+it much easier to work with this type of data.
+
+6
+00:00:15,570 --> 00:00:18,120
+As you can see in this example, this is the
+
+7
+00:00:18,120 --> 00:00:21,840
+same discography data we looked at in a spreadsheet The
+
+8
+00:00:21,840 --> 00:00:25,220
+only difference here is the format. In this case we're looking
+
+9
+00:00:25,220 --> 00:00:31,550
+at in CSV. Here you can see the first line of the file contains the labels for
+
+10
+00:00:31,550 --> 00:00:34,080
+all of the fields. Let's take a look at
+
+11
+00:00:34,080 --> 00:00:38,060
+an individual item here. Here we have an individual
+
+12
+00:00:38,060 --> 00:00:41,120
+item in this data set. A Hard Day's Night
+
+13
+00:00:41,120 --> 00:00:46,320
+is the single released on June 26th, 1964. And
+
+14
+00:00:46,320 --> 00:00:48,440
+while it looks like this particular item appears on
+
+15
+00:00:48,440 --> 00:00:50,680
+two lines of text, it's really just one line,
+
+16
+00:00:50,680 --> 00:00:52,840
+my window simply isn't wide enough to show
+
+17
+00:00:52,840 --> 00:00:56,330
+the entire line visually on a single line. So
+
+18
+00:00:56,330 --> 00:00:58,090
+one of the principal reasons why CSV is so
+
+19
+00:00:58,090 --> 00:01:01,650
+widely used is because it's very lightweight. Each line
+
+20
+00:01:01,650 --> 00:01:04,410
+of text is a single row, fields are
+
+21
+00:01:04,410 --> 00:01:07,950
+separated by a delimiter, usually a comma, but we
+
+22
+00:01:07,950 --> 00:01:11,150
+can also have an alternate of CSV, called TSV,
+
+23
+00:01:11,150 --> 00:01:15,880
+where the delimeter is tab characters. CSV files really
+
+24
+00:01:15,880 --> 00:01:18,710
+store just the data itself, or just the data and
+
+25
+00:01:18,710 --> 00:01:21,640
+the delimeters. The benefit of this is that the files
+
+26
+00:01:21,640 --> 00:01:24,630
+are as small as they reasonably can be. Another nice
+
+27
+00:01:24,630 --> 00:01:27,810
+feature is that we don't need any special purpose software. We
+
+28
+00:01:27,810 --> 00:01:31,030
+don't need, for example, Microsoft Excel in order to load
+
+29
+00:01:31,030 --> 00:01:34,230
+CSV files. We can look at CSV files using a
+
+30
+00:01:34,230 --> 00:01:37,830
+Command Light editor as we just saw an example, or
+
+31
+00:01:37,830 --> 00:01:40,970
+even the very simplest text editors. It's also the case that
+
+32
+00:01:40,970 --> 00:01:43,730
+it's easy to write programs that read in CSV
+
+33
+00:01:43,730 --> 00:01:47,340
+data, in just about any programming language. Finally, though
+
+34
+00:01:47,340 --> 00:01:50,370
+we don't need a spreadsheet application in order to
+
+35
+00:01:50,370 --> 00:01:53,860
+read and write CSV, any spreadsheet app will be able
+
+36
+00:01:53,860 --> 00:01:58,610
+to work with CSV files. Now what I'd like you to do is choose a tool of your
+
+37
+00:01:58,610 --> 00:02:02,700
+choice, download the provided file, see the instructors comments
+
+38
+00:02:02,700 --> 00:02:06,045
+for the links. And then look at the CSV file
+
+39
+00:02:06,045 --> 00:02:08,000
+you've downloaded in some text editor.

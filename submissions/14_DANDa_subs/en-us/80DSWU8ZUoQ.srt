@@ -1,0 +1,23 @@
+1
+00:00:00,390 --> 00:00:02,370
+This class will be pretty interactive. You'll
+
+2
+00:00:02,370 --> 00:00:04,340
+be getting your hands dirty all the time.
+
+3
+00:00:04,340 --> 00:00:07,750
+Let's jump right into some action. The first question of the day is, which of
+
+4
+00:00:07,750 --> 00:00:10,340
+the following solutions seems better to you?
+
+5
+00:00:10,340 --> 00:00:11,590
+And, maybe you have a funny story to
+
+6
+00:00:11,590 --> 00:00:14,790
+share with your fellow students related to this. Get to the forms and share it.

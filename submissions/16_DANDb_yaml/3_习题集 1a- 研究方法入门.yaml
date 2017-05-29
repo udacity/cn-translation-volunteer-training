@@ -1,0 +1,1208 @@
+id: 178208
+key: '4591758867'
+locale: zh-cn
+version: 1.0.0
+title: '习题集 1a: 研究方法入门'
+semantic_type: Lesson
+updated_at: 'Sat Sep 24 2016 23:51:31 GMT+0000 (UTC)'
+is_public: true
+image: null
+video: null
+summary: 练习熟悉在第 1 课中学习的术语。
+duration: 60
+is_project_lesson: false
+_concepts_ids:
+  - 176622
+  - 176623
+  - 176624
+  - 176626
+  - 176625
+  - 176627
+  - 176628
+  - 176629
+  - 176630
+  - 176631
+  - 176632
+  - 176633
+  - 176634
+  - 176635
+  - 176636
+  - 176638
+  - 176637
+  - 176639
+  - 176641
+  - 176640
+  - 176643
+  - 176642
+_project_id: null
+concepts:
+  - id: 176622
+    key: '43991285560923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 课程实践编号
+    semantic_type: Concept
+    updated_at: 'Tue Sep 06 2016 15:24:35 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174280
+    atoms:
+      - id: 174280
+        key: '4399128556'
+        locale: zh-cn
+        version: 1.0.0
+        title: 课程实践编号
+        semantic_type: TextAtom
+        updated_at: 'Tue Sep 06 2016 15:24:35 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          ## 课程实践编号
+
+          随着对习题集“PS 1a：研究方法入门”和其他习题集的了解，你可能会发现进度栏中的习题编号并非一直是连续的。
+
+          对于存在两个习题集的课程，如果一个习题集看上去“缺失”习题，这些习题会显示在课程的其他习题集中。例如，PS 1a 从习题 3 跳至 6，这是因为习题 4 和 5 在 PS 1b 中。
+
+          编号相似的习题通常包含类似的主题。例如，PS 1a 中的习题 1-3 和 PS 1b 中的习题 4-5 均包含用于讨论总体和样本的术语。
+        instructor_notes: null
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+  - id: 176623
+    key: '2514367150923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 1. 全部加州居民
+    semantic_type: Concept
+    updated_at: 'Tue Sep 06 2016 15:24:36 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174281
+    atoms:
+      - id: 174281
+        key: '251436715'
+        locale: zh-cn
+        version: 1.0.0
+        title: 1. 全部加州居民
+        semantic_type: QuizAtom
+        updated_at: 'Tue Sep 06 2016 15:24:36 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |-
+          ## Snycerski 医生使用一项匿名调查来研究加利福尼亚居民的饮酒量。那么，整个加利福尼亚居民组可以认为是以下哪个选项？
+
+          - □ 样本
+          - □ 统计量
+          - □ 总体
+          - □ 参数
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 1. 全部加州居民
+          background_image: '//lh6.ggpht.com/THr70eQEzmHFdNb0qwcyo4y0bLbnNiIw14v-SrUqCd-O2n0PRM6XxxQu3T03gtgJXz72cBBYNOnsNpwJCg8=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '56631171'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 176624
+    key: '2514367160923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 2. 昏昏欲睡的大学生
+    semantic_type: Concept
+    updated_at: 'Tue Sep 06 2016 15:24:37 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174282
+    atoms:
+      - id: 174282
+        key: '251436716'
+        locale: zh-cn
+        version: 1.0.0
+        title: 2. 昏昏欲睡的大学生
+        semantic_type: QuizAtom
+        updated_at: 'Tue Sep 06 2016 15:24:37 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |-
+          ## 一名研究者对美国大学生的睡眠习惯感兴趣。他采访了 125 名学生，发现这些学生平均每天睡 6.2 个小时。在这个研究中，这125 名学生可以认为是以下哪个选项？？
+
+          - □ 样本
+          - □ 统计量
+          - □ 总体
+          - □ 参数
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 2. 昏昏欲睡的大学生
+          background_image: '//lh6.ggpht.com/YvCcJM7e3vao-DNgtheRmt4NpwA5renG707Dnhtak6-RCkL9PmVXuKN-KWzQyYJZwtYTeiCZ3Hzb7l7S6w=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '56631172'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 176626
+    key: '2514367170923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 3. 睡眠不足……？
+    semantic_type: Concept
+    updated_at: 'Tue Sep 06 2016 15:24:38 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174283
+    atoms:
+      - id: 174283
+        key: '251436717'
+        locale: zh-cn
+        version: 1.0.0
+        title: 3. 睡眠不足……？
+        semantic_type: QuizAtom
+        updated_at: 'Tue Sep 06 2016 15:24:38 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |-
+          ## 一名研究者对美国大学生的睡眠习惯感兴趣。他采访了 125 名学生，发现这些学生平均每天睡 6.2 个小时。这个平均值是以下哪个选项？
+
+          - □ 样本
+          - □ 统计量
+          - □ 总体
+          - □ 参数
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 3. 睡眠不足……？
+          background_image: '//lh3.ggpht.com/htEEspk45GfZFobTNp16YF0AOMxcCzuS0wQ9IGkdHYbooNXlKSZERMq5rvaEUPyiqCGDcvZCX4fKe5nVtaM=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '56631173'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 176625
+    key: '2514367200923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 6. 总体的特征
+    semantic_type: Concept
+    updated_at: 'Tue Sep 06 2016 15:24:40 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174284
+    atoms:
+      - id: 174284
+        key: '251436720'
+        locale: zh-cn
+        version: 1.0.0
+        title: 6. 总体的特征
+        semantic_type: QuizAtom
+        updated_at: 'Tue Sep 06 2016 15:24:39 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |-
+          ## 表示总体人数的数字被称为：
+
+          - □ 参数
+          - □ 统计量
+          - □ 变量
+          - □ 常量
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 6. 总体的特征
+          background_image: '//lh3.ggpht.com/2z9gBsFzHEi68UeChPnZZjrCYHrbT5nbll5cWCN63fDyDtBZt6S7P90GQrKnYaU2FhdcUh1AbEWYRWhBsg=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '56631176'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 176627
+    key: '2514367210923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 7. 样本与总体相似
+    semantic_type: Concept
+    updated_at: 'Tue Sep 06 2016 15:24:41 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174285
+    atoms:
+      - id: 174285
+        key: '251436721'
+        locale: zh-cn
+        version: 1.0.0
+        title: 7. 样本与总体相似
+        semantic_type: QuizAtom
+        updated_at: 'Tue Sep 06 2016 15:24:41 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |-
+          ## 在使用一个样本对一个总体进行推理时，样本的平均值可能不会完全等于总体的平均值。样本和总体平均值之间的差异称为：
+
+          - □ 抽样误差
+          - □ 统计决策误差
+          - □ 总体差异
+          - □ 抽样分布
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 7. 样本与总体相似
+          background_image: '//lh6.ggpht.com/QU2-6Hr_V8yBjJ8A2P0sDIuv3AxRkd8Lzcmyu6v-w8sV9hvSXf0ewNqQUQEs68qO2M2EibSb1FKNoPtyGhs=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '56631177'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 176628
+    key: '2514367230923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 9. 好友调查
+    semantic_type: Concept
+    updated_at: 'Tue Sep 06 2016 15:24:42 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174286
+    atoms:
+      - id: 174286
+        key: '251436723'
+        locale: zh-cn
+        version: 1.0.0
+        title: 9. 好友调查
+        semantic_type: QuizAtom
+        updated_at: 'Tue Sep 06 2016 15:24:41 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |
+          ## Sam 想要知道美国大学生每周花在功课上的小时数，因此他请圣荷西州立大学的朋友帮忙完成一个调查。他的方法有何问题？
+
+          - □ 没问题。这是合理的，并且会得到不错的数据。
+          - □ 他的朋友可能不会做太多调查。
+          - □ “小时数”不是一个可以调查的可行变量。
+          - □ 他的样本可能无法代表美国大学生总体。
+          - □ 他的朋友可能不愿意做这个调查。
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 9. 好友调查
+          background_image: '//lh5.ggpht.com/2YBCJ0IatFmCFKhdr-jKuevnWFp-swFa4z9_G5CAOAbEn1TTWkft29xEiNR9Xy7Pgl1tTbYS69U9iGq6Uw=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '56631179'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 176629
+    key: '2514367240923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 10. 哪些是抽象概念？
+    semantic_type: Concept
+    updated_at: 'Tue Sep 06 2016 15:24:43 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174287
+    atoms:
+      - id: 174287
+        key: '251436724'
+        locale: zh-cn
+        version: 1.0.0
+        title: 10. 哪些是抽象概念？
+        semantic_type: QuizAtom
+        updated_at: 'Tue May 23 2017 02:17:39 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |-
+          ## 以下哪项属于构造（constructs／抽象概念）？选择所有适用项。
+
+          - □ 人在睡醒后的饥饿程度
+          - □ 运动员在比赛后的口渴程度
+          - □ 你的年收入（美元）
+          - □ 你的性格
+          - □ 你的身高（英寸）
+          - □ 汽车每英里每加仑的燃料效率
+          - □ iPad 以瑞士法郎计的价格
+          - □ 你作为一名员工的可销性
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 10. 哪些是抽象概念？
+          background_image: '//lh6.ggpht.com/Xkz4L8CVHb5RCVn4VLgSif91209pkA0lcALhw0HaXrhH3DFp0eaZ4WLApXbOcPYTkRm0szCKt2qKjOzEJg=s0#w=1920&h=1080'
+          alt_text: ''
+          semantic_type: ImageFormQuestion
+          evaluation_id: '56631180'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 176630
+    key: '2514367260923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 12. 定义操作定义
+    semantic_type: Concept
+    updated_at: 'Tue Sep 06 2016 15:24:45 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174288
+    atoms:
+      - id: 174288
+        key: '251436726'
+        locale: zh-cn
+        version: 1.0.0
+        title: 12. 定义操作定义
+        semantic_type: QuizAtom
+        updated_at: 'Tue May 23 2017 02:17:02 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |
+          ## 什么是操作性定义？选择所有适用项。
+
+          - □ 我们有兴趣研究的一个抽象概念
+          - □ 一种将构造（constructs）转变为我们可衡量的变量的方式
+          - □ 样本统计量和总体参数之间的差异
+          - □ 一种用我们衡量它的方式描述变量的方式
+          - □ 调查研究中的一组兴趣个人
+          - □ 总体参数的估计
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 12. 定义操作定义
+          background_image: '//lh6.ggpht.com/cu7oCDJghIsfXslP87eIZ6IhDkUsyGpZ2bCqqQaIa6Sc38Vj6aMy0QWqjvBfH8roOgNJlwYGQiWpBUsckf8=s0#w=1920&h=1080'
+          alt_text: ''
+          semantic_type: ImageFormQuestion
+          evaluation_id: '56631182'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 176631
+    key: '2514367270923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 13. 研究
+    semantic_type: Concept
+    updated_at: 'Tue Sep 06 2016 15:24:46 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174289
+    atoms:
+      - id: 174289
+        key: '251436727'
+        locale: zh-cn
+        version: 1.0.0
+        title: 13. 研究
+        semantic_type: QuizAtom
+        updated_at: 'Mon May 01 2017 15:35:35 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |
+          ##  在大多数调查研究中（选择所有适用项）：
+
+          - □ 总体中的每个人包含在研究中
+          - □ 使用总体中的所有个体的数据了解样本
+          - □ 使用样本中的个体的数据了解总体
+          - □ 我们预计我们对总体参数的最佳猜测（估计）完全等于实际值
+          - □ 我们预计我们对总体参数的最佳猜测（估计）与实际值不同
+          - □ 我们预计我们的样本统计不会等于估计的总体参数
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 13. 研究
+          background_image: '//lh5.ggpht.com/lq3WhuvQv0awnUfQ_1y6KLwtQ3-JKVHKiZ1KdkLdJpfvL4O-n79gYkS5ugE-eUhIW-hVUKc1TaiJXlVJ7tY=s0#w=1920&h=1080'
+          alt_text: ''
+          semantic_type: ImageFormQuestion
+          evaluation_id: '56631183'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 176632
+    key: '2514367280923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 14. 变量
+    semantic_type: Concept
+    updated_at: 'Tue Sep 06 2016 15:24:47 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174290
+    atoms:
+      - id: 174290
+        key: '251436728'
+        locale: zh-cn
+        version: 1.0.0
+        title: 14. 变量
+        semantic_type: QuizAtom
+        updated_at: 'Tue Sep 06 2016 15:24:46 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |-
+          ## 以下哪个为变量？选择所有适用项。
+
+          - □ 某个人是活着还是死亡
+          - □ 智力测试的得分
+          - □ 月球的周长
+          - □ 一分钟有多少秒
+          - □ 纯水分子中氢原子的数量
+          - □ 人们在 Facebook 上的好友数
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 14. 变量
+          background_image: '//lh3.ggpht.com/c14zgp425KZn7p2C4_PrB1PEOx8BiMeiSTuLvhnvOEaFx9U9Ih5_qhxG23U5JC7FJZMN-6NZ9wEWhWRcWDQ=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '56631184'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 176633
+    key: '2514367300923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 16. 哪些是假设？
+    semantic_type: Concept
+    updated_at: 'Tue Sep 06 2016 15:24:48 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174291
+    atoms:
+      - id: 174291
+        key: '251436730'
+        locale: zh-cn
+        version: 1.0.0
+        title: 16. 哪些是假设？
+        semantic_type: QuizAtom
+        updated_at: 'Tue Sep 06 2016 15:24:48 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |-
+          ## 如课程中所说明，以下哪个说法属于假设？选择所有适用项。
+
+          - □ 睡觉时间越长，对人脸的记忆就越好。
+          - □ 太阳与地球之间的距离为 9300 万英里（约 1.5 亿公里）。
+          - □ 水在 32℉（0℃）以上为液体。
+          - □ 对富人的减税优惠越多，创造的工作岗位就越多。
+          - □ 你身边的人数会影响你为需要帮助的人伸出援助之手的机会。
+          - □ 给出错误答案的人数越多，你给出同样错误答案的概率就越高。
+          - □ 受到社会和情感忽视的儿童的大脑发育，不如未受到忽视的儿童的大脑发育。
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 16. 哪些是假设？
+          background_image: '//lh3.ggpht.com/ivtAaBUpxt9IEn3AqJSgpWJGI4qESSLlwPRQKurlyrpbi5RUn9kVjYAidsMuXFJUIZeknRcM2pLJ1Jrsyg=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '56631186'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 176634
+    key: '2514367310923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 17. 潜在变量
+    semantic_type: Concept
+    updated_at: 'Tue Sep 06 2016 15:51:58 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174292
+    atoms:
+      - id: 174292
+        key: '251436731'
+        locale: zh-cn
+        version: 1.0.0
+        title: 17. 潜在变量
+        semantic_type: QuizAtom
+        updated_at: 'Tue Sep 06 2016 15:53:11 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |
+          ## 额外（或潜在）变量（选择所有适用项）：
+
+          - □ 可为变量之间观察到的关系提供可能的另一种解释
+          - □ 是会影响我们衡量的两个或多个变量之间关系的因素
+          - □ 在得出因果关系结论时通常不是很重要
+          - □ 在我们做出确定的因果声明之前，必须在试验中加以控制
+          - □ 使从观察性研究的数据中确定因果关系变得困难
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 17. 潜伏
+          background_image: '//lh4.ggpht.com/_IMRm5oziZwIvC0jJG0KeC7g_yqdRugfkM8_TDT6AMRjbTA1qWE2JZPqO1dKMv1j5NfDrvt5l86ExpnoAN8s=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '56631187'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 176635
+    key: '2514367320923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 18. 符号 = 有意思！！
+    semantic_type: Concept
+    updated_at: 'Tue Sep 06 2016 15:24:51 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174293
+    atoms:
+      - id: 174293
+        key: '251436732'
+        locale: zh-cn
+        version: 1.0.0
+        title: 18. 符号 = 有意思！！
+        semantic_type: QuizAtom
+        updated_at: 'Tue Sep 06 2016 15:36:42 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |
+          ##  x̅ 是____的符号，而 μ 是___的符号：
+
+          - □ 样本均值；总体均值
+          - □ 总体均值；总体均值
+          - □ 样本大小；总体大小
+          - □ 抽样误差；样本大小
+          - □ 样本大小；抽样误差
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 18. 符号 = 有意思！！
+          background_image: '//lh5.ggpht.com/X7LRKoBn_PyFlYJtQ3ueYSvDmUpe6QSzL3OtfcJctl8tygHcASlpSfl-qjtREa6gbi_paJDN6ROkF9a0-7g=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '56631188'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 176636
+    key: '2514367350923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 21. 随机样本
+    semantic_type: Concept
+    updated_at: 'Tue Sep 06 2016 15:24:53 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174295
+    atoms:
+      - id: 174295
+        key: '251436735'
+        locale: zh-cn
+        version: 1.0.0
+        title: 21. 随机样本
+        semantic_type: QuizAtom
+        updated_at: 'Tue Sep 06 2016 15:37:24 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |
+          ## 随机样本是你可以：
+
+          - □ 根据从样本那里获取数据的容易度选择个体。
+          - □ 根据其是否愿意回答你的问题选择个体。
+          - □ 以选中概率相同的方式选择个体。
+          - □ 以选中一个个体不会影响另一个个体被选中几率的方式选择个体。
+          - □ 选择你的朋友、家人和邻居参与你的调查。
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 21. 随机样本
+          background_image: '//lh5.ggpht.com/BgOfjss_Fjdlq0zYc_C1CbUcQNmm4nuAEVSWy_N6fn9DOUeAnRFtseY0U_vb9G5ip6pQFw-EN2tykMogz7dy=s0#w=1280&h=720'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '56631191'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 176638
+    key: '2514367360923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 22. 便利样本
+    semantic_type: Concept
+    updated_at: 'Tue Sep 06 2016 15:24:55 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174294
+    atoms:
+      - id: 174294
+        key: '251436736'
+        locale: zh-cn
+        version: 1.0.0
+        title: 22. 便利样本
+        semantic_type: QuizAtom
+        updated_at: 'Tue Sep 06 2016 15:37:55 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |
+          ## 通常情况下，为什么随机样本比便利样本更适用于对总体得出结论？选择所有适用项。
+
+          - □ 并非如此；两种样本类型一样适用。
+          - □ 并非如此，便利样本优于随机样本。
+          - □ 并非如此，有时候随机样本更好用，有时候便利样本更好用。
+          - □ 随机样本存在偏见的概率较小。
+          - □ 随机样本对它们取自的总体更具代表性。
+          - □ 随机样本通常比便利样本更容易获得。
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 22. 便利样本
+          background_image: '//lh5.ggpht.com/3pAJH1rr0G_7l7NGLo_9exHHxbOQxT1WiiFlNTRLzFJC4YjVHgXFaKWAYE62hzJ1913ESUR44Dkic_vK1z0=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '56631192'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 176637
+    key: '2514367370923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 23. 样本和总体
+    semantic_type: Concept
+    updated_at: 'Tue Sep 06 2016 15:24:57 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174296
+    atoms:
+      - id: 174296
+        key: '251436737'
+        locale: zh-cn
+        version: 1.0.0
+        title: 23. 样本和总体
+        semantic_type: QuizAtom
+        updated_at: 'Thu Oct 06 2016 13:51:47 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |-
+          ## 使用随机变量（n = 100），研究者发现一般美国居民每周的上网时间为 32 小时。假设美国居民整个总体的上网时间真值为 25 小时/周。在此情境下，以下哪个说法是正确的？选择所有适用项。
+
+          - □ 样本统计量为 32，总体参数为 25。
+          - □ 32 和 25 之间的差异称为“抽样误差”。
+          - □ 样本值是错误的，因为样本是随机的。
+          - □ 样本均值和总体均值之间存在差异是正常的。
+          - □ 样本统计量为 25，总体参数为 32。
+          - □ 此示例中的抽样误差量为 7 小时/周（32 - 25）。
+          - □ x̅  = 32；μ = 25
+          - □ μ = 32； x̅  = 25
+          - □ 样本中包含 100 名美国居民。
+          - □ 如果我们使用更大的样本（例如，n = 1000），获得的样本均值往往更接近总体均值。
+          - □ 我们的样本均值和总体均值不同是不正常的，因为随机样本应保证 100% 的准确估计。
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 23. 样本和总体
+          background_image: '//lh4.ggpht.com/ReoiyjYfGIMSlxvZk4r0Pog1UFXnYQ8hSv3glTF_RVbw6EvOO_NL-cILoBO1MDyObZLuWi_-VfHOw7LmqS_F=s0#w=1920&h=1080'
+          alt_text: ''
+          semantic_type: ImageFormQuestion
+          evaluation_id: '56631193'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 176639
+    key: '595394880923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 26. 电子游戏
+    semantic_type: Concept
+    updated_at: 'Tue Sep 06 2016 15:25:00 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174297
+    atoms:
+      - id: 174297
+        key: '59539488'
+        locale: zh-cn
+        version: 1.0.0
+        title: 26. 电子游戏
+        semantic_type: QuizAtom
+        updated_at: 'Wed Apr 19 2017 21:58:26 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |
+          ## 一名研究者发现每周玩暴力电子游戏的小时数与男性青少年的攻击性水平之间存在一种关系。攻击性水平使用攻击性量表来测量，这是一种攻击性行为的自报测量（Orpinas &          
+          Frankowski，2001 年）。花在游戏上的时间越多，攻击性量表中关联的得分就越高。那么以下哪种说法是正确的？选择所有适用项。  
+
+          - □ 攻击性是一个抽象概念。
+          - □ 玩电子游戏会使男性青少年产生攻击性。
+          - □ 天生具有攻击性的男性青少年更倾向于玩电子游戏。
+          - □ 玩电子游戏的男性青少年会有暴力行为。
+          - □ 男性比女性暴力。
+          - □ 攻击性的操作性定义为攻击性量表上的得分。
+          - □ 如果我们知道一名男性青少年每周玩暴力电子游戏的小时数，我们就能预测其自报的攻击性水平。
+        instruction:
+          video:
+            youtube_id: SyszPG1615c
+            subtitles:
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d25fa3_video-games-intro-to-descriptive-statistics/subtitles/lang_en_vs5.srt'
+                language_code: en
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d25fa3_video-games-intro-to-descriptive-statistics/subtitles/lang_es_vs2.srt'
+                language_code: es
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d25fa3_video-games-intro-to-descriptive-statistics/subtitles/lang_zh-cn_vs1.srt'
+                language_code: zh-cn
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d25fa3_video-games-intro-to-descriptive-statistics/subtitles/lang_pt-br_vs1.srt'
+                language_code: pt-br
+            transcodings:
+              uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d25fa3_video-games-intro-to-descriptive-statistics/video-games-intro-to-descriptive-statistics_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d25fa3_video-games-intro-to-descriptive-statistics/video-games-intro-to-descriptive-statistics_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d25fa3_video-games-intro-to-descriptive-statistics/video-games-intro-to-descriptive-statistics_480p.ogg'
+              uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d25fa3_video-games-intro-to-descriptive-statistics/video-games-intro-to-descriptive-statistics_720p.mp4'
+              uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d25fa3_video-games-intro-to-descriptive-statistics/hls/playlist.m3u8'
+          text: null
+        question:
+          title: 电子游戏
+          background_image: '//lh6.ggpht.com/ibG4LwsstQ3EyUF0AkZGL3O_V4eTs4KzT9RgkgbefY7sPcENQo1Z5OmRVCzAg_kpcBOvdXYi3_0FuYUfW8Q=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '56480595'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 176641
+    key: '2514367430923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 33. 各种变量
+    semantic_type: Concept
+    updated_at: 'Tue Sep 06 2016 15:25:02 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174298
+    atoms:
+      - id: 174298
+        key: '251436743'
+        locale: zh-cn
+        version: 1.0.0
+        title: 33. 各种变量
+        semantic_type: QuizAtom
+        updated_at: 'Tue Sep 06 2016 15:41:44 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |
+          ## 在试验中，研究人员操纵__变量，测量__变量的变化，然后尝试控制__变量。
+
+          - □ 潜伏；因；自
+          - □ 连续；离散；因
+          - □ 因；自；潜伏
+          - □ 自；因；潜伏
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 33. 各种变量
+          background_image: '//lh4.ggpht.com/jYuif78Wt8svmGMxXB8UTNW9wzpsb-TqYDldvEkNmVTXW1z-wy2yMHUtb6nSRpLSFhqreEvaX-urOYzyKw=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '56480602'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 176640
+    key: '2514367440923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 36. 学生满意度
+    semantic_type: Concept
+    updated_at: 'Tue Sep 06 2016 15:25:03 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174299
+    atoms:
+      - id: 174299
+        key: '251436744'
+        locale: zh-cn
+        version: 1.0.0
+        title: 36. 学生满意度
+        semantic_type: QuizAtom
+        updated_at: 'Tue Sep 06 2016 15:42:15 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |-
+          ## 想象一所大学向30,000名学生中的随机样本发送了一份学生满意度调查。1000名抽样学生中仅50名完成并返回了调查。你能从这个信息中得到什么结论？选择所有适用项。
+
+          - □ 学校应根据这些数据对课程进行重大变更。
+          - □ 存在无应答偏倚可能性，因为样本中的大多数学生未完成和返回调查。
+          - □ 提供了回应的学生可能未准确报告他们的满意度。
+          - □ 样本可代表所有30,000名学生，因为样本是随机挑选的。
+          - □ 样本可能不足以代表所有30,000名学生，原因有很多。
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 36. 学生满意度
+          background_image: '//lh6.ggpht.com/moBTkxAp26_oJcBZVy8a04dK2btjSmHWbfsiMo_t0J-NcLs3tJFlE_kNOcXgNrNxzM6qsGXcOJGkUzETSKs=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '56480604'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 176643
+    key: '595394910923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 37. 失眠
+    semantic_type: Concept
+    updated_at: 'Tue Sep 06 2016 15:25:03 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174300
+    atoms:
+      - id: 174300
+        key: '59539491'
+        locale: zh-cn
+        version: 1.0.0
+        title: 37. 失眠
+        semantic_type: QuizAtom
+        updated_at: 'Wed Apr 19 2017 21:58:26 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |-
+          ## 假设我们将患有失眠症的人随机分配到两个治疗方法中。在一个方法中，被试获得 20 毫克唑吡旦（安比恩）。在另一种方法中，被试获得了一个安慰剂药片。被试不知道他们服用的是哪种类型的药片。服药后，被试在睡眠实验室入睡以帮助控制潜在变量。第二天早上，在与心理学家的对话中，他们对自己的睡眠质量进行了从 1 到 10 的评分（1 表示“非常差”，10 表示“非常好”）。心理学家同样不知道他们各自服用了哪种药物。唑吡旦组的被试报告的睡眠质量（均值 = 8）优于安慰剂组（均值 = 5）。
+
+          关于这个情景以下哪个说法是正确的？选择所有适用项。
+
+          - □ 这是一项观察性研究示例，因此我们无法对唑吡旦的有效性得出因果结论。
+          - □ 参与者可以看出他们服用的是什么药片。
+          - □ 药片类型（唑吡旦或安慰剂）为应变量。
+          - □ 此研究为实验性研究，我们可以对唑吡旦的有效性得出因果结论。
+          - □ 该实验使用了双盲对照组，因为参与者和心理学家都不知道每个人服用的药片类型。
+        instruction:
+          video:
+            youtube_id: HbnB5SQqmoM
+            subtitles:
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d10470_insomnia-intro-to-descriptive-statistics/subtitles/lang_es_vs1.srt'
+                language_code: es
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d10470_insomnia-intro-to-descriptive-statistics/subtitles/lang_pt-br_vs1.srt'
+                language_code: pt-br
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d10470_insomnia-intro-to-descriptive-statistics/subtitles/lang_en_vs4.srt'
+                language_code: en
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d10470_insomnia-intro-to-descriptive-statistics/subtitles/lang_zh-cn_vs1.srt'
+                language_code: zh-cn
+            transcodings:
+              uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d10470_insomnia-intro-to-descriptive-statistics/insomnia-intro-to-descriptive-statistics_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d10470_insomnia-intro-to-descriptive-statistics/insomnia-intro-to-descriptive-statistics_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d10470_insomnia-intro-to-descriptive-statistics/insomnia-intro-to-descriptive-statistics_480p.ogg'
+              uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d10470_insomnia-intro-to-descriptive-statistics/insomnia-intro-to-descriptive-statistics_720p.mp4'
+              uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d10470_insomnia-intro-to-descriptive-statistics/hls/playlist.m3u8'
+          text: null
+        question:
+          title: 失眠
+          background_image: '//lh4.ggpht.com/N10OCwk4gs1tGShOeKFN_veUGg9fPgidLHjl-0hntRMJKEuivQeexoy3nuPrT6YVkLAzEjh2fBQsVMw5mw=s0#w=1280&h=720'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '56480605'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 176642
+    key: '2514367450923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 38. 失眠
+    semantic_type: Concept
+    updated_at: 'Tue Sep 06 2016 15:25:04 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174301
+    atoms:
+      - id: 174301
+        key: '251436745'
+        locale: zh-cn
+        version: 1.0.0
+        title: 38. 失眠
+        semantic_type: QuizAtom
+        updated_at: 'Tue Sep 06 2016 15:51:24 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |
+          ## 假设我们将患有失眠症的人随机分配到两个治疗方法中。在一个方法中，被试获得 20 毫克唑吡旦（安比恩）。在另一种方法中，被试获得了一个安慰剂药片。被试不知道他们服用的是哪种类型的药片。服药后，被试在睡眠实验室入睡以帮助控制潜在变量。第二天早上，在与心理学家的对话中，他们对自己的睡眠质量进行了从 1 到 10 的评分（1 表示“非常差”，10 表示“非常好”）。心理学家同样不知道他们各自服用了哪种药物。唑吡旦组的被试报告的睡眠质量（均值 = 8）优于安慰剂组（均值 = 5）。
+
+          关于这个情景以下哪个说法是正确的？选择所有适用项。
+
+          - □ 唑吡旦组与安慰剂组报告的睡眠质量之间的差异，可能不是由唑吡旦引起的。
+          - □ 睡眠质量的操作定义使用一个满分为100分的度量表。
+          - □ 药丸类型（唑吡旦或安慰剂）是独立变量。
+          - □ 疗法成果的操作定义使用一个满分为10分的度量表。
+          - □ 心理学家不知道被试服用的是那种药丸。
+          - □ 这项研究表明，在其他条件相同的情况下，唑吡旦比安慰剂更能改善睡眠质量。
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 38. 失眠
+          background_image: '//lh6.ggpht.com/OcrW7d38AyNzCHEw6ZP2twzcvpo4cCTH3DgmBbzoJbbX22QapSNOcw2ph1NgG0nPCip2d1uB6ARAbgHqOA=s0#w=1280&h=720'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '64863001'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null

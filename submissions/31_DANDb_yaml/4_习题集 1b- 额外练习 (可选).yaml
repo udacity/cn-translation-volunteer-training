@@ -1,0 +1,1581 @@
+id: 178209
+key: '4590838740'
+locale: zh-cn
+version: 1.0.0
+title: '习题集 1b: 额外练习 (可选)'
+semantic_type: Lesson
+updated_at: 'Sat Sep 24 2016 23:27:19 GMT+0000 (UTC)'
+is_public: true
+image: null
+video: null
+summary: 通过练习，继续熟悉在第 1 课中学习的术语。
+duration: 60
+is_project_lesson: false
+_concepts_ids:
+  - 176645
+  - 176646
+  - 176644
+  - 176647
+  - 176648
+  - 176650
+  - 176649
+  - 176651
+  - 176652
+  - 176654
+  - 176653
+  - 176656
+  - 176655
+  - 176657
+  - 176658
+  - 176659
+  - 176661
+  - 176660
+  - 176662
+  - 176663
+  - 176664
+  - 176666
+  - 176667
+  - 176665
+  - 176668
+  - 176669
+  - 176671
+  - 176670
+  - 176672
+_project_id: null
+concepts:
+  - id: 176645
+    key: '2514367180923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 4. 样本特点
+    semantic_type: Concept
+    updated_at: 'Mon Aug 22 2016 08:17:01 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174302
+    atoms:
+      - id: 174302
+        key: '251436718'
+        locale: zh-cn
+        version: 1.0.0
+        title: 4. 样本特点
+        semantic_type: QuizAtom
+        updated_at: 'Wed Sep 07 2016 01:08:19 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |-
+          ## 用来描述样本的数字叫做？
+
+          - □ 参数
+          - □ 统计量
+          - □ 变量
+          - □ 常数
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 4. 样本特点
+          background_image: '//lh3.ggpht.com/W4urQySV0DHTmexD1_ehE-EJ1hoThuib0fRoQDtIrjjLYUH9Gk7dtjI4EaSNCUi-bqC2x4MUHB3G25fhUw=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '56631174'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 176646
+    key: '2514367190923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 5. 大一学生增重情况
+    semantic_type: Concept
+    updated_at: 'Fri Aug 19 2016 09:30:05 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174303
+    atoms:
+      - id: 174303
+        key: '251436719'
+        locale: zh-cn
+        version: 1.0.0
+        title: 5. 大一学生增重情况
+        semantic_type: QuizAtom
+        updated_at: 'Wed Sep 07 2016 01:28:41 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |-
+          ## Freidman 博士在一所大学任教，记录了她所在大学每位大一新生第一学期的体重变化（增加或减少）。然后她计算出平均体重变化为 4磅。这个平均值为以下哪项的示例：
+
+          - □ 参数
+          - □ 统计
+          - □ 变量
+          - □ 常量
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 5. 大一学生增重情况
+          background_image: '//lh5.ggpht.com/MGAZ1aT2BPPvJJjIylyaom-R2uQZfKctJqVjaKhSCGduIYr3hhRehtPu6cE4HGtujKsetUTrJxnWGZL5Pw=s0#w=1280&h=720'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '56631175'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 176644
+    key: '2514367220923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 8. SAT 分数
+    semantic_type: Concept
+    updated_at: 'Fri Aug 19 2016 09:30:06 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174304
+    atoms:
+      - id: 174304
+        key: '251436722'
+        locale: zh-cn
+        version: 1.0.0
+        title: 8. SAT 分数
+        semantic_type: QuizAtom
+        updated_at: 'Wed Sep 07 2016 01:52:25 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |
+          ## 大一新生整个班的口头表达平均分数为 530。但是，如果你选择 80 名新生样本，然后计算他们的 SAT 口头表达分数，得到的结果可能不是 530。哪个统计概念用于解释样本平均值和相应总体平均值之间的自然差异？
+
+          - □ 统计误差
+          - □ 抽样误差
+          - □ 参数误差
+          - □ 推理误差
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 8. SAT 分数
+          background_image: '//lh4.ggpht.com/ImGgxlfvVgYQb5jkkr3N6hM16wrCCPs-I6Uu2-cNkOjTBq_IkfjR0wG6I-0mp-v4gV4K8NexrsExqZByLgw=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '56631178'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 176647
+    key: '2514367250923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 11. 哪些不是抽象概念？
+    semantic_type: Concept
+    updated_at: 'Wed Sep 07 2016 01:52:57 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174305
+    atoms:
+      - id: 174305
+        key: '251436725'
+        locale: zh-cn
+        version: 1.0.0
+        title: 11. 哪些不是抽象概念？
+        semantic_type: QuizAtom
+        updated_at: 'Wed Sep 07 2016 01:53:51 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |
+          ## 以下哪项不属于抽象概念？选择所有适用项。
+
+          - □ 你的社交智力水平
+          - □ 你对历史事件日期的记忆
+          - □ 你这学期购买的课本的数量
+          - □ 你拥有的 Facebook 好友的数量
+          - □ 你每天所走的距离
+          - □ 与你同住的兄弟姐妹的数量
+          - □ 你的年龄
+          - □ Google 股票的每股价格（美元）
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 11. 哪些不是构建？
+          background_image: '//lh6.ggpht.com/3Q_U5MBso1gHxOzeUsetXLEuLdwdyDr34YJcxGkAwDy142iGXZoo311EkNVvVCNbJ4TurWrWunQkhvp6M5tN=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '56631181'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 176648
+    key: '2514367290923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 15. 变量关系
+    semantic_type: Concept
+    updated_at: 'Fri Aug 19 2016 09:30:07 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174306
+    atoms:
+      - id: 174306
+        key: '251436729'
+        locale: zh-cn
+        version: 1.0.0
+        title: 15. 变量关系
+        semantic_type: QuizAtom
+        updated_at: 'Wed Sep 07 2016 01:54:45 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |
+          ## 关于变量之间关系的声明称为：
+
+          - □ 瞎猜
+          - □ 假设
+          - □ 抽象概念
+          - □ 理论
+          - □ 操作定义
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 15. 变量关系
+          background_image: '//lh3.ggpht.com/THs1OFjCLl9u1te7CAlss6qykPw8kKuNcwb41q88Wlwr2MJ6Bt5U0HECth20o0WN0ksg4aXFnKFow-RZpZOR=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '56631185'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 176650
+    key: '2514367330923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 19. n
+    semantic_type: Concept
+    updated_at: 'Fri Aug 19 2016 09:30:08 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174307
+    atoms:
+      - id: 174307
+        key: '251436733'
+        locale: zh-cn
+        version: 1.0.0
+        title: 19. n
+        semantic_type: QuizAtom
+        updated_at: 'Wed Sep 07 2016 01:55:26 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |-
+          ## 我们用符号 n 表示：
+
+          - □ 样本平均值
+          - □ 总体平均值
+          - □ 样本大小
+          - □ 总体大小
+          - □ 抽样误差
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 19. n
+          background_image: '//lh6.ggpht.com/2gjprWvzNOsdMLNZr2S19SQrH8Xhv_IIvU_7ja1M1_CgluZnm1KZPCeBoVLH7BSDd67zgTMIU2V8qo2pB6Y=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '56631189'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 176649
+    key: '2514367340923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 20. 哪些是真的？
+    semantic_type: Concept
+    updated_at: 'Fri Aug 19 2016 09:30:09 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174308
+    atoms:
+      - id: 174308
+        key: '251436734'
+        locale: zh-cn
+        version: 1.0.0
+        title: 20. 哪些是真的？
+        semantic_type: QuizAtom
+        updated_at: 'Wed Sep 07 2016 01:58:21 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |
+          ## 一位研究者报告她测定了 n = 50 人的年龄（Age in years）。以下哪个说法一定为真？选择所有适用项。
+
+          - □ 她的样本为 50 人。
+          - □ 她收集了 50 个年龄。
+          - □ 总体中有 50 人。
+          - □ “以年为单位的年龄（Age in years）”为她对“年龄（Age）”的操作性定义。
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 20. 哪些是真的？
+          background_image: '//lh6.ggpht.com/oswmBwgjePUHBE3xZjJFrpOLMkN-egVlHIWnTl7UXT26_2fHC_frtKm0arsdXHCbSLROWeMUF-QEk9bJnA=s0#w=1280&h=720'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '56631190'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 176651
+    key: '594049280923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 24. 古典音乐
+    semantic_type: Concept
+    updated_at: 'Fri Aug 19 2016 09:30:09 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174309
+    atoms:
+      - id: 174309
+        key: '59404928'
+        locale: zh-cn
+        version: 1.0.0
+        title: 24. 古典音乐
+        semantic_type: QuizAtom
+        updated_at: 'Wed Apr 19 2017 21:58:26 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |-
+          ## 一名研究者发现在小学时听古典音乐的学生在高中时成绩更好。其研究中未随机分配条件或操纵自变量。这名研究者建议儿童听古典音乐，因为这会提高他们的成绩。这个逻辑有何问题？选择所有适用项。
+
+          - □ 它错把相关性当成因果关系。
+          - □ 它忽略了可能的潜伏变量。
+          - □ 此逻辑没有问题；有科学依据作为支持。
+        instruction:
+          video:
+            youtube_id: 3hSAWKrdO5s
+            subtitles:
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57cfb583_classical-music-intro-to-descriptive-statistics/subtitles/lang_es_vs1.srt'
+                language_code: es
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57cfb583_classical-music-intro-to-descriptive-statistics/subtitles/lang_pt-br_vs1.srt'
+                language_code: pt-br
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57cfb583_classical-music-intro-to-descriptive-statistics/subtitles/lang_en_vs6.srt'
+                language_code: en
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57cfb583_classical-music-intro-to-descriptive-statistics/subtitles/lang_zh-cn_vs1.srt'
+                language_code: zh-cn
+            transcodings:
+              uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57cfb583_classical-music-intro-to-descriptive-statistics/classical-music-intro-to-descriptive-statistics_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57cfb583_classical-music-intro-to-descriptive-statistics/classical-music-intro-to-descriptive-statistics_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57cfb583_classical-music-intro-to-descriptive-statistics/classical-music-intro-to-descriptive-statistics_480p.ogg'
+              uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57cfb583_classical-music-intro-to-descriptive-statistics/classical-music-intro-to-descriptive-statistics_720p.mp4'
+              uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57cfb583_classical-music-intro-to-descriptive-statistics/hls/playlist.m3u8'
+          text: null
+        question:
+          title: 古典音乐
+          background_image: '//lh5.ggpht.com/7D88HfvQ08uObgUgmBucffTRwzm5d_fzcjd9JXqJxVawloyM2-VQ8jJG7Z9eV0I-dWG8uOZJ4OmSI75CoXs=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '56480593'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 176652
+    key: '594049290923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 25. 咖啡因
+    semantic_type: Concept
+    updated_at: 'Fri Aug 19 2016 09:30:10 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174310
+    atoms:
+      - id: 174310
+        key: '59404929'
+        locale: zh-cn
+        version: 1.0.0
+        title: 25. 咖啡因
+        semantic_type: QuizAtom
+        updated_at: 'Wed Apr 19 2017 21:58:26 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |-
+          ## 从这幅图中，你可以得出什么结论？
+
+          - □ 饮用含咖啡因的饮品会导致失眠
+          - □ 饮用更多含咖啡因饮品的人，睡得更少
+          - □ 饮用含咖啡因的饮品会让人睡得更多
+          - □ 饮用更多含咖啡因饮品的人，睡得也更多
+          - □ 这两个变量之间没有什么关系
+        instruction:
+          video:
+            youtube_id: '-D3nyKUK1kY'
+            subtitles:
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d06957_caffeine-intro-to-descriptive-statistics/subtitles/lang_es_vs1.srt'
+                language_code: es
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d06957_caffeine-intro-to-descriptive-statistics/subtitles/lang_pt-br_vs1.srt'
+                language_code: pt-br
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d06957_caffeine-intro-to-descriptive-statistics/subtitles/lang_en_vs8.srt'
+                language_code: en
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d06957_caffeine-intro-to-descriptive-statistics/subtitles/lang_zh-cn_vs1.srt'
+                language_code: zh-cn
+            transcodings:
+              uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d06957_caffeine-intro-to-descriptive-statistics/caffeine-intro-to-descriptive-statistics_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d06957_caffeine-intro-to-descriptive-statistics/caffeine-intro-to-descriptive-statistics_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d06957_caffeine-intro-to-descriptive-statistics/caffeine-intro-to-descriptive-statistics_480p.ogg'
+              uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d06957_caffeine-intro-to-descriptive-statistics/caffeine-intro-to-descriptive-statistics_720p.mp4'
+              uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d06957_caffeine-intro-to-descriptive-statistics/hls/playlist.m3u8'
+          text: null
+        question:
+          title: 25. 咖啡因
+          background_image: '//lh3.ggpht.com/MRxaF8TFKmfEaUTHX0CZyDA08Xdd9K4NOzEv7JGLaEiPCsZZwgq7Ua5Ex3K50eLNnvs6uwf5nQSUD8tLJBI=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '59595435'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 176654
+    key: '595394890923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 27. 英语教学
+    semantic_type: Concept
+    updated_at: 'Fri Aug 19 2016 09:30:10 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174311
+    atoms:
+      - id: 174311
+        key: '59539489'
+        locale: zh-cn
+        version: 1.0.0
+        title: 27. 英语教学
+        semantic_type: QuizAtom
+        updated_at: 'Wed Apr 19 2017 21:58:26 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |-
+          ## 假设研究者调查了使用两种方法（双语教学和只用英语教学）的有效性，教一所低收入小学的英语学习者（母语为西班牙语）英语阅读。研究者将三年级学生随意分配到两个组，每组只用一种方法。然后研究者记录阅读得分（阅读理解测试中的正确率）。在全英文教学组进行测试的当日，气温为舒适的 72℉（22℃），但是双语组测试那天的气温达到 100℉（38℃）。最后双语组的平均成绩为 55%，而全英语组的平均成绩为 70%。
+
+          **在这个例子中，教学方法是：**
+
+          - □ 自变量
+          - □ 额外变量或潜在变量
+          - □ 因变量
+          - □ 定量变量
+          - □ 预测变量
+        instruction:
+          video:
+            youtube_id: HmsNljRIsr4
+            subtitles:
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d10ed8_english-teaching-intro-to-descriptive-statistics/subtitles/lang_es_vs1.srt'
+                language_code: es
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d10ed8_english-teaching-intro-to-descriptive-statistics/subtitles/lang_pt-br_vs1.srt'
+                language_code: pt-br
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d10ed8_english-teaching-intro-to-descriptive-statistics/subtitles/lang_en_vs4.srt'
+                language_code: en
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d10ed8_english-teaching-intro-to-descriptive-statistics/subtitles/lang_zh-cn_vs1.srt'
+                language_code: zh-cn
+            transcodings:
+              uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d10ed8_english-teaching-intro-to-descriptive-statistics/english-teaching-intro-to-descriptive-statistics_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d10ed8_english-teaching-intro-to-descriptive-statistics/english-teaching-intro-to-descriptive-statistics_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d10ed8_english-teaching-intro-to-descriptive-statistics/english-teaching-intro-to-descriptive-statistics_480p.ogg'
+              uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d10ed8_english-teaching-intro-to-descriptive-statistics/english-teaching-intro-to-descriptive-statistics_720p.mp4'
+              uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d10ed8_english-teaching-intro-to-descriptive-statistics/hls/playlist.m3u8'
+          text: null
+        question:
+          title: 英语教学
+          background_image: '//lh3.ggpht.com/ACKgpZnJ6uR-aiwSoDcyobO9QqUgfTHTY0LyhyH8rL5L_RnTO3xVkLcDPSYt-5DW5cpsMFwTWKNacjSSbD_p=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '56480596'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 176653
+    key: '2514367380923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 28. 阅读分数
+    semantic_type: Concept
+    updated_at: 'Fri Aug 19 2016 09:30:11 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174312
+    atoms:
+      - id: 174312
+        key: '251436738'
+        locale: zh-cn
+        version: 1.0.0
+        title: 28. 阅读分数
+        semantic_type: QuizAtom
+        updated_at: 'Wed Sep 07 2016 04:58:23 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |-
+          ## 假设研究者调查了使用两种方法（双语教学和只用英语教学）的有效性，教一所低收入小学的英语学习者（母语为西班牙语）英语阅读。研究者将三年级学生随意分配到两个组，每组只用一种方法。然后研究者记录阅读得分（阅读理解测试中的正确率）。在全英文教学组进行测试的当日，气温为舒适的 72℉（22℃），但是双语组测试那天的气温达到 100℉（38℃）。最后双语组的平均成绩为 55%，而全英语组的平均成绩为 70%。
+
+          **在这个例子中，阅读得分是：**
+
+          - □ 自变量
+          - □ 额外变量或潜在变量
+          - □ 因变量
+          - □ 定量变量
+          - □ 预测变量
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 28. 阅读分数
+          background_image: '//lh3.ggpht.com/nDWnq_-zHvkDU7pCP7xe5UdQxANmsaaoD84wMgjaq8sxDpdX1bO-NS3zNApLnh-iCId7a2tLkRoecMJ6vdmR=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '56480597'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 176656
+    key: '2514367390923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 29. 高温
+    semantic_type: Concept
+    updated_at: 'Wed Sep 07 2016 02:22:05 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174313
+    atoms:
+      - id: 174313
+        key: '251436739'
+        locale: zh-cn
+        version: 1.0.0
+        title: 29. 高温
+        semantic_type: QuizAtom
+        updated_at: 'Wed Sep 07 2016 04:58:17 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |-
+          ## 假设研究者调查了使用两种方法（双语教学和只用英语教学）的有效性，教一所低收入小学的英语学习者（母语为西班牙语）英语阅读。研究者将三年级学生随意分配到两个组，每组只用一种方法。然后研究者记录阅读得分（阅读理解测试中的正确率）。在全英文教学组进行测试的当日，气温为舒适的 72℉（22℃），但是双语组测试那天的气温达到 100℉（38℃）。最后双语组的平均成绩为 55%，而全英语组的平均成绩为 70%。
+
+          **在这个例子中，高温是：**
+
+          - □ 自变量
+          - □ 额外变量或潜在变量
+          - □ 因变量
+          - □ 定量变量
+          - □ 预测变量
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 29. 极端温度
+          background_image: '//lh6.ggpht.com/AVKLZ7sq9PJXFX7ZjkjKbtn218BGtCoc2nj8DTb5LCyrINVp6dSSZLAPl-DPvqpxgspjHN-qIwBga91nQw=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '56480598'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 176655
+    key: '2514367400923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 30. 教学方法
+    semantic_type: Concept
+    updated_at: 'Fri Aug 19 2016 09:30:12 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174314
+    atoms:
+      - id: 174314
+        key: '251436740'
+        locale: zh-cn
+        version: 1.0.0
+        title: 30. 教学方法
+        semantic_type: QuizAtom
+        updated_at: 'Sat Sep 17 2016 12:27:04 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |-
+          ## 假设研究者调查了使用两种方法（双语教学和只用英语教学）的有效性，教一所低收入小学的英语学习者（母语为西班牙语）英语阅读。研究者将三年级学生随意分配到两个组，每组只用一种方法。然后研究者记录阅读得分（阅读理解测试中的正确率）。在全英文教学组进行测试的当日，气温为舒适的 72℉（22℃），但是双语组测试那天的气温达到 100℉（38℃）。最后双语组的平均成绩为 55%，而全英语组的平均成绩为 70%。
+
+          **在这个例子中，教学方法的操作定义是：**
+
+          - □ 阅读得分
+          - □ 温度（单位为摄氏度）
+          - □ 温度（单位为华氏度）
+          - □ 阅读理解测试中的正确率
+          - □ 双语 VS 只用英语
+          - □ 三年级
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 30. 教学方法
+          background_image: '//lh6.ggpht.com/7K8TXw_JyW3-zd8Sn9uKFIpNap9Yl0GFE6jREFPD-yNpHGx6qzBvSCAeE1U5WORNJiWmxarvhIq-CQ2antM=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '56480599'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 176657
+    key: '2514367410923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 31. 阅读分数
+    semantic_type: Concept
+    updated_at: 'Fri Aug 19 2016 09:30:13 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174315
+    atoms:
+      - id: 174315
+        key: '251436741'
+        locale: zh-cn
+        version: 1.0.0
+        title: 31. 阅读分数
+        semantic_type: QuizAtom
+        updated_at: 'Thu Oct 13 2016 02:59:11 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |-
+          ## 假设研究者调查了使用两种方法（双语教学和只用英语教学）的有效性，教一所低收入小学的英语学习者（母语为西班牙语）英语阅读。研究者将三年级学生随意分配到两个组，每组只用一种方法。然后研究者记录阅读得分（阅读理解测试中的正确率）。在全英文教学组进行测试的当日，气温为舒适的 72℉（22℃），但是双语组测试那天的气温达到 100℉（38℃）。最后双语组的平均成绩为 55%，而全英语组的平均成绩为 70%。
+
+          **在这个例子中，阅读分数的操作定义是：**
+
+          - □ 阅读得分
+          - □ 温度（单位为摄氏度）
+          - □ 温度（单位为华氏度）
+          - □ 阅读理解测试中的正确率
+          - □ 双语 VS 只有英语
+          - □ 三年级
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 31. 阅读分数
+          background_image: '//lh6.ggpht.com/RcMknNI62-yO6d2SP9Aih7yl9F-77A3zSINH7CLs5pIy1rds5kD9J12D2VG-dU8dQEdM2ObsabdHjNxDVKRl=s0#w=1920&h=1080'
+          alt_text: ''
+          semantic_type: ImageFormQuestion
+          evaluation_id: '56480600'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 176658
+    key: '2514367420923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 32. 哪一个更好？
+    semantic_type: Concept
+    updated_at: 'Fri Aug 19 2016 09:30:13 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174316
+    atoms:
+      - id: 174316
+        key: '251436742'
+        locale: zh-cn
+        version: 1.0.0
+        title: 32. 哪一个更好？
+        semantic_type: QuizAtom
+        updated_at: 'Wed Sep 07 2016 04:57:46 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |-
+          ## 假设研究者调查了使用两种方法（双语教学和只用英语教学）的有效性，教一所低收入小学的英语学习者（母语为西班牙语）英语阅读。研究者将三年级学生随意分配到两个组，每组只用一种方法。然后研究者记录阅读得分（阅读理解测试中的正确率）。在全英文教学组进行测试的当日，气温为舒适的 72℉（22℃），但是双语组测试那天的气温达到 100℉（38℃）。最后双语组的平均成绩为 55%，而全英语组的平均成绩为 70%。
+
+          **你会得出结论：英语教学方法比双语教学方法更好吗？**
+
+          - □ 会。因为英语组在阅读测试中的得分更高。
+          - □ 不会。因为高温可能会影响双语组的在阅读测试中的得分。
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 32. 哪一个更好？
+          background_image: '//lh6.ggpht.com/M32Hj2Eibgd5aT1UQg9kdJaTJD5pQA1X9s34ps6pUvBXea6x2SVRp_g-1kedkR9RVPHp3LTlXJChiF3Asg=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '56480601'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 176659
+    key: '595394900923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 34. 地雷
+    semantic_type: Concept
+    updated_at: 'Fri Aug 19 2016 09:30:14 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174317
+    atoms:
+      - id: 174317
+        key: '59539490'
+        locale: zh-cn
+        version: 1.0.0
+        title: 34. 地雷
+        semantic_type: QuizAtom
+        updated_at: 'Wed Apr 19 2017 21:58:26 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |
+          ## Poling、Weetjens、Cox、Beyene 和 Sully（2010 年）描述了培训巨颊囊鼠用利用嗅觉探测地雷的方法。他们的培训方法是当囊鼠在装有 TNT（大多数地雷中使用的一种爆炸物）的小不锈钢球附近抓扒时，便奖励它们食物。当它们在未装有 TNT 的小不锈钢球附近抓扒时，便不会获得食物奖励。抓扒被视为“指示反应”。研究者们发现这个培训成功地教会了老鼠在田地里探测真地雷，计算了清除了爆炸物的田地平方米数和发现的爆炸装置数量。
+
+          **这个例子中的自变量是：**
+
+          - □ 奖励正确指示反应和不奖励错误反应的训练过程
+          - □ 清除了爆炸物的平方米数
+          - □ 探测到的爆炸装置数量
+        instruction:
+          video:
+            youtube_id: 8ScnVyC24s8
+            subtitles:
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0985d_landmines-intro-to-descriptive-statistics/subtitles/lang_es_vs1.srt'
+                language_code: es
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0985d_landmines-intro-to-descriptive-statistics/subtitles/lang_pt-br_vs1.srt'
+                language_code: pt-br
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0985d_landmines-intro-to-descriptive-statistics/subtitles/lang_en_vs5.srt'
+                language_code: en
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0985d_landmines-intro-to-descriptive-statistics/subtitles/lang_zh-cn_vs1.srt'
+                language_code: zh-cn
+            transcodings:
+              uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0985d_landmines-intro-to-descriptive-statistics/landmines-intro-to-descriptive-statistics_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0985d_landmines-intro-to-descriptive-statistics/landmines-intro-to-descriptive-statistics_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0985d_landmines-intro-to-descriptive-statistics/landmines-intro-to-descriptive-statistics_480p.ogg'
+              uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0985d_landmines-intro-to-descriptive-statistics/landmines-intro-to-descriptive-statistics_720p.mp4'
+              uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0985d_landmines-intro-to-descriptive-statistics/hls/playlist.m3u8'
+          text: null
+        question:
+          title: 34. 地雷
+          background_image: '//lh3.ggpht.com/xDfTlz-PCB7he-cISDKgH3GvSJ_vjLlcQS6pSiy5fBk8k1jxmDZ5nKD8DhFitGsrqrXQWn0kUPPVGT5nYQ=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '56480603'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 176661
+    key: '2029002150923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 35. 地雷
+    semantic_type: Concept
+    updated_at: 'Fri Aug 19 2016 09:30:14 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174318
+    atoms:
+      - id: 174318
+        key: '202900215'
+        locale: zh-cn
+        version: 1.0.0
+        title: 35. 地雷
+        semantic_type: QuizAtom
+        updated_at: 'Wed Sep 07 2016 04:57:31 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |-
+          ## Poling、Weetjens、Cox、Beyene 和 Sully（2010 年）描述了培训巨颊囊鼠用利用嗅觉探测地雷的方法。他们的培训方法是当囊鼠在装有 TNT（大多数地雷中使用的一种爆炸物）的小不锈钢球附近抓扒时，便奖励它们食物。当它们在未装有 TNT 的小不锈钢球附近抓扒时，便不会获得食物奖励。抓扒被视为“指示反应”。研究者们发现这个培训成功地教会了老鼠在田地里探测真地雷，计算了清除了爆炸物的田地平方米数和发现的爆炸装置数量。
+
+          **这个例子中的因变量是：**
+
+          - □ 奖励正确指示反应和不奖励错误反应的训练过程
+          - □ 清除了爆炸物的平方米数
+          - □ 探测到的爆炸装置数量
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 35. 地雷
+          background_image: '//lh3.ggpht.com/AawOMIIlUnZHjm5Dcbhj16pH--HVRFTN6Ni2voabwoP9zFlP9lkcKdGzC5Mhs-MgnQ18S1clUdhNn_gnfjLP=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '202900216'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 176660
+    key: '596901060923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 39. SAD
+    semantic_type: Concept
+    updated_at: 'Fri Aug 19 2016 09:30:15 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174319
+    atoms:
+      - id: 174319
+        key: '59690106'
+        locale: zh-cn
+        version: 1.0.0
+        title: 39. SAD
+        semantic_type: QuizAtom
+        updated_at: 'Wed Apr 19 2017 21:58:26 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: "## 一些小型研究发现模拟曙光可以有效治疗季节性情绪失调症 (SAD)。近期的一项研究将此治疗方法与亮光疗法和 SAD 患者的安慰剂控制条件（Avery 等人，2001 年）做了比较。患有 SAD 的 95 个人被随机分到了以下三种条件中的一个：\n\n1.\t亮光疗法（10,000勒克斯 – 国际标准照明单位，持续 30 分钟，从上午 6:00 至 6:30），n = 33\n2.\t曙光模拟（凌晨 4:30 至 6:00 一个半小时的曙光信号治疗，峰值 250勒克斯），n = 31\n3.\t安慰剂条件：暗红光（从凌晨 4:30 到 6:00 一个半小时的曙光信号治疗，峰值 0.5勒克斯），n = 31\n\n在之后的 6 周时间内，由一名精神病医生使用汉密尔顿抑郁量表结构性面试指南-季节性情绪失调症版本 (SIGH - SAD) 对这些研究对象进行盲评，用于测量患有此种症状的人的抑郁水平，分数在 0 到 89 之间，分数越高表明情况越严重。研究者报告相比安慰剂和亮光疗法，曙光模拟法的康复率更高。\n（来源：http://dx.doi.org/10.1016/S0006-3223(01)01200-8）\n\n**此研究中的自变量是什么？**\n\n- □ SAD 的严重性\n- □ 光疗法的类型\n- □ 患者在 SIGH-SAD 中的得分。\n- □ 以勒克斯为单位的光的强度\n"
+        instruction:
+          video:
+            youtube_id: tya_avP-hKc
+            subtitles:
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d271f3_sad-intro-to-descriptive-statistics/subtitles/lang_en_vs4.srt'
+                language_code: en
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d271f3_sad-intro-to-descriptive-statistics/subtitles/lang_zh-cn_vs1.srt'
+                language_code: zh-cn
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d271f3_sad-intro-to-descriptive-statistics/subtitles/lang_pt-br_vs1.srt'
+                language_code: pt-br
+            transcodings:
+              uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d271f3_sad-intro-to-descriptive-statistics/sad-intro-to-descriptive-statistics_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d271f3_sad-intro-to-descriptive-statistics/sad-intro-to-descriptive-statistics_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d271f3_sad-intro-to-descriptive-statistics/sad-intro-to-descriptive-statistics_480p.ogg'
+              uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d271f3_sad-intro-to-descriptive-statistics/sad-intro-to-descriptive-statistics_720p.mp4'
+              uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d271f3_sad-intro-to-descriptive-statistics/hls/playlist.m3u8'
+          text: null
+        question:
+          title: SAD
+          background_image: '//lh5.ggpht.com/6yWBqu6yZCQbSQQBi8cWS-2yXYFGMBoAEl7Ow9tF6gD_7VsgaNfu2oc-5ZNmIo1JWzx0cZDT3koMkXimqrlL=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '56480607'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 176662
+    key: '2514367460923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 40. 随机分配
+    semantic_type: Concept
+    updated_at: 'Fri Aug 19 2016 09:30:15 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174320
+    atoms:
+      - id: 174320
+        key: '251436746'
+        locale: zh-cn
+        version: 1.0.0
+        title: 40. 随机分配
+        semantic_type: QuizAtom
+        updated_at: 'Wed Sep 07 2016 04:57:17 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: "## 一些小型研究发现模拟曙光可以有效治疗季节性情绪失调症 (SAD)。近期的一项研究将此治疗方法与亮光疗法和 SAD 患者的安慰剂控制条件（Avery 等人，2001 年）做了比较。患有 SAD 的 95 个人被随机分到了以下三种条件中的一个：\n\n1.\t亮光疗法（10,000勒克斯 – 国际标准照明单位，持续 30 分钟，从上午 6:00 至 6:30），n = 33\n2.\t曙光模拟（凌晨 4:30 至 6:00 一个半小时的曙光信号治疗，峰值 250勒克斯），n = 31\n3.\t安慰剂条件：暗红光（从凌晨 4:30 到 6:00 一个半小时的曙光信号治疗，峰值 0.5勒克斯），n = 31\n\n在之后的 6 周时间内，由一名精神病医生使用汉密尔顿抑郁量表结构性面试指南-季节性情绪失调症版本 (SIGH - SAD) 对这些研究对象进行盲评，用于测量患有此种症状的人的抑郁水平，分数在 0 到 89 之间，分数越高表明情况越严重。研究者报告相比安慰剂和亮光疗法，曙光模拟法的康复率更高。\n（来源：http://dx.doi.org/10.1016/S0006-3223(01)01200-8）\n\n**研究人员为什么要向被试随机分配条件？**\n\n- □ 尽可能减少潜在变量的影响\n- □ 让总体中的每一个人都有平等机会参与研究\n- □ 确保每个分组有相同数量的被试\n- □ 确保 SAD 最严重的患者被分到亮光疗法条件"
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 40. 随机分配
+          background_image: '//lh4.ggpht.com/o05uTtdYLqk32vH9W0ehAjYStg2eNiP3339Vi49M6Gml7k4LFVNMXVUjhoLUgmdG8g7vo8PZ3O0YFP1EHlA=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '56480608'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 176663
+    key: '2514367470923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 41. 安慰剂控制条件
+    semantic_type: Concept
+    updated_at: 'Fri Aug 19 2016 09:30:16 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174321
+    atoms:
+      - id: 174321
+        key: '251436747'
+        locale: zh-cn
+        version: 1.0.0
+        title: 41. 安慰剂控制条件
+        semantic_type: QuizAtom
+        updated_at: 'Wed Sep 07 2016 04:56:57 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: "## 一些小型研究发现模拟曙光可以有效治疗季节性情绪失调症 (SAD)。近期的一项研究将此治疗方法与亮光疗法和 SAD 患者的安慰剂控制条件（Avery 等人，2001 年）做了比较。患有 SAD 的 95 个人被随机分到了以下三种条件中的一个：\n\n1.\t亮光疗法（10,000勒克斯 – 国际标准照明单位，持续 30 分钟，从上午 6:00 至 6:30），n = 33\n2.\t曙光模拟（凌晨 4:30 至 6:00 一个半小时的曙光信号治疗，峰值 250勒克斯），n = 31\n3.\t安慰剂条件：暗红光（从凌晨 4:30 到 6:00 一个半小时的曙光信号治疗，峰值 0.5勒克斯），n = 31\n\n在之后的 6 周时间内，由一名精神病医生使用汉密尔顿抑郁量表结构性面试指南-季节性情绪失调症版本 (SIGH - SAD) 对这些研究对象进行盲评，用于测量患有此种症状的人的抑郁水平，分数在 0 到 89 之间，分数越高表明情况越严重。研究者报告相比安慰剂和亮光疗法，曙光模拟法的康复率更高。\n（来源：http://dx.doi.org/10.1016/S0006-3223(01)01200-8）\n\n**安慰剂控制条件是什么？**\n\n- □ 研究没有患上 SAD 的人\n- □ 一个和治疗组所有方面都相同的组\n- □ 一组认为自己患病，但实际上完全正常的人\n- □ 一个与治疗组相比，除了没有接受疗法，其他方面都相同的组"
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 41. 安慰剂控制条件
+          background_image: '//lh3.ggpht.com/cCc2pKM9V4khjAGVkrrG1b1ERln1V91pjJYZkJ9hfpWNMA6B3OhlJAKnpvhI_QikottDKrZ95c0LYnaBmCo=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '56480609'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 176664
+    key: '2514367480923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 42. 为何使用安慰剂？
+    semantic_type: Concept
+    updated_at: 'Fri Aug 19 2016 09:30:17 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174322
+    atoms:
+      - id: 174322
+        key: '251436748'
+        locale: zh-cn
+        version: 1.0.0
+        title: 42. 为何使用安慰剂？
+        semantic_type: QuizAtom
+        updated_at: 'Wed Sep 07 2016 04:56:52 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: "## 一些小型研究发现模拟曙光可以有效治疗季节性情绪失调症 (SAD)。近期的一项研究将此治疗方法与亮光疗法和 SAD 患者的安慰剂控制条件（Avery 等人，2001 年）做了比较。患有 SAD 的 95 个人被随机分到了以下三种条件中的一个：\n\n1.\t亮光疗法（10,000勒克斯 – 国际标准照明单位，持续 30 分钟，从上午 6:00 至 6:30），n = 33\n2.\t曙光模拟（凌晨 4:30 至 6:00 一个半小时的曙光信号治疗，峰值 250勒克斯），n = 31\n3.\t安慰剂条件：暗红光（从凌晨 4:30 到 6:00 一个半小时的曙光信号治疗，峰值 0.5勒克斯），n = 31\n\n在之后的 6 周时间内，由一名精神病医生使用汉密尔顿抑郁量表结构性面试指南-季节性情绪失调症版本 (SIGH - SAD) 对这些研究对象进行盲评，用于测量患有此种症状的人的抑郁水平，分数在 0 到 89 之间，分数越高表明情况越严重。研究者报告相比安慰剂和亮光疗法，曙光模拟法的康复率更高。\n（来源：http://dx.doi.org/10.1016/S0006-3223(01)01200-8）\n\n**为什么要在研究中加入安慰剂控制条件？**\n\n- □ 有一个健康的小组作为比较\n- □ 确保病人不是假装自己有病\n- □ 帮助识别出潜在变量（例如随时间自行康复）\n- □ 确保有一组病人没有被治好"
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 42. 为何使用安慰剂？
+          background_image: '//lh5.ggpht.com/ynFdbFuaQzprvLus4fVkVpFyYEHX7LIqyJHukOy4sY93TtmsC9ECaPUHbfkI60T9hNKvHWXFLLeRqh5-ayU=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '56480610'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 176666
+    key: '2514367490923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 43. 测量抽象概念
+    semantic_type: Concept
+    updated_at: 'Wed Sep 07 2016 03:50:35 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174323
+    atoms:
+      - id: 174323
+        key: '251436749'
+        locale: zh-cn
+        version: 1.0.0
+        title: 43. 测量抽象概念
+        semantic_type: QuizAtom
+        updated_at: 'Wed Sep 07 2016 04:56:38 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: "## 一些小型研究发现模拟曙光可以有效治疗季节性情绪失调症 (SAD)。近期的一项研究将此治疗方法与亮光疗法和 SAD 患者的安慰剂控制条件（Avery 等人，2001 年）做了比较。患有 SAD 的 95 个人被随机分到了以下三种条件中的一个：\n\n1.\t亮光疗法（10,000勒克斯 – 国际标准照明单位，持续 30 分钟，从上午 6:00 至 6:30），n = 33\n2.\t曙光模拟（凌晨 4:30 至 6:00 一个半小时的曙光信号治疗，峰值 250勒克斯），n = 31\n3.\t安慰剂条件：暗红光（从凌晨 4:30 到 6:00 一个半小时的曙光信号治疗，峰值 0.5勒克斯），n = 31\n\n在之后的 6 周时间内，由一名精神病医生使用汉密尔顿抑郁量表结构性面试指南-季节性情绪失调症版本 (SIGH - SAD) 对这些研究对象进行盲评，用于测量患有此种症状的人的抑郁水平，分数在 0 到 89 之间，分数越高表明情况越严重。研究者报告相比安慰剂和亮光疗法，曙光模拟法的康复率更高。\n（来源：http://dx.doi.org/10.1016/S0006-3223(01)01200-8）\n\n**“亮光疗法”和“曙光模拟”的操作定义有何不同？**\n\n- □ 两者没有什么实质上的区别。\n- □ “曙光模拟”的光照强度更低，持续时间更长，进行实验的时间更早。\n- □ 参与“曙光模拟”的病人的 SIGH - SAD 得分更高。\n- □ “亮光疗法”有效，而“曙光模拟”无效。"
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 43. 测量构造
+          background_image: '//lh4.ggpht.com/5TxNH4jefNnYUE9L4zGUQZy8J68O_Nq3PHyKeKBi9oL5MQjk6ooUB0_x5YjkaeQbDfpHVOgWWI-O86vM8q8=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '56480611'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 176667
+    key: '2514367500923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 44. 参与者
+    semantic_type: Concept
+    updated_at: 'Fri Aug 19 2016 09:30:18 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174325
+    atoms:
+      - id: 174325
+        key: '251436750'
+        locale: zh-cn
+        version: 1.0.0
+        title: 44. 参与者
+        semantic_type: QuizAtom
+        updated_at: 'Wed Sep 07 2016 04:55:08 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: "## 一些小型研究发现模拟曙光可以有效治疗季节性情绪失调症 (SAD)。近期的一项研究将此治疗方法与亮光疗法和 SAD 患者的安慰剂控制条件（Avery 等人，2001 年）做了比较。患有 SAD 的 95 个人被随机分到了以下三种条件中的一个：\n\n1.\t亮光疗法（10,000勒克斯 – 国际标准照明单位，持续 30 分钟，从上午 6:00 至 6:30），n = 33\n2.\t曙光模拟（凌晨 4:30 至 6:00 一个半小时的曙光信号治疗，峰值 250勒克斯），n = 31\n3.\t安慰剂条件：暗红光（从凌晨 4:30 到 6:00 一个半小时的曙光信号治疗，峰值 0.5勒克斯），n = 31\n\n在之后的 6 周时间内，由一名精神病医生使用汉密尔顿抑郁量表结构性面试指南-季节性情绪失调症版本 (SIGH - SAD) 对这些研究对象进行盲评，用于测量患有此种症状的人的抑郁水平，分数在 0 到 89 之间，分数越高表明情况越严重。研究者报告相比安慰剂和亮光疗法，曙光模拟法的康复率更高。\n（来源：http://dx.doi.org/10.1016/S0006-3223(01)01200-8）\n\n**参与此实验的95名被试可以被称为：**\n\n- □ 样本\n- □ 统计量\n- □ 参数\n- □ 总体"
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 44. 参与者
+          background_image: '//lh3.ggpht.com/fihCIedy8-tevlXGjNuCILSut2PwZY1VIHbZ30kbqiwj2QZNGLzEuNyxWdU1BVshpmUY2ezYG8mme3ASuw=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '56480612'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 176665
+    key: '2514367510923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 45. 比例如何？
+    semantic_type: Concept
+    updated_at: 'Fri Aug 19 2016 09:30:19 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174324
+    atoms:
+      - id: 174324
+        key: '251436751'
+        locale: zh-cn
+        version: 1.0.0
+        title: 45. 比例如何？
+        semantic_type: QuizAtom
+        updated_at: 'Wed Sep 07 2016 04:54:52 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: "## 一些小型研究发现模拟曙光可以有效治疗季节性情绪失调症 (SAD)。近期的一项研究将此治疗方法与亮光疗法和 SAD 患者的安慰剂控制条件（Avery 等人，2001 年）做了比较。患有 SAD 的 95 个人被随机分到了以下三种条件中的一个：\n\n1.\t亮光疗法（10,000勒克斯 – 国际标准照明单位，持续 30 分钟，从上午 6:00 至 6:30），n = 33\n2.\t曙光模拟（凌晨 4:30 至 6:00 一个半小时的曙光信号治疗，峰值 250勒克斯），n = 31\n3.\t安慰剂条件：暗红光（从凌晨 4:30 到 6:00 一个半小时的曙光信号治疗，峰值 0.5勒克斯），n = 31\n\n在之后的 6 周时间内，由一名精神病医生使用汉密尔顿抑郁量表结构性面试指南-季节性情绪失调症版本 (SIGH - SAD) 对这些研究对象进行盲评，用于测量患有此种症状的人的抑郁水平，分数在 0 到 89 之间，分数越高表明情况越严重。研究者报告相比安慰剂和亮光疗法，曙光模拟法的康复率更高。\n（来源：http://dx.doi.org/10.1016/S0006-3223(01)01200-8）\n\n**大约有多少比例的被试接受了亮光疗法？**\n\n- □ 0.33\n- □ 0.35\n- □ 1.00\n"
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 45. 比例如何？
+          background_image: '//lh4.ggpht.com/AQKslsARUYV-uuKj0kMvBEx_DVvaQv228mu4dzNY6QwcuIKQj8UtjgRaBdjkvBaZk2uXKVL6GDtw_A2tFg=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '56480613'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 176668
+    key: '2514367520923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 46. 单盲/双盲研究
+    semantic_type: Concept
+    updated_at: 'Fri Aug 19 2016 09:30:20 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174326
+    atoms:
+      - id: 174326
+        key: '251436752'
+        locale: zh-cn
+        version: 1.0.0
+        title: 46. 单盲/双盲研究
+        semantic_type: QuizAtom
+        updated_at: 'Wed Sep 07 2016 04:54:45 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: "## 一些小型研究发现模拟曙光可以有效治疗季节性情绪失调症 (SAD)。近期的一项研究将此治疗方法与亮光疗法和 SAD 患者的安慰剂控制条件（Avery 等人，2001 年）做了比较。患有 SAD 的 95 个人被随机分到了以下三种条件中的一个：\n\n1.\t亮光疗法（10,000勒克斯 – 国际标准照明单位，持续 30 分钟，从上午 6:00 至 6:30），n = 33\n2.\t曙光模拟（凌晨 4:30 至 6:00 一个半小时的曙光信号治疗，峰值 250勒克斯），n = 31\n3.\t安慰剂条件：暗红光（从凌晨 4:30 到 6:00 一个半小时的曙光信号治疗，峰值 0.5勒克斯），n = 31\n\n在之后的 6 周时间内，由一名精神病医生使用汉密尔顿抑郁量表结构性面试指南-季节性情绪失调症版本 (SIGH - SAD) 对这些研究对象进行盲评，用于测量患有此种症状的人的抑郁水平，分数在 0 到 89 之间，分数越高表明情况越严重。研究者报告相比安慰剂和亮光疗法，曙光模拟法的康复率更高。\n（来源：http://dx.doi.org/10.1016/S0006-3223(01)01200-8）\n\n**一名精神病医生对研究对象进行了盲评，这句话是什么意思？**\n\n- □ 精神病医生不可以与被试见面。\n- □ 精神病医生的视力不怎么好。\n- □ 精神病医生不知道被试接受的是哪一种疗法。\n- □ 被试不知道自己接受的是哪一种疗法。"
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 46. 单盲/双盲研究
+          background_image: '//lh6.ggpht.com/MGbMti9kjsBU3GNPDfFxogBUK9URsgbyvG-5SthHLLYZOiDFyJw980O6dAJVgkCtS7fBB2JH4wXfXNNBHQI=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '56480615'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 176669
+    key: '2514367530923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 47. 因果关系？
+    semantic_type: Concept
+    updated_at: 'Fri Aug 19 2016 09:30:20 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174327
+    atoms:
+      - id: 174327
+        key: '251436753'
+        locale: zh-cn
+        version: 1.0.0
+        title: 47. 因果关系？
+        semantic_type: QuizAtom
+        updated_at: 'Wed Sep 07 2016 04:54:05 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: "## 一些小型研究发现模拟曙光可以有效治疗季节性情绪失调症 (SAD)。近期的一项研究将此治疗方法与亮光疗法和 SAD 患者的安慰剂控制条件（Avery 等人，2001 年）做了比较。患有 SAD 的 95 个人被随机分到了以下三种条件中的一个：\n\n1.\t亮光疗法（10,000勒克斯 – 国际标准照明单位，持续 30 分钟，从上午 6:00 至 6:30），n = 33\n2.\t曙光模拟（凌晨 4:30 至 6:00 一个半小时的曙光信号治疗，峰值 250勒克斯），n = 31\n3.\t安慰剂条件：暗红光（从凌晨 4:30 到 6:00 一个半小时的曙光信号治疗，峰值 0.5勒克斯），n = 31\n\n在之后的 6 周时间内，由一名精神病医生使用汉密尔顿抑郁量表结构性面试指南-季节性情绪失调症版本 (SIGH - SAD) 对这些研究对象进行盲评，用于测量患有此种症状的人的抑郁水平，分数在 0 到 89 之间，分数越高表明情况越严重。研究者报告相比安慰剂和亮光疗法，曙光模拟法的康复率更高。\n（来源：http://dx.doi.org/10.1016/S0006-3223(01)01200-8）\n\n**实验结果可以证明曙光模拟能缓解抑郁吗？**\n\n- □ 可以。这个实验经过细致控制，可以得出因果关系。\n- □ 可以。我们可以从相关推出因果。\n- □ 不可以。经过细致控制的实验也不能得出因果关系。\n- □ 不可以。因为其他组的被试接受了不同疗法。"
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 47. 因果关系？
+          background_image: '//lh3.ggpht.com/q8ytaA26rTzWfByXMfpGaKSgmtd79TFDtqOyV8_yKdlcx5CjtUZE8xYuHHoZmHP5tUuyOvT1-_PBbBEJn-E=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '56480616'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 176671
+    key: '2027219170923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 48. 抑郁症
+    semantic_type: Concept
+    updated_at: 'Mon Aug 22 2016 08:28:52 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174328
+    atoms:
+      - id: 174328
+        key: '202721917'
+        locale: zh-cn
+        version: 1.0.0
+        title: 48. 抑郁症
+        semantic_type: QuizAtom
+        updated_at: 'Wed Sep 07 2016 08:08:24 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |
+          ## 研究：
+          Blumenthal 和同事（1999年）比较了诊断为患有冠心病和抑郁症状的患者的三种抑郁症治疗方案。参与者（n = 101）被随机分配到了三个组中的一组。一组服用了药物舍曲林；另一组每周进行三次有氧运动；第三组服用了安慰剂药片。在四个月后，使用汉密尔顿忧郁分级量表对各组的抑郁严重性进行了衡量。
+
+          ## 结果：
+          运动组的抑郁严重性降低程度最大。舍曲林组的抑郁水平降低程度较安慰剂组较大。安慰剂组的抑郁水平得分没有变化。
+
+          **对于这个研究我们可以说什么？**
+
+          - □ 这个研究为实验性研究，因此我们可以对相比安慰剂运动和舍曲林的有效性得出因果结论。
+          - □ 这是一项观察性研究，因此我们不可以对相比安慰剂运动和舍曲林的有效性得出因果结论。
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 48. 抑郁症
+          background_image: '//lh4.ggpht.com/G9F-MIQpoY4naVEOxE2APBZXK3Pw_cD1DT7WVIPoY2sMySGd8UU4w1sLzSmw0GxwHMXJmvf-mNMDYNiZCWNm=s0#w=1280&h=720'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '202721918'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 176670
+    key: '2027219190923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 49. 抑郁症
+    semantic_type: Concept
+    updated_at: 'Fri Aug 19 2016 09:30:22 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174329
+    atoms:
+      - id: 174329
+        key: '202721919'
+        locale: zh-cn
+        version: 1.0.0
+        title: 49. 抑郁症
+        semantic_type: QuizAtom
+        updated_at: 'Wed Sep 07 2016 08:13:26 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |
+          ## 研究：
+          Blumenthal 和同事（1999年）比较了诊断为患有冠心病和抑郁症状的患者的三种抑郁症治疗方案。参与者（n = 101）被随机分配到了三个组中的一组。一组服用了药物舍曲林；另一组每周进行三次有氧运动；第三组服用了安慰剂药片。在四个月后，使用汉密尔顿忧郁分级量表对各组的抑郁严重性进行了衡量。
+
+          ## 结果：
+          运动组的抑郁严重性降低程度最大。舍曲林组的抑郁水平降低程度较安慰剂组较大。安慰剂组的抑郁水平得分没有变化。
+
+          **自变量是？**
+
+          - □ 汉密尔顿忧郁分级量表得分。
+          - □ 疗法类型（运动，舍曲林或安慰剂）
+          - □ 测量疗法效果之前经过的时间。
+          - □ 冠心病
+
+          **因变量是？**
+
+          - □ 汉密尔顿忧郁分级量表得分。
+          - □ 疗法类型（运动，舍曲林或安慰剂）
+          - □ 测量疗法效果之前经过的时间。
+          - □ 冠心病
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 49. 抑郁症
+          background_image: '//lh5.ggpht.com/hrXnLteRwseLAstijrQuPgnPwq9YDCpaFK9uziVIUphiw_lVzUua3fjwUSy1v4eae2R3bSEMMZE24fczNMU=s0#w=1280&h=720'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '202721920'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 176672
+    key: '2027219210923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 50. 抑郁症
+    semantic_type: Concept
+    updated_at: 'Fri Aug 19 2016 09:30:22 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174330
+    atoms:
+      - id: 174330
+        key: '202721921'
+        locale: zh-cn
+        version: 1.0.0
+        title: 50. 抑郁症
+        semantic_type: QuizAtom
+        updated_at: 'Wed Sep 07 2016 08:22:50 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |
+          ## 研究：
+          Blumenthal 和同事（1999年）比较了诊断为患有冠心病和抑郁症状的患者的三种抑郁症治疗方案。参与者（n = 101）被随机分配到了三个组中的一组。一组服用了药物舍曲林；另一组每周进行三次有氧运动；第三组服用了安慰剂药片。在四个月后，使用汉密尔顿忧郁分级量表对各组的抑郁严重性进行了衡量。
+
+          ## 结果：
+          运动组的抑郁严重性降低程度最大。舍曲林组的抑郁水平降低程度较安慰剂组较大。安慰剂组的抑郁水平得分没有变化。
+
+          **对于这项研究，哪一项是正确的？选择所有适用的选项。**
+
+          - □ 治疗抑郁方面，运动和舍曲林并不比安慰剂更加有效。
+          - □ 治疗抑郁方面，运动和舍曲林比安慰剂更加有效。
+          - □ 抑郁程度由汉密尔顿忧郁分级量表进行操作定义。
+          - □ 运动的操作定义是被试每周进行三次有氧运动。
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 50. 抑郁症
+          background_image: '//lh5.ggpht.com/gT2qYRNr7S9wPvMUz_4KW4JXeF9BggTz3_qzSexpLbOHppmkRPQcmjv7DBNjpD9xlr4zu2oZP0DPD4agQyGO=s0#w=1280&h=720'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '202721922'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null

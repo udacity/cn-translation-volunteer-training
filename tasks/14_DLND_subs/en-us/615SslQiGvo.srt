@@ -1,0 +1,500 @@
+﻿1
+00:00:00,000 --> 00:00:02,350
+OK, so now I'm
+going to show you
+
+2
+00:00:02,350 --> 00:00:06,925
+how you actually get these
+convolutional codes from the--
+
+3
+00:00:06,924 --> 00:00:08,533
+this VGG network.
+
+4
+00:00:08,534 --> 00:00:10,200
+So [INAUDIBLE] where
+we're going to take
+
+5
+00:00:10,199 --> 00:00:12,139
+each of the images
+in this flower data
+
+6
+00:00:12,140 --> 00:00:15,970
+set, and run it through
+the convolutional layers,
+
+7
+00:00:15,970 --> 00:00:19,730
+and get out our code from the
+first fully connected layer.
+
+8
+00:00:19,730 --> 00:00:21,670
+So this is code that's
+copied from the source
+
+9
+00:00:21,670 --> 00:00:24,010
+code of TensorFlow VGG.
+
+10
+00:00:24,010 --> 00:00:26,330
+So what happens is the
+network takes an image that's
+
+11
+00:00:26,329 --> 00:00:29,739
+244 by 244 by 3,
+and then runs it
+
+12
+00:00:29,739 --> 00:00:32,739
+through this
+convolutional layers.
+
+13
+00:00:32,740 --> 00:00:35,270
+So we can see here we had
+like two convolutional layers,
+
+14
+00:00:35,270 --> 00:00:38,340
+max pooling two [INAUDIBLE]
+layers, max pooling.
+
+15
+00:00:38,340 --> 00:00:41,092
+Then three, and then
+three, and then three.
+
+16
+00:00:41,091 --> 00:00:42,549
+And then finally
+after all that, we
+
+17
+00:00:42,549 --> 00:00:43,959
+get our fully connected layer.
+
+18
+00:00:43,960 --> 00:00:47,740
+And then that's passed
+through ReLU activation.
+
+19
+00:00:47,740 --> 00:00:53,170
+So it's actually these values
+here that we want to get out.
+
+20
+00:00:53,170 --> 00:00:58,466
+So basically, like this network
+was trained using these ReLUs,
+
+21
+00:00:58,466 --> 00:01:00,340
+and so when we get the
+codes, we want to also
+
+22
+00:01:00,340 --> 00:01:01,970
+use these ReLUs just to--
+
+23
+00:01:01,969 --> 00:01:03,890
+it'll improve our performance.
+
+24
+00:01:03,890 --> 00:01:06,650
+So building the network
+is pretty straightforward.
+
+25
+00:01:06,650 --> 00:01:09,160
+So you just create
+this VGG object,
+
+26
+00:01:09,159 --> 00:01:14,558
+and create your input
+placeholder, then vgg.build.
+
+27
+00:01:14,558 --> 00:01:16,849
+So what this does is it
+actually like builds a network,
+
+28
+00:01:16,849 --> 00:01:19,089
+it builds the graph
+in TensorFlow,
+
+29
+00:01:19,090 --> 00:01:20,380
+which you can use later.
+
+30
+00:01:20,379 --> 00:01:22,462
+And I found like you only
+want to build this once.
+
+31
+00:01:22,462 --> 00:01:26,349
+So like so what happens if you
+run vgg.build multiple times,
+
+32
+00:01:26,349 --> 00:01:29,259
+you just keep adding like all
+of these nodes to your graph,
+
+33
+00:01:29,260 --> 00:01:30,880
+and eventually you
+just have too many.
+
+34
+00:01:30,879 --> 00:01:34,929
+So in this notebook, you want
+to be sure to only like run
+
+35
+00:01:34,930 --> 00:01:38,050
+build just once in
+the whole thing.
+
+36
+00:01:38,049 --> 00:01:39,549
+Otherwise, like
+you'll get an error,
+
+37
+00:01:39,549 --> 00:01:43,000
+and you have to
+restart the notebook.
+
+38
+00:01:43,000 --> 00:01:47,560
+OK, so once we have built
+the network, built the graph,
+
+39
+00:01:47,560 --> 00:01:50,950
+then we just want to
+get the codes from--
+
+40
+00:01:50,950 --> 00:01:54,230
+like I was saying, like
+from this layer, ReLU six.
+
+41
+00:01:54,230 --> 00:01:57,280
+So you just do
+session.run, ReLU six,
+
+42
+00:01:57,280 --> 00:02:00,519
+and feed it your dictionary
+with images, and get your codes.
+
+43
+00:02:00,519 --> 00:02:05,004
+So this part is pretty
+simple, but when you actually
+
+44
+00:02:05,004 --> 00:02:07,019
+like have to go through
+the code to do all this,
+
+45
+00:02:07,019 --> 00:02:09,008
+it actually takes a bit of work
+to get everything kind of set
+
+46
+00:02:09,008 --> 00:02:09,639
+up.
+
+47
+00:02:09,639 --> 00:02:11,347
+So I'm going to do
+most of that, but I'll
+
+48
+00:02:11,347 --> 00:02:13,219
+have you implement
+this part and the code
+
+49
+00:02:13,219 --> 00:02:15,800
+where we're getting our
+convolutional codes out.
+
+50
+00:02:15,800 --> 00:02:18,840
+OK, so here just
+importing the things.
+
+51
+00:02:18,840 --> 00:02:21,969
+Utils is from TensorFlow VGG.
+
+52
+00:02:21,969 --> 00:02:25,900
+And this contains some nice
+functions like loading images
+
+53
+00:02:25,900 --> 00:02:27,189
+and that kind of thing.
+
+54
+00:02:27,189 --> 00:02:30,340
+Then here, just
+loading the data.
+
+55
+00:02:30,340 --> 00:02:33,670
+So basically I've just-- our
+data is in flower photos.
+
+56
+00:02:33,669 --> 00:02:36,699
+And then each of the images is--
+
+57
+00:02:36,699 --> 00:02:39,250
+like each class-- so there's
+like five different classes,
+
+58
+00:02:39,250 --> 00:02:42,139
+sunflowers, daisies,
+roses, et cetera--
+
+59
+00:02:42,139 --> 00:02:44,109
+So I'm just getting all the--
+
+60
+00:02:44,110 --> 00:02:47,470
+just listing all the contents
+in our data directory
+
+61
+00:02:47,469 --> 00:02:50,109
+and getting the classes.
+
+62
+00:02:50,110 --> 00:02:52,940
+So here is what you'll
+be doing down here.
+
+63
+00:02:52,939 --> 00:02:57,079
+So first, you're going
+to build the VGG network.
+
+64
+00:02:57,080 --> 00:02:59,410
+So you're going to
+initialize the class
+
+65
+00:02:59,409 --> 00:03:01,599
+and actually build it.
+
+66
+00:03:01,599 --> 00:03:03,340
+And then down here
+is where you're
+
+67
+00:03:03,340 --> 00:03:06,759
+going to get the codes
+from the ReLU six layer.
+
+68
+00:03:06,759 --> 00:03:08,620
+So the way this code works is--
+
+69
+00:03:08,620 --> 00:03:11,710
+I wrote it so that you're
+actually running batches
+
+70
+00:03:11,710 --> 00:03:12,770
+through the network.
+
+71
+00:03:12,770 --> 00:03:15,310
+So it's looking
+through each file,
+
+72
+00:03:15,310 --> 00:03:19,449
+and it's appending images
+to like some batch.
+
+73
+00:03:19,449 --> 00:03:23,049
+And then we can concatenate the
+batch into an array of images,
+
+74
+00:03:23,050 --> 00:03:24,730
+and then you can
+pass the images,
+
+75
+00:03:24,729 --> 00:03:28,569
+or you can feed the images
+into your VGG network
+
+76
+00:03:28,569 --> 00:03:31,000
+to get ReLU six codes.
+
+77
+00:03:31,000 --> 00:03:33,560
+This is where we're
+loading the image.
+
+78
+00:03:33,560 --> 00:03:36,189
+So what this actually does--
+
+79
+00:03:36,189 --> 00:03:40,060
+the images that we have
+aren't 244 by 244, which
+
+80
+00:03:40,060 --> 00:03:43,390
+is what this network
+expects, so what this does
+
+81
+00:03:43,389 --> 00:03:46,409
+is it just crops out the
+center part of an image.
+
+82
+00:03:46,409 --> 00:03:49,009
+So the image is bigger
+than 244 by 244,
+
+83
+00:03:49,009 --> 00:03:52,579
+then it crops out the center
+to get that size of image.
+
+84
+00:03:52,580 --> 00:03:55,420
+So there's other ways to do
+this, which are maybe better.
+
+85
+00:03:55,419 --> 00:03:58,629
+You can scale your original
+image down to the size
+
+86
+00:03:58,629 --> 00:04:03,009
+that it expects, or you
+know like some other way
+
+87
+00:04:03,009 --> 00:04:07,299
+to figure out how to get your
+original image, your input
+
+88
+00:04:07,300 --> 00:04:09,630
+images into the right
+shape for the network.
+
+89
+00:04:09,629 --> 00:04:11,079
+And this is sort
+of what you have
+
+90
+00:04:11,080 --> 00:04:13,120
+to do any time you're
+doing transfer learning,
+
+91
+00:04:13,120 --> 00:04:16,300
+because like all these
+convolutional networks were
+
+92
+00:04:16,300 --> 00:04:20,230
+trained on some
+original size of images,
+
+93
+00:04:20,230 --> 00:04:23,140
+and you have to use
+the same size when
+
+94
+00:04:23,139 --> 00:04:24,740
+you're doing transfer learning.
+
+95
+00:04:24,740 --> 00:04:27,879
+So I think it's pretty common
+to scale your images down.
+
+96
+00:04:27,879 --> 00:04:30,399
+In this case, I'm just
+letting it crop it.
+
+97
+00:04:30,399 --> 00:04:33,009
+And it worked fine
+in this case, but you
+
+98
+00:04:33,009 --> 00:04:36,129
+might get better results
+if you scale your images.
+
+99
+00:04:36,129 --> 00:04:39,370
+All right, so I will let
+you build the network here,
+
+100
+00:04:39,370 --> 00:04:42,550
+fill in this code, and fill
+in this code down here.
+
+101
+00:04:42,550 --> 00:04:43,480
+Good luck.
+
+102
+00:04:43,480 --> 00:04:46,540
+And if you get stuck
+on this, or if you
+
+103
+00:04:46,540 --> 00:04:48,520
+want to see how I
+did it, like I'll
+
+104
+00:04:48,519 --> 00:04:51,029
+have a solution video for you.
+

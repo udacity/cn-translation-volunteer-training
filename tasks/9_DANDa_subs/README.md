@@ -4,6 +4,7 @@
 
 1. 使用 git 克隆 repo 至本地，创建新 branch。
 2. 在`submissions/`目录中的本文件夹中开始字幕的校对任务。请直接修改`zh-cn/`中的文件。对应的字幕文件都以“视频ID.srt”命名。
+3. 相应的视频链接可以在`https://youtu.be/`+视频ID 看到。
 3. 在校对时，你需要参考的课程视频、中英文字幕，都在下方给出。你可能还需要参考以下资料：
     1. [字幕格式规范](https://github.com/udacity/cn-translation-volunteer-training/blob/master/documents/%E4%B8%AD%E6%96%87%E5%AD%97%E5%B9%95%E6%A0%BC%E5%BC%8F%E8%A7%84%E8%8C%83.md)
     2. [参考词汇表](https://docs.google.com/spreadsheets/d/1u5Nf9IEqfRR2EI4Q695KhH4dySIr9yF6rP2lTGrZKjg/edit?usp=sharing)

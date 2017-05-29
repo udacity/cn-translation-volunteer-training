@@ -1,0 +1,1413 @@
+id: 116561
+key: '4590838740'
+locale: en-us
+version: 1.0.0
+title: 'PS 1b: Additional Practice (Optional)'
+semantic_type: Lesson
+updated_at: 'Sat Apr 29 2017 23:08:18 GMT+0000 (UTC)'
+is_public: true
+image: null
+video: null
+summary: Gain additional practice with identifying terminologies related to research and experimentation methods.
+duration: 60
+is_project_lesson: false
+_concepts_ids:
+  - 800
+  - 106273
+  - 834
+  - 36103
+  - 106309
+  - 130024
+  - 136874
+  - 52011
+  - 138001
+  - 24188
+  - 52592
+  - 106412
+  - 1517
+  - 23825
+  - 102442
+  - 49060
+  - 30397
+  - 102943
+  - 71161
+  - 24402
+  - 53507
+  - 25898
+  - 40922
+  - 138876
+  - 117293
+  - 40901
+  - 24171
+  - 102952
+  - 98934
+_project_id: null
+concepts:
+  - id: 800
+    key: '2514367180923'
+    locale: en-us
+    version: 1.0.0
+    title: 4. Characteristic of a Sample
+    semantic_type: Concept
+    updated_at: 'Tue May 31 2016 02:45:43 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 103226
+    atoms:
+      - id: 103226
+        key: '251436718'
+        locale: en-us
+        version: 1.0.0
+        title: 4. Characteristic of a Sample
+        semantic_type: QuizAtom
+        updated_at: 'Tue Jun 21 2016 22:16:37 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: ''
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 4. Characteristic of a Sample
+          background_image: '//lh3.ggpht.com/W4urQySV0DHTmexD1_ehE-EJ1hoThuib0fRoQDtIrjjLYUH9Gk7dtjI4EaSNCUi-bqC2x4MUHB3G25fhUw=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '56631174'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 106273
+    key: '2514367190923'
+    locale: en-us
+    version: 1.0.0
+    title: 5. Freshman 15
+    semantic_type: Concept
+    updated_at: 'Tue May 31 2016 02:45:43 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 103223
+    atoms:
+      - id: 103223
+        key: '251436719'
+        locale: en-us
+        version: 1.0.0
+        title: 5. Freshman 15
+        semantic_type: QuizAtom
+        updated_at: 'Tue Jun 21 2016 22:16:37 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: ''
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 5. Freshman 15
+          background_image: '//lh5.ggpht.com/MGAZ1aT2BPPvJJjIylyaom-R2uQZfKctJqVjaKhSCGduIYr3hhRehtPu6cE4HGtujKsetUTrJxnWGZL5Pw=s0#w=1280&h=720'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '56631175'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 834
+    key: '2514367220923'
+    locale: en-us
+    version: 1.0.0
+    title: 8. SAT Scores
+    semantic_type: Concept
+    updated_at: 'Tue May 31 2016 02:45:43 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 105507
+    atoms:
+      - id: 105507
+        key: '251436722'
+        locale: en-us
+        version: 1.0.0
+        title: 8. SAT Scores
+        semantic_type: QuizAtom
+        updated_at: 'Tue Jun 21 2016 22:16:48 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: ''
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 8. SAT Scores
+          background_image: '//lh4.ggpht.com/ImGgxlfvVgYQb5jkkr3N6hM16wrCCPs-I6Uu2-cNkOjTBq_IkfjR0wG6I-0mp-v4gV4K8NexrsExqZByLgw=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '56631178'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 36103
+    key: '2514367250923'
+    locale: en-us
+    version: 1.0.0
+    title: 11. Which Are Not Constructs?
+    semantic_type: Concept
+    updated_at: 'Tue May 31 2016 02:45:43 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 105246
+    atoms:
+      - id: 105246
+        key: '251436725'
+        locale: en-us
+        version: 1.0.0
+        title: 11. Which Are Not Constructs?
+        semantic_type: QuizAtom
+        updated_at: 'Tue Jun 21 2016 22:16:52 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: ''
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 11. Which Are Not Constructs?
+          background_image: '//lh6.ggpht.com/3Q_U5MBso1gHxOzeUsetXLEuLdwdyDr34YJcxGkAwDy142iGXZoo311EkNVvVCNbJ4TurWrWunQkhvp6M5tN=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '56631181'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 106309
+    key: '2514367290923'
+    locale: en-us
+    version: 1.0.0
+    title: 15. Variable Relationships
+    semantic_type: Concept
+    updated_at: 'Tue May 31 2016 02:45:43 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 106235
+    atoms:
+      - id: 106235
+        key: '251436729'
+        locale: en-us
+        version: 1.0.0
+        title: 15. Variable Relationships
+        semantic_type: QuizAtom
+        updated_at: 'Tue Jun 21 2016 22:16:37 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: ''
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 15. Variable Relationships
+          background_image: '//lh3.ggpht.com/THs1OFjCLl9u1te7CAlss6qykPw8kKuNcwb41q88Wlwr2MJ6Bt5U0HECth20o0WN0ksg4aXFnKFow-RZpZOR=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '56631185'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 130024
+    key: '2514367330923'
+    locale: en-us
+    version: 1.0.0
+    title: 19. n
+    semantic_type: Concept
+    updated_at: 'Tue May 31 2016 02:45:43 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 103206
+    atoms:
+      - id: 103206
+        key: '251436733'
+        locale: en-us
+        version: 1.0.0
+        title: 19. n
+        semantic_type: QuizAtom
+        updated_at: 'Tue Jun 21 2016 22:16:37 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: ''
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 19. n
+          background_image: '//lh6.ggpht.com/2gjprWvzNOsdMLNZr2S19SQrH8Xhv_IIvU_7ja1M1_CgluZnm1KZPCeBoVLH7BSDd67zgTMIU2V8qo2pB6Y=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '56631189'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 136874
+    key: '2514367340923'
+    locale: en-us
+    version: 1.0.0
+    title: 20. Which Are True?
+    semantic_type: Concept
+    updated_at: 'Tue May 31 2016 02:45:43 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 56384
+    atoms:
+      - id: 56384
+        key: '251436734'
+        locale: en-us
+        version: 1.0.0
+        title: 20. Which Are True?
+        semantic_type: QuizAtom
+        updated_at: 'Tue Jun 21 2016 22:14:59 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: ''
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 20. Which Are True?
+          background_image: '//lh6.ggpht.com/oswmBwgjePUHBE3xZjJFrpOLMkN-egVlHIWnTl7UXT26_2fHC_frtKm0arsdXHCbSLROWeMUF-QEk9bJnA=s0#w=1280&h=720'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '56631190'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 52011
+    key: '594049280923'
+    locale: en-us
+    version: 1.0.0
+    title: 24. Classical Music
+    semantic_type: Concept
+    updated_at: 'Tue May 31 2016 02:46:11 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 111767
+    atoms:
+      - id: 111767
+        key: '59404928'
+        locale: en-us
+        version: 1.0.0
+        title: 24. Classical Music
+        semantic_type: QuizAtom
+        updated_at: 'Wed Apr 19 2017 21:59:36 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: ''
+        instruction:
+          video:
+            youtube_id: 3hSAWKrdO5s
+            subtitles:
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57cfb583_classical-music-intro-to-descriptive-statistics/subtitles/lang_es_vs1.srt'
+                language_code: es
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57cfb583_classical-music-intro-to-descriptive-statistics/subtitles/lang_pt-br_vs1.srt'
+                language_code: pt-br
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57cfb583_classical-music-intro-to-descriptive-statistics/subtitles/lang_en_vs6.srt'
+                language_code: en
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57cfb583_classical-music-intro-to-descriptive-statistics/subtitles/lang_zh-cn_vs1.srt'
+                language_code: zh-cn
+            transcodings:
+              uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57cfb583_classical-music-intro-to-descriptive-statistics/classical-music-intro-to-descriptive-statistics_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57cfb583_classical-music-intro-to-descriptive-statistics/classical-music-intro-to-descriptive-statistics_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57cfb583_classical-music-intro-to-descriptive-statistics/classical-music-intro-to-descriptive-statistics_480p.ogg'
+              uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57cfb583_classical-music-intro-to-descriptive-statistics/classical-music-intro-to-descriptive-statistics_720p.mp4'
+              uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57cfb583_classical-music-intro-to-descriptive-statistics/hls/playlist.m3u8'
+          text: null
+        question:
+          title: Classical Music
+          background_image: '//lh5.ggpht.com/7D88HfvQ08uObgUgmBucffTRwzm5d_fzcjd9JXqJxVawloyM2-VQ8jJG7Z9eV0I-dWG8uOZJ4OmSI75CoXs=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '56480593'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 138001
+    key: '594049290923'
+    locale: en-us
+    version: 1.0.0
+    title: 25. Caffeine
+    semantic_type: Concept
+    updated_at: 'Tue May 31 2016 02:46:11 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 19471
+    atoms:
+      - id: 19471
+        key: '59404929'
+        locale: en-us
+        version: 1.0.0
+        title: 25. Caffeine
+        semantic_type: QuizAtom
+        updated_at: 'Wed Apr 19 2017 22:01:30 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: ''
+        instruction:
+          video:
+            youtube_id: '-D3nyKUK1kY'
+            subtitles:
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d06957_caffeine-intro-to-descriptive-statistics/subtitles/lang_es_vs1.srt'
+                language_code: es
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d06957_caffeine-intro-to-descriptive-statistics/subtitles/lang_pt-br_vs1.srt'
+                language_code: pt-br
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d06957_caffeine-intro-to-descriptive-statistics/subtitles/lang_en_vs8.srt'
+                language_code: en
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d06957_caffeine-intro-to-descriptive-statistics/subtitles/lang_zh-cn_vs1.srt'
+                language_code: zh-cn
+            transcodings:
+              uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d06957_caffeine-intro-to-descriptive-statistics/caffeine-intro-to-descriptive-statistics_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d06957_caffeine-intro-to-descriptive-statistics/caffeine-intro-to-descriptive-statistics_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d06957_caffeine-intro-to-descriptive-statistics/caffeine-intro-to-descriptive-statistics_480p.ogg'
+              uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d06957_caffeine-intro-to-descriptive-statistics/caffeine-intro-to-descriptive-statistics_720p.mp4'
+              uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d06957_caffeine-intro-to-descriptive-statistics/hls/playlist.m3u8'
+          text: null
+        question:
+          title: Caffeine
+          background_image: '//lh3.ggpht.com/MRxaF8TFKmfEaUTHX0CZyDA08Xdd9K4NOzEv7JGLaEiPCsZZwgq7Ua5Ex3K50eLNnvs6uwf5nQSUD8tLJBI=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '59595435'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 24188
+    key: '595394890923'
+    locale: en-us
+    version: 1.0.0
+    title: 27. English Teaching
+    semantic_type: Concept
+    updated_at: 'Tue May 31 2016 02:46:11 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 66687
+    atoms:
+      - id: 66687
+        key: '59539489'
+        locale: en-us
+        version: 1.0.0
+        title: 27. English Teaching
+        semantic_type: QuizAtom
+        updated_at: 'Wed Apr 19 2017 22:00:30 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: ''
+        instruction:
+          video:
+            youtube_id: HmsNljRIsr4
+            subtitles:
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d10ed8_english-teaching-intro-to-descriptive-statistics/subtitles/lang_es_vs1.srt'
+                language_code: es
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d10ed8_english-teaching-intro-to-descriptive-statistics/subtitles/lang_pt-br_vs1.srt'
+                language_code: pt-br
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d10ed8_english-teaching-intro-to-descriptive-statistics/subtitles/lang_en_vs4.srt'
+                language_code: en
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d10ed8_english-teaching-intro-to-descriptive-statistics/subtitles/lang_zh-cn_vs1.srt'
+                language_code: zh-cn
+            transcodings:
+              uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d10ed8_english-teaching-intro-to-descriptive-statistics/english-teaching-intro-to-descriptive-statistics_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d10ed8_english-teaching-intro-to-descriptive-statistics/english-teaching-intro-to-descriptive-statistics_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d10ed8_english-teaching-intro-to-descriptive-statistics/english-teaching-intro-to-descriptive-statistics_480p.ogg'
+              uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d10ed8_english-teaching-intro-to-descriptive-statistics/english-teaching-intro-to-descriptive-statistics_720p.mp4'
+              uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d10ed8_english-teaching-intro-to-descriptive-statistics/hls/playlist.m3u8'
+          text: null
+        question:
+          title: English Teaching
+          background_image: '//lh3.ggpht.com/ACKgpZnJ6uR-aiwSoDcyobO9QqUgfTHTY0LyhyH8rL5L_RnTO3xVkLcDPSYt-5DW5cpsMFwTWKNacjSSbD_p=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '56480596'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 52592
+    key: '2514367380923'
+    locale: en-us
+    version: 1.0.0
+    title: 28. Reading Score
+    semantic_type: Concept
+    updated_at: 'Tue May 31 2016 02:45:43 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 105537
+    atoms:
+      - id: 105537
+        key: '251436738'
+        locale: en-us
+        version: 1.0.0
+        title: 28. Reading Score
+        semantic_type: QuizAtom
+        updated_at: 'Tue Jun 21 2016 22:16:48 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: ''
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 28. Reading Score
+          background_image: '//lh3.ggpht.com/nDWnq_-zHvkDU7pCP7xe5UdQxANmsaaoD84wMgjaq8sxDpdX1bO-NS3zNApLnh-iCId7a2tLkRoecMJ6vdmR=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '56480597'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 106412
+    key: '2514367390923'
+    locale: en-us
+    version: 1.0.0
+    title: 29. Extreme Temperature
+    semantic_type: Concept
+    updated_at: 'Tue May 31 2016 02:45:43 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 106261
+    atoms:
+      - id: 106261
+        key: '251436739'
+        locale: en-us
+        version: 1.0.0
+        title: 29. Extreme Temperature
+        semantic_type: QuizAtom
+        updated_at: 'Tue Jun 21 2016 22:16:37 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: ''
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 29. Extreme Temperature
+          background_image: '//lh6.ggpht.com/AVKLZ7sq9PJXFX7ZjkjKbtn218BGtCoc2nj8DTb5LCyrINVp6dSSZLAPl-DPvqpxgspjHN-qIwBga91nQw=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '56480598'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 1517
+    key: '2514367400923'
+    locale: en-us
+    version: 1.0.0
+    title: 30. Teaching Method
+    semantic_type: Concept
+    updated_at: 'Tue May 31 2016 02:45:43 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 105502
+    atoms:
+      - id: 105502
+        key: '251436740'
+        locale: en-us
+        version: 1.0.0
+        title: 30. Teaching Method
+        semantic_type: QuizAtom
+        updated_at: 'Tue Jun 21 2016 22:16:48 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: ''
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 30. Teaching Method
+          background_image: '//lh6.ggpht.com/7K8TXw_JyW3-zd8Sn9uKFIpNap9Yl0GFE6jREFPD-yNpHGx6qzBvSCAeE1U5WORNJiWmxarvhIq-CQ2antM=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '56480599'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 23825
+    key: '2514367410923'
+    locale: en-us
+    version: 1.0.0
+    title: 31. Reading Scores
+    semantic_type: Concept
+    updated_at: 'Tue May 31 2016 02:45:43 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 105517
+    atoms:
+      - id: 105517
+        key: '251436741'
+        locale: en-us
+        version: 1.0.0
+        title: 31. Reading Scores
+        semantic_type: QuizAtom
+        updated_at: 'Tue Jun 21 2016 22:16:48 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: ''
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 31. Reading Scores
+          background_image: '//lh6.ggpht.com/RcMknNI62-yO6d2SP9Aih7yl9F-77A3zSINH7CLs5pIy1rds5kD9J12D2VG-dU8dQEdM2ObsabdHjNxDVKRl=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '56480600'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 102442
+    key: '2514367420923'
+    locale: en-us
+    version: 1.0.0
+    title: 32. Which Is Better?
+    semantic_type: Concept
+    updated_at: 'Tue May 31 2016 02:45:43 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 105525
+    atoms:
+      - id: 105525
+        key: '251436742'
+        locale: en-us
+        version: 1.0.0
+        title: 32. Which Is Better?
+        semantic_type: QuizAtom
+        updated_at: 'Tue Jun 21 2016 22:16:48 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: ''
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 32. Which Is Better?
+          background_image: '//lh6.ggpht.com/M32Hj2Eibgd5aT1UQg9kdJaTJD5pQA1X9s34ps6pUvBXea6x2SVRp_g-1kedkR9RVPHp3LTlXJChiF3Asg=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '56480601'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 49060
+    key: '595394900923'
+    locale: en-us
+    version: 1.0.0
+    title: 34. Landmines
+    semantic_type: Concept
+    updated_at: 'Tue May 31 2016 02:46:11 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 13953
+    atoms:
+      - id: 13953
+        key: '59539490'
+        locale: en-us
+        version: 1.0.0
+        title: 34. Landmines
+        semantic_type: QuizAtom
+        updated_at: 'Wed Apr 19 2017 22:01:34 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: ''
+        instruction:
+          video:
+            youtube_id: 8ScnVyC24s8
+            subtitles:
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0985d_landmines-intro-to-descriptive-statistics/subtitles/lang_es_vs1.srt'
+                language_code: es
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0985d_landmines-intro-to-descriptive-statistics/subtitles/lang_pt-br_vs1.srt'
+                language_code: pt-br
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0985d_landmines-intro-to-descriptive-statistics/subtitles/lang_en_vs5.srt'
+                language_code: en
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0985d_landmines-intro-to-descriptive-statistics/subtitles/lang_zh-cn_vs1.srt'
+                language_code: zh-cn
+            transcodings:
+              uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0985d_landmines-intro-to-descriptive-statistics/landmines-intro-to-descriptive-statistics_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0985d_landmines-intro-to-descriptive-statistics/landmines-intro-to-descriptive-statistics_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0985d_landmines-intro-to-descriptive-statistics/landmines-intro-to-descriptive-statistics_480p.ogg'
+              uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0985d_landmines-intro-to-descriptive-statistics/landmines-intro-to-descriptive-statistics_720p.mp4'
+              uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0985d_landmines-intro-to-descriptive-statistics/hls/playlist.m3u8'
+          text: null
+        question:
+          title: 34. Landmines
+          background_image: '//lh3.ggpht.com/xDfTlz-PCB7he-cISDKgH3GvSJ_vjLlcQS6pSiy5fBk8k1jxmDZ5nKD8DhFitGsrqrXQWn0kUPPVGT5nYQ=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '56480603'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 30397
+    key: '2029002150923'
+    locale: en-us
+    version: 1.0.0
+    title: 35. Landmines
+    semantic_type: Concept
+    updated_at: 'Tue May 31 2016 02:45:49 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 84241
+    atoms:
+      - id: 84241
+        key: '202900215'
+        locale: en-us
+        version: 1.0.0
+        title: 35. Landmines
+        semantic_type: QuizAtom
+        updated_at: 'Tue Jun 21 2016 22:16:01 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: ''
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 35. Landmines
+          background_image: '//lh3.ggpht.com/AawOMIIlUnZHjm5Dcbhj16pH--HVRFTN6Ni2voabwoP9zFlP9lkcKdGzC5Mhs-MgnQ18S1clUdhNn_gnfjLP=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '202900216'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 102943
+    key: '596901060923'
+    locale: en-us
+    version: 1.0.0
+    title: 39. SAD
+    semantic_type: Concept
+    updated_at: 'Tue May 31 2016 02:46:11 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 39034
+    atoms:
+      - id: 39034
+        key: '59690106'
+        locale: en-us
+        version: 1.0.0
+        title: 39. SAD
+        semantic_type: QuizAtom
+        updated_at: 'Wed Apr 19 2017 21:56:11 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: ''
+        instruction:
+          video:
+            youtube_id: tya_avP-hKc
+            subtitles:
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d271f3_sad-intro-to-descriptive-statistics/subtitles/lang_en_vs4.srt'
+                language_code: en
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d271f3_sad-intro-to-descriptive-statistics/subtitles/lang_zh-cn_vs1.srt'
+                language_code: zh-cn
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d271f3_sad-intro-to-descriptive-statistics/subtitles/lang_pt-br_vs1.srt'
+                language_code: pt-br
+            transcodings:
+              uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d271f3_sad-intro-to-descriptive-statistics/sad-intro-to-descriptive-statistics_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d271f3_sad-intro-to-descriptive-statistics/sad-intro-to-descriptive-statistics_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d271f3_sad-intro-to-descriptive-statistics/sad-intro-to-descriptive-statistics_480p.ogg'
+              uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d271f3_sad-intro-to-descriptive-statistics/sad-intro-to-descriptive-statistics_720p.mp4'
+              uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d271f3_sad-intro-to-descriptive-statistics/hls/playlist.m3u8'
+          text: null
+        question:
+          title: SAD
+          background_image: '//lh5.ggpht.com/6yWBqu6yZCQbSQQBi8cWS-2yXYFGMBoAEl7Ow9tF6gD_7VsgaNfu2oc-5ZNmIo1JWzx0cZDT3koMkXimqrlL=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '56480607'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 71161
+    key: '2514367460923'
+    locale: en-us
+    version: 1.0.0
+    title: 40. Random Assignment
+    semantic_type: Concept
+    updated_at: 'Tue May 31 2016 02:45:43 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 105531
+    atoms:
+      - id: 105531
+        key: '251436746'
+        locale: en-us
+        version: 1.0.0
+        title: 40. Random Assignment
+        semantic_type: QuizAtom
+        updated_at: 'Tue Jun 21 2016 22:16:48 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: ''
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 40. Random Assignment
+          background_image: '//lh4.ggpht.com/o05uTtdYLqk32vH9W0ehAjYStg2eNiP3339Vi49M6Gml7k4LFVNMXVUjhoLUgmdG8g7vo8PZ3O0YFP1EHlA=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '56480608'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 24402
+    key: '2514367470923'
+    locale: en-us
+    version: 1.0.0
+    title: 41. Placebo Control Condition
+    semantic_type: Concept
+    updated_at: 'Tue May 31 2016 02:45:43 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 105565
+    atoms:
+      - id: 105565
+        key: '251436747'
+        locale: en-us
+        version: 1.0.0
+        title: 41. Placebo Control Condition
+        semantic_type: QuizAtom
+        updated_at: 'Tue Jun 21 2016 22:16:48 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: ''
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 41. Placebo Control Condition
+          background_image: '//lh3.ggpht.com/cCc2pKM9V4khjAGVkrrG1b1ERln1V91pjJYZkJ9hfpWNMA6B3OhlJAKnpvhI_QikottDKrZ95c0LYnaBmCo=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '56480609'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 53507
+    key: '2514367480923'
+    locale: en-us
+    version: 1.0.0
+    title: 42. Why Placebo?
+    semantic_type: Concept
+    updated_at: 'Tue May 31 2016 02:45:43 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 105539
+    atoms:
+      - id: 105539
+        key: '251436748'
+        locale: en-us
+        version: 1.0.0
+        title: 42. Why Placebo?
+        semantic_type: QuizAtom
+        updated_at: 'Tue Jun 21 2016 22:16:48 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: ''
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 42. Why Placebo?
+          background_image: '//lh5.ggpht.com/ynFdbFuaQzprvLus4fVkVpFyYEHX7LIqyJHukOy4sY93TtmsC9ECaPUHbfkI60T9hNKvHWXFLLeRqh5-ayU=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '56480610'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 25898
+    key: '2514367490923'
+    locale: en-us
+    version: 1.0.0
+    title: 43. Measuring Constructs
+    semantic_type: Concept
+    updated_at: 'Tue May 31 2016 02:45:43 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 99629
+    atoms:
+      - id: 99629
+        key: '251436749'
+        locale: en-us
+        version: 1.0.0
+        title: 43. Measuring Constructs
+        semantic_type: QuizAtom
+        updated_at: 'Tue Jun 21 2016 22:16:31 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: ''
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 43. Measuring Constructs
+          background_image: '//lh4.ggpht.com/5TxNH4jefNnYUE9L4zGUQZy8J68O_Nq3PHyKeKBi9oL5MQjk6ooUB0_x5YjkaeQbDfpHVOgWWI-O86vM8q8=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '56480611'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 40922
+    key: '2514367500923'
+    locale: en-us
+    version: 1.0.0
+    title: 44. Participants
+    semantic_type: Concept
+    updated_at: 'Tue May 31 2016 02:45:43 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 105571
+    atoms:
+      - id: 105571
+        key: '251436750'
+        locale: en-us
+        version: 1.0.0
+        title: 44. Participants
+        semantic_type: QuizAtom
+        updated_at: 'Tue Jun 21 2016 22:16:48 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: ''
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 44. Participants
+          background_image: '//lh3.ggpht.com/fihCIedy8-tevlXGjNuCILSut2PwZY1VIHbZ30kbqiwj2QZNGLzEuNyxWdU1BVshpmUY2ezYG8mme3ASuw=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '56480612'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 138876
+    key: '2514367510923'
+    locale: en-us
+    version: 1.0.0
+    title: 45. What Proportion?
+    semantic_type: Concept
+    updated_at: 'Tue May 31 2016 02:45:43 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 105572
+    atoms:
+      - id: 105572
+        key: '251436751'
+        locale: en-us
+        version: 1.0.0
+        title: 45. What Proportion?
+        semantic_type: QuizAtom
+        updated_at: 'Tue Jun 21 2016 22:16:48 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: ''
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 45. What Proportion?
+          background_image: '//lh4.ggpht.com/AQKslsARUYV-uuKj0kMvBEx_DVvaQv228mu4dzNY6QwcuIKQj8UtjgRaBdjkvBaZk2uXKVL6GDtw_A2tFg=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '56480613'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 117293
+    key: '2514367520923'
+    locale: en-us
+    version: 1.0.0
+    title: 46. Blind Studies
+    semantic_type: Concept
+    updated_at: 'Tue May 31 2016 02:45:43 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 99579
+    atoms:
+      - id: 99579
+        key: '251436752'
+        locale: en-us
+        version: 1.0.0
+        title: 46. Blind Studies
+        semantic_type: QuizAtom
+        updated_at: 'Tue Jun 21 2016 22:16:31 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: ''
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 46. Blind Studies
+          background_image: '//lh6.ggpht.com/MGbMti9kjsBU3GNPDfFxogBUK9URsgbyvG-5SthHLLYZOiDFyJw980O6dAJVgkCtS7fBB2JH4wXfXNNBHQI=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '56480615'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 40901
+    key: '2514367530923'
+    locale: en-us
+    version: 1.0.0
+    title: 47. Causality?
+    semantic_type: Concept
+    updated_at: 'Tue May 31 2016 02:45:43 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 103108
+    atoms:
+      - id: 103108
+        key: '251436753'
+        locale: en-us
+        version: 1.0.0
+        title: 47. Causality?
+        semantic_type: QuizAtom
+        updated_at: 'Tue Jun 21 2016 22:16:37 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: ''
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 47. Causality?
+          background_image: '//lh3.ggpht.com/q8ytaA26rTzWfByXMfpGaKSgmtd79TFDtqOyV8_yKdlcx5CjtUZE8xYuHHoZmHP5tUuyOvT1-_PBbBEJn-E=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '56480616'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 24171
+    key: '2027219170923'
+    locale: en-us
+    version: 1.0.0
+    title: 48. Depression
+    semantic_type: Concept
+    updated_at: 'Tue May 31 2016 02:45:49 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 103432
+    atoms:
+      - id: 103432
+        key: '202721917'
+        locale: en-us
+        version: 1.0.0
+        title: 48. Depression
+        semantic_type: QuizAtom
+        updated_at: 'Tue Jun 21 2016 22:16:37 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: ''
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 48. Depression
+          background_image: '//lh4.ggpht.com/G9F-MIQpoY4naVEOxE2APBZXK3Pw_cD1DT7WVIPoY2sMySGd8UU4w1sLzSmw0GxwHMXJmvf-mNMDYNiZCWNm=s0#w=1280&h=720'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '202721918'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 102952
+    key: '2027219190923'
+    locale: en-us
+    version: 1.0.0
+    title: 49. Depression
+    semantic_type: Concept
+    updated_at: 'Tue May 31 2016 02:45:49 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 106920
+    atoms:
+      - id: 106920
+        key: '202721919'
+        locale: en-us
+        version: 1.0.0
+        title: 49. Depression
+        semantic_type: QuizAtom
+        updated_at: 'Tue Jun 21 2016 22:16:12 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: ''
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 49. Depression
+          background_image: '//lh5.ggpht.com/hrXnLteRwseLAstijrQuPgnPwq9YDCpaFK9uziVIUphiw_lVzUua3fjwUSy1v4eae2R3bSEMMZE24fczNMU=s0#w=1280&h=720'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '202721920'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 98934
+    key: '2027219210923'
+    locale: en-us
+    version: 1.0.0
+    title: 50. Depression
+    semantic_type: Concept
+    updated_at: 'Tue May 31 2016 02:45:49 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 106911
+    atoms:
+      - id: 106911
+        key: '202721921'
+        locale: en-us
+        version: 1.0.0
+        title: 50. Depression
+        semantic_type: QuizAtom
+        updated_at: 'Tue Jun 21 2016 22:16:12 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: ''
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 50. Depression
+          background_image: '//lh5.ggpht.com/gT2qYRNr7S9wPvMUz_4KW4JXeF9BggTz3_qzSexpLbOHppmkRPQcmjv7DBNjpD9xlr4zu2oZP0DPD4agQyGO=s0#w=1280&h=720'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '202721922'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null

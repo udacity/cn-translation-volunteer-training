@@ -11,7 +11,7 @@ image:
   width: 500
   height: 500
 video: null
-summary: 学习构建、总体与样本、相关与因果、假设与试验。
+summary: 学习建构、总体与样本、相关与因果、假设以及试验。
 duration: 240
 is_project_lesson: false
 _concepts_ids:
@@ -74,7 +74,7 @@ concepts:
         updated_at: 'Wed Apr 19 2017 21:39:51 GMT+0000 (UTC)'
         is_public: true
         tags: []
-        instructor_notes: '由于第 12-16 课对于完成纳米学位项目的剩余内容并非必须，所以本版本课程中并不包括这些部分。如果你要了解第 12-16 课中介绍的方差分析、相关性、线性回归和/或卡方检验，可以查看我们的免费课程[推论统计学入门](https://cn.udacity.com/course/intro-to-inferential-statistics--ud201/)。'
+        instructor_notes: '由于第 12-16 课对于完成纳米学位项目的剩余内容并非必须，所以本版本课程中并不包括这些部分。如果你要了解第 12-16 课中介绍的方差分析、相关性、线性回归或卡方检验，可以查看我们的免费课程[推论统计学入门](https://cn.udacity.com/course/intro-to-inferential-statistics--ud201/)。'
         resources:
           files: []
           google_plus_link: null
@@ -498,9 +498,9 @@ concepts:
           ## BBC 是如何测量记忆的？
 
           - 你记住了哪些脸型？
-          - 从第一部分和第二部分正确识别和放置的百分比？
-          - 知道你是第一次还是第二次见到某个面孔？
-          - 知道某个面孔是否已存在？
+          - 你从第一部分和第二部分正确识别和放置的百分比？
+          - 你是第一次还是第二次见到某个面孔？
+          - 你知道某个面孔是否已存在？
           - 你记住的面孔数量？
         instruction:
           video:
@@ -1870,7 +1870,7 @@ concepts:
           ## 你认为给某些人派发没有疗效的药丸的目的是什么？
 
           - 为了确保有效药丸没有副作用 
-          - 让服用有效药丸的人群有个对照组 
+          - 让服用有效药丸的人群有一个对照组 
           - 了解无效药丸是否有助于睡眠
         instruction:
           video:
@@ -1947,8 +1947,8 @@ concepts:
 
           - 所有良好的研究都会欺骗参与者 
           - 当参与者知道他们服用的是药物，就不会参与研究了 
-          - 让他们都认为自己服用的是药物 
-          - 当他们知道自己收到的不是药物，就不会参与研究了
+          - 让参与者都认为自己服用的是药物 
+          - 当参与者知道自己服用的不是药物，就不会参与研究了
         instruction:
           video:
             youtube_id: NNE8Cr77ytg
@@ -2220,7 +2220,7 @@ concepts:
           coaching_appointments_link: null
           office_hours_link: null
         instructor_notes: |-
-          ## 如果我们让每个人参加两项记忆力测试，第一次测试前被试睡得很少，第二次测试前被试睡得很多，然后比较两次测试的结果。在这个试验中，我们控制了哪些因素？
+          ## 如果我们让每个人参加两项记忆力测试，第一次少量睡眠后测试，另一次大量睡眠后测试，然后比较两次测试的结果。在这个试验中，我们控制了哪些因素？
 
           - 因为性别不同造成的记忆力差别 
           - 每个人的睡眠时间的长短 
@@ -2377,9 +2377,9 @@ concepts:
         instructor_notes: |-
           ## 考虑到我们已知 Kaite 的手长是6.75 英寸，我们可以从这组“身高和手长数据”中得出什么结论？
 
-          - 如果我想变的更高，我的指甲应该留得更长 
+          - 如果 Kaite 想变的更高，指甲应该留得更长 
           - 更高的人手更长
-          - 我不可能高于 7 英尺 
+          - Kaite 不可能高于 7 英尺 
           - 手更长的人，一般也更高
         instruction:
           video:

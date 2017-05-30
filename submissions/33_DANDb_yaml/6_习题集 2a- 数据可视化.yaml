@@ -1,0 +1,1039 @@
+id: 178211
+key: '4578005935'
+locale: zh-cn
+version: 1.0.0
+title: '习题集 2a: 数据可视化'
+semantic_type: Lesson
+updated_at: 'Sun Dec 18 2016 06:38:51 GMT+0000 (UTC)'
+is_public: true
+image: null
+video: null
+summary: 检验你对数据可视化知识的掌握程度。
+duration: 60
+is_project_lesson: false
+_concepts_ids:
+  - 176701
+  - 176700
+  - 176702
+  - 176703
+  - 176704
+  - 176706
+  - 176705
+  - 176707
+  - 176709
+  - 176708
+  - 176710
+  - 176712
+  - 176711
+  - 176713
+  - 176714
+  - 176715
+  - 176716
+  - 176717
+  - 176719
+  - 176718
+_project_id: null
+concepts:
+  - id: 176701
+    key: '594537740923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 1. 血型
+    semantic_type: Concept
+    updated_at: 'Thu Aug 25 2016 05:04:46 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174358
+    atoms:
+      - id: 174358
+        key: '59453774'
+        locale: zh-cn
+        version: 1.0.0
+        title: 1. 血型
+        semantic_type: QuizAtom
+        updated_at: 'Wed Apr 19 2017 21:58:26 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |-
+          ## 填空：每一种血型的频率、比例和百分比是多少？请填入表格中。
+
+
+          Σ 号表示总和，它是希腊字母大写西格玛。<em>f</em> 代表频率（计数），<em>p</em> 代表比例。
+
+          用数字输入每个答案，不需要添加任何特殊字符，如 % 号。用小数输入比例。
+        instruction:
+          video:
+            youtube_id: qhhrjvLF8H8
+            subtitles:
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1c967_1.-blood-types-intro-to-descriptive-statistics/subtitles/lang_zh-cn_vs1.srt'
+                language_code: zh-cn
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1c967_1.-blood-types-intro-to-descriptive-statistics/subtitles/lang_en_vs4.srt'
+                language_code: en
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1c967_1.-blood-types-intro-to-descriptive-statistics/subtitles/lang_es_vs1.srt'
+                language_code: es
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1c967_1.-blood-types-intro-to-descriptive-statistics/subtitles/lang_pt-br_vs2.srt'
+                language_code: pt-br
+            transcodings:
+              uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1c967_1.-blood-types-intro-to-descriptive-statistics/1.-blood-types-intro-to-descriptive-statistics_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1c967_1.-blood-types-intro-to-descriptive-statistics/1.-blood-types-intro-to-descriptive-statistics_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1c967_1.-blood-types-intro-to-descriptive-statistics/1.-blood-types-intro-to-descriptive-statistics_480p.ogg'
+              uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1c967_1.-blood-types-intro-to-descriptive-statistics/1.-blood-types-intro-to-descriptive-statistics_720p.mp4'
+              uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1c967_1.-blood-types-intro-to-descriptive-statistics/hls/playlist.m3u8'
+          text: null
+        question:
+          title: 1. 血型
+          background_image: '//lh4.ggpht.com/P4nYnbs1NE2XCyVlQ4so3Ioy1fEKOE_luDM1escuR5PzQ_GwmvhBnK_XdrtukrDYQswxjzb4cNFjb3Ya_g=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '67411904'
+        answer:
+          text: null
+          video:
+            youtube_id: Ee2o-0arldg
+            subtitles:
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0ca1c_1.-blood-types-intro-to-descriptive-statistics/subtitles/lang_es_vs1.srt'
+                language_code: es
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0ca1c_1.-blood-types-intro-to-descriptive-statistics/subtitles/lang_pt-br_vs2.srt'
+                language_code: pt-br
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0ca1c_1.-blood-types-intro-to-descriptive-statistics/subtitles/lang_en_vs4.srt'
+                language_code: en
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0ca1c_1.-blood-types-intro-to-descriptive-statistics/subtitles/lang_zh-cn_vs1.srt'
+                language_code: zh-cn
+            transcodings:
+              uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0ca1c_1.-blood-types-intro-to-descriptive-statistics/1.-blood-types-intro-to-descriptive-statistics_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0ca1c_1.-blood-types-intro-to-descriptive-statistics/1.-blood-types-intro-to-descriptive-statistics_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0ca1c_1.-blood-types-intro-to-descriptive-statistics/1.-blood-types-intro-to-descriptive-statistics_480p.ogg'
+              uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0ca1c_1.-blood-types-intro-to-descriptive-statistics/1.-blood-types-intro-to-descriptive-statistics_720p.mp4'
+              uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0ca1c_1.-blood-types-intro-to-descriptive-statistics/hls/playlist.m3u8'
+  - id: 176700
+    key: '2527424850923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 2. 罕见血型
+    semantic_type: Concept
+    updated_at: 'Thu Aug 25 2016 05:04:47 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174359
+    atoms:
+      - id: 174359
+        key: '252742485'
+        locale: zh-cn
+        version: 1.0.0
+        title: 2. 罕见血型
+        semantic_type: QuizAtom
+        updated_at: 'Wed Sep 07 2016 10:24:08 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |
+          ## 选择：下面哪一种血型最罕见？
+
+          - □ O
+          - □ A
+          - □ B
+          - □ AB
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 2. 罕见血型
+          background_image: '//lh6.ggpht.com/nZ-3B2tW7GIO1J0XaLAX0A9dq1bNp1u1hJxOOL_9hlb0ze2vVQJaztlkg5Da-ogRgbV9bjbnUM9Ro3I4w4I=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '56648262'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 176702
+    key: '2527424860923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 3. 常见血型
+    semantic_type: Concept
+    updated_at: 'Thu Aug 25 2016 05:04:48 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174360
+    atoms:
+      - id: 174360
+        key: '252742486'
+        locale: zh-cn
+        version: 1.0.0
+        title: 3. 常见血型
+        semantic_type: QuizAtom
+        updated_at: 'Wed Sep 07 2016 10:24:39 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |-
+          ## 选择：下面哪一种血型最常见？
+
+          - □ O
+          - □ A
+          - □ B
+          - □ AB
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 3. 常见血型
+          background_image: '//lh4.ggpht.com/x0sY2YTJDKd0tpi7OWuj8ODcp0pMN58Nh5RUwQeP6nSZCyimOgukDJ6_Zc5db8GqG70qB1n-mOwTNDzimuU=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '56648263'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 176703
+    key: '2527424870923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 4. A 型血
+    semantic_type: Concept
+    updated_at: 'Thu Aug 25 2016 05:04:49 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174361
+    atoms:
+      - id: 174361
+        key: '252742487'
+        locale: zh-cn
+        version: 1.0.0
+        title: 4. A 型血
+        semantic_type: QuizAtom
+        updated_at: 'Wed Sep 07 2016 10:26:04 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: '## A 型血献血者的比例是多少？请填入数字。'
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 4. A 型血
+          background_image: '//lh6.ggpht.com/r4OGB-b0OF-meULyWAoP0YtLD2dT0QjC6dbDhwpkMROabdiFDfiZV9B4V2xTE2iZiMA0Up_sxIRFV8K7HIM=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '56648264'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 176704
+    key: '2527424880923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 5. 猜测
+    semantic_type: Concept
+    updated_at: 'Thu Aug 25 2016 05:04:49 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174362
+    atoms:
+      - id: 174362
+        key: '252742488'
+        locale: zh-cn
+        version: 1.0.0
+        title: 5. 猜测
+        semantic_type: QuizAtom
+        updated_at: 'Wed Sep 07 2016 10:29:32 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |-
+          ## 如果献血者的血型准确反映了该城市中居民的血型，那么百分之多少的居民为 O 型血？
+
+
+          输入答案时，请去掉百分号。
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 5. 猜测
+          background_image: '//lh5.ggpht.com/leuIFBMfKtaGy6XYYExgVeqMKJByc37bl477WF1BtN8_KGoR4l1H-OKaVQJMT7ke3z-Nw_pEdJc-2QBd5wk=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '56648265'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 176706
+    key: '2527424890923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 6. 分析事物
+    semantic_type: Concept
+    updated_at: 'Thu Aug 25 2016 05:04:50 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174363
+    atoms:
+      - id: 174363
+        key: '252742489'
+        locale: zh-cn
+        version: 1.0.0
+        title: 6. 分析事物
+        semantic_type: QuizAtom
+        updated_at: 'Wed Sep 07 2016 11:42:26 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: '## O 型、A 型和 B 型血都可以输入其他至少一种血型的人，只有 AB 型血之可以输入 AB 型血的人。已知这一点，人口中不可以献血给其他血型的人的比例是多少？'
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 6. 分析事物
+          background_image: '//lh4.ggpht.com/eJUB2PKyjTgG7bewWPytyp4U8Vnt83F0h8xJN4xyho89gLCNHRgNqG8OK6QplG7Ep-Xj7ZKcBznBY8PYi8Cj=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '56648266'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 176705
+    key: '2527425010923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 18. 计算组距
+    semantic_type: Concept
+    updated_at: 'Thu Aug 25 2016 05:04:51 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174364
+    atoms:
+      - id: 174364
+        key: '252742501'
+        locale: zh-cn
+        version: 1.0.0
+        title: 18. 计算组距
+        semantic_type: QuizAtom
+        updated_at: 'Wed Sep 07 2016 11:51:45 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |-
+          ## 假设你有一些 15 到 105 的数据，如果你想要 10 个分组，组距应该是多少？
+
+          - □ 1
+          - □ 9
+          - □ 10
+          - □ 90
+
+          说明：在回答此问题时，假定我们有最高至 105（不含 105）的值。
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 18. 计算组距
+          background_image: '//lh4.ggpht.com/MTJDKnPRC-vX6eQAOTBiiExlbwo0aQjmkzghI65GnlQur-iwpj1EZG9pBin8EHNdIXAPiEi03UaaXU2szadA=s0#w=1280&h=720'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '62143594'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 176707
+    key: '2527425040923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 21. 通勤时间
+    semantic_type: Concept
+    updated_at: 'Thu Aug 25 2016 05:04:52 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174365
+    atoms:
+      - id: 174365
+        key: '252742504'
+        locale: zh-cn
+        version: 1.0.0
+        title: 21. 通勤时间
+        semantic_type: QuizAtom
+        updated_at: 'Wed Sep 07 2016 11:53:56 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |-
+          ## 这幅直方图表示某家公司的员工的平均通勤时间（单位为分钟）。频率最大的通勤时间是多少？
+
+          - □ 30 分钟
+          - □ 40 分钟
+          - □ 50 分钟
+          - □ 60 分钟
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 21. 通勤时间
+          background_image: '//lh6.ggpht.com/4m3tZxKdIzZhYL5tUzl9JKIb7GQCylsTAQ-fNT2SvPVZ0xVkbJB_1hiNd273BIE1x601PwWSxp8tr98sM9_C=s0#w=1280&h=720'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '62143598'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 176709
+    key: '2527425050923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 22. 通勤一小时
+    semantic_type: Concept
+    updated_at: 'Thu Aug 25 2016 05:04:53 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174366
+    atoms:
+      - id: 174366
+        key: '252742505'
+        locale: zh-cn
+        version: 1.0.0
+        title: 22. 通勤一小时
+        semantic_type: QuizAtom
+        updated_at: 'Wed Sep 07 2016 11:54:50 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: '## 这幅直方图表示某家公司的员工的平均通勤时间（单位为分钟）。有多少员工的通勤时间超过59分钟？'
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 22. 通勤一小时
+          background_image: '//lh6.ggpht.com/yMShtSnn3j6v08rdMxKnNRGY_F46RLBqzqhNxTXwgOhQSH0q9NGSg5F9i-m_L8yTftRUCpxjfoa_RlmONjSr=s0#w=1280&h=720'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '62143599'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 176708
+    key: '2527425060923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 23. 找到组宽
+    semantic_type: Concept
+    updated_at: 'Thu Aug 25 2016 05:04:53 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174367
+    atoms:
+      - id: 174367
+        key: '252742506'
+        locale: zh-cn
+        version: 1.0.0
+        title: 23. 找到组宽
+        semantic_type: QuizAtom
+        updated_at: 'Wed Sep 07 2016 11:55:58 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: '## 这幅直方图表示某家公司的员工的平均通勤时间（单位为分钟）。组宽（组距）是多少分钟？'
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 23. 找到组宽
+          background_image: '//lh6.ggpht.com/pL-tjh2e6gEzra-AB2UIgtVFHDYDQvSOXtYd2HQetudZx84C9dBC2NeF5U4Rpxa3cEHLAI9DoLg6IW1dwPI=s0#w=1280&h=720'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '62143600'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 176710
+    key: '2527425070923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 24. 分析直方图
+    semantic_type: Concept
+    updated_at: 'Thu Aug 25 2016 05:04:54 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174368
+    atoms:
+      - id: 174368
+        key: '252742507'
+        locale: zh-cn
+        version: 1.0.0
+        title: 24. 分析直方图
+        semantic_type: QuizAtom
+        updated_at: 'Thu Oct 06 2016 17:52:24 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |-
+          ## 这幅直方图表示某家公司的员工的平均通勤时间（单位为分钟）。对于这个直方图，下面哪个说法是正确的（选择所有正确的选项）？
+
+          - □ 所有员工的通勤时间都超过 60 分钟
+          - □ 所有员工的通勤时间都超过 20 分钟
+          - □ 大部分员工乘坐公共交通工具通勤
+          - □ 大部分员工的通勤时间在 50 - 60 分钟之间
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 24. 分析直方图
+          background_image: '//lh5.ggpht.com/qCUTaMGC73d0dpcWC5p7Zd7NG0eZsIFbB2zhLdexddSyeJ_LVfZTWj5SuYBeEx-Y9HFV3A6JUO3QuFDBL40=s0#w=1280&h=720'
+          alt_text: ''
+          semantic_type: ImageFormQuestion
+          evaluation_id: '62143601'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 176712
+    key: '2527425080923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 25. 频率和组距
+    semantic_type: Concept
+    updated_at: 'Thu Aug 25 2016 05:04:55 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174369
+    atoms:
+      - id: 174369
+        key: '252742508'
+        locale: zh-cn
+        version: 1.0.0
+        title: 25. 频率和组距
+        semantic_type: QuizAtom
+        updated_at: 'Wed Sep 07 2016 12:03:26 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |-
+          ## 通常，当我们使用直方图可视化数据时，如果我们增大组距，频率会怎样？
+
+          - □ 变大
+          - □ 变小
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 25. 频率和组距
+          background_image: '//lh3.ggpht.com/C3CgPNztK6a1Ho5mOqRqbukrc4BLY0sIxgC4-VjMZhNEt2pu4jimzfkGUlS8a4TXeoNzn8G1dWf8yEzRJ9w=s0#w=1280&h=720'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '62143602'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 176711
+    key: '2527425100923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 27. 什么的分布？
+    semantic_type: Concept
+    updated_at: 'Thu Aug 25 2016 05:04:56 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174370
+    atoms:
+      - id: 174370
+        key: '252742510'
+        locale: zh-cn
+        version: 1.0.0
+        title: 27. 什么的分布？
+        semantic_type: QuizAtom
+        updated_at: 'Wed Sep 07 2016 12:13:17 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |-
+          ## 在一次《统计学入门》课程期末考试中，分数低于75和高于75的人一样多。如果我们想了解学生的成绩，我们应该查看什么的分布？
+
+          - □ 学生的分布
+          - □ 期末考试分数的分布
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 27. 什么的分布？
+          background_image: '//lh5.ggpht.com/5iw-4Ph3KHfWPGdydJ3fPXGUvgY8rhrXBDGliE02Hxj5Mj9CRSFz8vKQBhW-0UmLgSWBNFUt0dhwKdvafQ-r=s0#w=1280&h=720'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '62143604'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 176713
+    key: '2527425110923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 28. 思考分布
+    semantic_type: Concept
+    updated_at: 'Thu Aug 25 2016 05:04:57 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174371
+    atoms:
+      - id: 174371
+        key: '252742511'
+        locale: zh-cn
+        version: 1.0.0
+        title: 28. 思考分布
+        semantic_type: QuizAtom
+        updated_at: 'Wed Sep 07 2016 12:14:55 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: '## 在一次《统计学入门》课程期末考试中，分数低于75和高于75的人一样多。如果考试分数的分布图如下，75分应该位于 X 轴上的哪个位置？'
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 28. 思考分布
+          background_image: '//lh5.ggpht.com/V_KSHh4j66B2yb0jR7VcNTvj5tG2BI8Zx0HEiLUq7AaT1CCZ2_VGSW248x4bFtCJZa_HJzWTX5CKxO93s2jF=s0#w=1280&h=720'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '62143605'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 176714
+    key: '2527425120923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 29. 频率轴
+    semantic_type: Concept
+    updated_at: 'Thu Aug 25 2016 05:04:58 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174372
+    atoms:
+      - id: 174372
+        key: '252742512'
+        locale: zh-cn
+        version: 1.0.0
+        title: 29. 频率轴
+        semantic_type: QuizAtom
+        updated_at: 'Wed Sep 07 2016 12:15:41 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |-
+          ## 哪一个轴代表频率？
+
+          - □ X 轴
+          - □ Y 轴
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 29. 频率轴
+          background_image: '//lh3.ggpht.com/X0fB8-j5qrVAv-pUNWtrVUwcVHZ02AgtC5GPiQy5AnIudO0GYdYEbXvtnB5zo3D0Osfpp8e3ZWdjZdLZ4jdg=s0#w=1280&h=720'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '62143606'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 176715
+    key: '2527425130923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 30. X 轴代表！
+    semantic_type: Concept
+    updated_at: 'Thu Aug 25 2016 05:04:59 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174373
+    atoms:
+      - id: 174373
+        key: '252742513'
+        locale: zh-cn
+        version: 1.0.0
+        title: 30. X 轴代表！
+        semantic_type: QuizAtom
+        updated_at: 'Wed Sep 07 2016 12:20:50 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |-
+          ## 这个直方图的 X 轴可能代表什么？选择所有可能的选项。
+
+          - □ 频率
+          - □ 国家
+          - □ 年龄
+          - □ 颜色
+          - □ 价格（美元）
+          - □ 长度（米）
+
+
+          ----
+          <br />
+          提示：直方图的 X 轴应该代表类别数据，还是数值数据？
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 30. X 轴代表！
+          background_image: '//lh5.ggpht.com/JiA8KrQScuzkYdJQ-DnpezBtDn1P0MmI43DnBFtZ440hCvusJ30sfJ71MpMp2QGPqcWiW5CgCc-NKoHt3cTu=s0#w=1280&h=720'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '62143607'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 176716
+    key: '2527425140923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 31. 偏度
+    semantic_type: Concept
+    updated_at: 'Thu Aug 25 2016 05:05:00 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174374
+    atoms:
+      - id: 174374
+        key: '252742514'
+        locale: zh-cn
+        version: 1.0.0
+        title: 31. 偏度
+        semantic_type: QuizAtom
+        updated_at: 'Wed Sep 07 2016 12:19:26 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |-
+          ## 这个直方图分布是...
+
+          - □ 正偏斜分布
+          - □ 负偏斜分布
+          - □ 正态分布
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 31. 偏度
+          background_image: '//lh4.ggpht.com/S5Vpah0_YqM0JrXsr4TQy2G9V_rR3j34ooZhsnibIJZH8h3w6uF220793ykVif6MeKTcIveeCtdfoYMgOTc=s0#w=1280&h=720'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '62143608'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 176717
+    key: '2527425150923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 32. 负偏斜
+    semantic_type: Concept
+    updated_at: 'Thu Aug 25 2016 05:05:00 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174375
+    atoms:
+      - id: 174375
+        key: '252742515'
+        locale: zh-cn
+        version: 1.0.0
+        title: 32. 负偏斜
+        semantic_type: QuizAtom
+        updated_at: 'Wed Sep 07 2016 12:31:18 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: '## 请在下方的方框中描述负偏斜分布应该是什么样子。你可以想出一些负偏斜分布的例子吗？'
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 32. 负偏斜
+          background_image: '//lh3.ggpht.com/m72_rY8fB7Ek2qoidMMgp0fbDP7tVvxO8K19ougbivOXefN3ukDAl0sKNE_VoA4rJsCJ2cxKFguYAmk9fko=s0#w=1280&h=720'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '62143609'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 176719
+    key: '2527425160923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 33. 正态分布
+    semantic_type: Concept
+    updated_at: 'Thu Aug 25 2016 05:05:01 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174376
+    atoms:
+      - id: 174376
+        key: '252742516'
+        locale: zh-cn
+        version: 1.0.0
+        title: 33. 正态分布
+        semantic_type: QuizAtom
+        updated_at: 'Mon Apr 10 2017 12:42:47 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: '## 请在下方的方框中描述正态分布应该是什么样子。你可以想出正态分布的一些例子吗？'
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 33. 正态分布
+          background_image: '//lh6.ggpht.com/TFYvM46iDsMpKdLYe0iSszWy3XhkanIUWAcqmXvZPlkg9PniIq-mpi8-Gn2dJm6f4oxLNCEDwFxNRZUClQ=s0#w=1280&h=720'
+          alt_text: ''
+          semantic_type: ImageFormQuestion
+          evaluation_id: '62143610'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 176718
+    key: '2527425170923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 34. 表格与直方图
+    semantic_type: Concept
+    updated_at: 'Thu Aug 25 2016 05:05:02 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174377
+    atoms:
+      - id: 174377
+        key: '252742517'
+        locale: zh-cn
+        version: 1.0.0
+        title: 34. 表格与直方图
+        semantic_type: QuizAtom
+        updated_at: 'Wed Sep 07 2016 12:49:38 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |-
+          ## 勾选关于频率表和直方图，所有正确的选项。
+
+          - □ 可以很好地可视化分布的形状 
+          - □ 可以很好地得出样本的数量
+          - □ 可以从频率表创建直方图 / 可以从直方图创建频率表
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 34. 表格与直方图
+          background_image: '//lh3.ggpht.com/YcGtmOngl4KifUM3yjOx_8WXbaABbFXWPtjtNW6xeO4Y1XwcQDkWqnnNISovzoVLFrMfFpxATaYhzO6MSIk=s0#w=1280&h=720'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '62143611'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null

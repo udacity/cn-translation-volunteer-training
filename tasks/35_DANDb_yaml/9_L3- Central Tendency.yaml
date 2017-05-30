@@ -1,0 +1,2099 @@
+id: 116376
+key: '4615238546'
+locale: en-us
+version: 1.0.0
+title: 'L3: Central Tendency'
+semantic_type: Lesson
+updated_at: 'Fri May 12 2017 16:08:21 GMT+0000 (UTC)'
+is_public: true
+image: null
+video: null
+summary: 'Learn about three measures of central tendency: mean, median, and mode.'
+duration: 120
+is_project_lesson: false
+_concepts_ids:
+  - 117577
+  - 132236
+  - 1598
+  - 42750
+  - 115057
+  - 115119
+  - 4386
+  - 27088
+  - 53964
+  - 29707
+  - 113302
+  - 37640
+  - 72991
+  - 52008
+  - 24197
+  - 27056
+  - 123742
+  - 32884
+  - 120117
+  - 125365
+  - 115118
+  - 123760
+  - 21615
+  - 72943
+  - 38903
+  - 37634
+  - 129269
+  - 123755
+  - 125712
+  - 51458
+  - 52761
+_project_id: null
+concepts:
+  - id: 117577
+    key: '773674760923'
+    locale: en-us
+    version: 1.0.0
+    title: Which Major?
+    semantic_type: Concept
+    updated_at: 'Tue Jun 28 2016 21:06:14 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 41041
+    atoms:
+      - id: 41041
+        key: '77367476'
+        locale: en-us
+        version: 1.0.0
+        title: Which Major?
+        semantic_type: QuizAtom
+        updated_at: 'Wed Apr 19 2017 22:01:09 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: Enter your answers as a number with no commas or symbols ($). Enter the number in thousands (5 digits)
+        instruction:
+          video:
+            youtube_id: mIzPoh_kqw4
+            subtitles:
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d16e7e_which-major-intro-to-descriptive-statistics/subtitles/lang_pt-br_vs1.srt'
+                language_code: pt-br
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d16e7e_which-major-intro-to-descriptive-statistics/subtitles/lang_en_vs4.srt'
+                language_code: en
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d16e7e_which-major-intro-to-descriptive-statistics/subtitles/lang_zh-cn_vs6.srt'
+                language_code: zh-cn
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d16e7e_which-major-intro-to-descriptive-statistics/subtitles/lang_es_vs2.srt'
+                language_code: es
+            transcodings:
+              uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d16e7e_which-major-intro-to-descriptive-statistics/which-major-intro-to-descriptive-statistics_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d16e7e_which-major-intro-to-descriptive-statistics/which-major-intro-to-descriptive-statistics_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d16e7e_which-major-intro-to-descriptive-statistics/which-major-intro-to-descriptive-statistics_480p.ogg'
+              uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d16e7e_which-major-intro-to-descriptive-statistics/which-major-intro-to-descriptive-statistics_720p.mp4'
+              uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d16e7e_which-major-intro-to-descriptive-statistics/hls/playlist.m3u8'
+          text: null
+        question:
+          title: Which Major?
+          background_image: '//lh6.ggpht.com/Z3vCPVer0hMcPZNYuiNewcN_TdH_2sUeHN9OYN8EmX8nRGzntOQHvUe41fTqK4T5lDLuN5lYzGTw-wRv3WSL=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '77345001'
+        answer:
+          text: null
+          video:
+            youtube_id: t0yIetl9ZxI
+            subtitles:
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d260ad_which-major-intro-to-descriptive-statistics/subtitles/lang_en_vs3.srt'
+                language_code: en
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d260ad_which-major-intro-to-descriptive-statistics/subtitles/lang_es_vs1.srt'
+                language_code: es
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d260ad_which-major-intro-to-descriptive-statistics/subtitles/lang_zh-cn_vs5.srt'
+                language_code: zh-cn
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d260ad_which-major-intro-to-descriptive-statistics/subtitles/lang_pt-br_vs1.srt'
+                language_code: pt-br
+            transcodings:
+              uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d260ad_which-major-intro-to-descriptive-statistics/which-major-intro-to-descriptive-statistics_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d260ad_which-major-intro-to-descriptive-statistics/which-major-intro-to-descriptive-statistics_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d260ad_which-major-intro-to-descriptive-statistics/which-major-intro-to-descriptive-statistics_480p.ogg'
+              uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d260ad_which-major-intro-to-descriptive-statistics/which-major-intro-to-descriptive-statistics_720p.mp4'
+              uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d260ad_which-major-intro-to-descriptive-statistics/hls/playlist.m3u8'
+  - id: 132236
+    key: '773450040923'
+    locale: en-us
+    version: 1.0.0
+    title: One Number to Describe Data
+    semantic_type: Concept
+    updated_at: 'Tue Jun 28 2016 21:06:14 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 97138
+    atoms:
+      - id: 97138
+        key: '77345004'
+        locale: en-us
+        version: 1.0.0
+        title: One Number to Describe Data
+        semantic_type: VideoAtom
+        updated_at: 'Wed Apr 19 2017 21:31:17 GMT+0000 (UTC)'
+        is_public: true
+        tags: null
+        instructor_notes: null
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        video:
+          youtube_id: 6QfvhQ0En0E
+          subtitles:
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d08ff5_one-number-to-describe-data-intro-to-descriptive-statistics/subtitles/lang_zh-cn_vs8.srt'
+              language_code: zh-cn
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d08ff5_one-number-to-describe-data-intro-to-descriptive-statistics/subtitles/lang_es_vs1.srt'
+              language_code: es
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d08ff5_one-number-to-describe-data-intro-to-descriptive-statistics/subtitles/lang_en_vs3.srt'
+              language_code: en
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d08ff5_one-number-to-describe-data-intro-to-descriptive-statistics/subtitles/lang_ar_vs1.srt'
+              language_code: ar
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d08ff5_one-number-to-describe-data-intro-to-descriptive-statistics/subtitles/lang_pt-br_vs9.srt'
+              language_code: pt-br
+          transcodings:
+            uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d08ff5_one-number-to-describe-data-intro-to-descriptive-statistics/one-number-to-describe-data-intro-to-descriptive-statistics_480p.mp4'
+            uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d08ff5_one-number-to-describe-data-intro-to-descriptive-statistics/one-number-to-describe-data-intro-to-descriptive-statistics_480p_1000kbps.mp4'
+            uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d08ff5_one-number-to-describe-data-intro-to-descriptive-statistics/one-number-to-describe-data-intro-to-descriptive-statistics_480p.ogg'
+            uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d08ff5_one-number-to-describe-data-intro-to-descriptive-statistics/one-number-to-describe-data-intro-to-descriptive-statistics_720p.mp4'
+            uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d08ff5_one-number-to-describe-data-intro-to-descriptive-statistics/hls/playlist.m3u8'
+  - id: 1598
+    key: '773674770923'
+    locale: en-us
+    version: 1.0.0
+    title: Which Number to Choose?
+    semantic_type: Concept
+    updated_at: 'Tue Jun 28 2016 21:06:14 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 32462
+    atoms:
+      - id: 32462
+        key: '77367477'
+        locale: en-us
+        version: 1.0.0
+        title: Which Number to Choose?
+        semantic_type: QuizAtom
+        updated_at: 'Wed Apr 19 2017 22:01:22 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: ''
+        instruction:
+          video:
+            youtube_id: 7E7Czixpviw
+            subtitles:
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d09102_which-number-to-choose-intro-to-descriptive-statistics/subtitles/lang_es_vs1.srt'
+                language_code: es
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d09102_which-number-to-choose-intro-to-descriptive-statistics/subtitles/lang_pt-br_vs2.srt'
+                language_code: pt-br
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d09102_which-number-to-choose-intro-to-descriptive-statistics/subtitles/lang_en_vs3.srt'
+                language_code: en
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d09102_which-number-to-choose-intro-to-descriptive-statistics/subtitles/lang_zh-cn_vs5.srt'
+                language_code: zh-cn
+            transcodings:
+              uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d09102_which-number-to-choose-intro-to-descriptive-statistics/which-number-to-choose-intro-to-descriptive-statistics_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d09102_which-number-to-choose-intro-to-descriptive-statistics/which-number-to-choose-intro-to-descriptive-statistics_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d09102_which-number-to-choose-intro-to-descriptive-statistics/which-number-to-choose-intro-to-descriptive-statistics_480p.ogg'
+              uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d09102_which-number-to-choose-intro-to-descriptive-statistics/which-number-to-choose-intro-to-descriptive-statistics_720p.mp4'
+              uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d09102_which-number-to-choose-intro-to-descriptive-statistics/hls/playlist.m3u8'
+          text: null
+        question:
+          title: Which Number to Choose?
+          background_image: '//lh3.ggpht.com/lmsCqTE-4yhFyOg1MdbWr1aTNOR8iHu4XNo_5vM-QeGXFjpiLRdDyH5CyLDAS-nwZAhgssUBYltXm0heCQk=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '77345005'
+        answer:
+          text: null
+          video:
+            youtube_id: TSw2AAaKxBA
+            subtitles:
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d26f10_which-number-to-choose-intro-to-descriptive-statistics/subtitles/lang_es_vs1.srt'
+                language_code: es
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d26f10_which-number-to-choose-intro-to-descriptive-statistics/subtitles/lang_en_vs3.srt'
+                language_code: en
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d26f10_which-number-to-choose-intro-to-descriptive-statistics/subtitles/lang_pt-br_vs3.srt'
+                language_code: pt-br
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d26f10_which-number-to-choose-intro-to-descriptive-statistics/subtitles/lang_zh-cn_vs7.srt'
+                language_code: zh-cn
+            transcodings:
+              uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d26f10_which-number-to-choose-intro-to-descriptive-statistics/which-number-to-choose-intro-to-descriptive-statistics_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d26f10_which-number-to-choose-intro-to-descriptive-statistics/which-number-to-choose-intro-to-descriptive-statistics_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d26f10_which-number-to-choose-intro-to-descriptive-statistics/which-number-to-choose-intro-to-descriptive-statistics_480p.ogg'
+              uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d26f10_which-number-to-choose-intro-to-descriptive-statistics/which-number-to-choose-intro-to-descriptive-statistics_720p.mp4'
+              uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d26f10_which-number-to-choose-intro-to-descriptive-statistics/hls/playlist.m3u8'
+  - id: 42750
+    key: '773674780923'
+    locale: en-us
+    version: 1.0.0
+    title: Mode of Dataset
+    semantic_type: Concept
+    updated_at: 'Tue Jun 28 2016 21:06:14 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 18022
+    atoms:
+      - id: 18022
+        key: '77367478'
+        locale: en-us
+        version: 1.0.0
+        title: Mode of Dataset
+        semantic_type: QuizAtom
+        updated_at: 'Wed Apr 19 2017 22:01:31 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: ''
+        instruction:
+          video:
+            youtube_id: 80BAbiEWsaY
+            subtitles:
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d09728_mode-of-dataset-intro-to-descriptive-statistics/subtitles/lang_es_vs1.srt'
+                language_code: es
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d09728_mode-of-dataset-intro-to-descriptive-statistics/subtitles/lang_pt-br_vs3.srt'
+                language_code: pt-br
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d09728_mode-of-dataset-intro-to-descriptive-statistics/subtitles/lang_en_vs3.srt'
+                language_code: en
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d09728_mode-of-dataset-intro-to-descriptive-statistics/subtitles/lang_zh-cn_vs5.srt'
+                language_code: zh-cn
+            transcodings:
+              uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d09728_mode-of-dataset-intro-to-descriptive-statistics/mode-of-dataset-intro-to-descriptive-statistics_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d09728_mode-of-dataset-intro-to-descriptive-statistics/mode-of-dataset-intro-to-descriptive-statistics_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d09728_mode-of-dataset-intro-to-descriptive-statistics/mode-of-dataset-intro-to-descriptive-statistics_480p.ogg'
+              uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d09728_mode-of-dataset-intro-to-descriptive-statistics/mode-of-dataset-intro-to-descriptive-statistics_720p.mp4'
+              uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d09728_mode-of-dataset-intro-to-descriptive-statistics/hls/playlist.m3u8'
+          text: null
+        question:
+          title: Mode of Dataset
+          background_image: '//lh5.ggpht.com/fi_AjDr7-XOn1S_9GVWPchNo55fStIpdqQMvuAQg7SXpY_fIFQDcyiLxUg6EkzZOn4f_VYJ4C8FwGXY-W1o=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '77345008'
+        answer:
+          text: null
+          video:
+            youtube_id: HvOjcTFlVTI
+            subtitles:
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d11423_mode-of-dataset-intro-to-descriptive-statistics/subtitles/lang_es_vs1.srt'
+                language_code: es
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d11423_mode-of-dataset-intro-to-descriptive-statistics/subtitles/lang_pt-br_vs3.srt'
+                language_code: pt-br
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d11423_mode-of-dataset-intro-to-descriptive-statistics/subtitles/lang_en_vs3.srt'
+                language_code: en
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d11423_mode-of-dataset-intro-to-descriptive-statistics/subtitles/lang_zh-cn_vs5.srt'
+                language_code: zh-cn
+            transcodings:
+              uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d11423_mode-of-dataset-intro-to-descriptive-statistics/mode-of-dataset-intro-to-descriptive-statistics_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d11423_mode-of-dataset-intro-to-descriptive-statistics/mode-of-dataset-intro-to-descriptive-statistics_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d11423_mode-of-dataset-intro-to-descriptive-statistics/mode-of-dataset-intro-to-descriptive-statistics_480p.ogg'
+              uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d11423_mode-of-dataset-intro-to-descriptive-statistics/mode-of-dataset-intro-to-descriptive-statistics_720p.mp4'
+              uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d11423_mode-of-dataset-intro-to-descriptive-statistics/hls/playlist.m3u8'
+  - id: 115057
+    key: '773674790923'
+    locale: en-us
+    version: 1.0.0
+    title: Mode of Distribution
+    semantic_type: Concept
+    updated_at: 'Tue Jun 28 2016 21:06:14 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 18218
+    atoms:
+      - id: 18218
+        key: '77367479'
+        locale: en-us
+        version: 1.0.0
+        title: Mode of Distribution
+        semantic_type: QuizAtom
+        updated_at: 'Wed Apr 19 2017 21:58:08 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: ''
+        instruction:
+          video:
+            youtube_id: 47JDwoDUxP8
+            subtitles:
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d07c0d_mode-of-distribution-intro-to-descriptive-statistics/subtitles/lang_es_vs1.srt'
+                language_code: es
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d07c0d_mode-of-distribution-intro-to-descriptive-statistics/subtitles/lang_pt-br_vs3.srt'
+                language_code: pt-br
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d07c0d_mode-of-distribution-intro-to-descriptive-statistics/subtitles/lang_en_vs3.srt'
+                language_code: en
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d07c0d_mode-of-distribution-intro-to-descriptive-statistics/subtitles/lang_zh-cn_vs5.srt'
+                language_code: zh-cn
+            transcodings:
+              uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d07c0d_mode-of-distribution-intro-to-descriptive-statistics/mode-of-distribution-intro-to-descriptive-statistics_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d07c0d_mode-of-distribution-intro-to-descriptive-statistics/mode-of-distribution-intro-to-descriptive-statistics_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d07c0d_mode-of-distribution-intro-to-descriptive-statistics/mode-of-distribution-intro-to-descriptive-statistics_480p.ogg'
+              uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d07c0d_mode-of-distribution-intro-to-descriptive-statistics/mode-of-distribution-intro-to-descriptive-statistics_720p.mp4'
+              uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d07c0d_mode-of-distribution-intro-to-descriptive-statistics/hls/playlist.m3u8'
+          text: null
+        question:
+          title: Mode of Distribution
+          background_image: '//lh3.ggpht.com/UH18MrzGWyukHzA_d5R3HdBbTSPWih3Bb3ovK8pKu4j8MogXPk_pLHkQJaJHLHZkQ9A3ksDoWjWd9eQvAVU=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '77345011'
+        answer:
+          text: null
+          video:
+            youtube_id: s9dHF4MMGx0
+            subtitles:
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1e662_mode-of-distribution-intro-to-descriptive-statistics/subtitles/lang_en_vs3.srt'
+                language_code: en
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1e662_mode-of-distribution-intro-to-descriptive-statistics/subtitles/lang_pt-br_vs3.srt'
+                language_code: pt-br
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1e662_mode-of-distribution-intro-to-descriptive-statistics/subtitles/lang_zh-cn_vs7.srt'
+                language_code: zh-cn
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1e662_mode-of-distribution-intro-to-descriptive-statistics/subtitles/lang_es_vs1.srt'
+                language_code: es
+            transcodings:
+              uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1e662_mode-of-distribution-intro-to-descriptive-statistics/mode-of-distribution-intro-to-descriptive-statistics_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1e662_mode-of-distribution-intro-to-descriptive-statistics/mode-of-distribution-intro-to-descriptive-statistics_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1e662_mode-of-distribution-intro-to-descriptive-statistics/mode-of-distribution-intro-to-descriptive-statistics_480p.ogg'
+              uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1e662_mode-of-distribution-intro-to-descriptive-statistics/mode-of-distribution-intro-to-descriptive-statistics_720p.mp4'
+              uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1e662_mode-of-distribution-intro-to-descriptive-statistics/hls/playlist.m3u8'
+  - id: 115119
+    key: '773674800923'
+    locale: en-us
+    version: 1.0.0
+    title: Mode - Negatively Skewed Distribution
+    semantic_type: Concept
+    updated_at: 'Tue Jun 28 2016 21:06:14 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 40868
+    atoms:
+      - id: 40868
+        key: '77367480'
+        locale: en-us
+        version: 1.0.0
+        title: Mode - Negatively Skewed Distribution
+        semantic_type: QuizAtom
+        updated_at: 'Wed Apr 19 2017 22:01:09 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: ''
+        instruction:
+          video:
+            youtube_id: xBnhUJENAtk
+            subtitles:
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1d151_mode-negatively-skewed-distribution-intro-to-descriptive-statistics/subtitles/lang_pt-br_vs3.srt'
+                language_code: pt-br
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1d151_mode-negatively-skewed-distribution-intro-to-descriptive-statistics/subtitles/lang_en_vs3.srt'
+                language_code: en
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1d151_mode-negatively-skewed-distribution-intro-to-descriptive-statistics/subtitles/lang_zh-cn_vs5.srt'
+                language_code: zh-cn
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1d151_mode-negatively-skewed-distribution-intro-to-descriptive-statistics/subtitles/lang_es_vs2.srt'
+                language_code: es
+            transcodings:
+              uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1d151_mode-negatively-skewed-distribution-intro-to-descriptive-statistics/mode-negatively-skewed-distribution-intro-to-descriptive-statistics_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1d151_mode-negatively-skewed-distribution-intro-to-descriptive-statistics/mode-negatively-skewed-distribution-intro-to-descriptive-statistics_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1d151_mode-negatively-skewed-distribution-intro-to-descriptive-statistics/mode-negatively-skewed-distribution-intro-to-descriptive-statistics_480p.ogg'
+              uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1d151_mode-negatively-skewed-distribution-intro-to-descriptive-statistics/mode-negatively-skewed-distribution-intro-to-descriptive-statistics_720p.mp4'
+              uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1d151_mode-negatively-skewed-distribution-intro-to-descriptive-statistics/hls/playlist.m3u8'
+          text: null
+        question:
+          title: Mode - Negatively Skewed Distribution
+          background_image: '//lh4.ggpht.com/cpoNHTr05LY6EjF5qnL7tLFOZYCiofkTiEr4dpbpwNESSvWfLqUYjdUzWZTyarm1AGypW3S_Gc7d5zsyaAM=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '77345014'
+        answer:
+          text: null
+          video:
+            youtube_id: oNRtSJvtkJc
+            subtitles:
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1a7bb_mode-negatively-skewed-distribution-intro-to-descriptive-statistics/subtitles/lang_en_vs4.srt'
+                language_code: en
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1a7bb_mode-negatively-skewed-distribution-intro-to-descriptive-statistics/subtitles/lang_es_vs1.srt'
+                language_code: es
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1a7bb_mode-negatively-skewed-distribution-intro-to-descriptive-statistics/subtitles/lang_zh-cn_vs5.srt'
+                language_code: zh-cn
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1a7bb_mode-negatively-skewed-distribution-intro-to-descriptive-statistics/subtitles/lang_pt-br_vs3.srt'
+                language_code: pt-br
+            transcodings:
+              uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1a7bb_mode-negatively-skewed-distribution-intro-to-descriptive-statistics/mode-negatively-skewed-distribution-intro-to-descriptive-statistics_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1a7bb_mode-negatively-skewed-distribution-intro-to-descriptive-statistics/mode-negatively-skewed-distribution-intro-to-descriptive-statistics_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1a7bb_mode-negatively-skewed-distribution-intro-to-descriptive-statistics/mode-negatively-skewed-distribution-intro-to-descriptive-statistics_480p.ogg'
+              uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1a7bb_mode-negatively-skewed-distribution-intro-to-descriptive-statistics/mode-negatively-skewed-distribution-intro-to-descriptive-statistics_720p.mp4'
+              uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1a7bb_mode-negatively-skewed-distribution-intro-to-descriptive-statistics/hls/playlist.m3u8'
+  - id: 4386
+    key: '773674810923'
+    locale: en-us
+    version: 1.0.0
+    title: Mode - Uniform Distribution
+    semantic_type: Concept
+    updated_at: 'Tue Jun 28 2016 21:06:14 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 65387
+    atoms:
+      - id: 65387
+        key: '77367481'
+        locale: en-us
+        version: 1.0.0
+        title: Mode - Uniform Distribution
+        semantic_type: QuizAtom
+        updated_at: 'Wed Apr 19 2017 22:02:14 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: ''
+        instruction:
+          video:
+            youtube_id: TE2BZql64XY
+            subtitles:
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d2665f_mode-uniform-distribution-intro-to-descriptive-statistics/subtitles/lang_en_vs3.srt'
+                language_code: en
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d2665f_mode-uniform-distribution-intro-to-descriptive-statistics/subtitles/lang_pt-br_vs3.srt'
+                language_code: pt-br
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d2665f_mode-uniform-distribution-intro-to-descriptive-statistics/subtitles/lang_es_vs1.srt'
+                language_code: es
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d2665f_mode-uniform-distribution-intro-to-descriptive-statistics/subtitles/lang_zh-cn_vs5.srt'
+                language_code: zh-cn
+            transcodings:
+              uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d2665f_mode-uniform-distribution-intro-to-descriptive-statistics/mode-uniform-distribution-intro-to-descriptive-statistics_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d2665f_mode-uniform-distribution-intro-to-descriptive-statistics/mode-uniform-distribution-intro-to-descriptive-statistics_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d2665f_mode-uniform-distribution-intro-to-descriptive-statistics/mode-uniform-distribution-intro-to-descriptive-statistics_480p.ogg'
+              uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d2665f_mode-uniform-distribution-intro-to-descriptive-statistics/mode-uniform-distribution-intro-to-descriptive-statistics_720p.mp4'
+              uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d2665f_mode-uniform-distribution-intro-to-descriptive-statistics/hls/playlist.m3u8'
+          text: null
+        question:
+          title: Mode - Uniform Distribution
+          background_image: '//lh5.ggpht.com/_vP4GGq-J_klxclE7KErRQdi4kdyWOM7BRvoihvQtp11lj8GjgvCeFa874Bpu15-g9fYjosXQ0qF85H0ynk=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '77345017'
+        answer:
+          text: null
+          video:
+            youtube_id: mFm0FfWHlXw
+            subtitles:
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57cfbbe2_mode-uniform-distribution-intro-to-descriptive-statistics/subtitles/lang_zh-cn_vs5.srt'
+                language_code: zh-cn
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57cfbbe2_mode-uniform-distribution-intro-to-descriptive-statistics/subtitles/lang_en_vs3.srt'
+                language_code: en
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57cfbbe2_mode-uniform-distribution-intro-to-descriptive-statistics/subtitles/lang_pt-br_vs3.srt'
+                language_code: pt-br
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57cfbbe2_mode-uniform-distribution-intro-to-descriptive-statistics/subtitles/lang_es_vs1.srt'
+                language_code: es
+            transcodings:
+              uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57cfbbe2_mode-uniform-distribution-intro-to-descriptive-statistics/mode-uniform-distribution-intro-to-descriptive-statistics_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57cfbbe2_mode-uniform-distribution-intro-to-descriptive-statistics/mode-uniform-distribution-intro-to-descriptive-statistics_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57cfbbe2_mode-uniform-distribution-intro-to-descriptive-statistics/mode-uniform-distribution-intro-to-descriptive-statistics_480p.ogg'
+              uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57cfbbe2_mode-uniform-distribution-intro-to-descriptive-statistics/mode-uniform-distribution-intro-to-descriptive-statistics_720p.mp4'
+              uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57cfbbe2_mode-uniform-distribution-intro-to-descriptive-statistics/hls/playlist.m3u8'
+  - id: 27088
+    key: '773674820923'
+    locale: en-us
+    version: 1.0.0
+    title: More than One Mode?
+    semantic_type: Concept
+    updated_at: 'Tue Jun 28 2016 21:06:14 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 44778
+    atoms:
+      - id: 44778
+        key: '77367482'
+        locale: en-us
+        version: 1.0.0
+        title: More than One Mode?
+        semantic_type: QuizAtom
+        updated_at: 'Wed Apr 19 2017 21:56:24 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: ''
+        instruction:
+          video:
+            youtube_id: 1GuHNqJNY2M
+            subtitles:
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d072e2_more-than-one-mode-intro-to-descriptive-statistics/subtitles/lang_es_vs1.srt'
+                language_code: es
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d072e2_more-than-one-mode-intro-to-descriptive-statistics/subtitles/lang_pt-br_vs3.srt'
+                language_code: pt-br
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d072e2_more-than-one-mode-intro-to-descriptive-statistics/subtitles/lang_en_vs3.srt'
+                language_code: en
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d072e2_more-than-one-mode-intro-to-descriptive-statistics/subtitles/lang_zh-cn_vs6.srt'
+                language_code: zh-cn
+            transcodings:
+              uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d072e2_more-than-one-mode-intro-to-descriptive-statistics/more-than-one-mode-intro-to-descriptive-statistics_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d072e2_more-than-one-mode-intro-to-descriptive-statistics/more-than-one-mode-intro-to-descriptive-statistics_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d072e2_more-than-one-mode-intro-to-descriptive-statistics/more-than-one-mode-intro-to-descriptive-statistics_480p.ogg'
+              uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d072e2_more-than-one-mode-intro-to-descriptive-statistics/more-than-one-mode-intro-to-descriptive-statistics_720p.mp4'
+              uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d072e2_more-than-one-mode-intro-to-descriptive-statistics/hls/playlist.m3u8'
+          text: null
+        question:
+          title: More than One Mode?
+          background_image: '//lh6.ggpht.com/hwT0r5hdHnFtW1QE0QpNOGno_dTYW-olZwVsRRxTp4omSKSmKXYxYECY7Pr_rqUMKJmq34ttiw89Q0_3rw=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '77345020'
+        answer:
+          text: null
+          video:
+            youtube_id: 9bsmO7cKzPk
+            subtitles:
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57cfa9b6_more-than-one-mode-intro-to-descriptive-statistics/subtitles/lang_es_vs1.srt'
+                language_code: es
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57cfa9b6_more-than-one-mode-intro-to-descriptive-statistics/subtitles/lang_pt-br_vs3.srt'
+                language_code: pt-br
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57cfa9b6_more-than-one-mode-intro-to-descriptive-statistics/subtitles/lang_en_vs3.srt'
+                language_code: en
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57cfa9b6_more-than-one-mode-intro-to-descriptive-statistics/subtitles/lang_zh-cn_vs5.srt'
+                language_code: zh-cn
+            transcodings:
+              uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57cfa9b6_more-than-one-mode-intro-to-descriptive-statistics/more-than-one-mode-intro-to-descriptive-statistics_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57cfa9b6_more-than-one-mode-intro-to-descriptive-statistics/more-than-one-mode-intro-to-descriptive-statistics_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57cfa9b6_more-than-one-mode-intro-to-descriptive-statistics/more-than-one-mode-intro-to-descriptive-statistics_480p.ogg'
+              uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57cfa9b6_more-than-one-mode-intro-to-descriptive-statistics/more-than-one-mode-intro-to-descriptive-statistics_720p.mp4'
+              uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57cfa9b6_more-than-one-mode-intro-to-descriptive-statistics/hls/playlist.m3u8'
+  - id: 53964
+    key: '773674830923'
+    locale: en-us
+    version: 1.0.0
+    title: Mode of Categorical Data
+    semantic_type: Concept
+    updated_at: 'Fri Jul 29 2016 18:55:44 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 160734
+    atoms:
+      - id: 160734
+        key: '8867485308'
+        locale: en-us
+        version: 1.0.0
+        title: Mode of Categorical Data
+        semantic_type: QuizAtom
+        updated_at: 'Fri Jul 29 2016 18:55:40 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: ''
+        instruction:
+          video:
+            youtube_id: ''
+            subtitles: null
+            transcodings: null
+          text: |-
+            ## Quiz
+
+            The data doesn't need to be numeric to find a mode: we can also compute the mode for categorical data as well!
+            On the next slide, you'll be asked to find the mode of a categorical data set: the preferred M&M flavor of 8,000 Udacity students.
+        question:
+          title: Mode of Categorical Data
+          background_image: '//lh3.googleusercontent.com/Y-jjAkC_yq6TLSMTvT8e7mKz7y7I0LHlr3kVYjzX0co19KPHq_Q9H-x7Cjn3AuqhNELOhkznLFwY4cnTZqo=s0#w=1676&h=930'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '77345023'
+        answer:
+          text: |-
+            ## Answer
+
+            Remember, the mode occurs on the X-axis, so you are looking for whatever value has the highest frequency. 
+
+            The numbers 7,000 and 1,000 are the actual frequencies. The mode, itself, is "Plain."
+          video:
+            youtube_id: ''
+            subtitles: null
+            transcodings: null
+  - id: 29707
+    key: '773143460923'
+    locale: en-us
+    version: 1.0.0
+    title: More o' Mode!
+    semantic_type: Concept
+    updated_at: 'Tue Jun 28 2016 21:06:14 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 42975
+    atoms:
+      - id: 42975
+        key: '77314346'
+        locale: en-us
+        version: 1.0.0
+        title: More o' Mode!
+        semantic_type: QuizAtom
+        updated_at: 'Wed Apr 19 2017 22:01:05 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: You may write "true" or "false" or "T" or "F".
+        instruction:
+          video:
+            youtube_id: wBduq7St2Ak
+            subtitles:
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d29170_more-o-mode-intro-to-descriptive-statistics/subtitles/lang_es_vs1.srt'
+                language_code: es
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d29170_more-o-mode-intro-to-descriptive-statistics/subtitles/lang_zh-cn_vs8.srt'
+                language_code: zh-cn
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d29170_more-o-mode-intro-to-descriptive-statistics/subtitles/lang_en_vs4.srt'
+                language_code: en
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d29170_more-o-mode-intro-to-descriptive-statistics/subtitles/lang_pt-br_vs3.srt'
+                language_code: pt-br
+            transcodings:
+              uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d29170_more-o-mode-intro-to-descriptive-statistics/more-o-mode-intro-to-descriptive-statistics_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d29170_more-o-mode-intro-to-descriptive-statistics/more-o-mode-intro-to-descriptive-statistics_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d29170_more-o-mode-intro-to-descriptive-statistics/more-o-mode-intro-to-descriptive-statistics_480p.ogg'
+              uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d29170_more-o-mode-intro-to-descriptive-statistics/more-o-mode-intro-to-descriptive-statistics_720p.mp4'
+              uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d29170_more-o-mode-intro-to-descriptive-statistics/hls/playlist.m3u8'
+          text: null
+        question:
+          title: More o' Mode!
+          background_image: '//lh6.ggpht.com/0vkRMVsoSWqGlQPkiYxXR6j0qUqqMZRIcLaVrZhAomxCNMSb4a4AeOvYAhp-JAPFq5TMEhhE9P-oeX7HUic=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '77345026'
+        answer:
+          text: null
+          video:
+            youtube_id: 74mudn321tA
+            subtitles:
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0909b_more-o-mode-intro-to-descriptive-statistics/subtitles/lang_es_vs2.srt'
+                language_code: es
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0909b_more-o-mode-intro-to-descriptive-statistics/subtitles/lang_pt-br_vs3.srt'
+                language_code: pt-br
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0909b_more-o-mode-intro-to-descriptive-statistics/subtitles/lang_en_vs5.srt'
+                language_code: en
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0909b_more-o-mode-intro-to-descriptive-statistics/subtitles/lang_zh-cn_vs7.srt'
+                language_code: zh-cn
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0909b_more-o-mode-intro-to-descriptive-statistics/subtitles/lang_en-us_vs1.srt'
+                language_code: en-us
+            transcodings:
+              uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0909b_more-o-mode-intro-to-descriptive-statistics/more-o-mode-intro-to-descriptive-statistics_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0909b_more-o-mode-intro-to-descriptive-statistics/more-o-mode-intro-to-descriptive-statistics_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0909b_more-o-mode-intro-to-descriptive-statistics/more-o-mode-intro-to-descriptive-statistics_480p.ogg'
+              uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0909b_more-o-mode-intro-to-descriptive-statistics/more-o-mode-intro-to-descriptive-statistics_720p.mp4'
+              uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0909b_more-o-mode-intro-to-descriptive-statistics/hls/playlist.m3u8'
+  - id: 113302
+    key: '773143470923'
+    locale: en-us
+    version: 1.0.0
+    title: Find the Mean
+    semantic_type: Concept
+    updated_at: 'Tue Jun 28 2016 21:06:14 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 21947
+    atoms:
+      - id: 21947
+        key: '77314347'
+        locale: en-us
+        version: 1.0.0
+        title: Find the Mean
+        semantic_type: QuizAtom
+        updated_at: 'Wed Apr 19 2017 21:56:05 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: ''
+        instruction:
+          video:
+            youtube_id: S4KbzIyEwV8
+            subtitles:
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1e514_find-the-mean-intro-to-descriptive-statistics/subtitles/lang_es_vs1.srt'
+                language_code: es
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1e514_find-the-mean-intro-to-descriptive-statistics/subtitles/lang_en_vs3.srt'
+                language_code: en
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1e514_find-the-mean-intro-to-descriptive-statistics/subtitles/lang_zh-cn_vs5.srt'
+                language_code: zh-cn
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1e514_find-the-mean-intro-to-descriptive-statistics/subtitles/lang_pt-br_vs3.srt'
+                language_code: pt-br
+            transcodings:
+              uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1e514_find-the-mean-intro-to-descriptive-statistics/find-the-mean-intro-to-descriptive-statistics_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1e514_find-the-mean-intro-to-descriptive-statistics/find-the-mean-intro-to-descriptive-statistics_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1e514_find-the-mean-intro-to-descriptive-statistics/find-the-mean-intro-to-descriptive-statistics_480p.ogg'
+              uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1e514_find-the-mean-intro-to-descriptive-statistics/find-the-mean-intro-to-descriptive-statistics_720p.mp4'
+              uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1e514_find-the-mean-intro-to-descriptive-statistics/hls/playlist.m3u8'
+          text: null
+        question:
+          title: Find the Mean
+          background_image: '//lh5.ggpht.com/d2PFMvZX2Cz8MaGlF2v2sdM-Wp9JDyWK6d_dy7aMD0VUTyRo1UyNLeDvKh_3IkQAMkqeTndky7OMnmVBwY4=s0#w=1280&h=720'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '77345029'
+        answer:
+          text: null
+          video:
+            youtube_id: El5cY2jlzuM
+            subtitles:
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0cf60_find-the-mean-intro-to-descriptive-statistics/subtitles/lang_es_vs1.srt'
+                language_code: es
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0cf60_find-the-mean-intro-to-descriptive-statistics/subtitles/lang_pt-br_vs2.srt'
+                language_code: pt-br
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0cf60_find-the-mean-intro-to-descriptive-statistics/subtitles/lang_en_vs3.srt'
+                language_code: en
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0cf60_find-the-mean-intro-to-descriptive-statistics/subtitles/lang_zh-cn_vs6.srt'
+                language_code: zh-cn
+            transcodings:
+              uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0cf60_find-the-mean-intro-to-descriptive-statistics/find-the-mean-intro-to-descriptive-statistics_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0cf60_find-the-mean-intro-to-descriptive-statistics/find-the-mean-intro-to-descriptive-statistics_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0cf60_find-the-mean-intro-to-descriptive-statistics/find-the-mean-intro-to-descriptive-statistics_480p.ogg'
+              uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0cf60_find-the-mean-intro-to-descriptive-statistics/find-the-mean-intro-to-descriptive-statistics_720p.mp4'
+              uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0cf60_find-the-mean-intro-to-descriptive-statistics/hls/playlist.m3u8'
+  - id: 37640
+    key: '773143450923'
+    locale: en-us
+    version: 1.0.0
+    title: Procedure for Finding Mean
+    semantic_type: Concept
+    updated_at: 'Tue Jun 28 2016 21:06:15 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 27822
+    atoms:
+      - id: 27822
+        key: '77314345'
+        locale: en-us
+        version: 1.0.0
+        title: Procedure for Finding Mean
+        semantic_type: QuizAtom
+        updated_at: 'Wed Apr 19 2017 21:56:18 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: ''
+        instruction:
+          video:
+            youtube_id: nRurXCTYxG4
+            subtitles:
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d18941_procedure-for-finding-mean-intro-to-descriptive-statistics/subtitles/lang_en_vs4.srt'
+                language_code: en
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d18941_procedure-for-finding-mean-intro-to-descriptive-statistics/subtitles/lang_zh-cn_vs6.srt'
+                language_code: zh-cn
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d18941_procedure-for-finding-mean-intro-to-descriptive-statistics/subtitles/lang_es_vs2.srt'
+                language_code: es
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d18941_procedure-for-finding-mean-intro-to-descriptive-statistics/subtitles/lang_pt-br_vs2.srt'
+                language_code: pt-br
+            transcodings:
+              uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d18941_procedure-for-finding-mean-intro-to-descriptive-statistics/procedure-for-finding-mean-intro-to-descriptive-statistics_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d18941_procedure-for-finding-mean-intro-to-descriptive-statistics/procedure-for-finding-mean-intro-to-descriptive-statistics_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d18941_procedure-for-finding-mean-intro-to-descriptive-statistics/procedure-for-finding-mean-intro-to-descriptive-statistics_480p.ogg'
+              uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d18941_procedure-for-finding-mean-intro-to-descriptive-statistics/procedure-for-finding-mean-intro-to-descriptive-statistics_720p.mp4'
+              uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d18941_procedure-for-finding-mean-intro-to-descriptive-statistics/hls/playlist.m3u8'
+          text: null
+        question:
+          title: Procedure for Finding Mean
+          background_image: '//lh3.ggpht.com/rdTC8XY0dU7Nnk3t99XrzV_6u1wPHvWkANtXiaJOM25S53bsKr8zEEO3eRikkdPqY5v8ilcdGf-2ycBYyA=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '77345032'
+        answer:
+          text: null
+          video:
+            youtube_id: lK2lDLdE6iA
+            subtitles:
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d033ed_procedure-for-finding-mean-intro-to-descriptive-statistics/subtitles/lang_en_vs4.srt'
+                language_code: en
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d033ed_procedure-for-finding-mean-intro-to-descriptive-statistics/subtitles/lang_es_vs1.srt'
+                language_code: es
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d033ed_procedure-for-finding-mean-intro-to-descriptive-statistics/subtitles/lang_zh-cn_vs6.srt'
+                language_code: zh-cn
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d033ed_procedure-for-finding-mean-intro-to-descriptive-statistics/subtitles/lang_pt-br_vs2.srt'
+                language_code: pt-br
+            transcodings:
+              uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d033ed_procedure-for-finding-mean-intro-to-descriptive-statistics/procedure-for-finding-mean-intro-to-descriptive-statistics_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d033ed_procedure-for-finding-mean-intro-to-descriptive-statistics/procedure-for-finding-mean-intro-to-descriptive-statistics_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d033ed_procedure-for-finding-mean-intro-to-descriptive-statistics/procedure-for-finding-mean-intro-to-descriptive-statistics_480p.ogg'
+              uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d033ed_procedure-for-finding-mean-intro-to-descriptive-statistics/procedure-for-finding-mean-intro-to-descriptive-statistics_720p.mp4'
+              uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d033ed_procedure-for-finding-mean-intro-to-descriptive-statistics/hls/playlist.m3u8'
+  - id: 72991
+    key: '773143480923'
+    locale: en-us
+    version: 1.0.0
+    title: Iterative Procedure
+    semantic_type: Concept
+    updated_at: 'Tue Jun 28 2016 21:06:15 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 120895
+    atoms:
+      - id: 120895
+        key: '77314348'
+        locale: en-us
+        version: 1.0.0
+        title: Iterative Procedure
+        semantic_type: QuizAtom
+        updated_at: 'Wed Apr 19 2017 21:59:24 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: ''
+        instruction:
+          video:
+            youtube_id: r2s9INGd-Ls
+            subtitles:
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1d45e_iterative-procedure-intro-to-descriptive-statistics/subtitles/lang_zh-cn_vs5.srt'
+                language_code: zh-cn
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1d45e_iterative-procedure-intro-to-descriptive-statistics/subtitles/lang_pt-br_vs1.srt'
+                language_code: pt-br
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1d45e_iterative-procedure-intro-to-descriptive-statistics/subtitles/lang_es_vs1.srt'
+                language_code: es
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1d45e_iterative-procedure-intro-to-descriptive-statistics/subtitles/lang_en_vs3.srt'
+                language_code: en
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1d45e_iterative-procedure-intro-to-descriptive-statistics/subtitles/lang_en-us_vs1.srt'
+                language_code: en-us
+            transcodings:
+              uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1d45e_iterative-procedure-intro-to-descriptive-statistics/iterative-procedure-intro-to-descriptive-statistics_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1d45e_iterative-procedure-intro-to-descriptive-statistics/iterative-procedure-intro-to-descriptive-statistics_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1d45e_iterative-procedure-intro-to-descriptive-statistics/iterative-procedure-intro-to-descriptive-statistics_480p.ogg'
+              uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1d45e_iterative-procedure-intro-to-descriptive-statistics/iterative-procedure-intro-to-descriptive-statistics_720p.mp4'
+              uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1d45e_iterative-procedure-intro-to-descriptive-statistics/hls/playlist.m3u8'
+          text: null
+        question:
+          title: Iterative Procedure
+          background_image: '//lh6.ggpht.com/BsGqD2KhgfYKBf-lEEMC4XJKVzKAo4t43osxmher09fTdsf5bV2OQy94yEq4fe1H9v0iwapcGcDRlLAb2G0=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '77345035'
+        answer:
+          text: null
+          video:
+            youtube_id: NcWS_BvM3IU
+            subtitles:
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d18017_iterative-procedure-intro-to-descriptive-statistics/subtitles/lang_en_vs3.srt'
+                language_code: en
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d18017_iterative-procedure-intro-to-descriptive-statistics/subtitles/lang_zh-cn_vs6.srt'
+                language_code: zh-cn
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d18017_iterative-procedure-intro-to-descriptive-statistics/subtitles/lang_es_vs1.srt'
+                language_code: es
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d18017_iterative-procedure-intro-to-descriptive-statistics/subtitles/lang_pt-br_vs1.srt'
+                language_code: pt-br
+            transcodings:
+              uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d18017_iterative-procedure-intro-to-descriptive-statistics/iterative-procedure-intro-to-descriptive-statistics_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d18017_iterative-procedure-intro-to-descriptive-statistics/iterative-procedure-intro-to-descriptive-statistics_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d18017_iterative-procedure-intro-to-descriptive-statistics/iterative-procedure-intro-to-descriptive-statistics_480p.ogg'
+              uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d18017_iterative-procedure-intro-to-descriptive-statistics/iterative-procedure-intro-to-descriptive-statistics_720p.mp4'
+              uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d18017_iterative-procedure-intro-to-descriptive-statistics/hls/playlist.m3u8'
+  - id: 52008
+    key: '773450380923'
+    locale: en-us
+    version: 1.0.0
+    title: Helpful Symbols
+    semantic_type: Concept
+    updated_at: 'Tue Jun 28 2016 21:06:15 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 115732
+    atoms:
+      - id: 115732
+        key: '77345038'
+        locale: en-us
+        version: 1.0.0
+        title: Helpful Symbols
+        semantic_type: VideoAtom
+        updated_at: 'Wed Apr 19 2017 21:35:54 GMT+0000 (UTC)'
+        is_public: true
+        tags: null
+        instructor_notes: null
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        video:
+          youtube_id: w4_8YCp-9fI
+          subtitles:
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d28f02_helpful-symbols-intro-to-descriptive-statistics/subtitles/lang_pt-br_vs9.srt'
+              language_code: pt-br
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d28f02_helpful-symbols-intro-to-descriptive-statistics/subtitles/lang_es_vs2.srt'
+              language_code: es
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d28f02_helpful-symbols-intro-to-descriptive-statistics/subtitles/lang_en_vs3.srt'
+              language_code: en
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d28f02_helpful-symbols-intro-to-descriptive-statistics/subtitles/lang_zh-cn_vs10.srt'
+              language_code: zh-cn
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d28f02_helpful-symbols-intro-to-descriptive-statistics/subtitles/lang_ar_vs1.srt'
+              language_code: ar
+          transcodings:
+            uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d28f02_helpful-symbols-intro-to-descriptive-statistics/helpful-symbols-intro-to-descriptive-statistics_480p.mp4'
+            uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d28f02_helpful-symbols-intro-to-descriptive-statistics/helpful-symbols-intro-to-descriptive-statistics_480p_1000kbps.mp4'
+            uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d28f02_helpful-symbols-intro-to-descriptive-statistics/helpful-symbols-intro-to-descriptive-statistics_480p.ogg'
+            uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d28f02_helpful-symbols-intro-to-descriptive-statistics/helpful-symbols-intro-to-descriptive-statistics_720p.mp4'
+            uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d28f02_helpful-symbols-intro-to-descriptive-statistics/hls/playlist.m3u8'
+  - id: 24197
+    key: '773143440923'
+    locale: en-us
+    version: 1.0.0
+    title: Properties of the Mean
+    semantic_type: Concept
+    updated_at: 'Tue Jun 28 2016 21:06:15 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 18352
+    atoms:
+      - id: 18352
+        key: '77314344'
+        locale: en-us
+        version: 1.0.0
+        title: Properties of the Mean
+        semantic_type: QuizAtom
+        updated_at: 'Wed Apr 19 2017 22:01:31 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: 'Please note: The last option "The mean will change if we add an extreme value to the dataset." is not necessarily a property of the mean, more a behavioral tendency. But for the purposes of this quiz, you can mark it as a property.  '
+        instruction:
+          video:
+            youtube_id: uSXJtEpwEVM
+            subtitles:
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d19e41_properties-of-the-mean-intro-to-descriptive-statistics/subtitles/lang_es_vs1.srt'
+                language_code: es
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d19e41_properties-of-the-mean-intro-to-descriptive-statistics/subtitles/lang_en_vs4.srt'
+                language_code: en
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d19e41_properties-of-the-mean-intro-to-descriptive-statistics/subtitles/lang_zh-cn_vs6.srt'
+                language_code: zh-cn
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d19e41_properties-of-the-mean-intro-to-descriptive-statistics/subtitles/lang_pt-br_vs1.srt'
+                language_code: pt-br
+            transcodings:
+              uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d19e41_properties-of-the-mean-intro-to-descriptive-statistics/properties-of-the-mean-intro-to-descriptive-statistics_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d19e41_properties-of-the-mean-intro-to-descriptive-statistics/properties-of-the-mean-intro-to-descriptive-statistics_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d19e41_properties-of-the-mean-intro-to-descriptive-statistics/properties-of-the-mean-intro-to-descriptive-statistics_480p.ogg'
+              uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d19e41_properties-of-the-mean-intro-to-descriptive-statistics/properties-of-the-mean-intro-to-descriptive-statistics_720p.mp4'
+              uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d19e41_properties-of-the-mean-intro-to-descriptive-statistics/hls/playlist.m3u8'
+          text: null
+        question:
+          title: Properties of the Mean
+          background_image: '//lh4.ggpht.com/9zPK_9LC3qDu1_J7OfZkxUeT17ppO3Gjh67dZ2PqzT3pDKO7oDQpQKgaft3qdbCQPRT9uX5W6XoGv62uVJI=s0#w=1920&h=1080'
+          alt_text: ''
+          semantic_type: ImageFormQuestion
+          evaluation_id: '77345039'
+        answer:
+          text: null
+          video:
+            youtube_id: AqlvTMZg6HY
+            subtitles:
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0a22a_properties-of-the-mean-intro-to-descriptive-statistics/subtitles/lang_es_vs1.srt'
+                language_code: es
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0a22a_properties-of-the-mean-intro-to-descriptive-statistics/subtitles/lang_pt-br_vs1.srt'
+                language_code: pt-br
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0a22a_properties-of-the-mean-intro-to-descriptive-statistics/subtitles/lang_en_vs4.srt'
+                language_code: en
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0a22a_properties-of-the-mean-intro-to-descriptive-statistics/subtitles/lang_zh-cn_vs7.srt'
+                language_code: zh-cn
+            transcodings:
+              uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0a22a_properties-of-the-mean-intro-to-descriptive-statistics/properties-of-the-mean-intro-to-descriptive-statistics_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0a22a_properties-of-the-mean-intro-to-descriptive-statistics/properties-of-the-mean-intro-to-descriptive-statistics_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0a22a_properties-of-the-mean-intro-to-descriptive-statistics/properties-of-the-mean-intro-to-descriptive-statistics_480p.ogg'
+              uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0a22a_properties-of-the-mean-intro-to-descriptive-statistics/properties-of-the-mean-intro-to-descriptive-statistics_720p.mp4'
+              uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0a22a_properties-of-the-mean-intro-to-descriptive-statistics/hls/playlist.m3u8'
+  - id: 27056
+    key: '773143430923'
+    locale: en-us
+    version: 1.0.0
+    title: Mean with Outlier
+    semantic_type: Concept
+    updated_at: 'Tue Jun 28 2016 21:06:15 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 33094
+    atoms:
+      - id: 33094
+        key: '77314343'
+        locale: en-us
+        version: 1.0.0
+        title: Mean with Outlier
+        semantic_type: QuizAtom
+        updated_at: 'Wed Apr 19 2017 21:56:23 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: ''
+        instruction:
+          video:
+            youtube_id: 6pxpT3bZI54
+            subtitles:
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d08fef_mean-with-outlier-intro-to-descriptive-statistics/subtitles/lang_es_vs1.srt'
+                language_code: es
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d08fef_mean-with-outlier-intro-to-descriptive-statistics/subtitles/lang_pt-br_vs1.srt'
+                language_code: pt-br
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d08fef_mean-with-outlier-intro-to-descriptive-statistics/subtitles/lang_en_vs3.srt'
+                language_code: en
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d08fef_mean-with-outlier-intro-to-descriptive-statistics/subtitles/lang_zh-cn_vs5.srt'
+                language_code: zh-cn
+            transcodings:
+              uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d08fef_mean-with-outlier-intro-to-descriptive-statistics/mean-with-outlier-intro-to-descriptive-statistics_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d08fef_mean-with-outlier-intro-to-descriptive-statistics/mean-with-outlier-intro-to-descriptive-statistics_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d08fef_mean-with-outlier-intro-to-descriptive-statistics/mean-with-outlier-intro-to-descriptive-statistics_480p.ogg'
+              uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d08fef_mean-with-outlier-intro-to-descriptive-statistics/mean-with-outlier-intro-to-descriptive-statistics_720p.mp4'
+              uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d08fef_mean-with-outlier-intro-to-descriptive-statistics/hls/playlist.m3u8'
+          text: null
+        question:
+          title: Mean with Outlier
+          background_image: '//lh6.ggpht.com/Iy3FYT-FLyueMohXmcuu_j9oc4MlnuGj0DGmfQ8T6YmZ5vuntKEpaiIaKrXRoONVEnymjtCrXCD_CRBkQSA=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '77345042'
+        answer:
+          text: null
+          video:
+            youtube_id: RaXs536nNkg
+            subtitles:
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1d703_mean-with-outlier-intro-to-descriptive-statistics/subtitles/lang_es_vs1.srt'
+                language_code: es
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1d703_mean-with-outlier-intro-to-descriptive-statistics/subtitles/lang_en_vs3.srt'
+                language_code: en
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1d703_mean-with-outlier-intro-to-descriptive-statistics/subtitles/lang_zh-cn_vs6.srt'
+                language_code: zh-cn
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1d703_mean-with-outlier-intro-to-descriptive-statistics/subtitles/lang_pt-br_vs1.srt'
+                language_code: pt-br
+            transcodings:
+              uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1d703_mean-with-outlier-intro-to-descriptive-statistics/mean-with-outlier-intro-to-descriptive-statistics_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1d703_mean-with-outlier-intro-to-descriptive-statistics/mean-with-outlier-intro-to-descriptive-statistics_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1d703_mean-with-outlier-intro-to-descriptive-statistics/mean-with-outlier-intro-to-descriptive-statistics_480p.ogg'
+              uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1d703_mean-with-outlier-intro-to-descriptive-statistics/mean-with-outlier-intro-to-descriptive-statistics_720p.mp4'
+              uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1d703_mean-with-outlier-intro-to-descriptive-statistics/hls/playlist.m3u8'
+  - id: 123742
+    key: '773143420923'
+    locale: en-us
+    version: 1.0.0
+    title: What Can You Expect?
+    semantic_type: Concept
+    updated_at: 'Tue Jun 28 2016 21:06:15 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 135103
+    atoms:
+      - id: 135103
+        key: '77314342'
+        locale: en-us
+        version: 1.0.0
+        title: What Can You Expect?
+        semantic_type: QuizAtom
+        updated_at: 'Wed Apr 19 2017 21:59:09 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: ''
+        instruction:
+          video:
+            youtube_id: 2wHoLFHnPZs
+            subtitles:
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d07819_what-can-you-expect-intro-to-descriptive-statistics/subtitles/lang_es_vs2.srt'
+                language_code: es
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d07819_what-can-you-expect-intro-to-descriptive-statistics/subtitles/lang_pt-br_vs1.srt'
+                language_code: pt-br
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d07819_what-can-you-expect-intro-to-descriptive-statistics/subtitles/lang_en_vs4.srt'
+                language_code: en
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d07819_what-can-you-expect-intro-to-descriptive-statistics/subtitles/lang_zh-cn_vs5.srt'
+                language_code: zh-cn
+            transcodings:
+              uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d07819_what-can-you-expect-intro-to-descriptive-statistics/what-can-you-expect-intro-to-descriptive-statistics_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d07819_what-can-you-expect-intro-to-descriptive-statistics/what-can-you-expect-intro-to-descriptive-statistics_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d07819_what-can-you-expect-intro-to-descriptive-statistics/what-can-you-expect-intro-to-descriptive-statistics_480p.ogg'
+              uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d07819_what-can-you-expect-intro-to-descriptive-statistics/what-can-you-expect-intro-to-descriptive-statistics_720p.mp4'
+              uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d07819_what-can-you-expect-intro-to-descriptive-statistics/hls/playlist.m3u8'
+          text: null
+        question:
+          title: What Can You Expect?
+          background_image: '//lh4.ggpht.com/_QV6OsjYAYwLd81V2jdrZ4LQ7AqzNfo4-L2rqyIRYQSvg9n0kb1GNwUF9-Kd4L-iaIsDOBrXgvhqbvAShw=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '77345045'
+        answer:
+          text: null
+          video:
+            youtube_id: 6yT3SlcmTl8
+            subtitles:
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d09084_what-can-you-expect-intro-to-descriptive-statistics/subtitles/lang_es_vs1.srt'
+                language_code: es
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d09084_what-can-you-expect-intro-to-descriptive-statistics/subtitles/lang_pt-br_vs1.srt'
+                language_code: pt-br
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d09084_what-can-you-expect-intro-to-descriptive-statistics/subtitles/lang_en_vs4.srt'
+                language_code: en
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d09084_what-can-you-expect-intro-to-descriptive-statistics/subtitles/lang_zh-cn_vs7.srt'
+                language_code: zh-cn
+            transcodings:
+              uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d09084_what-can-you-expect-intro-to-descriptive-statistics/what-can-you-expect-intro-to-descriptive-statistics_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d09084_what-can-you-expect-intro-to-descriptive-statistics/what-can-you-expect-intro-to-descriptive-statistics_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d09084_what-can-you-expect-intro-to-descriptive-statistics/what-can-you-expect-intro-to-descriptive-statistics_480p.ogg'
+              uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d09084_what-can-you-expect-intro-to-descriptive-statistics/what-can-you-expect-intro-to-descriptive-statistics_720p.mp4'
+              uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d09084_what-can-you-expect-intro-to-descriptive-statistics/hls/playlist.m3u8'
+  - id: 32884
+    key: '773450480923'
+    locale: en-us
+    version: 1.0.0
+    title: UNC
+    semantic_type: Concept
+    updated_at: 'Tue Jun 28 2016 21:06:15 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 32611
+    atoms:
+      - id: 32611
+        key: '77345048'
+        locale: en-us
+        version: 1.0.0
+        title: UNC
+        semantic_type: VideoAtom
+        updated_at: 'Wed Apr 19 2017 21:41:57 GMT+0000 (UTC)'
+        is_public: true
+        tags: null
+        instructor_notes: |-
+          The median is the "middle" of the data; meaning half of the data values are less than the median, and half are greater. 
+
+          Here's an interesting article that illustrates the importance of knowing when and how to use the median versus the mean. It's about the cost of weddings and how the average wedding cost is not a good descriptor of how much the typical couple spends.<br>
+          <a href="http://www.slate.com/articles/life/weddings/2013/06/average_wedding_cost_published_numbers_on_the_price_of_a_wedding_are_totally.html" target="_blank">The wedding industry's pricey little secret</a>, June 12, 2013
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        video:
+          youtube_id: Ko-g24l1LpQ
+          subtitles:
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57cf5bad_unc-intro-to-descriptive-statistics/subtitles/lang_ar_vs1.srt'
+              language_code: ar
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57cf5bad_unc-intro-to-descriptive-statistics/subtitles/lang_en_vs3.srt'
+              language_code: en
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57cf5bad_unc-intro-to-descriptive-statistics/subtitles/lang_es_vs2.srt'
+              language_code: es
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57cf5bad_unc-intro-to-descriptive-statistics/subtitles/lang_zh-cn_vs12.srt'
+              language_code: zh-cn
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57cf5bad_unc-intro-to-descriptive-statistics/subtitles/lang_pt-br_vs9.srt'
+              language_code: pt-br
+          transcodings:
+            uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57cf5bad_unc-intro-to-descriptive-statistics/unc-intro-to-descriptive-statistics_480p.mp4'
+            uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57cf5bad_unc-intro-to-descriptive-statistics/unc-intro-to-descriptive-statistics_480p_1000kbps.mp4'
+            uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57cf5bad_unc-intro-to-descriptive-statistics/unc-intro-to-descriptive-statistics_480p.ogg'
+            uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57cf5bad_unc-intro-to-descriptive-statistics/unc-intro-to-descriptive-statistics_720p.mp4'
+            uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57cf5bad_unc-intro-to-descriptive-statistics/hls/playlist.m3u8'
+  - id: 120117
+    key: '773143410923'
+    locale: en-us
+    version: 1.0.0
+    title: Requirement for Median
+    semantic_type: Concept
+    updated_at: 'Tue Jun 28 2016 21:06:15 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 48714
+    atoms:
+      - id: 48714
+        key: '77314341'
+        locale: en-us
+        version: 1.0.0
+        title: Requirement for Median
+        semantic_type: QuizAtom
+        updated_at: 'Wed Apr 19 2017 22:00:57 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: ''
+        instruction:
+          video:
+            youtube_id: XCf2FDdHDGs
+            subtitles:
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1d107_requirement-for-median-intro-to-descriptive-statistics/subtitles/lang_es_vs1.srt'
+                language_code: es
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1d107_requirement-for-median-intro-to-descriptive-statistics/subtitles/lang_zh-cn_vs7.srt'
+                language_code: zh-cn
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1d107_requirement-for-median-intro-to-descriptive-statistics/subtitles/lang_pt-br_vs1.srt'
+                language_code: pt-br
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1d107_requirement-for-median-intro-to-descriptive-statistics/subtitles/lang_en_vs3.srt'
+                language_code: en
+            transcodings:
+              uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1d107_requirement-for-median-intro-to-descriptive-statistics/requirement-for-median-intro-to-descriptive-statistics_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1d107_requirement-for-median-intro-to-descriptive-statistics/requirement-for-median-intro-to-descriptive-statistics_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1d107_requirement-for-median-intro-to-descriptive-statistics/requirement-for-median-intro-to-descriptive-statistics_480p.ogg'
+              uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1d107_requirement-for-median-intro-to-descriptive-statistics/requirement-for-median-intro-to-descriptive-statistics_720p.mp4'
+              uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1d107_requirement-for-median-intro-to-descriptive-statistics/hls/playlist.m3u8'
+          text: null
+        question:
+          title: Requirement for Median
+          background_image: '//lh3.ggpht.com/aoAOzR1rt71Pw_ywIo5wMkRq1ZiQi9jAU2Sx0F4Ux-h_Lfjdzpu-iFr48294qk_YYWjKtTqu5QhwIkOOH_8=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '77345049'
+        answer:
+          text: null
+          video:
+            youtube_id: T9tjPHqbB6M
+            subtitles:
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d2632e_requirement-for-median-intro-to-descriptive-statistics/subtitles/lang_pt-br_vs1.srt'
+                language_code: pt-br
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d2632e_requirement-for-median-intro-to-descriptive-statistics/subtitles/lang_en_vs4.srt'
+                language_code: en
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d2632e_requirement-for-median-intro-to-descriptive-statistics/subtitles/lang_es_vs1.srt'
+                language_code: es
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d2632e_requirement-for-median-intro-to-descriptive-statistics/subtitles/lang_zh-cn_vs5.srt'
+                language_code: zh-cn
+            transcodings:
+              uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d2632e_requirement-for-median-intro-to-descriptive-statistics/requirement-for-median-intro-to-descriptive-statistics_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d2632e_requirement-for-median-intro-to-descriptive-statistics/requirement-for-median-intro-to-descriptive-statistics_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d2632e_requirement-for-median-intro-to-descriptive-statistics/requirement-for-median-intro-to-descriptive-statistics_480p.ogg'
+              uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d2632e_requirement-for-median-intro-to-descriptive-statistics/requirement-for-median-intro-to-descriptive-statistics_720p.mp4'
+              uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d2632e_requirement-for-median-intro-to-descriptive-statistics/hls/playlist.m3u8'
+  - id: 125365
+    key: '773143340923'
+    locale: en-us
+    version: 1.0.0
+    title: Find the Median
+    semantic_type: Concept
+    updated_at: 'Tue Jun 28 2016 21:06:15 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 18188
+    atoms:
+      - id: 18188
+        key: '77314334'
+        locale: en-us
+        version: 1.0.0
+        title: Find the Median
+        semantic_type: QuizAtom
+        updated_at: 'Wed Apr 19 2017 21:56:06 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: ''
+        instruction:
+          video:
+            youtube_id: zQzgB8KovNU
+            subtitles:
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1bb0c_find-the-median-intro-to-descriptive-statistics/subtitles/lang_en_vs4.srt'
+                language_code: en
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1bb0c_find-the-median-intro-to-descriptive-statistics/subtitles/lang_zh-cn_vs5.srt'
+                language_code: zh-cn
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1bb0c_find-the-median-intro-to-descriptive-statistics/subtitles/lang_es_vs1.srt'
+                language_code: es
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1bb0c_find-the-median-intro-to-descriptive-statistics/subtitles/lang_pt-br_vs1.srt'
+                language_code: pt-br
+            transcodings:
+              uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1bb0c_find-the-median-intro-to-descriptive-statistics/find-the-median-intro-to-descriptive-statistics_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1bb0c_find-the-median-intro-to-descriptive-statistics/find-the-median-intro-to-descriptive-statistics_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1bb0c_find-the-median-intro-to-descriptive-statistics/find-the-median-intro-to-descriptive-statistics_480p.ogg'
+              uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1bb0c_find-the-median-intro-to-descriptive-statistics/find-the-median-intro-to-descriptive-statistics_720p.mp4'
+              uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1bb0c_find-the-median-intro-to-descriptive-statistics/hls/playlist.m3u8'
+          text: null
+        question:
+          title: Find the Median
+          background_image: '//lh6.ggpht.com/6zKhWbN8VvPau0qhwsqN0Gl60S0DvsWfC8QwuOGZ-zDhmA-gcdBy3uiewZwyu98Jpw8h8OzAtA2KaU_n7dE=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '77345052'
+        answer:
+          text: null
+          video:
+            youtube_id: '-XPrm7KcCdc'
+            subtitles:
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d071b3_find-the-median-intro-to-descriptive-statistics/subtitles/lang_zh-cn_vs7.srt'
+                language_code: zh-cn
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d071b3_find-the-median-intro-to-descriptive-statistics/subtitles/lang_en_vs5.srt'
+                language_code: en
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d071b3_find-the-median-intro-to-descriptive-statistics/subtitles/lang_pt-br_vs1.srt'
+                language_code: pt-br
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d071b3_find-the-median-intro-to-descriptive-statistics/subtitles/lang_es_vs1.srt'
+                language_code: es
+            transcodings:
+              uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d071b3_find-the-median-intro-to-descriptive-statistics/find-the-median-intro-to-descriptive-statistics_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d071b3_find-the-median-intro-to-descriptive-statistics/find-the-median-intro-to-descriptive-statistics_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d071b3_find-the-median-intro-to-descriptive-statistics/find-the-median-intro-to-descriptive-statistics_480p.ogg'
+              uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d071b3_find-the-median-intro-to-descriptive-statistics/find-the-median-intro-to-descriptive-statistics_720p.mp4'
+              uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d071b3_find-the-median-intro-to-descriptive-statistics/hls/playlist.m3u8'
+  - id: 115118
+    key: '773143350923'
+    locale: en-us
+    version: 1.0.0
+    title: Median with Outlier
+    semantic_type: Concept
+    updated_at: 'Tue Jun 28 2016 21:06:15 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 34790
+    atoms:
+      - id: 34790
+        key: '77314335'
+        locale: en-us
+        version: 1.0.0
+        title: Median with Outlier
+        semantic_type: QuizAtom
+        updated_at: 'Wed Apr 19 2017 22:01:16 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: ''
+        instruction:
+          video:
+            youtube_id: dxw2VFq5sAc
+            subtitles:
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0c59a_median-with-outlier-intro-to-descriptive-statistics/subtitles/lang_es_vs1.srt'
+                language_code: es
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0c59a_median-with-outlier-intro-to-descriptive-statistics/subtitles/lang_pt-br_vs1.srt'
+                language_code: pt-br
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0c59a_median-with-outlier-intro-to-descriptive-statistics/subtitles/lang_en_vs4.srt'
+                language_code: en
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0c59a_median-with-outlier-intro-to-descriptive-statistics/subtitles/lang_zh-cn_vs7.srt'
+                language_code: zh-cn
+            transcodings:
+              uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0c59a_median-with-outlier-intro-to-descriptive-statistics/median-with-outlier-intro-to-descriptive-statistics_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0c59a_median-with-outlier-intro-to-descriptive-statistics/median-with-outlier-intro-to-descriptive-statistics_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0c59a_median-with-outlier-intro-to-descriptive-statistics/median-with-outlier-intro-to-descriptive-statistics_480p.ogg'
+              uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0c59a_median-with-outlier-intro-to-descriptive-statistics/median-with-outlier-intro-to-descriptive-statistics_720p.mp4'
+              uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0c59a_median-with-outlier-intro-to-descriptive-statistics/hls/playlist.m3u8'
+          text: null
+        question:
+          title: Median with Outlier
+          background_image: '//lh4.ggpht.com/uzzFuZggmIiOwtPCspxpT0MUIJ2gv_riKO8rwvsvvu-F7kUxCeL1w9cr05O6fr3yE26CB-7GS-Pa2HEEG3Hp=s0#w=1682&h=946'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '81190229'
+        answer:
+          text: null
+          video:
+            youtube_id: MFN6EMAzz_k
+            subtitles:
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d16c7b_median-with-outlier-intro-to-descriptive-statistics/subtitles/lang_en_vs4.srt'
+                language_code: en
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d16c7b_median-with-outlier-intro-to-descriptive-statistics/subtitles/lang_zh-cn_vs6.srt'
+                language_code: zh-cn
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d16c7b_median-with-outlier-intro-to-descriptive-statistics/subtitles/lang_es_vs1.srt'
+                language_code: es
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d16c7b_median-with-outlier-intro-to-descriptive-statistics/subtitles/lang_pt-br_vs1.srt'
+                language_code: pt-br
+            transcodings:
+              uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d16c7b_median-with-outlier-intro-to-descriptive-statistics/median-with-outlier-intro-to-descriptive-statistics_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d16c7b_median-with-outlier-intro-to-descriptive-statistics/median-with-outlier-intro-to-descriptive-statistics_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d16c7b_median-with-outlier-intro-to-descriptive-statistics/median-with-outlier-intro-to-descriptive-statistics_480p.ogg'
+              uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d16c7b_median-with-outlier-intro-to-descriptive-statistics/median-with-outlier-intro-to-descriptive-statistics_720p.mp4'
+              uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d16c7b_median-with-outlier-intro-to-descriptive-statistics/hls/playlist.m3u8'
+  - id: 123760
+    key: '773143360923'
+    locale: en-us
+    version: 1.0.0
+    title: Find Median with Outlier
+    semantic_type: Concept
+    updated_at: 'Tue Jun 28 2016 21:06:15 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 126922
+    atoms:
+      - id: 126922
+        key: '77314336'
+        locale: en-us
+        version: 1.0.0
+        title: Find Median with Outlier
+        semantic_type: QuizAtom
+        updated_at: 'Wed Apr 19 2017 21:56:48 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: ''
+        instruction:
+          video:
+            youtube_id: T5TBKcjzleI
+            subtitles:
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d2620e_find-median-with-outlier-intro-to-descriptive-statistics/subtitles/lang_es_vs1.srt'
+                language_code: es
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d2620e_find-median-with-outlier-intro-to-descriptive-statistics/subtitles/lang_pt-br_vs2.srt'
+                language_code: pt-br
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d2620e_find-median-with-outlier-intro-to-descriptive-statistics/subtitles/lang_zh-cn_vs7.srt'
+                language_code: zh-cn
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d2620e_find-median-with-outlier-intro-to-descriptive-statistics/subtitles/lang_en_vs3.srt'
+                language_code: en
+            transcodings:
+              uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d2620e_find-median-with-outlier-intro-to-descriptive-statistics/find-median-with-outlier-intro-to-descriptive-statistics_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d2620e_find-median-with-outlier-intro-to-descriptive-statistics/find-median-with-outlier-intro-to-descriptive-statistics_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d2620e_find-median-with-outlier-intro-to-descriptive-statistics/find-median-with-outlier-intro-to-descriptive-statistics_480p.ogg'
+              uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d2620e_find-median-with-outlier-intro-to-descriptive-statistics/find-median-with-outlier-intro-to-descriptive-statistics_720p.mp4'
+              uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d2620e_find-median-with-outlier-intro-to-descriptive-statistics/hls/playlist.m3u8'
+          text: null
+        question:
+          title: Find Median with Outlier
+          background_image: '//lh3.ggpht.com/_aqQP3Cch48QXXmGzJl_Johoe5UfoJlAVrjesdBs8zVb3z35rZyodbqmkxBPtS2xG1RuMYOS-uCGbOSxNaA=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '77345058'
+        answer:
+          text: null
+          video:
+            youtube_id: RIJpz1jXO4A
+            subtitles:
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1dbb4_find-median-with-outlier-intro-to-descriptive-statistics/subtitles/lang_pt-br_vs2.srt'
+                language_code: pt-br
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1dbb4_find-median-with-outlier-intro-to-descriptive-statistics/subtitles/lang_es_vs1.srt'
+                language_code: es
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1dbb4_find-median-with-outlier-intro-to-descriptive-statistics/subtitles/lang_en_vs3.srt'
+                language_code: en
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1dbb4_find-median-with-outlier-intro-to-descriptive-statistics/subtitles/lang_zh-cn_vs8.srt'
+                language_code: zh-cn
+            transcodings:
+              uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1dbb4_find-median-with-outlier-intro-to-descriptive-statistics/find-median-with-outlier-intro-to-descriptive-statistics_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1dbb4_find-median-with-outlier-intro-to-descriptive-statistics/find-median-with-outlier-intro-to-descriptive-statistics_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1dbb4_find-median-with-outlier-intro-to-descriptive-statistics/find-median-with-outlier-intro-to-descriptive-statistics_480p.ogg'
+              uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1dbb4_find-median-with-outlier-intro-to-descriptive-statistics/find-median-with-outlier-intro-to-descriptive-statistics_720p.mp4'
+              uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1dbb4_find-median-with-outlier-intro-to-descriptive-statistics/hls/playlist.m3u8'
+  - id: 21615
+    key: '773450610923'
+    locale: en-us
+    version: 1.0.0
+    title: Measures of Center
+    semantic_type: Concept
+    updated_at: 'Tue Jun 28 2016 21:06:15 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 115726
+    atoms:
+      - id: 115726
+        key: '77345061'
+        locale: en-us
+        version: 1.0.0
+        title: Measures of Center
+        semantic_type: VideoAtom
+        updated_at: 'Wed Apr 19 2017 21:35:54 GMT+0000 (UTC)'
+        is_public: true
+        tags: null
+        instructor_notes: null
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        video:
+          youtube_id: eNoE9hSDxPA
+          subtitles:
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0d05d_measures-of-center-intro-to-descriptive-statistics/subtitles/lang_zh-cn_vs10.srt'
+              language_code: zh-cn
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0d05d_measures-of-center-intro-to-descriptive-statistics/subtitles/lang_en_vs3.srt'
+              language_code: en
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0d05d_measures-of-center-intro-to-descriptive-statistics/subtitles/lang_ar_vs1.srt'
+              language_code: ar
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0d05d_measures-of-center-intro-to-descriptive-statistics/subtitles/lang_pt-br_vs9.srt'
+              language_code: pt-br
+          transcodings:
+            uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0d05d_measures-of-center-intro-to-descriptive-statistics/measures-of-center-intro-to-descriptive-statistics_480p.mp4'
+            uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0d05d_measures-of-center-intro-to-descriptive-statistics/measures-of-center-intro-to-descriptive-statistics_480p_1000kbps.mp4'
+            uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0d05d_measures-of-center-intro-to-descriptive-statistics/measures-of-center-intro-to-descriptive-statistics_480p.ogg'
+            uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0d05d_measures-of-center-intro-to-descriptive-statistics/measures-of-center-intro-to-descriptive-statistics_720p.mp4'
+            uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0d05d_measures-of-center-intro-to-descriptive-statistics/hls/playlist.m3u8'
+  - id: 72943
+    key: '773143370923'
+    locale: en-us
+    version: 1.0.0
+    title: Order Measures of Center 1
+    semantic_type: Concept
+    updated_at: 'Tue Jun 28 2016 21:06:15 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 55717
+    atoms:
+      - id: 55717
+        key: '77314337'
+        locale: en-us
+        version: 1.0.0
+        title: Order Measures of Center 1
+        semantic_type: QuizAtom
+        updated_at: 'Wed Apr 19 2017 22:02:05 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: ''
+        instruction:
+          video:
+            youtube_id: Lv22Usic4A8
+            subtitles:
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d161b5_order-measures-of-center-1-intro-to-descriptive-statistics/subtitles/lang_en_vs3.srt'
+                language_code: en
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d161b5_order-measures-of-center-1-intro-to-descriptive-statistics/subtitles/lang_zh-cn_vs7.srt'
+                language_code: zh-cn
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d161b5_order-measures-of-center-1-intro-to-descriptive-statistics/subtitles/lang_pt-br_vs2.srt'
+                language_code: pt-br
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d161b5_order-measures-of-center-1-intro-to-descriptive-statistics/subtitles/lang_es_vs1.srt'
+                language_code: es
+            transcodings:
+              uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d161b5_order-measures-of-center-1-intro-to-descriptive-statistics/order-measures-of-center-1-intro-to-descriptive-statistics_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d161b5_order-measures-of-center-1-intro-to-descriptive-statistics/order-measures-of-center-1-intro-to-descriptive-statistics_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d161b5_order-measures-of-center-1-intro-to-descriptive-statistics/order-measures-of-center-1-intro-to-descriptive-statistics_480p.ogg'
+              uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d161b5_order-measures-of-center-1-intro-to-descriptive-statistics/order-measures-of-center-1-intro-to-descriptive-statistics_720p.mp4'
+              uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d161b5_order-measures-of-center-1-intro-to-descriptive-statistics/hls/playlist.m3u8'
+          text: null
+        question:
+          title: Order Measures of Center 1
+          background_image: '//lh6.ggpht.com/sGpSC6kBjqFkVSYlGX83qgzM2HDOlyEimBeTPIvS8prqAK6mjTzjRfVqtLCCUmJAitvgh64Z8gb4_Bb62bg=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '77345062'
+        answer:
+          text: null
+          video:
+            youtube_id: Im9nOwm_fS8
+            subtitles:
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57cf9484_order-measures-of-center-1-intro-to-descriptive-statistics/subtitles/lang_es_vs3.srt'
+                language_code: es
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57cf9484_order-measures-of-center-1-intro-to-descriptive-statistics/subtitles/lang_pt-br_vs2.srt'
+                language_code: pt-br
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57cf9484_order-measures-of-center-1-intro-to-descriptive-statistics/subtitles/lang_en_vs3.srt'
+                language_code: en
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57cf9484_order-measures-of-center-1-intro-to-descriptive-statistics/subtitles/lang_zh-cn_vs6.srt'
+                language_code: zh-cn
+            transcodings:
+              uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57cf9484_order-measures-of-center-1-intro-to-descriptive-statistics/order-measures-of-center-1-intro-to-descriptive-statistics_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57cf9484_order-measures-of-center-1-intro-to-descriptive-statistics/order-measures-of-center-1-intro-to-descriptive-statistics_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57cf9484_order-measures-of-center-1-intro-to-descriptive-statistics/order-measures-of-center-1-intro-to-descriptive-statistics_480p.ogg'
+              uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57cf9484_order-measures-of-center-1-intro-to-descriptive-statistics/order-measures-of-center-1-intro-to-descriptive-statistics_720p.mp4'
+              uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57cf9484_order-measures-of-center-1-intro-to-descriptive-statistics/hls/playlist.m3u8'
+  - id: 38903
+    key: '773143380923'
+    locale: en-us
+    version: 1.0.0
+    title: Order Measures of Center 2
+    semantic_type: Concept
+    updated_at: 'Tue Jun 28 2016 21:06:15 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 26756
+    atoms:
+      - id: 26756
+        key: '77314338'
+        locale: en-us
+        version: 1.0.0
+        title: Order Measures of Center 2
+        semantic_type: QuizAtom
+        updated_at: 'Wed Apr 19 2017 21:56:21 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: ''
+        instruction:
+          video:
+            youtube_id: m2waMNsE1sU
+            subtitles:
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d16668_order-measures-of-center-2-intro-to-descriptive-statistics/subtitles/lang_en_vs3.srt'
+                language_code: en
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d16668_order-measures-of-center-2-intro-to-descriptive-statistics/subtitles/lang_zh-cn_vs7.srt'
+                language_code: zh-cn
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d16668_order-measures-of-center-2-intro-to-descriptive-statistics/subtitles/lang_pt-br_vs2.srt'
+                language_code: pt-br
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d16668_order-measures-of-center-2-intro-to-descriptive-statistics/subtitles/lang_es_vs1.srt'
+                language_code: es
+            transcodings:
+              uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d16668_order-measures-of-center-2-intro-to-descriptive-statistics/order-measures-of-center-2-intro-to-descriptive-statistics_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d16668_order-measures-of-center-2-intro-to-descriptive-statistics/order-measures-of-center-2-intro-to-descriptive-statistics_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d16668_order-measures-of-center-2-intro-to-descriptive-statistics/order-measures-of-center-2-intro-to-descriptive-statistics_480p.ogg'
+              uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d16668_order-measures-of-center-2-intro-to-descriptive-statistics/order-measures-of-center-2-intro-to-descriptive-statistics_720p.mp4'
+              uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d16668_order-measures-of-center-2-intro-to-descriptive-statistics/hls/playlist.m3u8'
+          text: null
+        question:
+          title: Order Measures of Center 2
+          background_image: '//lh3.ggpht.com/iJCZOhfj9Nngxy7SSKWljhy15rJAZcd2N_mhv9HdVH0QbtKRRwElkmr6su89A8cIJQi37SaTWyhkZcdGQRI=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '77345065'
+        answer:
+          text: null
+          video:
+            youtube_id: 5tdFjuAX9u0
+            subtitles:
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0879a_order-measures-of-center-2-intro-to-descriptive-statistics/subtitles/lang_es_vs1.srt'
+                language_code: es
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0879a_order-measures-of-center-2-intro-to-descriptive-statistics/subtitles/lang_pt-br_vs2.srt'
+                language_code: pt-br
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0879a_order-measures-of-center-2-intro-to-descriptive-statistics/subtitles/lang_en_vs3.srt'
+                language_code: en
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0879a_order-measures-of-center-2-intro-to-descriptive-statistics/subtitles/lang_zh-cn_vs7.srt'
+                language_code: zh-cn
+            transcodings:
+              uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0879a_order-measures-of-center-2-intro-to-descriptive-statistics/order-measures-of-center-2-intro-to-descriptive-statistics_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0879a_order-measures-of-center-2-intro-to-descriptive-statistics/order-measures-of-center-2-intro-to-descriptive-statistics_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0879a_order-measures-of-center-2-intro-to-descriptive-statistics/order-measures-of-center-2-intro-to-descriptive-statistics_480p.ogg'
+              uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0879a_order-measures-of-center-2-intro-to-descriptive-statistics/order-measures-of-center-2-intro-to-descriptive-statistics_720p.mp4'
+              uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0879a_order-measures-of-center-2-intro-to-descriptive-statistics/hls/playlist.m3u8'
+  - id: 37634
+    key: '773450680923'
+    locale: en-us
+    version: 1.0.0
+    title: Use Measures of Center to Compare
+    semantic_type: Concept
+    updated_at: 'Tue Jun 28 2016 21:06:15 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 17808
+    atoms:
+      - id: 17808
+        key: '77345068'
+        locale: en-us
+        version: 1.0.0
+        title: Use Measures of Center to Compare
+        semantic_type: VideoAtom
+        updated_at: 'Wed Apr 19 2017 21:32:28 GMT+0000 (UTC)'
+        is_public: true
+        tags: null
+        instructor_notes: |-
+          Link to poll: <a target="_blank" href="https://docs.google.com/forms/d/1kWg5N4UuLCWSK3iAw0dNQyz9wMO4wHxhKkjHL_v-7ng/viewform">How many Facebook friends do you have?</a><br>
+          Link to <a target="_blank" href="https://docs.google.com/a/knowlabs.com/spreadsheet/ccc?key=0Alo47BBiqLE0dFppRmdfYnkxUkhWSGxRd2U2TzhmaGc#gid=0">poll results</a>
+
+          <a target="_blank" href="http://mashable.com/2011/11/17/facebook-stats/">Mashable: Who is an Average Facebook User?</a><br>
+          <a target="_blank" href="http://www.zeebly.com/social_me">Zeebly Social Me</a> (optional but fun use of statistics)
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        video:
+          youtube_id: KFK1L4hUW80
+          subtitles:
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d14417_use-measures-of-center-to-compare-intro-to-descriptive-statistics/subtitles/lang_en_vs3.srt'
+              language_code: en
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d14417_use-measures-of-center-to-compare-intro-to-descriptive-statistics/subtitles/lang_ar_vs1.srt'
+              language_code: ar
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d14417_use-measures-of-center-to-compare-intro-to-descriptive-statistics/subtitles/lang_pt-br_vs9.srt'
+              language_code: pt-br
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d14417_use-measures-of-center-to-compare-intro-to-descriptive-statistics/subtitles/lang_zh-cn_vs9.srt'
+              language_code: zh-cn
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d14417_use-measures-of-center-to-compare-intro-to-descriptive-statistics/subtitles/lang_es_vs2.srt'
+              language_code: es
+          transcodings:
+            uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d14417_use-measures-of-center-to-compare-intro-to-descriptive-statistics/use-measures-of-center-to-compare-intro-to-descriptive-statistics_480p.mp4'
+            uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d14417_use-measures-of-center-to-compare-intro-to-descriptive-statistics/use-measures-of-center-to-compare-intro-to-descriptive-statistics_480p_1000kbps.mp4'
+            uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d14417_use-measures-of-center-to-compare-intro-to-descriptive-statistics/use-measures-of-center-to-compare-intro-to-descriptive-statistics_480p.ogg'
+            uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d14417_use-measures-of-center-to-compare-intro-to-descriptive-statistics/use-measures-of-center-to-compare-intro-to-descriptive-statistics_720p.mp4'
+            uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d14417_use-measures-of-center-to-compare-intro-to-descriptive-statistics/hls/playlist.m3u8'
+  - id: 129269
+    key: '773143390923'
+    locale: en-us
+    version: 1.0.0
+    title: Udacians' Facebook Friends - Mean
+    semantic_type: Concept
+    updated_at: 'Tue Jun 28 2016 21:06:15 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 109942
+    atoms:
+      - id: 109942
+        key: '77314339'
+        locale: en-us
+        version: 1.0.0
+        title: Udacians' Facebook Friends - Mean
+        semantic_type: QuizAtom
+        updated_at: 'Wed Apr 19 2017 21:59:40 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |-
+          Link to <a target="_blank" href="https://docs.google.com/spreadsheet/ccc?key=0Alo47BBiqLE0dG5xRWtyUEJWWTZidExmUEQ4ZGlMNUE&usp=sharing">Udacians' Facebook Friends</a>
+
+          Copy and paste the data into your own spreadsheet to perform the calculations. From <a href="https://drive.google.com/" target = "_blank">Google Drive</a> (at the top of the page once you're signed in to your Google account), click the button on the left that says "CREATE" and click "Spreadsheet."
+          Please round your answer to two decimal places.
+        instruction:
+          video:
+            youtube_id: sLEF-B1fkX8
+            subtitles:
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1ecc6_udacians-facebook-friends-mean-intro-to-descriptive-statistics/subtitles/lang_es_vs1.srt'
+                language_code: es
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1ecc6_udacians-facebook-friends-mean-intro-to-descriptive-statistics/subtitles/lang_pt-br_vs1.srt'
+                language_code: pt-br
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1ecc6_udacians-facebook-friends-mean-intro-to-descriptive-statistics/subtitles/lang_en_vs3.srt'
+                language_code: en
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1ecc6_udacians-facebook-friends-mean-intro-to-descriptive-statistics/subtitles/lang_zh-cn_vs6.srt'
+                language_code: zh-cn
+            transcodings:
+              uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1ecc6_udacians-facebook-friends-mean-intro-to-descriptive-statistics/udacians-facebook-friends-mean-intro-to-descriptive-statistics_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1ecc6_udacians-facebook-friends-mean-intro-to-descriptive-statistics/udacians-facebook-friends-mean-intro-to-descriptive-statistics_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1ecc6_udacians-facebook-friends-mean-intro-to-descriptive-statistics/udacians-facebook-friends-mean-intro-to-descriptive-statistics_480p.ogg'
+              uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1ecc6_udacians-facebook-friends-mean-intro-to-descriptive-statistics/udacians-facebook-friends-mean-intro-to-descriptive-statistics_720p.mp4'
+              uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1ecc6_udacians-facebook-friends-mean-intro-to-descriptive-statistics/hls/playlist.m3u8'
+          text: null
+        question:
+          title: Udacians' Facebook Friends - Mean
+          background_image: '//lh4.ggpht.com/D_sfoCevABJpSDlqCO3fSNi7qwrST4fn6EvQqeJmsSkSfURKj6mLQfJZ53v25ucL6hjHa5bVEoVvJVpqTnI=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '77345069'
+        answer:
+          text: null
+          video:
+            youtube_id: ljBJOXJTR9A
+            subtitles:
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d15a9d_udacians-facebook-friends-mean-intro-to-descriptive-statistics/subtitles/lang_pt-br_vs1.srt'
+                language_code: pt-br
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d15a9d_udacians-facebook-friends-mean-intro-to-descriptive-statistics/subtitles/lang_zh-cn_vs6.srt'
+                language_code: zh-cn
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d15a9d_udacians-facebook-friends-mean-intro-to-descriptive-statistics/subtitles/lang_en_vs3.srt'
+                language_code: en
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d15a9d_udacians-facebook-friends-mean-intro-to-descriptive-statistics/subtitles/lang_es_vs1.srt'
+                language_code: es
+            transcodings:
+              uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d15a9d_udacians-facebook-friends-mean-intro-to-descriptive-statistics/udacians-facebook-friends-mean-intro-to-descriptive-statistics_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d15a9d_udacians-facebook-friends-mean-intro-to-descriptive-statistics/udacians-facebook-friends-mean-intro-to-descriptive-statistics_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d15a9d_udacians-facebook-friends-mean-intro-to-descriptive-statistics/udacians-facebook-friends-mean-intro-to-descriptive-statistics_480p.ogg'
+              uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d15a9d_udacians-facebook-friends-mean-intro-to-descriptive-statistics/udacians-facebook-friends-mean-intro-to-descriptive-statistics_720p.mp4'
+              uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d15a9d_udacians-facebook-friends-mean-intro-to-descriptive-statistics/hls/playlist.m3u8'
+  - id: 123755
+    key: '965136940923'
+    locale: en-us
+    version: 1.0.0
+    title: Udacians' Facebook Friends - Median
+    semantic_type: Concept
+    updated_at: 'Tue Jun 28 2016 21:06:15 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 123778
+    atoms:
+      - id: 123778
+        key: '96513694'
+        locale: en-us
+        version: 1.0.0
+        title: Udacians' Facebook Friends - Median
+        semantic_type: QuizAtom
+        updated_at: 'Wed Apr 19 2017 21:59:20 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |-
+          Link to <a target="_blank" href="https://docs.google.com/spreadsheet/ccc?key=0Alo47BBiqLE0dG5xRWtyUEJWWTZidExmUEQ4ZGlMNUE&usp=sharing">Udacians' Facebook Friends</a>
+
+          Copy and paste the data into your own spreadsheet to perform the calculations. From <a href="https://drive.google.com/" target = "_blank">Google Drive</a> (at the top of the page once you're signed in to your Google account), click the button on the left that says "CREATE" and click "Spreadsheet."
+        instruction:
+          video:
+            youtube_id: KrZpJwPlSbA
+            subtitles:
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d14ce6_udacians-facebook-friends-median-intro-to-descriptive-statistics/subtitles/lang_pt-br_vs1.srt'
+                language_code: pt-br
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d14ce6_udacians-facebook-friends-median-intro-to-descriptive-statistics/subtitles/lang_es_vs1.srt'
+                language_code: es
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d14ce6_udacians-facebook-friends-median-intro-to-descriptive-statistics/subtitles/lang_zh-cn_vs6.srt'
+                language_code: zh-cn
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d14ce6_udacians-facebook-friends-median-intro-to-descriptive-statistics/subtitles/lang_en_vs3.srt'
+                language_code: en
+            transcodings:
+              uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d14ce6_udacians-facebook-friends-median-intro-to-descriptive-statistics/udacians-facebook-friends-median-intro-to-descriptive-statistics_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d14ce6_udacians-facebook-friends-median-intro-to-descriptive-statistics/udacians-facebook-friends-median-intro-to-descriptive-statistics_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d14ce6_udacians-facebook-friends-median-intro-to-descriptive-statistics/udacians-facebook-friends-median-intro-to-descriptive-statistics_480p.ogg'
+              uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d14ce6_udacians-facebook-friends-median-intro-to-descriptive-statistics/udacians-facebook-friends-median-intro-to-descriptive-statistics_720p.mp4'
+              uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d14ce6_udacians-facebook-friends-median-intro-to-descriptive-statistics/hls/playlist.m3u8'
+          text: null
+        question:
+          title: Udacians' Facebook Friends - Median
+          background_image: '//lh5.ggpht.com/3GHVWajeNOtWnzxGSh3HRy4p0jlVxsIIbNV1MDLq_eUxVQCPLJPG1s04CO2jtoGmbpBcKwHuh3fLOFozcFQ=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '96365068'
+        answer:
+          text: null
+          video:
+            youtube_id: BHFxJmzw1gY
+            subtitles:
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0a477_udacians-facebook-friends-median-intro-to-descriptive-statistics/subtitles/lang_es_vs1.srt'
+                language_code: es
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0a477_udacians-facebook-friends-median-intro-to-descriptive-statistics/subtitles/lang_pt-br_vs1.srt'
+                language_code: pt-br
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0a477_udacians-facebook-friends-median-intro-to-descriptive-statistics/subtitles/lang_en_vs3.srt'
+                language_code: en
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0a477_udacians-facebook-friends-median-intro-to-descriptive-statistics/subtitles/lang_zh-cn_vs8.srt'
+                language_code: zh-cn
+            transcodings:
+              uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0a477_udacians-facebook-friends-median-intro-to-descriptive-statistics/udacians-facebook-friends-median-intro-to-descriptive-statistics_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0a477_udacians-facebook-friends-median-intro-to-descriptive-statistics/udacians-facebook-friends-median-intro-to-descriptive-statistics_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0a477_udacians-facebook-friends-median-intro-to-descriptive-statistics/udacians-facebook-friends-median-intro-to-descriptive-statistics_480p.ogg'
+              uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0a477_udacians-facebook-friends-median-intro-to-descriptive-statistics/udacians-facebook-friends-median-intro-to-descriptive-statistics_720p.mp4'
+              uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0a477_udacians-facebook-friends-median-intro-to-descriptive-statistics/hls/playlist.m3u8'
+  - id: 125712
+    key: '965136950923'
+    locale: en-us
+    version: 1.0.0
+    title: Formula for Location of Median
+    semantic_type: Concept
+    updated_at: 'Tue Jun 28 2016 21:06:15 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 21776
+    atoms:
+      - id: 21776
+        key: '96513695'
+        locale: en-us
+        version: 1.0.0
+        title: Formula for Location of Median
+        semantic_type: QuizAtom
+        updated_at: 'Wed Apr 19 2017 22:01:29 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: ''
+        instruction:
+          video:
+            youtube_id: h3zyZHNyreM
+            subtitles:
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d100cb_formula-for-location-of-median-intro-to-descriptive-statistics/subtitles/lang_es_vs1.srt'
+                language_code: es
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d100cb_formula-for-location-of-median-intro-to-descriptive-statistics/subtitles/lang_pt-br_vs2.srt'
+                language_code: pt-br
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d100cb_formula-for-location-of-median-intro-to-descriptive-statistics/subtitles/lang_en_vs3.srt'
+                language_code: en
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d100cb_formula-for-location-of-median-intro-to-descriptive-statistics/subtitles/lang_zh-cn_vs7.srt'
+                language_code: zh-cn
+            transcodings:
+              uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d100cb_formula-for-location-of-median-intro-to-descriptive-statistics/formula-for-location-of-median-intro-to-descriptive-statistics_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d100cb_formula-for-location-of-median-intro-to-descriptive-statistics/formula-for-location-of-median-intro-to-descriptive-statistics_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d100cb_formula-for-location-of-median-intro-to-descriptive-statistics/formula-for-location-of-median-intro-to-descriptive-statistics_480p.ogg'
+              uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d100cb_formula-for-location-of-median-intro-to-descriptive-statistics/formula-for-location-of-median-intro-to-descriptive-statistics_720p.mp4'
+              uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d100cb_formula-for-location-of-median-intro-to-descriptive-statistics/hls/playlist.m3u8'
+          text: null
+        question:
+          title: Formula for Location of Median
+          background_image: '//lh5.ggpht.com/6FNspzVOlXpu5mgKlOFywmjoEWedvIlTGDGUGi5E5c9-WaHuwmzqsoIsJCPyMCRbJkDpnEym4YQd1PPAEB4=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '96365072'
+        answer:
+          text: null
+          video:
+            youtube_id: lNYLU1b4qoM
+            subtitles:
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d15d72_formula-for-location-of-median-intro-to-descriptive-statistics/subtitles/lang_zh-cn_vs7.srt'
+                language_code: zh-cn
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d15d72_formula-for-location-of-median-intro-to-descriptive-statistics/subtitles/lang_pt-br_vs2.srt'
+                language_code: pt-br
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d15d72_formula-for-location-of-median-intro-to-descriptive-statistics/subtitles/lang_en_vs3.srt'
+                language_code: en
+            transcodings:
+              uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d15d72_formula-for-location-of-median-intro-to-descriptive-statistics/formula-for-location-of-median-intro-to-descriptive-statistics_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d15d72_formula-for-location-of-median-intro-to-descriptive-statistics/formula-for-location-of-median-intro-to-descriptive-statistics_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d15d72_formula-for-location-of-median-intro-to-descriptive-statistics/formula-for-location-of-median-intro-to-descriptive-statistics_480p.ogg'
+              uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d15d72_formula-for-location-of-median-intro-to-descriptive-statistics/formula-for-location-of-median-intro-to-descriptive-statistics_720p.mp4'
+              uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d15d72_formula-for-location-of-median-intro-to-descriptive-statistics/hls/playlist.m3u8'
+  - id: 51458
+    key: '773143400923'
+    locale: en-us
+    version: 1.0.0
+    title: Wrap Up - Measures of Center
+    semantic_type: Concept
+    updated_at: 'Tue Jun 28 2016 21:06:15 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 129192
+    atoms:
+      - id: 129192
+        key: '77314340'
+        locale: en-us
+        version: 1.0.0
+        title: Wrap Up - Measures of Center
+        semantic_type: QuizAtom
+        updated_at: 'Wed Apr 19 2017 21:56:01 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |-
+          Here is a short doc outlining Mean, Median, and Mode.
+          http://tinyurl.com/measureOfCenter
+        instruction:
+          video:
+            youtube_id: bsybN1HIH4s
+            subtitles:
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0a5ad_wrap-up-measures-of-center-intro-to-descriptive-statistics/subtitles/lang_pt-br_vs2.srt'
+                language_code: pt-br
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0a5ad_wrap-up-measures-of-center-intro-to-descriptive-statistics/subtitles/lang_en_vs5.srt'
+                language_code: en
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0a5ad_wrap-up-measures-of-center-intro-to-descriptive-statistics/subtitles/lang_zh-cn_vs7.srt'
+                language_code: zh-cn
+            transcodings:
+              uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0a5ad_wrap-up-measures-of-center-intro-to-descriptive-statistics/wrap-up-measures-of-center-intro-to-descriptive-statistics_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0a5ad_wrap-up-measures-of-center-intro-to-descriptive-statistics/wrap-up-measures-of-center-intro-to-descriptive-statistics_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0a5ad_wrap-up-measures-of-center-intro-to-descriptive-statistics/wrap-up-measures-of-center-intro-to-descriptive-statistics_480p.ogg'
+              uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0a5ad_wrap-up-measures-of-center-intro-to-descriptive-statistics/wrap-up-measures-of-center-intro-to-descriptive-statistics_720p.mp4'
+              uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0a5ad_wrap-up-measures-of-center-intro-to-descriptive-statistics/hls/playlist.m3u8'
+          text: null
+        question:
+          title: Wrap Up - Measures of Center
+          background_image: '//lh6.ggpht.com/gi2uJq_gjQPk31H_lx3sefLJNh56M9tn2hDjUHtz-2clxtxXnfEuDfrEU-eTcDgME0ntzL5BVQaEB5n_AB8B=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '77345072'
+        answer:
+          text: null
+          video:
+            youtube_id: CBaw2pGOO3A
+            subtitles:
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0a710_wrap-up-measures-of-center-intro-to-descriptive-statistics/subtitles/lang_pt-br_vs2.srt'
+                language_code: pt-br
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0a710_wrap-up-measures-of-center-intro-to-descriptive-statistics/subtitles/lang_en_vs3.srt'
+                language_code: en
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0a710_wrap-up-measures-of-center-intro-to-descriptive-statistics/subtitles/lang_zh-cn_vs7.srt'
+                language_code: zh-cn
+            transcodings:
+              uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0a710_wrap-up-measures-of-center-intro-to-descriptive-statistics/wrap-up-measures-of-center-intro-to-descriptive-statistics_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0a710_wrap-up-measures-of-center-intro-to-descriptive-statistics/wrap-up-measures-of-center-intro-to-descriptive-statistics_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0a710_wrap-up-measures-of-center-intro-to-descriptive-statistics/wrap-up-measures-of-center-intro-to-descriptive-statistics_480p.ogg'
+              uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0a710_wrap-up-measures-of-center-intro-to-descriptive-statistics/wrap-up-measures-of-center-intro-to-descriptive-statistics_720p.mp4'
+              uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0a710_wrap-up-measures-of-center-intro-to-descriptive-statistics/hls/playlist.m3u8'
+  - id: 52761
+    key: '773450750923'
+    locale: en-us
+    version: 1.0.0
+    title: Good Job!
+    semantic_type: Concept
+    updated_at: 'Tue Jun 28 2016 21:06:15 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 18169
+    atoms:
+      - id: 18169
+        key: '77345075'
+        locale: en-us
+        version: 1.0.0
+        title: Good Job!
+        semantic_type: VideoAtom
+        updated_at: 'Wed Apr 19 2017 21:29:29 GMT+0000 (UTC)'
+        is_public: true
+        tags: null
+        instructor_notes: null
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        video:
+          youtube_id: ZZoeeLpWcmU
+          subtitles:
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1c335_good-job-intro-to-descriptive-statistics/subtitles/lang_zh-cn_vs9.srt'
+              language_code: zh-cn
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1c335_good-job-intro-to-descriptive-statistics/subtitles/lang_pt-br_vs9.srt'
+              language_code: pt-br
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1c335_good-job-intro-to-descriptive-statistics/subtitles/lang_ar_vs1.srt'
+              language_code: ar
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1c335_good-job-intro-to-descriptive-statistics/subtitles/lang_en_vs3.srt'
+              language_code: en
+          transcodings:
+            uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1c335_good-job-intro-to-descriptive-statistics/good-job-intro-to-descriptive-statistics_480p.mp4'
+            uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1c335_good-job-intro-to-descriptive-statistics/good-job-intro-to-descriptive-statistics_480p_1000kbps.mp4'
+            uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1c335_good-job-intro-to-descriptive-statistics/good-job-intro-to-descriptive-statistics_480p.ogg'
+            uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1c335_good-job-intro-to-descriptive-statistics/good-job-intro-to-descriptive-statistics_720p.mp4'
+            uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1c335_good-job-intro-to-descriptive-statistics/hls/playlist.m3u8'

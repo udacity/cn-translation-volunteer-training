@@ -1,0 +1,677 @@
+id: 65807
+key: '4623768897'
+locale: en-us
+version: 1.0.0
+title: 'PS 2b: Additional Practice (Optional)'
+semantic_type: Lesson
+updated_at: 'Sat Apr 29 2017 23:15:57 GMT+0000 (UTC)'
+is_public: true
+image: null
+video: null
+summary: Get additional practice with the concepts of visualizing data.
+duration: 60
+is_project_lesson: false
+_concepts_ids:
+  - 105897
+  - 24401
+  - 77679
+  - 23794
+  - 24459
+  - 76657
+  - 138808
+  - 70793
+  - 33947
+  - 120760
+  - 84338
+  - 137937
+  - 9546
+  - 121931
+_project_id: null
+concepts:
+  - id: 105897
+    key: '2527424900923'
+    locale: en-us
+    version: 1.0.0
+    title: 7. Ode to n
+    semantic_type: Concept
+    updated_at: 'Tue May 31 2016 02:45:43 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 135094
+    atoms:
+      - id: 135094
+        key: '252742490'
+        locale: en-us
+        version: 1.0.0
+        title: 7. Ode to n
+        semantic_type: QuizAtom
+        updated_at: 'Wed Apr 19 2017 21:59:10 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |-
+          The Σ symbol means the total sum. It is the Greek letter capital sigma. <br>
+          Note that in this case, n (the number in the sample) is equal to the total number of people in this study.
+        instruction:
+          video:
+            youtube_id: c2Das5kJFe4
+            subtitles:
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0a67b_ages-of-udacity-students-intro-to-descriptive-statistics/subtitles/lang_es_vs1.srt'
+                language_code: es
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0a67b_ages-of-udacity-students-intro-to-descriptive-statistics/subtitles/lang_pt-br_vs1.srt'
+                language_code: pt-br
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0a67b_ages-of-udacity-students-intro-to-descriptive-statistics/subtitles/lang_en_vs4.srt'
+                language_code: en
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0a67b_ages-of-udacity-students-intro-to-descriptive-statistics/subtitles/lang_zh-cn_vs2.srt'
+                language_code: zh-cn
+            transcodings:
+              uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0a67b_ages-of-udacity-students-intro-to-descriptive-statistics/ages-of-udacity-students-intro-to-descriptive-statistics_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0a67b_ages-of-udacity-students-intro-to-descriptive-statistics/ages-of-udacity-students-intro-to-descriptive-statistics_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0a67b_ages-of-udacity-students-intro-to-descriptive-statistics/ages-of-udacity-students-intro-to-descriptive-statistics_480p.ogg'
+              uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0a67b_ages-of-udacity-students-intro-to-descriptive-statistics/ages-of-udacity-students-intro-to-descriptive-statistics_720p.mp4'
+              uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0a67b_ages-of-udacity-students-intro-to-descriptive-statistics/hls/playlist.m3u8'
+          text: null
+        question:
+          title: 7. Ode to n
+          background_image: '//lh6.ggpht.com/ttdVLYBvNJx_0JxaXU50z8vTTATRemhjqAxVz0nOzW2X2igw3nAn5IqQ9SR4UCavwtrmstIjB9zb3zemW-M=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '56648267'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 24401
+    key: '2527424910923'
+    locale: en-us
+    version: 1.0.0
+    title: 8. Calculate Percentages
+    semantic_type: Concept
+    updated_at: 'Tue May 31 2016 02:45:43 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 91761
+    atoms:
+      - id: 91761
+        key: '252742491'
+        locale: en-us
+        version: 1.0.0
+        title: 8. Calculate Percentages
+        semantic_type: QuizAtom
+        updated_at: 'Tue Jun 21 2016 22:16:16 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |-
+          The Σ symbol means the total sum. It is the Greek letter capital sigma. <br>
+          Enter your answers without the % sign. Round your answers to at least two decimal places.
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 8. Calculate Percentages
+          background_image: '//lh5.ggpht.com/Yto4e_3M2Dip7MNuOw55jJVjXnBg4OeZt61nmGQRjGUKsBc3yveIz4F7c_5zJQxRz_l6USwODYVe4C0QlgI=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '56648268'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 77679
+    key: '2527424920923'
+    locale: en-us
+    version: 1.0.0
+    title: 9. Common Decade
+    semantic_type: Concept
+    updated_at: 'Tue May 31 2016 02:45:43 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 108255
+    atoms:
+      - id: 108255
+        key: '252742492'
+        locale: en-us
+        version: 1.0.0
+        title: 9. Common Decade
+        semantic_type: QuizAtom
+        updated_at: 'Tue Jun 21 2016 22:15:27 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: The Σ symbol means the total sum. It is the Greek letter capital sigma. <br>
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 9. Common Decade
+          background_image: '//lh4.ggpht.com/-rP4n2RvKR2Io7HE4fLYmsVtV2v_V4zYqkN5cADvZEHEAswQaOO5kUhde3S2Wl3O__MOjayhiX2JiArhViJN=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '56648269'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 23794
+    key: '2527424930923'
+    locale: en-us
+    version: 1.0.0
+    title: 10. How Old?
+    semantic_type: Concept
+    updated_at: 'Tue May 31 2016 02:45:43 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 106694
+    atoms:
+      - id: 106694
+        key: '252742493'
+        locale: en-us
+        version: 1.0.0
+        title: 10. How Old?
+        semantic_type: QuizAtom
+        updated_at: 'Tue Jun 21 2016 22:16:16 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: The Σ symbol means the total sum. It is the Greek letter capital sigma. <br>
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 10. How Old?
+          background_image: '//lh4.ggpht.com/FQ9FFme2-BeVX1ADpX7VVI33gtE234zCXP-BhgW4yWK_rOfRADn5u38yo6TXQtX7LdjPKtiohhSILquv0Kk=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '56648270'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 24459
+    key: '2527424940923'
+    locale: en-us
+    version: 1.0.0
+    title: 11. Really Old!
+    semantic_type: Concept
+    updated_at: 'Tue May 31 2016 02:45:43 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 105686
+    atoms:
+      - id: 105686
+        key: '252742494'
+        locale: en-us
+        version: 1.0.0
+        title: 11. Really Old!
+        semantic_type: QuizAtom
+        updated_at: 'Tue Jun 21 2016 22:16:42 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: The Σ symbol means the total sum. It is the Greek letter capital sigma. <br>
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 11. Really Old!
+          background_image: '//lh3.ggpht.com/EemSlCmW8s2QVEAbHxVMvVRDdNFS_snFhZHRucPhl2rCWZxSntlGiABLbuToDCjJm284rOKoRf-_7zLWjxoG=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '56648271'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 76657
+    key: '2527424950923'
+    locale: en-us
+    version: 1.0.0
+    title: 12. Birth Year Histogram
+    semantic_type: Concept
+    updated_at: 'Tue May 31 2016 02:45:43 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 104981
+    atoms:
+      - id: 104981
+        key: '252742495'
+        locale: en-us
+        version: 1.0.0
+        title: 12. Birth Year Histogram
+        semantic_type: QuizAtom
+        updated_at: 'Tue Jun 21 2016 22:16:53 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: ''
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 12. Birth Year Histogram
+          background_image: '//lh6.ggpht.com/45BPx5JBupy__QUUW--9vC5EFktTBEQLxJhaUrE-asv3x8Qp7KYQ3CH73AD5b4NZ31HKg3LC-fKub6wHHQ=s0#w=1280&h=720'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '62143587'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 138808
+    key: '2527424960923'
+    locale: en-us
+    version: 1.0.0
+    title: 13. Most Common Bin
+    semantic_type: Concept
+    updated_at: 'Tue May 31 2016 02:45:43 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 105667
+    atoms:
+      - id: 105667
+        key: '252742496'
+        locale: en-us
+        version: 1.0.0
+        title: 13. Most Common Bin
+        semantic_type: QuizAtom
+        updated_at: 'Tue Jun 21 2016 22:16:42 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: Type in your answer with the bin endpoint that best fits.
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 13. Most Common Bin
+          background_image: '//lh6.ggpht.com/IkmNeJmvqzvPEB2S__TdJFIv6G6ZfZW0EZbJiWmP7d6w5abpgNC9IFosPlLzA_GOXL96rTzC9IyOJlHjJAg=s0#w=1280&h=720'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '62143588'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 70793
+    key: '2527424970923'
+    locale: en-us
+    version: 1.0.0
+    title: 14. When Most Were Born
+    semantic_type: Concept
+    updated_at: 'Tue May 31 2016 02:45:43 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 105639
+    atoms:
+      - id: 105639
+        key: '252742497'
+        locale: en-us
+        version: 1.0.0
+        title: 14. When Most Were Born
+        semantic_type: QuizAtom
+        updated_at: 'Tue Jun 21 2016 22:16:42 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: ''
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 14. When Most Were Born
+          background_image: '//lh6.ggpht.com/olavxqLA9x_QeGGSQLfPlOvSRFVF37O6ZHvkBLPEON1An4Q-FwSvdl0vsaW7QLyyv-cJJwn_p-64CwK4l4A=s0#w=1280&h=720'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '62143589'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 33947
+    key: '2527424980923'
+    locale: en-us
+    version: 1.0.0
+    title: 15. Type of Data
+    semantic_type: Concept
+    updated_at: 'Tue May 31 2016 02:45:43 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 105600
+    atoms:
+      - id: 105600
+        key: '252742498'
+        locale: en-us
+        version: 1.0.0
+        title: 15. Type of Data
+        semantic_type: QuizAtom
+        updated_at: 'Tue Jun 21 2016 22:16:42 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: ''
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 15. Type of Data
+          background_image: '//lh5.ggpht.com/Bg1F0SjETTGMhR7e92-o-ak7yZpDJiRdLK_hRAltckvJfVz5y0yIWQGRkT_9184rfVGSfGRUD6B5nETZSgs=s0#w=1280&h=720'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '62143591'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 120760
+    key: '2527424990923'
+    locale: en-us
+    version: 1.0.0
+    title: 16. Heights of Bars
+    semantic_type: Concept
+    updated_at: 'Tue May 31 2016 02:45:43 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 105544
+    atoms:
+      - id: 105544
+        key: '252742499'
+        locale: en-us
+        version: 1.0.0
+        title: 16. Heights of Bars
+        semantic_type: QuizAtom
+        updated_at: 'Tue Jun 21 2016 22:16:42 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: ''
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 16. Heights of Bars
+          background_image: '//lh3.ggpht.com/qMQZEla0uHqtG-moPBIC7g3_DKi31D1CgKFv1Sr5Q1UI3Z40JUZd6QgJj1vilm6HXqV57glsohgak7SPs_Y=s0#w=1280&h=720'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '62143592'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 84338
+    key: '2527425000923'
+    locale: en-us
+    version: 1.0.0
+    title: 17. Which Region?
+    semantic_type: Concept
+    updated_at: 'Tue May 31 2016 02:45:43 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 98573
+    atoms:
+      - id: 98573
+        key: '252742500'
+        locale: en-us
+        version: 1.0.0
+        title: 17. Which Region?
+        semantic_type: QuizAtom
+        updated_at: 'Tue Jun 21 2016 22:16:29 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: ''
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 17. Which Region?
+          background_image: '//lh4.ggpht.com/qQAQvecEygbrFTUir4GmHywlnDC5wVqqmDYIg3nDxFGSq-4C2EJPpgeiPlNwN9ser53wWzPphsWm5-OnJhY=s0#w=1280&h=720'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '62143593'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 137937
+    key: '2527425020923'
+    locale: en-us
+    version: 1.0.0
+    title: 19. How to Find n
+    semantic_type: Concept
+    updated_at: 'Tue May 31 2016 02:45:43 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 105522
+    atoms:
+      - id: 105522
+        key: '252742502'
+        locale: en-us
+        version: 1.0.0
+        title: 19. How to Find n
+        semantic_type: QuizAtom
+        updated_at: 'Tue Jun 21 2016 22:16:41 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: ''
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 19. How to Find n
+          background_image: '//lh5.ggpht.com/yRfvUNFITwzHR7SRqXDLS_7q3xjb5vmoxzYgbfYR0lrdf6LwuLaF6JpfoIEJ4wW6A8aqk17IurqR8GA1Gf0=s0#w=1280&h=720'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '62143595'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 9546
+    key: '2527425030923'
+    locale: en-us
+    version: 1.0.0
+    title: 20. How to Analyze Shape
+    semantic_type: Concept
+    updated_at: 'Tue May 31 2016 02:45:43 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 105515
+    atoms:
+      - id: 105515
+        key: '252742503'
+        locale: en-us
+        version: 1.0.0
+        title: 20. How to Analyze Shape
+        semantic_type: QuizAtom
+        updated_at: 'Tue Jun 21 2016 22:16:41 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: ''
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 20. How to Analyze Shape
+          background_image: '//lh6.ggpht.com/sobWu2nXqzIhevOEiooFzHMZXVs4AT2MY37bHg_CCZh8CODJZ6y1i8BIsu-qktBRjmPplQ3z9adWzuKgav8=s0#w=1280&h=720'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '62143596'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 121931
+    key: '2527425090923'
+    locale: en-us
+    version: 1.0.0
+    title: 26. Positively Skewed
+    semantic_type: Concept
+    updated_at: 'Tue May 31 2016 02:45:43 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 105035
+    atoms:
+      - id: 105035
+        key: '252742509'
+        locale: en-us
+        version: 1.0.0
+        title: 26. Positively Skewed
+        semantic_type: QuizAtom
+        updated_at: 'Tue Jun 21 2016 22:16:53 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: ''
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 26. Positively Skewed
+          background_image: '//lh4.ggpht.com/d3W6gUVNTEGH6ukR8mrmYgHiHnv3EgQSEvtoYVA2YNEQogYK1YSubCT3WuewPL0YzGuKLca_WreEq_lXkQ=s0#w=1280&h=720'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '62143603'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null

@@ -1,0 +1,728 @@
+id: 178212
+key: '4623768897'
+locale: zh-cn
+version: 1.0.0
+title: '习题集 2b: 额外练习 (可选)'
+semantic_type: Lesson
+updated_at: 'Sun Dec 18 2016 06:39:13 GMT+0000 (UTC)'
+is_public: true
+image: null
+video: null
+summary: 针对数据可视化进行额外练习。
+duration: 60
+is_project_lesson: false
+_concepts_ids:
+  - 176720
+  - 176722
+  - 176721
+  - 176723
+  - 176724
+  - 176725
+  - 176726
+  - 176727
+  - 176728
+  - 176729
+  - 176730
+  - 176732
+  - 176731
+  - 176733
+_project_id: null
+concepts:
+  - id: 176720
+    key: '2527424900923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 7. n 方程式
+    semantic_type: Concept
+    updated_at: 'Mon Aug 22 2016 06:38:34 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174378
+    atoms:
+      - id: 174378
+        key: '252742490'
+        locale: zh-cn
+        version: 1.0.0
+        title: 7. n 方程式
+        semantic_type: QuizAtom
+        updated_at: 'Wed Apr 19 2017 21:58:26 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |-
+          ## n 应该是多少？
+
+          ----
+
+          Σ 符号是希腊字母西格玛的大写形式，表示总数。
+
+          请注意，在此情况下，n（样本中的数字）等于此次研究中的总人数。
+        instruction:
+          video:
+            youtube_id: c2Das5kJFe4
+            subtitles:
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0a67b_ages-of-udacity-students-intro-to-descriptive-statistics/subtitles/lang_es_vs1.srt'
+                language_code: es
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0a67b_ages-of-udacity-students-intro-to-descriptive-statistics/subtitles/lang_pt-br_vs1.srt'
+                language_code: pt-br
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0a67b_ages-of-udacity-students-intro-to-descriptive-statistics/subtitles/lang_en_vs4.srt'
+                language_code: en
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0a67b_ages-of-udacity-students-intro-to-descriptive-statistics/subtitles/lang_zh-cn_vs2.srt'
+                language_code: zh-cn
+            transcodings:
+              uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0a67b_ages-of-udacity-students-intro-to-descriptive-statistics/ages-of-udacity-students-intro-to-descriptive-statistics_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0a67b_ages-of-udacity-students-intro-to-descriptive-statistics/ages-of-udacity-students-intro-to-descriptive-statistics_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0a67b_ages-of-udacity-students-intro-to-descriptive-statistics/ages-of-udacity-students-intro-to-descriptive-statistics_480p.ogg'
+              uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0a67b_ages-of-udacity-students-intro-to-descriptive-statistics/ages-of-udacity-students-intro-to-descriptive-statistics_720p.mp4'
+              uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0a67b_ages-of-udacity-students-intro-to-descriptive-statistics/hls/playlist.m3u8'
+          text: null
+        question:
+          title: 7. n 方程式
+          background_image: '//lh6.ggpht.com/ttdVLYBvNJx_0JxaXU50z8vTTATRemhjqAxVz0nOzW2X2igw3nAn5IqQ9SR4UCavwtrmstIjB9zb3zemW-M=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '56648267'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 176722
+    key: '2527424910923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 8. 计算百分比
+    semantic_type: Concept
+    updated_at: 'Mon Aug 22 2016 06:38:35 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174379
+    atoms:
+      - id: 174379
+        key: '252742491'
+        locale: zh-cn
+        version: 1.0.0
+        title: 8. 计算百分比
+        semantic_type: QuizAtom
+        updated_at: 'Wed Sep 07 2016 13:03:12 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |-
+          ## 1921-1930、1951-1960、1981-1990 和总和的百分比是多少？请填入方框中。 
+
+          ----
+
+          Σ 符号是希腊字母西格玛的大写形式，表示总数。
+
+          输入你的答案，不需要附带 % 符号。对你的答案四舍五入，至少精确到小数点后两位。
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 8. 计算百分比
+          background_image: '//lh5.ggpht.com/Yto4e_3M2Dip7MNuOw55jJVjXnBg4OeZt61nmGQRjGUKsBc3yveIz4F7c_5zJQxRz_l6USwODYVe4C0QlgI=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '56648268'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 176721
+    key: '2527424920923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 9. 常见十年
+    semantic_type: Concept
+    updated_at: 'Wed Sep 07 2016 13:03:32 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174381
+    atoms:
+      - id: 174381
+        key: '252742492'
+        locale: zh-cn
+        version: 1.0.0
+        title: 9. 常见十年
+        semantic_type: QuizAtom
+        updated_at: 'Thu Nov 10 2016 14:28:50 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: '## 这个优达学城学员样本中，有最多学员出生的是哪十年？'
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 9. 常规十年
+          background_image: '//lh4.ggpht.com/-rP4n2RvKR2Io7HE4fLYmsVtV2v_V4zYqkN5cADvZEHEAswQaOO5kUhde3S2Wl3O__MOjayhiX2JiArhViJN=s0#w=1920&h=1080'
+          alt_text: ''
+          semantic_type: ImageFormQuestion
+          evaluation_id: '56648269'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 176723
+    key: '2527424930923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 10. 年龄多大？
+    semantic_type: Concept
+    updated_at: 'Mon Aug 22 2016 06:38:36 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174380
+    atoms:
+      - id: 174380
+        key: '252742493'
+        locale: zh-cn
+        version: 1.0.0
+        title: 10. 年龄多大？
+        semantic_type: QuizAtom
+        updated_at: 'Thu Nov 10 2016 14:29:12 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: '## 大约有百分之多少的学员在 1975 年以前出生？仅输入数字。'
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 10. 年龄多大？
+          background_image: '//lh4.ggpht.com/FQ9FFme2-BeVX1ADpX7VVI33gtE234zCXP-BhgW4yWK_rOfRADn5u38yo6TXQtX7LdjPKtiohhSILquv0Kk=s0#w=1920&h=1080'
+          alt_text: ''
+          semantic_type: ImageFormQuestion
+          evaluation_id: '56648270'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 176724
+    key: '2527424940923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 11. 年龄很大！
+    semantic_type: Concept
+    updated_at: 'Mon Aug 22 2016 06:38:36 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174382
+    atoms:
+      - id: 174382
+        key: '252742494'
+        locale: zh-cn
+        version: 1.0.0
+        title: 11. 年龄很大！
+        semantic_type: QuizAtom
+        updated_at: 'Wed Sep 07 2016 13:07:15 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |-
+          ## 年纪最大的学员超过 90 岁吗？
+
+          - □ 是的
+          - □ 不是
+          - □ 无法确定
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 11. 年龄很大！
+          background_image: '//lh3.ggpht.com/EemSlCmW8s2QVEAbHxVMvVRDdNFS_snFhZHRucPhl2rCWZxSntlGiABLbuToDCjJm284rOKoRf-_7zLWjxoG=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '56648271'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 176725
+    key: '2527424950923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 12. 出生年份直方图
+    semantic_type: Concept
+    updated_at: 'Mon Aug 22 2016 06:38:37 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174383
+    atoms:
+      - id: 174383
+        key: '252742495'
+        locale: zh-cn
+        version: 1.0.0
+        title: 12. 出生年份直方图
+        semantic_type: QuizAtom
+        updated_at: 'Wed Sep 07 2016 13:07:42 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: '## 这个直方图的组距是多大（年）？'
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 12. 出生年份直方图
+          background_image: '//lh6.ggpht.com/45BPx5JBupy__QUUW--9vC5EFktTBEQLxJhaUrE-asv3x8Qp7KYQ3CH73AD5b4NZ31HKg3LC-fKub6wHHQ=s0#w=1280&h=720'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '62143587'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 176726
+    key: '2527424960923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 13. 最常见分组
+    semantic_type: Concept
+    updated_at: 'Mon Aug 22 2016 06:38:37 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174384
+    atoms:
+      - id: 174384
+        key: '252742496'
+        locale: zh-cn
+        version: 1.0.0
+        title: 13. 最常见分组
+        semantic_type: QuizAtom
+        updated_at: 'Wed Sep 07 2016 13:08:38 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |-
+          ## 最常见的分组是从1990年到哪一年？
+
+          在答案里输入最合适的分组终止点。
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 13. 最常见分组
+          background_image: '//lh6.ggpht.com/IkmNeJmvqzvPEB2S__TdJFIv6G6ZfZW0EZbJiWmP7d6w5abpgNC9IFosPlLzA_GOXL96rTzC9IyOJlHjJAg=s0#w=1280&h=720'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '62143588'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 176727
+    key: '2527424970923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 14. 大部分人的出生时间
+    semantic_type: Concept
+    updated_at: 'Mon Aug 22 2016 06:38:38 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174385
+    atoms:
+      - id: 174385
+        key: '252742497'
+        locale: zh-cn
+        version: 1.0.0
+        title: 14. 大部分人的出生时间
+        semantic_type: QuizAtom
+        updated_at: 'Wed Sep 07 2016 13:09:47 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |-
+          ## 大部分学员出生在哪段时间？
+
+          - □ 1910 年 - 1970 年
+          - □ 1970 年 - 1980 年
+          - □ 1980 年 - 2000 年
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 14. 大部分人的出生时间
+          background_image: '//lh6.ggpht.com/olavxqLA9x_QeGGSQLfPlOvSRFVF37O6ZHvkBLPEON1An4Q-FwSvdl0vsaW7QLyyv-cJJwn_p-64CwK4l4A=s0#w=1280&h=720'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '62143589'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 176728
+    key: '2527424980923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 15. 数据类型
+    semantic_type: Concept
+    updated_at: 'Mon Aug 22 2016 06:38:38 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174386
+    atoms:
+      - id: 174386
+        key: '252742498'
+        locale: zh-cn
+        version: 1.0.0
+        title: 15. 数据类型
+        semantic_type: QuizAtom
+        updated_at: 'Wed Sep 07 2016 13:10:30 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |-
+          ## X 轴上的数据是什么类型？
+
+          - □ 数值型
+          - □ 类别型
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 15. 数据类型
+          background_image: '//lh5.ggpht.com/Bg1F0SjETTGMhR7e92-o-ak7yZpDJiRdLK_hRAltckvJfVz5y0yIWQGRkT_9184rfVGSfGRUD6B5nETZSgs=s0#w=1280&h=720'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '62143591'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 176729
+    key: '2527424990923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 16. 栏高度
+    semantic_type: Concept
+    updated_at: 'Mon Aug 22 2016 06:38:39 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174387
+    atoms:
+      - id: 174387
+        key: '252742499'
+        locale: zh-cn
+        version: 1.0.0
+        title: 16. 栏高度
+        semantic_type: QuizAtom
+        updated_at: 'Wed Sep 07 2016 13:11:24 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |-
+          ## 图中柱的高度代表相对频率吗？
+
+          - □ 是
+          - □ 不是
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 16. 栏高度
+          background_image: '//lh3.ggpht.com/qMQZEla0uHqtG-moPBIC7g3_DKi31D1CgKFv1Sr5Q1UI3Z40JUZd6QgJj1vilm6HXqV57glsohgak7SPs_Y=s0#w=1280&h=720'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '62143592'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 176730
+    key: '2527425000923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 17. 哪个区域？
+    semantic_type: Concept
+    updated_at: 'Mon Aug 22 2016 06:38:39 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174388
+    atoms:
+      - id: 174388
+        key: '252742500'
+        locale: zh-cn
+        version: 1.0.0
+        title: 17. 哪个区域？
+        semantic_type: QuizAtom
+        updated_at: 'Wed Sep 07 2016 13:13:20 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |-
+          ## 在 2011 年 12 月，Facebook 在哪个地区的市场占有率最高？
+
+          - □ 欧洲
+          - □ 东亚
+          - □ 拉丁美洲
+          - □ 中东/非洲
+          - □ 北美洲
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 17. 哪个区域？
+          background_image: '//lh4.ggpht.com/qQAQvecEygbrFTUir4GmHywlnDC5wVqqmDYIg3nDxFGSq-4C2EJPpgeiPlNwN9ser53wWzPphsWm5-OnJhY=s0#w=1280&h=720'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '62143593'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 176732
+    key: '2527425020923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 19. 如何找到 n
+    semantic_type: Concept
+    updated_at: 'Mon Aug 22 2016 06:38:40 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174389
+    atoms:
+      - id: 174389
+        key: '252742502'
+        locale: zh-cn
+        version: 1.0.0
+        title: 19. 如何找到 n
+        semantic_type: QuizAtom
+        updated_at: 'Wed Sep 07 2016 13:15:02 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |-
+          ## 以下哪个更适合用来计算 n ？
+
+          - □ 频率表
+          - □ 直方图
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 19. 如何找到 n
+          background_image: '//lh5.ggpht.com/yRfvUNFITwzHR7SRqXDLS_7q3xjb5vmoxzYgbfYR0lrdf6LwuLaF6JpfoIEJ4wW6A8aqk17IurqR8GA1Gf0=s0#w=1280&h=720'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '62143595'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 176731
+    key: '2527425030923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 20. 如何分析形状
+    semantic_type: Concept
+    updated_at: 'Mon Aug 22 2016 06:38:40 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174390
+    atoms:
+      - id: 174390
+        key: '252742503'
+        locale: zh-cn
+        version: 1.0.0
+        title: 20. 如何分析形状
+        semantic_type: QuizAtom
+        updated_at: 'Wed Sep 07 2016 13:14:49 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |-
+          ## 以下哪个更适合用来分析分布的形状？
+
+          - □ 频率表
+          - □ 直方图
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 20. 如何分析形状
+          background_image: '//lh6.ggpht.com/sobWu2nXqzIhevOEiooFzHMZXVs4AT2MY37bHg_CCZh8CODJZ6y1i8BIsu-qktBRjmPplQ3z9adWzuKgav8=s0#w=1280&h=720'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '62143596'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 176733
+    key: '2527425090923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 26. 正偏斜
+    semantic_type: Concept
+    updated_at: 'Mon Aug 22 2016 06:38:41 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174391
+    atoms:
+      - id: 174391
+        key: '252742509'
+        locale: zh-cn
+        version: 1.0.0
+        title: 26. 正偏斜
+        semantic_type: QuizAtom
+        updated_at: 'Wed Sep 07 2016 13:16:20 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |-
+          ## 对于正偏斜分布，频率最低的在：
+
+          - □ 分布图的右边
+          - □ 分布图的左边
+          - □ 分布图的中间
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 26. 正偏斜
+          background_image: '//lh4.ggpht.com/d3W6gUVNTEGH6ukR8mrmYgHiHnv3EgQSEvtoYVA2YNEQogYK1YSubCT3WuewPL0YzGuKLca_WreEq_lXkQ=s0#w=1280&h=720'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '62143603'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null

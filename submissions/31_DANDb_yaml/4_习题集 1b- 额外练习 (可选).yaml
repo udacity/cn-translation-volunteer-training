@@ -42,6 +42,14 @@ _concepts_ids:
   - 176670
   - 176672
 _project_id: null
+resources:
+  files:
+    - name: Videos Zip File
+      uri: 'http://d2uz2655q5g6b2.cloudfront.net/4590838740/178209/%E4%B9%A0%E9%A2%98%E9%9B%86%201b%3A%20%E9%A2%9D%E5%A4%96%E7%BB%83%E4%B9%A0%20%28%E5%8F%AF%E9%80%89%29%20Videos.zip'
+  google_plus_link: null
+  career_resource_center_link: null
+  coaching_appointments_link: null
+  office_hours_link: null
 concepts:
   - id: 176645
     key: '2514367180923'

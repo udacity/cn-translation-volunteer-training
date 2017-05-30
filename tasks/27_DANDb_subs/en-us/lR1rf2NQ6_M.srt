@@ -1,23 +1,24 @@
 1
 00:00:00,012 --> 00:00:04,596
 So without even needing to calculate anything, you can see that we chose the
-
+所以即使不做任何计算 你也能知道我们选择了
 2
 00:00:04,608 --> 00:00:09,200
 biggest scores to be in the sample. All the other scores are a lot lower. And
-
+样本里最大的数 所有其它的数都要低很多
 3
 00:00:09,212 --> 00:00:13,930
 so, therefore we automatically know that the average of the sample is going to
-
+因此我们自然而然就能知道样本的平均值
 4
 00:00:13,942 --> 00:00:18,079
 be bigger than the population parameter. So this is just an example where
-
+要比总体参数大 所以这就是一个
 5
 00:00:18,091 --> 00:00:23,362
 sometimes we'll take a sample, and it won't accurately estimate the population
-
+一个有时候我们不能准确估计总体参数的
 6
 00:00:23,374 --> 00:00:24,053
 parameter.
+例子

@@ -1,35 +1,22 @@
 ﻿1
 00:00:00,440 --> 00:00:05,840
-And now, just like all pioneers,
-it's time to embark on your journey.
 就跟所有前辈们一样 现在该开始你们的学习之旅了
-
 2
 00:00:05,839 --> 00:00:08,679
-By its end you will have built AIs,
 当学习结束时 你们也就建造好自己的 AI 了
 3
 00:00:08,679 --> 00:00:13,070
-that are smarter than any human alive,
-and particularly me.
 它可以比任何活着的人 特别是我 都要聪明
 4
 00:00:13,070 --> 00:00:17,850
-You'll be job ready and equipped with
-the skills to make a huge impact
 你将准备充足的工作，并且拥有一种超强的技能
 5
 00:00:17,850 --> 00:00:22,450
-in an industry that is
-radically changing the world.
 这种技能能够对那些从根本上改变世界的产业造成巨大的冲击
 6
 00:00:22,449 --> 00:00:27,900
-Welcome aboard, we can't wait
-to see what you will build.
 欢迎您的加入，我们都等不及想看看你们将建造出什么
 7
 00:00:27,900 --> 00:00:30,798
-[BLANK_AUDIO]
 [无声音]
 

@@ -1,0 +1,413 @@
+id: 295978
+key: 0273757e-bd54-42b2-a099-2d9d8c6fb999
+locale: zh-cn
+version: 1.0.0
+title: 应用深度学习
+semantic_type: Lesson
+updated_at: 'Wed Apr 26 2017 14:53:35 GMT+0000 (UTC)'
+is_public: true
+image:
+  url: 'https://d17h27t6h515a5.cloudfront.net/topher/2017/April/58ed4dc6_09/09.jpg'
+  width: 1000
+  height: 1000
+video: null
+summary: 在这节课，你将开始实践练习，研究几个深度学习示例。如果你不明白具体情形，也没关系！我们只是希望你能尝试一些其他人创建好的模型，并从中得到乐趣。
+duration: 60
+is_project_lesson: false
+_concepts_ids:
+  - 295828
+  - 295829
+  - 295831
+  - 295830
+  - 295833
+_project_id: null
+concepts:
+  - id: 295828
+    key: 696379df-e52e-4296-883a-cdd17d415e4d
+    locale: zh-cn
+    version: 1.0.0
+    title: 简介
+    semantic_type: Concept
+    updated_at: 'Wed Apr 26 2017 14:54:00 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 294189
+      - 294190
+    atoms:
+      - id: 294189
+        key: 77d99d05-f9a6-4138-8d78-9cb324df593c
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: ImageAtom
+        updated_at: 'Wed Apr 26 2017 14:53:55 GMT+0000 (UTC)'
+        is_public: true
+        url: 'https://d17h27t6h515a5.cloudfront.net/topher/2016/December/58472d92_mat-headshot/mat-headshot.png'
+        width: 250
+        height: 250
+        caption: 我是 Mat，又和大家见面了！
+        resources: null
+        instructor_notes: null
+      - id: 294190
+        key: b9393be2-3907-4990-a913-fc45d0e69d73
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Wed Apr 26 2017 14:53:56 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          # 简介
+
+          在这节课，我们将研究几个非常有趣的深度学习应用，这些应用是其他人已经在 Github 上提供的预先训练过的模型。如果你对具体情况不明白，也没关系！我们只是希望你能从几个不同的应用中了解深度学习的强大用处，并研究一下这些模型。你将在课程的后续部分深入了解这些模型。暂时先找些乐趣，并在适用时应用到自己的示例中！
+
+          注意，这节课完全是可选内容，如果你想跳过，完全可以！
+        instructor_notes: ''
+        resources: null
+  - id: 295829
+    key: 7991da18-bbd0-4606-83e5-3bc5ce558e70
+    locale: zh-cn
+    version: 1.0.0
+    title: 风格迁移
+    semantic_type: Concept
+    updated_at: 'Wed Apr 26 2017 14:54:06 GMT+0000 (UTC)'
+    is_public: true
+    resources:
+      files:
+        - name: Rain Princess checkpoint
+          uri: 'https://d17h27t6h515a5.cloudfront.net/topher/2017/January/587d1865_rain-princess/rain-princess.ckpt'
+        - name: La Muse checkpoint
+          uri: 'https://d17h27t6h515a5.cloudfront.net/topher/2017/January/588aa800_la-muse/la-muse.ckpt'
+        - name: Udnie checkpoint
+          uri: 'https://d17h27t6h515a5.cloudfront.net/topher/2017/January/588aa846_udnie/udnie.ckpt'
+        - name: Scream checkpoint
+          uri: 'https://d17h27t6h515a5.cloudfront.net/topher/2017/January/588aa883_scream/scream.ckpt'
+        - name: Wave checkpoint
+          uri: 'https://d17h27t6h515a5.cloudfront.net/topher/2017/January/588aa89d_wave/wave.ckpt'
+        - name: Wreck checkpoint
+          uri: 'https://d17h27t6h515a5.cloudfront.net/topher/2017/January/588aa8b6_wreck/wreck.ckpt'
+      google_plus_link: null
+      career_resource_center_link: null
+      coaching_appointments_link: null
+      office_hours_link: null
+    _atoms_ids:
+      - 294191
+      - 294192
+      - 294193
+      - 294194
+      - 294195
+      - 294196
+    atoms:
+      - id: 294191
+        key: e253bd8f-4815-4c99-aab2-9a29126b0124
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Wed Apr 26 2017 14:54:56 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          # 风格迁移
+
+          为了展示深度学习模型可以实现的各种功能，我们现在来研究一个非常有趣的项目，叫做[快速风格迁移](https://github.com/lengstrom/fast-style-transfer)。通过风格迁移，你可以按照著名的画作重新创建风格一样的图片！神经网络会学习这些画作采用的技巧，并学会如何自己应用这些绘画技巧。此模型根据著名画作的风格进行了训练，能够将这些风格迁移到其他图片上，[甚至视频上](https://www.youtube.com/watch?v=xVJwwWQlQ1o)！
+
+          我用该模型对我的猫咪 Chihiro 的图片进行了风格迁移，采用的是 [Hokusai](https://en.wikipedia.org/wiki/Hokusai) 的 [*The Great Wave Off Kanagawa*](https://en.wikipedia.org/wiki/The_Great_Wave_off_Kanagawa)。
+        instructor_notes: ''
+        resources: null
+      - id: 294192
+        key: 872d63ad-51a9-4f1c-8b22-4c17d96779b4
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: ImageAtom
+        updated_at: 'Fri Apr 14 2017 07:05:07 GMT+0000 (UTC)'
+        is_public: true
+        url: 'https://d17h27t6h515a5.cloudfront.net/topher/2017/January/587d0443_chi-waves/chi-waves.png'
+        width: 464
+        height: 877
+        caption: ''
+        resources: null
+        instructor_notes: null
+      - id: 294193
+        key: 2fe49c4c-ecc3-4a68-b12e-cb6feb09aead
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Wed Apr 26 2017 14:55:21 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          要自己试一下，你可以在 [fast-style-transfer GitHub 资源库](https://github.com/lengstrom/fast-style-transfer) 中找到相关代码。你可以使用 `git` 克隆该资源库，或将整个资源库下载为 Zip 归档文件，并解压。
+
+          该神经网络按照([此处](https://github.com/lengstrom/fast-style-transfer/tree/master/examples/style))的几种不同风格进行了训练，并保存在[检查点文件](https://drive.google.com/drive/folders/0B9jhaT37ydSyRk9UX0wwX3BpMzQ)中。检查点文件包含了关于已训练神经网络的所有信息，可以将风格应用到新的图片上。
+
+          ## 依赖项
+
+          安装运行该代码所需的所有程序包的最简单方式是使用 [Miniconda](http://conda.pydata.org/miniconda.html)，它是更简版本的 [Anaconda](https://www.continuum.io/downloads)。 Miniconda 自带了 Conda，后者是专门用于数据科学的程序包和环境管理器。请安装适合你的操作系统的 Python 3 版本的 Miniconda。
+
+          如果你之前没有使用过 Conda，请快速阅读[我们的教程](https://classroom.udacity.com/nanodegrees/nd101/parts/2a9dba0b-28eb-4b0e-acfa-bdcf35680d90/modules/329a736b-1700-43d4-9bf0-753cc461bebc/lessons/9e9ed61d-20c3-4431-95aa-a1099f28d601/concepts/4cdc5a26-1e54-4a69-8eb4-f15e37aaab7b)。
+
+          ### Windows
+
+          对于 Windows，你需要安装 TensorFlow 0.12.1、Python 3.5、Pillow 3.4.2、scipy 0.18.1 和 numpy 1.11.2。安装 Miniconda 后，打开你的命令提示符窗口。然后逐行输入以下命令：
+
+          ```bash
+          conda create -n style-transfer python=3.5
+          activate style-transfer
+          pip install tensorflow
+          conda install scipy pillow
+          ```
+
+          第一行创建一个新的环境，其中存储了格式迁移代码所需的程序包。第二行 (`activate style-transfer`) 会进入该环境，你应该会在提示符窗口的开头看到环境名称。接下来的两行负责安装 TensorFlow、Scipy 和 Pillow（一种图像处理库）。
+
+          ### OS X 和 Linux 
+
+          对于 OS X 和 Linux，你需要安装 TensorFlow 0.11.0、Python 2.7.9、Pillow 3.4.2、scipy 0.18.1 和 numpy 1.11.2.  
+
+          在终端里，逐行输入以下命令：
+
+          ```bash
+          conda create -n style-transfer python=2.7.9
+          source activate style-transfer
+          pip install tensorflow
+          conda install scipy pillow
+          ```
+
+          第一行创建一个新的环境，其中存储了格式迁移代码所需的程序包。第二行 (`source activate style-transfer`) 进入该环境，你应该会在提示符窗口的开头看到环境名称。接下来的两行负责安装 TensorFlow、Scipy 和 Pillow（一种图像处理库）。
+        instructor_notes: ''
+        resources: null
+      - id: 294194
+        key: 446465df-8468-48f8-b177-5a61eaf77465
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Wed Apr 26 2017 14:55:37 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          ## 迁移风格
+
+          1. 从[fast-style-transfer](https://github.com/lengstrom/fast-style-transfer)资源库中下载 Zip 归档文件并解压。你可以通过点击右侧的亮绿色按钮进行下载。
+          2. 从[此处](https://d17h27t6h515a5.cloudfront.net/topher/2017/January/587d1865_rain-princess/rain-princess.ckpt)下载 Rain Princess 检查点，将其放在 fast-style-transfer 文件夹中。检查点文件是已经调谐参数的模型。使用此检查点文件后我们不需要再训练该模型，可以直接使用。
+          3. 将你要调整格式的图片放到 fast-style-transfer 文件夹。
+          4. 进入你之前创建的 Conda 环境（如果不在里面的话）。
+          5. 在终端里，转到 fast-style-transfer 文件夹并输入
+          ```bash
+          python evaluate.py --checkpoint ./rain-princess.ckpt --in-path <path_to_input_file> --out-path ./output_image.jpg
+          ```
+
+          > **注意：**你的检查点文件可能名称为 `rain_princess.ckpt`，注意是下划线，而不是上面的连字符。
+
+          你可以在此页面的底部获得更多检查点文件，都试试吧！
+
+          请在[论坛](https://discussions.udacity.com)中或 [Slack](https://nd101.slack.com) 渠道 #l-applying-dl 上分享你创建的内容。我们非常希望能够看到你的成果。此外，你也可以去训练你自己的图片上的网络，你可以在资源库中找到说明（但是需要足够的硬件支持）。
+
+          > **注意：**要留意输入图片的大小，风格迁移在运行大型文件时，会花费很长的时间。
+        instructor_notes: ''
+        resources: null
+      - id: 294195
+        key: 58431738-f89a-4d96-8fd4-d279255a21af
+        locale: zh-cn
+        version: 1.0.0
+        title: 风格迁移清单
+        semantic_type: TaskListAtom
+        updated_at: 'Wed Apr 26 2017 14:56:55 GMT+0000 (UTC)'
+        is_public: true
+        tasks:
+          - 对你的照片或对你自己有意义的图片进行风格迁移。
+          - '在优达学城[论坛](https://discussions.youdaxue.com)上或 [Slack 小组](https://nd101.slack.com)渠道 #l-applying-dl 上分享你的图片。'
+        positive_feedback: 恭喜！你能够使用深度学习进行风格迁移了！
+        video_feedback: null
+        description: ''
+      - id: 294196
+        key: 77fb8970-50c3-49db-a450-a9f6746f8cba
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Wed Apr 26 2017 14:56:55 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          检查点按照以下画作进行了训练：
+
+          * Rain Princesss，作者：[Leonid Afremov](https://afremov.com/Leonid-Afremov-bio.html)
+          * La Muse，作者：[Pablo Picasso](https://en.wikipedia.org/wiki/Pablo_Picasso)
+          * Udnie，作者：[Francis Picabia](https://en.wikipedia.org/wiki/Francis_Picabia)
+          * Scream，作者：[Edvard Munch](https://en.wikipedia.org/wiki/Edvard_Munch)
+          * The Great Wave off Kanagawa，作者：[Hokusai](https://en.wikipedia.org/wiki/Hokusai)
+          * The Shipwreck of the Minotaur，作者：[J.M.W. Turner](https://en.wikipedia.org/wiki/J._M._W._Turner)
+        instructor_notes: ''
+        resources: null
+  - id: 295831
+    key: 7e3a8e79-acc0-4f77-8eb2-81513d3d1b0d
+    locale: zh-cn
+    version: 1.0.0
+    title: DeepTraffic
+    semantic_type: Concept
+    updated_at: 'Fri Apr 14 2017 07:05:12 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 294197
+      - 294198
+    atoms:
+      - id: 294197
+        key: a9092750-757a-4947-819c-41b1e8ea04d1
+        locale: zh-cn
+        version: 1.0.0
+        title: Traffic Navigation 3
+        semantic_type: VideoAtom
+        updated_at: 'Wed Apr 19 2017 21:35:08 GMT+0000 (UTC)'
+        is_public: true
+        tags: []
+        instructor_notes: ''
+        resources: null
+        video:
+          youtube_id: az5ElmV4DhY
+          subtitles: null
+          transcodings:
+            uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58936212_traffic-navigation-3/traffic-navigation-3_480p.mp4'
+            uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58936212_traffic-navigation-3/traffic-navigation-3_480p_1000kbps.mp4'
+            uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58936212_traffic-navigation-3/traffic-navigation-3_480p.ogg'
+            uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58936212_traffic-navigation-3/traffic-navigation-3_720p.mp4'
+            uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58936212_traffic-navigation-3/hls/playlist.m3u8'
+      - id: 294198
+        key: 4fbe69d6-16ea-44a5-811e-054863e13a3e
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Wed Apr 26 2017 14:57:10 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          ## DeepTraffic
+
+          你可以在[此处](http://selfdrivingcars.mit.edu/deeptrafficjs/)找到 DeepTraffic 模拟器。该神经网络尝试学习一种驾驶策略，使汽车能够通过[强化学习](https://en.wikipedia.org/wiki/Reinforcement_learning)以尽量最快的速度驾驶。当汽车选择的操作使汽车能快速移动时，该神经网络会受到奖励。正是这种反馈使得该网络能够找到实现最佳速度的操作策略。
+
+          要详细了解如何设置参数和训练该网络，请阅读[此处的概述](http://selfdrivingcars.mit.edu/deeptraffic/)。
+
+          请在 Slack #deeptraffic 频道上与其他学员讨论你的网络构建方法和结果。
+        instructor_notes: ''
+        resources: null
+  - id: 295830
+    key: 88972d8b-e8a9-4789-ae79-6077db50dad9
+    locale: zh-cn
+    version: 1.0.0
+    title: Flappy Bird
+    semantic_type: Concept
+    updated_at: 'Fri Apr 14 2017 07:05:12 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 294199
+      - 294200
+      - 294201
+    atoms:
+      - id: 294199
+        key: 48a62f68-4b20-43af-ac08-463d107cff31
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Wed Apr 26 2017 14:57:33 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          ### Flappy Bird
+
+          在此示例中，你将看到一个深度学习代理在玩 Flappy Bird！你可以自己训练该代理，但是现在我们先开始使用作者提供的预先训练好的网络。注意，下面的代理能够直接玩游戏，不用告诉它关于游戏结构或规则的任何信息。它会通过查看每次循环时的操作流程，自动发现游戏规则。
+
+          我们将使用[此 GitHub 代码库](https://github.com/yenchenlin/DeepLearningFlappyBird)（作者：Yenchen Lin）
+        instructor_notes: ''
+        resources: null
+      - id: 294200
+        key: 09e36dde-02ab-4a25-bd2d-f7d2f0334ab7
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: ImageAtom
+        updated_at: 'Fri Apr 14 2017 07:05:08 GMT+0000 (UTC)'
+        is_public: true
+        url: 'https://d17h27t6h515a5.cloudfront.net/topher/2017/January/588acc5c_flappy-bird/flappy-bird.jpg'
+        width: 810
+        height: 456
+        caption: ''
+        resources: null
+        instructor_notes: null
+      - id: 294201
+        key: f76787f6-a04e-4bda-8ac8-0141da018c6f
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Wed Apr 26 2017 14:57:50 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          ### 说明
+
+          1. 安装 miniconda 或 anaconda（如果尚未安装的话）。你可以按照[我们的教程](https://classroom.udacity.com/nanodegrees/nd101/parts/2a9dba0b-28eb-4b0e-acfa-bdcf35680d90/modules/329a736b-1700-43d4-9bf0-753cc461bebc/lessons/9e9ed61d-20c3-4431-95aa-a1099f28d601/concepts/4cdc5a26-1e54-4a69-8eb4-f15e37aaab7b)操作。
+          2. 为 flappybird 创建一个环境
+              * Mac/Linux：`conda create --name=flappybird python=2.7`
+              * Windows：`conda create --name=flappybird python=3.5`
+          3. 进入你的 conda 环境
+              * Mac/Linux：`source activate flappybird`
+              * Windows：`activate flappybird`
+          4. `conda install -c menpo opencv3`
+          5. `pip install pygame`
+          6. `pip install tensorflow`
+          7. `git clone https://github.com/yenchenlin/DeepLearningFlappyBird.git`
+          8. `cd DeepLearningFlappyBird`
+          9. `python deep_q_network.py`
+
+          如果一切正常，你应该会看到一个基于深度学习的代理在玩 Flappy Bird！资源库中包含了训练你自己的代理的说明，如果你感兴趣的话！
+        instructor_notes: ''
+        resources: null
+  - id: 295833
+    key: eb539882-9057-4c4f-ad33-5eb23837474f
+    locale: zh-cn
+    version: 1.0.0
+    title: 课外图书
+    semantic_type: Concept
+    updated_at: 'Wed Apr 26 2017 14:58:00 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 294206
+      - 294203
+    atoms:
+      - id: 294206
+        key: 0ed5414f-17b9-4118-a74b-4fc8b4cc15b9
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: ImageAtom
+        updated_at: 'Fri Apr 14 2017 07:05:08 GMT+0000 (UTC)'
+        is_public: true
+        url: 'https://d17h27t6h515a5.cloudfront.net/topher/2017/January/588aca59_grokking-deep-learning/grokking-deep-learning.jpg'
+        width: 399
+        height: 499
+        caption: ''
+        resources: null
+        instructor_notes: null
+      - id: 294203
+        key: 79893164-9704-4714-80b2-d27e91865db4
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Wed Apr 26 2017 14:58:12 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          # 课外图书
+
+          我们认为最佳学习方法是了解不同人对同一概念提出的不同见解。因此，我们建议你阅读以下几本图书，进一步了解深度学习。
+
+          * [Grokking Deep Learning](https://www.manning.com/books/grokking-deep-learning)，作者：Andrew Trask。使用我们的专属折扣码 **traskud17** 可以享受六折优惠。这本书对深度学习进行了基本介绍，更加直观，而不是只介绍抽象理论。
+
+
+          * [Neural Networks And Deep Learning](http://neuralnetworksanddeeplearning.com/)，作者：Michael Nielsen。这本书比《Grokking Deep Learning》更严密，包含大量的互动性有趣图表。
+
+
+          * [The Deep Learning Textbook](http://www.deeplearningbook.org/)，作者：Ian Goodfellow、Yoshua Bengio 和 Aaron Courville。这本在线图书包含了大量的资料，是三本书中最严密的一本。
+        instructor_notes: ''
+        resources: null

@@ -1,0 +1,587 @@
+id: 296445
+key: 9e9ed61d-20c3-4431-95aa-a1099f28d601
+locale: zh-cn
+version: 1.0.0
+title: Anaconda
+semantic_type: Lesson
+updated_at: 'Tue Apr 18 2017 08:20:10 GMT+0000 (UTC)'
+is_public: true
+image:
+  url: 'https://d17h27t6h515a5.cloudfront.net/topher/2017/April/58ed4c66_02-anaconda/02-anaconda.jpg'
+  width: 1000
+  height: 1000
+video: null
+summary: Anaconda 是一个专门用于处理数据的程序包和环境管理器。在这节课中，你将学习如何使用 Anaconda 改善你的数据分析流程。
+duration: 60
+is_project_lesson: false
+_concepts_ids:
+  - 220131
+  - 220132
+  - 220133
+  - 220134
+  - 220138
+  - 220136
+  - 220135
+  - 295827
+_project_id: null
+concepts:
+  - id: 220131
+    key: 4cdc5a26-1e54-4a69-8eb4-f15e37aaab7b
+    locale: zh-cn
+    version: 1.0.0
+    title: 欢迎！
+    semantic_type: Concept
+    updated_at: 'Fri Apr 07 2017 09:46:37 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 220061
+      - 220062
+    atoms:
+      - id: 220061
+        key: f632a636-e47d-4291-8959-304aea2501a9
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: ImageAtom
+        updated_at: 'Fri Apr 07 2017 09:46:36 GMT+0000 (UTC)'
+        is_public: true
+        url: 'https://d17h27t6h515a5.cloudfront.net/topher/2016/December/58472d92_mat-headshot/mat-headshot.png'
+        width: 300
+        height: 300
+        caption: 大家好！
+        resources: null
+        instructor_notes: null
+      - id: 220062
+        key: a1336951-3f0b-4d41-99f9-240f83774d9a
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Fri Apr 07 2017 09:46:36 GMT+0000 (UTC)'
+        is_public: true
+        text: "欢迎来到本课程！我叫 Mat Leonard，是数据分析师纳米学位的项目主管，也是这个简短课程的讲师。我会在课程中介绍两个对于数据分析师最为重要的工具，即 Anaconda 和 Jupyter notebook。\n\n[Anaconda](https://anaconda.org/) 是一个包含数据科学常用包的发行版本。它\b基于 conda ——一个包和环境管理器——衍生而来。你将使用 conda 创建环境，以便分隔使用不同 Python 版本和/或不同包的项目。你还将使用它在环境中安装、卸载和更新包。通过使用 Anaconda，使我处理数据的过程更加愉快。\n\n[Jupyter notebook](http://jupyter.org/) 是 Web 文档，能让你将文本、图像和代码全部组合到一个文档中。它已经成为数据分析的标准环境。notebook 源自 2011 年的 IPython 项目，之后迅速流行起来。在本课程的第二节课中，你将获得使用 notebook 进行分析工作的经验。\n\n让我们继续课程！首先学习 Anaconda。"
+        instructor_notes: ''
+        resources: null
+  - id: 220132
+    key: 02b53153-d18d-46dd-86c0-b19632bfeda1
+    locale: zh-cn
+    version: 1.0.0
+    title: Anaconda 是什么？
+    semantic_type: Concept
+    updated_at: 'Fri Apr 07 2017 09:46:40 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 220063
+      - 220064
+      - 220065
+      - 220066
+      - 220067
+    atoms:
+      - id: 220063
+        key: 1cdcf052-ca58-4b42-a3c3-e9756357b5b5
+        locale: zh-cn
+        version: 1.0.0
+        title: 序言
+        semantic_type: TextAtom
+        updated_at: 'Fri Apr 07 2017 09:46:37 GMT+0000 (UTC)'
+        is_public: true
+        text: |+
+          # Anaconda
+
+          欢迎学习本课，即如何使用 [Anaconda](https://www.continuum.io/why-anaconda) 来管理 Python 所用的包和环境。Anaconda 能让你轻松安装在数据科学工作中经常使用的包。你还将使用它创建虚拟环境，以便更轻松地处理多个项目。Anaconda 简化了我的工作流程，并且解决了我在处理包和多个 Python 版本时遇到的大量问题。
+
+          Anaconda 实际上是一个软件发行版，它附带了 `conda`、Python 和 150 多个科学包及其依赖项。应用程序 `conda` 是包和环境管理器。Anaconda 的下载文件比较大（约 500 MB），因为它附带了 Python 中最常用的数据科学包。如果只需要某些包，或者需要节省带宽或存储空间，也可以使用 **Miniconda** 这个较小的发行版（仅包含 `conda` 和 Python）。你仍可以使用 `conda` 来安装任何可用的包，它只是没有附带这些包而已。
+
+          `conda` 是一种只能通过命令行来使用的程序，因此，如果你觉得它很难用，请查看这个[面向 Windows 的命令提示符教程](https://www.lynda.com/-tutorials/Windows-command-line-basics/497312/513424-4.html)，或者学习我们面向 OSX/Linux 的 [Linux 命令行基础知识](https://www.udacity.com/course/linux-command-line-basics--ud595)课程。
+
+          你可能已经安装了 Python，并且想知道为何还需要 Anaconda。首先，由于 Anaconda 附带了一大批数据科学包，因此你可以立即开始处理数据。其次，使用 `conda` 来管理包和环境能减少将来在处理你要使用的各种库时遇到的问题。
+
+          ## 管理包
+
+
+
+
+        instructor_notes: ''
+        resources: null
+      - id: 220064
+        key: 0297fa6e-5bd3-48c9-b06b-1ef3046d4de7
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: ImageAtom
+        updated_at: 'Fri Apr 07 2017 09:46:38 GMT+0000 (UTC)'
+        is_public: true
+        url: 'https://d17h27t6h515a5.cloudfront.net/topher/2016/October/58114536_conda-install/conda-install.png'
+        width: 697
+        height: 548
+        caption: 使用 conda 安装 numpy
+        resources: null
+        instructor_notes: null
+      - id: 220065
+        key: dde92b9f-c267-45de-bdf6-9c5f47cc808a
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Fri Apr 07 2017 09:46:38 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          包管理器用于在计算机上安装库和其他软件。你可能已经熟悉 pip，它是 Python 库的默认包管理器。conda 与 pip 相似，不同之处是可用的包以数据科学包为主，而 pip 适合一般用途。但是，conda *并非* 像 pip 那样专门适用于 Python，它也可以安装非 Python 的包。它是适用于 *任何* 软件堆栈的包管理器。也就是说，并非所有的 Python 库都能通过 Anaconda 发行版和 conda 获得。在使用 conda 的同时，你仍可以并且仍将使用 pip 来安装包。
+
+          Conda 安装了预编译的包。例如，Anaconda 发行版附带了使用 [MKL 库](https://docs.continuum.io/mkl-optimizations/)编译的 Numpy、Scipy 和 Scikit-learn，从而加快了各种数学运算的速度。这些包由发行版的贡献者维护，这意味着它们通常滞后于新版本。但是，由于有人需要为许多系统构建这些包，因此，它们往往更为稳定，而且更便于你使用。
+
+          ## 环境
+        instructor_notes: ''
+        resources: null
+      - id: 220066
+        key: d24c14d1-62bc-42da-8d40-9eca1b8401c8
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: ImageAtom
+        updated_at: 'Fri Apr 07 2017 09:46:39 GMT+0000 (UTC)'
+        is_public: true
+        url: 'https://d17h27t6h515a5.cloudfront.net/topher/2016/October/58114552_conda-create-env/conda-create-env.png'
+        width: 697
+        height: 548
+        caption: 使用 conda 创建环境
+        resources: null
+        instructor_notes: null
+      - id: 220067
+        key: 60a51f93-51d1-4b96-ad14-370deb1e6a9a
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Fri Apr 07 2017 09:46:39 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          除了管理包之外，conda 还是虚拟环境管理器。它类似于另外两个很流行的环境管理器，即 [virtualenv](https://virtualenv.pypa.io/en/stable/) 和 [pyenv](https://github.com/yyuu/pyenv)。
+
+          环境能让你分隔你要用于不同项目的包。你常常要使用依赖于某个库的不同版本的代码。例如，你的代码可能使用了 Numpy 中的新功能，或者使用了已删除的旧功能。实际上，不可能同时安装两个 Numpy 版本。你要做的应该是，为每个 Numpy 版本创建一个环境，然后在适用于项目的环境中工作。
+
+          在应对 Python 2 和 Python 3 时，此问题也会常常发生。你可能会使用在 Python 3 中不能运行的旧代码，以及在 Python 2 中不能运行的新代码。同时安装两个版本可能会造成许多混乱和错误。而创建独立的环境会好很多。
+
+          也可以将环境中的包的列表导出为文件，然后将该文件与代码包括在一起。这能让其他人轻松加载代码的所有依赖项。pip 提供了类似的功能，即 `pip freeze > requirements.txt`。
+
+          ## 接下来介绍的内容
+          接下来，我会详细介绍 Anaconda 的用法。首先，我会介绍它的安装过程，然后介绍如何使用包管理器，最后介绍如何创建和管理环境。
+        instructor_notes: ''
+        resources: null
+  - id: 220133
+    key: d45d6e48-ff3a-4192-b377-f0264723f92e
+    locale: zh-cn
+    version: 1.0.0
+    title: 安装 Anaconda
+    semantic_type: Concept
+    updated_at: 'Fri Apr 07 2017 09:46:40 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 220068
+    atoms:
+      - id: 220068
+        key: fad5f371-759d-47e0-9589-53d92bada5b9
+        locale: zh-cn
+        version: 1.0.0
+        title: 安装说明
+        semantic_type: TextAtom
+        updated_at: 'Wed May 17 2017 09:22:33 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          # 安装 Anaconda
+
+          Anaconda 可用于 Windows、Mac OS X 和 Linux。可以在 [https://www.continuum.io/downloads](https://www.continuum.io/downloads) 上找到安装程序和安装说明。
+
+          如果计算机上已经安装了 Python，这不会有任何影响。实际上，脚本和程序使用的默认 Python 是 Anaconda 附带的 Python。
+
+          选择 Python 3.6 版本（你可以在以后安装 Python 2 版本。不过，如果你是机器学习、数据分析纳米学位的学员，请选择 2 版本）。此外，如果是 64 位操作系统，则选择 64 位安装程序，否则选择 32 位安装程序。继续并选择合适的版本，然后安装它。之后，继续进行！
+
+          完成安装后，会自动进入默认的 conda 环境，而且所有包均已安装完毕，如下面所示。可以在终端或命令提示符中键入 `conda list`，以查看你安装的内容。
+
+          <video loop autoplay>
+            <source src="https://s3.amazonaws.com/content.udacity-data.com/courses/ud1111/conda_default_install.mp4" type="video/mp4">
+          </video>
+
+
+          在 Windows 上，会随 Anaconda 一起安装一批应用程序：
+
+          * Anaconda Navigator，它是用于管理环境和包的 GUI
+          * Anaconda Prompt 终端，它可让你使用命令行界面来管理环境和包
+          * Spyder，它是面向科学开发的 IDE
+
+          为了避免报错，我推荐在默认环境下更新所有的包。打开 Anaconda Prompt （或者 Mac 下的终端），键入：
+
+          ```
+          conda upgrade --all
+          ```
+
+          并在提示是否更新的时候输入 y（Yes）以便让更新继续。初次安装下的软件包版本一般都比较老旧，因此提前更新可以避免未来不必要的问题。
+
+          在本课的余下部分，我会要求你在终端中使用命令。我强烈建议你以这种方式开始使用 Anaconda，之后再根据需要使用 GUI。
+        instructor_notes: ''
+        resources: null
+  - id: 220134
+    key: 9310a67f-9b23-449e-8949-4312dc718ef9
+    locale: zh-cn
+    version: 1.0.0
+    title: 管理包
+    semantic_type: Concept
+    updated_at: 'Fri Apr 07 2017 09:46:43 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 220069
+      - 220070
+      - 220071
+      - 220072
+    atoms:
+      - id: 220069
+        key: 578e3020-cf75-4a0d-9037-9a89103bfefb
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Fri Apr 07 2017 09:46:41 GMT+0000 (UTC)'
+        is_public: true
+        text: |
+          # 管理包
+
+          安装了 Anaconda 之后，管理包是相当简单的。要安装包，请在终端中键入 `conda install package_name`。例如，要安装 numpy，请键入 `conda install numpy`。
+
+          <video controls loop autoplay>
+            <source src="https://s3.amazonaws.com/content.udacity-data.com/courses/ud1111/conda_install.mp4" type="video/mp4">
+          </video>
+
+          你还可以同时安装多个包。类似 `conda install numpy scipy pandas` 的命令会同时安装所有这些包。还可以通过添加版本号（例如 `conda install numpy=1.10`）来指定所需的包版本。
+
+          Conda 还会自动为你安装依赖项。例如，`scipy` 依赖于 `numpy`，因为它使用并需要 `numpy`。如果你只安装 `scipy` (`conda install scipy`)，则 conda 还会安装 `numpy`（如果尚未安装的话）。
+
+          大多数命令都是很直观的。要卸载包，请使用 `conda remove package_name`。要更新包，请使用 `conda update package_name`。如果想更新环境中的所有包（这样做常常很有用），请使用 `conda update --all`。最后，要列出已安装的包，请使用前面提过的 `conda list`。
+
+          如果不知道要找的包的确切名称，可以尝试使用 `conda search search_term` 进行搜索。例如，我知道我想安装 [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/)，但我不清楚确切的包名称。因此，我尝试执行 `conda search beautifulsoup`。
+        instructor_notes: ''
+        resources: null
+      - id: 220070
+        key: 517020cd-7c27-4734-b1ad-134bb4b0439c
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: ImageAtom
+        updated_at: 'Fri Apr 07 2017 09:46:41 GMT+0000 (UTC)'
+        is_public: true
+        url: 'https://d17h27t6h515a5.cloudfront.net/topher/2016/October/5811597b_conda-search-beautifulsoup/conda-search-beautifulsoup.png'
+        width: 697
+        height: 548
+        caption: 搜索 beautifulsoup
+        resources: null
+        instructor_notes: null
+      - id: 220071
+        key: 0590196a-afb7-49b4-b327-cac9aeafe0b9
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Fri Apr 07 2017 09:46:42 GMT+0000 (UTC)'
+        is_public: true
+        text: 它返回可用的 Beautiful Soup 包的列表，并列出了相应的包名称 `beautifulsoup4`。
+        instructor_notes: ''
+        resources: null
+      - id: 220072
+        key: 4790ec2e-b281-4bc9-b577-da5678a07e50
+        locale: zh-cn
+        version: 1.0.0
+        title: ''
+        semantic_type: CheckboxQuizAtom
+        updated_at: 'Fri Apr 07 2017 09:46:43 GMT+0000 (UTC)'
+        is_public: true
+        question:
+          prompt: 你将使用以下哪个命令通过 conda 来安装包 `numpy` 和 `pandas`？（正确答案可能不止一个）
+          correct_feedback: 做得好！
+          video_feedback: null
+          default_feedback: 你还需要安装 `pandas`。
+          answers:
+            - id: a1480541673069
+              text: '`conda install numpy`'
+              is_correct: false
+              incorrect_feedback: 单独安装 `numpy` 并不会安装 `pandas`。
+            - id: a1480541700965
+              text: '`conda install pandas`'
+              is_correct: true
+              incorrect_feedback: 单独安装 `pandas` 还会安装 `numpy`，因为 `numpy` 是 `pandas` 的依赖项。对于你要安装的包，conda 确保还会安装必需的任何包。
+            - id: a1480541709026
+              text: '`conda install numpy pandas`'
+              is_correct: true
+              incorrect_feedback: 通常，使用一条命令同时安装 `numpy` 和 `pandas` 会让你觉得清楚明了。
+  - id: 220138
+    key: 14783a82-d656-436b-bc3f-12f7abe03529
+    locale: zh-cn
+    version: 1.0.0
+    title: 管理环境
+    semantic_type: Concept
+    updated_at: 'Fri Apr 07 2017 09:46:45 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 220082
+      - 220083
+      - 220084
+      - 220085
+    atoms:
+      - id: 220082
+        key: 30eae4d4-6020-42ae-adb8-f3b6d9a30e2e
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Fri Apr 07 2017 09:46:44 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          # 管理环境
+
+          如前所述，可以使用 conda 创建环境以隔离项目。要创建环境，请在终端中使用 `conda create -n env_name list of packages`。在这里，`-n env_name` 设置环境的名称（`-n` 是指名称），而 `list of packages` 是要安装在环境中的包的列表。例如，要创建名为 `my_env` 的环境并在其中安装 numpy，请键入 `conda create -n my_env numpy`。
+        instructor_notes: ''
+        resources: null
+      - id: 220083
+        key: 79e661e6-eb59-45da-be67-77a217cd7da1
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: ImageAtom
+        updated_at: 'Fri Apr 07 2017 09:46:44 GMT+0000 (UTC)'
+        is_public: true
+        url: 'https://d17h27t6h515a5.cloudfront.net/topher/2016/October/58114552_conda-create-env/conda-create-env.png'
+        width: 697
+        height: 548
+        caption: ''
+        resources: null
+        instructor_notes: null
+      - id: 220084
+        key: 125c2e3a-6249-4059-8abb-c53065a205bb
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Fri Apr 07 2017 09:46:44 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          创建环境时，可以指定要安装在环境中的 Python 版本。这在你同时使用 Python 2.x 和 Python 3.x 中的代码时很有用。要创建具有特定 Python 版本的环境，请键入类似于 `conda create -n py3 python=3` 或 `conda create -n py2 python=2` 的命令。实际上，我在我的个人计算机上创建了这两个环境。我将它们用作与任何特定项目均无关的通用环境，以处理普通的工作（可轻松使用每个 Python 版本）。这些命令将分别安装 Python 3 和 2 的最新版本。要安装特定版本（例如 Python 3.3），请使用 `conda create -n py python=3.3`。
+
+          ## 进入环境
+
+          创建了环境后，在 OSX/Linux 上使用 `source activate my_env` 进入环境。在 Windows 上，请使用 `activate my_env`。
+
+          <video controls loop autoplay>
+          <source src="https://s3.amazonaws.com/content.udacity-data.com/courses/ud1111/conda_enter.mp4" type="video/mp4">
+          </video>
+
+          进入环境后，你会在终端提示符中看到环境名称，它类似于 `(my_env) ~ $`。环境中只安装了几个默认的包，以及你在创建它时安装的包。可以使用 `conda list` 检查这一点。在环境中安装包的命令与前面一样：`conda install package_name`。不过，这次你安装的特定包仅在你进入环境后才可用。要离开环境，请键入 `source deactivate`（在 OSX/Linux 上）。在 Windows 上，请使用 `deactivate`。
+        instructor_notes: ''
+        resources: null
+      - id: 220085
+        key: afec9eb2-40a8-466d-97f5-3c20ed89919c
+        locale: zh-cn
+        version: 1.0.0
+        title: “创建环境”测试题
+        semantic_type: RadioQuizAtom
+        updated_at: 'Fri Apr 07 2017 09:46:45 GMT+0000 (UTC)'
+        is_public: true
+        question:
+          prompt: 你将使用哪个命令来创建名为 `data` 且安装了 Python 3.5、numpy 和 pandas 的环境？
+          correct_feedback: 没错，这将创建相应的环境。
+          video_feedback: null
+          default_feedback: null
+          answers:
+            - id: a1477602911049
+              text: conda env create -n data python=3.5 numpy pandas
+              is_correct: false
+              incorrect_feedback: 这里无需 `conda env`，只需 `conda create`
+            - id: a1477603599067
+              text: conda create data python=3.5 numpy pandas
+              is_correct: false
+              incorrect_feedback: 请勿忘记使用 `-n` 标志来设置名称
+            - id: a1477603600155
+              text: conda create -n data python=3.5
+              is_correct: false
+              incorrect_feedback: 请勿忘记安装包。不过，此命令可以创建环境，而且你可以在以后安装 numpy 和 pandas。
+            - id: a1477603618435
+              text: conda create -n data python=3.5 numpy pandas
+              is_correct: true
+              incorrect_feedback: null
+  - id: 220136
+    key: f1806e9a-8728-4e31-a3d4-254255755a86
+    locale: zh-cn
+    version: 1.0.0
+    title: 更多环境操作
+    semantic_type: Concept
+    updated_at: 'Fri Apr 07 2017 09:46:47 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 220073
+      - 220074
+      - 220075
+    atoms:
+      - id: 220073
+        key: 251e5d35-2a97-45d4-acf9-acc1e893d196
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Fri Apr 07 2017 09:46:46 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          ## 保存和加载环境
+
+          共享环境这项功能确实很有用，它能让其他人安装你的代码中使用的所有包，并确保这些包的版本正确。可以使用 `conda env export > environment.yaml` 将包保存为 [YAML](http://www.yaml.org/)。第一部分 `conda env export` 输出环境中的所有包的名称（包括 Python 版本）。
+        instructor_notes: ''
+        resources: null
+      - id: 220074
+        key: dc56d0e3-27d7-4ab5-b403-b35546119556
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: ImageAtom
+        updated_at: 'Fri Apr 07 2017 09:46:46 GMT+0000 (UTC)'
+        is_public: true
+        url: 'https://d17h27t6h515a5.cloudfront.net/topher/2016/October/5811639e_conda-env-export/conda-env-export.png'
+        width: 767
+        height: 548
+        caption: 将导出的环境输出到终端中
+        resources: null
+        instructor_notes: null
+      - id: 220075
+        key: 295cd449-e2a2-4c0c-b7c0-e2aee0e5b8fc
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Fri Apr 07 2017 09:46:47 GMT+0000 (UTC)'
+        is_public: true
+        text: |
+          上图可以看到列出了环境的名称和所有依赖项及其版本。导出命令的第二部分 `> environment.yaml` 将导出的文本写入到 YAML 文件 `environment.yaml` 中。现在可以共享此文件，而且其他人能够创建和你用于项目相同的环境。
+
+          要通过环境文件创建环境，请使用 `conda env create -f environment.yaml`。这会创建一个新环境，而且它具有在 `environment.yaml` 中列出的同样的库。
+
+          ## 列出环境
+
+          如果忘记了环境的名称（我有时会这样），可以使用 `conda env list` 列出你创建的所有环境。你会看到环境的列表，而且你当前所在环境的旁边会有一个星号。默认的环境（即当你不在环境中时使用的环境）名为 `root`。
+
+          ## 删除环境
+
+          如果你不再使用某些环境，可以使用 `conda env remove -n env_name` 删除指定的环境（在这里名为 `env_name`）。
+        instructor_notes: ''
+        resources: null
+  - id: 220135
+    key: d3a31501-0991-4235-a68b-73721e7b64e7
+    locale: zh-cn
+    version: 1.0.0
+    title: 最佳做法
+    semantic_type: Concept
+    updated_at: 'Fri Apr 07 2017 09:46:48 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 220076
+    atoms:
+      - id: 220076
+        key: 19e377f6-7780-44c8-877e-21b8d6fc3052
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Fri Apr 07 2017 09:46:48 GMT+0000 (UTC)'
+        is_public: true
+        text: |
+          # 最佳做法
+
+          ## 使用环境
+          对我帮助很大的一点是，我的 Python 2 和 Python 3 具有独立的环境。我使用了 `conda create -n py2 python=2` 和 `conda create -n py3 python=3` 创建两个独立的环境，即 `py2` 和 `py3`。现在，我的每个 Python 版本都有一个通用环境。在所有这些环境中，我都安装了大多数标准的数据科学包（numpy、scipy、pandas 等）。
+
+          我还发现，为我从事的每个项目创建环境很有用。这对于与数据不相关的项目（例如使用 Flask 开发的 Web 应用）也很有用。例如，我为我的个人博客（使用 [Pelican](http://docs.getpelican.com/en/stable/)）创建了一个环境。
+
+          ## 共享环境
+
+          在 GitHub 上共享代码时，最好同样创建环境文件并将其包括在代码库中。这能让其他人更轻松地安装你的代码的所有依赖项。对于不使用 conda 的人，我通常还会使用 `pip freeze`（[在此处了解详情](https://pip.pypa.io/en/stable/reference/pip_freeze/)）将一个 pip `requirements.txt` 文件包括在内。
+
+          ## 了解更多信息
+
+          要详细了解 conda 和它如何融入到 Python 生态系统中，请查看这篇由 Jake Vanderplas 撰写的文章：[Conda myths and misconceptions](https://jakevdp.github.io/blog/2016/08/25/conda-myths-and-misconceptions/)（有关 conda 的迷思和误解）。此外，有空也可以参考这篇 [conda 文档](http://conda.pydata.org/docs/using/index.html)。
+        instructor_notes: ''
+        resources: null
+  - id: 295827
+    key: 5e87a70d-c147-422b-b120-f89a392ba154
+    locale: zh-cn
+    version: 1.0.0
+    title: Python 版本说明
+    semantic_type: Concept
+    updated_at: 'Tue Apr 18 2017 08:22:14 GMT+0000 (UTC)'
+    is_public: true
+    resources:
+      files: []
+      google_plus_link: null
+      career_resource_center_link: null
+      coaching_appointments_link: null
+      office_hours_link: null
+    _atoms_ids:
+      - 294136
+    atoms:
+      - id: 294136
+        key: 13650963-1313-43c2-acd1-d73531aaaa5d
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Tue Apr 18 2017 08:21:58 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          # 优达学城使用的 Python 版本
+
+          优达学城的大部分纳米学位课程将专门使用（或者已经使用） Python 3。 
+
+          ## 为何选择 Python 3
+
+          * Jupyter 将[改为仅使用 Python 3](http://blog.jupyter.org/2016/07/08/ipython-5-0-released/)
+          * Python 2.7 逐渐[过时了](https://pythonclock.org/)
+          * Python 3.6 具有很多出色的功能，例如[格式化的字符串](https://docs.python.org/3.6/whatsnew/3.6.html#pep-498-formatted-string-literals)
+
+          目前，Python 3 中已经具有很多新的功能，没必要再使用 Python 2，除非你使用的是旧版代码。所有新的 Python 代码应该用 Python 3 编写。
+
+          ## Python 2 和 Python 3 之间的主要差别
+
+          大部分情况下，Python 2 代码也可以用 Python 3 运行。当然，Python 3 中推出的大部分新功能无法向后兼容。Python 2 代码经常运行失败的地方是 `print` 语句。
+
+          对于大部分的旧版 Python，包括 Python 2，输出功能如下所示：
+
+              print "Hello", "world!"
+              > Hello world!
+
+          Python 3 中改成了一个函数。
+
+              print("Hello", "world!")
+              > Hello world!
+
+          在 2.6 版中，`print` 函数通过 `__future__` 模块向后移植到 Python 2：
+
+              # 在 Python 2.6 及以上版本中
+              from __future__ import print_function
+              print("Hello", "world!")
+              > Hello world!
+
+          `print` 语句在 Python 3 中无法运行。如果你要输出内容，并希望在两个版本的 Python 中都可以，则需要在 Python 2 代码中导入 `print_function`。
+
+          ## 数据分析师纳米学位课程的学员注意事项
+
+          深度学习课程学员请忽略此部分。
+
+          目前，此纳米学位课程的大部分资料依然只适用于 Python 2.7。你可以通过打开“资源”标签并下载相应的 YAML 文件，为当前的数据分析师纳米学位课程快速设置一个环境。
+
+          ## 机器学习工程师纳米学位课程的学员注意事项
+
+          深度学习课程学员请忽略此部分。
+
+          目前，此纳米学位课程的大部分资料依然只适用于 Python 2.7。
+        instructor_notes: ''
+        resources: null

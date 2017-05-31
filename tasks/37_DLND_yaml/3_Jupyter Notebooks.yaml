@@ -1,0 +1,1092 @@
+id: 257301
+key: 13f4b7d6-92a9-468d-9008-084fc8b53a23
+locale: en-us
+version: 1.0.0
+title: Jupyter Notebooks
+semantic_type: Lesson
+updated_at: 'Wed Apr 19 2017 22:20:59 GMT+0000 (UTC)'
+is_public: true
+image:
+  url: 'https://d17h27t6h515a5.cloudfront.net/topher/2017/April/58ed4c79_03-jupyter/03-jupyter.jpg'
+  width: 1000
+  height: 1000
+video: null
+summary: 'Learn how to use Jupyter Notebooks to create documents combining code, text, images, and more.'
+duration: 60
+is_project_lesson: false
+_concepts_ids:
+  - 160285
+  - 199630
+  - 199665
+  - 199672
+  - 199944
+  - 200050
+  - 205545
+  - 208390
+  - 215938
+  - 215937
+  - 216398
+_project_id: null
+concepts:
+  - id: 160285
+    key: 75e1eee0-5f81-4d5b-a1ca-eaebe3c91759
+    locale: en-us
+    version: 1.0.0
+    title: What are Jupyter notebooks?
+    semantic_type: Concept
+    updated_at: 'Fri Jan 27 2017 19:18:57 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 262240
+      - 199565
+      - 199609
+      - 199613
+      - 199614
+      - 199623
+    atoms:
+      - id: 262240
+        key: 9d21f1fa-e971-4c99-80fe-1c4583d03aa3
+        locale: en-us
+        version: 1.0.0
+        title: Jupyter
+        semantic_type: VideoAtom
+        updated_at: 'Fri Jan 27 2017 19:20:32 GMT+0000 (UTC)'
+        is_public: true
+        tags: []
+        instructor_notes: ''
+        resources: null
+        video:
+          youtube_id: qiYDWFLyXvg
+          subtitles: null
+          transcodings:
+            uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/January/588b94b4_jupyter/jupyter_480p.mp4'
+            uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/January/588b94b4_jupyter/jupyter_480p_1000kbps.mp4'
+            uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/January/588b94b4_jupyter/jupyter_480p.ogg'
+            uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/January/588b94b4_jupyter/jupyter_720p.mp4'
+            uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/January/588b94b4_jupyter/hls/playlist.m3u8'
+      - id: 199565
+        key: 8cf4aa3c-3e9a-499f-ac9c-2b84298ac321
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Wed Nov 30 2016 22:18:00 GMT+0000 (UTC)'
+        is_public: true
+        text: >-
+          # What are Jupyter notebooks?
+
+
+          Welcome to this lesson on using [Jupyter](http://jupyter.org/) notebooks. The notebook is a web application that allows you to combine explanatory text, math equations, code, and visualizations all in one easily sharable document. For example, here's one of my favorite notebooks shared recently, the analysis of [gravitational waves from two colliding blackholes](https://losc.ligo.org/s/events/GW150914/GW150914_tutorial.html) detected by the [LIGO experiment](https://www.ligo.caltech.edu/news/ligo20160211). You could download the data, run the code in the notebook, and repeat the analysis, in effect detecting the gravitational waves yourself!
+
+
+          Notebooks have quickly become an essential tool when working with data. You'll find them being used for [data cleaning and exploration](http://nbviewer.jupyter.org/github/jmsteinw/Notebooks/blob/master/IndeedJobs.ipynb), visualization, [machine learning](http://nbviewer.jupyter.org/github/masinoa/machine_learning/blob/master/04_Neural_Networks.ipynb), and [big data analysis](http://nbviewer.jupyter.org/github/tdhopper/rta-pyspark-presentation/blob/master/slides.ipynb). Here's [an example notebook](https://github.com/mcleonard/blog_posts/blob/master/body_fat_percentage.ipynb) I made for my personal blog that shows off many of the features of notebooks. Typically you'd be doing this work in a terminal, either the normal Python shell or with IPython. Your visualizations would be in separate windows, any documentation would be in separate documents, along with various scripts for functions and classes. However, with notebooks, all of these are in one place and easily read
+          together.
+
+
+          Notebooks are also rendered automatically on GitHub. It’s a great feature that lets you easily share your work. There is also http://nbviewer.jupyter.org/ that renders the notebooks from your GitHub repo or from notebooks stored elsewhere.   
+        instructor_notes: ''
+        resources: null
+      - id: 199609
+        key: c2149e65-bd98-4a6c-944c-d9513a86b4d2
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Mon Oct 31 2016 22:20:32 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          ## Literate programming
+
+          Notebooks are a form of [literate programming](http://www.literateprogramming.com/) proposed by Donald Knuth in 1984. With literate programming, the documentation is written as a narrative alongside the code instead of sitting off by it's own. In Donald Knuth's words, 
+
+          > Instead of imagining that our main task is to instruct a computer what to do, let us concentrate rather on explaining to human beings what we want a computer to do.
+
+          After all, code is written for humans, not for computers. Notebooks provide exactly this capability. You are able to write documentation as narrative text, along with code. This is not only useful for the people reading your notebooks, but for your future self coming back to the analysis. 
+
+          Just a small aside: recently, this idea of literate programming has been extended to a whole programming language, [Eve](http://www.witheve.com/).
+        instructor_notes: ''
+        resources: null
+      - id: 199613
+        key: 4ceb3c91-07fe-4d1b-be8e-3805c4374c3e
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Tue Nov 22 2016 07:11:36 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          ## How notebooks work
+
+          Jupyter notebooks grew out of the [IPython project](https://ipython.org/) started by Fernando Perez. IPython is an interactive shell, similar to the normal Python shell but with great features like syntax highlighting and code completion. Originally, notebooks worked by sending messages from the web app (the notebook you see in the browser) to an IPython kernel (an IPython application running in the background). The kernel executed the code, then sent it back to the notebook.  The current architecture is similar, drawn out below.
+        instructor_notes: ''
+        resources: null
+      - id: 199614
+        key: dd1fe61e-27b1-46ce-8527-75760aac6a70
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: ImageAtom
+        updated_at: 'Mon Oct 31 2016 22:42:15 GMT+0000 (UTC)'
+        is_public: true
+        url: 'https://d17h27t6h515a5.cloudfront.net/topher/2016/October/5817c83b_notebook-components/notebook-components.png'
+        width: 633
+        height: 357
+        caption: 'From [Jupyter documentation](https://jupyter.readthedocs.io/en/latest/architecture/how_jupyter_ipython_work.html)'
+        resources: null
+        instructor_notes: null
+      - id: 199623
+        key: 6f9c996a-3e4d-4c2a-a03d-ddad3c7fd2e4
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Mon Jan 30 2017 00:08:55 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          The central point is the notebook server. You connect to the server through your browser and the notebook is rendered as a web app. Code you write in the web app is sent through the server to the kernel. The kernel runs the code and sends it back to the server, then any output is rendered back in the browser. When you save the notebook, it is written to the server as a JSON file with a `.ipynb` file extension.
+
+          The great part of this architecture is that the kernel doesn't need to run Python. Since the notebook and the kernel are separate, code in any language can be sent between them. For example, two of the earlier non-Python kernels were for the [R](https://www.r-project.org/) and [Julia](http://julialang.org/) languages. With an R kernel, code written in R will be sent to the R kernel where it is executed, exactly the same as Python code running on a Python kernel. IPython notebooks were renamed because notebooks became language agnostic. The new name **Jupyter** comes from the combination of **Ju**lia, **Pyt**hon, and **R**. If you're interested, here's a [list of available kernels](https://github.com/jupyter/jupyter/wiki/Jupyter-kernels).
+
+          Another benefit is that the server can be run anywhere and accessed via the internet. Typically you'll be running the server on your own machine where all your data and notebook files are stored. But, you could also [set up a server](http://jupyter-notebook.readthedocs.io/en/latest/public_server.html) on a remote machine or cloud instance like Amazon's EC2. Then, you can access the notebooks in your browser from anywhere in the world.  
+        instructor_notes: ''
+        resources: null
+  - id: 199630
+    key: 424eddd4-9304-4207-898b-422d40a11927
+    locale: en-us
+    version: 1.0.0
+    title: Installing Jupyter Notebook
+    semantic_type: Concept
+    updated_at: 'Fri Dec 02 2016 23:43:32 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 199631
+    atoms:
+      - id: 199631
+        key: be67c80b-4731-4cbf-bc2e-820911d54dba
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Fri Nov 11 2016 22:52:01 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          # Installing Jupyter Notebook
+
+          By far the easiest way to install Jupyter is with Anaconda. Jupyter notebooks automatically come with the distribution. You'll be able to use notebooks from the default environment.
+
+          To install Jupyter notebooks in a conda environment, use `conda install jupyter notebook`.
+
+          Jupyter notebooks are also available through pip with `pip install jupyter notebook`.
+        instructor_notes: ''
+        resources: null
+  - id: 199665
+    key: 7832d9b4-e925-4d5f-848e-c9289cac4f33
+    locale: en-us
+    version: 1.0.0
+    title: Launching the notebook server
+    semantic_type: Concept
+    updated_at: 'Mon May 22 2017 21:33:07 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 199667
+      - 199669
+      - 199670
+      - 219907
+      - 219910
+      - 322938
+      - 322940
+      - 219923
+      - 219924
+      - 219925
+      - 219926
+    atoms:
+      - id: 199667
+        key: fdb9bf93-ce09-43d5-a2b6-72cae0d0e200
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Tue Nov 22 2016 16:39:36 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          # Launching the notebook server
+
+          To start a notebook server, enter `jupyter notebook` in your terminal or console. This will start the server in the directory you ran the command in. That means any notebook files will be saved in that directory. Typically you'd want to start the server in the directory where your notebooks live. However, you can navigate through your file system to where the notebooks are.
+
+          When you run the command (try it yourself!), the server home should open in your browser. By default, the notebook server runs at `http://localhost:8888`. If you aren't familiar with this, `localhost` means your computer and `8888` is the port the server is communicating on. As long as the server is still running, you can always come back to it by going to http://localhost:8888 in your browser.
+
+          If you start another server, it'll try to use port `8888`, but since it is occupied, the new server will run on port `8889`. Then, you'd connect to it at `http://localhost:8889`. Every additional notebook server will increment the port number like this.
+
+          If you tried starting your own server, it should look something like this:
+        instructor_notes: ''
+        resources: null
+      - id: 199669
+        key: cb7af561-c3e7-4f47-974d-5cd902c73da1
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: ImageAtom
+        updated_at: 'Tue Nov 22 2016 16:40:48 GMT+0000 (UTC)'
+        is_public: true
+        url: 'https://d17h27t6h515a5.cloudfront.net/topher/2016/November/5818e181_notebook-server/notebook-server.png'
+        width: 1285
+        height: 889
+        caption: ''
+        resources: null
+        instructor_notes: null
+      - id: 199670
+        key: 35ce4727-8261-4e98-bcf3-2d5fb81b3631
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Mon May 22 2017 21:34:13 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          You might see some files and folders in the list here, it depends on where you started the server from.
+
+          Over on the right, you can click on "New" to create a new notebook, text file, folder, or terminal. The list under "Notebooks" shows the kernels you have installed. Here I'm running the server in a Python 3 environment, so I have a Python 3 kernel available. You might see Python 2 here. I've also installed kernels for Scala 2.10 and 2.11 which you see in the list.
+        instructor_notes: ''
+        resources: null
+      - id: 219907
+        key: ceac84f6-80ae-455c-bf64-3e76d4e6dbe0
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Mon May 22 2017 21:24:45 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          The tabs at the top show *Files*, *Running*, and *Cluster*.  *Files* shows all the files and folders in the current directory. Clicking on the *Running* tab will list all the currently running notebooks. From there you can manage them.
+
+          *Clusters* previously was where you'd create multiple kernels for use in parallel computing. Now that's been taken over by [ipyparallel](https://ipyparallel.readthedocs.io/en/latest/intro.html) so there isn't much to do there.
+
+          If the Python version in your conda environment is 3.5 or under, you can also run the following command (it is not supported in Python 3.6 or later):
+
+          `conda install nb_conda`
+
+          Then if you run the notebook server from a conda environment, you'll also have access to the "Conda" tab shown below.  Here you can manage your environments from within Jupyter. You can create new environments, install packages, update packages, export environments and more.
+        instructor_notes: ''
+        resources: null
+      - id: 219910
+        key: 6813100f-a237-4c05-8bb4-5d6b9ac9427f
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: ImageAtom
+        updated_at: 'Tue Dec 06 2016 22:30:29 GMT+0000 (UTC)'
+        is_public: true
+        url: 'https://d17h27t6h515a5.cloudfront.net/topher/2016/December/58473bf5_conda-tab/conda-tab.png'
+        width: 955
+        height: 643
+        caption: conda tab in Jupyter
+        resources: null
+        instructor_notes: null
+      - id: 322938
+        key: deba6348-dc72-47f9-bd49-480572444bf4
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Mon May 22 2017 21:30:43 GMT+0000 (UTC)'
+        is_public: true
+        text: 'Additionally, with `nb_conda` installed you will be able to access any of your conda environments when choosing a kernel. For example, the image below shows an example of creating a new notebook on a machine with several different conda environments:'
+        instructor_notes: ''
+        resources: null
+      - id: 322940
+        key: f561436c-8769-471e-9927-94ed6f32e521
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: ImageAtom
+        updated_at: 'Mon May 22 2017 21:32:56 GMT+0000 (UTC)'
+        is_public: true
+        url: 'https://d17h27t6h515a5.cloudfront.net/topher/2016/December/584739ab_conda-environments/conda-environments.png'
+        width: 309
+        height: 566
+        caption: conda environments in Jupyter
+        resources: null
+        instructor_notes: null
+      - id: 219923
+        key: 3a7efa4b-103e-4e9a-9750-85c5f0103846
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Tue Dec 06 2016 22:53:24 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          ### Shutting down Jupyter
+
+          You can shutdown individual notebooks by marking the checkbox next to the notebook on the server home and clicking "Shutdown." Make sure you've saved your work before you do this though! Any changes since the last time you saved will be lost. You'll also need to rerun the code the next time you run the notebook.
+        instructor_notes: ''
+        resources: null
+      - id: 219924
+        key: 9f2607e6-2944-4cfd-a6d1-e3925f41779a
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: ImageAtom
+        updated_at: 'Tue Dec 06 2016 22:52:57 GMT+0000 (UTC)'
+        is_public: true
+        url: 'https://d17h27t6h515a5.cloudfront.net/topher/2016/December/58474142_notebook-shutdown/notebook-shutdown.png'
+        width: 970
+        height: 446
+        caption: ''
+        resources: null
+        instructor_notes: null
+      - id: 219925
+        key: 99aad727-2c59-4bc6-a35a-ac1b119b4268
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Tue Dec 06 2016 22:53:52 GMT+0000 (UTC)'
+        is_public: true
+        text: 'You can shutdown the entire server by pressing control + C twice in the terminal. Again, this will immediately shutdown all the running notebooks, so make sure your work is saved!'
+        instructor_notes: ''
+        resources: null
+      - id: 219926
+        key: 57ae3206-1e08-4da0-96cb-8c0d7aeee50a
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: ImageAtom
+        updated_at: 'Tue Dec 06 2016 22:54:05 GMT+0000 (UTC)'
+        is_public: true
+        url: 'https://d17h27t6h515a5.cloudfront.net/topher/2016/December/58474185_server-shutdown/server-shutdown.png'
+        width: 777
+        height: 572
+        caption: ''
+        resources: null
+        instructor_notes: null
+  - id: 199672
+    key: 0d3b93d8-fd93-4dde-92f2-55594d6d458e
+    locale: en-us
+    version: 1.0.0
+    title: Notebook interface
+    semantic_type: Concept
+    updated_at: 'Tue Dec 06 2016 22:31:58 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 199699
+      - 199719
+      - 199889
+      - 199940
+      - 199943
+      - 219911
+    atoms:
+      - id: 199699
+        key: eddc9ea8-df56-4ca4-8ed2-ee4d1b989264
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Tue Nov 01 2016 20:35:15 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          # Notebook interface
+
+          When you create a new notebook, you should see something like this:
+        instructor_notes: ''
+        resources: null
+      - id: 199719
+        key: 4373fb66-0f6e-4fef-a10f-364fd9ab1e6c
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: ImageAtom
+        updated_at: 'Tue Nov 01 2016 21:09:48 GMT+0000 (UTC)'
+        is_public: true
+        url: 'https://d17h27t6h515a5.cloudfront.net/topher/2016/November/5819039f_new-notebook/new-notebook.png'
+        width: 1324
+        height: 889
+        caption: ''
+        resources: null
+        instructor_notes: null
+      - id: 199889
+        key: 750b34af-b8fd-4304-a0ce-670139f392f0
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Tue Nov 22 2016 07:37:13 GMT+0000 (UTC)'
+        is_public: true
+        text: |+
+          Feel free to try this yourself and poke around a bit.
+
+          You’ll see a little box outlined in green. This is called a *cell*. Cells are where you write and run your code. You can also change it to render Markdown, a popular formatting syntax for writing web content. I'll cover Markdown in more detail later. In the toolbar, click “Code” to change it to Markdown and back. The little play button runs the cell, and the up and down arrows move cells up and down.
+
+          <video loop autoplay style="width: 100%">
+          <source src="https://s3.amazonaws.com/content.udacity-data.com/courses/ud1111/notebook+interface.mp4" type="video/mp4">
+          </video>
+
+
+        instructor_notes: ''
+        resources: null
+      - id: 199940
+        key: 0c6dacde-5288-4f4f-a3a5-85c839860552
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Wed Dec 07 2016 00:00:27 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          When you run a code cell, the output is displayed below the cell. The cell also gets numbered, you see `In [1]:` on the left. This lets you know the code was run and the order if you run multiple cells.  Running the cell in Markdown mode renders the Markdown as text.
+
+          ## The tool bar
+
+          Elsewhere on the tool bar, starting from the left:
+
+          * The anachronistic symbol for "save," the floppy disk. Saves the notebook!
+          * The `+` button creates a new cell
+          * Then, buttons to cut, copy, and paste cells. 
+          * Run, stop, restart the kernel
+          * Cell type: code, Markdown, raw text, and header
+          * Command palette (see next)
+          * Cell toolbar, gives various options for cells such as using them as slides
+
+          ### Command palette
+
+          The little keyboard is the command palette. This will bring up a panel with a search bar where you can search for various commands. This is really helpful for speeding up your workflow as you don't need to search around in the menus with your mouse. Just open the command palette and type in what you want to do. For instance, if you want to merge two cells:
+
+          <video loop autoplay style="width: 100%">
+          <source src="https://s3.amazonaws.com/content.udacity-data.com/courses/ud1111/command+palette.mp4" type="video/mp4">
+          </video>
+        instructor_notes: ''
+        resources: null
+      - id: 199943
+        key: 58433b80-553f-42ce-b012-a905e9a6b96a
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Tue Dec 06 2016 22:36:40 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          ## More things
+
+          At the top you see the title. Click on this to rename the notebook.
+
+          Over on the right is the kernel type (Python 3 in my case) and next to it, a little circle. When the kernel is running a cell, it'll fill in. For most operations which run quickly, it won't fill in. It's a little indicator to let you know longer running code is actually running.
+
+          Along with the save button in the toolbar, notebooks are automatically saved periodically. The most recent save is noted to the right of the title. You can save manually with the save button, or by pressing `escape` then `s` on your keyboard. The `escape` key changes to command mode and `s` is the shortcut for "save." I'll cover command mode and keyboard shortcuts later.
+
+          In the "File" menu, you can download the notebook in multiple formats. You'll often want to download it as an HTML file to share with others who aren't using Jupyter. Also, you can download the notebook as a normal Python file where all the code will run like normal. The [Markdown](https://daringfireball.net/projects/markdown/) and [reST](http://docutils.sourceforge.net/rst.html) formats are great for using notebooks in blogs or documentation. 
+        instructor_notes: ''
+        resources: null
+      - id: 219911
+        key: e3a10da0-7978-42e5-8a3c-61ee61ff4c57
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: ImageAtom
+        updated_at: 'Tue Dec 06 2016 22:31:58 GMT+0000 (UTC)'
+        is_public: true
+        url: 'https://d17h27t6h515a5.cloudfront.net/topher/2016/December/58473c56_notebook-download/notebook-download.png'
+        width: 397
+        height: 529
+        caption: ''
+        resources: null
+        instructor_notes: null
+  - id: 199944
+    key: 6dcc83a8-0521-4235-ac84-61fac4f9775d
+    locale: en-us
+    version: 1.0.0
+    title: Code cells
+    semantic_type: Concept
+    updated_at: 'Tue Dec 06 2016 22:56:07 GMT+0000 (UTC)'
+    is_public: true
+    resources:
+      files:
+        - name: Working With Code Cells
+          uri: 'https://d17h27t6h515a5.cloudfront.net/topher/2016/December/58474202_working-with-code-cells/working-with-code-cells.ipynb'
+      google_plus_link: null
+      career_resource_center_link: null
+      coaching_appointments_link: null
+      office_hours_link: null
+    _atoms_ids:
+      - 200049
+    atoms:
+      - id: 200049
+        key: 77a1bd07-9d45-4f52-aacf-10e1dccbce1b
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Sat Nov 19 2016 23:23:40 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          # Code cells
+
+          Most of your work in notebooks will be done in code cells. This is where you write your code and it gets executed. In code cells you can write any code, assigning variables, defining functions and classes, importing packages, and more. Any code executed in one cell is available in all other cells.
+
+          To give you some practice, I created a notebook you can work through. Download the notebook **Working With Code Cells** below then run it from your own notebook server. (In your terminal, change to the directory with the notebook file, then enter `jupyter notebook`) Your browser might try to open the notebook file without downloading it. If that happens, right click on the link then choose "Save Link As..."
+        instructor_notes: ''
+        resources: null
+  - id: 200050
+    key: b61c167c-767b-467a-85e2-6eca473f315b
+    locale: en-us
+    version: 1.0.0
+    title: Markdown cells
+    semantic_type: Concept
+    updated_at: 'Fri Dec 02 2016 23:43:41 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 200051
+      - 200056
+      - 200052
+      - 200055
+      - 200065
+      - 200057
+    atoms:
+      - id: 200051
+        key: 8834acdc-59cb-4594-9667-dafc203d109f
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Thu Nov 03 2016 23:55:54 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          # Markdown cells
+
+          As mentioned before, cells can also be used for text written in Markdown. Markdown is a formatting syntax that allows you to include links, style text as bold or italicized, and format code. As with code cells, you press **Shift + Enter** or **Control + Enter** to run the Markdown cell, where it will render the Markdown to formatted text. Including text allows you to write a narrative along side your code, as well as documenting your code and the thoughts that went into it.
+
+          You can find the [documentation here](https://daringfireball.net/projects/markdown/basics), but I'll provide a short primer.
+
+          ## Headers
+
+          You can write headers using the pound/hash/[octothorpe](http://www.worldwidewords.org/weirdwords/ww-oct1.htm) symbol `#` placed before the text. One `#` renders as an `h1` header, two `#`s is an h2, and so on. Looks like this:
+
+          ```[Markdown]
+          # Header 1
+          ## Header 2
+          ### Header 3
+          ```
+          renders as 
+
+          # Header 1
+          ## Header 2
+          ### Header 3
+        instructor_notes: ''
+        resources: null
+      - id: 200056
+        key: 58d65af0-a423-42d1-b57e-ed1e3ec98078
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Thu Nov 03 2016 23:58:55 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          ## Links
+
+          Linking in Markdown is done by enclosing text in square brackets and the URL in parentheses, like this `[Udacity's home page](https://www.udacity.com)` for a link to [Udacity's home page](https://www.udacity.com).
+
+          ## Emphasis
+
+          You can add emphasis through bold or italics with asterisks or underscores (`*` or `_`). For italics, wrap the text in one asterisk or underscore, `_gelato_` or `*gelato*` renders as *gelato*.
+
+          Bold text uses two symbols, `**aardvark**` or `__aardvark__` looks like **aardvark**.
+
+          Either asterisks or underscores are fine as long as you use the same symbol on both sides of the text.
+        instructor_notes: ''
+        resources: null
+      - id: 200052
+        key: 6e64f6a3-d261-47f5-9196-f1f85a0e45cc
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Tue Nov 22 2016 19:17:44 GMT+0000 (UTC)'
+        is_public: true
+        text: |
+          ## Code
+
+          There are two different ways to display code, inline with text and as a code block separated from the text. To format inline code, wrap the text in backticks. For example, `` `string.punctuation` `` renders as `string.punctuation`.
+
+          To create a code block, start a new line and wrap the text in three backticks
+
+              ```
+              import requests
+              response = requests.get('https://www.udacity.com')
+              ```
+
+          or indent each line of the code block with four spaces.
+
+          ```python
+          import requests
+          response = requests.get('https://www.udacity.com')
+          ```
+        instructor_notes: ''
+        resources: null
+      - id: 200055
+        key: c929d741-7e39-4f1e-85a2-83bf68017344
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Thu Nov 03 2016 23:48:18 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          ## Math expressions
+
+          You can create math expressions in Markdown cells using [LaTeX](https://www.latex-project.org/) symbols. Notebooks use MathJax to render the LaTeX symbols as math symbols. To start math mode, wrap the LaTeX in dollar signs `$y = mx + b$` for inline math. For a math block, use double dollar signs,
+
+          ```
+          $$
+          y = \frac{a}{b+c}
+          $$
+          ```
+
+          This is a really useful feature, so if you don't have experience with LaTeX [please read this primer](http://data-blog.udacity.com/posts/2016/10/latex-primer/) on using it to create math expressions.
+        instructor_notes: ''
+        resources: null
+      - id: 200065
+        key: 65ca51b5-4905-4b50-a1cc-0e49f4f6115a
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Tue Dec 06 2016 22:56:24 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          <video controls loop autoplay style="width:100%">
+          <source src="https://s3.amazonaws.com/content.udacity-data.com/courses/ud1111/Markdown+cells.mp4" type="video/mp4">
+          </video>
+        instructor_notes: ''
+        resources: null
+      - id: 200057
+        key: 43e525cc-d37a-4f73-aaae-27d93f9a0f32
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Thu Nov 03 2016 23:58:24 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          ## Wrapping up
+
+          Here's [a cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) you can use as a reference for writing Markdown. My advice is to make use of the Markdown cells. Your notebooks will be much more readable compared to a bunch of code blocks.
+        instructor_notes: ''
+        resources: null
+  - id: 205545
+    key: 6a803904-d84d-48ac-92a6-d9bee9807d44
+    locale: en-us
+    version: 1.0.0
+    title: Keyboard shortcuts
+    semantic_type: Concept
+    updated_at: 'Tue Apr 04 2017 21:40:39 GMT+0000 (UTC)'
+    is_public: true
+    resources:
+      files:
+        - name: Keyboard-Shortcuts
+          uri: 'https://d17h27t6h515a5.cloudfront.net/topher/2017/April/58e412d0_keyboard-shortcuts/keyboard-shortcuts.ipynb'
+      google_plus_link: null
+      career_resource_center_link: null
+      coaching_appointments_link: null
+      office_hours_link: null
+    _atoms_ids:
+      - 206709
+    atoms:
+      - id: 206709
+        key: 23dea1a1-6fb0-44c3-8193-e94e7441177e
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Sat Nov 19 2016 23:23:59 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          # Keyboard shortcuts
+
+          Notebooks come with a bunch of keyboard shortcuts that let you use your keyboard to interact with the cells, instead of using the mouse and toolbars. They take a bit of time to get used to, but when you're proficient with the shortcuts you'll be much faster at working in notebooks. To learn more about the shortcuts and get practice using them, download the notebook **Keyboard Shortcuts** below. Again, your browser might try to open it, but you want to save it to your computer. Right click on the link, then choose "Save Link As..."
+        instructor_notes: ''
+        resources: null
+  - id: 208390
+    key: 256cdd36-17d4-442a-a033-7c64ce83f7f8
+    locale: en-us
+    version: 1.0.0
+    title: Magic keywords
+    semantic_type: Concept
+    updated_at: 'Fri Dec 02 2016 23:43:46 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 213428
+      - 215665
+      - 215664
+      - 216040
+      - 216044
+      - 216051
+      - 216041
+      - 216042
+      - 216043
+    atoms:
+      - id: 213428
+        key: 71b42c51-f533-4662-a3e3-fac13dfe79c7
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Sun Nov 20 2016 22:06:08 GMT+0000 (UTC)'
+        is_public: true
+        text: |+
+          # Magic keywords
+
+          Magic keywords are special commands you can run in cells that let you control the notebook itself or perform system calls such as changing directories. For example, you can set up matplotlib to work interactively in the notebook with `%matplotlib`.
+
+          Magic commands are preceded with one or two percent signs (`%` or `%%`) for line magics and cell magics, respectively. Line magics apply only to the line the magic command is written on, while cell magics apply to the whole cell.
+
+          **NOTE:** These magic keywords are specific to the normal Python kernel. If you are using other kernels, these most likely won't work.
+
+          ## Timing code
+
+          At some point, you'll probably spend some effort optimizing code to run faster. Timing how quickly your code runs is essential for this optimization. You can use the `timeit` magic command to time how long it takes for a function to run, like so:
+
+
+
+        instructor_notes: ''
+        resources: null
+      - id: 215665
+        key: 5107d13d-ebbb-4cce-bdbf-cc4dae39e210
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: ImageAtom
+        updated_at: 'Mon Nov 21 2016 23:34:30 GMT+0000 (UTC)'
+        is_public: true
+        url: 'https://d17h27t6h515a5.cloudfront.net/topher/2016/November/582f354d_magic-timeit/magic-timeit.png'
+        width: 1574
+        height: 874
+        caption: ''
+        resources: null
+        instructor_notes: null
+      - id: 215664
+        key: 5a931da9-6ae4-448c-ac4a-0e39099c2933
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Wed Dec 07 2016 00:18:03 GMT+0000 (UTC)'
+        is_public: true
+        text: |
+          If you want to time how long it takes for a whole cell to run, you’d use `%%timeit` like so:
+        instructor_notes: ''
+        resources: null
+      - id: 216040
+        key: 4935f7ac-3024-40c3-87f2-406dc9d73400
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: ImageAtom
+        updated_at: 'Mon Nov 21 2016 23:34:30 GMT+0000 (UTC)'
+        is_public: true
+        url: 'https://d17h27t6h515a5.cloudfront.net/topher/2016/November/58337d71_magic-timeit2/magic-timeit2.png'
+        width: 695
+        height: 359
+        caption: ''
+        resources: null
+        instructor_notes: null
+      - id: 216044
+        key: 993c0776-88da-46bd-bacd-ff7f04a9b6a6
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Mon Nov 21 2016 23:39:24 GMT+0000 (UTC)'
+        is_public: true
+        text: |
+          ## Embedding visualizations in notebooks
+
+          As mentioned before, notebooks let you embed images along with text and code. This is most useful when you’re using `matplotlib` or other plotting packages to create visualizations. You can use `%matplotlib` to set up `matplotlib` for interactive use in the notebook. By default figures will render in their own window. However, you can pass arguments to the command to select a specific ["backend"](http://matplotlib.org/faq/usage_faq.html#what-is-a-backend), the software that renders the image. To render figures directly in the notebook, you should use the inline backend with the command `%matplotlib inline`.
+
+          > **Tip:** On higher resolution screens such as Retina displays, the default images in notebooks can look blurry. Use `%config InlineBackend.figure_format = 'retina'` after `%matplotlib inline` to render higher resolution images.
+        instructor_notes: ''
+        resources: null
+      - id: 216051
+        key: 5e263ad0-6e13-4ade-a766-5da705ce1e8e
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: ImageAtom
+        updated_at: 'Mon Nov 21 2016 23:43:11 GMT+0000 (UTC)'
+        is_public: true
+        url: 'https://d17h27t6h515a5.cloudfront.net/topher/2016/November/5833867f_magic-matplotlib/magic-matplotlib.png'
+        width: 744
+        height: 566
+        caption: Example figure in a notebook
+        resources: null
+        instructor_notes: null
+      - id: 216041
+        key: 2d6970b7-83b7-4268-81e0-b082a30056df
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Mon Nov 21 2016 23:43:21 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          ## Debugging in the Notebook
+
+          With the Python kernel, you can turn on the interactive debugger using the magic command `%pdb`. When you cause an error, you'll be able to inspect the variables in the current namespace.
+        instructor_notes: ''
+        resources: null
+      - id: 216042
+        key: bf742711-6127-4af8-8111-ea370ef8f2da
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: ImageAtom
+        updated_at: 'Mon Nov 21 2016 23:34:30 GMT+0000 (UTC)'
+        is_public: true
+        url: 'https://d17h27t6h515a5.cloudfront.net/topher/2016/November/58337eac_magic-pdb/magic-pdb.png'
+        width: 724
+        height: 459
+        caption: Debugging in a notebook
+        resources: null
+        instructor_notes: null
+      - id: 216043
+        key: 7dbf6da3-02dc-4016-99a9-d40224ec577b
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Mon Nov 21 2016 23:36:06 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          Above you can see I tried to sum up a string which gives an error. The debugger raises the error and provides a prompt for inspecting your code.
+
+          Read more about `pdb` in [the documentation](https://docs.python.org/3/library/pdb.html). To quit the debugger, simply enter `q` in the prompt.
+
+          ## More reading
+
+          There are a whole bunch of other magic commands, I just touched on a few of the ones you'll use the most often. To learn more about them, [here's the list](http://ipython.readthedocs.io/en/stable/interactive/magics.html) of all available magic commands.
+        instructor_notes: ''
+        resources: null
+  - id: 215938
+    key: 2b324ee9-d6ec-4af4-b105-c4996b53d162
+    locale: en-us
+    version: 1.0.0
+    title: Converting notebooks
+    semantic_type: Concept
+    updated_at: 'Fri Dec 02 2016 23:43:48 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 216053
+      - 216054
+      - 216055
+      - 216056
+      - 216057
+    atoms:
+      - id: 216053
+        key: fadfae5b-7d0b-404e-8009-abbe22f8bc5b
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Tue Nov 22 2016 00:03:08 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          # Converting notebooks
+
+          Notebooks are just big [JSON](http://www.json.org/) files with the extension `.ipynb`.
+        instructor_notes: ''
+        resources: null
+      - id: 216054
+        key: 3478b081-7016-46ec-86c9-7e23b3316015
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: ImageAtom
+        updated_at: 'Mon Nov 21 2016 23:51:43 GMT+0000 (UTC)'
+        is_public: true
+        url: 'https://d17h27t6h515a5.cloudfront.net/topher/2016/November/5833887b_notebook-json/notebook-json.png'
+        width: 819
+        height: 616
+        caption: Notebook file opened in a text editor shows JSON data
+        resources: null
+        instructor_notes: null
+      - id: 216055
+        key: ef1caf21-4515-4d86-ab7f-3d00b03c4c9a
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Tue Nov 22 2016 00:03:31 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          Since notebooks are JSON, it is simple to convert them to other formats. Jupyter comes with a utility called `nbconvert` for converting to HTML, Markdown, slideshows, etc.
+
+          For example, to convert a notebook to an HTML file, in your terminal use
+          ```bash
+          jupyter nbconvert --to html notebook.ipynb
+          ```
+
+          Converting to HTML is useful for sharing your notebooks with others who aren't using notebooks. Markdown is great for including a notebook in blogs and other text editors that accept Markdown formatting.
+        instructor_notes: ''
+        resources: null
+      - id: 216056
+        key: 6d467407-c496-4cad-92b3-3c38f3fccdb4
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: ImageAtom
+        updated_at: 'Mon Nov 21 2016 23:59:15 GMT+0000 (UTC)'
+        is_public: true
+        url: 'https://d17h27t6h515a5.cloudfront.net/topher/2016/November/58338a48_nbconvert-example/nbconvert-example.png'
+        width: 857
+        height: 623
+        caption: ''
+        resources: null
+        instructor_notes: null
+      - id: 216057
+        key: 55c8bf3a-15a8-494b-b805-1d687f76d245
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Tue Nov 22 2016 00:04:21 GMT+0000 (UTC)'
+        is_public: true
+        text: 'As always, learn more about `nbconvert` from the [documentation](https://nbconvert.readthedocs.io/en/latest/usage.html).'
+        instructor_notes: ''
+        resources: null
+  - id: 215937
+    key: 74d96c44-fadc-4499-8c33-c48c4b4c73e4
+    locale: en-us
+    version: 1.0.0
+    title: Creating a slideshow
+    semantic_type: Concept
+    updated_at: 'Fri Dec 02 2016 23:43:50 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 216094
+      - 216095
+      - 216096
+      - 216098
+      - 216099
+    atoms:
+      - id: 216094
+        key: 49a4e03c-b56a-4291-935c-e161cad17681
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Tue Nov 22 2016 07:32:15 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          # Creating a slideshow
+
+          Create slideshows from notebooks is one of my favorite features. You can see [an example of a slideshow here](http://nbviewer.jupyter.org/format/slides/github/jorisvandenbossche/2015-PyDataParis/blob/master/pandas_introduction.ipynb#/) introducing Pandas for working with data.
+
+          The slides are created in notebooks like normal, but you'll need to designate which cells are slides and the type of slide the cell will be. In the menu bar, click View > Cell Toolbar > Slideshow to bring up the slide cell menu on each cell.
+        instructor_notes: ''
+        resources: null
+      - id: 216095
+        key: 4719b8f3-6b0b-492f-9bab-8609b9c5d3ef
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: ImageAtom
+        updated_at: 'Tue Nov 22 2016 00:38:00 GMT+0000 (UTC)'
+        is_public: true
+        url: 'https://d17h27t6h515a5.cloudfront.net/topher/2016/November/58339359_slides-cell-toolbar-menu/slides-cell-toolbar-menu.png'
+        width: 866
+        height: 301
+        caption: Turning on Slideshow toolbars for cells
+        resources: null
+        instructor_notes: null
+      - id: 216096
+        key: 79e088bd-1454-4acb-99f9-d950f9cdfc95
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Tue Nov 22 2016 00:38:32 GMT+0000 (UTC)'
+        is_public: true
+        text: This will show a menu dropdown on each cell that lets you choose how the cell shows up in the slideshow.
+        instructor_notes: ''
+        resources: null
+      - id: 216098
+        key: 4b6b6871-9eed-4b5c-a8dc-1eb888a2554f
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: ImageAtom
+        updated_at: 'Tue Nov 22 2016 00:38:52 GMT+0000 (UTC)'
+        is_public: true
+        url: 'https://d17h27t6h515a5.cloudfront.net/topher/2016/November/5833938f_slides-choose-slide-type/slides-choose-slide-type.png'
+        width: 866
+        height: 342
+        caption: Choose slide type
+        resources: null
+        instructor_notes: null
+      - id: 216099
+        key: eabfb632-30f7-4d58-a27b-8d2755697269
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Tue Dec 06 2016 22:44:38 GMT+0000 (UTC)'
+        is_public: true
+        text: |+
+          **Slides** are full slides that you move through left to right. **Sub-slides** show up in the slideshow by pressing up or down. **Fragments** are hidden at first, then appear with a button press. You can skip cells in the slideshow with **Skip** and **Notes** leaves the cell as speaker notes.
+
+
+          ## Running the slideshow
+
+          To create the slideshow from the notebook file, you'll need to use `nbconvert`:
+
+          ```bash
+              jupyter nbconvert notebook.ipynb --to slides
+          ```
+
+          This just converts the notebook to the necessary files for the slideshow, but you need to serve it with an HTTP server to actually see the presentation.
+
+          To convert it and immediately see it, use
+
+          ```bash
+          jupyter nbconvert notebook.ipynb --to slides --post serve
+          ```
+
+          This will open up the slideshow in your browser so you can present it.
+
+        instructor_notes: ''
+        resources: null
+  - id: 216398
+    key: ecc780f6-37d0-4115-81ad-bdf7f5f4b5e2
+    locale: en-us
+    version: 1.0.0
+    title: Finishing up
+    semantic_type: Concept
+    updated_at: 'Fri Dec 02 2016 23:43:52 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 216399
+    atoms:
+      - id: 216399
+        key: 745897e1-2395-4508-ab46-198340eb65b8
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Tue Nov 22 2016 07:31:56 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          # Congratulations!
+
+          You've made it to the end of this short course on tools in the Python data science workflow. Making good use of Anaconda and Jupyter Notebooks will increase your productivity and general well-being. There is a lot to learn to get the most out of these, Markdown and LaTeX for instance, but after a bit you'll be wondering why data analysis is done any other way.
+
+          Again, congratulations and good luck!
+        instructor_notes: ''
+        resources: null

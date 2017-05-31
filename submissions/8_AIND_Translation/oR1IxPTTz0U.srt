@@ -1,0 +1,228 @@
+﻿1
+00:00:00,510 --> 00:00:01,950
+Hi, I'm Kathleen.
+大家好 我叫凯萨琳
+2
+00:00:01,950 --> 00:00:03,540
+I lead the careers team at UDACITY.
+在优达学城由我带领我们的职业团队
+3
+00:00:03,540 --> 00:00:05,879
+We support students in their job search.
+我们为学生们寻找工作提供支持
+4
+00:00:05,879 --> 00:00:08,650
+The careers team knows what employers
+are looking for in a job candidate.
+我们的团队了解每个求职者都在寻找什么
+5
+00:00:08,650 --> 00:00:12,440
+And we want to work with you to market
+yourself as the best person for the job.
+我们想和你一起努力 把你以最佳人选的身份推销出去
+6
+00:00:12,439 --> 00:00:16,140
+Whether it's a new role or
+a promotion at your current company.
+无论是新角色，还是在当前公司的晋升
+7
+00:00:16,140 --> 00:00:20,149
+You need to be proactive in your career
+development to be job ready at graduate.
+在你的职业生涯中 你需要在毕业时做好积极的准备工作
+8
+00:00:20,149 --> 00:00:21,029
+For this reason,
+正是因为如此
+9
+00:00:21,030 --> 00:00:24,609
+career services are available
+throughout your nano degree experience.
+在你的纳米学位经历中 职业服务将能够帮助到你
+
+10
+00:00:24,609 --> 00:00:28,100
+It's important to remember, while you're
+here to learn the technical skills for
+要记住 在这里学习工作技能是重要的
+11
+00:00:28,100 --> 00:00:31,730
+a job, it's equally important to know
+how to communicate those skills to
+同样的 知道如何将这些技能通过一个应用 
+12
+00:00:31,730 --> 00:00:35,795
+an employer, through an application,
+your online profiles, and in interviews.
+在线资料 面试 展现给雇主同等重要
+13
+00:00:35,795 --> 00:00:38,325
+Let's meet the careers team who
+will be with you along the way.
+让我们来认识一下将会一路陪伴你们的职业团队
+14
+00:00:38,325 --> 00:00:39,554
+>> Hi, I'm Rachel.
+大家好 我叫雷切尔
+15
+00:00:39,554 --> 00:00:42,644
+Along with a network of career
+mentors our team is here to help
+与一个职业指导网络一起 我们的团队
+16
+00:00:42,645 --> 00:00:47,395
+you from when you begin to look for
+jobs until you accept your job offer.
+将会在你的求职过程中全程提供帮助
+17
+00:00:47,395 --> 00:00:50,805
+Career support is present at different
+stages throughout your nano degree and
+纵观整个纳米学位 职业支持会有所不同
+18
+00:00:50,804 --> 00:00:53,515
+we encourage you to go through
+all of them regardless of where
+我们鼓励你去仔细检查
+19
+00:00:53,515 --> 00:00:55,570
+you are in your job search.
+在寻求工作中所忽略的地方
+20
+00:00:55,570 --> 00:00:58,460
+The first of these career
+services are the projects in
+这些职业服务中 首要服务便是
+21
+00:00:58,460 --> 00:01:01,179
+the Career Development
+section of your classroom.
+课堂中的职业发展部分
+22
+00:01:01,179 --> 00:01:03,972
+UDACITY career services include guides,
+lessons and
+优达学城的职业服务包括指导、课程
+23
+00:01:03,972 --> 00:01:07,189
+personalized feedback on topics
+like talking to recruiters,
+比如与招聘人员所谈论话题的个性化反馈 
+24
+00:01:07,188 --> 00:01:09,934
+interviewing and
+optimizing your online profiles.
+面试和在线资料优化
+25
+00:01:09,935 --> 00:01:12,129
+[BLANK_AUDIO]
+[无声音]
+26
+00:01:12,129 --> 00:01:13,549
+>> And I'm Trin.
+我叫特林
+27
+00:01:13,549 --> 00:01:15,299
+In order to graduate career-ready,
+为了完成职业生涯的准备工作
+28
+00:01:15,299 --> 00:01:18,060
+you should continuously work
+on your career development.
+你应该在你的职业发展中继续工作
+29
+00:01:18,060 --> 00:01:21,120
+Like with all learning, beginning
+something earlier means you are more
+就像所有的学习一样，开始的越早
+30
+00:01:21,120 --> 00:01:23,719
+prepared when it's time
+to apply that learning.
+意味着当你应用所学时 你会有更充足的准备
+31
+00:01:23,719 --> 00:01:27,109
+When your dream job pops up
+you want to be ready for it.
+你梦想的工作突然冒出来的时候 你已经游刃有余
+32
+00:01:27,109 --> 00:01:30,140
+We'll support you throughout your
+career development, on the forums,
+我们自始至终都将支持你的职业发展 包括以讲坛
+33
+00:01:30,140 --> 00:01:32,489
+in career coach appointments, and
+through the Career Resource Center.
+预约职业教练 职业资源中心 的形式
+34
+00:01:34,120 --> 00:01:38,120
+>> Hi, I'm Kirsten and
+I head up employer relations at UDACITY.
+大家好 我叫柯尔斯顿 我是优达学城的人事主管
+35
+00:01:38,120 --> 00:01:41,660
+Once you've completed the curriculum,
+you'll be ready to apply to jobs and
+一旦你完成了课程，意味着你准备将所学的技能应用到工作
+36
+00:01:41,659 --> 00:01:43,349
+talk with employers.
+以及与雇主的交谈中
+37
+00:01:43,349 --> 00:01:46,780
+UDACITY partners with industry-leading
+companies who are looking to hire
+优达学城合作伙伴拥有行业领先的合作公司
+38
+00:01:46,780 --> 00:01:50,349
+skilled and passionate people, like you.
+这些公司希望招聘到技艺精湛激情昂扬的人 比如你
+39
+00:01:50,349 --> 00:01:52,939
+Having hiring partners means
+you'll have direct and
+拥有招聘伙伴意味着我们能够直接 优先的将你
+40
+00:01:52,939 --> 00:01:55,420
+preferential exposure
+at these companies. 
+推荐给这些公司
+41
+00:01:55,420 --> 00:01:59,150
+This will help give you a leg up in your
+job search as you explore your career
+当你在探索职业选择中寻求工作和
+42
+00:01:59,150 --> 00:02:04,190
+options, and
+develop a career path unique to you.
+发展自己独特的职业道路时 这将让你占尽优势
+43
+00:02:04,189 --> 00:02:08,139
+After you create your first
+core nano degree projects,
+在你创建第一个核心纳米学位项目之后
+44
+00:02:08,139 --> 00:02:10,600
+you'll then be prompted to begin
+your career development with us.
+将会提示你和我们一起开始你的职业发展
+45
+00:02:10,599 --> 00:02:12,430
+>> We'll then be there
+with you from then on.
+我们自始至终与你同在
+46
+00:02:12,430 --> 00:02:15,500
+As you explore your career options and
+pursue your dream role.
+当你探索你的职业选择和追求梦想的角色时
+47
+00:02:15,500 --> 00:02:16,757
+We look forward to working with you.
+我们期待和你一起努力。
+48
+00:02:16,757 --> 00:02:25,248
+[MUSIC]
+[音乐]

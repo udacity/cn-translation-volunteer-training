@@ -333,7 +333,7 @@ concepts:
           career_resource_center_link: null
           coaching_appointments_link: null
           office_hours_link: null
-        instructor_notes: '## O 型、A 型和 B 型血都可以输入其他至少一种血型的人，只有 AB 型血之可以输入 AB 型血的人。已知这一点，人口中不可以献血给其他血型的人的比例是多少？'
+        instructor_notes: '## O、A 和 B 型血都可以至少接受另外一种血型输血，但是 AB 型血只能接受 AB 型的人输血。已知这一点，人口中不可以献血给其他血型的人的比例是多少？'
         instruction:
           video:
             youtube_id: null
@@ -624,7 +624,7 @@ concepts:
           coaching_appointments_link: null
           office_hours_link: null
         instructor_notes: |-
-          ## 通常，当我们使用直方图可视化数据时，如果我们增大组距，频率会怎样？
+          ## 通常，当我们使用直方图做数据可视化时，如果我们增大组距，频率会怎样？
 
           - □ 变大
           - □ 变小
@@ -874,7 +874,7 @@ concepts:
           coaching_appointments_link: null
           office_hours_link: null
         instructor_notes: |-
-          ## 这个直方图分布是...
+          ## 这个直方图分布是：
 
           - □ 正偏斜分布
           - □ 负偏斜分布
@@ -968,7 +968,7 @@ concepts:
           career_resource_center_link: null
           coaching_appointments_link: null
           office_hours_link: null
-        instructor_notes: '## 请在下方的方框中描述正态分布应该是什么样子。你可以想出正态分布的一些例子吗？'
+        instructor_notes: '## 请在下方的方框中描述正态分布应该是什么样子。你可以想出一些正态分布的例子吗？'
         instruction:
           video:
             youtube_id: null
@@ -1014,11 +1014,11 @@ concepts:
           coaching_appointments_link: null
           office_hours_link: null
         instructor_notes: |-
-          ## 勾选关于频率表和直方图，所有正确的选项。
+          ## 勾选关于频率表和直方图所有正确的选项。
 
           - □ 可以很好地可视化分布的形状 
-          - □ 可以很好地得出样本的数量
-          - □ 可以从频率表创建直方图 / 可以从直方图创建频率表
+          - □ 可以很好地得出样本或总体的总数
+          - □ 可以从根据频率表创建直方图，也可以根据直方图创建频率表
         instruction:
           video:
             youtube_id: null

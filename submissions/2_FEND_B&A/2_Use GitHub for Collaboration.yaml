@@ -1,0 +1,1997 @@
+id: 192154
+key: '3105028581'
+locale: zh-cn
+version: 1.0.0
+title: 使用 GitHub 协作
+semantic_type: Lesson
+updated_at: 'Wed Dec 28 2016 07:57:01 GMT+0000 (UTC)'
+is_public: true
+image: null
+video: null
+summary: 练习使用 GitHub 来协作多开发者项目，在 GitHub 上创建和审阅 Pull Request。
+duration: 240
+is_project_lesson: false
+_concepts_ids:
+  - 191551
+  - 191552
+  - 191553
+  - 191554
+  - 191555
+  - 191556
+  - 191557
+  - 191559
+  - 191558
+  - 191561
+  - 191560
+  - 191562
+  - 191563
+  - 191565
+  - 191564
+  - 191567
+  - 191566
+  - 191568
+  - 191571
+  - 191570
+  - 191569
+  - 191572
+  - 191573
+  - 191574
+  - 191575
+  - 191576
+  - 191577
+  - 191578
+  - 191579
+  - 191580
+  - 191584
+  - 191581
+  - 191582
+  - 191583
+_project_id: null
+concepts:
+  - id: 191551
+    key: '30898886710923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 简介
+    semantic_type: Concept
+    updated_at: 'Thu Oct 27 2016 09:19:46 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 190400
+    atoms:
+      - id: 190400
+        key: '3089888671'
+        locale: zh-cn
+        version: 1.0.0
+        title: 简介
+        semantic_type: VideoAtom
+        updated_at: 'Fri Apr 14 2017 18:21:20 GMT+0000 (UTC)'
+        is_public: true
+        tags: []
+        instructor_notes: null
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        video:
+          youtube_id: 9nAFWJEFnGA
+          subtitles:
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d09b58_lesson-3-introduction-how-to-use-git-and-github/subtitles/lang_zh-cn_vs1.srt'
+              language_code: zh-cn
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d09b58_lesson-3-introduction-how-to-use-git-and-github/subtitles/lang_en_vs4.srt'
+              language_code: en
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d09b58_lesson-3-introduction-how-to-use-git-and-github/subtitles/lang_ar_vs1.srt'
+              language_code: ar
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d09b58_lesson-3-introduction-how-to-use-git-and-github/subtitles/lang_pt-br_vs8.srt'
+              language_code: pt-br
+          transcodings:
+            uri_480p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3089888671/video_e367f433af4a49260cfdd29852e879ab_480p.mp4'
+            uri_480p_1000kbps_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3089888671/video_e367f433af4a49260cfdd29852e879ab_480p_1000kbps.mp4'
+            uri_480p_ogg: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3089888671/video_e367f433af4a49260cfdd29852e879ab_480p.ogg'
+            uri_720p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3089888671/video_e367f433af4a49260cfdd29852e879ab_720p.mp4'
+            uri_hls: null
+  - id: 191552
+    key: '30736788880923'
+    locale: zh-cn
+    version: 1.0.0
+    title: GitHub 简介
+    semantic_type: Concept
+    updated_at: 'Thu Oct 27 2016 09:19:47 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 190401
+    atoms:
+      - id: 190401
+        key: '3073678888'
+        locale: zh-cn
+        version: 1.0.0
+        title: GitHub 简介
+        semantic_type: VideoAtom
+        updated_at: 'Fri Apr 14 2017 18:21:20 GMT+0000 (UTC)'
+        is_public: true
+        tags: []
+        instructor_notes: null
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        video:
+          youtube_id: z8WHkKxxcF8
+          subtitles:
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d1b424_intro-to-github-how-to-use-git-and-github/subtitles/lang_zh-cn_vs1.srt'
+              language_code: zh-cn
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d1b424_intro-to-github-how-to-use-git-and-github/subtitles/lang_pt-br_vs10.srt'
+              language_code: pt-br
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d1b424_intro-to-github-how-to-use-git-and-github/subtitles/lang_en_vs3.srt'
+              language_code: en
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d1b424_intro-to-github-how-to-use-git-and-github/subtitles/lang_ar_vs1.srt'
+              language_code: ar
+          transcodings:
+            uri_480p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3073678888/video_08966227c5cbf9c38a73eb7b835cbf6d_480p.mp4'
+            uri_480p_1000kbps_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3073678888/video_08966227c5cbf9c38a73eb7b835cbf6d_480p_1000kbps.mp4'
+            uri_480p_ogg: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3073678888/video_08966227c5cbf9c38a73eb7b835cbf6d_480p.ogg'
+            uri_720p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3073678888/video_08966227c5cbf9c38a73eb7b835cbf6d_720p.mp4'
+            uri_hls: null
+  - id: 191553
+    key: '31056889100923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 创建 GitHub 账户
+    semantic_type: Concept
+    updated_at: 'Thu Oct 27 2016 09:19:48 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 190402
+    atoms:
+      - id: 190402
+        key: '3105688910'
+        locale: zh-cn
+        version: 1.0.0
+        title: 创建 GitHub 账户
+        semantic_type: TextAtom
+        updated_at: 'Thu Oct 27 2016 09:19:48 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          ## 创建 GitHub 账户
+          在本节课中，你将在 GitHub 上分享更改，因此，你需要使用 GitHub 帐户。如果尚没有此帐户，可以访问 <a href="https://github.com/" target="_blank">github.com</a> 并单击“注册 GitHub”来创建一个帐户。
+
+          在该网站要求你选择套餐时，可选择免费套餐，因为本课程不会使用任何付费功能。
+
+          ## 设置密码缓存
+          每次通过命令行向 GitHub 发送更改时，都需要键入密码，以证明你有权修改版本库。这可能很快会让人觉得厌烦，因此，许多人都喜欢设置密码缓存，此功能让你只需键入密码一次，以后就会自动在该计算机上填写密码。要这样做，请按照<a href="https://help.github.com/articles/caching-your-github-password-in-git" target="_blank">此处</a>的说明进行操作。如果使用 Windows 并在前面按照我们的 Git 安装说明进行操作，则你使用的是 msysgit，因此可以按照 msysgit 的说明进行操作。
+        instructor_notes: null
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+  - id: 191554
+    key: '30736788890923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 使版本库保持同步
+    semantic_type: Concept
+    updated_at: 'Thu Oct 27 2016 09:19:49 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 190403
+    atoms:
+      - id: 190403
+        key: '3073678889'
+        locale: zh-cn
+        version: 1.0.0
+        title: 使版本库保持同步
+        semantic_type: QuizAtom
+        updated_at: 'Fri Apr 14 2017 18:06:58 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: ''
+        instruction:
+          video:
+            youtube_id: 3M1m84TssMM
+            subtitles:
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d07a97_keeping-repositories-in-sync/subtitles/lang_zh-cn_vs1.srt'
+                language_code: zh-cn
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d07a97_keeping-repositories-in-sync/subtitles/lang_en_vs3.srt'
+                language_code: en
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d07a97_keeping-repositories-in-sync/subtitles/lang_ar_vs2.srt'
+                language_code: ar
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d07a97_keeping-repositories-in-sync/subtitles/lang_pt-br_vs10.srt'
+                language_code: pt-br
+            transcodings:
+              uri_480p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3073678890/video_38bdac79ad379cae6e3e409c878713e9_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3073678890/video_38bdac79ad379cae6e3e409c878713e9_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3073678890/video_38bdac79ad379cae6e3e409c878713e9_480p.ogg'
+              uri_720p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3073678890/video_38bdac79ad379cae6e3e409c878713e9_720p.mp4'
+              uri_hls: null
+          text: null
+        question:
+          title: 使版本库保持同步 - 练习
+          background_image: '//lh3.ggpht.com/uLG40mBcBTHDy7uA1OnDRPR35pxd5fLdXjvualf9LI1NruxMUiMYKCsn5VFqSl_5iJDFQqTywMO_VXiryQ=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '3073678891'
+        answer:
+          text: null
+          video:
+            youtube_id: RRgZOCbVWE8
+            subtitles:
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d1e06a_keeping-repositories-in-sync-solution-how-to-use-git-and-github/subtitles/lang_zh-cn_vs1.srt'
+                language_code: zh-cn
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d1e06a_keeping-repositories-in-sync-solution-how-to-use-git-and-github/subtitles/lang_ar_vs1.srt'
+                language_code: ar
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d1e06a_keeping-repositories-in-sync-solution-how-to-use-git-and-github/subtitles/lang_pt-br_vs8.srt'
+                language_code: pt-br
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d1e06a_keeping-repositories-in-sync-solution-how-to-use-git-and-github/subtitles/lang_en_vs3.srt'
+                language_code: en
+            transcodings:
+              uri_480p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3073678892/video_e26c3fef4fb25dbc0aae8474e2a76a8a_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3073678892/video_e26c3fef4fb25dbc0aae8474e2a76a8a_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3073678892/video_e26c3fef4fb25dbc0aae8474e2a76a8a_480p.ogg'
+              uri_720p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3073678892/video_e26c3fef4fb25dbc0aae8474e2a76a8a_720p.mp4'
+              uri_hls: null
+  - id: 191555
+    key: '30736788930923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 添加远程版本库
+    semantic_type: Concept
+    updated_at: 'Thu Oct 27 2016 09:19:50 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 190404
+    atoms:
+      - id: 190404
+        key: '3073678893'
+        locale: zh-cn
+        version: 1.0.0
+        title: 添加远程版本库
+        semantic_type: QuizAtom
+        updated_at: 'Fri Apr 14 2017 18:06:58 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |-
+          ### 复制 HTTPS URL，而不是 SSH URL！
+          在 1:29 处，Caroline 复制了版本库的 URL。视频错误地显示了要使用的 URL（如果通过 SSH 访问版本库的话）。本课程假定学生将使用 HTTPS 而不是 SSH。请单击 `HTTPS` 按钮，然后复制为 HTTPS 显示的 URL。它将以 `https://` 开头，而不是 `git@github.com` 开头。
+
+          如果对改为使用 SSH 有兴趣，可按照[此处](https://help.github.com/articles/generating-ssh-keys/) 的说明操作，但除非你已熟悉 SSH 密钥，否则不建议你这样做。
+
+          ### 分享你的思考
+          我们鼓励你勇于在 GitHub 上分享你的思考。如果你对自己的任何回答感到不满意，最好的解决方法是在一个或多个新提交中更新该回答。以前的回答在提交历史记录中仍然可见，但逐渐更新你的观点是学习过程的一部分！如果提交历史记录能显示你更新的观点，将会给你带来好评而不是差评。
+
+          也就是说，如果你在反思版本库中写了一些不愿分享的内容，则可检出在引入该更改之前进行的提交，并在此时间点新建一个分支，然后提交你愿意分享到新分支的任何其他更改。之后，通过仅推送新分支，就能将原始分支上的更改保密。
+        instruction:
+          video:
+            youtube_id: lG_lteOV1Lk
+            subtitles:
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d158c4_adding-a-remote/subtitles/lang_en_vs3.srt'
+                language_code: en
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d158c4_adding-a-remote/subtitles/lang_ar_vs1.srt'
+                language_code: ar
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d158c4_adding-a-remote/subtitles/lang_zh-cn_vs1.srt'
+                language_code: zh-cn
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d158c4_adding-a-remote/subtitles/lang_pt-br_vs9.srt'
+                language_code: pt-br
+            transcodings:
+              uri_480p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3073678894/video_39b0008dd7431cf1d4b48d0bbeb764b9_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3073678894/video_39b0008dd7431cf1d4b48d0bbeb764b9_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3073678894/video_39b0008dd7431cf1d4b48d0bbeb764b9_480p.ogg'
+              uri_720p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3073678894/video_39b0008dd7431cf1d4b48d0bbeb764b9_720p.mp4'
+              uri_hls: null
+          text: null
+        question:
+          title: 添加远程版本库 - 练习
+          background_image: '//lh6.ggpht.com/rJjXMMxZ1aj0xiln_XnJj6-a6RD40lPrFp70VLrVDzoCumtIWT6YA57lZEknF454--ln2ZUpG_I0GbSXd2VP=s0#w=1280&h=720'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '3076749193'
+        answer:
+          text: null
+          video:
+            youtube_id: I5UA_ULHnnY
+            subtitles:
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d1188a_adding-a-remote-solution-how-to-use-git-and-github/subtitles/lang_zh-cn_vs1.srt'
+                language_code: zh-cn
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d1188a_adding-a-remote-solution-how-to-use-git-and-github/subtitles/lang_en_vs3.srt'
+                language_code: en
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d1188a_adding-a-remote-solution-how-to-use-git-and-github/subtitles/lang_ar_vs1.srt'
+                language_code: ar
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d1188a_adding-a-remote-solution-how-to-use-git-and-github/subtitles/lang_pt-br_vs8.srt'
+                language_code: pt-br
+            transcodings:
+              uri_480p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3073678896/video_e24d9ab3a7675ea78f1d13d3a9d91220_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3073678896/video_e24d9ab3a7675ea78f1d13d3a9d91220_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3073678896/video_e24d9ab3a7675ea78f1d13d3a9d91220_480p.ogg'
+              uri_720p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3073678896/video_e24d9ab3a7675ea78f1d13d3a9d91220_720p.mp4'
+              uri_hls: null
+  - id: 191556
+    key: '30736788970923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 在 GitHub 上编辑文件
+    semantic_type: Concept
+    updated_at: 'Thu Oct 27 2016 09:19:51 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 190405
+    atoms:
+      - id: 190405
+        key: '3073678897'
+        locale: zh-cn
+        version: 1.0.0
+        title: 在 GitHub 上编辑文件
+        semantic_type: VideoAtom
+        updated_at: 'Fri Apr 14 2017 18:20:44 GMT+0000 (UTC)'
+        is_public: true
+        tags: []
+        instructor_notes: null
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        video:
+          youtube_id: pTFN_KLW6a4
+          subtitles:
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d1be05_editing-files-on-github-how-to-use-git-and-github/subtitles/lang_zh-cn_vs1.srt'
+              language_code: zh-cn
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d1be05_editing-files-on-github-how-to-use-git-and-github/subtitles/lang_ar_vs1.srt'
+              language_code: ar
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d1be05_editing-files-on-github-how-to-use-git-and-github/subtitles/lang_pt-br_vs10.srt'
+              language_code: pt-br
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d1be05_editing-files-on-github-how-to-use-git-and-github/subtitles/lang_en_vs3.srt'
+              language_code: en
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d1be05_editing-files-on-github-how-to-use-git-and-github/subtitles/lang_ru_vs1.srt'
+              language_code: ru
+          transcodings:
+            uri_480p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3073678897/video_8a963f716604f70e6433c62373f0d3d8_480p.mp4'
+            uri_480p_1000kbps_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3073678897/video_8a963f716604f70e6433c62373f0d3d8_480p_1000kbps.mp4'
+            uri_480p_ogg: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3073678897/video_8a963f716604f70e6433c62373f0d3d8_480p.ogg'
+            uri_720p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3073678897/video_8a963f716604f70e6433c62373f0d3d8_720p.mp4'
+            uri_hls: null
+  - id: 191557
+    key: '30552186170923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 思考：何时使用远程版本库
+    semantic_type: Concept
+    updated_at: 'Thu Oct 27 2016 09:19:51 GMT+0000 (UTC)'
+    is_public: true
+    resources:
+      files:
+        - name: lesson_3_reflection_prompts.txt
+          uri: 'https://www.udacity.com/api/nodes/3055218617/supplemental_media/lesson-3-reflection-promptstxt/download'
+      google_plus_link: null
+      career_resource_center_link: null
+      coaching_appointments_link: null
+      office_hours_link: null
+    _atoms_ids:
+      - 190406
+    atoms:
+      - id: 190406
+        key: '3055218617'
+        locale: zh-cn
+        version: 1.0.0
+        title: 思考：何时使用远程版本库
+        semantic_type: TextAtom
+        updated_at: 'Thu Oct 27 2016 09:19:51 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+
+          你可以[在这里](https://www.udacity.com/api/nodes/3055218617/supplemental_media/lesson-3-reflection-promptstxt/download?_ga=1.28274683.672083044.1467344711)下载 lesson_3_reflection_prompts.txt。
+
+          ## 在 GitHub 上进行更改
+
+          现在，你已了解如何创建远程版本库和向其推送更改，现在请**使用 GitHub 网站**为你的第 3 课思考新建一个文件，然后添加以下问题和你对它的想法。
+
+          你也可以从“辅助材料”下载文件 lesson_3_reflection_prompts.txt，在本地修改和提交它，推送到 GitHub，然后**使用 GitHub 网站**添加你的回答。
+
+          ## 思考：使用远程版本库
+          使用以下反思提示
+
+          **何时你会想使用远程版本库，而不是将所有工作保存在本地？**
+
+          提交了更改后，单击“下一项”，了解如何将这些更改更新到你自己的计算机中。
+        instructor_notes: ''
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+  - id: 191559
+    key: '30736788980923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 拉取更改
+    semantic_type: Concept
+    updated_at: 'Thu Oct 27 2016 09:19:52 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 190407
+    atoms:
+      - id: 190407
+        key: '3073678898'
+        locale: zh-cn
+        version: 1.0.0
+        title: 拉取更改
+        semantic_type: QuizAtom
+        updated_at: 'Fri Apr 14 2017 18:06:58 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: ''
+        instruction:
+          video:
+            youtube_id: 80_S5InMc-Q
+            subtitles:
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d09720_pulling-changes/subtitles/lang_zh-cn_vs1.srt'
+                language_code: zh-cn
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d09720_pulling-changes/subtitles/lang_en_vs3.srt'
+                language_code: en
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d09720_pulling-changes/subtitles/lang_ar_vs1.srt'
+                language_code: ar
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d09720_pulling-changes/subtitles/lang_pt-br_vs8.srt'
+                language_code: pt-br
+            transcodings:
+              uri_480p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3073678899/video_6e588899467f45a47fdb2e2bc5bea6cf_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3073678899/video_6e588899467f45a47fdb2e2bc5bea6cf_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3073678899/video_6e588899467f45a47fdb2e2bc5bea6cf_480p.ogg'
+              uri_720p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3073678899/video_6e588899467f45a47fdb2e2bc5bea6cf_720p.mp4'
+              uri_hls: null
+          text: null
+        question:
+          title: 拉取更改 - 练习
+          background_image: '//lh5.ggpht.com/rdFsJ42DdlWFgp98argh1ETDZPgz8f-H8x8v09LmIsZX5pQXEggXUS8l-mkcT-FklPbgrcCOgGltFJjUew=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '3108358543'
+        answer:
+          text: null
+          video:
+            youtube_id: 7SOB1HkvY5w
+            subtitles:
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d09604_pulling-changes-solution-how-to-use-git-and-github/subtitles/lang_zh-cn_vs1.srt'
+                language_code: zh-cn
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d09604_pulling-changes-solution-how-to-use-git-and-github/subtitles/lang_en_vs3.srt'
+                language_code: en
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d09604_pulling-changes-solution-how-to-use-git-and-github/subtitles/lang_ar_vs1.srt'
+                language_code: ar
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d09604_pulling-changes-solution-how-to-use-git-and-github/subtitles/lang_pt-br_vs8.srt'
+                language_code: pt-br
+            transcodings:
+              uri_480p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3103658641/video_e09c42bd3d6737ab23fbe50064692739_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3103658641/video_e09c42bd3d6737ab23fbe50064692739_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3103658641/video_e09c42bd3d6737ab23fbe50064692739_480p.ogg'
+              uri_720p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3103658641/video_e09c42bd3d6737ab23fbe50064692739_720p.mp4'
+              uri_hls: null
+  - id: 191558
+    key: '31546885350923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 概念图：GitHub、Push、Pull、Remote
+    semantic_type: Concept
+    updated_at: 'Thu Oct 27 2016 09:19:53 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 190408
+    atoms:
+      - id: 190408
+        key: '3154688535'
+        locale: zh-cn
+        version: 1.0.0
+        title: 概念图：GitHub、Push、Pull、Remote
+        semantic_type: QuizAtom
+        updated_at: 'Fri Apr 14 2017 18:05:10 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: ''
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: |-
+            ## 概念图：GitHub、Push、Pull、Remote
+            自我们上次再次查看概念图以来，我们引入了一些新概念。
+            * GitHub  
+            * git push  git 推送
+            * git pull  git 拉取
+            * remote   远程
+
+            ### 以前的版本
+            下面是我们上次添加新概念时，概念图的样子。
+
+            ![Concept Map from last time](//lh5.ggpht.com/Z28RbAv_05Kk0yYk3MSBNqMIM8zRWSLL4rTmhwnX4oQ8Xwt30mndbKJT2vJ8bATFAiDomLL3O2VgUD2VUrk=s300)
+
+            ### 新概念要放在哪儿？
+            由于剩余的屏幕空间不多，因此，我们删除了上一课中与将在本课中出现的新概念并未紧密关联的一些概念，并为新概念添加了相应的节点。
+
+            ![Concept Map with blanks](//lh3.ggpht.com/6cQ5xH6wnhnVXUanc5R2HE0-ayTaL-4eApx7F2D7gPiRCMmFET3lXH_WiC2GpU6yZm-RwNwA_v69TPZkJK0=s300#w=1800&h=1012)
+
+            在下面的练习中，在每个新的空白节点内填写你认为属于该节点的概念。
+
+            请记住此概念图是主观创作的，因此，上图中的内容可能与你的概念图并不完全相符；请随意画出你看到的这些概念之间的联系，并将你的版本发布到论坛上！
+        question:
+          title: 概念图：GitHub、Push、Pull、Remote 练习
+          background_image: '//lh6.ggpht.com/HGYkm5V81yvZaBYD3FAc2-BqACiClQO7qR0FUL59AhFDb00RaLUiyjuHJMgAei0nTohs5WVxyAMf0ltMKOzi=s0#w=1440&h=768'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '3121718552'
+        answer:
+          text: null
+          video:
+            youtube_id: MunT2MvcO04
+            subtitles:
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/November/5820e16c_cm-github/subtitles/lang_en_vs3.srt'
+                language_code: en
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/November/5820e16c_cm-github/subtitles/lang_zh-cn_vs1.srt'
+                language_code: zh-cn
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/November/5820e16c_cm-github/subtitles/lang_ar_vs1.srt'
+                language_code: ar
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/November/5820e16c_cm-github/subtitles/lang_pt-br_vs8.srt'
+                language_code: pt-br
+            transcodings:
+              uri_480p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3154688536/video_a23cedc0ac4d1fd22bdfebca1d4c9e8d_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3154688536/video_a23cedc0ac4d1fd22bdfebca1d4c9e8d_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3154688536/video_a23cedc0ac4d1fd22bdfebca1d4c9e8d_480p.ogg'
+              uri_720p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3154688536/video_a23cedc0ac4d1fd22bdfebca1d4c9e8d_720p.mp4'
+              uri_hls: null
+  - id: 191561
+    key: '30858987000923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 思考：手动与自动拉取
+    semantic_type: Concept
+    updated_at: 'Thu Oct 27 2016 09:19:55 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 190409
+    atoms:
+      - id: 190409
+        key: '3085898700'
+        locale: zh-cn
+        version: 1.0.0
+        title: 思考：手动与自动拉取
+        semantic_type: TextAtom
+        updated_at: 'Thu Oct 27 2016 09:19:54 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          ## 思考：手动与自动拉取
+          现在，既然你已将更改推送到 GitHub 并从 GitHub 拉取了更改，现在请将以下问题和你对它的想法添加到你的思考文件中：
+
+          **为何你希望始终手动地拉取更改，而不是让 Git 自动与你的远程版本库保持同步？**
+
+          你可能还要提交和推送更改。在你完成时，单击“下一项”，Sarah 会说明在你想将更改分享到版本库但无权修改原始版本库时应该怎么做。
+        instructor_notes: null
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+  - id: 191560
+    key: '30736789010923'
+    locale: zh-cn
+    version: 1.0.0
+    title: Fork版本库
+    semantic_type: Concept
+    updated_at: 'Thu Oct 27 2016 09:19:56 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 190410
+    atoms:
+      - id: 190410
+        key: '3073678901'
+        locale: zh-cn
+        version: 1.0.0
+        title: Fork版本库
+        semantic_type: QuizAtom
+        updated_at: 'Fri Apr 14 2017 18:06:58 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: ''
+        instruction:
+          video:
+            youtube_id: D2j0zebizdw
+            subtitles:
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d0af0e_forking-a-repository-how-to-use-git-and-github/subtitles/lang_zh-cn_vs1.srt'
+                language_code: zh-cn
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d0af0e_forking-a-repository-how-to-use-git-and-github/subtitles/lang_en_vs3.srt'
+                language_code: en
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d0af0e_forking-a-repository-how-to-use-git-and-github/subtitles/lang_ar_vs1.srt'
+                language_code: ar
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d0af0e_forking-a-repository-how-to-use-git-and-github/subtitles/lang_pt-br_vs8.srt'
+                language_code: pt-br
+            transcodings:
+              uri_480p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3073678902/video_9abaefab64d2f1e4fddbeb670719b8e8_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3073678902/video_9abaefab64d2f1e4fddbeb670719b8e8_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3073678902/video_9abaefab64d2f1e4fddbeb670719b8e8_480p.ogg'
+              uri_720p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3073678902/video_9abaefab64d2f1e4fddbeb670719b8e8_720p.mp4'
+              uri_hls: null
+          text: null
+        question:
+          title: Fork版本库 练习
+          background_image: '//lh3.ggpht.com/dbSqyncHJ0Yh-ctVLXRS1bgHKLVOPvMws9OtJT9ABI-u8mpwAEftdRnnk-Y8RopkFGub6sPZpajhto-axYA=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '3073678903'
+        answer:
+          text: null
+          video:
+            youtube_id: ggsC5J5QGSk
+            subtitles:
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d0f2b3_forking-a-repository-solution-how-to-use-git-and-github/subtitles/lang_zh-cn_vs1.srt'
+                language_code: zh-cn
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d0f2b3_forking-a-repository-solution-how-to-use-git-and-github/subtitles/lang_en_vs3.srt'
+                language_code: en
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d0f2b3_forking-a-repository-solution-how-to-use-git-and-github/subtitles/lang_ar_vs1.srt'
+                language_code: ar
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d0f2b3_forking-a-repository-solution-how-to-use-git-and-github/subtitles/lang_pt-br_vs8.srt'
+                language_code: pt-br
+            transcodings:
+              uri_480p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3073678904/video_13d04b8bde75ff14765e6f0e77148041_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3073678904/video_13d04b8bde75ff14765e6f0e77148041_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3073678904/video_13d04b8bde75ff14765e6f0e77148041_480p.ogg'
+              uri_720p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3073678904/video_13d04b8bde75ff14765e6f0e77148041_720p.mp4'
+              uri_hls: null
+  - id: 191562
+    key: '30736789050923'
+    locale: zh-cn
+    version: 1.0.0
+    title: Fork菜谱版本库
+    semantic_type: Concept
+    updated_at: 'Thu Oct 27 2016 09:19:56 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 190411
+    atoms:
+      - id: 190411
+        key: '3073678905'
+        locale: zh-cn
+        version: 1.0.0
+        title: Fork菜谱版本库
+        semantic_type: QuizAtom
+        updated_at: 'Fri Apr 14 2017 18:06:58 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: 'Larry 在 GitHub 上的菜谱版本库可以在<a href="https://github.com/LarryMad/recipes" target="_blank">这里</a>找到哦。'
+        instruction:
+          video:
+            youtube_id: TqijtjNWIw4
+            subtitles:
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d26d7d_fork-the-recipes-repository-how-to-use-git-and-github/subtitles/lang_pt-br_vs8.srt'
+                language_code: pt-br
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d26d7d_fork-the-recipes-repository-how-to-use-git-and-github/subtitles/lang_en_vs3.srt'
+                language_code: en
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d26d7d_fork-the-recipes-repository-how-to-use-git-and-github/subtitles/lang_ar_vs1.srt'
+                language_code: ar
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d26d7d_fork-the-recipes-repository-how-to-use-git-and-github/subtitles/lang_zh-cn_vs1.srt'
+                language_code: zh-cn
+            transcodings:
+              uri_480p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3073678906/video_8b7d4f76e9523c67b5f07aec2df44637_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3073678906/video_8b7d4f76e9523c67b5f07aec2df44637_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3073678906/video_8b7d4f76e9523c67b5f07aec2df44637_480p.ogg'
+              uri_720p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3073678906/video_8b7d4f76e9523c67b5f07aec2df44637_720p.mp4'
+              uri_hls: null
+          text: null
+        question:
+          title: Fork菜谱版本库 练习
+          background_image: '//lh3.ggpht.com/RlQotNSm7TdyStWtClHoE3j8ymyCZnBteXEeraqt7U6hvXBNbQl9hVIrmrl-_ahu-u20gU2QJf4R9e6A6mk=s0#w=1280&h=720'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '3070578673'
+        answer:
+          text: null
+          video:
+            youtube_id: ftgkXJtfzLA
+            subtitles:
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d0e7ad_fork-the-recipes-repository-solution-how-to-use-git-and-github/subtitles/lang_zh-cn_vs1.srt'
+                language_code: zh-cn
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d0e7ad_fork-the-recipes-repository-solution-how-to-use-git-and-github/subtitles/lang_en_vs3.srt'
+                language_code: en
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d0e7ad_fork-the-recipes-repository-solution-how-to-use-git-and-github/subtitles/lang_ar_vs1.srt'
+                language_code: ar
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d0e7ad_fork-the-recipes-repository-solution-how-to-use-git-and-github/subtitles/lang_pt-br_vs8.srt'
+                language_code: pt-br
+            transcodings:
+              uri_480p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3073678908/video_d10ea81d016bd2d88a9b5bc41a0ab51b_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3073678908/video_d10ea81d016bd2d88a9b5bc41a0ab51b_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3073678908/video_d10ea81d016bd2d88a9b5bc41a0ab51b_480p.ogg'
+              uri_720p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3073678908/video_d10ea81d016bd2d88a9b5bc41a0ab51b_720p.mp4'
+              uri_hls: null
+  - id: 191563
+    key: '30770389910923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 推送更改到菜谱版本库
+    semantic_type: Concept
+    updated_at: 'Thu Oct 27 2016 09:19:57 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 190412
+    atoms:
+      - id: 190412
+        key: '3077038991'
+        locale: zh-cn
+        version: 1.0.0
+        title: 推送更改到菜谱版本库
+        semantic_type: QuizAtom
+        updated_at: 'Thu Oct 27 2016 09:19:57 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: ''
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: |-
+            ## 向版本库添加新菜谱
+            在你自己的计算机上，为你喜欢的食物添加新配方，然后在 master 分支上提交它。
+
+            ## 推送更改
+            将 master 分支推送到你的Fork版本库。完成后，继续查看下一个屏幕，回答有关你的提交在不同的时间点位于何处的问题。
+        question:
+          title: 推送更改到菜谱版本库 练习
+          background_image: '//lh3.ggpht.com/uU2-Ds7z_Z6JEFDYMDqI_ptVq0kVMfgIc6Yb_49jh1Dxh5KInG1oMjGdwXhgPjYJ84kOaym1ZR4ZoiFoKvc=s0#w=1440&h=810'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '3067699175'
+        answer:
+          text: |-
+            ## 你的提交在哪里？
+            在运行 `git push` 之前，通过 `git log` 可以看到，你的更改仅应在本地存在。提交不会自动分享到远程版本库——如果想分享更改，必须手动推送你的分支。
+
+            运行 `git push` 后，你的更改应在本地和Fork上存在，但不应在 Larry 的版本库（你已将其Fork的版本库）上存在。你在第一个地方Fork的原因是，你无权更改 Larry 的版本库！
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 191565
+    key: '30562886740923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 思考：Fork、克隆和分支
+    semantic_type: Concept
+    updated_at: 'Thu Oct 27 2016 09:19:58 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 190413
+    atoms:
+      - id: 190413
+        key: '3056288674'
+        locale: zh-cn
+        version: 1.0.0
+        title: 思考：Fork、克隆和分支
+        semantic_type: TextAtom
+        updated_at: 'Thu Oct 27 2016 09:19:57 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          ## 思考：Fork、克隆和分支
+          现在，你已了解如何通过将 GitHub 上的版本库Fork来创建其副本，现在请将以下问题和你对它的想法添加到你的反思文件中：
+
+          **说明Fork、克隆和分支之间的不同。何时使用某种功能而不是另一种？**
+
+          你可能还要提交和推送更改。在你完成时，单击“下一项”。
+        instructor_notes: null
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+  - id: 191564
+    key: '31066486190923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 协作引发冲突
+    semantic_type: Concept
+    updated_at: 'Thu Oct 27 2016 09:19:58 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 190414
+    atoms:
+      - id: 190414
+        key: '3106648619'
+        locale: zh-cn
+        version: 1.0.0
+        title: 协作引发冲突
+        semantic_type: VideoAtom
+        updated_at: 'Fri Apr 14 2017 18:20:44 GMT+0000 (UTC)'
+        is_public: true
+        tags: []
+        instructor_notes: null
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        video:
+          youtube_id: fc5ZYpEnVAQ
+          subtitles:
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d0dc94_collaborations-cause-conflict/subtitles/lang_zh-cn_vs1.srt'
+              language_code: zh-cn
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d0dc94_collaborations-cause-conflict/subtitles/lang_en_vs3.srt'
+              language_code: en
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d0dc94_collaborations-cause-conflict/subtitles/lang_ar_vs1.srt'
+              language_code: ar
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d0dc94_collaborations-cause-conflict/subtitles/lang_pt-br_vs8.srt'
+              language_code: pt-br
+          transcodings:
+            uri_480p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3106648619/video_86487a34e59d703a271fcd489175ab3e_480p.mp4'
+            uri_480p_1000kbps_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3106648619/video_86487a34e59d703a271fcd489175ab3e_480p_1000kbps.mp4'
+            uri_480p_ogg: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3106648619/video_86487a34e59d703a271fcd489175ab3e_480p.ogg'
+            uri_720p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3106648619/video_86487a34e59d703a271fcd489175ab3e_720p.mp4'
+            uri_hls: null
+  - id: 191567
+    key: '30961886550923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 修改 Chili 菜谱
+    semantic_type: Concept
+    updated_at: 'Thu Oct 27 2016 09:19:59 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 190416
+    atoms:
+      - id: 190416
+        key: '3096188655'
+        locale: zh-cn
+        version: 1.0.0
+        title: 修改 Chili 菜谱
+        semantic_type: QuizAtom
+        updated_at: 'Fri Apr 14 2017 18:06:58 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: ''
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 修改 Chili 菜谱 练习
+          background_image: '//lh5.ggpht.com/3SK_8yodbpRRnnwJB2CYArn8ern3C6gMO-vMCG2WsOEyrnexHyC3fjB5rCBcJa2vz_pnODhKg7YFqhjLKA=s0#w=1440&h=810'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '3089628869'
+        answer:
+          text: null
+          video:
+            youtube_id: AATAI1YD0OM
+            subtitles:
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d09ee0_change-the-chili-recipe-solution-how-to-use-git-and-github/subtitles/lang_zh-cn_vs1.srt'
+                language_code: zh-cn
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d09ee0_change-the-chili-recipe-solution-how-to-use-git-and-github/subtitles/lang_en_vs3.srt'
+                language_code: en
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d09ee0_change-the-chili-recipe-solution-how-to-use-git-and-github/subtitles/lang_ar_vs1.srt'
+                language_code: ar
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d09ee0_change-the-chili-recipe-solution-how-to-use-git-and-github/subtitles/lang_pt-br_vs8.srt'
+                language_code: pt-br
+            transcodings:
+              uri_480p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3073678910/video_e4da8b09a097e294464b1447b8565ff5_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3073678910/video_e4da8b09a097e294464b1447b8565ff5_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3073678910/video_e4da8b09a097e294464b1447b8565ff5_480p.ogg'
+              uri_720p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3073678910/video_e4da8b09a097e294464b1447b8565ff5_720p.mp4'
+              uri_hls: null
+  - id: 191566
+    key: '31181385440923'
+    locale: zh-cn
+    version: 1.0.0
+    title: Sarah 修改 Chili 菜谱
+    semantic_type: Concept
+    updated_at: 'Thu Oct 27 2016 09:20:00 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 190415
+    atoms:
+      - id: 190415
+        key: '3118138544'
+        locale: zh-cn
+        version: 1.0.0
+        title: Sarah 修改 Chili 菜谱
+        semantic_type: VideoAtom
+        updated_at: 'Fri Apr 14 2017 18:20:50 GMT+0000 (UTC)'
+        is_public: true
+        tags: []
+        instructor_notes: null
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        video:
+          youtube_id: nEk_Bx0FmOw
+          subtitles:
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d1810e_sarah-changes-the-chili-recipe-how-to-use-git-and-github/subtitles/lang_zh-cn_vs1.srt'
+              language_code: zh-cn
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d1810e_sarah-changes-the-chili-recipe-how-to-use-git-and-github/subtitles/lang_ar_vs1.srt'
+              language_code: ar
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d1810e_sarah-changes-the-chili-recipe-how-to-use-git-and-github/subtitles/lang_pt-br_vs8.srt'
+              language_code: pt-br
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d1810e_sarah-changes-the-chili-recipe-how-to-use-git-and-github/subtitles/lang_en_vs3.srt'
+              language_code: en
+          transcodings:
+            uri_480p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3118138544/video_e19bd2858d087aed77d277d1d8e3eccc_480p.mp4'
+            uri_480p_1000kbps_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3118138544/video_e19bd2858d087aed77d277d1d8e3eccc_480p_1000kbps.mp4'
+            uri_480p_ogg: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3118138544/video_e19bd2858d087aed77d277d1d8e3eccc_480p.ogg'
+            uri_720p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3118138544/video_e19bd2858d087aed77d277d1d8e3eccc_720p.mp4'
+            uri_hls: null
+  - id: 191568
+    key: '30605691150923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 模拟 Sarah 的更改
+    semantic_type: Concept
+    updated_at: 'Thu Oct 27 2016 09:20:01 GMT+0000 (UTC)'
+    is_public: true
+    resources:
+      files:
+        - name: sarah_changes.sh
+          uri: 'https://www.udacity.com/api/nodes/3108878699/supplemental_media/sarah-changessh/download'
+      google_plus_link: null
+      career_resource_center_link: null
+      coaching_appointments_link: null
+      office_hours_link: null
+    _atoms_ids:
+      - 190418
+    atoms:
+      - id: 190418
+        key: '3060569115'
+        locale: zh-cn
+        version: 1.0.0
+        title: 模拟 Sarah 的更改
+        semantic_type: QuizAtom
+        updated_at: 'Thu Oct 27 2016 09:20:00 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: '<br>你可以[在这里](https://www.udacity.com/api/nodes/3108878699/supplemental_media/sarah-changessh/download?_ga=1.34385894.672083044.1467344711)下载 `sarah_changes.sh`。'
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: |-
+            ## 模拟 Sarah 的更改
+            在“辅助材料”部分中，有一个名为 `sarah_changes.sh` 的文件，它包含了代码，看起来像是 Sarah 修改了你在 GitHub 上的Fork。要运行此代码，请下载该文件，然后使用 Git Bash 或终端键入 `cd`，以切换到该文件的保存目录。然后，键入 `bash sarah_changes.sh`（后跟一个空格和Fork的 URL）。例如，如果 Caroline 要运行该代码，她将键入 `bash sarah_changes.sh https://github.com/cbuckey-uda/recipes.git`，但你应使用你的Fork而不是 Caroline 的Fork的 URL。如果你没有设置密码缓存，系统会提示你输入 GitHub 用户名和密码。
+        question:
+          title: 模拟 Sarah 的更改 练习
+          background_image: '//lh3.ggpht.com/Uh0tG7o1lYJ3quixG8DwJ9Ytf21-YYsvQgAeL3v0ewsYt4gXk1ZahVYgbV6mpQJriFqwADN1Lrs1HuZSeJo=s0#w=1440&h=810'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '3103208837'
+        answer:
+          text: |-
+            ## 哪些提交在哪里？
+            Larry 为添加辣椒配方进行的提交应在两个地方都存在，因为在你将其Fork之前它已在原始版本库中存在。你为添加一种新香料进行的提交仅应在本地存在，因为你在本地进行此提交，但未推送它。Sarah 为删除小茴香进行的提交仅应在 GitHub 上存在，因为 Sarah 进行该更改并将其推送到 GitHub，但你尚未拉取它。
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 191571
+    key: '33526188150923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 更新远程分支的本地副本
+    semantic_type: Concept
+    updated_at: 'Thu Oct 27 2016 09:20:01 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 190417
+    atoms:
+      - id: 190417
+        key: '3352618815'
+        locale: zh-cn
+        version: 1.0.0
+        title: 更新远程分支的本地副本
+        semantic_type: QuizAtom
+        updated_at: 'Fri Apr 14 2017 18:05:10 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: ''
+        instruction:
+          video:
+            youtube_id: k6pxsaXAhbI
+            subtitles:
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d13f1d_updating-local-copies-of-remote-branches-how-to-use-git-and-github/subtitles/lang_zh-cn_vs1.srt'
+                language_code: zh-cn
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d13f1d_updating-local-copies-of-remote-branches-how-to-use-git-and-github/subtitles/lang_en_vs3.srt'
+                language_code: en
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d13f1d_updating-local-copies-of-remote-branches-how-to-use-git-and-github/subtitles/lang_ar_vs1.srt'
+                language_code: ar
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d13f1d_updating-local-copies-of-remote-branches-how-to-use-git-and-github/subtitles/lang_pt-br_vs8.srt'
+                language_code: pt-br
+            transcodings:
+              uri_480p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3349118635/video_f92e6948c9bea5c23950ec9be0427d22_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3349118635/video_f92e6948c9bea5c23950ec9be0427d22_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3349118635/video_f92e6948c9bea5c23950ec9be0427d22_480p.ogg'
+              uri_720p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3349118635/video_f92e6948c9bea5c23950ec9be0427d22_720p.mp4'
+              uri_hls: null
+          text: null
+        question:
+          title: 更新远程分支的本地副本 练习
+          background_image: '//lh5.ggpht.com/TQ7baf5NDmEg9WrFUfGAz0nZf9ekdQQgJuc-lnknMgD3zxioV1Iyzr2GsxgGB-NG9mhZ7EzbQikd9DAKFw=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '3338188581'
+        answer:
+          text: null
+          video:
+            youtube_id: lA_drnU1TMI
+            subtitles:
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57cfb566_local-copies-of-remote-branches-solution-how-to-use-git-and-github/subtitles/lang_pt-br_vs8.srt'
+                language_code: pt-br
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57cfb566_local-copies-of-remote-branches-solution-how-to-use-git-and-github/subtitles/lang_en_vs3.srt'
+                language_code: en
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57cfb566_local-copies-of-remote-branches-solution-how-to-use-git-and-github/subtitles/lang_zh-cn_vs1.srt'
+                language_code: zh-cn
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57cfb566_local-copies-of-remote-branches-solution-how-to-use-git-and-github/subtitles/lang_fr_vs1.srt'
+                language_code: fr
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57cfb566_local-copies-of-remote-branches-solution-how-to-use-git-and-github/subtitles/lang_ar_vs1.srt'
+                language_code: ar
+            transcodings:
+              uri_480p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3316238607/video_48217533d8303133d235578f2488bc72_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3316238607/video_48217533d8303133d235578f2488bc72_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3316238607/video_48217533d8303133d235578f2488bc72_480p.ogg'
+              uri_720p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3316238607/video_48217533d8303133d235578f2488bc72_720p.mp4'
+              uri_hls: null
+  - id: 191570
+    key: '30736789110923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 合并更改
+    semantic_type: Concept
+    updated_at: 'Thu Oct 27 2016 09:20:02 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 190419
+    atoms:
+      - id: 190419
+        key: '3073678911'
+        locale: zh-cn
+        version: 1.0.0
+        title: 合并更改
+        semantic_type: QuizAtom
+        updated_at: 'Fri Apr 14 2017 18:06:58 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: ''
+        instruction:
+          video:
+            youtube_id: f4FMqaZkPiY
+            subtitles:
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d0d960_new-merging-the-changes-together-2/subtitles/lang_zh-cn_vs1.srt'
+                language_code: zh-cn
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d0d960_new-merging-the-changes-together-2/subtitles/lang_en_vs3.srt'
+                language_code: en
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d0d960_new-merging-the-changes-together-2/subtitles/lang_ar_vs1.srt'
+                language_code: ar
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d0d960_new-merging-the-changes-together-2/subtitles/lang_pt-br_vs8.srt'
+                language_code: pt-br
+            transcodings:
+              uri_480p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3073678912/video_c4f2141c45ab2c0f62b735119bf134e2_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3073678912/video_c4f2141c45ab2c0f62b735119bf134e2_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3073678912/video_c4f2141c45ab2c0f62b735119bf134e2_480p.ogg'
+              uri_720p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3073678912/video_c4f2141c45ab2c0f62b735119bf134e2_720p.mp4'
+              uri_hls: null
+          text: null
+        question:
+          title: 合并更改 练习
+          background_image: '//lh6.ggpht.com/WkG9mOXIHjuLp4Ss8htr9q6Loq9uJvxSM2OsCRx3m2t5E0wrxgKcXT_fRLDWEvjhrzNUqdm4uyPOdPHxLAQ=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '3054868928'
+        answer:
+          text: null
+          video:
+            youtube_id: PkIqG_yEeZY
+            subtitles:
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d1b924_merging-the-changes-together-solution-how-to-use-git-and-github/subtitles/lang_zh-cn_vs1.srt'
+                language_code: zh-cn
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d1b924_merging-the-changes-together-solution-how-to-use-git-and-github/subtitles/lang_pt-br_vs8.srt'
+                language_code: pt-br
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d1b924_merging-the-changes-together-solution-how-to-use-git-and-github/subtitles/lang_ar_vs1.srt'
+                language_code: ar
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d1b924_merging-the-changes-together-solution-how-to-use-git-and-github/subtitles/lang_en_vs3.srt'
+                language_code: en
+            transcodings:
+              uri_480p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3073678914/video_abfbffc5e35f578c44da30acd68a2791_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3073678914/video_abfbffc5e35f578c44da30acd68a2791_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3073678914/video_abfbffc5e35f578c44da30acd68a2791_480p.ogg'
+              uri_720p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3073678914/video_abfbffc5e35f578c44da30acd68a2791_720p.mp4'
+              uri_hls: null
+  - id: 191569
+    key: '31325585440923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 快进合并
+    semantic_type: Concept
+    updated_at: 'Thu Oct 27 2016 09:20:03 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 190420
+    atoms:
+      - id: 190420
+        key: '3132558544'
+        locale: zh-cn
+        version: 1.0.0
+        title: 快进合并
+        semantic_type: QuizAtom
+        updated_at: 'Fri Apr 14 2017 18:06:57 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: ''
+        instruction:
+          video:
+            youtube_id: _4JdLEhxlBQ
+            subtitles:
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d09bbf_fast-forward-merges-how-to-use-git-and-github/subtitles/lang_zh-cn_vs1.srt'
+                language_code: zh-cn
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d09bbf_fast-forward-merges-how-to-use-git-and-github/subtitles/lang_en_vs3.srt'
+                language_code: en
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d09bbf_fast-forward-merges-how-to-use-git-and-github/subtitles/lang_ar_vs1.srt'
+                language_code: ar
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d09bbf_fast-forward-merges-how-to-use-git-and-github/subtitles/lang_pt-br_vs8.srt'
+                language_code: pt-br
+            transcodings:
+              uri_480p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3154718535/video_e99bfff45816168e47a50f45c0fed7cf_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3154718535/video_e99bfff45816168e47a50f45c0fed7cf_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3154718535/video_e99bfff45816168e47a50f45c0fed7cf_480p.ogg'
+              uri_720p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3154718535/video_e99bfff45816168e47a50f45c0fed7cf_720p.mp4'
+              uri_hls: null
+          text: null
+        question:
+          title: 快进合并 练习
+          background_image: '//lh4.ggpht.com/BqZg210SgBUXROON-WoUKO6pAS7e_MewfEnie6bXHVfM5LzzxqGfpcv6IMRsUkaLw6QogEWIgm-djsFuDqg=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '3148978536'
+        answer:
+          text: null
+          video:
+            youtube_id: CN2Y5JCMgf0
+            subtitles:
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d0ac06_fast-forward-merges-solution-how-to-use-git-and-github/subtitles/lang_zh-cn_vs1.srt'
+                language_code: zh-cn
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d0ac06_fast-forward-merges-solution-how-to-use-git-and-github/subtitles/lang_en_vs3.srt'
+                language_code: en
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d0ac06_fast-forward-merges-solution-how-to-use-git-and-github/subtitles/lang_ar_vs1.srt'
+                language_code: ar
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d0ac06_fast-forward-merges-solution-how-to-use-git-and-github/subtitles/lang_pt-br_vs8.srt'
+                language_code: pt-br
+            transcodings:
+              uri_480p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3144308536/video_eb0915b62a9821c49a92ce6400f63130_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3144308536/video_eb0915b62a9821c49a92ce6400f63130_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3144308536/video_eb0915b62a9821c49a92ce6400f63130_480p.ogg'
+              uri_720p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3144308536/video_eb0915b62a9821c49a92ce6400f63130_720p.mp4'
+              uri_hls: null
+  - id: 191572
+    key: '31057586000923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 思考：远程分支的本地副本
+    semantic_type: Concept
+    updated_at: 'Thu Oct 27 2016 09:20:04 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 190421
+    atoms:
+      - id: 190421
+        key: '3105758600'
+        locale: zh-cn
+        version: 1.0.0
+        title: 思考：远程分支的本地副本
+        semantic_type: TextAtom
+        updated_at: 'Thu Oct 27 2016 09:20:04 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          ## 思考：远程分支的本地副本
+          现在，你已了解如何更新远程分支的本地副本，以及如何合并来自多个人的冲突性更改，现在请将以下问题和你对它的想法添加到你的思考文件中：
+
+          **拥有远程分支的上次已知状态的副本（存储在本地）有何好处？**
+
+          你可能还要提交和推送更改。在你完成时，单击“下一项”，Caroline 会介绍一项名为拉取请求（Pull Request）的 GitHub 功能（它可让协同变得更轻松）。
+        instructor_notes: null
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+  - id: 191573
+    key: '33282286200923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 创建拉取请求
+    semantic_type: Concept
+    updated_at: 'Thu Oct 27 2016 09:20:05 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 190422
+    atoms:
+      - id: 190422
+        key: '3328228620'
+        locale: zh-cn
+        version: 1.0.0
+        title: 创建拉取请求
+        semantic_type: QuizAtom
+        updated_at: 'Fri Apr 14 2017 18:06:58 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |-
+          ### 说明
+          假设你在已检出本地 `master` 分支的情况下按顺序运行指定的每条命令。请选中该命令会在其中更改文件的每个位置（工作目录、暂存区、本地 `master` 或 GitHub `master`）。
+
+          Sarah 无意中说道，在运行 `git pull origin master` 时，唯一会改变的是本地 master。但是，在运行 `git pull` 时，工作目录和暂存区也会更新。因此，在运行 `git pull` 时，不仅看到 `git log` 的输出会更新，还将看到你的文件会更新。
+        instruction:
+          video:
+            youtube_id: 2Z1tK3Q7Y6I
+            subtitles:
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d07864_making-a-pull-request/subtitles/lang_zh-cn_vs1.srt'
+                language_code: zh-cn
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d07864_making-a-pull-request/subtitles/lang_en_vs3.srt'
+                language_code: en
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d07864_making-a-pull-request/subtitles/lang_ar_vs2.srt'
+                language_code: ar
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d07864_making-a-pull-request/subtitles/lang_pt-br_vs8.srt'
+                language_code: pt-br
+            transcodings:
+              uri_480p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3360158581/video_37d06d05678f0f0ce9027380bcc54c23_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3360158581/video_37d06d05678f0f0ce9027380bcc54c23_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3360158581/video_37d06d05678f0f0ce9027380bcc54c23_480p.ogg'
+              uri_720p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3360158581/video_37d06d05678f0f0ce9027380bcc54c23_720p.mp4'
+              uri_hls: null
+          text: null
+        question:
+          title: 创建拉取请求 练习
+          background_image: '//lh5.ggpht.com/8leTny7EucMOfPgbVfXUP4bGrKRb81M8KvJ3YcTBL-PJgE7v9GqyBJQUFoTnE4OYR7SNqK8DqmbJtN48t1s=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '3332908605'
+        answer:
+          text: null
+          video:
+            youtube_id: jOMom5aUfDM
+            subtitles:
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d13641_making-a-pull-request-solution-how-to-use-git-and-github/subtitles/lang_zh-cn_vs1.srt'
+                language_code: zh-cn
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d13641_making-a-pull-request-solution-how-to-use-git-and-github/subtitles/lang_en_vs3.srt'
+                language_code: en
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d13641_making-a-pull-request-solution-how-to-use-git-and-github/subtitles/lang_ar_vs1.srt'
+                language_code: ar
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d13641_making-a-pull-request-solution-how-to-use-git-and-github/subtitles/lang_pt-br_vs8.srt'
+                language_code: pt-br
+            transcodings:
+              uri_480p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3307938831/video_25d0859ac277ac46a0385855de4fce1f_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3307938831/video_25d0859ac277ac46a0385855de4fce1f_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3307938831/video_25d0859ac277ac46a0385855de4fce1f_480p.ogg'
+              uri_720p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3307938831/video_25d0859ac277ac46a0385855de4fce1f_720p.mp4'
+              uri_hls: null
+  - id: 191574
+    key: '33665085530923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 更新拉取请求
+    semantic_type: Concept
+    updated_at: 'Thu Oct 27 2016 09:20:06 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 190423
+    atoms:
+      - id: 190423
+        key: '3366508553'
+        locale: zh-cn
+        version: 1.0.0
+        title: 更新拉取请求
+        semantic_type: QuizAtom
+        updated_at: 'Fri Apr 14 2017 18:05:09 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: ''
+        instruction:
+          video:
+            youtube_id: kPgFzSJEbU4
+            subtitles:
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d14aa9_updated-updating-a-pull-request/subtitles/lang_pt-br_vs8.srt'
+                language_code: pt-br
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d14aa9_updated-updating-a-pull-request/subtitles/lang_ar_vs1.srt'
+                language_code: ar
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d14aa9_updated-updating-a-pull-request/subtitles/lang_en_vs3.srt'
+                language_code: en
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d14aa9_updated-updating-a-pull-request/subtitles/lang_zh-cn_vs1.srt'
+                language_code: zh-cn
+            transcodings:
+              uri_480p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3353378636/video_728e84e4043bcdecc64e265e342d908e_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3353378636/video_728e84e4043bcdecc64e265e342d908e_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3353378636/video_728e84e4043bcdecc64e265e342d908e_480p.ogg'
+              uri_720p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3353378636/video_728e84e4043bcdecc64e265e342d908e_720p.mp4'
+              uri_hls: null
+          text: null
+        question:
+          title: 更新拉取请求 练习
+          background_image: '//lh6.ggpht.com/9cXIHgAcWd6x3uUCi5m5CKbyV2HCE5pVLqyUwRb3dvSWGAD-gxMuYDw1-vq4a207SEuMRTlaJT0XiIrla34=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '3328688823'
+        answer:
+          text: null
+          video:
+            youtube_id: V3EnuKwnXMo
+            subtitles:
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d1ac2a_new-updating-a-pull-request-solution/subtitles/lang_zh-cn_vs1.srt'
+                language_code: zh-cn
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d1ac2a_new-updating-a-pull-request-solution/subtitles/lang_en_vs3.srt'
+                language_code: en
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d1ac2a_new-updating-a-pull-request-solution/subtitles/lang_ar_vs1.srt'
+                language_code: ar
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d1ac2a_new-updating-a-pull-request-solution/subtitles/lang_pt-br_vs10.srt'
+                language_code: pt-br
+            transcodings:
+              uri_480p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3321298770/video_575ac7ac66d9bb8306913aa6419fe4fe_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3321298770/video_575ac7ac66d9bb8306913aa6419fe4fe_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3321298770/video_575ac7ac66d9bb8306913aa6419fe4fe_480p.ogg'
+              uri_720p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3321298770/video_575ac7ac66d9bb8306913aa6419fe4fe_720p.mp4'
+              uri_hls: null
+  - id: 191575
+    key: '30667589670923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 思考：使用 GitHub 协作
+    semantic_type: Concept
+    updated_at: 'Thu Oct 27 2016 09:20:07 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 190424
+    atoms:
+      - id: 190424
+        key: '3066758967'
+        locale: zh-cn
+        version: 1.0.0
+        title: 思考：使用 GitHub 协作
+        semantic_type: TextAtom
+        updated_at: 'Thu Oct 27 2016 09:20:06 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          ## 思考：使用 GitHub 协作
+
+          现在，你已了解多人如何使用 GitHub 来分享对项目所做的更改和使用拉取请求来审查建议的更改，现在请将以下问题和你对它的想法添加到你的思考文件中：
+
+          **如何在不使用 Git 或 GitHub 的情况下开展协同？哪种做法更容易？哪种做法更困难？**
+
+          你可能还要提交和推送更改。在你完成时，单击“下一项”。
+        instructor_notes: null
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+  - id: 191576
+    key: '31181385480923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 冲突的更改
+    semantic_type: Concept
+    updated_at: 'Thu Oct 27 2016 09:20:07 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 190425
+    atoms:
+      - id: 190425
+        key: '3118138548'
+        locale: zh-cn
+        version: 1.0.0
+        title: 冲突的更改
+        semantic_type: VideoAtom
+        updated_at: 'Fri Apr 14 2017 18:21:20 GMT+0000 (UTC)'
+        is_public: true
+        tags: []
+        instructor_notes: null
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        video:
+          youtube_id: zk5LxYcZdPM
+          subtitles:
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d1b854_conflicting-changes-how-to-use-git-and-github/subtitles/lang_pt-br_vs8.srt'
+              language_code: pt-br
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d1b854_conflicting-changes-how-to-use-git-and-github/subtitles/lang_ar_vs1.srt'
+              language_code: ar
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d1b854_conflicting-changes-how-to-use-git-and-github/subtitles/lang_zh-cn_vs1.srt'
+              language_code: zh-cn
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d1b854_conflicting-changes-how-to-use-git-and-github/subtitles/lang_en_vs3.srt'
+              language_code: en
+          transcodings:
+            uri_480p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3118138548/video_21f7686ef1a04804a601394fd2f9aef4_480p.mp4'
+            uri_480p_1000kbps_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3118138548/video_21f7686ef1a04804a601394fd2f9aef4_480p_1000kbps.mp4'
+            uri_480p_ogg: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3118138548/video_21f7686ef1a04804a601394fd2f9aef4_480p.ogg'
+            uri_720p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3118138548/video_21f7686ef1a04804a601394fd2f9aef4_720p.mp4'
+            uri_hls: null
+  - id: 191577
+    key: '31066486220923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 更新本地版本库
+    semantic_type: Concept
+    updated_at: 'Thu Oct 27 2016 09:20:08 GMT+0000 (UTC)'
+    is_public: true
+    resources:
+      files:
+        - name: sarah_changes_2.sh
+          uri: 'https://www.udacity.com/api/nodes/3106648623/supplemental_media/sarah-changes-2sh/download'
+      google_plus_link: null
+      career_resource_center_link: null
+      coaching_appointments_link: null
+      office_hours_link: null
+    _atoms_ids:
+      - 190426
+    atoms:
+      - id: 190426
+        key: '3106648622'
+        locale: zh-cn
+        version: 1.0.0
+        title: 更新本地版本库
+        semantic_type: QuizAtom
+        updated_at: 'Fri Apr 14 2017 18:06:58 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |-
+          <br>你可以[在这里](https://www.udacity.com/api/nodes/3106648623/supplemental_media/sarah-changes-2sh/download?_ga=1.238512199.672083044.1467344711)下载 `sarah_changes_2.sh`。
+          ### 模拟 Sarah 的更改
+          要模拟 Sarah 的更改，请先从“辅助材料”部分中下载文件 `sarah_changes_2.sh`。然后，使用 Git Bash 或终端键入 `cd`，以切换到该文件的保存目录。接着，键入 `bash sarah_changes_2.sh`（后跟一个空格和Fork的 URL）。例如，如果 Caroline 要运行代码，她将键入 `bash sarah_changes_2.sh https://github.com/cbuckey-uda/recipes.git`，但你应使用你的Fork而不是 Caroline 的Fork的 URL。如果未设置密码缓存，则系统会提示你输入 GitHub 的用户名和密码。
+
+          此代码实际上并不创建拉取请求，而是更新 GitHub 上的提交历史记录，使其看似已合并了拉取请求。你无需合并拉取请求，而是需要在 GitHub 上的 master 分支中检查是否存在着含有信息“Merge pull request”的提交。
+
+          ### 确保你在 master 分支上
+          在按照说明视频中的步骤操作之前，你要确保检出了 master 分支。
+
+          ### 在提交前对冲突的文件执行 `git add`
+          就像在第 2 课中一样，在运行 `git commit` 以创建合并提交之前，需要使用 `git add` 将含有冲突的任何文件添加到暂存区中。
+        instruction:
+          video:
+            youtube_id: QxGz4-sgCzA
+            subtitles:
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d1dd1f_updated-updating-your-local-repository/subtitles/lang_zh-cn_vs1.srt'
+                language_code: zh-cn
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d1dd1f_updated-updating-your-local-repository/subtitles/lang_ar_vs1.srt'
+                language_code: ar
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d1dd1f_updated-updating-your-local-repository/subtitles/lang_en_vs3.srt'
+                language_code: en
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d1dd1f_updated-updating-your-local-repository/subtitles/lang_pt-br_vs8.srt'
+                language_code: pt-br
+            transcodings:
+              uri_480p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3106648623/video_800d894f2e5e9a52b2e5cc11d3863ffd_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3106648623/video_800d894f2e5e9a52b2e5cc11d3863ffd_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3106648623/video_800d894f2e5e9a52b2e5cc11d3863ffd_480p.ogg'
+              uri_720p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3106648623/video_800d894f2e5e9a52b2e5cc11d3863ffd_720p.mp4'
+              uri_hls: null
+          text: null
+        question:
+          title: 更新本地版本库 练习
+          background_image: '//lh6.ggpht.com/oiqultJPRH1tmamF3xV2zFxJkfP0abn5nB-2p6Em12cgUUadVlLEpiKq2yUI6-H-37Y8EElbj7snaG3f0ME=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '3097978788'
+        answer:
+          text: null
+          video:
+            youtube_id: _CmXNgvsGPA
+            subtitles:
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d09c63_updating-your-local-repository-solution-how-to-use-git-and-github/subtitles/lang_zh-cn_vs1.srt'
+                language_code: zh-cn
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d09c63_updating-your-local-repository-solution-how-to-use-git-and-github/subtitles/lang_en_vs3.srt'
+                language_code: en
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d09c63_updating-your-local-repository-solution-how-to-use-git-and-github/subtitles/lang_ar_vs1.srt'
+                language_code: ar
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d09c63_updating-your-local-repository-solution-how-to-use-git-and-github/subtitles/lang_pt-br_vs8.srt'
+                language_code: pt-br
+            transcodings:
+              uri_480p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3106648625/video_b3b93a04ad4812c28b8d82b2319e862f_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3106648625/video_b3b93a04ad4812c28b8d82b2319e862f_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3106648625/video_b3b93a04ad4812c28b8d82b2319e862f_480p.ogg'
+              uri_720p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3106648625/video_b3b93a04ad4812c28b8d82b2319e862f_720p.mp4'
+              uri_hls: null
+  - id: 191578
+    key: '30625986270923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 合并拉取请求
+    semantic_type: Concept
+    updated_at: 'Thu Oct 27 2016 09:20:09 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 190427
+    atoms:
+      - id: 190427
+        key: '3062598627'
+        locale: zh-cn
+        version: 1.0.0
+        title: 合并拉取请求
+        semantic_type: QuizAtom
+        updated_at: 'Thu Oct 27 2016 09:20:08 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: ''
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 合并拉取请求 练习
+          background_image: '//lh3.ggpht.com/48gSGo8BLOaplPX0WzEqFHfLb-ejurzatmYvGhaJJVGzj7cpBxdNttLCJzu4ohFqJ0CGFiSk4WJ3PEeE5ZZp=s0#w=1440&h=810'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '3072648655'
+        answer:
+          text: |-
+            ## 合并拉取请求
+
+            运行 `git log -n 1` 后，你应看到类似下面的输出：
+
+            <pre>
+            commit bc368511c6406028c77e2631f77c4d22a5da16d0
+            Merge: 79fff84 23d1775
+            Author: cbuckey <caroline@udacity.com>
+            Date:   Tue Sep 30 18:50:28 2014 -0400
+
+                Merge pull request #1 from cbuckey-uda/different-oil
+                
+                Change vegetable oil to canola oil
+            </pre>
+
+            注意提交信息：
+
+            * 指出合并了拉取请求
+            * 提供了拉取请求的编号（在此为 #1）
+            * 指出了从哪个分支合并拉取请求（在此为 cbuckey-uda/different-oil）。
+            * 包含了拉取请求的标题。
+
+            每次合并拉取请求时，GitHub 都会自动创建类似上面的提交信息，以便你在提交历史记录中查看拉取请求。即使合并是快进合并，GitHub 仍会创建此提交。
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 191579
+    key: '31382785430923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 概念图：Fork、提取、拉取请求
+    semantic_type: Concept
+    updated_at: 'Thu Oct 27 2016 09:20:09 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 190428
+    atoms:
+      - id: 190428
+        key: '3138278543'
+        locale: zh-cn
+        version: 1.0.0
+        title: 概念图：Fork、提取、拉取请求
+        semantic_type: QuizAtom
+        updated_at: 'Fri Apr 14 2017 18:06:57 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: '你可以在这里看到<a href="https://www.udacity.com/wiki/ud775/concept-map?nocache" target="_blank">概念图的最终版本</a>。'
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: |-
+            ## 概念图：Fork、提取、拉取请求、快进合并
+            下面是我们自上次再次查看概念图以来引入的重大新概念：
+            * fork  Fork
+            * fetch  提取
+            * pull request  拉取请求
+            * fast-forward merge  快进合并
+
+            ### 以前的版本
+            下面是我们上次添加新概念时的概念图外观。
+
+            ![Concept Map from last time](//lh4.ggpht.com/wEnzBhcuYbVkhm9Np2M10M2WyL6hwyZntk7CQurM-40ivnwYZpcFDNYD7XLez3fw2mHSHfzxrjSUsVVoKQ=s350)
+
+            ### 新概念应该加在哪儿？
+            ![Concept Map with blanks](//lh4.ggpht.com/08c6Bro_8Pv-IpiEBLkupgi6Z8EQI-5REm9ts1vf3BjkkGC2V3_lilY9P5vc-AjSBUUCNzV7TVf2klrTUogO=s350#w=1800&h=1012)
+
+            在下面的练习中，在每个新的空白节点内填写你认为属于该节点的概念。
+
+            请记住此概念图是主观创作的，因此，上图中的内容可能与你的概念图并不完全相符；请随意画出你看到的这些概念之间的联系，并将你的版本发布到论坛上！
+        question:
+          title: 概念图：Fork、提取、拉取请求 练习
+          background_image: '//lh4.ggpht.com/x_5sxLXHh2nG3hB4ug9Mz0Y3ZwQF0Yph8yN2LyaI-_0VlEMs1BiXKsV8mNrrFYv4pqAKVkAKwtEhdU7gkg=s0#w=1280&h=756'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '3124648556'
+        answer:
+          text: null
+          video:
+            youtube_id: J5LpqlSQtX4
+            subtitles:
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57cfbb83_cm-fork/subtitles/lang_zh-cn_vs1.srt'
+                language_code: zh-cn
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57cfbb83_cm-fork/subtitles/lang_en_vs3.srt'
+                language_code: en
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57cfbb83_cm-fork/subtitles/lang_ar_vs1.srt'
+                language_code: ar
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57cfbb83_cm-fork/subtitles/lang_pt-br_vs10.srt'
+                language_code: pt-br
+            transcodings:
+              uri_480p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3151098539/video_92d13d217070c57d1fa201d9194c6bbc_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3151098539/video_92d13d217070c57d1fa201d9194c6bbc_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3151098539/video_92d13d217070c57d1fa201d9194c6bbc_480p.ogg'
+              uri_720p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3151098539/video_92d13d217070c57d1fa201d9194c6bbc_720p.mp4'
+              uri_hls: null
+  - id: 191580
+    key: '31181985490923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 采访 GitHub 的 Brent Beer
+    semantic_type: Concept
+    updated_at: 'Thu Oct 27 2016 09:20:10 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 190429
+    atoms:
+      - id: 190429
+        key: '3118198549'
+        locale: zh-cn
+        version: 1.0.0
+        title: 采访 GitHub 的 Brent Beer
+        semantic_type: VideoAtom
+        updated_at: 'Fri Apr 14 2017 18:20:46 GMT+0000 (UTC)'
+        is_public: true
+        tags: []
+        instructor_notes: null
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        video:
+          youtube_id: H4NUYo6vBw0
+          subtitles:
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d1011c_interview-with-brent-beer-of-github-how-to-use-git-and-github/subtitles/lang_zh-cn_vs1.srt'
+              language_code: zh-cn
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d1011c_interview-with-brent-beer-of-github-how-to-use-git-and-github/subtitles/lang_en_vs3.srt'
+              language_code: en
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d1011c_interview-with-brent-beer-of-github-how-to-use-git-and-github/subtitles/lang_ar_vs1.srt'
+              language_code: ar
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d1011c_interview-with-brent-beer-of-github-how-to-use-git-and-github/subtitles/lang_pt-br_vs9.srt'
+              language_code: pt-br
+          transcodings:
+            uri_480p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3118198549/video_8e4c869d92bfe1ee984463cc303049d4_480p.mp4'
+            uri_480p_1000kbps_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3118198549/video_8e4c869d92bfe1ee984463cc303049d4_480p_1000kbps.mp4'
+            uri_480p_ogg: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3118198549/video_8e4c869d92bfe1ee984463cc303049d4_480p.ogg'
+            uri_720p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3118198549/video_8e4c869d92bfe1ee984463cc303049d4_720p.mp4'
+            uri_hls: null
+  - id: 191584
+    key: '30953886320923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 思考：何时使用独立的分支
+    semantic_type: Concept
+    updated_at: 'Thu Oct 27 2016 09:20:11 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 190430
+    atoms:
+      - id: 190430
+        key: '3095388632'
+        locale: zh-cn
+        version: 1.0.0
+        title: 思考：何时使用独立的分支
+        semantic_type: TextAtom
+        updated_at: 'Thu Oct 27 2016 09:20:10 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          ## 思考：何时使用独立的分支
+
+          你刚才看到，在独立的分支中进行更改时，工作流程比直接在 master 中工作更复杂，尤其是在需要与其他人进行的更改保持同步的情况下。你要做的不是简单地拉取和推送，而是要将更改拉入本地 master 分支中，将本地 master 合并到你的分支（在我们的例子中是 different-oil）中，然后将你的分支推送到远程版本库，最后将你的分支合并到本地或 GitHub 上的 master 中。
+
+          考虑到这点，请将以下问题和你对它的想法添加到你的思考文件中：
+
+          **W何时你会想在独立的分支中而不是直接在 master 中进行更改？两种方法各有何好处？**
+
+          你可能还要提交和推送更改。在你完成时，单击“下一项”，通过协同构建“create-your-own-adventure（创造你的历险记）”版本库将你学到的一切融汇贯通。
+        instructor_notes: null
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+  - id: 191581
+    key: '30806791210923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 修改历险记版本库
+    semantic_type: Concept
+    updated_at: 'Thu Oct 27 2016 09:20:11 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 190431
+    atoms:
+      - id: 190431
+        key: '3080679121'
+        locale: zh-cn
+        version: 1.0.0
+        title: 修改历险记版本库
+        semantic_type: TextAtom
+        updated_at: 'Thu Oct 27 2016 09:20:11 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          ## 将版本库Fork和克隆你的Fork
+          现在，你已了解如何将版本库Fork、推送对你的Fork所做的更改和创建拉取请求，现在你将准备协同编写在本节课开始时提到的“创造你的历险记”故事。要这样做，首先应将<a href="https://github.com/udacity/create-your-own-adventure" target="_blank">此版本库</a>Fork。然后，克隆你的Fork，并创建一个分支以在其中进行更改。
+
+          **注意：**可以直接更改你的Fork中的 master 分支，但是，在协同构建公共版本库时，标准的做法是在Fork内的非 master 分支中进行更改。这样一来，可以轻松让你的 master 分支与原始版本库的 master 保持同步，并在准备好时将 master 中的更改合并到分支中。
+
+          **Windows 用户请注意：**随着故事的发展，它已经超出了 Windows 的路径长度限制。如果你在克隆时遇到错误，可以通过修改配置设置来解决它。请在 git bash 中运行此命令：`git config --system core.longpaths true`。
+
+          ## 更改故事内容
+          接下来，你应实际更改故事内容。有关如何这样做的说明，请阅读“创造你的历险记”版本库中的 <a href="https://github.com/udacity/create-your-own-adventure/blob/master/README.md" target="_blank">README</a>。
+
+          ## 建拉取请求
+          接下来，你应创建包含你对原始版本库所做更改的拉取请求。要这样做，请像你之前那样单击分支中的“拉取请求”按钮，但这次将原始版本库留作基准。
+
+          ## 请求合并你的拉取请求
+          你无权修改此版本库，因此需要优达学城的工作人员来合并你的拉取请求。我们乐于助人的机器人 Casey 能够自动合并你的拉取请求。要自动合并你的拉取请求，你需要按照版本库的 <a href="https://github.com/udacity/create-your-own-adventure/blob/master/README.md" target="_blank">README</a> 中的指南来操作，除此之外，你将无法删除或修改行。由于 Casey 不希望合并无意中删除了部分故事内容的请求，而且她无法区分无意的删除和有意的修改，因此限制你删除行。要请求自动合并，请在拉取请求上添加包含“@casey-collab”的注释。例如，“Please review this, @casey-collab”。请确保在拉取请求的“对话”选项卡而不是“更改的文件”选项卡上添加注释。
+
+          Casey 将无法合并一些有效的拉取请求。例如，她不接受改正打字错误的拉取请求，因为该请求会修改行。如果你想创建 Casey 无法合并的拉取请求，请随意这样做。如果有空，优达学城的工作人员会合并该拉取请求。但是，不保证此类拉取请求会获得响应。
+
+          ## 如有必要，更新拉取请求
+          如果某人合并你的拉取请求或发表评论，GitHub 会向你发送电子邮件并通知你。如果要求你进行一些更改，请将这些更改推送到你的Fork，以更新拉取请求。请确保让评审老师知道，他们应再看一次！
+        instructor_notes: null
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+  - id: 191582
+    key: '33068495680923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 保持Fork最新
+    semantic_type: Concept
+    updated_at: 'Thu Oct 27 2016 09:20:12 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 190432
+    atoms:
+      - id: 190432
+        key: '3306849568'
+        locale: zh-cn
+        version: 1.0.0
+        title: 保持Fork最新
+        semantic_type: QuizAtom
+        updated_at: 'Fri Apr 14 2017 18:06:57 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: ''
+        instruction:
+          video:
+            youtube_id: EJXl1iYnQfA
+            subtitles:
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d0cf2d_new-keeping-a-fork-up-to-date/subtitles/lang_zh-cn_vs1.srt'
+                language_code: zh-cn
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d0cf2d_new-keeping-a-fork-up-to-date/subtitles/lang_en_vs3.srt'
+                language_code: en
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d0cf2d_new-keeping-a-fork-up-to-date/subtitles/lang_ar_vs1.srt'
+                language_code: ar
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d0cf2d_new-keeping-a-fork-up-to-date/subtitles/lang_pt-br_vs8.srt'
+                language_code: pt-br
+            transcodings:
+              uri_480p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3315478816/video_df67d554e574135ccced32cb66ee8eb0_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3315478816/video_df67d554e574135ccced32cb66ee8eb0_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3315478816/video_df67d554e574135ccced32cb66ee8eb0_480p.ogg'
+              uri_720p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3315478816/video_df67d554e574135ccced32cb66ee8eb0_720p.mp4'
+              uri_hls: null
+          text: null
+        question:
+          title: 保持Fork最新 练习
+          background_image: '//lh4.ggpht.com/-G2WVRRwDjxXSLJwWqGW82ixO7iwfJeqyXIX2Mp8Zixx6PN_fto9SyfIDMJq1MCDM5krTybxaFl5AyhaEFMc=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '3346798611'
+        answer:
+          text: null
+          video:
+            youtube_id: k29kTgeedgE
+            subtitles:
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d13d9f_new-keeping-a-fork-up-to-date-solution/subtitles/lang_zh-cn_vs1.srt'
+                language_code: zh-cn
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d13d9f_new-keeping-a-fork-up-to-date-solution/subtitles/lang_en_vs3.srt'
+                language_code: en
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d13d9f_new-keeping-a-fork-up-to-date-solution/subtitles/lang_ar_vs1.srt'
+                language_code: ar
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d13d9f_new-keeping-a-fork-up-to-date-solution/subtitles/lang_pt-br_vs8.srt'
+                language_code: pt-br
+            transcodings:
+              uri_480p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3337678827/video_f94cfb88bfac1c108cc902f1de0c27c3_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3337678827/video_f94cfb88bfac1c108cc902f1de0c27c3_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3337678827/video_f94cfb88bfac1c108cc902f1de0c27c3_480p.ogg'
+              uri_720p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3337678827/video_f94cfb88bfac1c108cc902f1de0c27c3_720p.mp4'
+              uri_hls: null
+  - id: 191583
+    key: '30933789380923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 小结
+    semantic_type: Concept
+    updated_at: 'Thu Oct 27 2016 09:20:13 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 190433
+    atoms:
+      - id: 190433
+        key: '3093378938'
+        locale: zh-cn
+        version: 1.0.0
+        title: 小结
+        semantic_type: VideoAtom
+        updated_at: 'Fri Apr 14 2017 18:20:50 GMT+0000 (UTC)'
+        is_public: true
+        tags: []
+        instructor_notes: |-
+          恭喜你学完了如何使用 Git 和 GitHub 课程！你是否知道，GitHub 并不是托管版本库以及与他人合作的唯一去处？
+
+          还有 BitBucket，这是一种免费的 Git 托管服务，也能免费为你提供**不受限制的专用版本库**。你可以在[此处](https://confluence.atlassian.com/bitbucket/bitbucket-101-221448818.html)了解更多信息，并在[此处](https://bitbucket.org/) 创建帐户。
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        video:
+          youtube_id: XlYEvlw9Vic
+          subtitles:
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d1d2ef_lesson-3-summary-how-to-use-git-and-github/subtitles/lang_ar_vs1.srt'
+              language_code: ar
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d1d2ef_lesson-3-summary-how-to-use-git-and-github/subtitles/lang_pt-br_vs8.srt'
+              language_code: pt-br
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d1d2ef_lesson-3-summary-how-to-use-git-and-github/subtitles/lang_zh-cn_vs1.srt'
+              language_code: zh-cn
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d1d2ef_lesson-3-summary-how-to-use-git-and-github/subtitles/lang_en_vs3.srt'
+              language_code: en
+          transcodings:
+            uri_480p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3093378938/video_4062d89fb430dfc02193e3efc32780da_480p.mp4'
+            uri_480p_1000kbps_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3093378938/video_4062d89fb430dfc02193e3efc32780da_480p_1000kbps.mp4'
+            uri_480p_ogg: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3093378938/video_4062d89fb430dfc02193e3efc32780da_480p.ogg'
+            uri_720p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3093378938/video_4062d89fb430dfc02193e3efc32780da_720p.mp4'
+            uri_hls: null

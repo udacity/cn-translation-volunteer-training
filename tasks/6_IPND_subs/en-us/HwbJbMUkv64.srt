@@ -1,0 +1,59 @@
+1
+00:00:00,460 --> 00:00:03,020
+So the truth is that the class movie
+
+2
+00:00:03,020 --> 00:00:05,574
+can contain whatever we want it to contain. And
+
+3
+00:00:05,574 --> 00:00:08,390
+in this case, I will pick the movie's
+
+4
+00:00:08,390 --> 00:00:13,494
+title, its youtube_trailer, its reviews, the storyline and its
+
+5
+00:00:13,494 --> 00:00:16,880
+poster_image. Now that decision will mean, that if
+
+6
+00:00:16,880 --> 00:00:20,920
+I said something like toy_story.storyline. The program will print
+
+7
+00:00:20,920 --> 00:00:25,475
+this. A story of a boy and his toys that come to life, and if I said,
+
+8
+00:00:25,475 --> 00:00:29,170
+avatar.show_trailer, the program would play avatar's YouTube
+
+9
+00:00:29,170 --> 00:00:32,980
+trailer. So, in summation, when designing the class
+
+10
+00:00:32,980 --> 00:00:36,390
+Movie, we probably want to remember data like
+
+11
+00:00:36,390 --> 00:00:40,110
+the movie's title, its storyline, its poster image,
+
+12
+00:00:40,110 --> 00:00:44,410
+and the link to its YouTube trailer. And one thing we may want to do
+
+13
+00:00:44,410 --> 00:00:46,740
+with this data, is to have a show
+
+14
+00:00:46,740 --> 00:00:50,840
+trailer function which opens the movie's YouTube trailer.
+
+15
+00:00:50,840 --> 00:00:53,170
+Okay, let's turn this design, into code.

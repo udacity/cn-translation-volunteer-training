@@ -152,7 +152,7 @@ concepts:
           | ------ | ------ |
           | 加拿大    |        |
           | 中国     |        |
-          | 英格兰    |        |
+          | 英国    |        |
           | 德国     |        |
           | 印度     |        |
           | 日本     |        |
@@ -235,9 +235,9 @@ concepts:
 
           有多少学员来自美国？
 
-          有多少学员来自美国、中国和巴基斯坦中任一个国家？
+          有多少学员来自美国、中国或者巴基斯坦(中的任意一个国家)？
 
-          哪两个国家的人学员人数最少？
+          哪两个国家的学员人数最少？
         instruction:
           video:
             youtube_id: 6K9Zztqbozw
@@ -315,7 +315,7 @@ concepts:
           | ------ | ------ | ----- |
           | 加拿大    | 2      |   2/50 = 0.04    |
           | 中国     | 12     | *请输入* |
-          | 英格兰    | 2      |       |
+          | 英国    | 2      |       |
           | 德国     | 3      | *请输入* |
           | 印度     | 8      |       |
           | 日本     | 8      | *请输入* |
@@ -393,7 +393,7 @@ concepts:
           career_resource_center_link: null
           coaching_appointments_link: null
           office_hours_link: null
-        instructor_notes: '## 问题：比例总是大于等于多少，小于等于多少？'
+        instructor_notes: '## 问题：(样本中)所有比例均大于等于多少，小于等于多少？'
         instruction:
           video:
             youtube_id: '-xSSuPcrrA8'
@@ -464,7 +464,7 @@ concepts:
           career_resource_center_link: null
           coaching_appointments_link: null
           office_hours_link: null
-        instructor_notes: '## 问题：对于任何频率表，所有相对频率之和总是等于多少？'
+        instructor_notes: '## 问题：对于任何频率表，所有相对频率之和应当等于多少？'
         instruction:
           video:
             youtube_id: RF_DpOg--PY
@@ -622,7 +622,7 @@ concepts:
           | ------ | ------ | ---- | -------- |
           | 加拿大    | 2      | 0.04 | 4%       |
           | 中国     | 12     | 0.24 | *请输入百分比* |
-          | 英格兰    | 2      | 0.04 |          |
+          | 英国    | 2      | 0.04 |          |
           | 德国     | 3      | 0.06 | *请输入百分比* |
           | 印度     | 8      | 0.16 |          |
           | 日本     | 8      | 0.16 | *请输入百分比* |
@@ -678,7 +678,7 @@ concepts:
     key: '597064760923'
     locale: zh-cn
     version: 1.0.0
-    title: 范围百分比
+    title: 百分比的范围
     semantic_type: Concept
     updated_at: 'Fri Aug 19 2016 08:36:17 GMT+0000 (UTC)'
     is_public: true
@@ -690,7 +690,7 @@ concepts:
         key: '59706476'
         locale: zh-cn
         version: 1.0.0
-        title: 范围百分比
+        title: 百分比的范围
         semantic_type: QuizAtom
         updated_at: 'Wed Apr 19 2017 22:02:21 GMT+0000 (UTC)'
         is_public: true
@@ -721,7 +721,7 @@ concepts:
               uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0dd6d_range-percentages-intro-to-descriptive-statistics/hls/playlist.m3u8'
           text: null
         question:
-          title: 范围百分比
+          title: 百分比的范围
           background_image: '//lh6.ggpht.com/iTxZa6xymX0CGDfBKXrCpgCwL84uvMbSA4kql7GBYq5zBOveg_DTcGKmYCG3I-5wAzXerPjuNpKSZ3cR2jXY=s0#w=1920&h=1080'
           alt_text: null
           semantic_type: ImageFormQuestion
@@ -855,7 +855,7 @@ concepts:
         instructor_notes: |
           ## 你的表格需要多少行？
 
-          - □ 50 行（每个学生一行）
+          - □ 50 行（每个学员一行）
           - □ 66 行（每个年龄一行，10-75）
           - □ 8-10 行（这样表格比较简单易懂）
           - □ 取决于你如何去整理数据
@@ -931,7 +931,7 @@ concepts:
           coaching_appointments_link: null
           office_hours_link: null
         instructor_notes: |
-          ## 请填入 20-29 岁对应的频率。
+          ## 请填入 20-39 岁对应的频率。
         instruction:
           video:
             youtube_id: dSgIDN1gz5k
@@ -1394,7 +1394,7 @@ concepts:
           coaching_appointments_link: null
           office_hours_link: null
         instructor_notes: |-
-          ## 练习：60 岁以上的学员的比例（Proportion）是多少？
+          ## 练习：60 岁以上的学员的比例(proportion)是多少？
 
           ----
 
@@ -1622,7 +1622,7 @@ concepts:
           career_resource_center_link: null
           coaching_appointments_link: null
           office_hours_link: null
-        instructor_notes: '## 练习：请标出欧洲、北美洲和亚洲分别对应的高度。'
+        instructor_notes: '## 练习：请标出欧洲、北美洲和亚洲(的频率柱)分别对应的高度。'
         instruction:
           video:
             youtube_id: Khxyqd5vtOo
@@ -1742,7 +1742,7 @@ concepts:
     key: '634823970923'
     locale: zh-cn
     version: 1.0.0
-    title: 偏差的图表
+    title: 有偏差的图表
     semantic_type: Concept
     updated_at: 'Fri Aug 19 2016 08:36:26 GMT+0000 (UTC)'
     is_public: true
@@ -1754,7 +1754,7 @@ concepts:
         key: '63482397'
         locale: zh-cn
         version: 1.0.0
-        title: 偏差的图表
+        title: 有偏差的图表
         semantic_type: QuizAtom
         updated_at: 'Wed Apr 19 2017 22:01:59 GMT+0000 (UTC)'
         is_public: true
@@ -1769,7 +1769,7 @@ concepts:
 
           - □ 是的
           - □ 不是
-          - □ 很难说
+          - □ 无法分辨
         instruction:
           video:
             youtube_id: VkZ-W3kh9PA
@@ -1790,7 +1790,7 @@ concepts:
               uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d284e0_biased-graphs-intro-to-descriptive-statistics/hls/playlist.m3u8'
           text: null
         question:
-          title: 偏差的图表
+          title: 有偏差的图表
           background_image: '//lh5.ggpht.com/f6MxHZ887ZbJL5NcNiYI4AgwVqwtahue02G5uZPoCaPxkQuVIA3bAmimTJXcM8N4V8HgMbcWY1RbzcPAzg=s0#w=1920&h=1080'
           alt_text: null
           semantic_type: ImageFormQuestion
@@ -1894,7 +1894,7 @@ concepts:
           - □ 大多数人的体脂率都在分布图的中间位置
           - □ 体脂率在 15% 和 25% 之间的人比 35% 和 50% 之间的要多
           - □ 体脂率在 0% 和 10% 之间的人比 18% 和 24% 之间的要多
-          - □ 很少部分男性的体脂率高于 35％ 或低于 5％
+          - □ 相比之下 很少有男性体脂率高于 35％ 或低于 5％
         instruction:
           video:
             youtube_id: Xo3Le7VTZZM
@@ -1969,9 +1969,9 @@ concepts:
           ## 选择：从这个分布图中，我们可以得出什么结论？
 
           - □ 它是对称的
-          - □ 最常见的家庭收入低于 25,000 美元/每年
-          - □ 大部分家庭的收入低于 100,000 美元/每年
-          - □ 没有任何家庭的收入高于 250,000 美元/每年
+          - □ 大多数家庭收入低于 25,000 美元/每年
+          - □ 大多数家庭收入低于 100,000 美元/每年
+          - □ 没有家庭收入高于 250,000 美元/每年
         instruction:
           video:
             youtube_id: kTsQyHV_T5E

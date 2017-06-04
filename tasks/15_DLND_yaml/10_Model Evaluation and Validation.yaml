@@ -1,0 +1,545 @@
+id: 263147
+key: b13359d2-5f34-4333-9fcd-f5166df104c7
+locale: en-us
+version: 1.0.0
+title: Model Evaluation and Validation
+semantic_type: Lesson
+updated_at: 'Wed Apr 19 2017 22:18:53 GMT+0000 (UTC)'
+is_public: true
+image:
+  url: 'https://d17h27t6h515a5.cloudfront.net/topher/2017/April/58ed4d9f_model-evaluation-and-validation/model-evaluation-and-validation.jpg'
+  width: 1000
+  height: 1000
+video: null
+summary: 'In this lesson, you''ll learn some of the basics of training models. You''ll learn the power of testing and cross validation, and some interesting metrics to evaluate models, such as accuracy or R2 score.'
+duration: 60
+is_project_lesson: false
+_concepts_ids:
+  - 263248
+  - 263159
+  - 263160
+  - 263162
+  - 263164
+  - 263165
+  - 263166
+  - 263168
+_project_id: null
+concepts:
+  - id: 263248
+    key: 02585623-835a-4ec2-842d-856326e0450c
+    locale: en-us
+    version: 1.0.0
+    title: Introduction
+    semantic_type: Concept
+    updated_at: 'Sat Feb 04 2017 06:50:40 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 263273
+      - 263250
+      - 263251
+    atoms:
+      - id: 263273
+        key: f48c0d9a-6d14-4588-9869-93bd7550d018
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Sat Feb 04 2017 06:50:40 GMT+0000 (UTC)'
+        is_public: true
+        text: '### Introduction'
+        instructor_notes: ''
+        resources: null
+      - id: 263250
+        key: 5eee059f-c008-48c3-87c5-48b998112fae
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: ImageAtom
+        updated_at: 'Sat Feb 04 2017 06:50:49 GMT+0000 (UTC)'
+        is_public: true
+        url: 'https://d17h27t6h515a5.cloudfront.net/topher/2017/February/589523da_meme/meme.png'
+        width: 200
+        height: 200
+        caption: Hi! It's Luis again!
+        resources: null
+        instructor_notes: null
+      - id: 263251
+        key: 32c65e02-84d1-4548-aa00-416ae6a54b11
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Sat Feb 04 2017 06:51:23 GMT+0000 (UTC)'
+        is_public: true
+        text: |
+          Congratulations! You've built your first model, a neural network to predict bike share usage! As you saw in the project, the data was split into training, validation, and test sets. In this section we'll learn why this is needed, and how to find out how well your model is doing, and score it. In particular, you will cover:
+
+          * How to create a test set for your models.
+          * How to use confusion matrices to evaluate false positives, and false negatives.
+          * How to measure accuracy and other model metrics.
+          * How to evaluate regression.
+          * How to detect whether you are overfitting or underfitting based on the complexity of your model.
+          * How to use cross validation to ensure your model is generalizable.
+        instructor_notes: ''
+        resources: null
+  - id: 263159
+    key: 2f9b801a-b7de-4f35-a9f8-b01c4dae1c5d
+    locale: en-us
+    version: 1.0.0
+    title: Testing
+    semantic_type: Concept
+    updated_at: 'Tue Mar 07 2017 22:40:02 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 278810
+    atoms:
+      - id: 278810
+        key: f102d73a-0d13-4ff0-86fd-7f285d4845ed
+        locale: en-us
+        version: 1.0.0
+        title: Testing
+        semantic_type: VideoAtom
+        updated_at: 'Wed Apr 19 2017 21:38:11 GMT+0000 (UTC)'
+        is_public: true
+        tags: []
+        instructor_notes: ''
+        resources: null
+        video:
+          id: '51204'
+          youtube_id: gmxGRJSKEb0
+          subtitles: null
+          transcodings:
+            uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/March/58bf361f_testing/testing_480p.mp4'
+            uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/March/58bf361f_testing/testing_480p_1000kbps.mp4'
+            uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/March/58bf361f_testing/testing_480p.ogg'
+            uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/March/58bf361f_testing/testing_720p.mp4'
+            uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/March/58bf361f_testing/hls/playlist.m3u8'
+  - id: 263160
+    key: d5117e0b-ba43-40e9-b564-2901d0e2aee1
+    locale: en-us
+    version: 1.0.0
+    title: Confusion Matrix
+    semantic_type: Concept
+    updated_at: 'Thu Feb 09 2017 23:45:34 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 264060
+      - 264118
+      - 263169
+    atoms:
+      - id: 264060
+        key: e0fdd024-767a-4bd9-9e33-25864081abf2
+        locale: en-us
+        version: 1.0.0
+        title: Confusion Matrix-Question
+        semantic_type: VideoAtom
+        updated_at: 'Thu Feb 09 2017 20:56:35 GMT+0000 (UTC)'
+        is_public: true
+        tags: []
+        instructor_notes: ''
+        resources: null
+        video:
+          id: '49884'
+          youtube_id: 9GLNjmMUB_4
+          subtitles: null
+          transcodings:
+            uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/589ccfff_confusion-matrix-question/confusion-matrix-question_480p.mp4'
+            uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/589ccfff_confusion-matrix-question/confusion-matrix-question_480p_1000kbps.mp4'
+            uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/589ccfff_confusion-matrix-question/confusion-matrix-question_480p.ogg'
+            uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/589ccfff_confusion-matrix-question/confusion-matrix-question_720p.mp4'
+            uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/589ccfff_confusion-matrix-question/hls/playlist.m3u8'
+      - id: 264118
+        key: 3ba16a36-de47-44b6-b2cb-6bb034403a38
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: ImageAtom
+        updated_at: 'Thu Feb 09 2017 23:45:30 GMT+0000 (UTC)'
+        is_public: true
+        url: 'https://d17h27t6h515a5.cloudfront.net/topher/2017/February/589cff16_confusion/confusion.png'
+        width: 1752
+        height: 835
+        caption: ''
+        resources: null
+        instructor_notes: null
+      - id: 263169
+        key: 9aaed560-dc11-4d8a-baeb-a9de939b1c16
+        locale: en-us
+        version: 1.0.0
+        title: Confusion Matrix Quiz
+        semantic_type: ValidatedQuizAtom
+        updated_at: 'Thu Apr 13 2017 07:59:01 GMT+0000 (UTC)'
+        is_public: true
+        question:
+          prompt: |-
+            How many True Positives, True Negatives, False Positives, and False Negatives, are in the model above?
+            Please enter your answer in that order, as four numbers separated by a comma and a space. For example, if your answers are 1, 2, 3, and 4, enter the string `1, 2, 3, 4`.
+
+            Remember, in the image above the blue points are considered positives and the red points are considered negatives.
+          default_feedback: 'Try again, one or more of your answers are incorrect.'
+          correct_feedback: null
+          video_feedback:
+            id: null
+            youtube_id: ywwSzyU9rYs
+            subtitles: null
+            transcodings:
+              uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/589ccfff_confusion-matrix-solution/confusion-matrix-solution_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/589ccfff_confusion-matrix-solution/confusion-matrix-solution_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/589ccfff_confusion-matrix-solution/confusion-matrix-solution_480p.ogg'
+              uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/589ccfff_confusion-matrix-solution/confusion-matrix-solution_720p.mp4'
+              uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/589ccfff_confusion-matrix-solution/hls/playlist.m3u8'
+          matchers:
+            - semantic_type: RegexMatcher
+              is_correct: true
+              expression: '6, 5, 2, 1 '
+              expression_description: ''
+              flags: ''
+              incorrect_feedback: null
+            - semantic_type: RegexMatcher
+              is_correct: true
+              expression: '6521'
+              expression_description: null
+              flags: ''
+              incorrect_feedback: null
+            - semantic_type: RegexMatcher
+              is_correct: true
+              expression: '6,5,2,1'
+              expression_description: null
+              flags: ''
+              incorrect_feedback: null
+            - semantic_type: RegexMatcher
+              is_correct: true
+              expression: '6\s*,?\s*5\s*,?\s*2\s*,?\s*1'
+              expression_description: null
+              flags: ''
+              incorrect_feedback: null
+  - id: 263162
+    key: e2d4bda9-aada-4c56-a782-b7a8a38acc1c
+    locale: en-us
+    version: 1.0.0
+    title: Accuracy
+    semantic_type: Concept
+    updated_at: 'Thu Feb 09 2017 23:47:26 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 264073
+      - 264119
+      - 263186
+    atoms:
+      - id: 264073
+        key: dab695d2-a193-441e-b332-dfa46c9d4137
+        locale: en-us
+        version: 1.0.0
+        title: 01 Q Accuracy
+        semantic_type: VideoAtom
+        updated_at: 'Thu Feb 09 2017 21:22:24 GMT+0000 (UTC)'
+        is_public: true
+        tags: []
+        instructor_notes: ''
+        resources: null
+        video:
+          id: '49882'
+          youtube_id: s6SfhPTNOHA
+          subtitles: null
+          transcodings:
+            uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/589ccffc_01-q-accuracy/01-q-accuracy_480p.mp4'
+            uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/589ccffc_01-q-accuracy/01-q-accuracy_480p_1000kbps.mp4'
+            uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/589ccffc_01-q-accuracy/01-q-accuracy_480p.ogg'
+            uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/589ccffc_01-q-accuracy/01-q-accuracy_720p.mp4'
+            uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/589ccffc_01-q-accuracy/hls/playlist.m3u8'
+      - id: 264119
+        key: adb4aed7-ccff-43d5-801d-265f81ce5f61
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: ImageAtom
+        updated_at: 'Thu Feb 09 2017 23:47:22 GMT+0000 (UTC)'
+        is_public: true
+        url: 'https://d17h27t6h515a5.cloudfront.net/topher/2017/February/589cff85_accuracy/accuracy.png'
+        width: 1395
+        height: 967
+        caption: ''
+        resources: null
+        instructor_notes: null
+      - id: 263186
+        key: 6d7eb1d6-99de-48ac-aee3-4343eec54250
+        locale: en-us
+        version: 1.0.0
+        title: Accuracy Quiz
+        semantic_type: ValidatedQuizAtom
+        updated_at: 'Thu Feb 09 2017 21:24:00 GMT+0000 (UTC)'
+        is_public: true
+        question:
+          prompt: 'What is the accuracy of the model above? Please enter the answer as a percentage, with two decimals. For example, `54.75`.'
+          default_feedback: 'Try again. Remember that the accuracy is the ratio between the number of correctly classified points, and the total number of points.'
+          correct_feedback: null
+          video_feedback:
+            id: null
+            youtube_id: ueYCLfd_aNQ
+            subtitles: null
+            transcodings:
+              uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/589ccffc_02-s-accuracy/02-s-accuracy_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/589ccffc_02-s-accuracy/02-s-accuracy_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/589ccffc_02-s-accuracy/02-s-accuracy_480p.ogg'
+              uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/589ccffc_02-s-accuracy/02-s-accuracy_720p.mp4'
+              uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/589ccffc_02-s-accuracy/hls/playlist.m3u8'
+          matchers:
+            - semantic_type: RegexMatcher
+              is_correct: true
+              expression: '78.57'
+              expression_description: null
+              flags: ''
+              incorrect_feedback: null
+            - semantic_type: RegexMatcher
+              is_correct: true
+              expression: '78.56'
+              expression_description: null
+              flags: ''
+              incorrect_feedback: null
+            - semantic_type: RegexMatcher
+              is_correct: true
+              expression: 78.57%
+              expression_description: null
+              flags: ''
+              incorrect_feedback: null
+            - semantic_type: RegexMatcher
+              is_correct: true
+              expression: 78.56%
+              expression_description: null
+              flags: ''
+              incorrect_feedback: null
+            - semantic_type: RegexMatcher
+              is_correct: true
+              expression: '78.5'
+              expression_description: null
+              flags: ''
+              incorrect_feedback: null
+            - semantic_type: RegexMatcher
+              is_correct: true
+              expression: '78.6'
+              expression_description: null
+              flags: ''
+              incorrect_feedback: null
+            - semantic_type: RegexMatcher
+              is_correct: true
+              expression: 78.5%
+              expression_description: null
+              flags: ''
+              incorrect_feedback: null
+            - semantic_type: RegexMatcher
+              is_correct: true
+              expression: 78.6%
+              expression_description: null
+              flags: ''
+              incorrect_feedback: null
+  - id: 263164
+    key: fbdff01f-d358-4eba-9439-069b9e620ae8
+    locale: en-us
+    version: 1.0.0
+    title: Regression Metrics
+    semantic_type: Concept
+    updated_at: 'Tue Mar 07 2017 23:31:06 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 278845
+    atoms:
+      - id: 278845
+        key: 02e5d81a-35ad-4bba-9ad7-9d085de1d1c3
+        locale: en-us
+        version: 1.0.0
+        title: Regression-Metrics
+        semantic_type: VideoAtom
+        updated_at: 'Wed Apr 19 2017 21:38:50 GMT+0000 (UTC)'
+        is_public: true
+        tags: []
+        instructor_notes: ''
+        resources: null
+        video:
+          id: '51206'
+          youtube_id: 906P4BPnl9A
+          subtitles: null
+          transcodings:
+            uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/March/58bf423f_regression-metrics/regression-metrics_480p.mp4'
+            uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/March/58bf423f_regression-metrics/regression-metrics_480p_1000kbps.mp4'
+            uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/March/58bf423f_regression-metrics/regression-metrics_480p.ogg'
+            uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/March/58bf423f_regression-metrics/regression-metrics_720p.mp4'
+            uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/March/58bf423f_regression-metrics/hls/playlist.m3u8'
+  - id: 263165
+    key: 3a797d5c-f23d-442e-9b67-fc023690df8c
+    locale: en-us
+    version: 1.0.0
+    title: Types of Errors
+    semantic_type: Concept
+    updated_at: 'Thu Mar 09 2017 18:32:41 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 279004
+    atoms:
+      - id: 279004
+        key: ae93ca80-3959-4c9e-ac13-d5209a1b5055
+        locale: en-us
+        version: 1.0.0
+        title: 04 L Types Of Errors
+        semantic_type: VideoAtom
+        updated_at: 'Thu Mar 09 2017 18:32:41 GMT+0000 (UTC)'
+        is_public: true
+        tags: []
+        instructor_notes: ''
+        resources: null
+        video:
+          id: '51268'
+          youtube_id: Twf1qnPZeSY
+          subtitles: null
+          transcodings:
+            uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/March/58c19d7a_04-l-types-of-errors/04-l-types-of-errors_480p.mp4'
+            uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/March/58c19d7a_04-l-types-of-errors/04-l-types-of-errors_480p_1000kbps.mp4'
+            uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/March/58c19d7a_04-l-types-of-errors/04-l-types-of-errors_480p.ogg'
+            uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/March/58c19d7a_04-l-types-of-errors/04-l-types-of-errors_720p.mp4'
+            uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/March/58c19d7a_04-l-types-of-errors/hls/playlist.m3u8'
+  - id: 263166
+    key: ba0c51d5-6d77-48ca-870e-e0f785ca9afa
+    locale: en-us
+    version: 1.0.0
+    title: Model Complexity Graph
+    semantic_type: Concept
+    updated_at: 'Thu Feb 09 2017 21:59:54 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 264077
+      - 264081
+      - 263202
+      - 264098
+    atoms:
+      - id: 264077
+        key: 3e17b004-661c-4084-9287-e19031c2c1c3
+        locale: en-us
+        version: 1.0.0
+        title: Model Complexity Graph-Question
+        semantic_type: VideoAtom
+        updated_at: 'Thu Feb 09 2017 21:25:55 GMT+0000 (UTC)'
+        is_public: true
+        tags: []
+        instructor_notes: ''
+        resources: null
+        video:
+          id: '49888'
+          youtube_id: YS5OQCA5cLY
+          subtitles: null
+          transcodings:
+            uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/589cd002_model-complexity-graph-question/model-complexity-graph-question_480p.mp4'
+            uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/589cd002_model-complexity-graph-question/model-complexity-graph-question_480p_1000kbps.mp4'
+            uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/589cd002_model-complexity-graph-question/model-complexity-graph-question_480p.ogg'
+            uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/589cd002_model-complexity-graph-question/model-complexity-graph-question_720p.mp4'
+            uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/589cd002_model-complexity-graph-question/hls/playlist.m3u8'
+      - id: 264081
+        key: 3fac1b4c-9d32-4f9d-8166-6545948d9d9f
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: ImageAtom
+        updated_at: 'Thu Feb 09 2017 21:27:09 GMT+0000 (UTC)'
+        is_public: true
+        url: 'https://d17h27t6h515a5.cloudfront.net/topher/2017/February/589cdea9_complexity/complexity.png'
+        width: 1002
+        height: 602
+        caption: ''
+        resources: null
+        instructor_notes: null
+      - id: 263202
+        key: 2f95f943-fc9d-4691-8c68-6c26074b634d
+        locale: en-us
+        version: 1.0.0
+        title: Model Complexity Graph Quiz
+        semantic_type: ValidatedQuizAtom
+        updated_at: 'Thu Feb 09 2017 21:59:30 GMT+0000 (UTC)'
+        is_public: true
+        question:
+          prompt: |-
+            In the model above, how many training and testing errors are there?
+            Please enter your answer as a string composed of the two numbers, separated by a comma and a space. For example, if you find 1 training error and 4 testing errors, your answer should be `1, 4`.
+          default_feedback: Try again. Look carefully at how many training and testing models are misclassified by this model.
+          correct_feedback: null
+          video_feedback:
+            id: null
+            youtube_id: mkgSL2ehHRc
+            subtitles: null
+            transcodings:
+              uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/589ce292_model-complexity-graph-solution-1/model-complexity-graph-solution-1_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/589ce292_model-complexity-graph-solution-1/model-complexity-graph-solution-1_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/589ce292_model-complexity-graph-solution-1/model-complexity-graph-solution-1_480p.ogg'
+              uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/589ce292_model-complexity-graph-solution-1/model-complexity-graph-solution-1_720p.mp4'
+              uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/589ce292_model-complexity-graph-solution-1/hls/playlist.m3u8'
+          matchers:
+            - semantic_type: RegexMatcher
+              is_correct: true
+              expression: '0, 2'
+              expression_description: null
+              flags: ''
+              incorrect_feedback: null
+            - semantic_type: RegexMatcher
+              is_correct: true
+              expression: '0,2'
+              expression_description: null
+              flags: ''
+              incorrect_feedback: null
+      - id: 264098
+        key: f51f496b-a468-4b07-9b3e-22076cad18c6
+        locale: en-us
+        version: 1.0.0
+        title: Model-Complexity-Graph Solution 2
+        semantic_type: VideoAtom
+        updated_at: 'Thu Feb 09 2017 21:59:45 GMT+0000 (UTC)'
+        is_public: true
+        tags: []
+        instructor_notes: ''
+        resources: null
+        video:
+          id: '49913'
+          youtube_id: 5pWHGkNyRhA
+          subtitles: null
+          transcodings:
+            uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/589ce299_model-complexity-graph-solution-2/model-complexity-graph-solution-2_480p.mp4'
+            uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/589ce299_model-complexity-graph-solution-2/model-complexity-graph-solution-2_480p_1000kbps.mp4'
+            uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/589ce299_model-complexity-graph-solution-2/model-complexity-graph-solution-2_480p.ogg'
+            uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/589ce299_model-complexity-graph-solution-2/model-complexity-graph-solution-2_720p.mp4'
+            uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/589ce299_model-complexity-graph-solution-2/hls/playlist.m3u8'
+  - id: 263168
+    key: 6a1f69ae-2874-4bbe-80d6-c95ad65ae5e9
+    locale: en-us
+    version: 1.0.0
+    title: K-Fold Cross Validation
+    semantic_type: Concept
+    updated_at: 'Thu Feb 09 2017 21:28:51 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 264084
+    atoms:
+      - id: 264084
+        key: 935fd2fb-5b63-4766-afda-b7594cb8e9e8
+        locale: en-us
+        version: 1.0.0
+        title: K Fold Cross Validation
+        semantic_type: VideoAtom
+        updated_at: 'Thu Feb 09 2017 21:28:47 GMT+0000 (UTC)'
+        is_public: true
+        tags: []
+        instructor_notes: ''
+        resources: null
+        video:
+          id: '49886'
+          youtube_id: dRtgSJgSt_I
+          subtitles: null
+          transcodings:
+            uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/589cd001_k-fold-cross-validation/k-fold-cross-validation_480p.mp4'
+            uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/589cd001_k-fold-cross-validation/k-fold-cross-validation_480p_1000kbps.mp4'
+            uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/589cd001_k-fold-cross-validation/k-fold-cross-validation_480p.ogg'
+            uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/589cd001_k-fold-cross-validation/k-fold-cross-validation_720p.mp4'
+            uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/589cd001_k-fold-cross-validation/hls/playlist.m3u8'

@@ -1,0 +1,545 @@
+id: 295979
+key: b13359d2-5f34-4333-9fcd-f5166df104c7
+locale: zh-cn
+version: 1.0.0
+title: 模型评估和验证
+semantic_type: Lesson
+updated_at: 'Fri Apr 14 2017 13:44:47 GMT+0000 (UTC)'
+is_public: true
+image:
+  url: 'https://d17h27t6h515a5.cloudfront.net/topher/2017/April/58ed4d9f_model-evaluation-and-validation/model-evaluation-and-validation.jpg'
+  width: 1000
+  height: 1000
+video: null
+summary: 在这节课中，你将学习训练模型的基础知识，了解测试和交叉验证的作用，以及用于评估模型的一些有趣指标，例如精确度或 R2 分数。
+duration: 60
+is_project_lesson: false
+_concepts_ids:
+  - 295832
+  - 295834
+  - 295835
+  - 295836
+  - 295838
+  - 295837
+  - 295839
+  - 295840
+_project_id: null
+concepts:
+  - id: 295832
+    key: 02585623-835a-4ec2-842d-856326e0450c
+    locale: zh-cn
+    version: 1.0.0
+    title: 简介
+    semantic_type: Concept
+    updated_at: 'Fri Apr 14 2017 13:44:25 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 294204
+      - 294202
+      - 294205
+    atoms:
+      - id: 294204
+        key: f48c0d9a-6d14-4588-9869-93bd7550d018
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Fri Apr 14 2017 13:44:23 GMT+0000 (UTC)'
+        is_public: true
+        text: '### 简介'
+        instructor_notes: ''
+        resources: null
+      - id: 294202
+        key: 5eee059f-c008-48c3-87c5-48b998112fae
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: ImageAtom
+        updated_at: 'Fri Apr 14 2017 13:44:24 GMT+0000 (UTC)'
+        is_public: true
+        url: 'https://d17h27t6h515a5.cloudfront.net/topher/2017/February/589523da_meme/meme.png'
+        width: 200
+        height: 200
+        caption: 我是 Luis，又和大家见面了！
+        resources: null
+        instructor_notes: null
+      - id: 294205
+        key: 32c65e02-84d1-4548-aa00-416ae6a54b11
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Fri Apr 14 2017 13:44:25 GMT+0000 (UTC)'
+        is_public: true
+        text: |
+          恭喜！你已经构建了你的首个模型，一个用于预测自行车共享使用情况的神经网络！正如你在项目中看到的，数据分为训练、验证和测试集。在此部分，我们将学习为何需要这么做，以及如何验证模型的效果并为其评分。具体而言，你将学习以下内容：
+
+          * 如何为模型创建测试集。
+          * 如何使用混淆矩阵评估误报率和漏报率。
+          * 如何衡量精确度和其他模型指标。
+          * 如何评估回归。
+          * 如何根据模型的复杂性检测你是否过度拟合或低度拟合了。
+          * 如何使用交叉验证确保你的模型可以泛化。
+        instructor_notes: ''
+        resources: null
+  - id: 295834
+    key: 2f9b801a-b7de-4f35-a9f8-b01c4dae1c5d
+    locale: zh-cn
+    version: 1.0.0
+    title: 测试
+    semantic_type: Concept
+    updated_at: 'Fri Apr 14 2017 13:44:26 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 294207
+    atoms:
+      - id: 294207
+        key: f102d73a-0d13-4ff0-86fd-7f285d4845ed
+        locale: zh-cn
+        version: 1.0.0
+        title: 测试
+        semantic_type: VideoAtom
+        updated_at: 'Wed Apr 19 2017 21:35:08 GMT+0000 (UTC)'
+        is_public: true
+        tags: []
+        instructor_notes: ''
+        resources: null
+        video:
+          id: '51204'
+          youtube_id: gmxGRJSKEb0
+          subtitles: null
+          transcodings:
+            uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/March/58bf361f_testing/testing_480p.mp4'
+            uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/March/58bf361f_testing/testing_480p_1000kbps.mp4'
+            uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/March/58bf361f_testing/testing_480p.ogg'
+            uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/March/58bf361f_testing/testing_720p.mp4'
+            uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/March/58bf361f_testing/hls/playlist.m3u8'
+  - id: 295835
+    key: d5117e0b-ba43-40e9-b564-2901d0e2aee1
+    locale: zh-cn
+    version: 1.0.0
+    title: 混淆矩阵
+    semantic_type: Concept
+    updated_at: 'Fri Apr 14 2017 13:44:30 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 294208
+      - 294209
+      - 294210
+    atoms:
+      - id: 294208
+        key: e0fdd024-767a-4bd9-9e33-25864081abf2
+        locale: zh-cn
+        version: 1.0.0
+        title: 混淆矩阵-问题
+        semantic_type: VideoAtom
+        updated_at: 'Fri Apr 14 2017 13:44:26 GMT+0000 (UTC)'
+        is_public: true
+        tags: []
+        instructor_notes: ''
+        resources: null
+        video:
+          id: '49884'
+          youtube_id: 9GLNjmMUB_4
+          subtitles: null
+          transcodings:
+            uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/589ccfff_confusion-matrix-question/confusion-matrix-question_480p.mp4'
+            uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/589ccfff_confusion-matrix-question/confusion-matrix-question_480p_1000kbps.mp4'
+            uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/589ccfff_confusion-matrix-question/confusion-matrix-question_480p.ogg'
+            uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/589ccfff_confusion-matrix-question/confusion-matrix-question_720p.mp4'
+            uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/589ccfff_confusion-matrix-question/hls/playlist.m3u8'
+      - id: 294209
+        key: 3ba16a36-de47-44b6-b2cb-6bb034403a38
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: ImageAtom
+        updated_at: 'Fri Apr 14 2017 13:44:28 GMT+0000 (UTC)'
+        is_public: true
+        url: 'https://d17h27t6h515a5.cloudfront.net/topher/2017/February/589cff16_confusion/confusion.png'
+        width: 1752
+        height: 835
+        caption: ''
+        resources: null
+        instructor_notes: null
+      - id: 294210
+        key: 9aaed560-dc11-4d8a-baeb-a9de939b1c16
+        locale: zh-cn
+        version: 1.0.0
+        title: 混淆矩阵练习
+        semantic_type: ValidatedQuizAtom
+        updated_at: 'Fri Apr 14 2017 13:44:29 GMT+0000 (UTC)'
+        is_public: true
+        question:
+          prompt: |-
+            上述模型中有多少个 True Positive、True Negative、False Positives 和 False Negative ？
+            请按照上述顺序填写答案，四个数字用逗号和空格隔开。例如，如果你的答案是 1、2、3 和 4，则输入字符串 `1, 2, 3, 4`。
+
+            注意，在上述图片中，蓝点表示 positive，红点表示 negative。
+          default_feedback: 再试一遍，你有一个或多个答案不正确。
+          correct_feedback: null
+          video_feedback:
+            id: null
+            youtube_id: ywwSzyU9rYs
+            subtitles: null
+            transcodings:
+              uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/589ccfff_confusion-matrix-solution/confusion-matrix-solution_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/589ccfff_confusion-matrix-solution/confusion-matrix-solution_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/589ccfff_confusion-matrix-solution/confusion-matrix-solution_480p.ogg'
+              uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/589ccfff_confusion-matrix-solution/confusion-matrix-solution_720p.mp4'
+              uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/589ccfff_confusion-matrix-solution/hls/playlist.m3u8'
+          matchers:
+            - semantic_type: RegexMatcher
+              is_correct: true
+              expression: '6, 5, 2, 1 '
+              expression_description: ''
+              flags: ''
+              incorrect_feedback: null
+            - semantic_type: RegexMatcher
+              is_correct: true
+              expression: '6521'
+              expression_description: null
+              flags: ''
+              incorrect_feedback: null
+            - semantic_type: RegexMatcher
+              is_correct: true
+              expression: '6,5,2,1'
+              expression_description: null
+              flags: ''
+              incorrect_feedback: null
+            - semantic_type: RegexMatcher
+              is_correct: true
+              expression: '6\s*,?\s*5\s*,?\s*2\s*,?\s*1'
+              expression_description: null
+              flags: ''
+              incorrect_feedback: null
+  - id: 295836
+    key: e2d4bda9-aada-4c56-a782-b7a8a38acc1c
+    locale: zh-cn
+    version: 1.0.0
+    title: 精确度
+    semantic_type: Concept
+    updated_at: 'Fri Apr 14 2017 13:44:33 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 294211
+      - 294212
+      - 294213
+    atoms:
+      - id: 294211
+        key: dab695d2-a193-441e-b332-dfa46c9d4137
+        locale: zh-cn
+        version: 1.0.0
+        title: 精确度
+        semantic_type: VideoAtom
+        updated_at: 'Fri Apr 14 2017 13:44:32 GMT+0000 (UTC)'
+        is_public: true
+        tags: []
+        instructor_notes: ''
+        resources: null
+        video:
+          id: '49882'
+          youtube_id: s6SfhPTNOHA
+          subtitles: null
+          transcodings:
+            uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/589ccffc_01-q-accuracy/01-q-accuracy_480p.mp4'
+            uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/589ccffc_01-q-accuracy/01-q-accuracy_480p_1000kbps.mp4'
+            uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/589ccffc_01-q-accuracy/01-q-accuracy_480p.ogg'
+            uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/589ccffc_01-q-accuracy/01-q-accuracy_720p.mp4'
+            uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/589ccffc_01-q-accuracy/hls/playlist.m3u8'
+      - id: 294212
+        key: adb4aed7-ccff-43d5-801d-265f81ce5f61
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: ImageAtom
+        updated_at: 'Fri Apr 14 2017 13:44:32 GMT+0000 (UTC)'
+        is_public: true
+        url: 'https://d17h27t6h515a5.cloudfront.net/topher/2017/February/589cff85_accuracy/accuracy.png'
+        width: 1395
+        height: 967
+        caption: ''
+        resources: null
+        instructor_notes: null
+      - id: 294213
+        key: 6d7eb1d6-99de-48ac-aee3-4343eec54250
+        locale: zh-cn
+        version: 1.0.0
+        title: 精确度练习
+        semantic_type: ValidatedQuizAtom
+        updated_at: 'Fri Apr 14 2017 13:44:32 GMT+0000 (UTC)'
+        is_public: true
+        question:
+          prompt: 上述模型的精确度是多少？请以百分比形式输入答案，保留两位小数，例如 `54.75`。
+          default_feedback: 再试一次。注意，精确度是正确分类的点数与总点数的比例。
+          correct_feedback: null
+          video_feedback:
+            id: null
+            youtube_id: ueYCLfd_aNQ
+            subtitles: null
+            transcodings:
+              uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/589ccffc_02-s-accuracy/02-s-accuracy_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/589ccffc_02-s-accuracy/02-s-accuracy_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/589ccffc_02-s-accuracy/02-s-accuracy_480p.ogg'
+              uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/589ccffc_02-s-accuracy/02-s-accuracy_720p.mp4'
+              uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/589ccffc_02-s-accuracy/hls/playlist.m3u8'
+          matchers:
+            - semantic_type: RegexMatcher
+              is_correct: true
+              expression: '78.57'
+              expression_description: null
+              flags: ''
+              incorrect_feedback: null
+            - semantic_type: RegexMatcher
+              is_correct: true
+              expression: '78.56'
+              expression_description: null
+              flags: ''
+              incorrect_feedback: null
+            - semantic_type: RegexMatcher
+              is_correct: true
+              expression: 78.57%
+              expression_description: null
+              flags: ''
+              incorrect_feedback: null
+            - semantic_type: RegexMatcher
+              is_correct: true
+              expression: 78.56%
+              expression_description: null
+              flags: ''
+              incorrect_feedback: null
+            - semantic_type: RegexMatcher
+              is_correct: true
+              expression: '78.5'
+              expression_description: null
+              flags: ''
+              incorrect_feedback: null
+            - semantic_type: RegexMatcher
+              is_correct: true
+              expression: '78.6'
+              expression_description: null
+              flags: ''
+              incorrect_feedback: null
+            - semantic_type: RegexMatcher
+              is_correct: true
+              expression: 78.5%
+              expression_description: null
+              flags: ''
+              incorrect_feedback: null
+            - semantic_type: RegexMatcher
+              is_correct: true
+              expression: 78.6%
+              expression_description: null
+              flags: ''
+              incorrect_feedback: null
+  - id: 295838
+    key: fbdff01f-d358-4eba-9439-069b9e620ae8
+    locale: zh-cn
+    version: 1.0.0
+    title: 回归指标
+    semantic_type: Concept
+    updated_at: 'Fri Apr 14 2017 13:44:35 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 294214
+    atoms:
+      - id: 294214
+        key: 02e5d81a-35ad-4bba-9ad7-9d085de1d1c3
+        locale: zh-cn
+        version: 1.0.0
+        title: 回归指标
+        semantic_type: VideoAtom
+        updated_at: 'Wed Apr 19 2017 21:35:08 GMT+0000 (UTC)'
+        is_public: true
+        tags: []
+        instructor_notes: ''
+        resources: null
+        video:
+          id: '51206'
+          youtube_id: 906P4BPnl9A
+          subtitles: null
+          transcodings:
+            uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/March/58bf423f_regression-metrics/regression-metrics_480p.mp4'
+            uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/March/58bf423f_regression-metrics/regression-metrics_480p_1000kbps.mp4'
+            uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/March/58bf423f_regression-metrics/regression-metrics_480p.ogg'
+            uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/March/58bf423f_regression-metrics/regression-metrics_720p.mp4'
+            uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/March/58bf423f_regression-metrics/hls/playlist.m3u8'
+  - id: 295837
+    key: 3a797d5c-f23d-442e-9b67-fc023690df8c
+    locale: zh-cn
+    version: 1.0.0
+    title: 错误类型
+    semantic_type: Concept
+    updated_at: 'Fri Apr 14 2017 13:44:36 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 294215
+    atoms:
+      - id: 294215
+        key: ae93ca80-3959-4c9e-ac13-d5209a1b5055
+        locale: zh-cn
+        version: 1.0.0
+        title: 错误类型
+        semantic_type: VideoAtom
+        updated_at: 'Fri Apr 14 2017 13:44:36 GMT+0000 (UTC)'
+        is_public: true
+        tags: []
+        instructor_notes: ''
+        resources: null
+        video:
+          id: '51268'
+          youtube_id: Twf1qnPZeSY
+          subtitles: null
+          transcodings:
+            uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/March/58c19d7a_04-l-types-of-errors/04-l-types-of-errors_480p.mp4'
+            uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/March/58c19d7a_04-l-types-of-errors/04-l-types-of-errors_480p_1000kbps.mp4'
+            uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/March/58c19d7a_04-l-types-of-errors/04-l-types-of-errors_480p.ogg'
+            uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/March/58c19d7a_04-l-types-of-errors/04-l-types-of-errors_720p.mp4'
+            uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/March/58c19d7a_04-l-types-of-errors/hls/playlist.m3u8'
+  - id: 295839
+    key: ba0c51d5-6d77-48ca-870e-e0f785ca9afa
+    locale: zh-cn
+    version: 1.0.0
+    title: 模型复杂性图表
+    semantic_type: Concept
+    updated_at: 'Fri Apr 14 2017 13:44:41 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 294216
+      - 294217
+      - 294218
+      - 294219
+    atoms:
+      - id: 294216
+        key: 3e17b004-661c-4084-9287-e19031c2c1c3
+        locale: zh-cn
+        version: 1.0.0
+        title: 模型复杂性图表-问题
+        semantic_type: VideoAtom
+        updated_at: 'Fri Apr 14 2017 13:44:39 GMT+0000 (UTC)'
+        is_public: true
+        tags: []
+        instructor_notes: ''
+        resources: null
+        video:
+          id: '49888'
+          youtube_id: YS5OQCA5cLY
+          subtitles: null
+          transcodings:
+            uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/589cd002_model-complexity-graph-question/model-complexity-graph-question_480p.mp4'
+            uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/589cd002_model-complexity-graph-question/model-complexity-graph-question_480p_1000kbps.mp4'
+            uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/589cd002_model-complexity-graph-question/model-complexity-graph-question_480p.ogg'
+            uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/589cd002_model-complexity-graph-question/model-complexity-graph-question_720p.mp4'
+            uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/589cd002_model-complexity-graph-question/hls/playlist.m3u8'
+      - id: 294217
+        key: 3fac1b4c-9d32-4f9d-8166-6545948d9d9f
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: ImageAtom
+        updated_at: 'Fri Apr 14 2017 13:44:39 GMT+0000 (UTC)'
+        is_public: true
+        url: 'https://d17h27t6h515a5.cloudfront.net/topher/2017/February/589cdea9_complexity/complexity.png'
+        width: 1002
+        height: 602
+        caption: ''
+        resources: null
+        instructor_notes: null
+      - id: 294218
+        key: 2f95f943-fc9d-4691-8c68-6c26074b634d
+        locale: zh-cn
+        version: 1.0.0
+        title: 模型复杂性图表-练习
+        semantic_type: ValidatedQuizAtom
+        updated_at: 'Fri Apr 14 2017 13:44:40 GMT+0000 (UTC)'
+        is_public: true
+        question:
+          prompt: |-
+            在上述模型中，有多少个训练错误和测试错误？
+            请输入字符串形式的答案，由两个数字组成，用逗号和空格隔开。例如，如果发现了 1 个训练错误和 4 个测试错误，则答案应该为 `1, 4`。
+          default_feedback: 再试一次。请仔细观察该模型错误地分类了多少个训练模型和测试模型。
+          correct_feedback: null
+          video_feedback:
+            id: null
+            youtube_id: mkgSL2ehHRc
+            subtitles: null
+            transcodings:
+              uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/589ce292_model-complexity-graph-solution-1/model-complexity-graph-solution-1_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/589ce292_model-complexity-graph-solution-1/model-complexity-graph-solution-1_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/589ce292_model-complexity-graph-solution-1/model-complexity-graph-solution-1_480p.ogg'
+              uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/589ce292_model-complexity-graph-solution-1/model-complexity-graph-solution-1_720p.mp4'
+              uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/589ce292_model-complexity-graph-solution-1/hls/playlist.m3u8'
+          matchers:
+            - semantic_type: RegexMatcher
+              is_correct: true
+              expression: '0, 2'
+              expression_description: null
+              flags: ''
+              incorrect_feedback: null
+            - semantic_type: RegexMatcher
+              is_correct: true
+              expression: '0,2'
+              expression_description: null
+              flags: ''
+              incorrect_feedback: null
+      - id: 294219
+        key: f51f496b-a468-4b07-9b3e-22076cad18c6
+        locale: zh-cn
+        version: 1.0.0
+        title: 模型复杂性图表解决方案 2
+        semantic_type: VideoAtom
+        updated_at: 'Fri Apr 14 2017 13:44:40 GMT+0000 (UTC)'
+        is_public: true
+        tags: []
+        instructor_notes: ''
+        resources: null
+        video:
+          id: '49913'
+          youtube_id: 5pWHGkNyRhA
+          subtitles: null
+          transcodings:
+            uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/589ce299_model-complexity-graph-solution-2/model-complexity-graph-solution-2_480p.mp4'
+            uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/589ce299_model-complexity-graph-solution-2/model-complexity-graph-solution-2_480p_1000kbps.mp4'
+            uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/589ce299_model-complexity-graph-solution-2/model-complexity-graph-solution-2_480p.ogg'
+            uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/589ce299_model-complexity-graph-solution-2/model-complexity-graph-solution-2_720p.mp4'
+            uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/589ce299_model-complexity-graph-solution-2/hls/playlist.m3u8'
+  - id: 295840
+    key: 6a1f69ae-2874-4bbe-80d6-c95ad65ae5e9
+    locale: zh-cn
+    version: 1.0.0
+    title: K 折交叉验证
+    semantic_type: Concept
+    updated_at: 'Fri Apr 14 2017 13:44:45 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 294220
+    atoms:
+      - id: 294220
+        key: 935fd2fb-5b63-4766-afda-b7594cb8e9e8
+        locale: zh-cn
+        version: 1.0.0
+        title: K 折交叉验证
+        semantic_type: VideoAtom
+        updated_at: 'Fri Apr 14 2017 13:44:43 GMT+0000 (UTC)'
+        is_public: true
+        tags: []
+        instructor_notes: ''
+        resources: null
+        video:
+          id: '49886'
+          youtube_id: dRtgSJgSt_I
+          subtitles: null
+          transcodings:
+            uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/589cd001_k-fold-cross-validation/k-fold-cross-validation_480p.mp4'
+            uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/589cd001_k-fold-cross-validation/k-fold-cross-validation_480p_1000kbps.mp4'
+            uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/589cd001_k-fold-cross-validation/k-fold-cross-validation_480p.ogg'
+            uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/589cd001_k-fold-cross-validation/k-fold-cross-validation_720p.mp4'
+            uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/589cd001_k-fold-cross-validation/hls/playlist.m3u8'

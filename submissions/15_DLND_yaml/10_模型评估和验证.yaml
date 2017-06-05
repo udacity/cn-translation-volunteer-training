@@ -175,10 +175,10 @@ concepts:
         is_public: true
         question:
           prompt: |-
-            上述模型中有多少个 True Positive、True Negative、False Positives 和 False Negative ？
+            上述模型中有多少个 True Positives、True Negatives、False Positives 和 False Negatives ？
             请按照上述顺序填写答案，四个数字用逗号和空格隔开。例如，如果你的答案是 1、2、3 和 4，则输入字符串 `1, 2, 3, 4`。
 
-            注意，在上述图片中，蓝点表示 positive，红点表示 negative。
+            注意，在上述图片中，蓝点表示 positives，红点表示 negatives。
           default_feedback: 再试一遍，你有一个或多个答案不正确。
           correct_feedback: null
           video_feedback:

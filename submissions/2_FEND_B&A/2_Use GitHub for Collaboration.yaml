@@ -160,9 +160,9 @@ concepts:
         is_public: true
         text: |-
           ## 创建 GitHub 账户
-          在本节课中，你将在 GitHub 上分享更改，因此，你需要使用 GitHub 帐户。如果尚没有此帐户，可以访问 <a href="https://github.com/" target="_blank">github.com</a> 并单击“注册 GitHub”来创建一个帐户。
+          在本节课中，你将在 GitHub 上分享更改，因此，你需要使用 一个GitHub 帐户。如果尚没有此帐户，可以访问 <a href="https://github.com/" target="_blank">github.com</a> 并单击“Sign up for GitHub”来注册一个帐户。
 
-          在该网站要求你选择套餐时，可选择免费套餐，因为本课程不会使用任何付费功能。
+          在该网站要求你选择账户类型时，可选择免费的，因为本课程不会使用任何付费功能。
 
           ## 设置密码缓存
           每次通过命令行向 GitHub 发送更改时，都需要键入密码，以证明你有权修改版本库。这可能很快会让人觉得厌烦，因此，许多人都喜欢设置密码缓存，此功能让你只需键入密码一次，以后就会自动在该计算机上填写密码。要这样做，请按照<a href="https://help.github.com/articles/caching-your-github-password-in-git" target="_blank">此处</a>的说明进行操作。如果使用 Windows 并在前面按照我们的 Git 安装说明进行操作，则你使用的是 msysgit，因此可以按照 msysgit 的说明进行操作。
@@ -177,7 +177,7 @@ concepts:
     key: '30736788890923'
     locale: zh-cn
     version: 1.0.0
-    title: 使版本库保持同步
+    title: 使本地和github的库保持同步
     semantic_type: Concept
     updated_at: 'Thu Oct 27 2016 09:19:49 GMT+0000 (UTC)'
     is_public: true
@@ -189,7 +189,7 @@ concepts:
         key: '3073678889'
         locale: zh-cn
         version: 1.0.0
-        title: 使版本库保持同步
+        title: 使本地和github的库保持同步
         semantic_type: QuizAtom
         updated_at: 'Fri Apr 14 2017 18:06:58 GMT+0000 (UTC)'
         is_public: true
@@ -413,7 +413,7 @@ concepts:
 
           **何时你会想使用远程版本库，而不是将所有工作保存在本地？**
 
-          提交了更改后，单击“下一项”，了解如何将这些更改更新到你自己的计算机中。
+          提交了更改后，单击“下一项”，了解如何将这些更改更新到你自己的计算机本地。
         instructor_notes: ''
         resources:
           files: []
@@ -425,7 +425,7 @@ concepts:
     key: '30736788980923'
     locale: zh-cn
     version: 1.0.0
-    title: 拉取更改
+    title: Pulling更改
     semantic_type: Concept
     updated_at: 'Thu Oct 27 2016 09:19:52 GMT+0000 (UTC)'
     is_public: true
@@ -437,7 +437,7 @@ concepts:
         key: '3073678898'
         locale: zh-cn
         version: 1.0.0
-        title: 拉取更改
+        title: Pulling更改
         semantic_type: QuizAtom
         updated_at: 'Fri Apr 14 2017 18:06:58 GMT+0000 (UTC)'
         is_public: true
@@ -468,7 +468,7 @@ concepts:
               uri_hls: null
           text: null
         question:
-          title: 拉取更改 - 练习
+          title: Pulling更改 - 练习
           background_image: '//lh5.ggpht.com/rdFsJ42DdlWFgp98argh1ETDZPgz8f-H8x8v09LmIsZX5pQXEggXUS8l-mkcT-FklPbgrcCOgGltFJjUew=s0#w=1920&h=1080'
           alt_text: null
           semantic_type: ImageFormQuestion
@@ -574,7 +574,7 @@ concepts:
     key: '30858987000923'
     locale: zh-cn
     version: 1.0.0
-    title: 思考：手动与自动拉取
+    title: 思考：手动与自动Pull
     semantic_type: Concept
     updated_at: 'Thu Oct 27 2016 09:19:55 GMT+0000 (UTC)'
     is_public: true
@@ -586,13 +586,13 @@ concepts:
         key: '3085898700'
         locale: zh-cn
         version: 1.0.0
-        title: 思考：手动与自动拉取
+        title: 思考：手动与自动Pull
         semantic_type: TextAtom
         updated_at: 'Thu Oct 27 2016 09:19:54 GMT+0000 (UTC)'
         is_public: true
         text: |-
-          ## 思考：手动与自动拉取
-          现在，既然你已将更改推送到 GitHub 并从 GitHub 拉取了更改，现在请将以下问题和你对它的想法添加到你的思考文件中：
+          ## 思考：手动与自动Pull
+          现在，既然你已可以将更改push到 GitHub 并从 GitHub pull更改到本地，现在请将以下问题和你对它的想法添加到你的思考文件中：
 
           **为何你希望始终手动地拉取更改，而不是让 Git 自动与你的远程版本库保持同步？**
 
@@ -1869,6 +1869,7 @@ concepts:
 
           ## 如有必要，更新拉取请求
           如果某人合并你的拉取请求或发表评论，GitHub 会向你发送电子邮件并通知你。如果要求你进行一些更改，请将这些更改推送到你的Fork，以更新拉取请求。请确保让评审老师知道，他们应再看一次！
+          如果你的拉取请求产生了冲突，而且你不清楚怎么解决它，请查看下一个视频的指导。
         instructor_notes: null
         resources:
           files: []
@@ -1971,7 +1972,7 @@ concepts:
         instructor_notes: |-
           恭喜你学完了如何使用 Git 和 GitHub 课程！你是否知道，GitHub 并不是托管版本库以及与他人合作的唯一去处？
 
-          还有 BitBucket，这是一种免费的 Git 托管服务，也能免费为你提供**不受限制的专用版本库**。你可以在[此处](https://confluence.atlassian.com/bitbucket/bitbucket-101-221448818.html)了解更多信息，并在[此处](https://bitbucket.org/) 创建帐户。
+          还有 BitBucket，这是一种免费的 Git 托管服务，也能免费为你提供**不受限制的私有专用版本库**。你可以在[此处](https://confluence.atlassian.com/bitbucket/bitbucket-101-221448818.html)了解更多信息，并在[此处](https://bitbucket.org/) 创建帐户。
         resources:
           files: []
           google_plus_link: null

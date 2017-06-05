@@ -1,0 +1,69 @@
+﻿1
+00:00:00,114 --> 00:00:02,279
+Imagine you work
+for a production company,
+
+2
+00:00:02,279 --> 00:00:06,150
+and your job is to design
+the characters in a movie.
+
+3
+00:00:06,150 --> 00:00:08,850
+You would usually draw a
+bunch of different concepts
+
+4
+00:00:08,849 --> 00:00:11,459
+before arriving at
+the final design.
+
+5
+00:00:11,460 --> 00:00:15,120
+What if you had a neural network
+that could do this for you?
+
+6
+00:00:15,119 --> 00:00:18,339
+Maybe the lead character
+needs to be "gritty."
+
+7
+00:00:18,339 --> 00:00:22,190
+No-- what about "above the law"?
+
+8
+00:00:22,190 --> 00:00:23,580
+That's better.
+
+9
+00:00:23,579 --> 00:00:26,759
+How about "above the law scifi"?
+
+10
+00:00:26,760 --> 00:00:29,000
+Yeah, that's the one.
+
+11
+00:00:29,000 --> 00:00:31,199
+You'll build a generative
+adversarial network
+
+12
+00:00:31,199 --> 00:00:32,909
+that's not far off.
+
+13
+00:00:32,909 --> 00:00:35,219
+In this project,
+you'll build a GAN
+
+14
+00:00:35,219 --> 00:00:39,259
+that will generate new faces
+using celebrity images.
+
+15
+00:00:39,259 --> 00:00:40,939
+Have fun!
+

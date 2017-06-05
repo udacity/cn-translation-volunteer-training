@@ -1,0 +1,3131 @@
+id: 267180
+key: 2fd24529-215c-47b5-a644-2c23650493f6
+locale: en-us
+version: 1.0.0
+title: Convolutional Networks
+semantic_type: Lesson
+updated_at: 'Wed Apr 19 2017 22:20:55 GMT+0000 (UTC)'
+is_public: true
+image:
+  url: 'https://d17h27t6h515a5.cloudfront.net/topher/2017/April/58ed4f4a_convolutional-neural-networks/convolutional-neural-networks.jpg'
+  width: 500
+  height: 500
+video: null
+summary: Vincent explains the theory behind Convolutional Neural Networks and how they help us dramatically improve performance in image classification.
+duration: 120
+is_project_lesson: false
+_concepts_ids:
+  - 134287
+  - 268050
+  - 267997
+  - 268000
+  - 216734
+  - 217773
+  - 268053
+  - 268002
+  - 217097
+  - 217380
+  - 217383
+  - 217385
+  - 217386
+  - 217387
+  - 217388
+  - 216770
+  - 205139
+  - 268006
+  - 205338
+  - 217389
+  - 217395
+  - 217391
+  - 217396
+  - 217392
+  - 217397
+  - 217394
+  - 217398
+  - 268009
+  - 268011
+  - 199874
+  - 217145
+  - 217153
+  - 217148
+  - 217154
+  - 216782
+_project_id: null
+concepts:
+  - id: 134287
+    key: '63741833610923'
+    locale: en-us
+    version: 1.0.0
+    title: Intro To CNNs
+    semantic_type: Concept
+    updated_at: 'Thu Oct 06 2016 05:37:36 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 31466
+    atoms:
+      - id: 31466
+        key: '6374183361'
+        locale: en-us
+        version: 1.0.0
+        title: Intro to CNNs
+        semantic_type: VideoAtom
+        updated_at: 'Wed Apr 19 2017 21:39:47 GMT+0000 (UTC)'
+        is_public: true
+        tags: []
+        instructor_notes: ''
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        video:
+          youtube_id: B61jxZ4rkMs
+          subtitles:
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0a38a_intro-lesson-3/subtitles/lang_en_vs2.srt'
+              language_code: en
+          transcodings:
+            uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0a38a_intro-lesson-3/intro-lesson-3_480p.mp4'
+            uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0a38a_intro-lesson-3/intro-lesson-3_480p_1000kbps.mp4'
+            uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0a38a_intro-lesson-3/intro-lesson-3_480p.ogg'
+            uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0a38a_intro-lesson-3/intro-lesson-3_720p.mp4'
+            uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0a38a_intro-lesson-3/hls/playlist.m3u8'
+  - id: 268050
+    key: f2ff6541-30f0-4437-9f07-22c91c384fcd
+    locale: en-us
+    version: 1.0.0
+    title: Color
+    semantic_type: Concept
+    updated_at: 'Thu Feb 23 2017 04:22:04 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 268051
+      - 268052
+    atoms:
+      - id: 268051
+        key: f55a2905-c8c2-47da-aae7-652557086d79
+        locale: en-us
+        version: 1.0.0
+        title: Color-Question
+        semantic_type: VideoAtom
+        updated_at: 'Tue Apr 18 2017 17:00:37 GMT+0000 (UTC)'
+        is_public: true
+        tags: []
+        instructor_notes: ''
+        resources: null
+        video:
+          youtube_id: BdQccpMwk80
+          subtitles:
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae2717_color-question/subtitles/lang_en_vs1.srt'
+              language_code: en
+          transcodings:
+            uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae2717_color-question/color-question_480p.mp4'
+            uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae2717_color-question/color-question_480p_1000kbps.mp4'
+            uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae2717_color-question/color-question_480p.ogg'
+            uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae2717_color-question/color-question_720p.mp4'
+            uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae2717_color-question/hls/playlist.m3u8'
+      - id: 268052
+        key: 4f6d9610-d4e6-47e0-a35c-3e81131fa0f5
+        locale: en-us
+        version: 1.0.0
+        title: Color
+        semantic_type: RadioQuizAtom
+        updated_at: 'Mon Apr 17 2017 23:50:12 GMT+0000 (UTC)'
+        is_public: true
+        question:
+          prompt: What would be easier for your classifier to learn?
+          correct_feedback: null
+          video_feedback:
+            youtube_id: xpyldyLlMFg
+            subtitles:
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae2717_color-solution/subtitles/lang_en_vs1.srt'
+                language_code: en
+            transcodings:
+              uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae2717_color-solution/color-solution_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae2717_color-solution/color-solution_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae2717_color-solution/color-solution_480p.ogg'
+              uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae2717_color-solution/color-solution_720p.mp4'
+              uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae2717_color-solution/hls/playlist.m3u8'
+          default_feedback: null
+          answers:
+            - id: a1487817099326
+              text: 'R, G, B'
+              is_correct: false
+              incorrect_feedback: null
+            - id: a1487817106603
+              text: (R + G + B) / 3
+              is_correct: true
+              incorrect_feedback: null
+  - id: 267997
+    key: 0814ce97-5008-432a-b28c-f483b7472965
+    locale: en-us
+    version: 1.0.0
+    title: Statistical Invariance
+    semantic_type: Concept
+    updated_at: 'Thu Feb 23 2017 04:22:07 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 267998
+    atoms:
+      - id: 267998
+        key: 49b8168f-fa5e-490d-86a2-45d87cd1f4b3
+        locale: en-us
+        version: 1.0.0
+        title: Statistical Invariance
+        semantic_type: VideoAtom
+        updated_at: 'Tue Apr 18 2017 17:05:40 GMT+0000 (UTC)'
+        is_public: true
+        tags: []
+        instructor_notes: ''
+        resources: null
+        video:
+          youtube_id: 0Hr5YwUUhr0
+          subtitles:
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae2734_statistical-invariance/subtitles/lang_en_vs1.srt'
+              language_code: en
+          transcodings:
+            uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae2734_statistical-invariance/statistical-invariance_480p.mp4'
+            uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae2734_statistical-invariance/statistical-invariance_480p_1000kbps.mp4'
+            uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae2734_statistical-invariance/statistical-invariance_480p.ogg'
+            uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae2734_statistical-invariance/statistical-invariance_720p.mp4'
+            uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae2734_statistical-invariance/hls/playlist.m3u8'
+  - id: 268000
+    key: 30ecc31b-f1b6-49c7-8e67-6757a9a1bb8b
+    locale: en-us
+    version: 1.0.0
+    title: Convolutional Networks
+    semantic_type: Concept
+    updated_at: 'Thu Feb 23 2017 04:22:10 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 268001
+    atoms:
+      - id: 268001
+        key: e3f5d200-347f-455a-a1bb-e19e0dceb53e
+        locale: en-us
+        version: 1.0.0
+        title: Convolutional Networks
+        semantic_type: VideoAtom
+        updated_at: 'Tue Apr 18 2017 17:00:33 GMT+0000 (UTC)'
+        is_public: true
+        tags: []
+        instructor_notes: ''
+        resources: null
+        video:
+          youtube_id: ISHGyvsT0QY
+          subtitles:
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae271e_convolutional-networks/subtitles/lang_en_vs1.srt'
+              language_code: en
+          transcodings:
+            uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae271e_convolutional-networks/convolutional-networks_480p.mp4'
+            uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae271e_convolutional-networks/convolutional-networks_480p_1000kbps.mp4'
+            uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae271e_convolutional-networks/convolutional-networks_480p.ogg'
+            uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae271e_convolutional-networks/convolutional-networks_720p.mp4'
+            uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae271e_convolutional-networks/hls/playlist.m3u8'
+  - id: 216734
+    key: da532f3b-29e8-43d1-9590-aa58909c28d1
+    locale: en-us
+    version: 1.0.0
+    title: Intuition
+    semantic_type: Concept
+    updated_at: 'Fri Dec 02 2016 05:26:51 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 216735
+      - 216736
+      - 216737
+      - 216738
+      - 216739
+      - 216740
+      - 216741
+      - 216742
+      - 216743
+      - 216744
+      - 217344
+      - 217343
+    atoms:
+      - id: 216735
+        key: 981e7cdf-7f24-436c-beb6-1606f72f1502
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Fri Dec 02 2016 03:38:26 GMT+0000 (UTC)'
+        is_public: true
+        text: |
+          ### Intuition
+
+          Let's develop better intuition for how Convolutional Neural Networks (CNN) work. We'll examine how humans classify images, and then see how CNNs use similar approaches.
+
+          Let’s say we wanted to classify the following image of a dog as a Golden Retriever.
+        instructor_notes: ''
+        resources: null
+      - id: 216736
+        key: aa96d6e5-db9d-44eb-ac45-111fe3b9c105
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: ImageAtom
+        updated_at: 'Fri Nov 25 2016 00:21:11 GMT+0000 (UTC)'
+        is_public: true
+        url: 'https://d17h27t6h515a5.cloudfront.net/topher/2016/November/58377b77_dog-1210559-1280/dog-1210559-1280.jpg'
+        width: 1280
+        height: 960
+        caption: An image that we'd like to classify as a Golden Retriever.
+        resources: null
+        instructor_notes: null
+      - id: 216737
+        key: cc60843a-7530-4492-b4db-40b3274e7581
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Fri Dec 02 2016 04:05:49 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          As humans, how do we do this? 
+
+          One thing we do is that we identify certain parts of the dog, such as the nose, the eyes, and the fur. We essentially break up the image into smaller pieces, recognize the smaller pieces, and then combine those pieces to get an idea of the overall dog.
+
+          In this case, we might break down the image into a combination of the following:
+
+          - A nose
+          - Two eyes
+          - Golden fur
+
+          These pieces can be seen below:
+        instructor_notes: ''
+        resources: null
+      - id: 216738
+        key: c0726277-4ce5-439b-9002-09b3afa237b1
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: ImageAtom
+        updated_at: 'Fri Nov 25 2016 00:21:11 GMT+0000 (UTC)'
+        is_public: true
+        url: 'https://d17h27t6h515a5.cloudfront.net/topher/2016/November/58377bdb_screen-shot-2016-11-24-at-12.49.08-pm/screen-shot-2016-11-24-at-12.49.08-pm.png'
+        width: 208
+        height: 208
+        caption: The eye of the dog.
+        resources: null
+        instructor_notes: null
+      - id: 216739
+        key: c51c102b-d377-456e-8c09-edb54c70634c
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: ImageAtom
+        updated_at: 'Fri Nov 25 2016 00:21:11 GMT+0000 (UTC)'
+        is_public: true
+        url: 'https://d17h27t6h515a5.cloudfront.net/topher/2016/November/58377bed_screen-shot-2016-11-24-at-12.49.43-pm/screen-shot-2016-11-24-at-12.49.43-pm.png'
+        width: 208
+        height: 208
+        caption: The nose of the dog.
+        resources: null
+        instructor_notes: null
+      - id: 216740
+        key: d851a50d-b7d2-4802-92f7-4f95e39206f8
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: ImageAtom
+        updated_at: 'Fri Nov 25 2016 00:21:11 GMT+0000 (UTC)'
+        is_public: true
+        url: 'https://d17h27t6h515a5.cloudfront.net/topher/2016/November/58377bff_screen-shot-2016-11-24-at-12.50.54-pm/screen-shot-2016-11-24-at-12.50.54-pm.png'
+        width: 208
+        height: 208
+        caption: The fur of the dog.
+        resources: null
+        instructor_notes: null
+      - id: 216741
+        key: 37c9621d-4b4f-42b1-8557-6fc474708ddb
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Mon Nov 28 2016 22:05:54 GMT+0000 (UTC)'
+        is_public: true
+        text: |
+          ### Going One Step Further
+
+          But let’s take this one step further. How do we determine what exactly a nose is? A Golden Retriever nose can be seen as an oval with two black holes inside it. Thus, one way of classifying a Retriever’s nose is to to break it up into smaller pieces and look for black holes (nostrils) and curves that define an oval as shown below.
+        instructor_notes: ''
+        resources: null
+      - id: 216742
+        key: b86fec5d-77f1-4f93-9e5d-7a1044cd0be6
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: ImageAtom
+        updated_at: 'Fri Nov 25 2016 00:21:11 GMT+0000 (UTC)'
+        is_public: true
+        url: 'https://d17h27t6h515a5.cloudfront.net/topher/2016/November/58377c52_screen-shot-2016-11-24-at-12.51.47-pm/screen-shot-2016-11-24-at-12.51.47-pm.png'
+        width: 206
+        height: 62
+        caption: A curve that we can use to determine a nose.
+        resources: null
+        instructor_notes: null
+      - id: 216743
+        key: b58e8f01-af9c-4dbe-8a51-43b49d41fbde
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: ImageAtom
+        updated_at: 'Fri Nov 25 2016 00:21:11 GMT+0000 (UTC)'
+        is_public: true
+        url: 'https://d17h27t6h515a5.cloudfront.net/topher/2016/November/58377c68_screen-shot-2016-11-24-at-12.51.51-pm/screen-shot-2016-11-24-at-12.51.51-pm.png'
+        width: 64
+        height: 86
+        caption: A nostril that we can use to classify a nose of the dog.
+        resources: null
+        instructor_notes: null
+      - id: 216744
+        key: 22c5f9fe-8c01-4559-9636-4685599f5473
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Fri Dec 02 2016 04:38:02 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          Broadly speaking, this is what a CNN learns to do. It learns to recognize basic lines and curves, then shapes and blobs, and then increasingly complex objects within the image. Finally, the CNN classifies the image by combining the larger, more complex objects. 
+
+          In our case, the levels in the hierarchy are:
+
+          - Simple shapes, like ovals and dark circles
+          - Complex objects (combinations of simple shapes), like eyes, nose, and fur
+          - The dog as a whole (a combination of complex objects)
+
+          With deep learning, we don't actually program the CNN to recognize these specific features. Rather, the CNN learns on its own to recognize such objects through forward propagation and backpropagation! 
+
+          It's amazing how well a CNN can learn to classify images, even though we never program the CNN with information about specific features to look for.
+        instructor_notes: ''
+        resources: null
+      - id: 217344
+        key: 277d41f9-189d-4b45-9453-d7c6f903f89b
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: ImageAtom
+        updated_at: 'Mon Nov 28 2016 22:37:36 GMT+0000 (UTC)'
+        is_public: true
+        url: 'https://d17h27t6h515a5.cloudfront.net/topher/2016/November/583cb19d_heirarchy-diagram/heirarchy-diagram.jpg'
+        width: 765
+        height: 549
+        caption: An example of what each layer in a CNN might recognize when classifying a picture of a dog.
+        resources: null
+        instructor_notes: null
+      - id: 217343
+        key: 92aa4d34-d3f0-4462-ad4e-08a50e9f432b
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Fri Dec 02 2016 05:27:02 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          A CNN might have several layers, and each layer might capture a different level in the hierarchy of objects. The first layer is the lowest level in the hierarchy, where the CNN generally classifies small parts of the image into simple shapes like horizontal and vertical lines and simple blobs of colors. The subsequent layers tend to be higher levels in the hierarchy and generally classify more complex ideas like shapes (combinations of lines), and eventually full objects like dogs. 
+
+          Once again, the CNN ***learns all of this on its own***. We don't ever have to tell the CNN to go looking for lines or curves or noses or fur. The CNN just learns from the training set and discovers which characteristics of a Golden Retriever are worth looking for.
+
+          That's a good start! Hopefully you've developed some intuition about how CNNs work.
+
+          Next, let’s look at some implementation details.
+        instructor_notes: ''
+        resources: null
+  - id: 217773
+    key: bed725a8-0738-4b00-92bd-d2062f005a7c
+    locale: en-us
+    version: 1.0.0
+    title: Filters
+    semantic_type: Concept
+    updated_at: 'Fri Dec 02 2016 05:27:31 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 217774
+      - 217775
+      - 217776
+      - 217777
+      - 217778
+      - 217779
+      - 217780
+      - 217781
+      - 217782
+      - 217783
+      - 217784
+      - 217785
+      - 217786
+      - 217787
+    atoms:
+      - id: 217774
+        key: bffcee09-e532-4860-9041-fe528842665d
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Wed Feb 01 2017 20:52:26 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          ### Breaking up an Image
+
+          The first step for a CNN is to break up the image into smaller pieces. We do this by selecting a width and height that defines a filter.
+
+          The filter looks at small pieces, or patches, of the image. These patches are the same size as the filter. 
+        instructor_notes: ''
+        resources: null
+      - id: 217775
+        key: a3922280-56de-4ad6-8084-d21ccea24f2f
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: ImageAtom
+        updated_at: 'Fri Dec 02 2016 05:23:17 GMT+0000 (UTC)'
+        is_public: true
+        url: 'https://d17h27t6h515a5.cloudfront.net/topher/2016/November/58377d67_vlcsnap-2016-11-24-15h52m47s438/vlcsnap-2016-11-24-15h52m47s438.png'
+        width: 1280
+        height: 738
+        caption: 'As shown in the previous video, a CNN uses filters to split an image into smaller patches. The size of these patches matches the filter size.'
+        resources: null
+        instructor_notes: null
+      - id: 217776
+        key: df216b4f-9644-4676-9e88-1cc370fda019
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Wed Feb 01 2017 20:01:53 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          We then simply slide this filter horizontally or vertically to focus on a different piece of the image. 
+
+          The amount by which the filter slides is referred to as the 'stride'. The stride is a hyperparameter which you, the engineer, can tune. Increasing the stride reduces the size of your model by reducing the number of total patches each layer observes. However, this usually comes with a reduction in accuracy.
+
+          Let’s look at an example. In this zoomed in image of the dog, we first start with the patch outlined in red. The width and height of our filter define the size of this square.
+        instructor_notes: ''
+        resources: null
+      - id: 217777
+        key: 87549295-db45-4eb3-9085-c7bf02cd4367
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: ImageAtom
+        updated_at: 'Fri Dec 02 2016 05:23:17 GMT+0000 (UTC)'
+        is_public: true
+        url: 'https://d17h27t6h515a5.cloudfront.net/topher/2016/December/5840fdac_retriever-patch/retriever-patch.png'
+        width: 1902
+        height: 1502
+        caption: One patch of the Golden Retriever image.
+        resources: null
+        instructor_notes: null
+      - id: 217778
+        key: 6bdd5960-fa6b-4619-91f9-af26c0cf0650
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Fri Dec 02 2016 04:51:58 GMT+0000 (UTC)'
+        is_public: true
+        text: We then move the square over to the right by a given stride (2 in this case) to get another patch.
+        instructor_notes: ''
+        resources: null
+      - id: 217779
+        key: 2cf8a023-b9c9-4712-9ab0-f410e990b96f
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: ImageAtom
+        updated_at: 'Fri Dec 02 2016 05:23:17 GMT+0000 (UTC)'
+        is_public: true
+        url: 'https://d17h27t6h515a5.cloudfront.net/topher/2016/December/5840fe04_retriever-patch-shifted/retriever-patch-shifted.png'
+        width: 1904
+        height: 1506
+        caption: We move our square to the right by two pixels to create another patch.
+        resources: null
+        instructor_notes: null
+      - id: 217780
+        key: 2507e583-297a-4de4-aecc-0887525d5de8
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Fri Dec 02 2016 04:55:47 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          What's important here is that we are **grouping together adjacent pixels** and treating them as a collective. 
+
+          In a normal, non-convolutional neural network, we would have ignored this adjacency. In a normal network, we would have connected every pixel in the input image to a neuron in the next layer. In doing so, we would not have taken advantage of the fact that pixels in an image are close together for a reason and have special meaning. 
+
+          By taking advantage of this local structure, our CNN learns to classify local patterns, like shapes and objects, in an image.
+        instructor_notes: ''
+        resources: null
+      - id: 217781
+        key: cd0004cd-3a85-46fa-a46b-02874ebf9a0c
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Wed Feb 01 2017 20:43:20 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          ### Filter Depth
+
+          It's common to have more than one filter. Different filters pick up different qualities of a patch. For example, one filter might look for a particular color, while another might look for a kind of object of a specific shape. The amount of filters in a convolutional layer is called the *filter depth*.
+        instructor_notes: ''
+        resources: null
+      - id: 217782
+        key: 3af04f74-fc45-4cf4-8387-ae4511e4b86a
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: ImageAtom
+        updated_at: 'Mon Mar 13 2017 21:48:30 GMT+0000 (UTC)'
+        is_public: true
+        url: 'https://d17h27t6h515a5.cloudfront.net/topher/2016/November/58377e4f_neilsen-pic/neilsen-pic.png'
+        width: 353
+        height: 258
+        caption: 'In the above example, a patch is connected to a neuron in the next layer. Source: MIchael Nielsen.'
+        resources: null
+        instructor_notes: null
+      - id: 217783
+        key: ea641478-9f33-4730-afdb-540af71e4633
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Fri Dec 02 2016 05:29:47 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          How many neurons does each patch connect to? 
+
+          That’s dependent on our filter depth. If we have a depth of `k`, we connect each patch of pixels to `k` neurons in the next layer. This gives us the height of `k` in the next layer, as shown below. In practice, `k` is a hyperparameter we tune, and most CNNs tend to pick the same starting values.
+        instructor_notes: ''
+        resources: null
+      - id: 217784
+        key: fa6c2e6d-1bd6-4f0a-8566-e57b4fd9306d
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: ImageAtom
+        updated_at: 'Fri Dec 02 2016 05:23:17 GMT+0000 (UTC)'
+        is_public: true
+        url: 'https://d17h27t6h515a5.cloudfront.net/topher/2016/December/5840ffda_filter-depth/filter-depth.png'
+        width: 606
+        height: 1010
+        caption: Choosing a filter depth of `k` connects each patch to `k` neurons in the next layer.
+        resources: null
+        instructor_notes: null
+      - id: 217785
+        key: 44c5ccb8-cf3b-4bbf-8a50-223b036359e2
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Wed Feb 01 2017 20:45:45 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          But why connect a single patch to multiple neurons in the next layer? Isn’t one neuron good enough?
+
+          Multiple neurons can be useful because a patch can have multiple interesting characteristics that we want to capture. 
+
+          For example, one patch might include some white teeth, some blonde whiskers, and part of a red tongue. In that case, we might want a filter depth of at least three - one for each of teeth, whiskers, and tongue.
+        instructor_notes: ''
+        resources: null
+      - id: 217786
+        key: a5819d86-3180-412a-827f-fec39a336740
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: ImageAtom
+        updated_at: 'Fri Dec 02 2016 05:23:17 GMT+0000 (UTC)'
+        is_public: true
+        url: 'https://d17h27t6h515a5.cloudfront.net/topher/2016/December/584104c8_teeth-whiskers-tongue/teeth-whiskers-tongue.png'
+        width: 388
+        height: 420
+        caption: 'This patch of the dog has many interesting features we may want to capture. These include the presence of teeth, the presence of whiskers, and the pink color of the tongue.'
+        resources: null
+        instructor_notes: null
+      - id: 217787
+        key: ca766777-9d37-4621-9808-75ae078266d6
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Fri Dec 02 2016 05:31:17 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          Having multiple neurons for a given patch ensures that our CNN can learn to capture whatever characteristics the CNN learns are important.
+
+          Remember that the CNN isn't "programmed" to look for certain characteristics. Rather, it learns **on its own** which characteristics to notice.
+        instructor_notes: ''
+        resources: null
+  - id: 268053
+    key: 43de97fc-058a-48cc-84a3-4b68246e7a39
+    locale: en-us
+    version: 1.0.0
+    title: Feature Map Sizes
+    semantic_type: Concept
+    updated_at: 'Thu Feb 23 2017 04:22:17 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 268056
+      - 268055
+      - 268057
+      - 268058
+      - 268059
+    atoms:
+      - id: 268056
+        key: 5717cfe2-a602-4e16-b5e5-222a74bc94a8
+        locale: en-us
+        version: 1.0.0
+        title: Feature-Map-Sizes-Question
+        semantic_type: VideoAtom
+        updated_at: 'Tue Apr 18 2017 17:05:40 GMT+0000 (UTC)'
+        is_public: true
+        tags: []
+        instructor_notes: ''
+        resources: null
+        video:
+          youtube_id: lp1NrLZnCUM
+          subtitles:
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae2728_feature-map-sizes-question/subtitles/lang_en_vs1.srt'
+              language_code: en
+          transcodings:
+            uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae2728_feature-map-sizes-question/feature-map-sizes-question_480p.mp4'
+            uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae2728_feature-map-sizes-question/feature-map-sizes-question_480p_1000kbps.mp4'
+            uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae2728_feature-map-sizes-question/feature-map-sizes-question_480p.ogg'
+            uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae2728_feature-map-sizes-question/feature-map-sizes-question_720p.mp4'
+            uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae2728_feature-map-sizes-question/hls/playlist.m3u8'
+      - id: 268055
+        key: 40760579-17ee-4a55-a406-f823144a3b1f
+        locale: en-us
+        version: 1.0.0
+        title: ''
+        semantic_type: ValidatedQuizAtom
+        updated_at: 'Thu Feb 23 2017 04:37:59 GMT+0000 (UTC)'
+        is_public: true
+        question:
+          prompt: |-
+            What are the width, height and depth for padding = 'same', stride = 1?
+
+            Enter your answers in the format "width, height, depth"
+          default_feedback: null
+          correct_feedback: Good job!
+          video_feedback: null
+          matchers:
+            - semantic_type: RegexMatcher
+              is_correct: true
+              expression: '"*28,\s*28,\s*8"*'
+              expression_description: 'width, height, depth'
+              flags: ''
+              incorrect_feedback: null
+      - id: 268057
+        key: 8990692b-866c-46c4-b6f1-257f4df33ce9
+        locale: en-us
+        version: 1.0.0
+        title: ''
+        semantic_type: ValidatedQuizAtom
+        updated_at: 'Thu Feb 23 2017 18:00:45 GMT+0000 (UTC)'
+        is_public: true
+        question:
+          prompt: |-
+            What are the width, height and depth for padding = 'valid', stride = 1?
+
+            Enter your answers in the format "width, height, depth"
+          default_feedback: null
+          correct_feedback: Great job!
+          video_feedback: null
+          matchers:
+            - semantic_type: RegexMatcher
+              is_correct: true
+              expression: '"*26,\s*26,\s*8"*'
+              expression_description: 'width, height, depth'
+              flags: ''
+              incorrect_feedback: null
+      - id: 268058
+        key: f62136ad-ba37-45d8-9dd0-a6c8c4a57f55
+        locale: en-us
+        version: 1.0.0
+        title: ''
+        semantic_type: ValidatedQuizAtom
+        updated_at: 'Thu Feb 23 2017 04:37:59 GMT+0000 (UTC)'
+        is_public: true
+        question:
+          prompt: |-
+            What are the width, height and depth for padding = 'valid', stride = 2?
+
+            Enter your answers in the format "width, height, depth"
+          default_feedback: null
+          correct_feedback: Nicely done!
+          video_feedback: null
+          matchers:
+            - semantic_type: RegexMatcher
+              is_correct: true
+              expression: '"*13,\s*13,\s*8"*'
+              expression_description: 'width, height, depth'
+              flags: ''
+              incorrect_feedback: null
+      - id: 268059
+        key: 285bd011-2922-4c29-b9a5-1d743c23855a
+        locale: en-us
+        version: 1.0.0
+        title: Feature-Map-Sizes-Solution
+        semantic_type: VideoAtom
+        updated_at: 'Tue Apr 18 2017 17:00:35 GMT+0000 (UTC)'
+        is_public: true
+        tags: []
+        instructor_notes: ''
+        resources: null
+        video:
+          youtube_id: W4xtf8LTz1c
+          subtitles:
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae2729_feature-map-sizes-solution/subtitles/lang_en_vs1.srt'
+              language_code: en
+          transcodings:
+            uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae2729_feature-map-sizes-solution/feature-map-sizes-solution_480p.mp4'
+            uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae2729_feature-map-sizes-solution/feature-map-sizes-solution_480p_1000kbps.mp4'
+            uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae2729_feature-map-sizes-solution/feature-map-sizes-solution_480p.ogg'
+            uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae2729_feature-map-sizes-solution/feature-map-sizes-solution_720p.mp4'
+            uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae2729_feature-map-sizes-solution/hls/playlist.m3u8'
+  - id: 268002
+    key: 3638458d-0576-4590-95cf-1cfb502adcad
+    locale: en-us
+    version: 1.0.0
+    title: Convolutions continued
+    semantic_type: Concept
+    updated_at: 'Thu Feb 23 2017 04:22:23 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 268003
+    atoms:
+      - id: 268003
+        key: d5576aaf-8a77-4013-a3c8-c2d5a9a2b8bc
+        locale: en-us
+        version: 1.0.0
+        title: Convolutions Cont.
+        semantic_type: VideoAtom
+        updated_at: 'Tue Apr 18 2017 17:00:33 GMT+0000 (UTC)'
+        is_public: true
+        tags: []
+        instructor_notes: 'Note, a "Fully Connected" layer is a standard, non convolutional layer, where all inputs are connected to all output neurons. This is also referred to as a "dense" layer, and is what we used in the previous two lessons.'
+        resources: null
+        video:
+          youtube_id: utOv-BKI_vo
+          subtitles:
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae2720_convolutions-cont/subtitles/lang_en_vs1.srt'
+              language_code: en
+          transcodings:
+            uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae2720_convolutions-cont/convolutions-cont_480p.mp4'
+            uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae2720_convolutions-cont/convolutions-cont_480p_1000kbps.mp4'
+            uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae2720_convolutions-cont/convolutions-cont_480p.ogg'
+            uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae2720_convolutions-cont/convolutions-cont_720p.mp4'
+            uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae2720_convolutions-cont/hls/playlist.m3u8'
+  - id: 217097
+    key: 89f26417-d3ff-45c1-bccc-4e7913e9e135
+    locale: en-us
+    version: 1.0.0
+    title: Parameters
+    semantic_type: Concept
+    updated_at: 'Fri Dec 02 2016 05:33:41 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 217099
+      - 217100
+      - 217101
+      - 217102
+      - 217111
+      - 217109
+      - 217112
+      - 217104
+      - 217113
+    atoms:
+      - id: 217099
+        key: a21de279-98c2-4765-92a9-9424448f44dc
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Mon Nov 28 2016 22:46:41 GMT+0000 (UTC)'
+        is_public: true
+        text: '### Parameter Sharing'
+        instructor_notes: ''
+        resources: null
+      - id: 217100
+        key: eb700544-b583-4e66-af70-0ef0564e4cf9
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: ImageAtom
+        updated_at: 'Fri Nov 25 2016 06:21:48 GMT+0000 (UTC)'
+        is_public: true
+        url: 'https://d17h27t6h515a5.cloudfront.net/topher/2016/November/58377f77_vlcsnap-2016-11-24-16h01m35s262/vlcsnap-2016-11-24-16h01m35s262.png'
+        width: 1280
+        height: 738
+        caption: 'The weights, `w`, are shared across patches for a given layer in a CNN to detect the cat above regardless of where in the image it is located.'
+        resources: null
+        instructor_notes: null
+      - id: 217101
+        key: 96306fe2-015e-4c76-8eeb-096857f90fc0
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Mon Mar 20 2017 04:23:16 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          When we are trying to classify a picture of a cat, we don’t care where in the image a cat is. If it’s in the top left or the bottom right, it’s still a cat in our eyes. We would like our CNNs to also possess this ability known as translation invariance. How can we achieve this?
+
+          As we saw earlier, the classification of a given patch in an image is determined by the weights and biases corresponding to that patch.
+
+          If we want a cat that’s in the top left patch to be classified in the same way as a cat in the bottom right patch, we need the weights and biases corresponding to those patches to be the same, so that they are classified the same way. 
+
+          This is exactly what we do in CNNs. The weights  and biases we learn for a given output layer are shared across all patches in a given input layer. Note that as we increase the depth of our filter, the number of weights and biases we have to learn still increases, as the weights aren't shared across the output channels.
+
+          There’s an additional benefit to sharing our parameters. If we did not reuse the same weights across all patches, we would have to learn new parameters for every single patch and hidden layer neuron pair. This does not scale well, especially for higher fidelity images. Thus, sharing parameters not only helps us with translation invariance, but also gives us a smaller, more scalable model.
+        instructor_notes: ''
+        resources: null
+      - id: 217102
+        key: da4dd3a4-b0f8-4d3d-bd7d-9ac43e4d1ed3
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Fri Nov 25 2016 06:01:39 GMT+0000 (UTC)'
+        is_public: true
+        text: |
+          ### Padding
+        instructor_notes: ''
+        resources: null
+      - id: 217111
+        key: 4a227cdd-d0f5-4a09-8765-da4238760420
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: ImageAtom
+        updated_at: 'Mon Nov 28 2016 22:47:48 GMT+0000 (UTC)'
+        is_public: true
+        url: 'https://d17h27t6h515a5.cloudfront.net/topher/2016/November/5837d4d5_screen-shot-2016-11-24-at-10.05.37-pm/screen-shot-2016-11-24-at-10.05.37-pm.png'
+        width: 278
+        height: 278
+        caption: 'A `5x5` grid with a `3x3` filter. Source: Andrej Karpathy.'
+        resources: null
+        instructor_notes: null
+      - id: 217109
+        key: fbddbfa6-716b-4901-b9cd-f155a3757541
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Tue Apr 25 2017 01:20:30 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          Let's say we have a `5x5` grid (as shown above) and a filter of size `3x3` with a stride of `1`. What's the width and height of the next layer? We see that we can fit at most three patches in each direction, giving us a dimension of `3x3` in our next layer. As we can see, the width and height of each subsequent layer decreases in such a scheme.
+
+          In an ideal world, we'd be able to maintain the same width and height across layers so that we can continue to add layers without worrying about the dimensionality shrinking and so that we have consistency. How might we achieve this? One way is to simply add a border of `0`s to our original `5x5` image. You can see what this looks like in the below image.
+        instructor_notes: ''
+        resources: null
+      - id: 217112
+        key: ed5e3c84-a67f-4af1-9c7d-3044cb5f9497
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: ImageAtom
+        updated_at: 'Mon Nov 28 2016 22:48:24 GMT+0000 (UTC)'
+        is_public: true
+        url: 'https://d17h27t6h515a5.cloudfront.net/topher/2016/November/5837d4ee_screen-shot-2016-11-24-at-10.05.46-pm/screen-shot-2016-11-24-at-10.05.46-pm.png'
+        width: 388
+        height: 390
+        caption: 'The same grid with `0` padding. Source: Andrej Karpathy.'
+        resources: null
+        instructor_notes: null
+      - id: 217104
+        key: 5b032630-e022-4f5d-8abf-bc16bb5f6031
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Mon Nov 28 2016 22:48:35 GMT+0000 (UTC)'
+        is_public: true
+        text: ' This would expand our original image to a `7x7`. With this, we now see how our next layer''s size is again a `5x5`, keeping our dimensionality consistent.'
+        instructor_notes: ''
+        resources: null
+      - id: 217113
+        key: c6599167-dcb6-4fdd-bfb4-917ede0d22a6
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Thu Mar 30 2017 04:27:17 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          ### Dimensionality
+
+          From what we've learned so far, how can we calculate the number of neurons of each layer in our CNN? 
+
+          Given:
+          * our input layer has a width of `W` and a height of `H`
+          * our convolutional layer has a filter size `F`
+          * we have a stride of `S`
+          * a padding of `P`
+          * and the number of filters `K`, 
+
+          the following formula gives us the width of the next layer: ```W_out = (W−F+2P)/S+1```.  
+
+          The output height would be ```H_out = (H-F+2P)/S + 1```. 
+
+          And the output depth would be equal to the number of filters `D_out = K`. 
+
+          The output volume would be ```W_out * H_out * D_out```.
+
+          Knowing the dimensionality of each additional layer helps us understand how large our model is and how our decisions around filter size and stride affect the size of our network.
+        instructor_notes: ''
+        resources: null
+  - id: 217380
+    key: 4f028128-6c6a-41e1-80cd-58f54189615d
+    locale: en-us
+    version: 1.0.0
+    title: 'Quiz: Convolution Output Shape'
+    semantic_type: Concept
+    updated_at: 'Tue Nov 29 2016 18:17:39 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 217381
+      - 217382
+    atoms:
+      - id: 217381
+        key: c0dac984-82f5-4c72-b07f-a8b1bc81140e
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Wed Mar 22 2017 20:04:54 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          ### Introduction
+
+          For the next few quizzes we'll test your understanding of the dimensions in CNNs. Understanding dimensions will help you make accurate tradeoffs between model size and performance. As you'll see, some parameters have a much bigger impact on model size than others.
+
+          ### Setup
+
+          H = height, W = width, D = depth
+
+          * We have an input of shape 32x32x3 (HxWxD)
+          * 20 filters of shape 8x8x3 (HxWxD)
+          * A stride of 2 for both the height and width (S)
+          * With padding of size 1 (P)
+
+          Recall the formula for calculating the new height or width:
+
+          ```
+          new_height = (input_height - filter_height + 2 * P)/S + 1
+          new_width = (input_width - filter_width + 2 * P)/S + 1
+          ```
+        instructor_notes: ''
+        resources: null
+      - id: 217382
+        key: 627fa396-81d9-47f2-81bc-63f049bdf72f
+        locale: en-us
+        version: 1.0.0
+        title: Convolutional Layer Output Shape
+        semantic_type: ValidatedQuizAtom
+        updated_at: 'Fri Dec 02 2016 13:28:09 GMT+0000 (UTC)'
+        is_public: true
+        question:
+          prompt: |-
+            What's the shape of the output? 
+
+            The answer format is **HxWxD**, so if you think the new height is 9, new width is 9, and new depth is 5, then type 9x9x5.
+          default_feedback: |-
+            Remember, we can calculate the new height and width with the following formula:
+
+            ```
+            new_height = (input_height - filter_height + 2 * padding_height)/ stride_height + 1
+            new_width = (input_width - filter_width + 2 * padding_width)/ stride_width + 1
+            ```
+          correct_feedback: |-
+            Nice job! :-)
+
+            We can get the new height and width with the above formula resulting in:
+
+            ```
+            (32 - 8 + 2 * 1)/2 + 1 = 14
+            (32 - 8 + 2 * 1)/2 + 1 = 14
+            ```
+
+            The new depth is equal to the number of filters, which is 20.
+          video_feedback: null
+          matchers:
+            - semantic_type: RegexMatcher
+              is_correct: true
+              expression: 14x14x20
+              expression_description: The shape format is HxWxD
+              flags: ''
+              incorrect_feedback: null
+            - semantic_type: RegexMatcher
+              is_correct: false
+              expression: '[0-9]+x[0-9]+x20'
+              expression_description: null
+              flags: ''
+              incorrect_feedback: You have the correct new depth. Remember to use the formula to calculate the new height and width!
+            - semantic_type: RegexMatcher
+              is_correct: false
+              expression: '14x14x[0-9]+'
+              expression_description: null
+              flags: ''
+              incorrect_feedback: You calculated the new height and width correctly. Remember the depth is equal to the number of filters!
+  - id: 217383
+    key: d0db3cab-ad70-46ec-9614-4dfc27dfc865
+    locale: en-us
+    version: 1.0.0
+    title: 'Solution: Convolution Output Shape'
+    semantic_type: Concept
+    updated_at: 'Tue Dec 06 2016 06:11:44 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 217384
+      - 219800
+    atoms:
+      - id: 217384
+        key: 3b780879-3bb2-4eba-9441-8b91f795a7be
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Tue Dec 06 2016 05:57:42 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          ### Solution
+
+          The answer is **14x14x20**.
+
+          We can get the new height and width with the formula resulting in:
+
+          ```
+          (32 - 8 + 2 * 1)/2 + 1 = 14
+          (32 - 8 + 2 * 1)/2 + 1 = 14
+          ```
+
+          The new depth is equal to the number of filters, which is 20.
+        instructor_notes: ''
+        resources: null
+      - id: 219800
+        key: 21ccd211-4298-4bd8-9be7-2d44e23557ad
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Wed Mar 22 2017 20:11:22 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          This would correspond to the following code:
+
+          ```python
+          input = tf.placeholder(tf.float32, (None, 32, 32, 3))
+          filter_weights = tf.Variable(tf.truncated_normal((8, 8, 3, 20))) # (height, width, input_depth, output_depth)
+          filter_bias = tf.Variable(tf.zeros(20))
+          strides = [1, 2, 2, 1] # (batch, height, width, depth)
+          padding = 'SAME'
+          conv = tf.nn.conv2d(input, filter_weights, strides, padding) + filter_bias
+          ```
+
+          Note the output shape of `conv` will be [1, 16, 16, 20]. It's 4D to account for batch size, but more importantly, it's not [1, 14, 14, 20]. This is because the padding algorithm TensorFlow uses is not exactly the same as the one above. An alternative algorithm is to switch `padding` from `'SAME'` to `'VALID'` which would result in an output shape of [1, 13, 13, 20]. If you're curious how padding works in TensorFlow, read [this document](https://www.tensorflow.org/api_guides/python/nn#Convolution).
+
+          In summary TensorFlow uses the following equation for 'SAME' vs 'PADDING'
+
+          **SAME Padding**, the output height and width are computed as:
+
+          `out_height` = ceil(float(in_height) / float(strides1))
+
+          `out_width` = ceil(float(in_width) / float(strides[2]))
+
+
+          **VALID Padding**, the output height and width are computed as:
+
+          `out_height` = ceil(float(in_height - filter_height + 1) / float(strides1))
+
+          `out_width` = ceil(float(in_width - filter_width + 1) / float(strides[2]))
+        instructor_notes: ''
+        resources: null
+  - id: 217385
+    key: 99df67c6-a4a1-4149-8271-be731155becc
+    locale: en-us
+    version: 1.0.0
+    title: 'Quiz: Number of Parameters'
+    semantic_type: Concept
+    updated_at: 'Tue Nov 29 2016 18:17:44 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 217399
+      - 217401
+    atoms:
+      - id: 217399
+        key: 41c5e80b-82a4-45ed-8d96-55f222a3147e
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Wed Dec 21 2016 16:35:56 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          We're now going to calculate the number of parameters of the convolutional layer. The answer from the last quiz will come into play here!
+
+          Being able to calculate the number of parameters in a neural network is useful since we want to have control over how much memory a neural network uses.
+
+          ### Setup
+
+          H = height, W = width, D = depth
+          * We have an input of shape 32x32x3 (HxWxD)
+          * 20 filters of shape 8x8x3 (HxWxD)
+          * A stride of 2 for both the height and width (S)
+          * Zero padding of size 1 (P)
+
+          ### Output Layer
+          * 14x14x20 (HxWxD)
+
+          ### Hint
+          Without parameter sharing, each neuron in the output layer must connect to each neuron in the filter. In addition, each neuron in the output layer must also connect to a single bias neuron.
+        instructor_notes: ''
+        resources: null
+      - id: 217401
+        key: 489c1658-a8f6-41e2-850f-8a6cafb11691
+        locale: en-us
+        version: 1.0.0
+        title: Convolution Layer Parameters 1
+        semantic_type: ValidatedQuizAtom
+        updated_at: 'Fri Dec 02 2016 13:30:44 GMT+0000 (UTC)'
+        is_public: true
+        question:
+          prompt: |
+            How many parameters does the convolutional layer have (without parameter sharing)?
+          default_feedback: 'Without weight sharing **every parameter** in the filter has a connection with **every  neuron** in the output. So, what we need to do is calculate the total number of parameters in the filter and the total number of neurons in the output.'
+          correct_feedback: |-
+            Nice job! :-)
+
+            That's right, there are ```756560``` total parameters. That's a HUGE amount! Here's how we calculate it:
+
+            ```(8 * 8 * 3 + 1) * (14 * 14 * 20) = 756560```
+
+            ```8 * 8 * 3``` is the number of weights, we add ```1``` for the bias. Remember, each weight is assigned to every single part of the output (```14 * 14 * 20```). So we multiply these two numbers together and we get the final answer.
+          video_feedback: null
+          matchers:
+            - semantic_type: RegexMatcher
+              is_correct: true
+              expression: '756560'
+              expression_description: null
+              flags: ''
+              incorrect_feedback: null
+            - semantic_type: RegexMatcher
+              is_correct: false
+              expression: '752640'
+              expression_description: null
+              flags: ''
+              incorrect_feedback: Don't forget about the biases!
+  - id: 217386
+    key: 5377ffff-a041-41cb-97a0-f86c398a76cb
+    locale: en-us
+    version: 1.0.0
+    title: 'Solution: Number of Parameters'
+    semantic_type: Concept
+    updated_at: 'Tue Nov 29 2016 18:17:47 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 217402
+    atoms:
+      - id: 217402
+        key: eefa9e47-f9ab-435a-b00a-0c8c8abcca1e
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Tue Nov 29 2016 18:08:34 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          ### Solution
+
+          There are ```756560``` total parameters. That's a HUGE amount! Here's how we calculate it:
+
+          ```(8 * 8 * 3 + 1) * (14 * 14 * 20) = 756560```
+
+          ```8 * 8 * 3``` is the number of weights, we add ```1``` for the bias. Remember, each weight is assigned to every single part of the output (```14 * 14 * 20```). So we multiply these two numbers together and we get the final answer.
+        instructor_notes: ''
+        resources: null
+  - id: 217387
+    key: f1bd5dcc-5e97-48ef-bd74-01d0c7c620e7
+    locale: en-us
+    version: 1.0.0
+    title: 'Quiz: Parameter Sharing'
+    semantic_type: Concept
+    updated_at: 'Fri Dec 02 2016 13:42:19 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 218040
+      - 217403
+    atoms:
+      - id: 218040
+        key: 0f6aeb7c-d369-4f0a-94f9-a7b90d8f9da2
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Thu Feb 16 2017 22:03:48 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          Now we'd like you to calculate the number of parameters in the convolutional layer, if every neuron in the output layer shares its parameters with every other neuron in its same channel.
+
+          This is the number of parameters actually used in a convolution layer ([`tf.nn.conv2d()`](https://www.tensorflow.org/api_docs/python/tf/nn/conv2d)).
+
+          ### Setup
+
+          H = height, W = width, D = depth
+          * We have an input of shape 32x32x3 (HxWxD)
+          * 20 filters of shape 8x8x3 (HxWxD)
+          * A stride of 2 for both the height and width (S)
+          * Zero padding of size 1 (P)
+
+          ### Output Layer
+          * 14x14x20 (HxWxD)
+
+          ### Hint
+          With parameter sharing, each neuron in an output channel shares its weights with every other neuron in that channel. So the number of parameters is equal to the number of neurons in the filter, plus a bias neuron, all multiplied by the number of channels in the output layer.
+        instructor_notes: ''
+        resources: null
+      - id: 217403
+        key: 9046a2fc-5165-4e7e-bd27-4eccdeb25574
+        locale: en-us
+        version: 1.0.0
+        title: Convolution Layer Parameters 2
+        semantic_type: ValidatedQuizAtom
+        updated_at: 'Fri Dec 02 2016 13:42:21 GMT+0000 (UTC)'
+        is_public: true
+        question:
+          prompt: |
+            How many parameters does the convolution layer have (with parameter sharing)?
+          default_feedback: 'With weight sharing there''s no longer a connection between **every parameter** in the filter and **every neuron** in the output. Rather, the same filter is used throughout an entire depth slice. So, we need to figure out how many depth slices we have.'
+          correct_feedback: |-
+            Nice job! :-)
+
+            That's right, there are ```3860``` total parameters. That's 196 times fewer parameters! Here's how the answer is calculated:
+
+            ```(8 * 8 * 3 + 1) * 20 = 3840 + 20 = 3860```
+
+            That's ```3840``` weights and ```20``` biases. This should look similar to the answer from the previous quiz. The difference being it's just ```20``` instead of (```14 * 14 * 20```). Remember, with weight sharing we use the same filter for an entire depth slice. Because of this we can get rid of ```14 * 14``` and be left with only ```20```.
+          video_feedback: null
+          matchers:
+            - semantic_type: RegexMatcher
+              is_correct: true
+              expression: '3860'
+              expression_description: null
+              flags: ''
+              incorrect_feedback: null
+            - semantic_type: RegexMatcher
+              is_correct: false
+              expression: '3840'
+              expression_description: null
+              flags: ''
+              incorrect_feedback: |-
+                :-(
+
+                That's how the biases feel right now ...
+  - id: 217388
+    key: ae7e9d37-9e45-4143-a90b-93f6a689d624
+    locale: en-us
+    version: 1.0.0
+    title: 'Solution: Parameter Sharing'
+    semantic_type: Concept
+    updated_at: 'Fri Dec 02 2016 13:42:39 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 217404
+    atoms:
+      - id: 217404
+        key: fcadba6b-b7b3-4c39-877c-ad258cfffc65
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Tue Nov 29 2016 18:09:12 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          ### Solution
+
+          There are ```3860``` total parameters. That's 196 times fewer parameters! Here's how the answer is calculated:
+
+          ```(8 * 8 * 3 + 1) * 20 = 3840 + 20 = 3860```
+
+          That's ```3840``` weights and ```20``` biases. This should look similar to the answer from the previous quiz. The difference being it's just ```20``` instead of (```14 * 14 * 20```). Remember, with weight sharing we use the same filter for an entire depth slice. Because of this we can get rid of ```14 * 14``` and be left with only ```20```.
+        instructor_notes: ''
+        resources: null
+  - id: 216770
+    key: 05f91f07-6de6-4b6b-b989-6112802e09a4
+    locale: en-us
+    version: 1.0.0
+    title: Visualizing CNNs
+    semantic_type: Concept
+    updated_at: 'Mon Nov 28 2016 23:36:34 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 216771
+      - 217357
+      - 217362
+      - 216773
+      - 217355
+      - 217356
+      - 217352
+      - 217354
+      - 217363
+      - 217358
+      - 216774
+      - 216776
+      - 217359
+      - 216778
+      - 216779
+      - 217361
+      - 216780
+      - 216781
+    atoms:
+      - id: 216771
+        key: 52808599-4650-4298-9e85-94b7b0f0259e
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Fri Dec 02 2016 13:47:07 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          ### Visualizing CNNs
+
+          Let’s look at an example CNN to see how it works in action. 
+
+          The CNN we will look at is trained on ImageNet as described in [this paper](http://www.matthewzeiler.com/pubs/arxive2013/eccv2014.pdf) by Zeiler and Fergus. In the images below (from the same paper), we’ll see *what* each layer in this network detects and see *how* each layer detects more and more complex ideas.
+        instructor_notes: ''
+        resources: null
+      - id: 217357
+        key: 6fc7e5ca-d9b9-4e08-b954-381bc83a9a3b
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Mon Nov 28 2016 23:24:31 GMT+0000 (UTC)'
+        is_public: true
+        text: '### Layer 1'
+        instructor_notes: ''
+        resources: null
+      - id: 217362
+        key: 74806463-4520-49f3-8ca7-5a4286d556bd
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: ImageAtom
+        updated_at: 'Sat Apr 08 2017 17:34:48 GMT+0000 (UTC)'
+        is_public: true
+        url: 'https://d17h27t6h515a5.cloudfront.net/topher/2016/November/583cbd42_layer-1-grid/layer-1-grid.png'
+        width: 165
+        height: 171
+        caption: Example patterns that cause activations in the first layer of the network. These range from simple diagonal lines (top left) to green blobs (bottom middle).
+        resources: null
+        instructor_notes: null
+      - id: 216773
+        key: 8023f628-9a6c-4c3a-a35a-6a6bb15a6138
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Fri Dec 02 2016 13:49:35 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          The images above are from Matthew Zeiler and Rob Fergus' [deep visualization toolbox](https://www.youtube.com/watch?v=ghEmQSxT6tw), which lets us visualize what each layer in a CNN focuses on. 
+
+          Each image in the above grid represents a pattern that causes the neurons in the first layer to activate - in other words, they are patterns that the first layer recognizes. The top left image shows a -45 degree line, while the middle top square shows a +45 degree line. These squares are shown below again for reference.
+        instructor_notes: ''
+        resources: null
+      - id: 217355
+        key: c672f583-4c23-462b-8493-12ad6e5c875a
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: ImageAtom
+        updated_at: 'Mon Nov 28 2016 23:21:28 GMT+0000 (UTC)'
+        is_public: true
+        url: 'https://d17h27t6h515a5.cloudfront.net/topher/2016/November/583cbba2_diagonal-line-1/diagonal-line-1.png'
+        width: 55
+        height: 53
+        caption: 'As visualized here, the first layer of the CNN can recognize -45 degree lines.'
+        resources: null
+        instructor_notes: null
+      - id: 217356
+        key: dbaefec0-d84a-4826-b492-73d3ecaf9c2e
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: ImageAtom
+        updated_at: 'Fri Dec 02 2016 13:49:24 GMT+0000 (UTC)'
+        is_public: true
+        url: 'https://d17h27t6h515a5.cloudfront.net/topher/2016/November/583cbc02_diagonal-line-2/diagonal-line-2.png'
+        width: 58
+        height: 58
+        caption: 'The first layer of the CNN is also able to recognize +45 degree lines, like the one above.'
+        resources: null
+        instructor_notes: null
+      - id: 217352
+        key: 49684c1a-2f95-4eb8-ab63-4cc9eaced27c
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Tue Nov 29 2016 03:08:38 GMT+0000 (UTC)'
+        is_public: true
+        text: 'Let''s now see some example images that cause such activations. The below grid of images all activated the -45 degree line. Notice how they are all selected despite the fact that they have different colors, gradients, and patterns.'
+        instructor_notes: ''
+        resources: null
+      - id: 217354
+        key: 852407da-0ff5-42ee-ad7e-7c3ab89dc678
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: ImageAtom
+        updated_at: 'Mon Nov 28 2016 23:36:29 GMT+0000 (UTC)'
+        is_public: true
+        url: 'https://d17h27t6h515a5.cloudfront.net/topher/2016/November/583cbace_grid-layer-1/grid-layer-1.png'
+        width: 146
+        height: 143
+        caption: Example patches that activate the -45 degree line detector in the first layer.
+        resources: null
+        instructor_notes: null
+      - id: 217363
+        key: e156b87f-08c3-42e8-b605-a332773fcba9
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Tue Nov 29 2016 03:09:04 GMT+0000 (UTC)'
+        is_public: true
+        text: 'So, the first layer of our CNN clearly picks out very simple shapes and patterns like lines and blobs.'
+        instructor_notes: ''
+        resources: null
+      - id: 217358
+        key: bd73aff1-7074-41ef-ab3a-3f9585922201
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Mon Nov 28 2016 23:24:40 GMT+0000 (UTC)'
+        is_public: true
+        text: '### Layer 2'
+        instructor_notes: ''
+        resources: null
+      - id: 216774
+        key: f853c751-8de8-4ecc-aa38-716c391c8456
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: ImageAtom
+        updated_at: 'Fri Dec 02 2016 13:55:52 GMT+0000 (UTC)'
+        is_public: true
+        url: 'https://d17h27t6h515a5.cloudfront.net/topher/2016/November/583780f3_screen-shot-2016-11-24-at-12.09.02-pm/screen-shot-2016-11-24-at-12.09.02-pm.png'
+        width: 1888
+        height: 922
+        caption: A visualization of the second layer in the CNN. Notice how we are picking up more complex ideas like circles and stripes. The gray grid on the left represents how this layer of the CNN activates (or "what it sees") based on the corresponding images from the grid on the right.
+        resources: null
+        instructor_notes: null
+      - id: 216776
+        key: d1b7d85b-a882-4e30-a125-bef3ae8c253f
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Fri Dec 02 2016 13:52:41 GMT+0000 (UTC)'
+        is_public: true
+        text: |
+          The second layer of the CNN  captures complex ideas. 
+
+          As you see in the image above, the second layer of the CNN recognizes circles (second row, second column), stripes (first row, second column), and rectangles (bottom right). 
+
+          **The CNN learns to do this on its own.** There is no special instruction for the CNN to focus on more complex objects in deeper layers. That's just how it normally works out when you feed training data into a CNN.
+        instructor_notes: ''
+        resources: null
+      - id: 217359
+        key: e1132dc0-f466-4255-bce6-64692c509748
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Mon Nov 28 2016 23:24:49 GMT+0000 (UTC)'
+        is_public: true
+        text: '### Layer 3'
+        instructor_notes: ''
+        resources: null
+      - id: 216778
+        key: 3dcf0442-25fb-41c4-8ec7-b9316ba6d4e4
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: ImageAtom
+        updated_at: 'Fri Dec 02 2016 13:56:19 GMT+0000 (UTC)'
+        is_public: true
+        url: 'https://d17h27t6h515a5.cloudfront.net/topher/2016/November/5837811f_screen-shot-2016-11-24-at-12.09.24-pm/screen-shot-2016-11-24-at-12.09.24-pm.png'
+        width: 2294
+        height: 848
+        caption: A visualization of the third layer in the CNN. The gray grid on the left represents how this layer of the CNN activates (or "what it sees") based on the corresponding images from the grid on the right.
+        resources: null
+        instructor_notes: null
+      - id: 216779
+        key: 660e77d0-dfd2-4591-8a92-e0bd1cdbf8c2
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Fri Dec 02 2016 13:54:17 GMT+0000 (UTC)'
+        is_public: true
+        text: 'The third layer picks out complex combinations of features from the second layer. These include things like grids, and honeycombs (top left), wheels (second row, second column), and even faces (third row, third column).'
+        instructor_notes: ''
+        resources: null
+      - id: 217361
+        key: 6fe9e320-7e75-4d29-a5cf-f328d45992ab
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Mon Nov 28 2016 23:25:02 GMT+0000 (UTC)'
+        is_public: true
+        text: '### Layer 5'
+        instructor_notes: ''
+        resources: null
+      - id: 216780
+        key: 8bef3d7b-8e2d-41af-a157-f64aa24afbc5
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: ImageAtom
+        updated_at: 'Fri Dec 02 2016 13:56:33 GMT+0000 (UTC)'
+        is_public: true
+        url: 'https://d17h27t6h515a5.cloudfront.net/topher/2016/November/58378151_screen-shot-2016-11-24-at-12.08.11-pm/screen-shot-2016-11-24-at-12.08.11-pm.png'
+        width: 1198
+        height: 1484
+        caption: A visualization of the fifth and final layer of the CNN. The gray grid on the left represents how this layer of the CNN activates (or "what it sees") based on the corresponding images from the grid on the right.
+        resources: null
+        instructor_notes: null
+      - id: 216781
+        key: 516aca63-ce7a-4398-8fc3-b0bbd386d0be
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Fri Dec 02 2016 14:00:09 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          We'll skip layer 4, which continues this progression, and jump right to the fifth and final layer of this CNN.
+
+          The last layer picks out the highest order ideas that we care about for classification, like dog faces, bird faces, and bicycles. 
+
+          ### On to TensorFlow
+
+          This concludes our high-level discussion of Convolutional Neural Networks. 
+
+          Next you'll practice actually building these networks in TensorFlow.
+        instructor_notes: ''
+        resources: null
+  - id: 205139
+    key: 0377449f-ce0f-436b-8e11-2cdfefe20995
+    locale: en-us
+    version: 1.0.0
+    title: TensorFlow Convolution Layer
+    semantic_type: Concept
+    updated_at: 'Sat Nov 12 2016 06:31:03 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 205143
+      - 205141
+    atoms:
+      - id: 205143
+        key: 4da877bc-4217-47ef-83d7-b524fe237df7
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Wed Nov 09 2016 23:19:01 GMT+0000 (UTC)'
+        is_public: true
+        text: '### TensorFlow Convolution Layer'
+        instructor_notes: ''
+        resources: null
+      - id: 205141
+        key: bfe3d97a-12bd-448b-ad0b-f1c3cd4bb233
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Sat Feb 25 2017 19:41:35 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          Let's examine how to implement a CNN in TensorFlow.
+
+          TensorFlow provides the [`tf.nn.conv2d()`](https://www.tensorflow.org/api_docs/python/tf/nn/conv2d) and [`tf.nn.bias_add()`](https://www.tensorflow.org/api_docs/python/tf/nn/bias_add) functions to create your own convolutional layers.
+          ```python
+          # Output depth
+          k_output = 64
+
+          # Image Properties
+          image_width = 10
+          image_height = 10
+          color_channels = 3
+
+          # Convolution filter
+          filter_size_width = 5
+          filter_size_height = 5
+
+          # Input/Image
+          input = tf.placeholder(
+              tf.float32,
+              shape=[None, image_height, image_width, color_channels])
+
+          # Weight and bias
+          weight = tf.Variable(tf.truncated_normal(
+              [filter_size_height, filter_size_width, color_channels, k_output]))
+          bias = tf.Variable(tf.zeros(k_output))
+
+          # Apply Convolution
+          conv_layer = tf.nn.conv2d(input, weight, strides=[1, 2, 2, 1], padding='SAME')
+          # Add bias
+          conv_layer = tf.nn.bias_add(conv_layer, bias)
+          # Apply activation function
+          conv_layer = tf.nn.relu(conv_layer)
+          ```
+          The code above uses the [`tf.nn.conv2d()`](https://www.tensorflow.org/api_docs/python/tf/nn/conv2d) function to compute the convolution with `weight` as the filter and `[1, 2, 2, 1]` for the strides.  TensorFlow uses a stride for each `input` dimension, `[batch, input_height, input_width, input_channels]`.  We are generally always going to set the stride for `batch` and `input_channels` (i.e. the first and fourth element in the `strides` array) to be `1`.
+
+          You'll focus on changing `input_height` and  `input_width` while setting `batch` and `input_channels` to 1.  The `input_height` and `input_width` strides are for striding the filter over `input`. This example code uses a stride of 2 with 5x5 filter over `input`.
+
+          The [`tf.nn.bias_add()`](https://www.tensorflow.org/api_docs/python/tf/nn/bias_add) function adds a 1-d bias to the last dimension in a matrix.
+        instructor_notes: ''
+        resources: null
+  - id: 268006
+    key: c31aebd3-e36d-4d57-b6f1-646aebe52a51
+    locale: en-us
+    version: 1.0.0
+    title: Explore The Design Space
+    semantic_type: Concept
+    updated_at: 'Thu Feb 23 2017 04:22:40 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 268007
+    atoms:
+      - id: 268007
+        key: 567cc4c1-3ecb-41dd-a2dc-908cb1245dea
+        locale: en-us
+        version: 1.0.0
+        title: Explore the Design Space
+        semantic_type: VideoAtom
+        updated_at: 'Tue Apr 18 2017 17:00:38 GMT+0000 (UTC)'
+        is_public: true
+        tags: []
+        instructor_notes: ''
+        resources: null
+        video:
+          youtube_id: FG7M9tWH2nQ
+          subtitles:
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae2728_explore-the-design-space/subtitles/lang_en_vs1.srt'
+              language_code: en
+          transcodings:
+            uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae2728_explore-the-design-space/explore-the-design-space_480p.mp4'
+            uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae2728_explore-the-design-space/explore-the-design-space_480p_1000kbps.mp4'
+            uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae2728_explore-the-design-space/explore-the-design-space_480p.ogg'
+            uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae2728_explore-the-design-space/explore-the-design-space_720p.mp4'
+            uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae2728_explore-the-design-space/hls/playlist.m3u8'
+  - id: 205338
+    key: 245c6fd1-efec-4c37-8a1f-96e7d055e845
+    locale: en-us
+    version: 1.0.0
+    title: TensorFlow Max Pooling
+    semantic_type: Concept
+    updated_at: 'Mon Nov 21 2016 05:33:08 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 205341
+      - 206356
+      - 205340
+    atoms:
+      - id: 205341
+        key: f2299bd5-55f6-4c15-b499-80d023548bb1
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Thu Nov 10 2016 00:32:23 GMT+0000 (UTC)'
+        is_public: true
+        text: '# TensorFlow Max Pooling'
+        instructor_notes: ''
+        resources: null
+      - id: 206356
+        key: 98f32c32-aa1c-4b00-8497-052506fcf9ce
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: ImageAtom
+        updated_at: 'Tue Nov 15 2016 06:32:49 GMT+0000 (UTC)'
+        is_public: true
+        url: 'https://d17h27t6h515a5.cloudfront.net/topher/2016/November/582aac09_max-pooling/max-pooling.png'
+        width: 570
+        height: 330
+        caption: 'By Aphex34 (Own work) [CC BY-SA 4.0 (http://creativecommons.org/licenses/by-sa/4.0)], via Wikimedia Commons'
+        resources: null
+        instructor_notes: null
+      - id: 205340
+        key: 4c3cf7c8-6af9-4b20-b9e7-c3493d1b1633
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Thu Feb 16 2017 22:13:11 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          The image above is an example of [max pooling](https://en.wikipedia.org/wiki/Convolutional_neural_network#Pooling_layer) with a 2x2 filter and stride of 2.  The four 2x2 colors represent each time the filter was applied to find the maximum value.  
+
+          For example, `[[1, 0], [4, 6]]` becomes `6`, because `6` is the maximum value in this set. Similarly, `[[2, 3], [6, 8]]` becomes `8`.
+
+          Conceptually, the benefit of the max pooling operation is to reduce the size of the input, and allow the neural network to focus on only the most important elements. Max pooling does this by only retaining the maximum value for each filtered area, and removing the remaining values.
+
+          TensorFlow provides the  [`tf.nn.max_pool()`](https://www.tensorflow.org/api_docs/python/tf/nn/max_pool) function to apply [max pooling](https://en.wikipedia.org/wiki/Convolutional_neural_network#Pooling_layer) to your convolutional layers.
+          ```python
+          ...
+          conv_layer = tf.nn.conv2d(input, weight, strides=[1, 2, 2, 1], padding='SAME')
+          conv_layer = tf.nn.bias_add(conv_layer, bias)
+          conv_layer = tf.nn.relu(conv_layer)
+          # Apply Max Pooling
+          conv_layer = tf.nn.max_pool(
+              conv_layer,
+              ksize=[1, 2, 2, 1],
+              strides=[1, 2, 2, 1],
+              padding='SAME')
+          ```
+          The [`tf.nn.max_pool()`](https://www.tensorflow.org/api_docs/python/tf/nn/max_pool) function performs max pooling with the `ksize` parameter as the size of the filter and the `strides` parameter as the length of the stride. 2x2 filters with a stride of 2x2 are common in practice.
+
+          The `ksize` and `strides` parameters are structured as 4-element lists, with each element corresponding to a dimension of the input tensor (`[batch, height, width, channels]`). For both `ksize` and `strides`, the batch and channel dimensions are typically set to `1`.
+        instructor_notes: ''
+        resources: null
+  - id: 217389
+    key: 0ffba003-b681-4d56-9d6d-e5dd13cb99a0
+    locale: en-us
+    version: 1.0.0
+    title: 'Quiz: Pooling Intuition'
+    semantic_type: Concept
+    updated_at: 'Fri Dec 02 2016 14:28:21 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 217405
+      - 217406
+    atoms:
+      - id: 217405
+        key: 321244bf-0956-4630-bfc0-4067c874f57f
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Fri Dec 02 2016 14:28:37 GMT+0000 (UTC)'
+        is_public: true
+        text: The next few quizzes will test your understanding of **pooling layers**.
+        instructor_notes: ''
+        resources: null
+      - id: 217406
+        key: 3a4aa5e4-6766-4015-805b-290b60c9da2d
+        locale: en-us
+        version: 1.0.0
+        title: What Does A Pooling Layer Do?
+        semantic_type: CheckboxQuizAtom
+        updated_at: 'Tue Nov 29 2016 03:03:32 GMT+0000 (UTC)'
+        is_public: true
+        question:
+          prompt: A pooling layer is generally used to ...
+          correct_feedback: |-
+            :-)
+
+            The correct answer is **decrease the size of the output** and **prevent overfitting**. Reducing overfitting is a consequence of the reducing the output size, which in turn, reduces the number of parameters in future layers.
+          video_feedback: null
+          default_feedback: 'HINT: There might be more than one correct answer!'
+          answers:
+            - id: a1480388522381
+              text: Increase the size of the output
+              is_correct: false
+              incorrect_feedback: 'Are you sure? Think about doing a max pooling operation, how it does change the output?'
+            - id: a1480388532905
+              text: Decrease the size of the output
+              is_correct: true
+              incorrect_feedback: 'Think about doing a max pooling operation, how it does change the output?'
+            - id: a1480388533875
+              text: Prevent overfitting
+              is_correct: true
+              incorrect_feedback: 'If there are less parameters in a future layer, would that reduce the chances of overfitting?'
+            - id: a1480388534602
+              text: Gain information
+              is_correct: false
+              incorrect_feedback: 'Are you sure? Think about doing a max pooling operation, how it does change the output? Do we gain anything?'
+  - id: 217395
+    key: 21a70643-4262-45a2-9450-2273bc939d45
+    locale: en-us
+    version: 1.0.0
+    title: 'Solution: Pooling Intuition'
+    semantic_type: Concept
+    updated_at: 'Fri Dec 02 2016 14:29:21 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 217407
+      - 217408
+    atoms:
+      - id: 217407
+        key: 06176f36-cbd8-4958-a9c6-7785b09e3872
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Sun Feb 26 2017 21:39:12 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          ### Solution
+
+          The correct answer is **decrease the size of the output** and **prevent overfitting**. Preventing overfitting is a consequence of reducing the output size, which in turn, reduces the number of parameters in future layers.
+        instructor_notes: ''
+        resources: null
+      - id: 217408
+        key: 08eb7a93-1b1e-4b6b-8b6a-13317370b08d
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Fri Dec 02 2016 14:30:45 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          Recently, pooling layers have fallen out of favor. Some reasons are:
+
+          * Recent datasets are so big and complex we're more concerned about underfitting.
+          * Dropout is a much better regularizer.
+          * Pooling results in a loss of information. Think about the max pooling operation as an example. We only keep the largest of *n* numbers, thereby disregarding *n-1* numbers completely.
+        instructor_notes: ''
+        resources: null
+  - id: 217391
+    key: afa4f4ce-47d6-41eb-9cf4-773ad2ce943f
+    locale: en-us
+    version: 1.0.0
+    title: 'Quiz: Pooling Mechanics'
+    semantic_type: Concept
+    updated_at: 'Thu Feb 16 2017 19:32:32 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 217409
+      - 267040
+      - 217410
+    atoms:
+      - id: 217409
+        key: 25bac018-539c-4348-b3e7-e52779748bd7
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Wed Feb 15 2017 03:28:20 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          ### Setup
+
+          H = height, W = width, D = depth
+
+          * We have an input of shape 4x4x5 (HxWxD)
+          * Filter of shape 2x2 (HxW) 
+          * A stride of 2 for both the height and width (S)
+
+          Recall the formula for calculating the new height or width:
+
+          ```
+          new_height = (input_height - filter_height)/S + 1
+          new_width = (input_width - filter_width)/S + 1
+          ```
+
+          NOTE: For a pooling layer the output depth is the same as the input depth. Additionally, the pooling operation is applied individually for each depth slice.
+
+          The image below gives an example of how a max pooling layer works. In this case, the max pooling filter has a shape of 2x2. As the max pooling filter slides across the input layer, the filter will output the maximum value of the 2x2 square. 
+        instructor_notes: ''
+        resources: null
+      - id: 267040
+        key: 65576a90-5005-4225-827e-c1cc05d647ba
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: ImageAtom
+        updated_at: 'Thu Feb 16 2017 19:32:23 GMT+0000 (UTC)'
+        is_public: true
+        url: 'https://d17h27t6h515a5.cloudfront.net/topher/2017/February/58a5fe3e_convolutionalnetworksquiz/convolutionalnetworksquiz.png'
+        width: 8800
+        height: 4950
+        caption: ''
+        resources: null
+        instructor_notes: null
+      - id: 217410
+        key: a3dbe414-8a90-411d-8e66-2b623fd61488
+        locale: en-us
+        version: 1.0.0
+        title: Pooling Layer Output Shape
+        semantic_type: ValidatedQuizAtom
+        updated_at: 'Thu Feb 16 2017 19:32:47 GMT+0000 (UTC)'
+        is_public: true
+        question:
+          prompt: What's the shape of the output? Format is **HxWxD**.
+          default_feedback: |-
+            To calculate the new height and width use the formula:
+
+            ```
+            new_height = (input_height - filter_height)/stride_height + 1
+            new_width = (input_width - filter_width)/stride_width + 1
+            ```
+            Does the depth change?
+          correct_feedback: |-
+            :-)
+
+            The answer is **2x2x5**. Here's how it's calculated using the above formula:
+
+            ```
+            (4 - 2)/2 + 1 = 2
+            (4 - 2)/2 + 1 = 2
+            ```
+
+            The depth stays the same.
+          video_feedback: null
+          matchers:
+            - semantic_type: RegexMatcher
+              is_correct: true
+              expression: 2x2x5
+              expression_description: null
+              flags: ''
+              incorrect_feedback: null
+            - semantic_type: RegexMatcher
+              is_correct: false
+              expression: '2x2x[0-9]+'
+              expression_description: null
+              flags: ''
+              incorrect_feedback: You have the correct new height and width. Does the depth change at all?
+            - semantic_type: RegexMatcher
+              is_correct: false
+              expression: '[0-9]+x[0-9]+x5'
+              expression_description: null
+              flags: ''
+              incorrect_feedback: You have the correct depth. Use the formula to calculate the new height and width.
+  - id: 217396
+    key: 2f6cb4b3-05e4-4500-9325-a0f4a35ba671
+    locale: en-us
+    version: 1.0.0
+    title: 'Solution: Pooling Mechanics'
+    semantic_type: Concept
+    updated_at: 'Tue Dec 06 2016 06:17:59 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 217411
+      - 219801
+    atoms:
+      - id: 217411
+        key: c46b2e29-e6f8-4239-a0e6-1850b5b177ee
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Tue Nov 29 2016 18:12:04 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          ### Solution
+
+          The answer is **2x2x5**. Here's how it's calculated using the formula:
+
+          ```
+          (4 - 2)/2 + 1 = 2
+          (4 - 2)/2 + 1 = 2
+          ```
+
+          The depth stays the same.
+        instructor_notes: ''
+        resources: null
+      - id: 219801
+        key: fb911a5e-a057-457b-a0de-92e8f5d0e38f
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Tue Dec 06 2016 06:19:13 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          Here's the corresponding code:
+
+          ```python
+          input = tf.placeholder(tf.float32, (None, 4, 4, 5))
+          filter_shape = [1, 2, 2, 1]
+          strides = [1, 2, 2, 1]
+          padding = 'VALID'
+          pool = tf.nn.max_pool(input, filter_shape, strides, padding)
+          ```
+
+          The output shape of `pool` will be [1, 2, 2, 5], even if `padding` is changed to `'SAME'`.
+        instructor_notes: ''
+        resources: null
+  - id: 217392
+    key: 2b9fcd00-c591-4296-82f3-9f48f19c0291
+    locale: en-us
+    version: 1.0.0
+    title: 'Quiz: Pooling Practice'
+    semantic_type: Concept
+    updated_at: 'Fri Dec 02 2016 14:34:23 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 217412
+      - 217413
+    atoms:
+      - id: 217412
+        key: 3476105c-040b-4b04-899b-9d0f3a22fb83
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Tue Nov 29 2016 03:07:25 GMT+0000 (UTC)'
+        is_public: true
+        text: 'Great, now let''s practice doing some pooling operations manually.'
+        instructor_notes: ''
+        resources: null
+      - id: 217413
+        key: ef0e7172-d0c0-444e-b20d-04eef73c1750
+        locale: en-us
+        version: 1.0.0
+        title: Max Pooling
+        semantic_type: ValidatedQuizAtom
+        updated_at: 'Fri Jan 06 2017 02:05:41 GMT+0000 (UTC)'
+        is_public: true
+        question:
+          prompt: |-
+            What's the result of a **max pooling** operation on the input:
+
+            ```
+            [[[0, 1, 0.5, 10],
+               [2, 2.5, 1, -8],
+               [4, 0, 5, 6],
+               [15, 1, 2, 3]]]
+            ```
+            Assume the filter is 2x2 and the stride is 2 for both height and width. The output shape is 2x2x1.
+
+            The answering format will be 4 numbers, each separated by a comma, such as: `1,2,3,4`.
+
+            **Work from the top left to the bottom right**
+          default_feedback: Move the **2x2** filter across the input according to the stride and compute the **max** of the numbers currently being considered. If the stride is 2 that means we jump 2 units each time.
+          correct_feedback: |-
+            Nice!
+
+            The correct answer is `2.5,10,15,6`.
+
+            ```
+            max(0, 1, 2, 2.5) = 2.5
+            max(0.5, 10, 1, -8) = 10
+            max(4, 0, 15, 1) = 15
+            max(5, 6, 2, 3) = 6
+            ```
+          video_feedback: null
+          matchers:
+            - semantic_type: RegexMatcher
+              is_correct: true
+              expression: '[\s]*2.5(0*|)[\s]*,[\s]*10(\.0*|)[\s]*,[\s]*15(\.0*|)[\s]*,[\s]*6(\.0*|)'
+              expression_description: null
+              flags: ''
+              incorrect_feedback: null
+  - id: 217397
+    key: 596bb21b-5831-4418-bf89-6593672475d5
+    locale: en-us
+    version: 1.0.0
+    title: 'Solution: Pooling Practice'
+    semantic_type: Concept
+    updated_at: 'Fri Dec 02 2016 14:34:37 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 217414
+    atoms:
+      - id: 217414
+        key: 81fc9003-5e75-4111-8e67-cdde5d067c68
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Tue Nov 29 2016 18:12:29 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          ### Solution
+
+          The correct answer is `2.5,10,15,6`. We start with the four numbers in the top left corner. Then we work left-to-right and top-to-bottom, moving 2 units each time.
+
+          ```
+          max(0, 1, 2, 2.5) = 2.5
+          max(0.5, 10, 1, -8) = 10
+          max(4, 0, 15, 1) = 15
+          max(5, 6, 2, 3) = 6
+          ```
+        instructor_notes: ''
+        resources: null
+  - id: 217394
+    key: 985699e0-865c-41cb-af18-5a7f28a01676
+    locale: en-us
+    version: 1.0.0
+    title: 'Quiz: Average Pooling'
+    semantic_type: Concept
+    updated_at: 'Fri Dec 02 2016 14:43:09 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 217416
+    atoms:
+      - id: 217416
+        key: 2f5c3613-26a8-45a4-ba2d-d9b204cb38bf
+        locale: en-us
+        version: 1.0.0
+        title: Mean Pooling
+        semantic_type: ValidatedQuizAtom
+        updated_at: 'Fri Jan 06 2017 02:05:03 GMT+0000 (UTC)'
+        is_public: true
+        question:
+          prompt: |-
+            What's the result of a **average (or mean) pooling**?
+
+            ```
+            [[[0, 1, 0.5, 10],
+               [2, 2.5, 1, -8],
+               [4, 0, 5, 6],
+               [15, 1, 2, 3]]]
+            ```
+            Assume the filter is 2x2 and the stride is 2 for both height and width. The output shape is 2x2x1.
+
+            The answering format will be 4 numbers, each separated by a comma, such as: 1,2,3,4.
+
+            **Answer to 3 decimal places. Work from the top left to the bottom right**
+          default_feedback: Move the **2x2** filter across the input according to the stride and compute the **mean** of the numbers currently being considered. If the stride is 2 that means we jump 2 units each time.
+          correct_feedback: |-
+            Nice!
+
+            The correct answer is `1.375,0.875,5,4`.
+
+            ```
+            mean(0, 1, 2, 2.5) = 1.375
+            mean(0.5, 10, 1, -8) = 0.875
+            mean(4, 0, 15, 1) = 5
+            mean(5, 6, 2, 3) = 4
+            ```
+          video_feedback: null
+          matchers:
+            - semantic_type: RegexMatcher
+              is_correct: true
+              expression: '[\s]*1.375(0*|)[\s]*,[\s]*0?\.875(0*|)[\s]*,[\s]*5(\.0*|)[\s]*,[\s]*4(\.0*|)'
+              expression_description: ''
+              flags: ''
+              incorrect_feedback: null
+  - id: 217398
+    key: 40990c7b-34b6-4600-b6ea-771f167271a0
+    locale: en-us
+    version: 1.0.0
+    title: 'Solution: Average Pooling'
+    semantic_type: Concept
+    updated_at: 'Fri Dec 02 2016 14:46:18 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 217415
+    atoms:
+      - id: 217415
+        key: 7ccb51b5-5e2d-44b5-aab1-b41549f5a855
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Tue Nov 29 2016 18:12:52 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          ### Solution
+
+          The correct answer is `1.375,0.875,5,4`. We start with the four numbers in the top left corner. Then we work left-to-right and top-to-bottom, moving 2 units each time.
+
+          ```
+          mean(0, 1, 2, 2.5) = 1.375
+          mean(0.5, 10, 1, -8) = 0.875
+          mean(4, 0, 15, 1) = 5
+          mean(5, 6, 2, 3) = 4
+          ```
+        instructor_notes: ''
+        resources: null
+  - id: 268009
+    key: d4c64a6a-254b-4c7a-85f8-958047b040d7
+    locale: en-us
+    version: 1.0.0
+    title: 1x1 Convolutions
+    semantic_type: Concept
+    updated_at: 'Thu Feb 23 2017 04:22:53 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 268010
+    atoms:
+      - id: 268010
+        key: 4ac9d501-014e-419b-b8cd-fb6ff6f49ac3
+        locale: en-us
+        version: 1.0.0
+        title: 1x1 Convolutions
+        semantic_type: VideoAtom
+        updated_at: 'Tue Apr 18 2017 17:00:34 GMT+0000 (UTC)'
+        is_public: true
+        tags: []
+        instructor_notes: ''
+        resources: null
+        video:
+          youtube_id: Zmzgerm6SjA
+          subtitles:
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae2716_1x1-convolutions/subtitles/lang_en_vs1.srt'
+              language_code: en
+          transcodings:
+            uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae2716_1x1-convolutions/1x1-convolutions_480p.mp4'
+            uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae2716_1x1-convolutions/1x1-convolutions_480p_1000kbps.mp4'
+            uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae2716_1x1-convolutions/1x1-convolutions_480p.ogg'
+            uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae2716_1x1-convolutions/1x1-convolutions_720p.mp4'
+            uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae2716_1x1-convolutions/hls/playlist.m3u8'
+  - id: 268011
+    key: e69984aa-9b9d-4260-9265-d5833db3ef5b
+    locale: en-us
+    version: 1.0.0
+    title: Inception Module
+    semantic_type: Concept
+    updated_at: 'Thu Feb 23 2017 04:22:55 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 268012
+    atoms:
+      - id: 268012
+        key: 65a832c6-e35e-4e6d-9ff8-ea0790b729f3
+        locale: en-us
+        version: 1.0.0
+        title: Inception Module
+        semantic_type: VideoAtom
+        updated_at: 'Tue Apr 18 2017 17:00:34 GMT+0000 (UTC)'
+        is_public: true
+        tags: []
+        instructor_notes: ''
+        resources: null
+        video:
+          youtube_id: SlTm03bEOxA
+          subtitles:
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae272d_inception-module/subtitles/lang_en_vs1.srt'
+              language_code: en
+          transcodings:
+            uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae272d_inception-module/inception-module_480p.mp4'
+            uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae272d_inception-module/inception-module_480p_1000kbps.mp4'
+            uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae272d_inception-module/inception-module_480p.ogg'
+            uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae272d_inception-module/inception-module_720p.mp4'
+            uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae272d_inception-module/hls/playlist.m3u8'
+  - id: 199874
+    key: afe0660b-a035-499b-9441-737d601e19df
+    locale: en-us
+    version: 1.0.0
+    title: Convolutional Network in TensorFlow
+    semantic_type: Concept
+    updated_at: 'Thu Nov 24 2016 15:50:29 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 199875
+      - 199896
+      - 199946
+      - 199897
+      - 199895
+      - 199947
+      - 199898
+      - 199926
+      - 199927
+    atoms:
+      - id: 199875
+        key: d66ad4e0-b777-45bf-aef4-5a525c10ac57
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Thu Mar 23 2017 20:21:12 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          # Convolutional Network in TensorFlow
+          It's time to walk through an example Convolutional Neural Network (CNN) in TensorFlow. 
+
+          The structure of this network follows the classic structure of CNNs, which is a mix of convolutional layers and max pooling, followed by fully-connected layers.
+
+          The code you'll be looking at is similar to what you saw in the segment on [Deep Neural Network in TensorFlow](https://classroom.udacity.com/nanodegrees/nd009/parts/c983b707-8f75-4c5e-8567-7134e21e5a65/modules/24611a52-b490-497c-aaba-47db1f4ef3fd/lessons/cb4ae92e-abf2-49c9-afae-e497dd25f3fb/concepts/43664323-f76e-4b3d-8cde-5ad0c8345d1c#), except we restructured the architecture of this network as a CNN. 
+
+          Just like in that segment, here you'll study the line-by-line breakdown of the code. If you want, you can even [download the code](https://d17h27t6h515a5.cloudfront.net/topher/2017/February/58a61ca1_cnn/cnn.zip) and run it yourself.
+
+          Thanks to [Aymeric Damien](https://github.com/aymericdamien/TensorFlow-Examples) for providing the original TensorFlow model on which this segment is based.
+
+          Time to dive in!
+
+          ### Dataset
+          You've seen this section of code from previous lessons.  Here we're importing the MNIST dataset and using a convenient TensorFlow function to batch, scale, and One-Hot encode the data.
+          ```python
+          from tensorflow.examples.tutorials.mnist import input_data
+          mnist = input_data.read_data_sets(".", one_hot=True, reshape=False)
+
+          import tensorflow as tf
+
+          # Parameters
+          learning_rate = 0.00001
+          epochs = 10
+          batch_size = 128
+
+          # Number of samples to calculate validation and accuracy
+          # Decrease this if you're running out of memory to calculate accuracy
+          test_valid_size = 256
+
+          # Network Parameters
+          n_classes = 10  # MNIST total classes (0-9 digits)
+          dropout = 0.75  # Dropout, probability to keep units
+          ```
+
+          ### Weights and Biases
+          ```python
+          # Store layers weight & bias
+          weights = {
+              'wc1': tf.Variable(tf.random_normal([5, 5, 1, 32])),
+              'wc2': tf.Variable(tf.random_normal([5, 5, 32, 64])),
+              'wd1': tf.Variable(tf.random_normal([7*7*64, 1024])),
+              'out': tf.Variable(tf.random_normal([1024, n_classes]))}
+
+          biases = {
+              'bc1': tf.Variable(tf.random_normal([32])),
+              'bc2': tf.Variable(tf.random_normal([64])),
+              'bd1': tf.Variable(tf.random_normal([1024])),
+              'out': tf.Variable(tf.random_normal([n_classes]))}
+          ```
+
+          ### Convolutions
+        instructor_notes: ''
+        resources: null
+      - id: 199896
+        key: 650c9365-f2f5-49fb-9f34-18cfa1551b97
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: ImageAtom
+        updated_at: 'Wed Nov 02 2016 22:13:05 GMT+0000 (UTC)'
+        is_public: true
+        url: 'https://d17h27t6h515a5.cloudfront.net/topher/2016/November/581a58be_convolution-schematic/convolution-schematic.gif'
+        width: 263
+        height: 192
+        caption: 'Convolution with 3×3 Filter.  Source: http://deeplearning.stanford.edu/wiki/index.php/Feature_extraction_using_convolution'
+        resources: null
+        instructor_notes: null
+      - id: 199946
+        key: 9b304089-1801-4de4-a89d-ef27ca48e65c
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Thu Feb 16 2017 22:16:02 GMT+0000 (UTC)'
+        is_public: true
+        text: 'The above is an example of a [convolution](https://en.wikipedia.org/wiki/Convolution) with a 3x3 filter and a stride of 1 being applied to data with a range of 0 to 1.  The convolution for each 3x3 section is calculated against the weight, `[[1, 0, 1], [0, 1, 0], [1, 0, 1]]`, then a bias is added to create the convolved feature on the right.  In this case, the bias is zero.  In TensorFlow, this is all done using [`tf.nn.conv2d()`](https://www.tensorflow.org/api_docs/python/tf/nn/conv2d) and [`tf.nn.bias_add()`](https://www.tensorflow.org/api_docs/python/tf/nn/bias_add).'
+        instructor_notes: ''
+        resources: null
+      - id: 199897
+        key: c2092db1-860d-4c31-95b6-9c583900f482
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Fri Mar 03 2017 04:33:48 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          ```python
+          def conv2d(x, W, b, strides=1):
+              x = tf.nn.conv2d(x, W, strides=[1, strides, strides, 1], padding='SAME')
+              x = tf.nn.bias_add(x, b)
+              return tf.nn.relu(x)
+          ```
+          The [`tf.nn.conv2d()`](https://www.tensorflow.org/api_docs/python/tf/nn/conv2d) function computes the convolution against weight `W` as shown above.
+
+          In TensorFlow, `strides` is an array of 4 elements;  the first element in this array indicates the stride for batch and last element indicates stride for features.  It's good practice to remove the batches or features you want to skip from the data set rather than use a stride to skip them.  You can always set the first and last element to 1 in `strides` in order to use all batches and features.
+
+          The middle two elements are the strides for height and width respectively.  I've mentioned stride as one number because you usually have a square stride where `height = width`.  When someone says they are using a stride of 3, they usually mean `tf.nn.conv2d(x, W, strides=[1, 3, 3, 1])`.
+
+          To make life easier, the code is using [`tf.nn.bias_add()`](https://www.tensorflow.org/api_docs/python/tf/nn/bias_add) to add the bias.  Using [`tf.add()`](https://www.tensorflow.org/api_docs/python/tf/add) doesn't work when the tensors aren't the same shape.
+          ### Max Pooling
+        instructor_notes: ''
+        resources: null
+      - id: 199895
+        key: 390a2f75-b195-4b24-9a54-045c78d6e894
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: ImageAtom
+        updated_at: 'Wed Nov 02 2016 22:13:05 GMT+0000 (UTC)'
+        is_public: true
+        url: 'https://d17h27t6h515a5.cloudfront.net/topher/2016/November/581a57fe_maxpool/maxpool.jpeg'
+        width: 787
+        height: 368
+        caption: 'Max Pooling with 2x2 filter and stride of 2.  Source: http://cs231n.github.io/convolutional-networks/'
+        resources: null
+        instructor_notes: null
+      - id: 199947
+        key: 73dbfd7e-0494-45a9-9406-d7cd6725531c
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Thu Nov 03 2016 21:52:43 GMT+0000 (UTC)'
+        is_public: true
+        text: 'The above is an example of [max pooling](https://en.wikipedia.org/wiki/Convolutional_neural_network#Pooling_layer) with a 2x2 filter and stride of 2.  The left square is the input and the right square is the output.  The four 2x2 colors in input represents each time the filter was applied to create the max on the right side.  For example, `[[1, 1], [5, 6]]` becomes 6 and `[[3, 2], [1, 2]]` becomes 3. '
+        instructor_notes: ''
+        resources: null
+      - id: 199898
+        key: d77a4a3b-a0be-44be-b864-b954e07ab405
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Thu Feb 16 2017 22:18:38 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          ```python
+          def maxpool2d(x, k=2):
+              return tf.nn.max_pool(
+                  x,
+                  ksize=[1, k, k, 1],
+                  strides=[1, k, k, 1],
+                  padding='SAME')
+          ```
+          The [`tf.nn.max_pool()`](https://www.tensorflow.org/api_docs/python/tf/nn/max_pool) function does exactly what you would expect, it performs max pooling with the `ksize` parameter as the size of the filter.
+          ### Model
+        instructor_notes: ''
+        resources: null
+      - id: 199926
+        key: eb8c480c-6d55-4e8a-b4a4-8850de3b1d7c
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: ImageAtom
+        updated_at: 'Fri Nov 04 2016 01:44:05 GMT+0000 (UTC)'
+        is_public: true
+        url: 'https://d17h27t6h515a5.cloudfront.net/topher/2016/November/581a64b7_arch/arch.png'
+        width: 2594
+        height: 1312
+        caption: Image from Explore The Design Space video
+        resources: null
+        instructor_notes: null
+      - id: 199927
+        key: 017ad9bd-8411-447b-96c2-1188bcc3336c
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Wed Mar 08 2017 18:46:47 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          In the code below, we're creating 3 layers alternating between convolutions and max pooling followed by a fully connected and output layer.  The transformation of each layer to new dimensions are shown in the comments.  For example, the first layer shapes the images from 28x28x1 to 28x28x32 in the convolution step.  Then next step applies max pooling, turning each sample into 14x14x32.  All the layers are applied from `conv1` to `output`, producing 10 class predictions.
+          ```python
+          def conv_net(x, weights, biases, dropout):
+              # Layer 1 - 28*28*1 to 14*14*32
+              conv1 = conv2d(x, weights['wc1'], biases['bc1'])
+              conv1 = maxpool2d(conv1, k=2)
+
+              # Layer 2 - 14*14*32 to 7*7*64
+              conv2 = conv2d(conv1, weights['wc2'], biases['bc2'])
+              conv2 = maxpool2d(conv2, k=2)
+
+              # Fully connected layer - 7*7*64 to 1024
+              fc1 = tf.reshape(conv2, [-1, weights['wd1'].get_shape().as_list()[0]])
+              fc1 = tf.add(tf.matmul(fc1, weights['wd1']), biases['bd1'])
+              fc1 = tf.nn.relu(fc1)
+              fc1 = tf.nn.dropout(fc1, dropout)
+
+              # Output Layer - class prediction - 1024 to 10
+              out = tf.add(tf.matmul(fc1, weights['out']), biases['out'])
+              return out
+          ```
+
+          ### Session
+          Now let's run it!
+          ```python
+          # tf Graph input
+          x = tf.placeholder(tf.float32, [None, 28, 28, 1])
+          y = tf.placeholder(tf.float32, [None, n_classes])
+          keep_prob = tf.placeholder(tf.float32)
+
+          # Model
+          logits = conv_net(x, weights, biases, keep_prob)
+
+          # Define loss and optimizer
+          cost = tf.reduce_mean(\
+              tf.nn.softmax_cross_entropy_with_logits(logits=logits, labels=y))
+          optimizer = tf.train.GradientDescentOptimizer(learning_rate=learning_rate)\
+              .minimize(cost)
+
+          # Accuracy
+          correct_pred = tf.equal(tf.argmax(logits, 1), tf.argmax(y, 1))
+          accuracy = tf.reduce_mean(tf.cast(correct_pred, tf.float32))
+
+          # Initializing the variables
+          init = tf. global_variables_initializer()
+
+          # Launch the graph
+          with tf.Session() as sess:
+              sess.run(init)
+
+              for epoch in range(epochs):
+                  for batch in range(mnist.train.num_examples//batch_size):
+                      batch_x, batch_y = mnist.train.next_batch(batch_size)
+                      sess.run(optimizer, feed_dict={
+                          x: batch_x,
+                          y: batch_y,
+                          keep_prob: dropout})
+
+                      # Calculate batch loss and accuracy
+                      loss = sess.run(cost, feed_dict={
+                          x: batch_x,
+                          y: batch_y,
+                          keep_prob: 1.})
+                      valid_acc = sess.run(accuracy, feed_dict={
+                          x: mnist.validation.images[:test_valid_size],
+                          y: mnist.validation.labels[:test_valid_size],
+                          keep_prob: 1.})
+
+                      print('Epoch {:>2}, Batch {:>3} -'
+                            'Loss: {:>10.4f} Validation Accuracy: {:.6f}'.format(
+                          epoch + 1,
+                          batch + 1,
+                          loss,
+                          valid_acc))
+
+              # Calculate Test Accuracy
+              test_acc = sess.run(accuracy, feed_dict={
+                  x: mnist.test.images[:test_valid_size],
+                  y: mnist.test.labels[:test_valid_size],
+                  keep_prob: 1.})
+              print('Testing Accuracy: {}'.format(test_acc))
+          ```
+          That's it!  That is a CNN in TensorFlow.  Now that you've seen a CNN in TensorFlow, let's see if you can apply it on your own!
+        instructor_notes: ''
+        resources: null
+  - id: 217145
+    key: 28e86e48-c796-4231-bac2-d9472af61d97
+    locale: en-us
+    version: 1.0.0
+    title: TensorFlow Convolution Layer
+    semantic_type: Concept
+    updated_at: 'Tue Nov 29 2016 02:31:03 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 217146
+      - 217147
+    atoms:
+      - id: 217146
+        key: 79af7a97-e82b-4029-8707-872982d6a69d
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Fri Mar 10 2017 19:11:56 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          ### Using Convolution Layers in TensorFlow
+
+          Let's now apply what we've learned to build real CNNs in TensorFlow. In the below exercise, you'll be asked to set up the dimensions of the Convolution filters, the weights, the biases. This is in many ways the trickiest part to using CNNs in TensorFlow. Once you have a sense of how to set up the dimensions of these attributes, applying CNNs will be far more straight forward.
+
+          ### Review
+
+          You should go over the TensorFlow documentation for [2D convolutions](https://www.tensorflow.org/api_guides/python/nn#Convolution). Most of the documentation is straightforward, except perhaps the `padding` argument. The padding might differ depending on whether you pass `'VALID'` or `'SAME'`.
+
+          Here are a few more things worth reviewing:
+
+          1. Introduction to TensorFlow -> TensorFlow Variables.
+          2. How to determine the dimensions of the output based on the input size and the filter size (shown below). You'll use this to determine what the size of your filter should be. 
+             ```
+              new_height = (input_height - filter_height + 2 * P)/S + 1
+              new_width = (input_width - filter_width + 2 * P)/S + 1
+              ```
+
+          ### Instructions
+
+          1. Finish off each `TODO` in the `conv2d` function.
+          2. Setup the `strides`, `padding` and filter weight/bias (`F_w` and `F_b`) such that
+          the output shape is `(1, 2, 2, 3)`. Note that all of these except `strides` should be TensorFlow variables.
+        instructor_notes: ''
+        resources: null
+      - id: 217147
+        key: b5cda012-86d3-4771-bd10-5b6358d08289
+        locale: en-us
+        version: 1.0.0
+        title: ''
+        semantic_type: QuizAtom
+        updated_at: 'Fri Jan 20 2017 05:41:37 GMT+0000 (UTC)'
+        is_public: true
+        resources: null
+        instructor_notes: ''
+        instruction: null
+        question:
+          title: Define a Convolution Layer in TensorFlow
+          semantic_type: ProgrammingQuestion
+          evaluation_id: '5571463753105408'
+          evaluator:
+            model: ProgramEvaluator
+            execution_language: python3
+            executor_grading_code: |-
+              import tensorflow as tf
+              import numpy as np
+              import json
+
+              result = {'is_correct': False, 'error': False, 'values': [], 'output': '', 'custom_msg': ''}
+
+              def solution(input):
+                  # Filter (weights and bias)
+                  F_W = tf.Variable(tf.truncated_normal((2, 2, 1, 3)))
+                  F_b = tf.Variable(tf.zeros(3))
+                  strides = [1, 2, 2, 1]
+                  padding = 'VALID'
+                  return tf.nn.conv2d(input, F_W, strides, padding) + F_b
+                  
+              try:
+                  import conv
+                  
+                  X = tf.constant(np.random.randn(1, 4, 4, 1), dtype=tf.float32)
+                  ours = solution(X)
+                  theirs = conv.conv2d(X)
+                  dim_names = ['Batch', 'Height', 'Width', 'Depth']
+                  
+                  with tf.Session() as sess:
+                      sess.run(tf.initialize_all_variables())
+                      our_shape = ours.get_shape().as_list()
+                      their_shape = theirs.get_shape().as_list()
+                      
+                      did_pass = False
+                      
+                      try:
+                          for dn, ov, tv in zip(dim_names, our_shape, their_shape):
+                              if ov != tv:
+                                  # dimension mismatch
+                                  raise Exception('{} dimension: mismatch we have {}, you have {}'.format(dn, ov, tv))
+                          if np.alltrue(our_shape == their_shape):
+                              did_pass = True
+                          else:
+                              # :-(
+                              did_pass = False
+                      except:
+                          did_pass = False
+                          
+                      if did_pass:
+                          result['is_correct'] = True
+                      else:
+                          result['is_correct'] = False
+                          result['values'] = [
+                                 'correct shape: {}'.format(our_shape)
+                          ]
+                          result['output'] = str(their_shape)
+              except Exception as err:
+                  result['is_correct'] = False
+                  result['error'] = str(err)
+              print(json.dumps(result))
+            executor_test_code: |-
+              import conv
+              import tensorflow as tf
+
+              def prevent_tf_error():
+                  """
+                  Prevent TF_DeleteStatus error - https://udacity.atlassian.net/browse/DRIVE-1507
+                  """
+                  with tf.Session() as sess:
+                      sess.run(tf.global_variables_initializer())
+                      # should be [1, 2, 2, 3]
+                      print("Output shape: {}".format(conv.out.get_shape().as_list()))
+                      print("Convolution result: {}".format(sess.run(conv.out)))
+
+              prevent_tf_error()
+            gae_grading_code: |
+              # Here’s where you determine whether or not a student’s response is
+              # correct and generate *useful* feedback.
+
+              import json
+
+              # This is the stdout from Submit Code.
+              result = json.loads(executor_result['stdout'])
+              comment = ""
+
+              if result['is_correct']:
+                  comment= "Great job! Your Convolution layer looks good :)"
+              elif not result['error']:
+                  comment = "Not quite. The correct output shape is {} while your output shape is {}.".format(result['values'], result['output'])
+              else:
+                  comment = "Something went wrong with your submission:"
+                  grade_result['comment'] = result['error']
+
+              # Set this to True if the student passed and False if they did not.
+              grade_result['correct'] = result['is_correct']
+
+              # This will be displayed as plain text under the classroom window in the old classroom.
+              # grade_result['comment'] = "See feedback."
+
+              # This will be displayed as underneath the green “Correct!” or red
+              # "Try Again!" message. This text can be formatted with markdown.
+              grade_result['feedback'] = comment
+            requires_gpu: false
+            deadline_seconds: 0
+            legacy_template_refs: []
+            included_text_files: []
+        answer: null
+  - id: 217153
+    key: 7c8247d8-1332-4044-b2ae-6ab186ffd393
+    locale: en-us
+    version: 1.0.0
+    title: 'Solution: TensorFlow Convolution Layer'
+    semantic_type: Concept
+    updated_at: 'Tue Nov 29 2016 02:31:07 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 217177
+      - 217169
+      - 217178
+    atoms:
+      - id: 217177
+        key: 4f2d49ac-3fcb-41e9-b8b8-6a700afe79ee
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Tue Nov 29 2016 01:40:46 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          ### Solution
+
+          Here's how I did it. **NOTE**: there's more than 1 way to get the correct output shape. Your answer might differ from mine.
+        instructor_notes: ''
+        resources: null
+      - id: 217169
+        key: 024c8f5a-4749-482c-8f47-735a1c595b0c
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Thu Dec 01 2016 05:20:04 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          ```python
+          def conv2d(input):
+              # Filter (weights and bias)
+              F_W = tf.Variable(tf.truncated_normal((2, 2, 1, 3)))
+              F_b = tf.Variable(tf.zeros(3))
+              strides = [1, 2, 2, 1]
+              padding = 'VALID'
+              return tf.nn.conv2d(input, F_W, strides, padding) + F_b
+          ```
+        instructor_notes: ''
+        resources: null
+      - id: 217178
+        key: 306ff652-33ed-4589-a348-663a02290ff8
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Thu Dec 01 2016 05:20:01 GMT+0000 (UTC)'
+        is_public: true
+        text: |+
+          I want to transform the input shape `(1, 4, 4, 1)` to `(1, 2, 2, 3)`. I choose `'VALID'` for the padding algorithm. I find it simpler to understand and it achieves the result I'm looking for.
+
+          ```sh
+          out_height = ceil(float(in_height - filter_height + 1) / float(strides[1]))
+          out_width  = ceil(float(in_width - filter_width + 1) / float(strides[2]))
+          ```
+
+          Plugging in the values:
+
+          ```sh
+          out_height = ceil(float(4 - 2 + 1) / float(2)) = ceil(1.5) = 2
+          out_width  = ceil(float(4 - 2 + 1) / float(2)) = ceil(1.5) = 2
+          ```
+
+          In order to change the depth from 1 to 3, I have to set the output depth of my filter appropriately:
+
+          ```python
+          F_W = tf.Variable(tf.truncated_normal((2, 2, 1, 3))) # (height, width, input_depth, output_depth)
+          F_b = tf.Variable(tf.zeros(3)) # (output_depth)
+          ```
+          The input has a depth of 1, so I set that as the `input_depth` of the filter.
+
+        instructor_notes: ''
+        resources: null
+  - id: 217148
+    key: ce2aa7d8-ee13-4166-8d65-5e52fd79995c
+    locale: en-us
+    version: 1.0.0
+    title: TensorFlow Pooling Layer
+    semantic_type: Concept
+    updated_at: 'Tue Nov 29 2016 02:31:13 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 217149
+      - 217150
+    atoms:
+      - id: 217149
+        key: ee9971f5-b530-4cda-999a-f8d74581a3ec
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Thu Feb 16 2017 22:23:11 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          ### Using Pooling Layers in TensorFlow
+
+          In the below exercise, you'll be asked to set up the dimensions of the pooling filters, strides, as well as the appropriate padding. You should go over the TensorFlow documentation for [`tf.nn.max_pool()`](https://www.tensorflow.org/api_docs/python/tf/nn/max_pool). Padding works the same as it does for a convolution.
+
+
+          ### Instructions
+
+          1. Finish off each `TODO` in the `maxpool` function.
+
+          2. Setup the `strides`, `padding` and `ksize` such that the output shape after pooling is `(1, 2, 2, 1)`.
+        instructor_notes: ''
+        resources: null
+      - id: 217150
+        key: e47eb131-f824-4f81-93a1-cfb877c30339
+        locale: en-us
+        version: 1.0.0
+        title: ''
+        semantic_type: QuizAtom
+        updated_at: 'Fri Apr 07 2017 21:28:38 GMT+0000 (UTC)'
+        is_public: true
+        resources: null
+        instructor_notes: ''
+        instruction: null
+        question:
+          title: Define a Pooling Layer in TensorFlow
+          semantic_type: ProgrammingQuestion
+          evaluation_id: '6246286330298368'
+          evaluator:
+            model: ProgramEvaluator
+            execution_language: python3
+            executor_grading_code: |+
+              import tensorflow as tf
+              import numpy as np
+              import json
+
+              result = {'is_correct': False, 'error': False, 'values': [], 'output': '', 'custom_msg': ''}
+
+              def solution(input):
+                  ksize = [1, 2, 2, 1]
+                  strides = [1, 2, 2, 1]
+                  padding = 'VALID'
+                  # https://www.tensorflow.org/versions/r0.11/api_docs/python/nn.html#max_pool
+                  return tf.nn.max_pool(X, ksize, strides, padding)
+                  
+              try:
+                  import pool
+                  
+                  X = tf.constant(np.random.randn(1, 4, 4, 1), dtype=tf.float32)
+                  ours = solution(X)
+                  theirs = pool.maxpool(X)
+                  dim_names = ['Batch', 'Height', 'Width', 'Depth']
+                  
+                  with tf.Session() as sess:
+                      our_shape = ours.get_shape().as_list()
+                      their_shape = theirs.get_shape().as_list()
+                      
+                      did_pass = False
+                      
+                      try:
+                          for dn, ov, tv in zip(dim_names, our_shape, their_shape):
+                              if ov != tv:
+                                  # dimension mismatch
+                                  raise Exception('{} dimension: mismatch we have {}, you have {}'.format(dn, ov, tv))
+                          if np.alltrue(our_shape == their_shape):
+                              did_pass = True
+                          else:
+                              # :-(
+                              did_pass = False
+                      except:
+                          did_pass = False
+                          
+                      if did_pass:
+                          result['is_correct'] = True
+                      else:
+                          result['is_correct'] = False
+                          result['values'] = [
+                                 'correct shape: {}'.format(our_shape)
+                          ]
+                          result['output'] = str(their_shape)
+              except Exception as err:
+                  result['is_correct'] = False
+                  result['error'] = str(err)
+              print(json.dumps(result))
+
+            executor_test_code: |-
+              import pool
+              import tensorflow as tf
+
+                  
+              def prevent_tf_error():
+                  """
+                  Prevent TF_DeleteStatus error - https://udacity.atlassian.net/browse/DRIVE-1507
+                  """
+                  with tf.Session() as sess:
+                      # should be [1, 2, 2, 1]
+                      print("Output shape: {}".format(pool.out.get_shape().as_list()))
+                      print("Pooling result: {}".format(sess.run(pool.out)))
+
+              prevent_tf_error()
+            gae_grading_code: |
+              # Here’s where you determine whether or not a student’s response is
+              # correct and generate *useful* feedback.
+
+              import json
+
+              # This is the stdout from Submit Code.
+              result = json.loads(executor_result['stdout'])
+              comment = ""
+
+              if result['is_correct']:
+                  comment= "Great job! Your Pooling layer looks good :)"
+              elif not result['error']:
+                  comment = "Not quite. The correct output shape is {} while your output shape is {}.".format(result['values'], result['output'])
+              else:
+                  comment = "Something went wrong with your submission:"
+                  grade_result['comment'] = result['error']
+
+              # Set this to True if the student passed and False if they did not.
+              grade_result['correct'] = result['is_correct']
+
+              # This will be displayed as plain text under the classroom window in the old classroom.
+              # grade_result['comment'] = "See feedback."
+
+              # This will be displayed as underneath the green “Correct!” or red
+              # "Try Again!" message. This text can be formatted with markdown.
+              grade_result['feedback'] = comment
+            requires_gpu: false
+            deadline_seconds: 0
+            legacy_template_refs: []
+            included_text_files: []
+        answer: null
+  - id: 217154
+    key: 5e0067dc-3a3d-49ec-8a88-f11ac946f507
+    locale: en-us
+    version: 1.0.0
+    title: 'Solution: TensorFlow Pooling Layer'
+    semantic_type: Concept
+    updated_at: 'Tue Nov 29 2016 02:31:20 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 217176
+      - 217170
+      - 217175
+    atoms:
+      - id: 217176
+        key: 21e09004-4bc7-4480-949e-1fe63cf437ad
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Tue Nov 29 2016 02:07:40 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          ### Solution
+
+          Here's how I did it. **NOTE**: there's more than 1 way to get the correct output shape. Your answer might differ from mine.
+        instructor_notes: ''
+        resources: null
+      - id: 217170
+        key: d0beac6a-824a-4ce4-89d6-ed019ed74c31
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Sun Nov 27 2016 17:25:51 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          ```python
+          def maxpool(input):
+              ksize = [1, 2, 2, 1]
+              strides = [1, 2, 2, 1]
+              padding = 'VALID'
+              return tf.nn.max_pool(input, ksize, strides, padding)
+          ```
+        instructor_notes: ''
+        resources: null
+      - id: 217175
+        key: b3ce2acc-496e-4a4d-91d2-7dc04f555f96
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Sun Nov 27 2016 17:37:15 GMT+0000 (UTC)'
+        is_public: true
+        text: |+
+          I want to transform the input shape `(1, 4, 4, 1)` to `(1, 2, 2, 1)`. I choose `'VALID'` for the padding algorithm. I find it simpler to understand and it achieves the result I'm looking for.
+
+          ```sh
+          out_height = ceil(float(in_height - filter_height + 1) / float(strides[1]))
+          out_width  = ceil(float(in_width - filter_width + 1) / float(strides[2]))
+          ```
+
+          Plugging in the values:
+
+          ```sh
+          out_height = ceil(float(4 - 2 + 1) / float(2)) = ceil(1.5) = 2
+          out_width  = ceil(float(4 - 2 + 1) / float(2)) = ceil(1.5) = 2
+          ```
+
+          The depth doesn't change during a pooling operation so I don't have to worry about that.
+
+        instructor_notes: ''
+        resources: null
+  - id: 216782
+    key: 01a36ddb-1e9a-47db-95b7-d0093aed970d
+    locale: en-us
+    version: 1.0.0
+    title: CNNs - Additional Resources
+    semantic_type: Concept
+    updated_at: 'Fri Nov 25 2016 06:13:54 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 216783
+    atoms:
+      - id: 216783
+        key: 629f2f90-c4ef-4a93-a877-05185577fd6d
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Sat Mar 04 2017 21:24:33 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          ### Additional Resources
+
+          There are many wonderful free resources that allow you to go into more depth around Convolutional Neural Networks. In this course, our goal is to give you just enough intuition to start applying this concept on real world problems so you have enough of an exposure to explore more on your own. We strongly encourage you to explore some of these resources more to reinforce your intuition and explore different ideas.
+
+          These are the resources we recommend in particular:
+
+          - Andrej Karpathy's [CS231n Stanford course](http://cs231n.github.io/) on Convolutional Neural Networks.
+          - Michael Nielsen's [free book](http://neuralnetworksanddeeplearning.com) on Deep Learning.
+          - Goodfellow, Bengio, and Courville's more advanced [free book](http://deeplearningbook.org/) on Deep Learning.
+        instructor_notes: ''
+        resources: null

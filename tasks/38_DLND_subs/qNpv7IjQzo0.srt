@@ -1,0 +1,33 @@
+1
+00:00:00,500 --> 00:00:02,633
+Imagine you work for a production company,
+
+2
+00:00:02,633 --> 00:00:06,200
+and your job is to write a script 
+for one of their television shows.
+
+3
+00:00:06,433 --> 00:00:08,333
+You could write the script manually or
+
+4
+00:00:08,333 --> 00:00:11,100
+you could just have a computer do it for you.
+
+5
+00:00:11,367 --> 00:00:15,633
+In the third project, you'll generate a TV script 
+using a recurrent neural network.
+
+6
+00:00:16,001 --> 00:00:18,100
+You'll train the network on existing scripts,
+
+7
+00:00:18,100 --> 00:00:20,900
+then use it to generate an original piece of writing.
+
+8
+00:00:21,333 --> 00:00:23,467
+Good luck and happy scripting.

@@ -1,0 +1,1553 @@
+id: 267179
+key: bd73c076-7661-4947-9f73-7020d313eb6f
+locale: en-us
+version: 1.0.0
+title: Deep Neural Networks
+semantic_type: Lesson
+updated_at: 'Sun Apr 23 2017 23:44:23 GMT+0000 (UTC)'
+is_public: true
+image:
+  url: 'https://d17h27t6h515a5.cloudfront.net/topher/2017/April/58ed4f36_deep-learning-networks/deep-learning-networks.jpg'
+  width: 500
+  height: 500
+video: null
+summary: Vincent walks you through how to go from a simple neural network to a deep neural network. You'll learn about why additional layers can help and how to prevent overfitting.
+duration: 120
+is_project_lesson: false
+_concepts_ids:
+  - 267990
+  - 268035
+  - 267988
+  - 197660
+  - 267991
+  - 229325
+  - 246626
+  - 267993
+  - 67831
+  - 268004
+  - 268045
+  - 267995
+  - 87930
+  - 202474
+_project_id: null
+concepts:
+  - id: 267990
+    key: aeaeb674-cfa9-4572-8a67-319080f5419d
+    locale: en-us
+    version: 1.0.0
+    title: Intro to Deep Neural Networks
+    semantic_type: Concept
+    updated_at: 'Wed Apr 19 2017 23:26:54 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 283740
+    atoms:
+      - id: 283740
+        key: 7583a9de-32dc-43b0-81b7-c5375db2aa5d
+        locale: en-us
+        version: 1.0.0
+        title: Mat HS
+        semantic_type: VideoAtom
+        updated_at: 'Wed Apr 19 2017 21:36:47 GMT+0000 (UTC)'
+        is_public: true
+        tags: []
+        instructor_notes: ''
+        resources: null
+        video:
+          youtube_id: 9P7UPWFu8w8
+          subtitles: null
+          transcodings:
+            uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/March/58d04fb2_mat-hs/mat-hs_480p.mp4'
+            uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/March/58d04fb2_mat-hs/mat-hs_480p_1000kbps.mp4'
+            uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/March/58d04fb2_mat-hs/mat-hs_480p.ogg'
+            uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/March/58d04fb2_mat-hs/mat-hs_720p.mp4'
+            uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/March/58d04fb2_mat-hs/hls/playlist.m3u8'
+  - id: 268035
+    key: 43664323-f76e-4b3d-8cde-5ad0c8345d1c
+    locale: en-us
+    version: 1.0.0
+    title: Two-Layer Neural Network
+    semantic_type: Concept
+    updated_at: 'Thu Feb 23 2017 04:21:23 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 268036
+      - 268043
+    atoms:
+      - id: 268036
+        key: 012a864a-3376-48c5-88be-8ca9fe31b1be
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: ImageAtom
+        updated_at: 'Thu Feb 23 2017 02:06:05 GMT+0000 (UTC)'
+        is_public: true
+        url: 'https://d17h27t6h515a5.cloudfront.net/topher/2017/February/58ae4386_two-layer-network/two-layer-network.png'
+        width: 1047
+        height: 327
+        caption: ''
+        resources: null
+        instructor_notes: null
+      - id: 268043
+        key: c720fad5-a300-4994-b8da-68b813456c45
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Tue Mar 14 2017 21:18:30 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          # Multilayer Neural Networks
+
+          In this lesson, you'll learn how to build multilayer neural networks with TensorFlow. Adding a hidden layer to a network allows it to model more complex functions. Also, using a non-linear activation function on the hidden layer lets it model non-linear functions.
+
+          We shall learn about ReLU, a non-linear function, or rectified linear unit. The ReLU function is 0 for negative inputs and <span class='mathquill'>x</span> for all inputs <span class='mathquill'>x >0</span>. 
+
+          Next, you'll see how a ReLU hidden layer is implemented in TensorFlow.
+        instructor_notes: ''
+        resources: null
+  - id: 267988
+    key: b3de6cfa-ccd8-4a4d-b8c0-cdb47d81fd25
+    locale: en-us
+    version: 1.0.0
+    title: 'Quiz: TensorFlow ReLUs'
+    semantic_type: Concept
+    updated_at: 'Thu Feb 23 2017 04:21:21 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 268008
+      - 268028
+      - 268015
+    atoms:
+      - id: 268008
+        key: 1b5960fe-d03e-4ae4-a6ae-c3d8710495a8
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Thu Feb 23 2017 01:58:12 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          # TensorFlow ReLUs
+
+          TensorFlow provides the ReLU function as [`tf.nn.relu()`](https://www.tensorflow.org/api_docs/python/tf/nn/relu), as shown below.
+
+          ```python
+          # Hidden Layer with ReLU activation function
+          hidden_layer = tf.add(tf.matmul(features, hidden_weights), hidden_biases)
+          hidden_layer = tf.nn.relu(hidden_layer)
+
+          output = tf.add(tf.matmul(hidden_layer, output_weights), output_biases)
+          ```
+          The above code applies the [`tf.nn.relu()`](https://www.tensorflow.org/api_docs/python/tf/nn/relu) function to the `hidden_layer`, effectively turning off any negative weights and acting like an on/off switch.  Adding additional layers, like the `output` layer, after an activation function turns the model into a nonlinear function. This nonlinearity allows the network to solve more complex problems.
+
+          ## Quiz
+
+          Below you'll use the ReLU function to turn a linear single layer network into a non-linear multilayer network.
+        instructor_notes: ''
+        resources: null
+      - id: 268028
+        key: 06fd3fd3-9de8-4dfa-88fb-b806b0810065
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: ImageAtom
+        updated_at: 'Thu Feb 23 2017 02:01:51 GMT+0000 (UTC)'
+        is_public: true
+        url: 'https://d17h27t6h515a5.cloudfront.net/topher/2017/February/58ae428b_relu-network/relu-network.png'
+        width: 1047
+        height: 744
+        caption: ''
+        resources: null
+        instructor_notes: null
+      - id: 268015
+        key: b98b083a-844b-45cd-9585-665c46e2883e
+        locale: en-us
+        version: 1.0.0
+        title: ''
+        semantic_type: QuizAtom
+        updated_at: 'Thu Feb 23 2017 05:13:52 GMT+0000 (UTC)'
+        is_public: true
+        resources: null
+        instructor_notes: ''
+        instruction: null
+        question:
+          title: ''
+          semantic_type: ProgrammingQuestion
+          evaluation_id: '6090191409381376'
+          evaluator:
+            model: ProgramEvaluator
+            execution_language: python3
+            executor_grading_code: |-
+              import json
+              from quiz_test import get_result
+
+              try:
+                  # Get grade result information
+                  result = get_result()
+              except Exception as err:
+                  # Default error result
+                  result = {
+                      'correct': False,
+                      'feedback': 'Something went wrong with your submission:',
+                      'comment': str(err)}
+
+              print(json.dumps(result))
+            executor_test_code: |-
+              def prevent_tf_error():
+                  """
+                  Prevent TF_DeleteStatus error - https://udacity.atlassian.net/browse/DRIVE-1507
+                  """
+                  import quiz
+
+              prevent_tf_error()
+            gae_grading_code: |
+              import json
+
+              # Pass result to grade_result
+              result = json.loads(executor_result['stdout'])
+              grade_result.update(result)
+            requires_gpu: false
+            deadline_seconds: 0
+            legacy_template_refs: []
+            included_text_files:
+              - text: |
+                  import contextlib
+                  import io
+                  import sys
+
+                  @contextlib.contextmanager
+                  def stdout_redirect(where):
+                      sys.stdout = where
+                      try:
+                          yield where
+                      finally:
+                          sys.stdout = sys.__stdout__
+                          
+                  def student_output(output_type=None):
+                      out = io.StringIO()
+                      
+                      # Capture stdout
+                      with stdout_redirect(out):
+                          import quiz
+                      
+                      # Get output
+                      out.seek(0)
+                      out = out.read()
+                      
+                      if output_type:
+                          # Convert output to a specified type
+                          try:
+                              out = output_type(out)
+                          except Exception:
+                              raise Exception('Output is the wrong type.  It should be {}.'.format(output_type.__name__))
+                      
+                      return out
+                name: all.py
+              - text: |-
+                  import numpy as np
+                  from all import student_output
+                  from tensorflow.python.framework.errors import FailedPreconditionError
+                  import re
+
+                  def get_result():
+                      """
+                      Run unit tests against <student_func>
+                      """
+                      
+                      answer = np.array([
+                          [5.11000013, 8.44000053],
+                          [0., 0.],
+                          [24.01000214, 38.23999786]])
+                      result = {
+                          'correct': False,
+                          'feedback': 'That\'s the wrong answer.  It should print {}'.format(answer),
+                          'comment': ''}
+
+                      try:
+                          output = student_output()
+                          
+                          try:
+                              output = np.fromstring(re.sub('[\[\]]', '', output) , sep=' ').reshape((3, 2))
+                          except Exception:
+                              raise Exception('Output is the wrong type or wrong dimension.')
+                          
+                          if np.allclose(output, answer):
+                              result['correct'] = True
+                              result['feedback'] = 'You got it!  That\'s how you use a ReLU.'
+                          elif (0 > output).sum():
+                              result['feedback'] = 'Output contains negative numbers.'
+                              result['comment'] = 'Are you applying ReLU to hidden_layer?'
+                      except FailedPreconditionError as err:
+                          if err.message.startswith('Attempting to use uninitialized value Variable'):
+                              result['feedback'] = 'TensorFlow variable uninitialized.'
+                              result['comment'] = 'Run tf.initialize_all_variables() in the session.'
+                          else:
+                              raise
+
+                      return result
+                name: quiz_test.py
+        answer: null
+  - id: 197660
+    key: 83a3a2a2-a9bd-4b7b-95b0-eb924ab14432
+    locale: en-us
+    version: 1.0.0
+    title: Deep Neural Network in TensorFlow
+    semantic_type: Concept
+    updated_at: 'Fri Nov 11 2016 07:45:47 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 197661
+      - 197706
+      - 197705
+      - 197748
+      - 197747
+    atoms:
+      - id: 197661
+        key: e619b2ba-2af5-4a03-bfe8-786e6b6ef8f3
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Wed Mar 08 2017 07:29:36 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          # Deep Neural Network in TensorFlow
+          You've seen how to build a logistic classifier using TensorFlow. Now you're going to see how to use the logistic classifier to build a deep neural network.
+          ## Step by Step
+          In the following walkthrough, we'll step through TensorFlow code written to classify the letters in the MNIST database.  If you would like to run the network on your computer, the file is provided [here](https://d17h27t6h515a5.cloudfront.net/topher/2017/February/58a61a3a_multilayer-perceptron/multilayer-perceptron.zip).  You can find this and many more examples of TensorFlow at [Aymeric Damien's GitHub repository](https://github.com/aymericdamien/TensorFlow-Examples).
+          ## Code
+          ### TensorFlow MNIST
+          ```python
+          from tensorflow.examples.tutorials.mnist import input_data
+          mnist = input_data.read_data_sets(".", one_hot=True, reshape=False)
+          ```
+          You'll use the MNIST dataset provided by TensorFlow, which batches and One-Hot encodes the data for you. 
+          ### Learning Parameters
+          ```python
+          import tensorflow as tf
+
+          # Parameters
+          learning_rate = 0.001
+          training_epochs = 20
+          batch_size = 128  # Decrease batch size if you don't have enough memory
+          display_step = 1
+
+          n_input = 784  # MNIST data input (img shape: 28*28)
+          n_classes = 10  # MNIST total classes (0-9 digits)
+          ```
+          The focus here is on the architecture of multilayer neural networks, not parameter tuning, so here we'll just give you the learning parameters.
+          ### Hidden Layer Parameters
+          ```python
+          n_hidden_layer = 256 # layer number of features
+          ```
+          The variable `n_hidden_layer` determines the size of the hidden layer in the neural network.  This is also known as the width of a layer.
+          ### Weights and Biases
+          ```python
+          # Store layers weight & bias
+          weights = {
+              'hidden_layer': tf.Variable(tf.random_normal([n_input, n_hidden_layer])),
+              'out': tf.Variable(tf.random_normal([n_hidden_layer, n_classes]))
+          }
+          biases = {
+              'hidden_layer': tf.Variable(tf.random_normal([n_hidden_layer])),
+              'out': tf.Variable(tf.random_normal([n_classes]))
+          }
+          ```
+          Deep neural networks use multiple layers with each layer requiring it's own weight and bias.  The `'hidden_layer'` weight and bias is for the hidden layer.  The `'out'` weight and bias is for the output layer.  If the neural network were deeper, there would be weights and biases for each additional layer.
+          ### Input
+          ```python
+          # tf Graph input
+          x = tf.placeholder("float", [None, 28, 28, 1])
+          y = tf.placeholder("float", [None, n_classes])
+
+          x_flat = tf.reshape(x, [-1, n_input])
+          ```
+          The MNIST data is made up of 28px by 28px images with a single [channel](https://en.wikipedia.org/wiki/Channel_(digital_image%29).  The [`tf.reshape()`](https://www.tensorflow.org/api_docs/python/array_ops/shapes_and_shaping#reshape) function above reshapes the 28px by 28px matrices in `x` into row vectors of 784px.
+          ### Multilayer Perceptron
+        instructor_notes: ''
+        resources: null
+      - id: 197706
+        key: 3dc523b3-ebb6-455d-a496-f2882c66ebe5
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: ImageAtom
+        updated_at: 'Tue Oct 25 2016 23:21:35 GMT+0000 (UTC)'
+        is_public: true
+        url: 'https://d17h27t6h515a5.cloudfront.net/topher/2016/October/580fe8f8_multi-layer/multi-layer.png'
+        width: 2018
+        height: 646
+        caption: ''
+        resources: null
+        instructor_notes: null
+      - id: 197705
+        key: c2f276d8-4fe4-41d5-954c-04ba81548579
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Sat Feb 25 2017 19:50:36 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          ```python
+          # Hidden layer with RELU activation
+          layer_1 = tf.add(tf.matmul(x_flat, weights['hidden_layer']),\
+              biases['hidden_layer'])
+          layer_1 = tf.nn.relu(layer_1)
+          # Output layer with linear activation
+          logits = tf.add(tf.matmul(layer_1, weights['out']), biases['out'])
+          ```
+          You've seen the linear function `tf.add(tf.matmul(x_flat, weights['hidden_layer']), biases['hidden_layer'])` before, also known as `xw + b`.  Combining linear functions together using a ReLU will give you a two layer network.
+          ### Optimizer
+          ```python
+          # Define loss and optimizer
+          cost = tf.reduce_mean(\
+              tf.nn.softmax_cross_entropy_with_logits(logits=logits, labels=y))
+          optimizer = tf.train.GradientDescentOptimizer(learning_rate=learning_rate)\
+              .minimize(cost)
+          ```
+          This is the same optimization technique used in the Intro to TensorFLow lab.
+          ### Session
+          ```python
+          # Initializing the variables
+          init = tf.global_variables_initializer()
+
+
+          # Launch the graph
+          with tf.Session() as sess:
+              sess.run(init)
+              # Training cycle
+              for epoch in range(training_epochs):
+                  total_batch = int(mnist.train.num_examples/batch_size)
+                  # Loop over all batches
+                  for i in range(total_batch):
+                      batch_x, batch_y = mnist.train.next_batch(batch_size)
+                      # Run optimization op (backprop) and cost op (to get loss value)
+                      sess.run(optimizer, feed_dict={x: batch_x, y: batch_y})
+          ```
+          The MNIST library in TensorFlow provides the ability to receive the dataset in batches.  Calling the `mnist.train.next_batch()` function returns a subset of the training data.  
+          ##  Deeper Neural Network
+        instructor_notes: ''
+        resources: null
+      - id: 197748
+        key: 245d51c5-0167-4f6d-b80e-e71e126ebaca
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: ImageAtom
+        updated_at: 'Wed Oct 26 2016 01:50:58 GMT+0000 (UTC)'
+        is_public: true
+        url: 'https://d17h27t6h515a5.cloudfront.net/topher/2016/October/58100bfd_layers/layers.png'
+        width: 2518
+        height: 1082
+        caption: ''
+        resources: null
+        instructor_notes: null
+      - id: 197747
+        key: bb237358-46e1-4c10-a37f-d567b9c7799c
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Wed Oct 26 2016 01:50:40 GMT+0000 (UTC)'
+        is_public: true
+        text: 'That''s it!  Going from one layer to two is easy.  Adding more layers to the network allows you to solve more complicated problems.  In the next video, you''ll see how changing the number of layers can affect your network.'
+        instructor_notes: ''
+        resources: null
+  - id: 267991
+    key: 608a9600-14b7-4f33-ba78-8a0d56bb8053
+    locale: en-us
+    version: 1.0.0
+    title: Training a Deep Learning Network
+    semantic_type: Concept
+    updated_at: 'Thu Feb 23 2017 04:21:17 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 267992
+    atoms:
+      - id: 267992
+        key: bfe71aab-3c12-469f-992f-761c57affa28
+        locale: en-us
+        version: 1.0.0
+        title: Training a Deep Learning Network
+        semantic_type: VideoAtom
+        updated_at: 'Tue Apr 18 2017 17:00:34 GMT+0000 (UTC)'
+        is_public: true
+        tags: []
+        instructor_notes: ''
+        resources: null
+        video:
+          youtube_id: CsB7yUtMJyk
+          subtitles:
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae2738_training-a-deep-learning-network/subtitles/lang_en_vs1.srt'
+              language_code: en
+          transcodings:
+            uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae2738_training-a-deep-learning-network/training-a-deep-learning-network_480p.mp4'
+            uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae2738_training-a-deep-learning-network/training-a-deep-learning-network_480p_1000kbps.mp4'
+            uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae2738_training-a-deep-learning-network/training-a-deep-learning-network_480p.ogg'
+            uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae2738_training-a-deep-learning-network/training-a-deep-learning-network_720p.mp4'
+            uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae2738_training-a-deep-learning-network/hls/playlist.m3u8'
+  - id: 229325
+    key: ef0cdafb-57ec-497b-8f45-11c142c367d7
+    locale: en-us
+    version: 1.0.0
+    title: Save and Restore TensorFlow Models
+    semantic_type: Concept
+    updated_at: 'Fri Jan 06 2017 05:09:25 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 229327
+      - 229329
+      - 229330
+      - 229332
+      - 229334
+      - 229335
+      - 229336
+      - 229337
+      - 229338
+      - 229339
+      - 229340
+    atoms:
+      - id: 229327
+        key: 080e12df-390d-4a74-a527-0327358e5b50
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Thu Feb 16 2017 21:50:54 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          # Save and Restore TensorFlow Models
+          Training a model can take hours. But once you close your TensorFlow session, you lose all the trained weights and biases.  If you were to reuse the model in the future, you would have to train it all over again!
+
+          Fortunately, TensorFlow gives you the ability to save your progress using a class called [`tf.train.Saver`](https://www.tensorflow.org/api_docs/python/tf/train/Saver).  This class provides the functionality to save any [`tf.Variable`](https://www.tensorflow.org/api_docs/python/tf/Variable) to your file system.
+          ## Saving Variables
+          Let's start with a simple example of saving `weights` and `bias` Tensors.  For the first example you'll just save two variables.  Later examples will save all the weights in a practical model.
+        instructor_notes: ''
+        resources: null
+      - id: 229329
+        key: 2bfb8b52-de1b-4fba-b39d-86772f36414d
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Fri Feb 24 2017 19:21:21 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          ```python
+          import tensorflow as tf
+
+          # The file path to save the data
+          save_file = './model.ckpt'
+
+          # Two Tensor Variables: weights and bias
+          weights = tf.Variable(tf.truncated_normal([2, 3]))
+          bias = tf.Variable(tf.truncated_normal([3]))
+
+          # Class used to save and/or restore Tensor Variables
+          saver = tf.train.Saver()
+
+          with tf.Session() as sess:
+              # Initialize all the Variables
+              sess.run(tf.global_variables_initializer())
+              
+              # Show the values of weights and bias
+              print('Weights:')
+              print(sess.run(weights))
+              print('Bias:')
+              print(sess.run(bias))
+              
+              # Save the model
+              saver.save(sess, save_file)
+          ```
+        instructor_notes: ''
+        resources: null
+      - id: 229330
+        key: edc3821d-dc43-49b0-a640-f8bc0812f51b
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Thu Feb 16 2017 21:53:03 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          >Weights:
+
+          >[[-0.97990924  1.03016174  0.74119264]
+
+          >[-0.82581609 -0.07361362 -0.86653847]]
+
+          >Bias:
+
+          >[ 1.62978125 -0.37812829  0.64723819]
+
+          The Tensors `weights` and `bias` are set to random values using the [`tf.truncated_normal()`](https://www.tensorflow.org/api_docs/python/tf/truncated_normal) function.  The values  are then saved to the `save_file` location, "model.ckpt", using the [`tf.train.Saver.save()`](https://www.tensorflow.org/api_docs/python/tf/train/Saver#save) function.  (The ".ckpt" extension stands for "checkpoint".)
+
+          If you're using TensorFlow 0.11.0RC1 or newer, a file called "model.ckpt.meta" will also be created.  This file contains the TensorFlow graph.
+          ## Loading Variables
+
+          Now that the Tensor Variables are saved, let's load them back into a new model.
+        instructor_notes: ''
+        resources: null
+      - id: 229332
+        key: 68594141-3028-42e2-aa19-99428def23af
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Fri Dec 16 2016 17:25:22 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          ```python
+          # Remove the previous weights and bias
+          tf.reset_default_graph()
+
+          # Two Variables: weights and bias
+          weights = tf.Variable(tf.truncated_normal([2, 3]))
+          bias = tf.Variable(tf.truncated_normal([3]))
+
+          # Class used to save and/or restore Tensor Variables
+          saver = tf.train.Saver()
+
+          with tf.Session() as sess:
+              # Load the weights and bias
+              saver.restore(sess, save_file)
+              
+              # Show the values of weights and bias
+              print('Weight:')
+              print(sess.run(weights))
+              print('Bias:')
+              print(sess.run(bias))
+          ```
+        instructor_notes: ''
+        resources: null
+      - id: 229334
+        key: ef391cbe-305b-4c96-8ae5-d29b995be601
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Thu Feb 16 2017 21:54:20 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          >Weights:
+
+          >[[-0.97990924  1.03016174  0.74119264]
+
+          > [-0.82581609 -0.07361362 -0.86653847]]
+
+          >Bias:
+
+          >[ 1.62978125 -0.37812829  0.64723819]
+
+          You'll notice you still need to create the `weights` and `bias` Tensors in Python.  The [`tf.train.Saver.restore()`](https://www.tensorflow.org/api_docs/python/tf/train/Saver#restore) function loads the saved data into `weights` and `bias`.  
+
+          Since [`tf.train.Saver.restore()`](https://www.tensorflow.org/api_docs/python/tf/train/Saver#restore) sets all the TensorFlow Variables, you don't need to call [`tf.global_variables_initializer()`](https://www.tensorflow.org/api_docs/python/tf/global_variables_initializer).
+
+          ## Save a Trained Model
+          Let's see how to train a model and save its weights.
+
+          First start with a model:
+        instructor_notes: ''
+        resources: null
+      - id: 229335
+        key: 51efbc79-9ffe-463b-b714-a824221d3311
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Sat Feb 25 2017 19:46:21 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          ```python
+          # Remove previous Tensors and Operations
+          tf.reset_default_graph()
+
+          from tensorflow.examples.tutorials.mnist import input_data
+          import numpy as np
+
+          learning_rate = 0.001
+          n_input = 784  # MNIST data input (img shape: 28*28)
+          n_classes = 10  # MNIST total classes (0-9 digits)
+
+          # Import MNIST data
+          mnist = input_data.read_data_sets('.', one_hot=True)
+
+          # Features and Labels
+          features = tf.placeholder(tf.float32, [None, n_input])
+          labels = tf.placeholder(tf.float32, [None, n_classes])
+
+          # Weights & bias
+          weights = tf.Variable(tf.random_normal([n_input, n_classes]))
+          bias = tf.Variable(tf.random_normal([n_classes]))
+
+          # Logits - xW + b
+          logits = tf.add(tf.matmul(features, weights), bias)
+
+          # Define loss and optimizer
+          cost = tf.reduce_mean(\
+              tf.nn.softmax_cross_entropy_with_logits(logits=logits, labels=labels))
+          optimizer = tf.train.GradientDescentOptimizer(learning_rate=learning_rate)\
+              .minimize(cost)
+
+          # Calculate accuracy
+          correct_prediction = tf.equal(tf.argmax(logits, 1), tf.argmax(labels, 1))
+          accuracy = tf.reduce_mean(tf.cast(correct_prediction, tf.float32))
+          ```
+        instructor_notes: ''
+        resources: null
+      - id: 229336
+        key: 225d9cd8-b1c2-4b99-9a90-95e134134afe
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Tue Dec 13 2016 18:22:30 GMT+0000 (UTC)'
+        is_public: true
+        text: 'Let''s train that model, then save the weights:'
+        instructor_notes: ''
+        resources: null
+      - id: 229337
+        key: 3468ff8f-7c61-4b88-b2c2-53c6389479d9
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Fri Feb 24 2017 19:21:51 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          ```python
+          import math
+
+          save_file = './train_model.ckpt'
+          batch_size = 128
+          n_epochs = 100
+
+          saver = tf.train.Saver()
+
+          # Launch the graph
+          with tf.Session() as sess:
+              sess.run(tf.global_variables_initializer())
+
+              # Training cycle
+              for epoch in range(n_epochs):
+                  total_batch = math.ceil(mnist.train.num_examples / batch_size)
+
+                  # Loop over all batches
+                  for i in range(total_batch):
+                      batch_features, batch_labels = mnist.train.next_batch(batch_size)
+                      sess.run(
+                          optimizer,
+                          feed_dict={features: batch_features, labels: batch_labels})
+
+                  # Print status for every 10 epochs
+                  if epoch % 10 == 0:
+                      valid_accuracy = sess.run(
+                          accuracy,
+                          feed_dict={
+                              features: mnist.validation.images,
+                              labels: mnist.validation.labels})
+                      print('Epoch {:<3} - Validation Accuracy: {}'.format(
+                          epoch,
+                          valid_accuracy))
+
+              # Save the model
+              saver.save(sess, save_file)
+              print('Trained Model Saved.')
+          ```
+        instructor_notes: ''
+        resources: null
+      - id: 229338
+        key: 6385d9d4-2914-4373-b30f-4a62373036d1
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Tue Dec 13 2016 18:59:10 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          >Epoch 0   - Validation Accuracy: 0.06859999895095825
+
+          >Epoch 10  - Validation Accuracy: 0.20239999890327454
+
+          >Epoch 20  - Validation Accuracy: 0.36980000138282776
+
+          >Epoch 30  - Validation Accuracy: 0.48820000886917114
+
+          >Epoch 40  - Validation Accuracy: 0.5601999759674072
+
+          >Epoch 50  - Validation Accuracy: 0.6097999811172485
+
+          >Epoch 60  - Validation Accuracy: 0.6425999999046326
+
+          >Epoch 70  - Validation Accuracy: 0.6733999848365784
+
+          >Epoch 80  - Validation Accuracy: 0.6916000247001648
+
+          >Epoch 90  - Validation Accuracy: 0.7113999724388123
+
+          >Trained Model Saved.
+
+          ## Load a Trained Model
+
+          Let's load the weights and bias from memory, then check the test accuracy.
+        instructor_notes: ''
+        resources: null
+      - id: 229339
+        key: 0a5db02f-d18d-424f-b772-aa71582bf140
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Tue Dec 13 2016 18:43:05 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          ```python
+          saver = tf.train.Saver()
+
+          # Launch the graph
+          with tf.Session() as sess:
+              saver.restore(sess, save_file)
+
+              test_accuracy = sess.run(
+                  accuracy,
+                  feed_dict={features: mnist.test.images, labels: mnist.test.labels})
+
+          print('Test Accuracy: {}'.format(test_accuracy))
+          ```
+        instructor_notes: ''
+        resources: null
+      - id: 229340
+        key: be14e4d7-6a60-4af6-ac6d-5928edd07099
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Fri Jan 06 2017 05:09:58 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          >Test Accuracy: 0.7229999899864197
+
+          That's it!  You now know how to save and load a trained model in TensorFlow.  Let's look at loading weights and biases into modified models in the next section.
+        instructor_notes: ''
+        resources: null
+  - id: 246626
+    key: c22dbf36-7215-483a-a397-d5f4f757d2d1
+    locale: en-us
+    version: 1.0.0
+    title: Finetuning
+    semantic_type: Concept
+    updated_at: 'Fri Jan 06 2017 05:09:08 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 246628
+      - 246629
+      - 246630
+      - 246631
+      - 246632
+    atoms:
+      - id: 246628
+        key: 3795d94c-92ca-4f2a-a9e1-dd4dee38e9de
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Fri Jan 06 2017 05:02:10 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          # Loading the Weights and Biases into a New Model
+          Sometimes you might want to adjust, or "finetune" a model that you have already trained and saved.
+
+          However, loading saved Variables directly into a modified model can generate errors.  Let's go over how to avoid these problems. 
+
+          ## Naming Error
+          TensorFlow uses a string identifier for Tensors and Operations called `name`.  If a name is not given, TensorFlow will create one automatically.  TensorFlow will give the first node the name `<Type>`, and then give the name `<Type>_<number>` for the subsequent nodes.  Let's see how this can affect loading a model with a different order of `weights` and `bias`:
+        instructor_notes: ''
+        resources: null
+      - id: 246629
+        key: cab15af9-d054-4ee2-9d77-efd7a961bfde
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Fri Jan 13 2017 21:09:45 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          ```python
+          import tensorflow as tf
+
+          # Remove the previous weights and bias
+          tf.reset_default_graph()
+
+          save_file = 'model.ckpt'
+
+          # Two Tensor Variables: weights and bias
+          weights = tf.Variable(tf.truncated_normal([2, 3]))
+          bias = tf.Variable(tf.truncated_normal([3]))
+
+          saver = tf.train.Saver()
+
+          # Print the name of Weights and Bias
+          print('Save Weights: {}'.format(weights.name))
+          print('Save Bias: {}'.format(bias.name))
+
+          with tf.Session() as sess:
+              sess.run(tf.global_variables_initializer())
+              saver.save(sess, save_file)
+              
+          # Remove the previous weights and bias
+          tf.reset_default_graph()
+
+          # Two Variables: weights and bias
+          bias = tf.Variable(tf.truncated_normal([3]))
+          weights = tf.Variable(tf.truncated_normal([2, 3]))
+
+          saver = tf.train.Saver()
+
+          # Print the name of Weights and Bias
+          print('Load Weights: {}'.format(weights.name))
+          print('Load Bias: {}'.format(bias.name))
+
+          with tf.Session() as sess:
+              # Load the weights and bias - ERROR
+              saver.restore(sess, save_file)
+          ```
+        instructor_notes: ''
+        resources: null
+      - id: 246630
+        key: dbfaf2d9-f908-4be1-9423-ddec9937db2d
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Fri Jan 06 2017 05:03:17 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          The code above prints out the following:
+
+          >Save Weights: Variable:0
+
+          >Save Bias: Variable_1:0
+
+          >Load Weights: Variable_1:0
+
+          >Load Bias: Variable:0
+
+          >...
+
+          >InvalidArgumentError (see above for traceback): Assign requires shapes of both tensors to match.
+
+          >...
+
+          You'll notice that the `name` properties for `weights` and `bias` are different than when you saved the model.  This is why the code produces the "Assign requires shapes of both tensors to match" error.  The code `saver.restore(sess, save_file)` is trying to load weight data into `bias` and bias data into `weights`.
+
+          Instead of letting TensorFlow set the `name` property, let's set it manually:
+        instructor_notes: ''
+        resources: null
+      - id: 246631
+        key: b99cfa70-e455-4407-8a42-d887abc4b407
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Fri Jan 13 2017 21:09:32 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          ```python
+          import tensorflow as tf
+
+          tf.reset_default_graph()
+
+          save_file = 'model.ckpt'
+
+          # Two Tensor Variables: weights and bias
+          weights = tf.Variable(tf.truncated_normal([2, 3]), name='weights_0')
+          bias = tf.Variable(tf.truncated_normal([3]), name='bias_0')
+
+          saver = tf.train.Saver()
+
+          # Print the name of Weights and Bias
+          print('Save Weights: {}'.format(weights.name))
+          print('Save Bias: {}'.format(bias.name))
+
+          with tf.Session() as sess:
+              sess.run(tf.global_variables_initializer())
+              saver.save(sess, save_file)
+              
+          # Remove the previous weights and bias
+          tf.reset_default_graph()
+
+          # Two Variables: weights and bias
+          bias = tf.Variable(tf.truncated_normal([3]), name='bias_0')
+          weights = tf.Variable(tf.truncated_normal([2, 3]) ,name='weights_0')
+
+          saver = tf.train.Saver()
+
+          # Print the name of Weights and Bias
+          print('Load Weights: {}'.format(weights.name))
+          print('Load Bias: {}'.format(bias.name))
+
+          with tf.Session() as sess:
+              # Load the weights and bias - No Error
+              saver.restore(sess, save_file)
+              
+          print('Loaded Weights and Bias successfully.')
+          ```
+        instructor_notes: ''
+        resources: null
+      - id: 246632
+        key: 7b4599d5-6ca8-42b6-a734-b5c757208993
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Tue Jan 10 2017 16:44:23 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          >Save Weights: weights_0:0
+
+          >Save Bias: bias_0:0
+
+          >Load Weights: weights_0:0
+
+          >Load Bias: bias_0:0
+
+          >Loaded Weights and Bias successfully.
+
+          That worked!  The Tensor names match and the data loaded correctly.
+        instructor_notes: ''
+        resources: null
+  - id: 267993
+    key: e3468217-af9b-4d31-bc87-316a42553692
+    locale: en-us
+    version: 1.0.0
+    title: Regularization Intro
+    semantic_type: Concept
+    updated_at: 'Thu Feb 23 2017 01:02:30 GMT+0000 (UTC)'
+    is_public: false
+    resources: null
+    _atoms_ids: []
+    atoms: []
+  - id: 67831
+    key: '63734132060923'
+    locale: en-us
+    version: 1.0.0
+    title: Regularization Intro
+    semantic_type: Concept
+    updated_at: 'Thu Feb 23 2017 01:02:26 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 68199
+    atoms:
+      - id: 68199
+        key: '6373413206'
+        locale: en-us
+        version: 1.0.0
+        title: Regularization Intro
+        semantic_type: VideoAtom
+        updated_at: 'Wed Apr 19 2017 21:34:33 GMT+0000 (UTC)'
+        is_public: true
+        tags: null
+        instructor_notes: null
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        video:
+          youtube_id: pECnr-5F3_Q
+          subtitles:
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1b5f3_regularization-intro/subtitles/lang_en_vs2.srt'
+              language_code: en
+          transcodings:
+            uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1b5f3_regularization-intro/regularization-intro_480p.mp4'
+            uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1b5f3_regularization-intro/regularization-intro_480p_1000kbps.mp4'
+            uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1b5f3_regularization-intro/regularization-intro_480p.ogg'
+            uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1b5f3_regularization-intro/regularization-intro_720p.mp4'
+            uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1b5f3_regularization-intro/hls/playlist.m3u8'
+  - id: 268004
+    key: 7e05821d-98fd-46be-aefd-74313e7616b6
+    locale: en-us
+    version: 1.0.0
+    title: Regularization
+    semantic_type: Concept
+    updated_at: 'Thu Feb 23 2017 05:27:37 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 268005
+    atoms:
+      - id: 268005
+        key: b0455c53-2c30-42c1-ba95-736b14c55749
+        locale: en-us
+        version: 1.0.0
+        title: Regularization
+        semantic_type: VideoAtom
+        updated_at: 'Tue Apr 18 2017 17:05:42 GMT+0000 (UTC)'
+        is_public: true
+        tags: []
+        instructor_notes: ''
+        resources: null
+        video:
+          youtube_id: QcJBhbuCl5g
+          subtitles:
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae3700_regularization/subtitles/lang_en_vs1.srt'
+              language_code: en
+          transcodings:
+            uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae3700_regularization/regularization_480p.mp4'
+            uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae3700_regularization/regularization_480p_1000kbps.mp4'
+            uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae3700_regularization/regularization_480p.ogg'
+            uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae3700_regularization/regularization_720p.mp4'
+            uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae3700_regularization/hls/playlist.m3u8'
+  - id: 268045
+    key: 2b3f3266-0578-44c0-8855-0eb236cab8d4
+    locale: en-us
+    version: 1.0.0
+    title: Regularization Quiz
+    semantic_type: Concept
+    updated_at: 'Tue Mar 28 2017 23:10:03 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 278824
+      - 288362
+      - 268048
+    atoms:
+      - id: 278824
+        key: 0c2124ab-3b2f-4fd1-945c-36ddf34073c3
+        locale: en-us
+        version: 1.0.0
+        title: Regularization-Quiz
+        semantic_type: VideoAtom
+        updated_at: 'Tue Mar 07 2017 22:56:05 GMT+0000 (UTC)'
+        is_public: true
+        tags: []
+        instructor_notes: ''
+        resources: null
+        video:
+          youtube_id: E0eEW6V0_sA
+          subtitles: null
+          transcodings:
+            uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/March/58bf3a0d_regularization-quiz/regularization-quiz_480p.mp4'
+            uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/March/58bf3a0d_regularization-quiz/regularization-quiz_480p_1000kbps.mp4'
+            uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/March/58bf3a0d_regularization-quiz/regularization-quiz_480p.ogg'
+            uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/March/58bf3a0d_regularization-quiz/regularization-quiz_720p.mp4'
+            uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/March/58bf3a0d_regularization-quiz/hls/playlist.m3u8'
+      - id: 288362
+        key: 68e66fa1-490b-415a-ad0e-465e8aad24f5
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: ImageAtom
+        updated_at: 'Tue Mar 28 2017 23:10:03 GMT+0000 (UTC)'
+        is_public: true
+        url: 'https://d17h27t6h515a5.cloudfront.net/topher/2017/March/58daed47_regularization-quiz/regularization-quiz.png'
+        width: 1920
+        height: 1080
+        caption: ''
+        resources: null
+        instructor_notes: null
+      - id: 268048
+        key: 67cc2259-1540-4717-8596-4e28ea103f7f
+        locale: en-us
+        version: 1.0.0
+        title: Regularization
+        semantic_type: RadioQuizAtom
+        updated_at: 'Mon Apr 17 2017 23:50:12 GMT+0000 (UTC)'
+        is_public: true
+        question:
+          prompt: Derivative?
+          correct_feedback: null
+          video_feedback:
+            youtube_id: _wqHVtx_esM
+            subtitles:
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae2731_regularization-solution/subtitles/lang_en_vs1.srt'
+                language_code: en
+            transcodings:
+              uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae2731_regularization-solution/regularization-solution_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae2731_regularization-solution/regularization-solution_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae2731_regularization-solution/regularization-solution_480p.ogg'
+              uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae2731_regularization-solution/regularization-solution_720p.mp4'
+              uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae2731_regularization-solution/hls/playlist.m3u8'
+          default_feedback: null
+          answers:
+            - id: a1487816652626
+              text: A
+              is_correct: false
+              incorrect_feedback: null
+            - id: a1487816794635
+              text: B
+              is_correct: false
+              incorrect_feedback: null
+            - id: a1487816795688
+              text: C
+              is_correct: true
+              incorrect_feedback: null
+  - id: 267995
+    key: 07271100-4989-42e8-a2dc-41a14ef52c34
+    locale: en-us
+    version: 1.0.0
+    title: Dropout
+    semantic_type: Concept
+    updated_at: 'Mon Feb 27 2017 23:27:53 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 268667
+    atoms:
+      - id: 268667
+        key: 19258381-b678-4421-9975-43f60ae04e84
+        locale: en-us
+        version: 1.0.0
+        title: Dropout RENDER
+        semantic_type: VideoAtom
+        updated_at: 'Wed Apr 19 2017 21:35:54 GMT+0000 (UTC)'
+        is_public: true
+        tags: []
+        instructor_notes: ''
+        resources: null
+        video:
+          youtube_id: 6DcImJS8uV8
+          subtitles: null
+          transcodings:
+            uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58b4b5c3_dropout-render/dropout-render_480p.mp4'
+            uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58b4b5c3_dropout-render/dropout-render_480p_1000kbps.mp4'
+            uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58b4b5c3_dropout-render/dropout-render_480p.ogg'
+            uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58b4b5c3_dropout-render/dropout-render_720p.mp4'
+            uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58b4b5c3_dropout-render/hls/playlist.m3u8'
+  - id: 87930
+    key: '63722671800923'
+    locale: en-us
+    version: 1.0.0
+    title: Dropout Pt. 2
+    semantic_type: Concept
+    updated_at: 'Tue Feb 28 2017 00:21:03 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 268675
+    atoms:
+      - id: 268675
+        key: 5da439a9-b13f-413f-90bd-b177eff6ad9f
+        locale: en-us
+        version: 1.0.0
+        title: Dropout Pt. 2 RENDER
+        semantic_type: VideoAtom
+        updated_at: 'Wed Apr 19 2017 21:35:54 GMT+0000 (UTC)'
+        is_public: true
+        tags: []
+        instructor_notes: ''
+        resources: null
+        video:
+          youtube_id: 8nG8zzJMbZw
+          subtitles: null
+          transcodings:
+            uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58b4c24d_dropout-pt.-2-render/dropout-pt.-2-render_480p.mp4'
+            uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58b4c24d_dropout-pt.-2-render/dropout-pt.-2-render_480p_1000kbps.mp4'
+            uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58b4c24d_dropout-pt.-2-render/dropout-pt.-2-render_480p.ogg'
+            uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58b4c24d_dropout-pt.-2-render/dropout-pt.-2-render_720p.mp4'
+            uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58b4c24d_dropout-pt.-2-render/hls/playlist.m3u8'
+  - id: 202474
+    key: d5cf4454-1324-4524-9e2c-0ecca1f5c40e
+    locale: en-us
+    version: 1.0.0
+    title: 'Quiz: TensorFlow Dropout'
+    semantic_type: Concept
+    updated_at: 'Fri Nov 18 2016 16:40:49 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 204934
+      - 204992
+      - 204993
+      - 205033
+      - 205032
+      - 205002
+    atoms:
+      - id: 204934
+        key: a9308a69-b98c-4b34-ad81-0b4d7cc42a5a
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Wed Nov 09 2016 02:38:10 GMT+0000 (UTC)'
+        is_public: true
+        text: '# TensorFlow Dropout'
+        instructor_notes: ''
+        resources: null
+      - id: 204992
+        key: 47666c10-996f-4740-9674-ce54c6f768ae
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: ImageAtom
+        updated_at: 'Sat Nov 12 2016 06:01:54 GMT+0000 (UTC)'
+        is_public: true
+        url: 'https://d17h27t6h515a5.cloudfront.net/topher/2016/November/58222112_dropout-node/dropout-node.jpeg'
+        width: 614
+        height: 328
+        caption: |-
+          Figure 1: Taken from the paper "Dropout: A Simple Way to Prevent Neural Networks from
+          Overfitting" (https://www.cs.toronto.edu/~hinton/absps/JMLRdropout.pdf)
+        resources: null
+        instructor_notes: null
+      - id: 204993
+        key: bbd1fecd-ed76-4db5-9ca0-6f8d54285119
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Thu Feb 16 2017 21:57:45 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          Dropout is a regularization technique for reducing overfitting.  The technique temporarily drops units ([artificial neurons](https://en.wikipedia.org/wiki/Artificial_neuron)) from the network, along with all of those units' incoming and outgoing connections. Figure 1 illustrates how dropout works.
+
+          TensorFlow provides the [`tf.nn.dropout()`](https://www.tensorflow.org/api_docs/python/tf/nn/dropout) function, which you can use to implement dropout. 
+
+          Let's look at an example of how to use [`tf.nn.dropout()`](https://www.tensorflow.org/api_docs/python/tf/nn/dropout).
+          ```python
+          keep_prob = tf.placeholder(tf.float32) # probability to keep units
+
+          hidden_layer = tf.add(tf.matmul(features, weights[0]), biases[0])
+          hidden_layer = tf.nn.relu(hidden_layer)
+          hidden_layer = tf.nn.dropout(hidden_layer, keep_prob)
+
+          logits = tf.add(tf.matmul(hidden_layer, weights[1]), biases[1])
+          ```
+          The code above illustrates how to apply dropout to a neural network.  
+
+          The [`tf.nn.dropout()`](https://www.tensorflow.org/api_docs/python/tf/nn/dropout) function takes in two parameters:
+          1. `hidden_layer`: the tensor to which you would like to apply dropout
+          2. `keep_prob`: the probability of keeping (i.e. *not* dropping) any given unit 
+
+          `keep_prob` allows you to adjust the number of units to drop. In order to compensate for dropped units, [`tf.nn.dropout()`](https://www.tensorflow.org/api_docs/python/tf/nn/dropout) multiplies all units that are kept (i.e. *not* dropped) by `1/keep_prob`. 
+
+          During training, a good starting value for `keep_prob` is `0.5`.
+
+          During testing, use a `keep_prob` value of `1.0` to keep all units and maximize the power of the model.
+
+          ## Quiz 1
+          Take a look at the code snippet below.  Do you see what's wrong?
+
+          There's nothing wrong with the syntax, however the test accuracy is extremely low.
+          ```python
+          ...
+
+          keep_prob = tf.placeholder(tf.float32) # probability to keep units
+
+          hidden_layer = tf.add(tf.matmul(features, weights[0]), biases[0])
+          hidden_layer = tf.nn.relu(hidden_layer)
+          hidden_layer = tf.nn.dropout(hidden_layer, keep_prob)
+
+          logits = tf.add(tf.matmul(hidden_layer, weights[1]), biases[1])
+
+          ...
+
+          with tf.Session() as sess:
+              sess.run(tf.global_variables_initializer())
+              
+              for epoch_i in range(epochs):
+                  for batch_i in range(batches):
+                      ....
+              
+                      sess.run(optimizer, feed_dict={
+                          features: batch_features,
+                          labels: batch_labels,
+                          keep_prob: 0.5})
+              
+              validation_accuracy = sess.run(accuracy, feed_dict={
+                  features: test_features,
+                  labels: test_labels,
+                  keep_prob: 0.5})
+          ```
+        instructor_notes: ''
+        resources: null
+      - id: 205033
+        key: a1b14727-a408-4b03-b867-c5562ef5ef3e
+        locale: en-us
+        version: 1.0.0
+        title: ''
+        semantic_type: RadioQuizAtom
+        updated_at: 'Thu Dec 01 2016 06:19:57 GMT+0000 (UTC)'
+        is_public: true
+        question:
+          prompt: What's wrong with the above code?
+          correct_feedback: 'That''s correct!  You should only drop units while training the model. During validation or testing, you should keep all of the units to maximize accuracy.'
+          video_feedback: null
+          default_feedback: null
+          answers:
+            - id: a1478643461582
+              text: Dropout doesn't work with batching.
+              is_correct: false
+              incorrect_feedback: 'Nope, dropout works fine with batching.'
+            - id: a1478646143808
+              text: The keep_prob value of 0.5 is too low.
+              is_correct: false
+              incorrect_feedback: A value of 0.5 for keep_prob is reasonable.
+            - id: a1478646160078
+              text: There shouldn't be a value passed to keep_prob when testing for accuracy.
+              is_correct: false
+              incorrect_feedback: 'You''re close to the right answer.  However, the tf.nn.dropout() operation is part of the model and requires a value for keep_prob.'
+            - id: a1478646212823
+              text: keep_prob should be set to 1.0 when evaluating validation accuracy.
+              is_correct: true
+              incorrect_feedback: null
+      - id: 205032
+        key: 7c53df85-f083-4af1-a2bd-141da86f1b6a
+        locale: en-us
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Tue Jan 03 2017 21:17:23 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          ## Quiz 2
+          This quiz will be starting with the code from the ReLU Quiz and applying a dropout layer.  Build a model with a ReLU layer and dropout layer using the `keep_prob` placeholder to pass in a probability of `0.5`.  Print the logits from the model.
+
+          Note: Output will be different every time the code is run.  This is caused by dropout randomizing the units it drops.
+        instructor_notes: ''
+        resources: null
+      - id: 205002
+        key: 73ed1038-9ba6-487b-8840-d1c101645d41
+        locale: en-us
+        version: 1.0.0
+        title: ''
+        semantic_type: QuizAtom
+        updated_at: 'Fri Jan 20 2017 05:37:46 GMT+0000 (UTC)'
+        is_public: true
+        resources: null
+        instructor_notes: ''
+        instruction: null
+        question:
+          title: ''
+          semantic_type: ProgrammingQuestion
+          evaluation_id: '6594713119490048'
+          evaluator:
+            model: ProgramEvaluator
+            execution_language: python3
+            executor_grading_code: |-
+              import json
+              from quiz_test import get_result
+
+              try:
+                  # Get grade result information
+                  result = get_result()
+              except Exception as err:
+                  # Default error result
+                  result = {
+                      'correct': False,
+                      'feedback': 'Something went wrong with your submission:',
+                      'comment': str(err)}
+
+              print(json.dumps(result))
+            executor_test_code: |-
+              def prevent_tf_error():
+                  """
+                  Prevent TF_DeleteStatus error - https://udacity.atlassian.net/browse/DRIVE-1507
+                  """
+                  import quiz
+
+              prevent_tf_error()
+            gae_grading_code: |
+              import json
+
+              # Pass result to grade_result
+              result = json.loads(executor_result['stdout'])
+              grade_result.update(result)
+            requires_gpu: false
+            deadline_seconds: 0
+            legacy_template_refs: []
+            included_text_files:
+              - text: |
+                  import contextlib
+                  import io
+                  import sys
+
+                  @contextlib.contextmanager
+                  def stdout_redirect(where):
+                      sys.stdout = where
+                      try:
+                          yield where
+                      finally:
+                          sys.stdout = sys.__stdout__
+                          
+                  def student_output(output_type=None):
+                      out = io.StringIO()
+                      
+                      # Capture stdout
+                      with stdout_redirect(out):
+                          import quiz
+                      
+                      # Get output
+                      out.seek(0)
+                      out = out.read()
+                      
+                      if output_type:
+                          # Convert output to a specified type
+                          try:
+                              out = output_type(out)
+                          except Exception:
+                              raise Exception('Output is the wrong type.  It should be {}.'.format(output_type.__name__))
+                      
+                      return out
+                name: all.py
+              - text: |-
+                  import numpy as np
+                  from all import student_output
+                  from tensorflow.python.framework.errors import FailedPreconditionError
+                  import re
+                  import tensorflow as tf
+
+                  def get_result():
+                      """
+                      Run unit tests against <student_func>
+                      """
+                      
+                      answer = np.array([
+                          [9.55999947, 16.],
+                          [0.11200001, 0.67200011],
+                          [43.30000305, 48.15999985]])
+                      no_dropout = np.array([
+                          [4.77999973, 8.],
+                          [0.51100004, 0.8440001],
+                          [24.01000214, 38.23999786]])
+                      result = {
+                          'correct': False,
+                          'feedback': 'That\'s the wrong answer.  It should print {}'.format(answer),
+                          'comment': ''}
+
+                      try:
+                          tf.set_random_seed(123456)
+                          output = student_output()
+                          
+                          try:
+                              output = np.fromstring(re.sub('[\[\]]', '', output) , sep=' ').reshape((3, 2))
+                          except Exception:
+                              raise Exception('Output is the wrong type or wrong dimension.')
+                          
+                          if output.shape == answer.shape and np.allclose(output, answer):
+                              result['correct'] = True
+                              result['feedback'] = 'You got it!  That\'s how you use dropout.'
+                          elif output.shape == no_dropout.shape and np.allclose(output, no_dropout):
+                              result['feedback'] = 'It looks like you\'re not applying dropout.'
+                              result['comment'] = 'Use the tf.nn.dropout() operation.'
+                      except FailedPreconditionError as err:
+                          if err.message.startswith('Attempting to use uninitialized value Variable'):
+                              result['feedback'] = 'TensorFlow variable uninitialized.'
+                              result['comment'] = 'Run tf.initialize_all_variables() in the session.'
+                          else:
+                              raise
+
+                      return result
+                name: quiz_test.py
+        answer: null

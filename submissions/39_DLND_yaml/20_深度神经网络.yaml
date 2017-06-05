@@ -1,0 +1,1617 @@
+id: 296448
+key: bd73c076-7661-4947-9f73-7020d313eb6f
+locale: zh-cn
+version: 1.0.0
+title: 深度神经网络
+semantic_type: Lesson
+updated_at: 'Tue Apr 25 2017 08:09:54 GMT+0000 (UTC)'
+is_public: true
+image:
+  url: 'https://d17h27t6h515a5.cloudfront.net/topher/2017/April/58ed4f36_deep-learning-networks/deep-learning-networks.jpg'
+  width: 500
+  height: 500
+video: null
+summary: Vincent 将向你演示如何将一个简单的神经网络构建为深度神经网络。你将学习附加层的作用以及如何防止过拟合。
+duration: 120
+is_project_lesson: false
+_concepts_ids:
+  - 274439
+  - 274440
+  - 274441
+  - 274442
+  - 274443
+  - 274444
+  - 274446
+  - 273157
+  - 193315
+  - 274445
+  - 274447
+  - 274448
+  - 193323
+  - 274449
+_project_id: null
+resources:
+  files:
+    - name: Videos Zip File
+      uri: 'http://d2uz2655q5g6b2.cloudfront.net/bd73c076-7661-4947-9f73-7020d313eb6f/267179/Deep%20Neural%20Networks%20Videos.zip'
+  google_plus_link: null
+  career_resource_center_link: null
+  coaching_appointments_link: null
+  office_hours_link: null
+concepts:
+  - id: 274439
+    key: aeaeb674-cfa9-4572-8a67-319080f5419d
+    locale: zh-cn
+    version: 1.0.0
+    title: 深度神经网络简介
+    semantic_type: Concept
+    updated_at: 'Tue Apr 25 2017 08:10:20 GMT+0000 (UTC)'
+    is_public: false
+    resources: null
+    _atoms_ids:
+      - 300387
+    atoms:
+      - id: 300387
+        key: b94a6095-41c6-4f85-a848-0d78311bcbf9
+        locale: en-us
+        version: 1.0.0
+        title: Mat HS
+        semantic_type: VideoAtom
+        updated_at: 'Tue Apr 25 2017 08:10:19 GMT+0000 (UTC)'
+        is_public: true
+        tags: []
+        instructor_notes: ''
+        video:
+          youtube_id: 9P7UPWFu8w8
+          subtitles: []
+          transcodings:
+            uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/March/58d04fb2_mat-hs/mat-hs_480p.mp4'
+            uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/March/58d04fb2_mat-hs/mat-hs_480p_1000kbps.mp4'
+            uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/March/58d04fb2_mat-hs/mat-hs_480p.ogg'
+            uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/March/58d04fb2_mat-hs/mat-hs_720p.mp4'
+            uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/March/58d04fb2_mat-hs/hls/playlist.m3u8'
+        resources: null
+  - id: 274440
+    key: 43664323-f76e-4b3d-8cde-5ad0c8345d1c
+    locale: zh-cn
+    version: 1.0.0
+    title: 双层神经网络
+    semantic_type: Concept
+    updated_at: 'Sun Apr 02 2017 15:35:56 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 274194
+      - 274195
+    atoms:
+      - id: 274194
+        key: 012a864a-3376-48c5-88be-8ca9fe31b1be
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: ImageAtom
+        updated_at: 'Mon Mar 06 2017 02:57:26 GMT+0000 (UTC)'
+        is_public: true
+        url: 'https://d17h27t6h515a5.cloudfront.net/topher/2017/February/58ae4386_two-layer-network/two-layer-network.png'
+        width: 1047
+        height: 327
+        caption: ''
+        resources: null
+        instructor_notes: null
+      - id: 274195
+        key: c720fad5-a300-4994-b8da-68b813456c45
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Sun Apr 02 2017 15:55:41 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          # 多层神经网络
+
+          在本课程中，你会学到如何用 TensorFlow 构建多层神经网络。之前你应该了解，在网络里面添加一个隐藏层，可以让它构建更复杂的模型。而且，在隐藏层用非线性激活函数可以让它对非线性函数建模。
+
+          一个常用的非线性函数叫 [ReLU（rectified linear unit）](https://en.wikipedia.org/wiki/Rectifier_(neural_networks))。ReLU 函数对所有负的输入，返回 0；所有 <span class='mathquill'>x >0</span> 的输入，返回 <span class='mathquill'>x</span>。
+
+          接下来你会看到如何在 TensorFlow 里实现一个 ReLU 隐藏层。
+        instructor_notes: ''
+        resources: null
+  - id: 274441
+    key: b3de6cfa-ccd8-4a4d-b8c0-cdb47d81fd25
+    locale: zh-cn
+    version: 1.0.0
+    title: '练习：TensorFlow ReLUs'
+    semantic_type: Concept
+    updated_at: 'Mon Apr 03 2017 14:35:59 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 274196
+      - 274197
+      - 274198
+    atoms:
+      - id: 274196
+        key: 1b5960fe-d03e-4ae4-a6ae-c3d8710495a8
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Mon Apr 03 2017 15:12:31 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          # TensorFlow ReLUs
+
+          TensorFlow 提供了 ReLU 函数 [`tf.nn.relu()`](https://www.tensorflow.org/api_docs/python/tf/nn/relu)，如下所示：
+
+          ```python
+          # 隐藏层用 ReLU 作为激活函数
+          hidden_layer = tf.add(tf.matmul(features, hidden_weights), hidden_biases)
+          hidden_layer = tf.nn.relu(hidden_layer)
+
+          output = tf.add(tf.matmul(hidden_layer, output_weights), output_biases)
+          ```
+
+          上面的代码把[`tf.nn.relu()`](https://www.tensorflow.org/api_docs/python/tf/nn/relu) 放到`隐藏层`，就像开关一样把负权重关掉了。添加像`输出层`这样额外的层在激活函数后，就把模型变成了非线性函数。这个非线性的特征使得网络可以解决更复杂的问题。
+
+          ## 练习
+
+          下面你将用 ReLU 函数把一个线性单层网络转变成非线性多层网络。
+        instructor_notes: ''
+        resources: null
+      - id: 274197
+        key: 06fd3fd3-9de8-4dfa-88fb-b806b0810065
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: ImageAtom
+        updated_at: 'Mon Mar 06 2017 02:57:26 GMT+0000 (UTC)'
+        is_public: true
+        url: 'https://d17h27t6h515a5.cloudfront.net/topher/2017/February/58ae428b_relu-network/relu-network.png'
+        width: 1047
+        height: 744
+        caption: ''
+        resources: null
+        instructor_notes: null
+      - id: 274198
+        key: b98b083a-844b-45cd-9585-665c46e2883e
+        locale: zh-cn
+        version: 1.0.0
+        title: ''
+        semantic_type: QuizAtom
+        updated_at: 'Mon Mar 06 2017 02:57:26 GMT+0000 (UTC)'
+        is_public: true
+        resources: null
+        instructor_notes: ''
+        instruction: null
+        question:
+          title: ''
+          semantic_type: ProgrammingQuestion
+          evaluation_id: '6090191409381376'
+          evaluator:
+            model: ProgramEvaluator
+            execution_language: python3
+            executor_grading_code: |-
+              import json
+              from quiz_test import get_result
+
+              try:
+                  # Get grade result information
+                  result = get_result()
+              except Exception as err:
+                  # Default error result
+                  result = {
+                      'correct': False,
+                      'feedback': 'Something went wrong with your submission:',
+                      'comment': str(err)}
+
+              print(json.dumps(result))
+            executor_test_code: |-
+              def prevent_tf_error():
+                  """
+                  Prevent TF_DeleteStatus error - https://udacity.atlassian.net/browse/DRIVE-1507
+                  """
+                  import quiz
+
+              prevent_tf_error()
+            gae_grading_code: |
+              import json
+
+              # Pass result to grade_result
+              result = json.loads(executor_result['stdout'])
+              grade_result.update(result)
+            requires_gpu: false
+            deadline_seconds: 0
+            legacy_template_refs: []
+            included_text_files:
+              - text: |
+                  import contextlib
+                  import io
+                  import sys
+
+                  @contextlib.contextmanager
+                  def stdout_redirect(where):
+                      sys.stdout = where
+                      try:
+                          yield where
+                      finally:
+                          sys.stdout = sys.__stdout__
+                          
+                  def student_output(output_type=None):
+                      out = io.StringIO()
+                      
+                      # Capture stdout
+                      with stdout_redirect(out):
+                          import quiz
+                      
+                      # Get output
+                      out.seek(0)
+                      out = out.read()
+                      
+                      if output_type:
+                          # Convert output to a specified type
+                          try:
+                              out = output_type(out)
+                          except Exception:
+                              raise Exception('Output is the wrong type.  It should be {}.'.format(output_type.__name__))
+                      
+                      return out
+                name: all.py
+              - text: |-
+                  import numpy as np
+                  from all import student_output
+                  from tensorflow.python.framework.errors import FailedPreconditionError
+                  import re
+
+                  def get_result():
+                      """
+                      Run unit tests against <student_func>
+                      """
+                      
+                      answer = np.array([
+                          [5.11000013, 8.44000053],
+                          [0., 0.],
+                          [24.01000214, 38.23999786]])
+                      result = {
+                          'correct': False,
+                          'feedback': 'That\'s the wrong answer.  It should print {}'.format(answer),
+                          'comment': ''}
+
+                      try:
+                          output = student_output()
+                          
+                          try:
+                              output = np.fromstring(re.sub('[\[\]]', '', output) , sep=' ').reshape((3, 2))
+                          except Exception:
+                              raise Exception('Output is the wrong type or wrong dimension.')
+                          
+                          if np.allclose(output, answer):
+                              result['correct'] = True
+                              result['feedback'] = 'You got it!  That\'s how you use a ReLU.'
+                          elif (0 > output).sum():
+                              result['feedback'] = 'Output contains negative numbers.'
+                              result['comment'] = 'Are you applying ReLU to hidden_layer?'
+                      except FailedPreconditionError as err:
+                          if err.message.startswith('Attempting to use uninitialized value Variable'):
+                              result['feedback'] = 'TensorFlow variable uninitialized.'
+                              result['comment'] = 'Run tf.initialize_all_variables() in the session.'
+                          else:
+                              raise
+
+                      return result
+                name: quiz_test.py
+        answer: null
+  - id: 274442
+    key: 83a3a2a2-a9bd-4b7b-95b0-eb924ab14432
+    locale: zh-cn
+    version: 1.0.0
+    title: TensorFlow 中的深度神经网络
+    semantic_type: Concept
+    updated_at: 'Wed Apr 05 2017 08:07:37 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 274199
+      - 274200
+      - 274201
+      - 274202
+      - 274203
+    atoms:
+      - id: 274199
+        key: e619b2ba-2af5-4a03-bfe8-786e6b6ef8f3
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Wed Apr 05 2017 08:51:30 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          # TensorFlow 中的深度神经网络
+
+          你已经学过了如何用 TensorFlow 构建一个逻辑分类器。现在你会学到如何用逻辑分类器来构建一个深度神经网络。
+
+          ## 详细指导
+
+          接下来我们看看如何用 TensorFlow 来构建一个分类器来对 MNIST 数字进行分类。如果你要在自己电脑上跑这个代码，文件在[这儿](https://d17h27t6h515a5.cloudfront.net/topher/2017/February/58a61a3a_multilayer-perceptron/multilayer-perceptron.zip)。你可以在[Aymeric Damien 的 GitHub repository](https://github.com/aymericdamien/TensorFlow-Examples)里找到更多的 TensorFlow 的例子。
+
+          ## 代码
+
+          ### TensorFlow MNIST
+
+          ```python
+          from tensorflow.examples.tutorials.mnist import input_data
+          mnist = input_data.read_data_sets(".", one_hot=True, reshape=False)
+          ```
+
+          你可以使用 TensorFlow 提供的 MNIST 数据集，他把分批和独热码都帮你处理好了。
+
+          ### 参数学习
+
+          ```python
+          import tensorflow as tf
+
+          # 参数
+          learning_rate = 0.001
+          training_epochs = 20
+          batch_size = 128  # 如果没有足够内存，可以降低 batch size
+          display_step = 1
+
+          n_input = 784  # MNIST data input (img shape: 28*28)
+          n_classes = 10  # MNIST total classes (0-9 digits)
+          ```
+
+          这里的关注点是多层神经网络的架构，不是调参，所以这里直接给你了学习的参数。
+
+          ### 隐藏层参数
+
+          ```python
+          n_hidden_layer = 256 # 层特征数量
+          ```
+
+          `n_hidden_layer` 决定了神经网络隐藏层的大小。也被称作层的宽度。
+
+          ### 权重和偏置项
+
+          ```python
+          # 层权重和偏置项的储存
+          weights = {
+              'hidden_layer': tf.Variable(tf.random_normal([n_input, n_hidden_layer])),
+              'out': tf.Variable(tf.random_normal([n_hidden_layer, n_classes]))
+          }
+          biases = {
+              'hidden_layer': tf.Variable(tf.random_normal([n_hidden_layer])),
+              'out': tf.Variable(tf.random_normal([n_classes]))
+          }
+          ```
+
+          深度神经网络有多个层，每个层有自己的权重和偏置项。`'hidden_layer'`的权重和偏置项只对隐藏层， `'out'`的权重和偏置项只对输出层。如果神经网络比这更深，那每一层都有权重和偏置项。
+
+          ### 输入
+
+          ```python
+          # tf Graph input
+          x = tf.placeholder("float", [None, 28, 28, 1])
+          y = tf.placeholder("float", [None, n_classes])
+
+          x_flat = tf.reshape(x, [-1, n_input])
+          ```
+
+          MNIST 数据集是由 28px 乘 28px 单[通道](https://en.wikipedia.org/wiki/Channel_(digital_image%29)图片组成。`tf.reshape()`函数把 28px 乘 28px 的矩阵换成了 784px by 1px 的向量 `x`。 
+
+          ### 多层感知器
+        instructor_notes: ''
+        resources: null
+      - id: 274200
+        key: 3dc523b3-ebb6-455d-a496-f2882c66ebe5
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: ImageAtom
+        updated_at: 'Mon Mar 06 2017 02:57:26 GMT+0000 (UTC)'
+        is_public: true
+        url: 'https://d17h27t6h515a5.cloudfront.net/topher/2016/October/580fe8f8_multi-layer/multi-layer.png'
+        width: 2018
+        height: 646
+        caption: ''
+        resources: null
+        instructor_notes: null
+      - id: 274201
+        key: c2f276d8-4fe4-41d5-954c-04ba81548579
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Wed Apr 05 2017 15:13:35 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          ```python
+          # ReLU作为隐藏层激活函数
+          layer_1 = tf.add(tf.matmul(x_flat, weights['hidden_layer']),\
+              biases['hidden_layer'])
+          layer_1 = tf.nn.relu(layer_1)
+          # 输出层的线性激活函数
+          logits = tf.add(tf.matmul(layer_1, weights['out']), biases['out'])
+          ```
+
+          你之前已经见过 `tf.add(tf.matmul(x_flat, weights['hidden_layer']), biases['hidden_layer'])`，也就是 `xw + b`。把线性函数与ReLU组合在一起，给你一个两层网络。
+
+          ### 优化器 Optimizer
+
+          ```python
+          # Define loss and optimizer
+          cost = tf.reduce_mean(\
+              tf.nn.softmax_cross_entropy_with_logits(logits=logits, labels=y))
+          optimizer = tf.train.GradientDescentOptimizer(learning_rate=learning_rate)\
+              .minimize(cost)
+          ```
+
+          这跟 Intro to TensorFlow lab 里用到的优化技巧一样。
+
+          ### Session
+
+          ```python
+          # Initializing the variables
+          init = tf.global_variables_initializer()
+
+          # Launch the graph
+          with tf.Session() as sess:
+              sess.run(init)
+              # Training cycle
+              for epoch in range(training_epochs):
+                  total_batch = int(mnist.train.num_examples/batch_size)
+                  # Loop over all batches
+                  for i in range(total_batch):
+                      batch_x, batch_y = mnist.train.next_batch(batch_size)
+                      # Run optimization op (backprop) and cost op (to get loss value)
+                      sess.run(optimizer, feed_dict={x: batch_x, y: batch_y})
+          ```
+
+          TensorFlow 中的 MNIST 库提供了分批接收数据的能力。调用`mnist.train.next_batch()`函数返回训练数据的一个子集。
+
+          ##  深度神经网络
+        instructor_notes: ''
+        resources: null
+      - id: 274202
+        key: 245d51c5-0167-4f6d-b80e-e71e126ebaca
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: ImageAtom
+        updated_at: 'Mon Mar 06 2017 02:57:26 GMT+0000 (UTC)'
+        is_public: true
+        url: 'https://d17h27t6h515a5.cloudfront.net/topher/2016/October/58100bfd_layers/layers.png'
+        width: 2518
+        height: 1082
+        caption: ''
+        resources: null
+        instructor_notes: null
+      - id: 274203
+        key: bb237358-46e1-4c10-a37f-d567b9c7799c
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Wed Apr 05 2017 15:15:31 GMT+0000 (UTC)'
+        is_public: true
+        text: 就是这样！从一层到两层很简单。向网络中添加更多层，可以让你解决更复杂的问题。在下面的视频中，你将了解改变层的数量会对你的网络有怎样的影响。
+        instructor_notes: ''
+        resources: null
+  - id: 274443
+    key: 608a9600-14b7-4f33-ba78-8a0d56bb8053
+    locale: zh-cn
+    version: 1.0.0
+    title: 训练深度神经网络
+    semantic_type: Concept
+    updated_at: 'Wed Apr 05 2017 15:56:21 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 274204
+    atoms:
+      - id: 274204
+        key: bfe71aab-3c12-469f-992f-761c57affa28
+        locale: zh-cn
+        version: 1.0.0
+        title: 训练深度神经网络
+        semantic_type: VideoAtom
+        updated_at: 'Tue Apr 18 2017 17:01:56 GMT+0000 (UTC)'
+        is_public: true
+        tags: []
+        instructor_notes: ''
+        resources: null
+        video:
+          youtube_id: CsB7yUtMJyk
+          subtitles:
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae2738_training-a-deep-learning-network/subtitles/lang_en_vs1.srt'
+              language_code: en
+          transcodings:
+            uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae2738_training-a-deep-learning-network/training-a-deep-learning-network_480p.mp4'
+            uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae2738_training-a-deep-learning-network/training-a-deep-learning-network_480p_1000kbps.mp4'
+            uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae2738_training-a-deep-learning-network/training-a-deep-learning-network_480p.ogg'
+            uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae2738_training-a-deep-learning-network/training-a-deep-learning-network_720p.mp4'
+            uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae2738_training-a-deep-learning-network/hls/playlist.m3u8'
+  - id: 274444
+    key: ef0cdafb-57ec-497b-8f45-11c142c367d7
+    locale: zh-cn
+    version: 1.0.0
+    title: 存取 TensorFlow 模型
+    semantic_type: Concept
+    updated_at: 'Wed Apr 05 2017 15:56:46 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 274205
+      - 274206
+      - 274207
+      - 274208
+      - 274209
+      - 274210
+      - 274211
+      - 274212
+      - 274213
+      - 274214
+      - 274215
+    atoms:
+      - id: 274205
+        key: 080e12df-390d-4a74-a527-0327358e5b50
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Sat Apr 08 2017 06:18:24 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          # 保存和读取 TensorFlow 模型
+
+          训练一个模型的时间很长。但是你一旦关闭了 TensorFlow session，你所有训练的权重和偏置项都丢失了。如果你计划在之后重新使用这个模型，你需要重新训练！
+
+          幸运的是，TensorFlow 可以让你通过一个叫 [`tf.train.Saver`](https://www.tensorflow.org/api_docs/python/tf/train/Saver) 的类把你的进程保存下来。这个类可以把任何
+           [`tf.Variable`](https://www.tensorflow.org/api_docs/python/tf/Variable) 存到你的文件系统。
+
+          ## 保存变量
+
+          让我们通过一个简单地例子来保存 `weights` 和 `bias` Tensors。第一个例子你只是存两个变量，后面会教你如何把一个实际模型的所有权重保存下来。
+        instructor_notes: ''
+        resources: null
+      - id: 274206
+        key: 2bfb8b52-de1b-4fba-b39d-86772f36414d
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Sat Apr 08 2017 06:29:22 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          ```python
+          import tensorflow as tf
+
+          # The file path to save the data
+          # 文件保存路径
+          save_file = './model.ckpt'
+
+          # Two Tensor Variables: weights and bias
+          # 两个 Tensor 变量：权重和偏置项
+          weights = tf.Variable(tf.truncated_normal([2, 3]))
+          bias = tf.Variable(tf.truncated_normal([3]))
+
+          # Class used to save and/or restore Tensor Variables
+          # 用来存取 Tensor 变量的类
+          saver = tf.train.Saver()
+
+          with tf.Session() as sess:
+              # Initialize all the Variables
+              # 初始化所有变量
+              sess.run(tf.global_variables_initializer())
+              
+              # Show the values of weights and bias
+             # 显示变量和权重
+              print('Weights:')
+              print(sess.run(weights))
+              print('Bias:')
+              print(sess.run(bias))
+              
+              # Save the model
+              # 保存模型
+              saver.save(sess, save_file)
+          ```
+        instructor_notes: ''
+        resources: null
+      - id: 274207
+        key: edc3821d-dc43-49b0-a640-f8bc0812f51b
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Sat Apr 08 2017 06:27:28 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          >Weights:
+
+          >[[-0.97990924  1.03016174  0.74119264]
+
+          >[-0.82581609 -0.07361362 -0.86653847]]
+
+          >Bias:
+
+          >[ 1.62978125 -0.37812829  0.64723819]
+
+          `weights` 和 `bias` Tensors 用 [`tf.truncated_normal()`](https://www.tensorflow.org/api_docs/python/tf/truncated_normal) 函数设定了随机值。用  [`tf.train.Saver.save()`](https://www.tensorflow.org/api_docs/python/tf/train/Saver#save) 函数把这些值被保存在`save_file` 位置，命名为 "model.ckpt"，（".ckpt" 扩展名表示"checkpoint"）。
+
+          如果你使用 TensorFlow 0.11.0RC1 或者更新版，一个叫做  "model.ckpt.meta" 的文件也会生成。它包含了 TensorFlow graph。
+
+          ## 加载变量
+
+          现在这些变量已经存好了，让我们把它们加载到新模型里。
+        instructor_notes: ''
+        resources: null
+      - id: 274208
+        key: 68594141-3028-42e2-aa19-99428def23af
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Sat Apr 08 2017 06:32:17 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          ```python
+          # Remove the previous weights and bias
+          # 移除之前的权重和偏置项
+          tf.reset_default_graph()
+
+          # Two Variables: weights and bias
+          # 两个变量：权重和偏置项
+          weights = tf.Variable(tf.truncated_normal([2, 3]))
+          bias = tf.Variable(tf.truncated_normal([3]))
+
+          # Class used to save and/or restore Tensor Variables
+          # 用来存取 Tensor 变量的类
+          saver = tf.train.Saver()
+
+          with tf.Session() as sess:
+              # Load the weights and bias
+              # 加载权重和偏置项
+              saver.restore(sess, save_file)
+              
+              # Show the values of weights and bias
+              # 显示权重和偏置项
+              print('Weight:')
+              print(sess.run(weights))
+              print('Bias:')
+              print(sess.run(bias))
+          ```
+        instructor_notes: ''
+        resources: null
+      - id: 274209
+        key: ef391cbe-305b-4c96-8ae5-d29b995be601
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Sat Apr 08 2017 14:44:16 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          >Weights:
+
+          >[[-0.97990924  1.03016174  0.74119264]
+
+          > [-0.82581609 -0.07361362 -0.86653847]]
+
+          >Bias:
+
+          >[ 1.62978125 -0.37812829  0.64723819]
+
+          你注意到，你依然需要在 Python 中创建 `weights` 和 `bias`。[`tf.train.Saver.restore()`](https://www.tensorflow.org/api_docs/python/tf/train/Saver#restore) 函数把保存的数据加载到  `weights` 和 `bias` 当中。
+
+          因为 [`tf.train.Saver.restore()`](https://www.tensorflow.org/api_docs/python/tf/train/Saver#restore) 设定了 TensorFlow 变量，这里你不需要调用  [`tf.global_variables_initializer()`](https://www.tensorflow.org/api_docs/python/tf/global_variables_initializer)了。
+
+          ## 保存一个训练好的模型
+
+          让我们看看如何训练一个模型并保存它的权重。
+
+          从一个模型开始：
+        instructor_notes: ''
+        resources: null
+      - id: 274210
+        key: 51efbc79-9ffe-463b-b714-a824221d3311
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Sat Apr 08 2017 14:49:24 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          ```python
+          # Remove previous Tensors and Operations
+          # 移除之前的  Tensors 和运算
+          tf.reset_default_graph()
+
+          from tensorflow.examples.tutorials.mnist import input_data
+          import numpy as np
+
+          learning_rate = 0.001
+          n_input = 784  # MNIST 数据输入 (图片尺寸: 28*28)
+          n_classes = 10  # MNIST 总计类别 (数字 0-9)
+
+          # Import MNIST data
+          # 加载 MNIST 数据
+          mnist = input_data.read_data_sets('.', one_hot=True)
+
+          # Features and Labels
+          # 特征和标签
+          features = tf.placeholder(tf.float32, [None, n_input])
+          labels = tf.placeholder(tf.float32, [None, n_classes])
+
+          # Weights & bias
+          # 权重和偏置项
+          weights = tf.Variable(tf.random_normal([n_input, n_classes]))
+          bias = tf.Variable(tf.random_normal([n_classes]))
+
+          # Logits - xW + b
+          logits = tf.add(tf.matmul(features, weights), bias)
+
+          # Define loss and optimizer
+          # 定义损失函数和优化器
+          cost = tf.reduce_mean(\
+              tf.nn.softmax_cross_entropy_with_logits(logits=logits, labels=labels))
+          optimizer = tf.train.GradientDescentOptimizer(learning_rate=learning_rate)\
+              .minimize(cost)
+
+          # Calculate accuracy
+          # 计算准确率
+          correct_prediction = tf.equal(tf.argmax(logits, 1), tf.argmax(labels, 1))
+          accuracy = tf.reduce_mean(tf.cast(correct_prediction, tf.float32))
+          ```
+        instructor_notes: ''
+        resources: null
+      - id: 274211
+        key: 225d9cd8-b1c2-4b99-9a90-95e134134afe
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Sat Apr 08 2017 14:49:56 GMT+0000 (UTC)'
+        is_public: true
+        text: 让我们训练模型并保存权重：
+        instructor_notes: ''
+        resources: null
+      - id: 274212
+        key: 3468ff8f-7c61-4b88-b2c2-53c6389479d9
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Sat Apr 08 2017 15:01:50 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          ```python
+          import math
+
+          save_file = './train_model.ckpt'
+          batch_size = 128
+          n_epochs = 100
+
+          saver = tf.train.Saver()
+
+          # Launch the graph
+          with tf.Session() as sess:
+              sess.run(tf.global_variables_initializer())
+
+              # Training cycle
+              for epoch in range(n_epochs):
+                  total_batch = math.ceil(mnist.train.num_examples / batch_size)
+
+                  # Loop over all batches
+                  for i in range(total_batch):
+                      batch_features, batch_labels = mnist.train.next_batch(batch_size)
+                      sess.run(
+                          optimizer,
+                          feed_dict={features: batch_features, labels: batch_labels})
+
+                  # Print status for every 10 epochs
+                  if epoch % 10 == 0:
+                      valid_accuracy = sess.run(
+                          accuracy,
+                          feed_dict={
+                              features: mnist.validation.images,
+                              labels: mnist.validation.labels})
+                      print('Epoch {:<3} - Validation Accuracy: {}'.format(
+                          epoch,
+                          valid_accuracy))
+
+              # Save the model
+              saver.save(sess, save_file)
+              print('Trained Model Saved.')
+          ```
+        instructor_notes: ''
+        resources: null
+      - id: 274213
+        key: 6385d9d4-2914-4373-b30f-4a62373036d1
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Sat Apr 08 2017 15:03:11 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          >Epoch 0   - Validation Accuracy: 0.06859999895095825
+
+          >Epoch 10  - Validation Accuracy: 0.20239999890327454
+
+          >Epoch 20  - Validation Accuracy: 0.36980000138282776
+
+          >Epoch 30  - Validation Accuracy: 0.48820000886917114
+
+          >Epoch 40  - Validation Accuracy: 0.5601999759674072
+
+          >Epoch 50  - Validation Accuracy: 0.6097999811172485
+
+          >Epoch 60  - Validation Accuracy: 0.6425999999046326
+
+          >Epoch 70  - Validation Accuracy: 0.6733999848365784
+
+          >Epoch 80  - Validation Accuracy: 0.6916000247001648
+
+          >Epoch 90  - Validation Accuracy: 0.7113999724388123
+
+          >Trained Model Saved.
+
+          ## 加载训练好的模型
+
+          让我们从磁盘中加载权重和偏置项，验证测试集准确率
+        instructor_notes: ''
+        resources: null
+      - id: 274214
+        key: 0a5db02f-d18d-424f-b772-aa71582bf140
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Mon Mar 06 2017 02:57:26 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          ```python
+          saver = tf.train.Saver()
+
+          # Launch the graph
+          with tf.Session() as sess:
+              saver.restore(sess, save_file)
+
+              test_accuracy = sess.run(
+                  accuracy,
+                  feed_dict={features: mnist.test.images, labels: mnist.test.labels})
+
+          print('Test Accuracy: {}'.format(test_accuracy))
+          ```
+        instructor_notes: ''
+        resources: null
+      - id: 274215
+        key: be14e4d7-6a60-4af6-ac6d-5928edd07099
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Sat Apr 08 2017 15:08:08 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          >Test Accuracy: 0.7229999899864197
+
+          就是这样！你现在知道如何保存再加载一个 TensorFlow 的训练模型了。下一章节让我们看看如何把权重和偏置项加载到已经修改的模型中。
+        instructor_notes: ''
+        resources: null
+  - id: 274446
+    key: c22dbf36-7215-483a-a397-d5f4f757d2d1
+    locale: zh-cn
+    version: 1.0.0
+    title: 参数微调
+    semantic_type: Concept
+    updated_at: 'Sat Apr 08 2017 15:08:55 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 274216
+      - 274217
+      - 274218
+      - 274219
+      - 274221
+    atoms:
+      - id: 274216
+        key: 3795d94c-92ca-4f2a-a9e1-dd4dee38e9de
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Sun Apr 09 2017 06:20:04 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          # 把权重和偏置项加载到新模型中
+
+          很多时候你想调整，或者说“微调”一个你已经训练并保存了的模型。但是，把保存的变量直接加载到已经修改过的模型会产生错误。让我们看看如何解决这个问题。
+
+          ## 命名报错
+
+          TensorFlow 对 Tensor 和计算使用一个叫 `name` 的字符串辨识器，如果名称没有给，TensorFlow 会自动创建一个。TensorFlow 会把第一个节点命名为 `<Type>`，把后续的命名为`<Type>_<number>`。让我们看看这对加载一个有不同顺序权重和偏置项的模型有哪些影响： 
+        instructor_notes: ''
+        resources: null
+      - id: 274217
+        key: cab15af9-d054-4ee2-9d77-efd7a961bfde
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Sun Apr 09 2017 06:22:32 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          ```python
+          import tensorflow as tf
+
+          # Remove the previous weights and bias
+          # 移除先前的权重和偏置项
+          tf.reset_default_graph()
+
+          save_file = 'model.ckpt'
+
+          # Two Tensor Variables: weights and bias
+          # 两个 Tensor 变量：权重和偏置项
+          weights = tf.Variable(tf.truncated_normal([2, 3]))
+          bias = tf.Variable(tf.truncated_normal([3]))
+
+          saver = tf.train.Saver()
+
+          # Print the name of Weights and Bias
+          # 打印权重和偏置项的名字
+          print('Save Weights: {}'.format(weights.name))
+          print('Save Bias: {}'.format(bias.name))
+
+          with tf.Session() as sess:
+              sess.run(tf.global_variables_initializer())
+              saver.save(sess, save_file)
+              
+          # Remove the previous weights and bias
+          # 移除之前的权重和偏置项
+          tf.reset_default_graph()
+
+          # Two Variables: weights and bias
+          # 两个变量：权重和偏置项
+          bias = tf.Variable(tf.truncated_normal([3]))
+          weights = tf.Variable(tf.truncated_normal([2, 3]))
+
+          saver = tf.train.Saver()
+
+          # Print the name of Weights and Bias
+          # 打印权重和偏置项的名字
+          print('Load Weights: {}'.format(weights.name))
+          print('Load Bias: {}'.format(bias.name))
+
+          with tf.Session() as sess:
+              # Load the weights and bias - ERROR
+              # 加载权重和偏置项 - 报错
+              saver.restore(sess, save_file)
+          ```
+        instructor_notes: ''
+        resources: null
+      - id: 274218
+        key: dbfaf2d9-f908-4be1-9423-ddec9937db2d
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Sun Apr 09 2017 06:27:51 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          上述代码会有下列输出
+
+          >Save Weights: Variable:0
+
+          >Save Bias: Variable_1:0
+
+          >Load Weights: Variable_1:0
+
+          >Load Bias: Variable:0
+
+          >...
+
+          >InvalidArgumentError (see above for traceback): Assign requires shapes of both tensors to match.
+
+          >...
+
+          你注意到，`weights` 和 `bias` 的 `name` 属性与你保存的模型不同。这是为什么代码报“Assign requires shapes of both tensors to match”这个错误。`saver.restore(sess, save_file)` 代码试图把权重数据加载到`bias`里，把偏置项数据加载到 `weights`里。
+
+          与其让 TensorFlow 来设定 `name` 属性，不如让我们来手动设定：
+        instructor_notes: ''
+        resources: null
+      - id: 274219
+        key: b99cfa70-e455-4407-8a42-d887abc4b407
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Sun Apr 09 2017 06:28:52 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          ```python
+          import tensorflow as tf
+
+          tf.reset_default_graph()
+
+          save_file = 'model.ckpt'
+
+          # Two Tensor Variables: weights and bias
+          weights = tf.Variable(tf.truncated_normal([2, 3]), name='weights_0')
+          bias = tf.Variable(tf.truncated_normal([3]), name='bias_0')
+
+          saver = tf.train.Saver()
+
+          # Print the name of Weights and Bias
+          print('Save Weights: {}'.format(weights.name))
+          print('Save Bias: {}'.format(bias.name))
+
+          with tf.Session() as sess:
+              sess.run(tf.global_variables_initializer())
+              saver.save(sess, save_file)
+              
+          # Remove the previous weights and bias
+          tf.reset_default_graph()
+
+          # Two Variables: weights and bias
+          bias = tf.Variable(tf.truncated_normal([3]), name='bias_0')
+          weights = tf.Variable(tf.truncated_normal([2, 3]) ,name='weights_0')
+
+          saver = tf.train.Saver()
+
+          # Print the name of Weights and Bias
+          print('Load Weights: {}'.format(weights.name))
+          print('Load Bias: {}'.format(bias.name))
+
+          with tf.Session() as sess:
+              # Load the weights and bias - No Error
+              saver.restore(sess, save_file)
+              
+          print('Loaded Weights and Bias successfully.')
+          ```
+        instructor_notes: ''
+        resources: null
+      - id: 274221
+        key: 7b4599d5-6ca8-42b6-a734-b5c757208993
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Sun Apr 09 2017 06:29:44 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          >Save Weights: weights_0:0
+
+          >Save Bias: bias_0:0
+
+          >Load Weights: weights_0:0
+
+          >Load Bias: bias_0:0
+
+          >Loaded Weights and Bias successfully.
+
+          这次没问题！Tensor 名称批评正确，数据正确加载。
+        instructor_notes: ''
+        resources: null
+  - id: 273157
+    key: e3468217-af9b-4d31-bc87-316a42553692
+    locale: zh-cn
+    version: 1.0.0
+    title: Regularization Intro
+    semantic_type: Concept
+    updated_at: 'Mon Mar 06 2017 02:57:23 GMT+0000 (UTC)'
+    is_public: false
+    resources: null
+    _atoms_ids: []
+    atoms: []
+  - id: 193315
+    key: '63734132060923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 正则化简介
+    semantic_type: Concept
+    updated_at: 'Thu Sep 29 2016 08:48:04 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 193217
+    atoms:
+      - id: 193217
+        key: '6373413206'
+        locale: zh-cn
+        version: 1.0.0
+        title: 正则化简介
+        semantic_type: VideoAtom
+        updated_at: 'Wed Apr 19 2017 21:39:46 GMT+0000 (UTC)'
+        is_public: true
+        tags: []
+        instructor_notes: null
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        video:
+          youtube_id: pECnr-5F3_Q
+          subtitles:
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1b5f3_regularization-intro/subtitles/lang_en_vs2.srt'
+              language_code: en
+          transcodings:
+            uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1b5f3_regularization-intro/regularization-intro_480p.mp4'
+            uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1b5f3_regularization-intro/regularization-intro_480p_1000kbps.mp4'
+            uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1b5f3_regularization-intro/regularization-intro_480p.ogg'
+            uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1b5f3_regularization-intro/regularization-intro_720p.mp4'
+            uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1b5f3_regularization-intro/hls/playlist.m3u8'
+  - id: 274445
+    key: 7e05821d-98fd-46be-aefd-74313e7616b6
+    locale: zh-cn
+    version: 1.0.0
+    title: 正则化
+    semantic_type: Concept
+    updated_at: 'Sun Apr 09 2017 06:33:37 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 274222
+    atoms:
+      - id: 274222
+        key: b0455c53-2c30-42c1-ba95-736b14c55749
+        locale: zh-cn
+        version: 1.0.0
+        title: 正则化
+        semantic_type: VideoAtom
+        updated_at: 'Tue Apr 18 2017 17:03:16 GMT+0000 (UTC)'
+        is_public: true
+        tags: []
+        instructor_notes: ''
+        resources: null
+        video:
+          youtube_id: QcJBhbuCl5g
+          subtitles:
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae3700_regularization/subtitles/lang_en_vs1.srt'
+              language_code: en
+          transcodings:
+            uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae3700_regularization/regularization_480p.mp4'
+            uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae3700_regularization/regularization_480p_1000kbps.mp4'
+            uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae3700_regularization/regularization_480p.ogg'
+            uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae3700_regularization/regularization_720p.mp4'
+            uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae3700_regularization/hls/playlist.m3u8'
+  - id: 274447
+    key: 2b3f3266-0578-44c0-8855-0eb236cab8d4
+    locale: zh-cn
+    version: 1.0.0
+    title: 正则化练习
+    semantic_type: Concept
+    updated_at: 'Sun Apr 09 2017 06:47:03 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 274223
+      - 274224
+    atoms:
+      - id: 274223
+        key: a86a2a1d-a213-42f9-9691-d776b0cebd08
+        locale: zh-cn
+        version: 1.0.0
+        title: Regularization-Question
+        semantic_type: VideoAtom
+        updated_at: 'Tue Apr 18 2017 17:04:03 GMT+0000 (UTC)'
+        is_public: true
+        tags: []
+        instructor_notes: ''
+        resources: null
+        video:
+          youtube_id: '-Zxmrp78DnY'
+          subtitles:
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae2731_regularization-question/subtitles/lang_en_vs1.srt'
+              language_code: en
+          transcodings:
+            uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae2731_regularization-question/regularization-question_480p.mp4'
+            uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae2731_regularization-question/regularization-question_480p_1000kbps.mp4'
+            uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae2731_regularization-question/regularization-question_480p.ogg'
+            uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae2731_regularization-question/regularization-question_720p.mp4'
+            uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae2731_regularization-question/hls/playlist.m3u8'
+      - id: 274224
+        key: 67cc2259-1540-4717-8596-4e28ea103f7f
+        locale: zh-cn
+        version: 1.0.0
+        title: Regularization
+        semantic_type: RadioQuizAtom
+        updated_at: 'Mon Apr 17 2017 23:50:12 GMT+0000 (UTC)'
+        is_public: true
+        question:
+          prompt: Derivative?
+          correct_feedback: null
+          video_feedback:
+            youtube_id: _wqHVtx_esM
+            subtitles:
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae2731_regularization-solution/subtitles/lang_en_vs1.srt'
+                language_code: en
+            transcodings:
+              uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae2731_regularization-solution/regularization-solution_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae2731_regularization-solution/regularization-solution_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae2731_regularization-solution/regularization-solution_480p.ogg'
+              uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae2731_regularization-solution/regularization-solution_720p.mp4'
+              uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae2731_regularization-solution/hls/playlist.m3u8'
+          default_feedback: null
+          answers:
+            - id: a1487816652626
+              text: A
+              is_correct: false
+              incorrect_feedback: null
+            - id: a1487816794635
+              text: B
+              is_correct: false
+              incorrect_feedback: null
+            - id: a1487816795688
+              text: C
+              is_correct: true
+              incorrect_feedback: null
+  - id: 274448
+    key: 07271100-4989-42e8-a2dc-41a14ef52c34
+    locale: zh-cn
+    version: 1.0.0
+    title: Dropout
+    semantic_type: Concept
+    updated_at: 'Mon Mar 06 2017 02:57:27 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 274225
+    atoms:
+      - id: 274225
+        key: 19258381-b678-4421-9975-43f60ae04e84
+        locale: zh-cn
+        version: 1.0.0
+        title: Dropout RENDER
+        semantic_type: VideoAtom
+        updated_at: 'Wed Apr 19 2017 21:38:01 GMT+0000 (UTC)'
+        is_public: true
+        tags: []
+        instructor_notes: ''
+        resources: null
+        video:
+          youtube_id: 6DcImJS8uV8
+          subtitles: null
+          transcodings:
+            uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58b4b5c3_dropout-render/dropout-render_480p.mp4'
+            uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58b4b5c3_dropout-render/dropout-render_480p_1000kbps.mp4'
+            uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58b4b5c3_dropout-render/dropout-render_480p.ogg'
+            uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58b4b5c3_dropout-render/dropout-render_720p.mp4'
+            uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58b4b5c3_dropout-render/hls/playlist.m3u8'
+  - id: 193323
+    key: '63722671800923'
+    locale: zh-cn
+    version: 1.0.0
+    title: Dropout 2
+    semantic_type: Concept
+    updated_at: 'Thu Sep 29 2016 08:48:06 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 193221
+    atoms:
+      - id: 193221
+        key: '6372267180'
+        locale: zh-cn
+        version: 1.0.0
+        title: Dropout 2
+        semantic_type: VideoAtom
+        updated_at: 'Wed Apr 19 2017 21:33:31 GMT+0000 (UTC)'
+        is_public: true
+        tags: []
+        instructor_notes: null
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        video:
+          youtube_id: n1cmYQcqpfM
+          subtitles:
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d17984_dropout-pt.-2/subtitles/lang_en_vs2.srt'
+              language_code: en
+          transcodings:
+            uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d17984_dropout-pt.-2/dropout-pt.-2_480p.mp4'
+            uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d17984_dropout-pt.-2/dropout-pt.-2_480p_1000kbps.mp4'
+            uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d17984_dropout-pt.-2/dropout-pt.-2_480p.ogg'
+            uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d17984_dropout-pt.-2/dropout-pt.-2_720p.mp4'
+            uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d17984_dropout-pt.-2/hls/playlist.m3u8'
+  - id: 274449
+    key: d5cf4454-1324-4524-9e2c-0ecca1f5c40e
+    locale: zh-cn
+    version: 1.0.0
+    title: '练习：TensorFlow Dropout'
+    semantic_type: Concept
+    updated_at: 'Mon Mar 06 2017 02:57:27 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 274227
+      - 274228
+      - 274229
+      - 274230
+      - 274231
+      - 274232
+    atoms:
+      - id: 274227
+        key: a9308a69-b98c-4b34-ad81-0b4d7cc42a5a
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Mon Mar 06 2017 02:57:26 GMT+0000 (UTC)'
+        is_public: true
+        text: '# TensorFlow Dropout'
+        instructor_notes: ''
+        resources: null
+      - id: 274228
+        key: 47666c10-996f-4740-9674-ce54c6f768ae
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: ImageAtom
+        updated_at: 'Sun Apr 09 2017 06:54:17 GMT+0000 (UTC)'
+        is_public: true
+        url: 'https://d17h27t6h515a5.cloudfront.net/topher/2016/November/58222112_dropout-node/dropout-node.jpeg'
+        width: 614
+        height: 328
+        caption: |-
+          图 1：来自论文 "Dropout: A Simple Way to Prevent Neural Networks from
+          Overfitting" (https://www.cs.toronto.edu/~hinton/absps/JMLRdropout.pdf)
+        resources: null
+        instructor_notes: null
+      - id: 274229
+        key: bbd1fecd-ed76-4db5-9ca0-6f8d54285119
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Sun Apr 09 2017 07:08:53 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          Dropout 是一个降低过拟合的正则化技术。它在网络中暂时的丢弃一些单位([神经元](https://en.wikipedia.org/wiki/Artificial_neuron))，以及它们的前后连接，图一是一个 dropout 如何工作的示意图
+
+          TensorFlow 提供了一个 [`tf.nn.dropout()`](https://www.tensorflow.org/api_docs/python/tf/nn/dropout) 函数，你可以用来实现 dropout。
+
+          让我们来看一个如何使用 [`tf.nn.dropout()`](https://www.tensorflow.org/api_docs/python/tf/nn/dropout)的例子。
+
+          ```python
+          keep_prob = tf.placeholder(tf.float32) # probability to keep units
+
+          hidden_layer = tf.add(tf.matmul(features, weights[0]), biases[0])
+          hidden_layer = tf.nn.relu(hidden_layer)
+          hidden_layer = tf.nn.dropout(hidden_layer, keep_prob)
+
+          logits = tf.add(tf.matmul(hidden_layer, weights[1]), biases[1])
+          ```
+
+          上面的代码展示了如何在神经网络中应用dropout
+
+          [`tf.nn.dropout()`](https://www.tensorflow.org/api_docs/python/tf/nn/dropout)函数有两个参数：
+          1. `hidden_layer`：你要应用 dropout 的 tensor
+          2. `keep_prob`：任何一个给定单位的留存率（**没有**丢弃的）
+
+          `keep_prob` 可以让你调整 drop 单位的数量。为了补偿被丢弃的单位，[`tf.nn.dropout()`](https://www.tensorflow.org/api_docs/python/tf/nn/dropout) 把所有保留下来的单位（**没有**丢弃的）乘 `1/keep_prob`
+
+          在训练时，一个好的`keep_prob`初始值是`0.5`。
+
+          在测试时，把 `keep_prob` 值设为`1.0` ，这样保留所有的单位，最大化模型的能力。
+
+          ## 练习1
+          看下下面的代码，哪里出问题了？
+
+          语法没问题，但是测试准确率很低。
+          ```python
+          ...
+
+          keep_prob = tf.placeholder(tf.float32) # probability to keep units
+
+          hidden_layer = tf.add(tf.matmul(features, weights[0]), biases[0])
+          hidden_layer = tf.nn.relu(hidden_layer)
+          hidden_layer = tf.nn.dropout(hidden_layer, keep_prob)
+
+          logits = tf.add(tf.matmul(hidden_layer, weights[1]), biases[1])
+
+          ...
+
+          with tf.Session() as sess:
+              sess.run(tf.global_variables_initializer())
+              
+              for epoch_i in range(epochs):
+                  for batch_i in range(batches):
+                      ....
+              
+                      sess.run(optimizer, feed_dict={
+                          features: batch_features,
+                          labels: batch_labels,
+                          keep_prob: 0.5})
+              
+              validation_accuracy = sess.run(accuracy, feed_dict={
+                  features: test_features,
+                  labels: test_labels,
+                  keep_prob: 0.5})
+          ```
+        instructor_notes: ''
+        resources: null
+      - id: 274230
+        key: a1b14727-a408-4b03-b867-c5562ef5ef3e
+        locale: zh-cn
+        version: 1.0.0
+        title: ''
+        semantic_type: RadioQuizAtom
+        updated_at: 'Sun Apr 09 2017 07:33:26 GMT+0000 (UTC)'
+        is_public: true
+        question:
+          prompt: 上面代码错在哪里？
+          correct_feedback: 回答正确！只有在训练模型时我们会丢弃单元，在验证或测试时，你应该保存所有以最大化准确率。
+          video_feedback: null
+          default_feedback: null
+          answers:
+            - id: a1478643461582
+              text: Dropout 与 batching 不能同时使用
+              is_correct: false
+              incorrect_feedback: 不对，dropout 可以和 batching 同时使用
+            - id: a1478646143808
+              text: '`keep_prob` 的值设为 0.5 太低了'
+              is_correct: false
+              incorrect_feedback: '`keep_prob` 的值设为 0.5 是合理的'
+            - id: a1478646160078
+              text: 在测试准确率的时候不应该传值给 `keep_prob`
+              is_correct: false
+              incorrect_feedback: 跟正确答案很接近了，但是 tf.nn.dropout()运算是模型的一部分，需要一个给 `keep_prob` 一个值
+            - id: a1478646212823
+              text: keep_prob 在评估验证准确率时应该设成 1.0
+              is_correct: true
+              incorrect_feedback: null
+      - id: 274231
+        key: 7c53df85-f083-4af1-a2bd-141da86f1b6a
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Sun Apr 09 2017 07:37:19 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          ## 练习 2
+
+          这个练习的代码来自ReLU的练习，应用一个dropout层。用ReLU层和dropout层构建一个模型，`keep_prob`值设为
+          `0.5`。打印这个模型的logits。
+
+          注意: 由于dropout的随机性，每次运行代码输出会有所不同。
+        instructor_notes: ''
+        resources: null
+      - id: 274232
+        key: 73ed1038-9ba6-487b-8840-d1c101645d41
+        locale: zh-cn
+        version: 1.0.0
+        title: ''
+        semantic_type: QuizAtom
+        updated_at: 'Sun Apr 09 2017 07:38:23 GMT+0000 (UTC)'
+        is_public: true
+        resources: null
+        instructor_notes: ''
+        instruction: null
+        question:
+          title: ''
+          semantic_type: ProgrammingQuestion
+          evaluation_id: '6594713119490048'
+          evaluator:
+            model: ProgramEvaluator
+            execution_language: python3
+            executor_grading_code: |-
+              import json
+              from quiz_test import get_result
+
+              try:
+                  # Get grade result information
+                  result = get_result()
+              except Exception as err:
+                  # Default error result
+                  result = {
+                      'correct': False,
+                      'feedback': 'Something went wrong with your submission:',
+                      'comment': str(err)}
+
+              print(json.dumps(result))
+            executor_test_code: |-
+              def prevent_tf_error():
+                  """
+                  Prevent TF_DeleteStatus error - https://udacity.atlassian.net/browse/DRIVE-1507
+                  """
+                  import quiz
+
+              prevent_tf_error()
+            gae_grading_code: |
+              import json
+
+              # Pass result to grade_result
+              result = json.loads(executor_result['stdout'])
+              grade_result.update(result)
+            requires_gpu: false
+            deadline_seconds: 0
+            legacy_template_refs: []
+            included_text_files:
+              - text: |
+                  import contextlib
+                  import io
+                  import sys
+
+                  @contextlib.contextmanager
+                  def stdout_redirect(where):
+                      sys.stdout = where
+                      try:
+                          yield where
+                      finally:
+                          sys.stdout = sys.__stdout__
+                          
+                  def student_output(output_type=None):
+                      out = io.StringIO()
+                      
+                      # Capture stdout
+                      with stdout_redirect(out):
+                          import quiz
+                      
+                      # Get output
+                      out.seek(0)
+                      out = out.read()
+                      
+                      if output_type:
+                          # Convert output to a specified type
+                          try:
+                              out = output_type(out)
+                          except Exception:
+                              raise Exception('Output is the wrong type.  It should be {}.'.format(output_type.__name__))
+                      
+                      return out
+                name: all.py
+              - text: |-
+                  import numpy as np
+                  from all import student_output
+                  from tensorflow.python.framework.errors import FailedPreconditionError
+                  import re
+                  import tensorflow as tf
+
+                  def get_result():
+                      """
+                      Run unit tests against <student_func>
+                      """
+                      
+                      answer = np.array([
+                          [9.55999947, 16.],
+                          [0.11200001, 0.67200011],
+                          [43.30000305, 48.15999985]])
+                      no_dropout = np.array([
+                          [4.77999973, 8.],
+                          [0.51100004, 0.8440001],
+                          [24.01000214, 38.23999786]])
+                      result = {
+                          'correct': False,
+                          'feedback': 'That\'s the wrong answer.  It should print {}'.format(answer),
+                          'comment': ''}
+
+                      try:
+                          tf.set_random_seed(123456)
+                          output = student_output()
+                          
+                          try:
+                              output = np.fromstring(re.sub('[\[\]]', '', output) , sep=' ').reshape((3, 2))
+                          except Exception:
+                              raise Exception('Output is the wrong type or wrong dimension.')
+                          
+                          if output.shape == answer.shape and np.allclose(output, answer):
+                              result['correct'] = True
+                              result['feedback'] = 'You got it!  That\'s how you use dropout.'
+                          elif output.shape == no_dropout.shape and np.allclose(output, no_dropout):
+                              result['feedback'] = 'It looks like you\'re not applying dropout.'
+                              result['comment'] = 'Use the tf.nn.dropout() operation.'
+                      except FailedPreconditionError as err:
+                          if err.message.startswith('Attempting to use uninitialized value Variable'):
+                              result['feedback'] = 'TensorFlow variable uninitialized.'
+                              result['comment'] = 'Run tf.initialize_all_variables() in the session.'
+                          else:
+                              raise
+
+                      return result
+                name: quiz_test.py
+        answer: null

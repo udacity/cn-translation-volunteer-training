@@ -1,0 +1,3132 @@
+id: 296449
+key: 2fd24529-215c-47b5-a644-2c23650493f6
+locale: zh-cn
+version: 1.0.0
+title: 卷积神经网络
+semantic_type: Lesson
+updated_at: 'Sun Apr 16 2017 15:24:34 GMT+0000 (UTC)'
+is_public: true
+image:
+  url: 'https://d17h27t6h515a5.cloudfront.net/topher/2017/April/58ed4f4a_convolutional-neural-networks/convolutional-neural-networks.jpg'
+  width: 500
+  height: 500
+video: null
+summary: Vincent explains the theory behind Convolutional Neural Networks and how they help us dramatically improve performance in image classification.
+duration: 120
+is_project_lesson: false
+_concepts_ids:
+  - 193329
+  - 274453
+  - 274452
+  - 274454
+  - 274455
+  - 274456
+  - 274457
+  - 274458
+  - 274460
+  - 274459
+  - 274461
+  - 274462
+  - 274463
+  - 274464
+  - 274465
+  - 274466
+  - 274467
+  - 274468
+  - 274469
+  - 274471
+  - 274470
+  - 274472
+  - 274473
+  - 274474
+  - 274475
+  - 274477
+  - 274476
+  - 274479
+  - 274478
+  - 274480
+  - 274481
+  - 274482
+  - 274483
+  - 274484
+  - 274485
+_project_id: null
+resources:
+  files:
+    - name: Videos Zip File
+      uri: 'http://d2uz2655q5g6b2.cloudfront.net/2fd24529-215c-47b5-a644-2c23650493f6/267180/Convolutional%20Networks%20Videos.zip'
+  google_plus_link: null
+  career_resource_center_link: null
+  coaching_appointments_link: null
+  office_hours_link: null
+concepts:
+  - id: 193329
+    key: '63741833610923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 卷积神经网络简介
+    semantic_type: Concept
+    updated_at: 'Mon Oct 31 2016 08:20:44 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 193225
+    atoms:
+      - id: 193225
+        key: '6374183361'
+        locale: zh-cn
+        version: 1.0.0
+        title: 简介
+        semantic_type: VideoAtom
+        updated_at: 'Wed Apr 19 2017 21:33:31 GMT+0000 (UTC)'
+        is_public: true
+        tags: []
+        instructor_notes: null
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        video:
+          youtube_id: B61jxZ4rkMs
+          subtitles:
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0a38a_intro-lesson-3/subtitles/lang_en_vs2.srt'
+              language_code: en
+          transcodings:
+            uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0a38a_intro-lesson-3/intro-lesson-3_480p.mp4'
+            uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0a38a_intro-lesson-3/intro-lesson-3_480p_1000kbps.mp4'
+            uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0a38a_intro-lesson-3/intro-lesson-3_480p.ogg'
+            uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0a38a_intro-lesson-3/intro-lesson-3_720p.mp4'
+            uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0a38a_intro-lesson-3/hls/playlist.m3u8'
+  - id: 274453
+    key: f2ff6541-30f0-4437-9f07-22c91c384fcd
+    locale: zh-cn
+    version: 1.0.0
+    title: 颜色
+    semantic_type: Concept
+    updated_at: 'Sun Apr 09 2017 07:44:10 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 274247
+      - 274248
+    atoms:
+      - id: 274247
+        key: f55a2905-c8c2-47da-aae7-652557086d79
+        locale: zh-cn
+        version: 1.0.0
+        title: Color-Question
+        semantic_type: VideoAtom
+        updated_at: 'Tue Apr 18 2017 17:02:59 GMT+0000 (UTC)'
+        is_public: true
+        tags: []
+        instructor_notes: ''
+        resources: null
+        video:
+          youtube_id: BdQccpMwk80
+          subtitles:
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae2717_color-question/subtitles/lang_en_vs1.srt'
+              language_code: en
+          transcodings:
+            uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae2717_color-question/color-question_480p.mp4'
+            uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae2717_color-question/color-question_480p_1000kbps.mp4'
+            uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae2717_color-question/color-question_480p.ogg'
+            uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae2717_color-question/color-question_720p.mp4'
+            uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae2717_color-question/hls/playlist.m3u8'
+      - id: 274248
+        key: 4f6d9610-d4e6-47e0-a35c-3e81131fa0f5
+        locale: zh-cn
+        version: 1.0.0
+        title: 颜色
+        semantic_type: RadioQuizAtom
+        updated_at: 'Mon Apr 17 2017 23:50:12 GMT+0000 (UTC)'
+        is_public: true
+        question:
+          prompt: 对分类器来说哪样更容易学习？
+          correct_feedback: null
+          video_feedback:
+            youtube_id: xpyldyLlMFg
+            subtitles:
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae2717_color-solution/subtitles/lang_en_vs1.srt'
+                language_code: en
+            transcodings:
+              uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae2717_color-solution/color-solution_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae2717_color-solution/color-solution_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae2717_color-solution/color-solution_480p.ogg'
+              uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae2717_color-solution/color-solution_720p.mp4'
+              uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae2717_color-solution/hls/playlist.m3u8'
+          default_feedback: null
+          answers:
+            - id: a1487817099326
+              text: 'R, G, B'
+              is_correct: false
+              incorrect_feedback: null
+            - id: a1487817106603
+              text: (R + G + B) / 3
+              is_correct: true
+              incorrect_feedback: null
+  - id: 274452
+    key: 0814ce97-5008-432a-b28c-f483b7472965
+    locale: zh-cn
+    version: 1.0.0
+    title: 统计不变性
+    semantic_type: Concept
+    updated_at: 'Sun Apr 09 2017 07:47:15 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 274249
+    atoms:
+      - id: 274249
+        key: 49b8168f-fa5e-490d-86a2-45d87cd1f4b3
+        locale: zh-cn
+        version: 1.0.0
+        title: Statistical Invariance
+        semantic_type: VideoAtom
+        updated_at: 'Tue Apr 18 2017 17:02:59 GMT+0000 (UTC)'
+        is_public: true
+        tags: []
+        instructor_notes: ''
+        resources: null
+        video:
+          youtube_id: 0Hr5YwUUhr0
+          subtitles:
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae2734_statistical-invariance/subtitles/lang_en_vs1.srt'
+              language_code: en
+          transcodings:
+            uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae2734_statistical-invariance/statistical-invariance_480p.mp4'
+            uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae2734_statistical-invariance/statistical-invariance_480p_1000kbps.mp4'
+            uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae2734_statistical-invariance/statistical-invariance_480p.ogg'
+            uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae2734_statistical-invariance/statistical-invariance_720p.mp4'
+            uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae2734_statistical-invariance/hls/playlist.m3u8'
+  - id: 274454
+    key: 30ecc31b-f1b6-49c7-8e67-6757a9a1bb8b
+    locale: zh-cn
+    version: 1.0.0
+    title: 卷积网络
+    semantic_type: Concept
+    updated_at: 'Sun Apr 09 2017 08:02:59 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 274250
+    atoms:
+      - id: 274250
+        key: e3f5d200-347f-455a-a1bb-e19e0dceb53e
+        locale: zh-cn
+        version: 1.0.0
+        title: Convolutional Networks
+        semantic_type: VideoAtom
+        updated_at: 'Tue Apr 18 2017 17:03:17 GMT+0000 (UTC)'
+        is_public: true
+        tags: []
+        instructor_notes: ''
+        resources: null
+        video:
+          youtube_id: ISHGyvsT0QY
+          subtitles:
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae271e_convolutional-networks/subtitles/lang_en_vs1.srt'
+              language_code: en
+          transcodings:
+            uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae271e_convolutional-networks/convolutional-networks_480p.mp4'
+            uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae271e_convolutional-networks/convolutional-networks_480p_1000kbps.mp4'
+            uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae271e_convolutional-networks/convolutional-networks_480p.ogg'
+            uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae271e_convolutional-networks/convolutional-networks_720p.mp4'
+            uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae271e_convolutional-networks/hls/playlist.m3u8'
+  - id: 274455
+    key: da532f3b-29e8-43d1-9590-aa58909c28d1
+    locale: zh-cn
+    version: 1.0.0
+    title: 直观感受
+    semantic_type: Concept
+    updated_at: 'Sun Apr 09 2017 08:03:18 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 274251
+      - 274252
+      - 274253
+      - 274254
+      - 274255
+      - 274256
+      - 274259
+      - 274257
+      - 274258
+      - 274260
+      - 274261
+      - 274262
+    atoms:
+      - id: 274251
+        key: 981e7cdf-7f24-436c-beb6-1606f72f1502
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Sun Apr 09 2017 08:08:36 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          ### 直观感受
+
+          让我们对卷积神经网络如何工作有一个直观的理解。我们先看下人怎样识别图片，然后再看CNNs如何用一个近似的方法。
+
+          比如说，我们想把下面这张图片识别为金毛巡回犬。
+        instructor_notes: ''
+        resources: null
+      - id: 274252
+        key: aa96d6e5-db9d-44eb-ac45-111fe3b9c105
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: ImageAtom
+        updated_at: 'Sun Apr 09 2017 08:11:17 GMT+0000 (UTC)'
+        is_public: true
+        url: 'https://d17h27t6h515a5.cloudfront.net/topher/2016/November/58377b77_dog-1210559-1280/dog-1210559-1280.jpg'
+        width: 1280
+        height: 960
+        caption: 一个需要被识别为金毛巡回犬的图片
+        resources: null
+        instructor_notes: null
+      - id: 274253
+        key: cc60843a-7530-4492-b4db-40b3274e7581
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Mon Apr 24 2017 14:13:51 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          人类是怎么做的呢？
+
+          一种做法是我们识别狗的特定部位，例如鼻子，眼睛，毛发。我们把图片分成小片，识别小片，然后把这些和在一起，得到一个狗的概念。
+
+          这种情况下，我们可以把图片分成下列组合
+
+          - 一个鼻子
+          - 两只眼睛
+          - 金色毛发
+
+          如下图所示：
+        instructor_notes: ''
+        resources: null
+      - id: 274254
+        key: c0726277-4ce5-439b-9002-09b3afa237b1
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: ImageAtom
+        updated_at: 'Sun Apr 09 2017 08:20:49 GMT+0000 (UTC)'
+        is_public: true
+        url: 'https://d17h27t6h515a5.cloudfront.net/topher/2016/November/58377bdb_screen-shot-2016-11-24-at-12.49.08-pm/screen-shot-2016-11-24-at-12.49.08-pm.png'
+        width: 208
+        height: 208
+        caption: 狗的眼睛
+        resources: null
+        instructor_notes: null
+      - id: 274255
+        key: c51c102b-d377-456e-8c09-edb54c70634c
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: ImageAtom
+        updated_at: 'Sun Apr 09 2017 08:21:00 GMT+0000 (UTC)'
+        is_public: true
+        url: 'https://d17h27t6h515a5.cloudfront.net/topher/2016/November/58377bed_screen-shot-2016-11-24-at-12.49.43-pm/screen-shot-2016-11-24-at-12.49.43-pm.png'
+        width: 208
+        height: 208
+        caption: 狗的鼻子
+        resources: null
+        instructor_notes: null
+      - id: 274256
+        key: d851a50d-b7d2-4802-92f7-4f95e39206f8
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: ImageAtom
+        updated_at: 'Sun Apr 09 2017 08:21:10 GMT+0000 (UTC)'
+        is_public: true
+        url: 'https://d17h27t6h515a5.cloudfront.net/topher/2016/November/58377bff_screen-shot-2016-11-24-at-12.50.54-pm/screen-shot-2016-11-24-at-12.50.54-pm.png'
+        width: 208
+        height: 208
+        caption: 狗的毛发
+        resources: null
+        instructor_notes: null
+      - id: 274259
+        key: 37c9621d-4b4f-42b1-8557-6fc474708ddb
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Sun Apr 09 2017 08:23:59 GMT+0000 (UTC)'
+        is_public: true
+        text: |
+          ### 再进一步
+
+          再进一步来说，我们如何确定鼻子在哪呢？一个金毛巡回犬的鼻子可以看出是一个椭圆形，有两个黑洞在里面。因此，一种辨别巡回犬鼻子的方法是把它分割更小的区域，寻找黑洞（鼻孔）和椭圆的曲线。如下所示：
+        instructor_notes: ''
+        resources: null
+      - id: 274257
+        key: b86fec5d-77f1-4f93-9e5d-7a1044cd0be6
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: ImageAtom
+        updated_at: 'Sun Apr 09 2017 08:24:48 GMT+0000 (UTC)'
+        is_public: true
+        url: 'https://d17h27t6h515a5.cloudfront.net/topher/2016/November/58377c52_screen-shot-2016-11-24-at-12.51.47-pm/screen-shot-2016-11-24-at-12.51.47-pm.png'
+        width: 206
+        height: 62
+        caption: 一个可以用来确定鼻子的曲线
+        resources: null
+        instructor_notes: null
+      - id: 274258
+        key: b58e8f01-af9c-4dbe-8a51-43b49d41fbde
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: ImageAtom
+        updated_at: 'Sun Apr 09 2017 08:25:09 GMT+0000 (UTC)'
+        is_public: true
+        url: 'https://d17h27t6h515a5.cloudfront.net/topher/2016/November/58377c68_screen-shot-2016-11-24-at-12.51.51-pm/screen-shot-2016-11-24-at-12.51.51-pm.png'
+        width: 64
+        height: 86
+        caption: 用来分类狗鼻子的鼻孔
+        resources: null
+        instructor_notes: null
+      - id: 274260
+        key: 22c5f9fe-8c01-4559-9636-4685599f5473
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Mon Apr 24 2017 14:14:16 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          广义上来说，这就是CNN学着做的。它学习识别基本的直线，曲线，然后是形状，点块，然后是图片中更复杂的物体。最终CNN分类器把这些大的，复杂的物体综合起来识别图片
+
+          在我们的例子中，层级关系是：
+
+          - 简单的形状，如椭圆，暗色圆圈
+          - 复杂的物体（简单形状的组合），例如眼睛，鼻子，毛发
+          - 狗的整体（复杂物体的组合）
+
+          有了深度学习，我们不需要设定CNN来识别特定的特征。相反，CNN通过正向和反向传播自己学习识别上述物体。
+
+          尽管我们从来没有给CNN特定的特征来寻找，但是它级别图片的能力却好的惊人！
+        instructor_notes: ''
+        resources: null
+      - id: 274261
+        key: 277d41f9-189d-4b45-9453-d7c6f903f89b
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: ImageAtom
+        updated_at: 'Sun Apr 09 2017 08:42:35 GMT+0000 (UTC)'
+        is_public: true
+        url: 'https://d17h27t6h515a5.cloudfront.net/topher/2016/November/583cb19d_heirarchy-diagram/heirarchy-diagram.jpg'
+        width: 765
+        height: 549
+        caption: 对狗图片每一层CNN可能识别物体的示意图
+        resources: null
+        instructor_notes: null
+      - id: 274262
+        key: 92aa4d34-d3f0-4462-ad4e-08a50e9f432b
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Sun Apr 09 2017 09:06:18 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          CNN可能有几层网络，每个层可能捕获对象层次结构中的不同级别。第一层是层级结构的最底级，CNN一般来把图片中的小部分识别成简单的形状，例如水平、竖直的直线，简单色色块。紧接着一层是层级结构的上级，一般来说识别更复杂的形状（线的组合），最终识别整个物体，例如狗。
+
+          再次强调，CNN 是**自主学习**。我们不需要告诉CNN去寻找任何直线、曲线、鼻子、毛发等等。CNN 从训练集中学习并发现金毛巡回犬值得寻找的特征。
+
+          通过这样一个开始，希望你对CNNs如何工作有了一个很直观的了解。
+
+          接下来我们看看实现上地一些细节。
+        instructor_notes: ''
+        resources: null
+  - id: 274456
+    key: bed725a8-0738-4b00-92bd-d2062f005a7c
+    locale: zh-cn
+    version: 1.0.0
+    title: Filters 滤波器
+    semantic_type: Concept
+    updated_at: 'Sun Apr 09 2017 15:22:41 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 274263
+      - 274264
+      - 274265
+      - 274266
+      - 274267
+      - 274268
+      - 274269
+      - 274270
+      - 274271
+      - 274272
+      - 274273
+      - 274274
+      - 274275
+      - 274276
+    atoms:
+      - id: 274263
+        key: bffcee09-e532-4860-9041-fe528842665d
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Sun Apr 09 2017 15:26:46 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          ### 分解一张图片
+
+          CNN的第一步是把图片分成小块。我们选择一个宽度和高度来定义一个滤波器。
+
+          滤波器会照在图片的小块 patch （图像区块）上。这些 patches 的大小与滤波器一样大。
+        instructor_notes: ''
+        resources: null
+      - id: 274264
+        key: a3922280-56de-4ad6-8084-d21ccea24f2f
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: ImageAtom
+        updated_at: 'Sun Apr 09 2017 15:33:31 GMT+0000 (UTC)'
+        is_public: true
+        url: 'https://d17h27t6h515a5.cloudfront.net/topher/2016/November/58377d67_vlcsnap-2016-11-24-15h52m47s438/vlcsnap-2016-11-24-15h52m47s438.png'
+        width: 1280
+        height: 738
+        caption: 如之前视频所示，CNN用滤波器来把图片分割成更小的 patches，patch 的大小跟滤波器大小相同。
+        resources: null
+        instructor_notes: null
+      - id: 274265
+        key: df216b4f-9644-4676-9e88-1cc370fda019
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Sun Apr 09 2017 15:49:19 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          我们可以在水平方向，或者竖直方向滑动滤波器对图片的不同部分进行聚焦。
+
+          滤波器滑动的间隔被称作'stride'（步长）。他是你，作为工程师，可以调节的一个超参数。增大 stride 会通过减少每层观察总 patches 的数量来减小你模型的大小。
+
+          让我们看一个例子，在这个放大的狗图片中，我们从红框开始，我们滤波器的高和宽决定了这个正方形的大小。
+        instructor_notes: ''
+        resources: null
+      - id: 274266
+        key: 87549295-db45-4eb3-9085-c7bf02cd4367
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: ImageAtom
+        updated_at: 'Sun Apr 09 2017 15:14:41 GMT+0000 (UTC)'
+        is_public: true
+        url: 'https://d17h27t6h515a5.cloudfront.net/topher/2016/December/5840fdac_retriever-patch/retriever-patch.png'
+        width: 1902
+        height: 1502
+        caption: 金色巡回犬图片的一块
+        resources: null
+        instructor_notes: null
+      - id: 274267
+        key: 6bdd5960-fa6b-4619-91f9-af26c0cf0650
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Sun Apr 09 2017 15:16:17 GMT+0000 (UTC)'
+        is_public: true
+        text: 然后我们向右把方块移动一个给定的步长（这里是2），得到另一块。
+        instructor_notes: ''
+        resources: null
+      - id: 274268
+        key: 2cf8a023-b9c9-4712-9ab0-f410e990b96f
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: ImageAtom
+        updated_at: 'Sun Apr 09 2017 15:52:43 GMT+0000 (UTC)'
+        is_public: true
+        url: 'https://d17h27t6h515a5.cloudfront.net/topher/2016/December/5840fe04_retriever-patch-shifted/retriever-patch-shifted.png'
+        width: 1904
+        height: 1506
+        caption: 我们把方块向右移动两个像素，得到另一个patch。
+        resources: null
+        instructor_notes: null
+      - id: 274269
+        key: 2507e583-297a-4de4-aecc-0887525d5de8
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Sun Apr 09 2017 16:05:54 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          这里最重要的是我们把相邻的像素**聚在一起**，把他们视作一个集合。
+
+          在普通非卷积的神经网络中，我们忽略了这种临近性。在普通网络中，我们把输入图片中的每一个像素与下一层的神经元相连。这样做我们没有有效利用图片中相邻像素在一起是有原因的，这有特殊意义。
+
+          要利用这种临近结构，我们的CNN就要学习如何分类临近模式，例如图片中的形状和物体。
+        instructor_notes: ''
+        resources: null
+      - id: 274270
+        key: cd0004cd-3a85-46fa-a46b-02874ebf9a0c
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Sun Apr 09 2017 16:15:28 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          ### 滤波器深度
+
+          通常都会有多余一个滤波器，不同滤波器提取一个 patch 的不同特性。例如，一个滤波器寻找特定颜色，另一个寻找特定物体的特定形状。卷积层滤波器的数量被称为**滤波器深度**。
+        instructor_notes: ''
+        resources: null
+      - id: 274271
+        key: 3af04f74-fc45-4cf4-8387-ae4511e4b86a
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: ImageAtom
+        updated_at: 'Sun Apr 09 2017 16:16:40 GMT+0000 (UTC)'
+        is_public: true
+        url: 'https://d17h27t6h515a5.cloudfront.net/topher/2016/November/58377e4f_neilsen-pic/neilsen-pic.png'
+        width: 353
+        height: 258
+        caption: |-
+          上述例子中，一个 patch 与下一层的神经元相连 
+
+          来源: MIchael Neilsen
+        resources: null
+        instructor_notes: null
+      - id: 274272
+        key: ea641478-9f33-4730-afdb-540af71e4633
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Sun Apr 09 2017 16:26:51 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          每一个 patch 连接到多少神经元呢？
+
+          这取决于我们滤波器的深度，如果我们的深度是 `k`，我们把每个 patch 与下一层的 `k` 个神经元相连。这样我们下一层的高度就是 `k`，如下图所示。实际操作中，`k`是一个我们可以调节的超参数，大多数的CNNs倾向于选择相同的起始值。
+        instructor_notes: ''
+        resources: null
+      - id: 274273
+        key: fa6c2e6d-1bd6-4f0a-8566-e57b4fd9306d
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: ImageAtom
+        updated_at: 'Sun Apr 09 2017 16:27:37 GMT+0000 (UTC)'
+        is_public: true
+        url: 'https://d17h27t6h515a5.cloudfront.net/topher/2016/December/5840ffda_filter-depth/filter-depth.png'
+        width: 606
+        height: 1010
+        caption: 滤波器的深度为`k`，与下次的`k`个神经元相连
+        resources: null
+        instructor_notes: null
+      - id: 274274
+        key: 44c5ccb8-cf3b-4bbf-8a50-223b036359e2
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Sun Apr 09 2017 16:31:01 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          为什么我们把一个 patch 与下一层的多个神经元相连呢？一个神经元不够好吗？
+
+          多个神经元的作用在于，一个 patch 可以有多个有意义的特点我们可以提取。
+
+          例如，一个 patch 可能包括白牙，金色的须，红舌头的一部分。在这种情况下，我们想要一个深度至少为3的滤波器，一个为了牙，一个为了须，一个为舌头。
+        instructor_notes: ''
+        resources: null
+      - id: 274275
+        key: a5819d86-3180-412a-827f-fec39a336740
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: ImageAtom
+        updated_at: 'Sun Apr 09 2017 16:32:03 GMT+0000 (UTC)'
+        is_public: true
+        url: 'https://d17h27t6h515a5.cloudfront.net/topher/2016/December/584104c8_teeth-whiskers-tongue/teeth-whiskers-tongue.png'
+        width: 388
+        height: 420
+        caption: 这个狗的patch 有很多有意思的特征需要提取。包括牙、须以及粉红色的舌头。
+        resources: null
+        instructor_notes: null
+      - id: 274276
+        key: ca766777-9d37-4621-9808-75ae078266d6
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Sun Apr 09 2017 16:34:11 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          一个patch连接有多个神经元可以保证我们的 CNNs 学会提取任何它觉得重要的特征。
+
+          记住，CNN并没有被规定寻找特定特征。与之相反，它**自我学习**什么特征值得注意。
+        instructor_notes: ''
+        resources: null
+  - id: 274457
+    key: 43de97fc-058a-48cc-84a3-4b68246e7a39
+    locale: zh-cn
+    version: 1.0.0
+    title: 特征图大小
+    semantic_type: Concept
+    updated_at: 'Tue Apr 11 2017 03:50:21 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 274277
+      - 274278
+      - 274279
+      - 274280
+      - 274281
+    atoms:
+      - id: 274277
+        key: 5717cfe2-a602-4e16-b5e5-222a74bc94a8
+        locale: zh-cn
+        version: 1.0.0
+        title: Feature-Map-Sizes-Question
+        semantic_type: VideoAtom
+        updated_at: 'Tue Apr 18 2017 17:04:11 GMT+0000 (UTC)'
+        is_public: true
+        tags: []
+        instructor_notes: ''
+        resources: null
+        video:
+          youtube_id: lp1NrLZnCUM
+          subtitles:
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae2728_feature-map-sizes-question/subtitles/lang_en_vs1.srt'
+              language_code: en
+          transcodings:
+            uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae2728_feature-map-sizes-question/feature-map-sizes-question_480p.mp4'
+            uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae2728_feature-map-sizes-question/feature-map-sizes-question_480p_1000kbps.mp4'
+            uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae2728_feature-map-sizes-question/feature-map-sizes-question_480p.ogg'
+            uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae2728_feature-map-sizes-question/feature-map-sizes-question_720p.mp4'
+            uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae2728_feature-map-sizes-question/hls/playlist.m3u8'
+      - id: 274278
+        key: 40760579-17ee-4a55-a406-f823144a3b1f
+        locale: zh-cn
+        version: 1.0.0
+        title: ''
+        semantic_type: ValidatedQuizAtom
+        updated_at: 'Mon Mar 06 2017 02:57:26 GMT+0000 (UTC)'
+        is_public: true
+        question:
+          prompt: |-
+            What are the width, height and depth for padding = 'same', stride = 1?
+
+            Enter your answers in the format "width, height, depth"
+          default_feedback: null
+          correct_feedback: Good job!
+          video_feedback: null
+          matchers:
+            - semantic_type: RegexMatcher
+              is_correct: true
+              expression: '"*28,\s*28,\s*8"*'
+              expression_description: 'width, height, depth'
+              flags: ''
+              incorrect_feedback: null
+      - id: 274279
+        key: 8990692b-866c-46c4-b6f1-257f4df33ce9
+        locale: zh-cn
+        version: 1.0.0
+        title: ''
+        semantic_type: ValidatedQuizAtom
+        updated_at: 'Mon Mar 06 2017 02:57:26 GMT+0000 (UTC)'
+        is_public: true
+        question:
+          prompt: |-
+            What are the width, height and depth for padding = 'valid', stride = 1?
+
+            Enter your answers in the format "width, height, depth"
+          default_feedback: null
+          correct_feedback: Great job!
+          video_feedback: null
+          matchers:
+            - semantic_type: RegexMatcher
+              is_correct: true
+              expression: '"*26,\s*26,\s*8"*'
+              expression_description: 'width, height, depth'
+              flags: ''
+              incorrect_feedback: null
+      - id: 274280
+        key: f62136ad-ba37-45d8-9dd0-a6c8c4a57f55
+        locale: zh-cn
+        version: 1.0.0
+        title: ''
+        semantic_type: ValidatedQuizAtom
+        updated_at: 'Mon Mar 06 2017 02:57:26 GMT+0000 (UTC)'
+        is_public: true
+        question:
+          prompt: |-
+            What are the width, height and depth for padding = 'valid', stride = 2?
+
+            Enter your answers in the format "width, height, depth"
+          default_feedback: null
+          correct_feedback: Nicely done!
+          video_feedback: null
+          matchers:
+            - semantic_type: RegexMatcher
+              is_correct: true
+              expression: '"*13,\s*13,\s*8"*'
+              expression_description: 'width, height, depth'
+              flags: ''
+              incorrect_feedback: null
+      - id: 274281
+        key: 285bd011-2922-4c29-b9a5-1d743c23855a
+        locale: zh-cn
+        version: 1.0.0
+        title: Feature-Map-Sizes-Solution
+        semantic_type: VideoAtom
+        updated_at: 'Tue Apr 18 2017 17:04:07 GMT+0000 (UTC)'
+        is_public: true
+        tags: []
+        instructor_notes: ''
+        resources: null
+        video:
+          youtube_id: W4xtf8LTz1c
+          subtitles:
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae2729_feature-map-sizes-solution/subtitles/lang_en_vs1.srt'
+              language_code: en
+          transcodings:
+            uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae2729_feature-map-sizes-solution/feature-map-sizes-solution_480p.mp4'
+            uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae2729_feature-map-sizes-solution/feature-map-sizes-solution_480p_1000kbps.mp4'
+            uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae2729_feature-map-sizes-solution/feature-map-sizes-solution_480p.ogg'
+            uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae2729_feature-map-sizes-solution/feature-map-sizes-solution_720p.mp4'
+            uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae2729_feature-map-sizes-solution/hls/playlist.m3u8'
+  - id: 274458
+    key: 3638458d-0576-4590-95cf-1cfb502adcad
+    locale: zh-cn
+    version: 1.0.0
+    title: 继续卷积
+    semantic_type: Concept
+    updated_at: 'Tue Apr 11 2017 02:58:12 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 274282
+    atoms:
+      - id: 274282
+        key: d5576aaf-8a77-4013-a3c8-c2d5a9a2b8bc
+        locale: zh-cn
+        version: 1.0.0
+        title: Convolutions Cont.
+        semantic_type: VideoAtom
+        updated_at: 'Tue Apr 18 2017 17:00:55 GMT+0000 (UTC)'
+        is_public: true
+        tags: []
+        instructor_notes: 注意，全链接层是一个标准的，非卷积层。它所有的输入跟输出神经相连，这也被称为 dense 层。
+        resources: null
+        video:
+          youtube_id: utOv-BKI_vo
+          subtitles:
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae2720_convolutions-cont/subtitles/lang_en_vs1.srt'
+              language_code: en
+          transcodings:
+            uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae2720_convolutions-cont/convolutions-cont_480p.mp4'
+            uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae2720_convolutions-cont/convolutions-cont_480p_1000kbps.mp4'
+            uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae2720_convolutions-cont/convolutions-cont_480p.ogg'
+            uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae2720_convolutions-cont/convolutions-cont_720p.mp4'
+            uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae2720_convolutions-cont/hls/playlist.m3u8'
+  - id: 274460
+    key: 89f26417-d3ff-45c1-bccc-4e7913e9e135
+    locale: zh-cn
+    version: 1.0.0
+    title: 参数
+    semantic_type: Concept
+    updated_at: 'Tue Apr 11 2017 03:21:30 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 274283
+      - 274284
+      - 274285
+      - 274286
+      - 274287
+      - 274291
+      - 274292
+      - 274288
+      - 274289
+    atoms:
+      - id: 274283
+        key: a21de279-98c2-4765-92a9-9424448f44dc
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Tue Apr 11 2017 03:21:44 GMT+0000 (UTC)'
+        is_public: true
+        text: '### 参数共享'
+        instructor_notes: ''
+        resources: null
+      - id: 274284
+        key: eb700544-b583-4e66-af70-0ef0564e4cf9
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: ImageAtom
+        updated_at: 'Tue Apr 11 2017 03:24:27 GMT+0000 (UTC)'
+        is_public: true
+        url: 'https://d17h27t6h515a5.cloudfront.net/topher/2016/November/58377f77_vlcsnap-2016-11-24-16h01m35s262/vlcsnap-2016-11-24-16h01m35s262.png'
+        width: 1280
+        height: 738
+        caption: 在CNN的一层中的 patches 中共享权重 `w` ，无论猫在图片的哪个位置都可以找到。
+        resources: null
+        instructor_notes: null
+      - id: 274285
+        key: 96306fe2-015e-4c76-8eeb-096857f90fc0
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Tue Apr 11 2017 03:49:34 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          当我们试图识别一个猫的图片的时候，我们并不在意猫出现在哪个位置。无论是左上角，右下角，它在你眼里都是一只猫。我们希望CNNs能够无差别的识别，这如何做到呢？
+
+          如我们之前所见，一个给定的 patch 的分类，是由 patch 对应的权重和偏置项决定的。
+
+          如果我们想让左上角的猫与右下角的猫以同样的方式被识别，他们的权重和偏置项需要一样，这样他们才能以同一种方法识别。
+
+          这正是我们在CNNs中做的。一个给定输出层学到的权重和偏置项会共享在输入层所有的patches里。注意，当我们增大滤波器的深度的时候，我们需要学习的权重和偏置项的数量也会增加，因为权重并没有共享在所有输出的 channel里。
+
+          共享参数还有一个额外的好处。如果我们不再所有的 patches 里用相同的权重，我们必须对每一个 patch 和它对应的隐藏层神经元学习新的参数。这不利于规模化，特别对于高清图片。因此， 共享权重不仅帮我们平移不变，还给我们一个更小，可以规模化的模型。
+        instructor_notes: ''
+        resources: null
+      - id: 274286
+        key: da4dd3a4-b0f8-4d3d-bd7d-9ac43e4d1ed3
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Mon Mar 06 2017 02:57:26 GMT+0000 (UTC)'
+        is_public: true
+        text: |
+          ### Padding
+        instructor_notes: ''
+        resources: null
+      - id: 274287
+        key: 4a227cdd-d0f5-4a09-8765-da4238760420
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: ImageAtom
+        updated_at: 'Mon Mar 06 2017 02:57:26 GMT+0000 (UTC)'
+        is_public: true
+        url: 'https://d17h27t6h515a5.cloudfront.net/topher/2016/November/5837d4d5_screen-shot-2016-11-24-at-10.05.37-pm/screen-shot-2016-11-24-at-10.05.37-pm.png'
+        width: 278
+        height: 278
+        caption: 'A `5x5` grid with a `3x3` filter. Source: Andrej Karpathy.'
+        resources: null
+        instructor_notes: null
+      - id: 274291
+        key: fbddbfa6-716b-4901-b9cd-f155a3757541
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Mon Mar 06 2017 02:57:26 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          Let's say we have a `5x5` grid (as shown above) and a filter of size `3x3` with a stride of `1`. What's the width and height of the next layer? We see that we can fit at most three patches in each direction, giving us a dimension of `3x3` in our next layer. As we can see, the width and height of each subsequent layer decreases in such a scheme.
+
+          In an ideal world, we'd be able to maintain the same width and height across layers so that we can continue to add layers without worrying about the dimensionality shrinking and so that we have consistency. How might we achieve this? One way is to simply add a border of `0`s to our original `5x5` image. You can see what this looks like in the below image.
+        instructor_notes: ''
+        resources: null
+      - id: 274292
+        key: ed5e3c84-a67f-4af1-9c7d-3044cb5f9497
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: ImageAtom
+        updated_at: 'Mon Mar 06 2017 02:57:26 GMT+0000 (UTC)'
+        is_public: true
+        url: 'https://d17h27t6h515a5.cloudfront.net/topher/2016/November/5837d4ee_screen-shot-2016-11-24-at-10.05.46-pm/screen-shot-2016-11-24-at-10.05.46-pm.png'
+        width: 388
+        height: 390
+        caption: 'The same grid with `0` padding. Source: Andrej Karpathy.'
+        resources: null
+        instructor_notes: null
+      - id: 274288
+        key: 5b032630-e022-4f5d-8abf-bc16bb5f6031
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Mon Mar 06 2017 02:57:26 GMT+0000 (UTC)'
+        is_public: true
+        text: ' This would expand our original image to a `7x7`. With this, we now see how our next layer''s size is again a `5x5`, keeping our dimensionality consistent.'
+        instructor_notes: ''
+        resources: null
+      - id: 274289
+        key: c6599167-dcb6-4fdd-bfb4-917ede0d22a6
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Mon Mar 06 2017 02:57:26 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          ### Dimensionality
+
+          From what we've learned so far, how can we calculate the number of neurons of each layer in our CNN? 
+
+          Given our input layer has a volume of `W`, our filter has a volume (```height * width * depth```) of `F`, we have a stride of `S`, and a padding of `P`, the following formula gives us the volume of the next layer: ```(W−F+2P)/S+1```. 
+
+          Knowing the dimensionality of each additional layer helps us understand how large our model is and how our decisions around filter size and stride affect the size of our network.
+        instructor_notes: ''
+        resources: null
+  - id: 274459
+    key: 4f028128-6c6a-41e1-80cd-58f54189615d
+    locale: zh-cn
+    version: 1.0.0
+    title: 练习：卷积输出形状
+    semantic_type: Concept
+    updated_at: 'Tue Apr 11 2017 04:00:50 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 274290
+      - 274293
+    atoms:
+      - id: 274290
+        key: c0dac984-82f5-4c72-b07f-a8b1bc81140e
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Tue Apr 11 2017 03:57:40 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          ### 介绍
+
+          接下来的几个练习我们检测你对CNNs维度的理解，理解维度可以帮你在模型大小和表现直接做精确的权衡。你将会了解，一些参数对模型大小的影响会远大于另外一些。
+
+          ### 设置
+
+          H = height, W = width, D = depth
+
+          * 我们有一个输入形状是 32x32x3 (HxWxD)
+          * 20个形状为 8x8x3 (HxWxD) 的过滤器
+          * 高和宽的stride（步长）都为 2。(S)
+          * padding 大小为1 (P)
+
+          计算新的高度和宽度的公式是：
+
+          ```
+          new_height = (input_height - filter_height + 2 * P)/S + 1
+          new_width = (input_width - filter_width + 2 * P)/S + 1
+          ```
+        instructor_notes: ''
+        resources: null
+      - id: 274293
+        key: 627fa396-81d9-47f2-81bc-63f049bdf72f
+        locale: zh-cn
+        version: 1.0.0
+        title: 卷积层输出形状
+        semantic_type: ValidatedQuizAtom
+        updated_at: 'Tue Apr 11 2017 04:07:06 GMT+0000 (UTC)'
+        is_public: true
+        question:
+          prompt: |-
+            输出的形状是？
+
+            答案写成 **HxWxD** 的形式。假设你认为新的告诉是 9，新的宽度是 9，新的深度是 5，你在答案框中输入 9x9x5。
+          default_feedback: |-
+            记住，我们可以用下面的公式计算高度和宽度：
+
+            ```
+            new_height = (input_height - filter_height + 2 * padding_height)/ stride_height + 1
+            new_width = (input_width - filter_width + 2 * padding_width)/ stride_width + 1
+            ```
+          correct_feedback: |-
+            很棒！ :-)
+
+            我们可以从这个公式中得到结果：
+
+            ```
+            (32 - 8 + 2 * 1)/2 + 1 = 14
+            (32 - 8 + 2 * 1)/2 + 1 = 14
+            ```
+
+            新的深度就是滤波器的数量，这里是 20。
+          video_feedback: null
+          matchers:
+            - semantic_type: RegexMatcher
+              is_correct: true
+              expression: 14x14x20
+              expression_description: The shape format is HxWxD
+              flags: ''
+              incorrect_feedback: null
+            - semantic_type: RegexMatcher
+              is_correct: false
+              expression: '[0-9]+x[0-9]+x20'
+              expression_description: null
+              flags: ''
+              incorrect_feedback: 你正确计算了新的深度，请用公式计算新的高度和宽度！
+            - semantic_type: RegexMatcher
+              is_correct: false
+              expression: '14x14x[0-9]+'
+              expression_description: null
+              flags: ''
+              incorrect_feedback: 你正确计算了新的高度和宽度，记住深度与滤波器的数量相等。
+  - id: 274461
+    key: d0db3cab-ad70-46ec-9614-4dfc27dfc865
+    locale: zh-cn
+    version: 1.0.0
+    title: 答案：卷积输出大小
+    semantic_type: Concept
+    updated_at: 'Tue Apr 11 2017 04:07:40 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 274294
+      - 274295
+    atoms:
+      - id: 274294
+        key: 3b780879-3bb2-4eba-9441-8b91f795a7be
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Tue Apr 11 2017 04:08:55 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          ### 答案
+
+          答案是 **14x14x20**
+
+          代入公式可以得到下列结果：
+
+          ```
+          (32 - 8 + 2 * 1)/2 + 1 = 14
+          (32 - 8 + 2 * 1)/2 + 1 = 14
+          ```
+
+          新的深度与滤波器的数量相同，都是 20。
+        instructor_notes: ''
+        resources: null
+      - id: 274295
+        key: 21ccd211-4298-4bd8-9be7-2d44e23557ad
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Tue Apr 11 2017 04:17:22 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          这对应的代码是：
+
+          ```python
+          input = tf.placeholder(tf.float32, (None, 32, 32, 3))
+          filter_weights = tf.Variable(tf.truncated_normal((8, 8, 3, 20))) # (height, width, input_depth, output_depth)
+          filter_bias = tf.Variable(tf.zeros(20))
+          strides = [1, 2, 2, 1] # (batch, height, width, depth)
+          padding = 'VALID'
+          conv = tf.nn.conv2d(input, filter_weights, strides, padding) + filter_bias
+          ```
+
+          注意，这里的`conv` 输出的是 [1, 13, 13, 20]。这是对应 batch size 的 4D 大小，重要的是它不是  [1, 14, 14, 20]。这是因为 TensorFlow 的 padding 算法与上面的并不完全相同。一个可替换方案是把 `padding` 从 `'VALID'` 改为`'SAME'`，这样得到的结果是 [1, 16, 16, 20]。如果你想了解 TensorFlow 中的 padding 如何工作，可以看这个[文档](https://www.tensorflow.org/api_guides/python/nn#Convolution)。
+        instructor_notes: ''
+        resources: null
+  - id: 274462
+    key: 99df67c6-a4a1-4149-8271-be731155becc
+    locale: zh-cn
+    version: 1.0.0
+    title: 练习：参数数量
+    semantic_type: Concept
+    updated_at: 'Tue Apr 11 2017 04:18:59 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 274296
+      - 274297
+    atoms:
+      - id: 274296
+        key: 41c5e80b-82a4-45ed-8d96-55f222a3147e
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Tue Apr 11 2017 04:51:55 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          我们要计算卷积层的参数的数量，上一个练习的答案这里可以用在这里！
+
+          能够计算神经网络里面的参数数量很有用，因为我们想控制神经网络使用了多少内存空间
+
+          ### 设置
+
+          H = height, W = width, D = depth
+          - 我们有一个输入形状是 32x32x3 (HxWxD)
+          - 20个形状为 8x8x3 (HxWxD) 的过滤器
+          - 高和宽的stride（步长）都为 2。(S)
+          - padding 大小为1 (P)
+
+          ### 输出层
+
+          * 14x14x20 (HxWxD)
+
+          ### 提示
+
+          没有参数共享，每个输出层的神经元必须连接到滤波器的每个神经元。此外，每个输出层的神经元必须连接到一个偏置神经元。
+        instructor_notes: ''
+        resources: null
+      - id: 274297
+        key: 489c1658-a8f6-41e2-850f-8a6cafb11691
+        locale: zh-cn
+        version: 1.0.0
+        title: 卷积层参数 1
+        semantic_type: ValidatedQuizAtom
+        updated_at: 'Tue Apr 11 2017 06:14:26 GMT+0000 (UTC)'
+        is_public: true
+        question:
+          prompt: |
+            卷积层有多少参数（没有参数共享情况下）？
+          default_feedback: 没有权值共享时，滤波器中的**每一个参数**与输出的**每一个神经元**都相连。所以，我们需要做的是计算滤波器总计的参数数量，以及输出的总神经元数量。
+          correct_feedback: |-
+            棒极啦！:-)
+
+            ```756560``` 是正确的总参数数量，非常多！我们是这样计算的：
+
+            ```(8 * 8 * 3 + 1) * (14 * 14 * 20) = 756560```
+
+            ```8 * 8 * 3``` 是权值的数量，我们加了```1```作为偏置。记住，每一个权值都会被分派到输出(```14 * 14 * 20```)的每一部分，所以我们把这两个数相乘，得到最后的答案。
+          video_feedback: null
+          matchers:
+            - semantic_type: RegexMatcher
+              is_correct: true
+              expression: '756560'
+              expression_description: null
+              flags: ''
+              incorrect_feedback: null
+            - semantic_type: RegexMatcher
+              is_correct: false
+              expression: '752640'
+              expression_description: null
+              flags: ''
+              incorrect_feedback: 不要忘记 bias ！
+  - id: 274463
+    key: 5377ffff-a041-41cb-97a0-f86c398a76cb
+    locale: zh-cn
+    version: 1.0.0
+    title: 答案：参数数量
+    semantic_type: Concept
+    updated_at: 'Tue Apr 11 2017 06:15:23 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 274298
+    atoms:
+      - id: 274298
+        key: eefa9e47-f9ab-435a-b00a-0c8c8abcca1e
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Tue Apr 11 2017 06:17:35 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          ### 答案
+
+          总共有```756560```个参数。这非常多！这是我们的计算方法：
+
+          ```(8 * 8 * 3 + 1) * (14 * 14 * 20) = 756560```
+
+          ```8 * 8 * 3``` 是权值数量，加上 ```1``` 作为 bias。因为每一个权值都与输出的每一部分相连。所以我们把这两个数相乘得到最后答案。
+        instructor_notes: ''
+        resources: null
+  - id: 274464
+    key: f1bd5dcc-5e97-48ef-bd74-01d0c7c620e7
+    locale: zh-cn
+    version: 1.0.0
+    title: 练习：参数共享
+    semantic_type: Concept
+    updated_at: 'Tue Apr 11 2017 06:18:14 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 274299
+      - 274300
+    atoms:
+      - id: 274299
+        key: 0f6aeb7c-d369-4f0a-94f9-a7b90d8f9da2
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Tue Apr 11 2017 06:36:09 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          如果输出层的每个神经元与其它同样通道的神经元共享参数。现在我们想让你来计算卷积层的总数量，
+          这是实际卷积层使用的参数的数量 ([`tf.nn.conv2d()`](https://www.tensorflow.org/api_docs/python/tf/nn/conv2d))。
+
+          ### 设置
+
+          H = height, W = width, D = depth
+
+          - 我们有一个输入形状是 32x32x3 (HxWxD)
+          - 20个形状为 8x8x3 (HxWxD) 的过滤器
+          - 高和宽的stride（步长）都为 2。(S)
+          - padding 大小为1 (P)
+
+          ### 输出层
+          * 14x14x20 (HxWxD)
+
+          ### 提示
+
+          有了参数共享，每个输出通道的神经元与相同通道的其它神经元共享权值。参数的数量与滤波器神经元的数量相同，加上偏置，再乘以输出层的通道数。
+        instructor_notes: ''
+        resources: null
+      - id: 274300
+        key: 9046a2fc-5165-4e7e-bd27-4eccdeb25574
+        locale: zh-cn
+        version: 1.0.0
+        title: 卷积层参数 2
+        semantic_type: ValidatedQuizAtom
+        updated_at: 'Tue Apr 11 2017 07:02:42 GMT+0000 (UTC)'
+        is_public: true
+        question:
+          prompt: |
+            有了参数共享后，卷积层有多少参数？
+          default_feedback: 有了参数共享，每个滤波器的**每个参数**不需要与输出层的**每个神经元**相连。此外，同样的滤波器用在一整个深度切片上。所以我们需要找出我们有多少深度切片。
+          correct_feedback: |-
+            很棒！:-)
+
+            ```3860``` 是正确答案。它是之前的196分之一！这是计算方法：
+
+            ```(8 * 8 * 3 + 1) * 20 = 3840 + 20 = 3860```
+
+            ```3840``` 个权值与 ```20``` 个偏置。这与之前练习的答案类似，区别就是```20```，而不是 (```14 * 14 * 20```)。记住，有了权值共享，一整个深度切片，我们用同一个滤波器。所以我们可以拿掉```14 * 14```只留下```20```。
+          video_feedback: null
+          matchers:
+            - semantic_type: RegexMatcher
+              is_correct: true
+              expression: '3860'
+              expression_description: null
+              flags: ''
+              incorrect_feedback: null
+            - semantic_type: RegexMatcher
+              is_correct: false
+              expression: '3840'
+              expression_description: null
+              flags: ''
+              incorrect_feedback: |-
+                :-(
+
+                这是 bias 目前的感觉
+  - id: 274465
+    key: ae7e9d37-9e45-4143-a90b-93f6a689d624
+    locale: zh-cn
+    version: 1.0.0
+    title: 答案：参数共享
+    semantic_type: Concept
+    updated_at: 'Tue Apr 11 2017 07:08:18 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 274301
+    atoms:
+      - id: 274301
+        key: fcadba6b-b7b3-4c39-877c-ad258cfffc65
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Tue Apr 11 2017 07:11:15 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          ### 答案
+
+          总计有 ```3860``` 个参数。是之前的196分之一。是这样计算的：
+
+          ```(8 * 8 * 3 + 1) * 20 = 3840 + 20 = 3860```
+
+          ```3840``` 个权值与 ```20``` 个偏置。这与之前练习的答案类似，区别就是```20```，而不是 (```14 * 14 * 20```)。记住，有了权值共享，一整个深度切片，我们用同一个滤波器。所以我们可以拿掉```14 * 14```只留下```20```。
+        instructor_notes: ''
+        resources: null
+  - id: 274466
+    key: 05f91f07-6de6-4b6b-b989-6112802e09a4
+    locale: zh-cn
+    version: 1.0.0
+    title: CNNs 可视化
+    semantic_type: Concept
+    updated_at: 'Tue Apr 11 2017 07:12:31 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 274302
+      - 274303
+      - 274304
+      - 274305
+      - 274306
+      - 274307
+      - 274308
+      - 274309
+      - 274310
+      - 274311
+      - 274312
+      - 274313
+      - 274314
+      - 274315
+      - 274316
+      - 274317
+      - 274318
+      - 274319
+    atoms:
+      - id: 274302
+        key: 52808599-4650-4298-9e85-94b7b0f0259e
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Tue Apr 11 2017 07:18:14 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          ### CNNs 可视化
+
+          让我们看一个CNN的例子，了解它如何运作。
+
+          我们看的CNN的例子是由 ImageNet 训练的 [Zeiler 和 Fergus 的论文链接](http://www.matthewzeiler.com/pubs/arxive2013/eccv2014.pdf) 在下图中（来自论文），我们会看到网络中的每一层侦测到什么，看到每一层如何侦测更复杂的概念。
+        instructor_notes: ''
+        resources: null
+      - id: 274303
+        key: 6fc7e5ca-d9b9-4e08-b954-381bc83a9a3b
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Tue Apr 11 2017 07:28:03 GMT+0000 (UTC)'
+        is_public: true
+        text: '### 第一层'
+        instructor_notes: ''
+        resources: null
+      - id: 274304
+        key: 74806463-4520-49f3-8ca7-5a4286d556bd
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: ImageAtom
+        updated_at: 'Tue Apr 11 2017 07:22:03 GMT+0000 (UTC)'
+        is_public: true
+        url: 'https://d17h27t6h515a5.cloudfront.net/topher/2016/November/583cbd42_layer-1-grid/layer-1-grid.png'
+        width: 165
+        height: 171
+        caption: 网络第一层被激活的样例。有简单的对角线（左上）和绿色色块（中下）。
+        resources: null
+        instructor_notes: null
+      - id: 274305
+        key: 8023f628-9a6c-4c3a-a35a-6a6bb15a6138
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Tue Apr 11 2017 07:33:02 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          图片来自 Matthew Zeiler 和 Rob Fergus' [deep visualization toolbox](https://www.youtube.com/watch?v=ghEmQSxT6tw)，让我们可以可视化地看到CNN每一层的关注的点是什么。
+
+          上述格子中的每一个图片都代表一个激活神经元的图案。换句话说，他们是第一层认出的图案。左上角的图有一条负45度的直线，上方中间的图有一个正45度的直线。如下所示：
+        instructor_notes: ''
+        resources: null
+      - id: 274306
+        key: c672f583-4c23-462b-8493-12ad6e5c875a
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: ImageAtom
+        updated_at: 'Tue Apr 11 2017 07:34:31 GMT+0000 (UTC)'
+        is_public: true
+        url: 'https://d17h27t6h515a5.cloudfront.net/topher/2016/November/583cbba2_diagonal-line-1/diagonal-line-1.png'
+        width: 55
+        height: 53
+        caption: 可以看到第一层识别出的负45度的直线
+        resources: null
+        instructor_notes: null
+      - id: 274307
+        key: dbaefec0-d84a-4826-b492-73d3ecaf9c2e
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: ImageAtom
+        updated_at: 'Tue Apr 11 2017 07:34:13 GMT+0000 (UTC)'
+        is_public: true
+        url: 'https://d17h27t6h515a5.cloudfront.net/topher/2016/November/583cbc02_diagonal-line-2/diagonal-line-2.png'
+        width: 58
+        height: 58
+        caption: CNN的第一层还识别除了正45度的直线
+        resources: null
+        instructor_notes: null
+      - id: 274308
+        key: 49684c1a-2f95-4eb8-ab63-4cc9eaced27c
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Tue Apr 11 2017 07:36:54 GMT+0000 (UTC)'
+        is_public: true
+        text: 让我们看下引发这些示例图片的图片。下面的图都引发了 -45 度的直线，尽管他们有不同的颜色，渐变和图案。
+        instructor_notes: ''
+        resources: null
+      - id: 274309
+        key: 852407da-0ff5-42ee-ad7e-7c3ab89dc678
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: ImageAtom
+        updated_at: 'Tue Apr 11 2017 07:37:41 GMT+0000 (UTC)'
+        is_public: true
+        url: 'https://d17h27t6h515a5.cloudfront.net/topher/2016/November/583cbace_grid-layer-1/grid-layer-1.png'
+        width: 146
+        height: 143
+        caption: 在第一层引发 -45 度直线的原图。
+        resources: null
+        instructor_notes: null
+      - id: 274310
+        key: e156b87f-08c3-42e8-b605-a332773fcba9
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Tue Apr 11 2017 07:38:51 GMT+0000 (UTC)'
+        is_public: true
+        text: 所以CNN的第一层很清楚的选择了非常简单的形状，图案，例如直线和色块。
+        instructor_notes: ''
+        resources: null
+      - id: 274311
+        key: bd73aff1-7074-41ef-ab3a-3f9585922201
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Tue Apr 11 2017 07:39:03 GMT+0000 (UTC)'
+        is_public: true
+        text: '### 第二层'
+        instructor_notes: ''
+        resources: null
+      - id: 274312
+        key: f853c751-8de8-4ecc-aa38-716c391c8456
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: ImageAtom
+        updated_at: 'Tue Apr 11 2017 07:48:44 GMT+0000 (UTC)'
+        is_public: true
+        url: 'https://d17h27t6h515a5.cloudfront.net/topher/2016/November/583780f3_screen-shot-2016-11-24-at-12.09.02-pm/screen-shot-2016-11-24-at-12.09.02-pm.png'
+        width: 1888
+        height: 922
+        caption: CNN第二层的可视化。可以发现它注意到更复杂的概念例如圈，条纹。左边的图表示这一次CNN的激活状况（看到什么），右边是引起这些状况的原始图片。
+        resources: null
+        instructor_notes: null
+      - id: 274313
+        key: d1b7d85b-a882-4e30-a125-bef3ae8c253f
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Tue Apr 11 2017 08:02:26 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          CNN的第二层捕捉了些一复杂的概念。
+
+          如上图所示，CNN的第二层认出了圈（第二行第二栏），条纹（第一行第二栏）和长方形（右下角）。
+
+          **CNN是自己学着做这些事情的。** 没有指定让CNN的更深层专注于复杂的事情上。这就是当你把训练数据给到CNN会自然发生的事情。
+        instructor_notes: ''
+        resources: null
+      - id: 274314
+        key: e1132dc0-f466-4255-bce6-64692c509748
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Tue Apr 11 2017 08:02:38 GMT+0000 (UTC)'
+        is_public: true
+        text: '### 第三层'
+        instructor_notes: ''
+        resources: null
+      - id: 274315
+        key: 3dcf0442-25fb-41c4-8ec7-b9316ba6d4e4
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: ImageAtom
+        updated_at: 'Tue Apr 11 2017 08:05:17 GMT+0000 (UTC)'
+        is_public: true
+        url: 'https://d17h27t6h515a5.cloudfront.net/topher/2016/November/5837811f_screen-shot-2016-11-24-at-12.09.24-pm/screen-shot-2016-11-24-at-12.09.24-pm.png'
+        width: 2294
+        height: 848
+        caption: CNN第三层的可视化图。左边的网格表示CNN的激活（它看到什么）。右边是相对应的原始图片。
+        resources: null
+        instructor_notes: null
+      - id: 274316
+        key: 660e77d0-dfd2-4591-8a92-e0bd1cdbf8c2
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Tue Apr 11 2017 08:07:41 GMT+0000 (UTC)'
+        is_public: true
+        text: 第三层捕捉了第二层特征的复杂组合。包括格子，蜂窝状（左上），轮子（第二行第二列）甚至脸（第三行第三列）。
+        instructor_notes: ''
+        resources: null
+      - id: 274317
+        key: 6fe9e320-7e75-4d29-a5cf-f328d45992ab
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Tue Apr 11 2017 08:07:58 GMT+0000 (UTC)'
+        is_public: true
+        text: '### 第五层'
+        instructor_notes: ''
+        resources: null
+      - id: 274318
+        key: 8bef3d7b-8e2d-41af-a157-f64aa24afbc5
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: ImageAtom
+        updated_at: 'Tue Apr 11 2017 08:09:15 GMT+0000 (UTC)'
+        is_public: true
+        url: 'https://d17h27t6h515a5.cloudfront.net/topher/2016/November/58378151_screen-shot-2016-11-24-at-12.08.11-pm/screen-shot-2016-11-24-at-12.08.11-pm.png'
+        width: 1198
+        height: 1484
+        caption: CNN第五层，也是最后一层的可视化。左边的网格表示CNN的激活（它看到什么）。右边是相对应的原始图片。
+        resources: null
+        instructor_notes: null
+      - id: 274319
+        key: 516aca63-ce7a-4398-8fc3-b0bbd386d0be
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Tue Apr 11 2017 08:13:42 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          我们跳过了第四层，它遵循这个规律，直接跳到这个CNN的第五层，也是最后一层。
+
+          最后一层选取了我们对分类最关心的概念，例如狗的脸，鸟的脸，自行车。
+
+          ### 回到 TensorFlow 
+
+          这就是我们对卷积神经网络高层次讨论。
+
+          接下来你要在 TensorFlow 里面构建这些网络。
+        instructor_notes: ''
+        resources: null
+  - id: 274467
+    key: 0377449f-ce0f-436b-8e11-2cdfefe20995
+    locale: zh-cn
+    version: 1.0.0
+    title: TensorFlow 卷积层
+    semantic_type: Concept
+    updated_at: 'Tue Apr 11 2017 08:14:07 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 274320
+      - 274321
+    atoms:
+      - id: 274320
+        key: 4da877bc-4217-47ef-83d7-b524fe237df7
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Tue Apr 11 2017 08:14:37 GMT+0000 (UTC)'
+        is_public: true
+        text: '### TensorFlow 卷积层'
+        instructor_notes: ''
+        resources: null
+      - id: 274321
+        key: bfe3d97a-12bd-448b-ad0b-f1c3cd4bb233
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Tue Apr 11 2017 08:24:32 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          让我们看下如何在 TensorFlow 里面实现 CNN。
+
+          TensorFlow 提供了 [`tf.nn.conv2d()`](https://www.tensorflow.org/api_docs/python/tf/nn/conv2d) 和 [`tf.nn.bias_add()`](https://www.tensorflow.org/api_docs/python/tf/nn/bias_add) 函数来创建你自己的卷积层。
+
+          ```python
+          # Output depth
+          k_output = 64
+
+          # Image Properties
+          image_width = 10
+          image_height = 10
+          color_channels = 3
+
+          # Convolution filter
+          filter_size_width = 5
+          filter_size_height = 5
+
+          # Input/Image
+          input = tf.placeholder(
+              tf.float32,
+              shape=[None, image_height, image_width, color_channels])
+
+          # Weight and bias
+          weight = tf.Variable(tf.truncated_normal(
+              [filter_size_height, filter_size_width, color_channels, k_output]))
+          bias = tf.Variable(tf.zeros(k_output))
+
+          # Apply Convolution
+          conv_layer = tf.nn.conv2d(input, weight, strides=[1, 2, 2, 1], padding='SAME')
+          # Add bias
+          conv_layer = tf.nn.bias_add(conv_layer, bias)
+          # Apply activation function
+          conv_layer = tf.nn.relu(conv_layer)
+          ```
+
+          上述代码用了  [`tf.nn.conv2d()`](https://www.tensorflow.org/api_docs/python/tf/nn/conv2d) 函数来计算卷积，`weights` 作为滤波器，`[1, 2, 2, 1]` 作为 strides。TensorFlow 对每一个 `input` 维度使用一个 stride，`[batch, input_height, input_width, input_channels]`。我们通常把`batch` and `input_channels` （`strides` 序列中的第一个第四个）的 stride 设为 `1`。
+
+          你可以专注于改变`input_height` 和  `input_width`， `batch` 和 `input_channels` 都设置成 1。`input_height` 和 `input_width` strides 表示滤波器在`input` 上移动的步长。上述例子用了一个 5x5 ，stride 为 2 在 `input` 上。
+
+          [`tf.nn.bias_add()`](https://www.tensorflow.org/api_docs/python/tf/nn/bias_add) 函数对矩阵的最后一维加了
+           bias。
+        instructor_notes: ''
+        resources: null
+  - id: 274468
+    key: c31aebd3-e36d-4d57-b6f1-646aebe52a51
+    locale: zh-cn
+    version: 1.0.0
+    title: 探索设计空间
+    semantic_type: Concept
+    updated_at: 'Tue Apr 11 2017 08:27:21 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 274322
+    atoms:
+      - id: 274322
+        key: 567cc4c1-3ecb-41dd-a2dc-908cb1245dea
+        locale: zh-cn
+        version: 1.0.0
+        title: Explore the Design Space
+        semantic_type: VideoAtom
+        updated_at: 'Tue Apr 18 2017 17:02:59 GMT+0000 (UTC)'
+        is_public: true
+        tags: []
+        instructor_notes: ''
+        resources: null
+        video:
+          youtube_id: FG7M9tWH2nQ
+          subtitles:
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae2728_explore-the-design-space/subtitles/lang_en_vs1.srt'
+              language_code: en
+          transcodings:
+            uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae2728_explore-the-design-space/explore-the-design-space_480p.mp4'
+            uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae2728_explore-the-design-space/explore-the-design-space_480p_1000kbps.mp4'
+            uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae2728_explore-the-design-space/explore-the-design-space_480p.ogg'
+            uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae2728_explore-the-design-space/explore-the-design-space_720p.mp4'
+            uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae2728_explore-the-design-space/hls/playlist.m3u8'
+  - id: 274469
+    key: 245c6fd1-efec-4c37-8a1f-96e7d055e845
+    locale: zh-cn
+    version: 1.0.0
+    title: TensorFlow 最大池化
+    semantic_type: Concept
+    updated_at: 'Tue Apr 11 2017 08:41:52 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 274323
+      - 274324
+      - 274325
+    atoms:
+      - id: 274323
+        key: f2299bd5-55f6-4c15-b499-80d023548bb1
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Tue Apr 11 2017 08:44:08 GMT+0000 (UTC)'
+        is_public: true
+        text: '# TensorFlow 最大池化'
+        instructor_notes: ''
+        resources: null
+      - id: 274324
+        key: 98f32c32-aa1c-4b00-8497-052506fcf9ce
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: ImageAtom
+        updated_at: 'Tue Apr 11 2017 08:46:16 GMT+0000 (UTC)'
+        is_public: true
+        url: 'https://d17h27t6h515a5.cloudfront.net/topher/2016/November/582aac09_max-pooling/max-pooling.png'
+        width: 570
+        height: 330
+        caption: 'By Aphex34 (Own work) [CC BY-SA 4.0 (http://creativecommons.org/licenses/by-sa/4.0)], via Wikimedia Commons'
+        resources: null
+        instructor_notes: null
+      - id: 274325
+        key: 4c3cf7c8-6af9-4b20-b9e7-c3493d1b1633
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Tue Apr 11 2017 09:10:40 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          这是一个最大池化的例子[max pooling](https://en.wikipedia.org/wiki/Convolutional_neural_network#Pooling_layer) 用了 2x2 的滤波器 stride 为 2。.  四个 2x2 的颜色代表每一次滤波器应用来寻找最大值。
+
+          例如 `[[1, 0], [4, 6]]` 就是`6`，因为 `6` 是最大的。同理 `[[2, 3], [6, 8]]` 是 `8`。
+          概念上来说，最大池化操作的好处是减少输入的大小，使得神经网络能够专注于最重要的元素。最大池化只取覆盖区域中的最大值，其它的值都丢弃。
+
+          TensorFlow 提供了一个 [`tf.nn.max_pool()`](https://www.tensorflow.org/api_docs/python/tf/nn/max_pool) 函数来对你的卷积层实现 [最大池化](https://en.wikipedia.org/wiki/Convolutional_neural_network#Pooling_layer) 。
+
+          ```python
+          ...
+          conv_layer = tf.nn.conv2d(input, weight, strides=[1, 2, 2, 1], padding='SAME')
+          conv_layer = tf.nn.bias_add(conv_layer, bias)
+          conv_layer = tf.nn.relu(conv_layer)
+          # Apply Max Pooling
+          conv_layer = tf.nn.max_pool(
+              conv_layer,
+              ksize=[1, 2, 2, 1],
+              strides=[1, 2, 2, 1],
+              padding='SAME')
+          ```
+
+           [`tf.nn.max_pool()`](https://www.tensorflow.org/api_docs/python/tf/nn/max_pool) 函数实现最大池化时， `ksize`参数是滤波器大小，`strides`参数是步长。2x2 的滤波器配合 2x2 的步长是常用设定。
+
+          `ksize` 和 `strides` 参数也被构建为四个元素的列表，每个元素对应 input tensor 的一个维度 (`[batch, height, width, channels]`)，对 `ksize` 和 `strides` 来说，batch 和 channel 通常都设置成 `1`。
+        instructor_notes: ''
+        resources: null
+  - id: 274471
+    key: 0ffba003-b681-4d56-9d6d-e5dd13cb99a0
+    locale: zh-cn
+    version: 1.0.0
+    title: 练习：直观理解池化
+    semantic_type: Concept
+    updated_at: 'Tue Apr 11 2017 09:11:16 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 274326
+      - 274327
+    atoms:
+      - id: 274326
+        key: 321244bf-0956-4630-bfc0-4067c874f57f
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Wed Apr 12 2017 02:53:01 GMT+0000 (UTC)'
+        is_public: true
+        text: 接下来的几个练习会测试你对**池化层**的理解。
+        instructor_notes: ''
+        resources: null
+      - id: 274327
+        key: 3a4aa5e4-6766-4015-805b-290b60c9da2d
+        locale: zh-cn
+        version: 1.0.0
+        title: 池化层做什么？
+        semantic_type: CheckboxQuizAtom
+        updated_at: 'Wed Apr 12 2017 03:42:16 GMT+0000 (UTC)'
+        is_public: true
+        question:
+          prompt: 池化层总的来说是用来 ...
+          correct_feedback: |-
+            :-)
+
+            正确答案是 **减小输出大小** 和 **降低过拟合**。降低过拟合是减小输出大小的结果，它同样也减少了后续层中的参数的数量。
+          video_feedback: null
+          default_feedback: 提示：有多余一个正确答案
+          answers:
+            - id: a1480388522381
+              text: 增大输入大小
+              is_correct: false
+              incorrect_feedback: 你确定吗？想想最大池化操作，他对输出有什么影响？
+            - id: a1480388532905
+              text: 减小输出大小
+              is_correct: true
+              incorrect_feedback: 想想最大池化操作，他对输出有什么影响？
+            - id: a1480388533875
+              text: 避免过拟合
+              is_correct: true
+              incorrect_feedback: 如果在后面的层中有更少的参数，这有可能降低过拟合吗？
+            - id: a1480388534602
+              text: 获取更多信息
+              is_correct: false
+              incorrect_feedback: 你确定吗？想想最大池化操作，他对输出有什么影响？我们获取了更多的信息吗？
+  - id: 274470
+    key: 21a70643-4262-45a2-9450-2273bc939d45
+    locale: zh-cn
+    version: 1.0.0
+    title: 答案：直观理解池化
+    semantic_type: Concept
+    updated_at: 'Wed Apr 12 2017 03:05:30 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 274328
+      - 274329
+    atoms:
+      - id: 274328
+        key: 06176f36-cbd8-4958-a9c6-7785b09e3872
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Wed Apr 12 2017 03:05:12 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          ### 答案
+
+          正确答案是 **减小输出大小** 和 **降低过拟合**。降低过拟合是减小输出大小的结果，它同样也减少了后续层中的参数的数量。
+        instructor_notes: ''
+        resources: null
+      - id: 274329
+        key: 08eb7a93-1b1e-4b6b-8b6a-13317370b08d
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Wed Apr 12 2017 03:08:54 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          近期，池化层并不是很受青睐。部分原因是：
+
+          - 现在的数据集又大又复杂，我们更关心欠拟合问题
+          - Dropout 是一个更好的正则化方法
+          - 池化导致信息损失。想想最大池化的例子，*n* 个数字中我们只保留最大的，把余下的 *n-1* 完全舍弃了。
+        instructor_notes: ''
+        resources: null
+  - id: 274472
+    key: afa4f4ce-47d6-41eb-9cf4-773ad2ce943f
+    locale: zh-cn
+    version: 1.0.0
+    title: 练习：池化机制
+    semantic_type: Concept
+    updated_at: 'Wed Apr 12 2017 03:09:46 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 274331
+      - 274330
+      - 274332
+    atoms:
+      - id: 274331
+        key: 25bac018-539c-4348-b3e7-e52779748bd7
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Wed Apr 12 2017 03:27:42 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          ### 设置
+
+          H = height, W = width, D = depth
+
+          * 输入维度是 4x4x5 (HxWxD)
+          * 滤波器大小 2x2 (HxW) 
+          * 长款 stride 都是 2 (S)
+
+          新的高宽的公式是：
+
+          ```
+          new_height = (input_height - filter_height)/S + 1
+          new_width = (input_width - filter_width)/S + 1
+          ```
+
+          注意：池化层的输出深度与输入的深度相同。另外池化操作是分别应用到每一个深度切片层。
+
+          下图给你一个最大池化层如何工作的示例。这里，最大池化滤波器的大小是 2x2。当最大池化层在输入层滑动时，输出是这个 2x2 方块的最大值。
+        instructor_notes: ''
+        resources: null
+      - id: 274330
+        key: 65576a90-5005-4225-827e-c1cc05d647ba
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: ImageAtom
+        updated_at: 'Mon Mar 06 2017 02:57:26 GMT+0000 (UTC)'
+        is_public: true
+        url: 'https://d17h27t6h515a5.cloudfront.net/topher/2017/February/58a5fe3e_convolutionalnetworksquiz/convolutionalnetworksquiz.png'
+        width: 8800
+        height: 4950
+        caption: ''
+        resources: null
+        instructor_notes: null
+      - id: 274332
+        key: a3dbe414-8a90-411d-8e66-2b623fd61488
+        locale: zh-cn
+        version: 1.0.0
+        title: 池化层输出结果
+        semantic_type: ValidatedQuizAtom
+        updated_at: 'Wed Apr 12 2017 03:41:54 GMT+0000 (UTC)'
+        is_public: true
+        question:
+          prompt: 输出的大小是？格式写成 **HxWxD**.
+          default_feedback: |-
+            用下列公式计算高度和深度：
+
+            ```
+            new_height = (input_height - filter_height)/stride_height + 1
+            new_width = (input_width - filter_width)/stride_width + 1
+            ```
+            深度有变化吗？
+          correct_feedback: |-
+            :-)
+
+            答案是 **2x2x5**。这是计算公式：
+
+            ```
+            (4 - 2)/2 + 1 = 2
+            (4 - 2)/2 + 1 = 2
+            ```
+
+            深度与输入保持不变
+          video_feedback: null
+          matchers:
+            - semantic_type: RegexMatcher
+              is_correct: true
+              expression: 2x2x5
+              expression_description: null
+              flags: ''
+              incorrect_feedback: null
+            - semantic_type: RegexMatcher
+              is_correct: false
+              expression: '2x2x[0-9]+'
+              expression_description: null
+              flags: ''
+              incorrect_feedback: 高度和宽度是对的，深度有变化吗？
+            - semantic_type: RegexMatcher
+              is_correct: false
+              expression: '[0-9]+x[0-9]+x5'
+              expression_description: null
+              flags: ''
+              incorrect_feedback: 深度对了，用公式计算一下高度和深度
+  - id: 274473
+    key: 2f6cb4b3-05e4-4500-9325-a0f4a35ba671
+    locale: zh-cn
+    version: 1.0.0
+    title: 答案：池化机制
+    semantic_type: Concept
+    updated_at: 'Wed Apr 12 2017 03:46:26 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 274333
+      - 274334
+    atoms:
+      - id: 274333
+        key: c46b2e29-e6f8-4239-a0e6-1850b5b177ee
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Wed Apr 12 2017 03:47:09 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          ### 答案
+
+          答案是 **2x2x5**。计算公式如下：
+
+          ```
+          (4 - 2)/2 + 1 = 2
+          (4 - 2)/2 + 1 = 2
+          ```
+
+          深度保持不变
+        instructor_notes: ''
+        resources: null
+      - id: 274334
+        key: fb911a5e-a057-457b-a0de-92e8f5d0e38f
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Wed Apr 12 2017 03:48:39 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          这是对应的代码：
+
+          ```python
+          input = tf.placeholder(tf.float32, (None, 4, 4, 5))
+          filter_shape = [1, 2, 2, 1]
+          strides = [1, 2, 2, 1]
+          padding = 'VALID'
+          pool = tf.nn.max_pool(input, filter_shape, strides, padding)
+          ```
+
+          输出是 `pool` 是 [1, 2, 2, 5]，即使把 `padding` 改成 `'SAME'` 也是一样。
+        instructor_notes: ''
+        resources: null
+  - id: 274474
+    key: 2b9fcd00-c591-4296-82f3-9f48f19c0291
+    locale: zh-cn
+    version: 1.0.0
+    title: 练习：池化
+    semantic_type: Concept
+    updated_at: 'Wed Apr 12 2017 03:49:50 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 274335
+      - 274336
+    atoms:
+      - id: 274335
+        key: 3476105c-040b-4b04-899b-9d0f3a22fb83
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Wed Apr 12 2017 03:50:46 GMT+0000 (UTC)'
+        is_public: true
+        text: 很好！现在让我们练习一些池化的操作。
+        instructor_notes: ''
+        resources: null
+      - id: 274336
+        key: ef0e7172-d0c0-444e-b20d-04eef73c1750
+        locale: zh-cn
+        version: 1.0.0
+        title: 最大池化
+        semantic_type: ValidatedQuizAtom
+        updated_at: 'Wed Apr 12 2017 04:07:24 GMT+0000 (UTC)'
+        is_public: true
+        question:
+          prompt: |-
+            下列输入最大池化的结果是？
+
+            ```
+            [[[0, 1, 0.5, 10],
+               [2, 2.5, 1, -8],
+               [4, 0, 5, 6],
+               [15, 1, 2, 3]]]
+            ```
+            滤波器大小 2x2，stride 长宽都是 2。输出结果是 2x2x1。
+
+            答案是4个数字，用（英文）逗号隔开。示例：`1,2,3,4`。
+
+            **从左上到右下**
+          default_feedback: 把 **2x2** 滤波器按照 stride 在输入上移动，计算覆盖数字的**最大**值。stride 是 2 意味着我们每次移动两个单位。
+          correct_feedback: |-
+            厉害！
+
+            正确答案是 `2.5,10,15,6`。
+
+            ```
+            max(0, 1, 2, 2.5) = 2.5
+            max(0.5, 10, 1, -8) = 10
+            max(4, 0, 15, 1) = 15
+            max(5, 6, 2, 3) = 6
+            ```
+          video_feedback: null
+          matchers:
+            - semantic_type: RegexMatcher
+              is_correct: true
+              expression: '[\s]*2.5(0*|)[\s]*,[\s]*10(\.0*|)[\s]*,[\s]*15(\.0*|)[\s]*,[\s]*6(\.0*|)'
+              expression_description: null
+              flags: ''
+              incorrect_feedback: null
+  - id: 274475
+    key: 596bb21b-5831-4418-bf89-6593672475d5
+    locale: zh-cn
+    version: 1.0.0
+    title: 答案：池化练习
+    semantic_type: Concept
+    updated_at: 'Wed Apr 12 2017 04:07:55 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 274337
+    atoms:
+      - id: 274337
+        key: 81fc9003-5e75-4111-8e67-cdde5d067c68
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Wed Apr 12 2017 04:09:26 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          ### 答案
+
+          正确答案是 `2.5,10,15,6`。我们从左上角开始，然后从左到右，从上到下每次移动 2 个单位。
+
+          ```
+          max(0, 1, 2, 2.5) = 2.5
+          max(0.5, 10, 1, -8) = 10
+          max(4, 0, 15, 1) = 15
+          max(5, 6, 2, 3) = 6
+          ```
+        instructor_notes: ''
+        resources: null
+  - id: 274477
+    key: 985699e0-865c-41cb-af18-5a7f28a01676
+    locale: zh-cn
+    version: 1.0.0
+    title: 练习：平均池化
+    semantic_type: Concept
+    updated_at: 'Wed Apr 12 2017 04:09:45 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 274338
+    atoms:
+      - id: 274338
+        key: 2f5c3613-26a8-45a4-ba2d-d9b204cb38bf
+        locale: zh-cn
+        version: 1.0.0
+        title: 平均池化
+        semantic_type: ValidatedQuizAtom
+        updated_at: 'Wed Apr 12 2017 04:25:19 GMT+0000 (UTC)'
+        is_public: true
+        question:
+          prompt: |-
+            下列输入的**平均池化**结果是？
+
+            ```
+            [[[0, 1, 0.5, 10],
+               [2, 2.5, 1, -8],
+               [4, 0, 5, 6],
+               [15, 1, 2, 3]]]
+            ```
+            滤波器大小 2x2，stride 长宽都是 2。输出结果是 2x2x1。
+
+            答案是4个数字，用（英文）逗号隔开。示例：`1,2,3,4`。
+
+            **保留三位小数，顺序是左上到右下**
+          default_feedback: 把 **2x2** 滤波器按照 stride 在输入上移动，计算覆盖数字的**最大**值。stride 是 2 意味着我们每次移动两个单位。
+          correct_feedback: |-
+            很棒！
+
+            正确答案是 `1.375,0.875,5,4`。
+
+            ```
+            mean(0, 1, 2, 2.5) = 1.375
+            mean(0.5, 10, 1, -8) = 0.875
+            mean(4, 0, 15, 1) = 5
+            mean(5, 6, 2, 3) = 4
+            ```
+          video_feedback: null
+          matchers:
+            - semantic_type: RegexMatcher
+              is_correct: true
+              expression: '[\s]*1.375(0*|)[\s]*,[\s]*0?\.875(0*|)[\s]*,[\s]*5(\.0*|)[\s]*,[\s]*4(\.0*|)'
+              expression_description: ''
+              flags: ''
+              incorrect_feedback: null
+  - id: 274476
+    key: 40990c7b-34b6-4600-b6ea-771f167271a0
+    locale: zh-cn
+    version: 1.0.0
+    title: 答案：平均池化
+    semantic_type: Concept
+    updated_at: 'Wed Apr 12 2017 04:23:20 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 274339
+    atoms:
+      - id: 274339
+        key: 7ccb51b5-5e2d-44b5-aab1-b41549f5a855
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Wed Apr 12 2017 04:24:33 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          ### 答案
+
+          正确答案是 `1.375,0.875,5,4`. 我们从左上角开始，然后从左到右，从上到下每次移动 2 个单位。
+
+          ```
+          mean(0, 1, 2, 2.5) = 1.375
+          mean(0.5, 10, 1, -8) = 0.875
+          mean(4, 0, 15, 1) = 5
+          mean(5, 6, 2, 3) = 4
+          ```
+        instructor_notes: ''
+        resources: null
+  - id: 274479
+    key: d4c64a6a-254b-4c7a-85f8-958047b040d7
+    locale: zh-cn
+    version: 1.0.0
+    title: 1x1 卷积
+    semantic_type: Concept
+    updated_at: 'Wed Apr 12 2017 04:27:04 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 274340
+    atoms:
+      - id: 274340
+        key: 4ac9d501-014e-419b-b8cd-fb6ff6f49ac3
+        locale: zh-cn
+        version: 1.0.0
+        title: 1x1 Convolutions
+        semantic_type: VideoAtom
+        updated_at: 'Tue Apr 18 2017 17:02:59 GMT+0000 (UTC)'
+        is_public: true
+        tags: []
+        instructor_notes: ''
+        resources: null
+        video:
+          youtube_id: Zmzgerm6SjA
+          subtitles:
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae2716_1x1-convolutions/subtitles/lang_en_vs1.srt'
+              language_code: en
+          transcodings:
+            uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae2716_1x1-convolutions/1x1-convolutions_480p.mp4'
+            uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae2716_1x1-convolutions/1x1-convolutions_480p_1000kbps.mp4'
+            uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae2716_1x1-convolutions/1x1-convolutions_480p.ogg'
+            uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae2716_1x1-convolutions/1x1-convolutions_720p.mp4'
+            uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae2716_1x1-convolutions/hls/playlist.m3u8'
+  - id: 274478
+    key: e69984aa-9b9d-4260-9265-d5833db3ef5b
+    locale: zh-cn
+    version: 1.0.0
+    title: Inception 模块
+    semantic_type: Concept
+    updated_at: 'Tue Apr 25 2017 09:27:05 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 274341
+    atoms:
+      - id: 274341
+        key: 65a832c6-e35e-4e6d-9ff8-ea0790b729f3
+        locale: zh-cn
+        version: 1.0.0
+        title: Inception Module
+        semantic_type: VideoAtom
+        updated_at: 'Tue Apr 18 2017 17:03:00 GMT+0000 (UTC)'
+        is_public: true
+        tags: []
+        instructor_notes: ''
+        resources: null
+        video:
+          youtube_id: SlTm03bEOxA
+          subtitles:
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae272d_inception-module/subtitles/lang_en_vs1.srt'
+              language_code: en
+          transcodings:
+            uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae272d_inception-module/inception-module_480p.mp4'
+            uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae272d_inception-module/inception-module_480p_1000kbps.mp4'
+            uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae272d_inception-module/inception-module_480p.ogg'
+            uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae272d_inception-module/inception-module_720p.mp4'
+            uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58ae272d_inception-module/hls/playlist.m3u8'
+  - id: 274480
+    key: afe0660b-a035-499b-9441-737d601e19df
+    locale: zh-cn
+    version: 1.0.0
+    title: TensorFlow 中的卷积网络
+    semantic_type: Concept
+    updated_at: 'Wed Apr 12 2017 05:58:49 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 274342
+      - 274344
+      - 274343
+      - 274345
+      - 274346
+      - 274347
+      - 274348
+      - 274350
+      - 274349
+    atoms:
+      - id: 274342
+        key: d66ad4e0-b777-45bf-aef4-5a525c10ac57
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Wed Apr 12 2017 06:43:41 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          # TensorFlow 中的卷积网络
+
+          是时候看一下 TensorFlow 中的卷积神经网络的例子了
+
+          网络的结构跟经典的 CNNs 结构一样，是卷积层，最大池化层和全链接层的混合。
+
+          这里你看到的代码与你在[TensorFlow 深度神经网络](https://classroom.udacity.com/nanodegrees/nd009/parts/9f359353-1efd-4eec-a336-ed2539f6bb29/modules/a796fac4-f76f-454f-a224-662d78ce5cb2/lessons/cb4ae92e-abf2-49c9-afae-e497dd25f3fb/concepts/83a3a2a2-a9bd-4b7b-95b0-eb924ab14432#)的代码类似，我们按CNN重新组织了结构。
+
+          如那一节一样，这里你将会学习如何分解一行一行的代码。你还可以[下载](https://d17h27t6h515a5.cloudfront.net/topher/2017/February/58a61ca1_cnn/cnn.zip)代码自己运行。
+
+          感谢 [Aymeric Damien](https://github.com/aymericdamien/TensorFlow-Examples) 提供了这节课的原始
+           TensorFlow 模型。
+
+          现在开看下！
+
+          ### 数据集
+
+          你从之前的课程中见过这节课的代码。这里我们导入 MNIST 数据集，用一个方便的函数完成对数据集的 batch，缩放和独热编码。
+
+          ```python
+          from tensorflow.examples.tutorials.mnist import input_data
+          mnist = input_data.read_data_sets(".", one_hot=True, reshape=False)
+
+          import tensorflow as tf
+
+          # Parameters
+          # 参数
+          learning_rate = 0.00001
+          epochs = 10
+          batch_size = 128
+
+          # Number of samples to calculate validation and accuracy
+          # Decrease this if you're running out of memory to calculate accuracy
+          # 用来验证和计算准确率的样本数
+          # 如果内存不够，可以调小这个数字
+          test_valid_size = 256
+
+          # Network Parameters
+          # 神经网络参数
+          n_classes = 10  # MNIST total classes (0-9 digits)
+          dropout = 0.75  # Dropout, probability to keep units
+          ```
+
+          ### Weights and Biases
+
+          ```python
+          # Store layers weight & bias
+          weights = {
+              'wc1': tf.Variable(tf.random_normal([5, 5, 1, 32])),
+              'wc2': tf.Variable(tf.random_normal([5, 5, 32, 64])),
+              'wd1': tf.Variable(tf.random_normal([7*7*64, 1024])),
+              'out': tf.Variable(tf.random_normal([1024, n_classes]))}
+
+          biases = {
+              'bc1': tf.Variable(tf.random_normal([32])),
+              'bc2': tf.Variable(tf.random_normal([64])),
+              'bd1': tf.Variable(tf.random_normal([1024])),
+              'out': tf.Variable(tf.random_normal([n_classes]))}
+          ```
+
+          ### 卷积
+        instructor_notes: ''
+        resources: null
+      - id: 274344
+        key: 650c9365-f2f5-49fb-9f34-18cfa1551b97
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: ImageAtom
+        updated_at: 'Wed Apr 12 2017 06:24:46 GMT+0000 (UTC)'
+        is_public: true
+        url: 'https://d17h27t6h515a5.cloudfront.net/topher/2016/November/581a58be_convolution-schematic/convolution-schematic.gif'
+        width: 263
+        height: 192
+        caption: '3×3 卷积滤波器。Source: http://deeplearning.stanford.edu/wiki/index.php/Feature_extraction_using_convolution'
+        resources: null
+        instructor_notes: null
+      - id: 274343
+        key: 9b304089-1801-4de4-a89d-ef27ca48e65c
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Wed Apr 12 2017 06:38:34 GMT+0000 (UTC)'
+        is_public: true
+        text: '这是一个 3x3 的[卷积](https://en.wikipedia.org/wiki/Convolution)滤波器的示例。以 stride 为 1 应用到一个范围在 0 到 1 之间的数据上。每一个 3x3 的部分与权值 `[[1, 0, 1], [0, 1, 0], [1, 0, 1]]` 做卷积，把偏置加上后得到右边的卷积特征。这里偏置是 0 。TensorFlow 中这是通过 [`tf.nn.conv2d()`](https://www.tensorflow.org/api_docs/python/tf/nn/conv2d) 和 [`tf.nn.bias_add()`](https://www.tensorflow.org/api_docs/python/tf/nn/bias_add) 来完成的。'
+        instructor_notes: ''
+        resources: null
+      - id: 274345
+        key: c2092db1-860d-4c31-95b6-9c583900f482
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Wed Apr 12 2017 07:40:05 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          ```python
+          def conv2d(x, W, b, strides=1):
+              x = tf.nn.conv2d(x, W, strides=[1, strides, strides, 1], padding='SAME')
+              x = tf.nn.bias_add(x, b)
+              return tf.nn.relu(x)
+          ```
+          [`tf.nn.conv2d()`](https://www.tensorflow.org/api_docs/python/tf/nn/conv2d) 函数与权值 `W` 做卷积。
+
+          在 TensorFlow 中，`strides` 是一个4个元素的序列；第一个位置指的是对 batch 的stride，最后一个位置指对特征的 stride。最好的移除 batches 和 特征的方法是你直接在数据集中把他们忽略，而不是使用 stride。要使用所有的 batches 和特征，你可以把第一个和最后一个元素设成 1。
+
+          中间两个元素指横向和纵向的 stride，之前也提到过 stride 通常是正方形，`height = width`。当别人说 stride 是 3 的时候，他们意思是 `tf.nn.conv2d(x, W, strides=[1, 3, 3, 1])`。
+
+          为了更简洁，这里的代码用了[`tf.nn.bias_add()`](https://www.tensorflow.org/api_docs/python/tf/nn/bias_add) 来添加偏置。  [`tf.add()`](https://www.tensorflow.org/api_docs/python/tf/add) 这里不能使用，因为 tensors 的维度不同。
+
+          ### 最大池化
+        instructor_notes: ''
+        resources: null
+      - id: 274346
+        key: 390a2f75-b195-4b24-9a54-045c78d6e894
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: ImageAtom
+        updated_at: 'Mon Mar 06 2017 02:57:26 GMT+0000 (UTC)'
+        is_public: true
+        url: 'https://d17h27t6h515a5.cloudfront.net/topher/2016/November/581a57fe_maxpool/maxpool.jpeg'
+        width: 787
+        height: 368
+        caption: 'Max Pooling with 2x2 filter and stride of 2.  Source: http://cs231n.github.io/convolutional-networks/'
+        resources: null
+        instructor_notes: null
+      - id: 274347
+        key: 73dbfd7e-0494-45a9-9406-d7cd6725531c
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Wed Apr 12 2017 07:47:46 GMT+0000 (UTC)'
+        is_public: true
+        text: '上面是一个[最大池化](https://en.wikipedia.org/wiki/Convolutional_neural_network#Pooling_layer)的示例。滤波器大小是 2x2，stride 是 2。左边是输入，右边是输出。 四个 2x2 的颜色代表每一次滤波器应用在左侧来构建右侧的最大结果。例如。`[[1, 1], [5, 6]]` 变成 6，`[[3, 2], [1, 2]]` 变成 3。'
+        instructor_notes: ''
+        resources: null
+      - id: 274348
+        key: d77a4a3b-a0be-44be-b864-b954e07ab405
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Wed Apr 12 2017 07:50:00 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          ```python
+          def maxpool2d(x, k=2):
+              return tf.nn.max_pool(
+                  x,
+                  ksize=[1, k, k, 1],
+                  strides=[1, k, k, 1],
+                  padding='SAME')
+          ```
+          [`tf.nn.max_pool()`](https://www.tensorflow.org/api_docs/python/tf/nn/max_pool) 函数做的与你期望的一样，它通过设定 `ksize` 参数来设定滤波器大小，从而实现最大池化。
+
+          ### 模型
+        instructor_notes: ''
+        resources: null
+      - id: 274350
+        key: eb8c480c-6d55-4e8a-b4a4-8850de3b1d7c
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: ImageAtom
+        updated_at: 'Mon Mar 06 2017 02:57:26 GMT+0000 (UTC)'
+        is_public: true
+        url: 'https://d17h27t6h515a5.cloudfront.net/topher/2016/November/581a64b7_arch/arch.png'
+        width: 2594
+        height: 1312
+        caption: Image from Explore The Design Space video
+        resources: null
+        instructor_notes: null
+      - id: 274349
+        key: 017ad9bd-8411-447b-96c2-1188bcc3336c
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Wed Apr 12 2017 07:57:27 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          在下面的代码中，我们创建了 3 层来实现卷积，最大池化以及全链接层和输出层。每一层对维度的改变都写在注释里。例如第一层在卷积部分把图片从 28x28x1 变成了 28x28x32。后面应用了最大池化，每个样本变成了 14x14x32。从 `conv1` 到 `output` 产生了 10 个分类。
+
+          ```python
+          def conv_net(x, weights, biases, dropout):
+              # Layer 1 - 28*28*1 to 14*14*32
+              conv1 = conv2d(x, weights['wc1'], biases['bc1'])
+              conv1 = maxpool2d(conv1, k=2)
+
+              # Layer 2 - 14*14*32 to 7*7*64
+              conv2 = conv2d(conv1, weights['wc2'], biases['bc2'])
+              conv2 = maxpool2d(conv2, k=2)
+
+              # Fully connected layer - 7*7*64 to 1024
+              fc1 = tf.reshape(conv2, [-1, weights['wd1'].get_shape().as_list()[0]])
+              fc1 = tf.add(tf.matmul(fc1, weights['wd1']), biases['bd1'])
+              fc1 = tf.nn.relu(fc1)
+              fc1 = tf.nn.dropout(fc1, dropout)
+
+              # Output Layer - class prediction - 1024 to 10
+              out = tf.add(tf.matmul(fc1, weights['out']), biases['out'])
+              return out
+          ```
+
+          ### Session
+          Now let's run it!
+          ```python
+          # tf Graph input
+          x = tf.placeholder(tf.float32, [None, 28, 28, 1])
+          y = tf.placeholder(tf.float32, [None, n_classes])
+          keep_prob = tf.placeholder(tf.float32)
+
+          # Model
+          logits = conv_net(x, weights, biases, keep_prob)
+
+          # Define loss and optimizer
+          cost = tf.reduce_mean(\
+              tf.nn.softmax_cross_entropy_with_logits(logits=logits, labels=y))
+          optimizer = tf.train.GradientDescentOptimizer(learning_rate=learning_rate)\
+              .minimize(cost)
+
+          # Accuracy
+          correct_pred = tf.equal(tf.argmax(logits, 1), tf.argmax(y, 1))
+          accuracy = tf.reduce_mean(tf.cast(correct_pred, tf.float32))
+
+          # Initializing the variables
+          init = tf. global_variables_initializer()
+
+          # Launch the graph
+          with tf.Session() as sess:
+              sess.run(init)
+
+              for epoch in range(epochs):
+                  for batch in range(mnist.train.num_examples//batch_size):
+                      batch_x, batch_y = mnist.train.next_batch(batch_size)
+                      sess.run(optimizer, feed_dict={
+                          x: batch_x,
+                          y: batch_y,
+                          keep_prob: dropout})
+
+                      # Calculate batch loss and accuracy
+                      loss = sess.run(cost, feed_dict={
+                          x: batch_x,
+                          y: batch_y,
+                          keep_prob: 1.})
+                      valid_acc = sess.run(accuracy, feed_dict={
+                          x: mnist.validation.images[:test_valid_size],
+                          y: mnist.validation.labels[:test_valid_size],
+                          keep_prob: 1.})
+
+                      print('Epoch {:>2}, Batch {:>3} -'
+                            'Loss: {:>10.4f} Validation Accuracy: {:.6f}'.format(
+                          epoch + 1,
+                          batch + 1,
+                          loss,
+                          valid_acc))
+
+              # Calculate Test Accuracy
+              test_acc = sess.run(accuracy, feed_dict={
+                  x: mnist.test.images[:test_valid_size],
+                  y: mnist.test.labels[:test_valid_size],
+                  keep_prob: 1.})
+              print('Testing Accuracy: {}'.format(test_acc))
+          ```
+          这就是 TensorFlow 中的 CNN。接下来你亲手实践一下。
+        instructor_notes: ''
+        resources: null
+  - id: 274481
+    key: 28e86e48-c796-4231-bac2-d9472af61d97
+    locale: zh-cn
+    version: 1.0.0
+    title: TensorFlow 卷积层
+    semantic_type: Concept
+    updated_at: 'Wed Apr 12 2017 07:58:01 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 274351
+      - 274352
+    atoms:
+      - id: 274351
+        key: 79af7a97-e82b-4029-8707-872982d6a69d
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Wed Apr 12 2017 08:34:55 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          ### 使用 TensorFlow 做卷积
+
+          让我们用所学知识在 TensorFlow 里构建真的 CNNs。在下面的练习中，你需要设定卷积核（filters）大小，weights，biases。这在很大程度上来说是 TensorFlow CNNs 最难的部分。一旦你有了如何设置这些属性的大小，应用 CNNs 会很方便。
+
+          ### 回顾
+
+          你应该看一下[二维卷积的文档](https://www.tensorflow.org/api_guides/python/nn#Convolution)。文档大部分都很清楚，`padding` 会根据你给出的 `'VALID'` 或者 `'SAME'` 做相应改变。
+
+          这些也是需要你回顾的：
+
+          1. [TensorFlow Variables](https://classroom.udacity.com/nanodegrees/nd009/parts/9f359353-1efd-4eec-a336-ed2539f6bb29/modules/fe7d3745-38da-4893-9b8c-ec539c39d383/lessons/6ec4ffd6-4f5c-4b88-bdf6-f169119834f0/concepts/baf36422-c1b4-4005-960f-63a550e635d4#).
+          2. [Truncated Normal Distributions](https://classroom.udacity.com/nanodegrees/nd009/parts/9f359353-1efd-4eec-a336-ed2539f6bb29/modules/fe7d3745-38da-4893-9b8c-ec539c39d383/lessons/6ec4ffd6-4f5c-4b88-bdf6-f169119834f0/concepts/baf36422-c1b4-4005-960f-63a550e635d4#) 在 TensorFlow。(你需要在一个正态分布的区间中初始化你的权值)
+          3. 根据输入大小来决定输出大小，滤波器大小（如下所示）。你用这个来决定滤波器应该是什么样：
+
+             ```
+              new_height = (input_height - filter_height + 2 * P)/S + 1
+              new_width = (input_width - filter_width + 2 * P)/S + 1
+              ```
+
+          ### 说明
+
+          1. 在`conv2d`函数中完成所有 `TODO`。
+          2. 设定 `strides`, `padding`, filter 和 weight/bias (`F_w` and `F_b`) 输出是 `(1, 2, 2, 3)`。除了 `strides` 所有这些都应该是 TensorFlow variables。
+        instructor_notes: ''
+        resources: null
+      - id: 274352
+        key: b5cda012-86d3-4771-bd10-5b6358d08289
+        locale: zh-cn
+        version: 1.0.0
+        title: ''
+        semantic_type: QuizAtom
+        updated_at: 'Mon Mar 06 2017 02:57:26 GMT+0000 (UTC)'
+        is_public: true
+        resources: null
+        instructor_notes: ''
+        instruction: null
+        question:
+          title: Define a Convolution Layer in TensorFlow
+          semantic_type: ProgrammingQuestion
+          evaluation_id: '5571463753105408'
+          evaluator:
+            model: ProgramEvaluator
+            execution_language: python3
+            executor_grading_code: |-
+              import tensorflow as tf
+              import numpy as np
+              import json
+
+              result = {'is_correct': False, 'error': False, 'values': [], 'output': '', 'custom_msg': ''}
+
+              def solution(input):
+                  # Filter (weights and bias)
+                  F_W = tf.Variable(tf.truncated_normal((2, 2, 1, 3)))
+                  F_b = tf.Variable(tf.zeros(3))
+                  strides = [1, 2, 2, 1]
+                  padding = 'VALID'
+                  return tf.nn.conv2d(input, F_W, strides, padding) + F_b
+                  
+              try:
+                  import conv
+                  
+                  X = tf.constant(np.random.randn(1, 4, 4, 1), dtype=tf.float32)
+                  ours = solution(X)
+                  theirs = conv.conv2d(X)
+                  dim_names = ['Batch', 'Height', 'Width', 'Depth']
+                  
+                  with tf.Session() as sess:
+                      sess.run(tf.initialize_all_variables())
+                      our_shape = ours.get_shape().as_list()
+                      their_shape = theirs.get_shape().as_list()
+                      
+                      did_pass = False
+                      
+                      try:
+                          for dn, ov, tv in zip(dim_names, our_shape, their_shape):
+                              if ov != tv:
+                                  # dimension mismatch
+                                  raise Exception('{} dimension: mismatch we have {}, you have {}'.format(dn, ov, tv))
+                          if np.alltrue(our_shape == their_shape):
+                              did_pass = True
+                          else:
+                              # :-(
+                              did_pass = False
+                      except:
+                          did_pass = False
+                          
+                      if did_pass:
+                          result['is_correct'] = True
+                      else:
+                          result['is_correct'] = False
+                          result['values'] = [
+                                 'correct shape: {}'.format(our_shape)
+                          ]
+                          result['output'] = str(their_shape)
+              except Exception as err:
+                  result['is_correct'] = False
+                  result['error'] = str(err)
+              print(json.dumps(result))
+            executor_test_code: |-
+              import conv
+              import tensorflow as tf
+
+              def prevent_tf_error():
+                  """
+                  Prevent TF_DeleteStatus error - https://udacity.atlassian.net/browse/DRIVE-1507
+                  """
+                  with tf.Session() as sess:
+                      sess.run(tf.global_variables_initializer())
+                      # should be [1, 2, 2, 3]
+                      print("Output shape: {}".format(conv.out.get_shape().as_list()))
+                      print("Convolution result: {}".format(sess.run(conv.out)))
+
+              prevent_tf_error()
+            gae_grading_code: |
+              # Here’s where you determine whether or not a student’s response is
+              # correct and generate *useful* feedback.
+
+              import json
+
+              # This is the stdout from Submit Code.
+              result = json.loads(executor_result['stdout'])
+              comment = ""
+
+              if result['is_correct']:
+                  comment= "Great job! Your Convolution layer looks good :)"
+              elif not result['error']:
+                  comment = "Not quite. The correct output shape is {} while your output shape is {}.".format(result['values'], result['output'])
+              else:
+                  comment = "Something went wrong with your submission:"
+                  grade_result['comment'] = result['error']
+
+              # Set this to True if the student passed and False if they did not.
+              grade_result['correct'] = result['is_correct']
+
+              # This will be displayed as plain text under the classroom window in the old classroom.
+              # grade_result['comment'] = "See feedback."
+
+              # This will be displayed as underneath the green “Correct!” or red
+              # "Try Again!" message. This text can be formatted with markdown.
+              grade_result['feedback'] = comment
+            requires_gpu: false
+            deadline_seconds: 0
+            legacy_template_refs: []
+            included_text_files: []
+        answer: null
+  - id: 274482
+    key: 7c8247d8-1332-4044-b2ae-6ab186ffd393
+    locale: zh-cn
+    version: 1.0.0
+    title: 答案：TensorFlow 卷积层
+    semantic_type: Concept
+    updated_at: 'Wed Apr 12 2017 08:37:45 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 274353
+      - 274355
+      - 274354
+    atoms:
+      - id: 274353
+        key: 4f2d49ac-3fcb-41e9-b8b8-6a700afe79ee
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Wed Apr 12 2017 08:39:39 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          ### 方案
+
+          这是我的做法。**注意**：有不止一种方法得到正确的输出维度，你的答案可能会跟我的有所不同。
+        instructor_notes: ''
+        resources: null
+      - id: 274355
+        key: 024c8f5a-4749-482c-8f47-735a1c595b0c
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Mon Mar 06 2017 02:57:26 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          ```python
+          def conv2d(input):
+              # Filter (weights and bias)
+              F_W = tf.Variable(tf.truncated_normal((2, 2, 1, 3)))
+              F_b = tf.Variable(tf.zeros(3))
+              strides = [1, 2, 2, 1]
+              padding = 'VALID'
+              return tf.nn.conv2d(input, F_W, strides, padding) + F_b
+          ```
+        instructor_notes: ''
+        resources: null
+      - id: 274354
+        key: 306ff652-33ed-4589-a348-663a02290ff8
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Wed Apr 12 2017 08:46:11 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          我想要把输入的 `(1, 4, 4, 1)` 转变成 `(1, 2, 2, 3)`。padding 方法我选择 `'VALID'`。我觉得他更容易理解，也得到了我想要的结果。
+
+          ```python
+          out_height = ceil(float(in_height - filter_height + 1) / float(strides[1]))
+          out_width  = ceil(float(in_width - filter_width + 1) / float(strides[2]))
+          ```
+
+          把值带入
+
+          ```
+          out_height = ceil(float(4 - 2 + 1) / float(2)) = ceil(1.5) = 2
+          out_width  = ceil(float(4 - 2 + 1) / float(2)) = ceil(1.5) = 2
+          ```
+
+          要把深度从 1 变成 3。我要把我滤波器的输出做相应地设置：
+
+          ```python
+          F_W = tf.Variable(tf.truncated_normal((2, 2, 1, 3))) # (height, width, input_depth, output_depth)
+          F_b = tf.Variable(tf.zeros(3)) # (output_depth)
+          ```
+          输入的深度是 1，所以我选择 1 作为滤波器的 `input_depth`。
+        instructor_notes: ''
+        resources: null
+  - id: 274483
+    key: ce2aa7d8-ee13-4166-8d65-5e52fd79995c
+    locale: zh-cn
+    version: 1.0.0
+    title: TensorFlow 池化层
+    semantic_type: Concept
+    updated_at: 'Wed Apr 12 2017 08:46:59 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 274356
+      - 274357
+    atoms:
+      - id: 274356
+        key: ee9971f5-b530-4cda-999a-f8d74581a3ec
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Wed Apr 12 2017 08:53:48 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          ### 在 TensorFlow 中使用池化层
+
+          在下面的练习中，你需要设定池化层的大小，strides，以及相应的 padding。你可以参考 [`tf.nn.max_pool()`](https://www.tensorflow.org/api_docs/python/tf/nn/max_pool)。Padding 与卷积 padding 的原理一样。
+
+          ### 说明
+
+          1. 完成`maxpool`函数中所有的 `TODO`。
+
+          2. 设定 `strides`, `padding` 和 `ksize` 使得池化的结果维度为 `(1, 2, 2, 1)`。
+        instructor_notes: ''
+        resources: null
+      - id: 274357
+        key: e47eb131-f824-4f81-93a1-cfb877c30339
+        locale: zh-cn
+        version: 1.0.0
+        title: ''
+        semantic_type: QuizAtom
+        updated_at: 'Mon Mar 06 2017 02:57:26 GMT+0000 (UTC)'
+        is_public: true
+        resources: null
+        instructor_notes: ''
+        instruction: null
+        question:
+          title: Define a Pooling Layer in TensorFlow
+          semantic_type: ProgrammingQuestion
+          evaluation_id: '6246286330298368'
+          evaluator:
+            model: ProgramEvaluator
+            execution_language: python3
+            executor_grading_code: |+
+              import tensorflow as tf
+              import numpy as np
+              import json
+
+              result = {'is_correct': False, 'error': False, 'values': [], 'output': '', 'custom_msg': ''}
+
+              def solution(input):
+                  ksize = [1, 2, 2, 1]
+                  strides = [1, 2, 2, 1]
+                  padding = 'VALID'
+                  # https://www.tensorflow.org/versions/r0.11/api_docs/python/nn.html#max_pool
+                  return tf.nn.max_pool(X, ksize, strides, padding)
+                  
+              try:
+                  import pool
+                  
+                  X = tf.constant(np.random.randn(1, 4, 4, 1), dtype=tf.float32)
+                  ours = solution(X)
+                  theirs = pool.maxpool(X)
+                  dim_names = ['Batch', 'Height', 'Width', 'Depth']
+                  
+                  with tf.Session() as sess:
+                      our_shape = ours.get_shape().as_list()
+                      their_shape = theirs.get_shape().as_list()
+                      
+                      did_pass = False
+                      
+                      try:
+                          for dn, ov, tv in zip(dim_names, our_shape, their_shape):
+                              if ov != tv:
+                                  # dimension mismatch
+                                  raise Exception('{} dimension: mismatch we have {}, you have {}'.format(dn, ov, tv))
+                          if np.alltrue(our_shape == their_shape):
+                              did_pass = True
+                          else:
+                              # :-(
+                              did_pass = False
+                      except:
+                          did_pass = False
+                          
+                      if did_pass:
+                          result['is_correct'] = True
+                      else:
+                          result['is_correct'] = False
+                          result['values'] = [
+                                 'correct shape: {}'.format(our_shape)
+                          ]
+                          result['output'] = str(their_shape)
+              except Exception as err:
+                  result['is_correct'] = False
+                  result['error'] = str(err)
+              print(json.dumps(result))
+
+            executor_test_code: |-
+              import pool
+              import tensorflow as tf
+
+                  
+              def prevent_tf_error():
+                  """
+                  Prevent TF_DeleteStatus error - https://udacity.atlassian.net/browse/DRIVE-1507
+                  """
+                  with tf.Session() as sess:
+                      # should be [1, 2, 2, 1]
+                      print("Output shape: {}".format(pool.out.get_shape().as_list()))
+                      print("Pooling result: {}".format(sess.run(pool.out)))
+
+              prevent_tf_error()
+            gae_grading_code: |
+              # Here’s where you determine whether or not a student’s response is
+              # correct and generate *useful* feedback.
+
+              import json
+
+              # This is the stdout from Submit Code.
+              result = json.loads(executor_result['stdout'])
+              comment = ""
+
+              if result['is_correct']:
+                  comment= "Great job! Your Pooling layer looks good :)"
+              elif not result['error']:
+                  comment = "Not quite. The correct output shape is {} while your output shape is {}.".format(result['values'], result['output'])
+              else:
+                  comment = "Something went wrong with your submission:"
+                  grade_result['comment'] = result['error']
+
+              # Set this to True if the student passed and False if they did not.
+              grade_result['correct'] = result['is_correct']
+
+              # This will be displayed as plain text under the classroom window in the old classroom.
+              # grade_result['comment'] = "See feedback."
+
+              # This will be displayed as underneath the green “Correct!” or red
+              # "Try Again!" message. This text can be formatted with markdown.
+              grade_result['feedback'] = comment
+            requires_gpu: false
+            deadline_seconds: 0
+            legacy_template_refs: []
+            included_text_files: []
+        answer: null
+  - id: 274484
+    key: 5e0067dc-3a3d-49ec-8a88-f11ac946f507
+    locale: zh-cn
+    version: 1.0.0
+    title: 答案：TensorFlow 池化层
+    semantic_type: Concept
+    updated_at: 'Wed Apr 12 2017 09:00:38 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 274358
+      - 274359
+      - 274360
+    atoms:
+      - id: 274358
+        key: 21e09004-4bc7-4480-949e-1fe63cf437ad
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Wed Apr 12 2017 09:00:48 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          ### 方案
+
+          这是我的做法。**注意**：有不止一种方法得到正确的输出维度，你的答案可能会跟我的有所不同。
+        instructor_notes: ''
+        resources: null
+      - id: 274359
+        key: d0beac6a-824a-4ce4-89d6-ed019ed74c31
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Mon Mar 06 2017 02:57:26 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          ```python
+          def maxpool(input):
+              ksize = [1, 2, 2, 1]
+              strides = [1, 2, 2, 1]
+              padding = 'VALID'
+              return tf.nn.max_pool(input, ksize, strides, padding)
+          ```
+        instructor_notes: ''
+        resources: null
+      - id: 274360
+        key: b3ce2acc-496e-4a4d-91d2-7dc04f555f96
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Wed Apr 12 2017 09:01:47 GMT+0000 (UTC)'
+        is_public: true
+        text: |+
+          我想要把输入的 `(1, 4, 4, 1)` 转变成 `(1, 2, 2, 1)`。padding 方法我选择 `'VALID'`。我觉得他更容易理解，也得到了我想要的结果。
+
+          ```sh
+          out_height = ceil(float(in_height - filter_height + 1) / float(strides[1]))
+          out_width  = ceil(float(in_width - filter_width + 1) / float(strides[2]))
+          ```
+
+          Plugging in the values:
+
+          ```sh
+          out_height = ceil(float(4 - 2 + 1) / float(2)) = ceil(1.5) = 2
+          out_width  = ceil(float(4 - 2 + 1) / float(2)) = ceil(1.5) = 2
+          ```
+
+          深度在池化的时候不变，所以不用担心
+
+        instructor_notes: ''
+        resources: null
+  - id: 274485
+    key: 01a36ddb-1e9a-47db-95b7-d0093aed970d
+    locale: zh-cn
+    version: 1.0.0
+    title: CNNs - 补充材料
+    semantic_type: Concept
+    updated_at: 'Wed Apr 12 2017 09:02:20 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 274361
+    atoms:
+      - id: 274361
+        key: 629f2f90-c4ef-4a93-a877-05185577fd6d
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Wed Apr 12 2017 09:05:57 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          ### 补充材料
+
+          有很多免费的资源可以让你对卷积神经网络有更深入的了解。在本课中，我们的目标是让你了解这个概念如何解决现实问题。你也有了能力来继续探索。我们强烈推荐你参考下列资源来强化你的理解以及了解更多概念。
+
+          这是我们特别推荐的
+
+          - Andrej Karpathy's [CS231n Stanford course](http://cs231n.github.io/) on Convolutional Neural Networks.
+          - Michael Nielsen's [free book](http://neuralnetworksanddeeplearning.com) on Deep Learning.
+          - Goodfellow, Bengio, and Courville's more advanced [free book](http://deeplearningbook.org/) on Deep Learning.
+        instructor_notes: ''
+        resources: null

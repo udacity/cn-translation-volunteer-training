@@ -1,0 +1,363 @@
+1
+00:00:00,450 --> 00:00:02,860
+So, here I am, back at the code, and
+
+2
+00:00:02,860 --> 00:00:05,620
+here I can see my class movie, and within it
+
+3
+00:00:05,620 --> 00:00:08,990
+I will begin to define, [SOUND] the function, init.
+
+4
+00:00:08,990 --> 00:00:12,290
+Now, there is something very curious about this function already,
+
+5
+00:00:12,290 --> 00:00:14,750
+which is that, there are two underscores on both
+
+6
+00:00:14,750 --> 00:00:17,740
+sides of the word in it. These underscores are a
+
+7
+00:00:17,740 --> 00:00:21,750
+way for Python to tell us, the programmers, that hey,
+
+8
+00:00:21,750 --> 00:00:25,520
+the name init, is essentially reserved in Python, and that,
+
+9
+00:00:25,520 --> 00:00:28,210
+this is a special function or method. What's
+
+10
+00:00:28,210 --> 00:00:31,690
+special about init? Is that, it initializes or creates
+
+11
+00:00:31,690 --> 00:00:35,460
+space in memory. To remember details like title, story
+
+12
+00:00:35,460 --> 00:00:37,630
+line, et cetera, for new movies that we are
+
+13
+00:00:37,630 --> 00:00:40,530
+about to create. Now init, takes a few
+
+14
+00:00:40,530 --> 00:00:43,990
+pieces of information or arguments. The first of which,
+
+15
+00:00:43,990 --> 00:00:47,780
+is always the python keyword, self. Now, what is
+
+16
+00:00:47,780 --> 00:00:50,620
+this thing called, self, you ask? Well, you can
+
+17
+00:00:50,620 --> 00:00:54,600
+think of self as itself, or the instance being created.
+
+18
+00:00:54,600 --> 00:00:57,230
+So, when we run this line of code in our
+
+19
+00:00:57,230 --> 00:01:00,110
+other Python file, by the way, just to remind you,
+
+20
+00:01:00,110 --> 00:01:02,900
+here we are trying to create a new movie called, toy_story.
+
+21
+00:01:02,900 --> 00:01:04,590
+And when we run this line of code, we know
+
+22
+00:01:04,590 --> 00:01:08,400
+that the __init__ function inside the class Movie gets called. Self,
+
+23
+00:01:08,400 --> 00:01:12,410
+in that case, points to toy_story. Now here, I have
+
+24
+00:01:12,410 --> 00:01:15,830
+a confession to make. I remember when I was first learning
+
+25
+00:01:15,830 --> 00:01:19,360
+object oriented programming years ago in college. This concept of
+
+26
+00:01:19,360 --> 00:01:22,980
+self, was really difficult for me to understand. If that
+
+27
+00:01:22,980 --> 00:01:25,090
+is the case with you, don't worry about it too
+
+28
+00:01:25,090 --> 00:01:28,060
+much for now. This will get, really clear when we
+
+29
+00:01:28,060 --> 00:01:30,990
+learn this entire piece of coding a few seconds. In
+
+30
+00:01:30,990 --> 00:01:34,260
+any case, let's add the keyword self, to our list
+
+31
+00:01:34,260 --> 00:01:36,880
+of new words. Okay, I'm going to go back to
+
+32
+00:01:36,880 --> 00:01:39,830
+the class movie, and continue to define the function, init.
+
+33
+00:01:40,910 --> 00:01:46,070
+Now, we want init, to initialize pieces of information like title, story line
+
+34
+00:01:46,070 --> 00:01:51,027
+and others that we want to remember inside our class. Here's a way to do that. I
+
+35
+00:01:51,027 --> 00:01:55,674
+will say, self.title, then self.storyline.
+
+36
+00:01:55,674 --> 00:02:00,504
+[SOUND] The next one is, poster_image_url, and
+
+37
+00:02:00,504 --> 00:02:05,940
+finally, trailer_youtube_url. Now, we have to somehow initialize
+
+38
+00:02:05,940 --> 00:02:08,979
+these variables, with information init is going to
+
+39
+00:02:08,979 --> 00:02:11,760
+receive. And in particular, it's going to receive, four
+
+40
+00:02:11,760 --> 00:02:14,590
+pieces of information. The first of which is,
+
+41
+00:02:14,590 --> 00:02:18,360
+a movie title, [SOUND] next is, the movie storyline,
+
+42
+00:02:18,360 --> 00:02:21,060
+then the poster image of the movie, and
+
+43
+00:02:21,060 --> 00:02:24,970
+finally, the trailer on YouTube. So,get this, once I've
+
+44
+00:02:24,970 --> 00:02:27,820
+received these four pieces of information as arguments to
+
+45
+00:02:27,820 --> 00:02:31,550
+the __init__ function, I can initialize my Movie variables.
+
+46
+00:02:31,550 --> 00:02:34,330
+Here's how to do that. self.title, is the movie
+
+47
+00:02:34,330 --> 00:02:38,612
+title. Self.storyline, is the movie story line. Next is,
+
+48
+00:02:38,612 --> 00:02:41,994
+[SOUND] the poster image. And finally, [SOUND] the trailer
+
+49
+00:02:41,994 --> 00:02:44,910
+on youtube. Now here, I have a confession to
+
+50
+00:02:44,910 --> 00:02:47,580
+make. Which is, that we've written a lot of
+
+51
+00:02:47,580 --> 00:02:51,210
+code that looks new and strange. Well, the one
+
+52
+00:02:51,210 --> 00:02:52,570
+thing I can say is that, we should all
+
+53
+00:02:52,570 --> 00:02:55,020
+just take a pause and a deep breath together.
+
+54
+00:02:57,590 --> 00:02:59,448
+[SOUND]. For now, all I want you to do, is
+
+55
+00:02:59,448 --> 00:03:02,010
+pause this video, and write down this code on your
+
+56
+00:03:02,010 --> 00:03:05,400
+computer. All of this code will make sense as soon
+
+57
+00:03:05,400 --> 00:03:08,840
+as we run this program. Now, there is one key point
+
+58
+00:03:08,840 --> 00:03:11,470
+I would like to highlight, before I execute this piece
+
+59
+00:03:11,470 --> 00:03:14,090
+of code, which is, that if I go to my
+
+60
+00:03:14,090 --> 00:03:18,400
+other Python file, which is entertainment_center.py. And run this piece
+
+61
+00:03:18,400 --> 00:03:22,320
+of code. It will throw an error. The error will happen,
+
+62
+00:03:22,320 --> 00:03:25,030
+because when we try to create the movie, Toy
+
+63
+00:03:25,030 --> 00:03:28,180
+Story, the init function gets called, which is now
+
+64
+00:03:28,180 --> 00:03:31,730
+looking for several arguments or pieces of information, although,
+
+65
+00:03:31,730 --> 00:03:35,210
+we are not sending it any information whatsoever. So
+
+66
+00:03:35,210 --> 00:03:37,940
+let me change that. Now, I know that first
+
+67
+00:03:37,940 --> 00:03:41,080
+argument for the edit function is, self. Which is
+
+68
+00:03:41,080 --> 00:03:43,410
+added by default in Python. So I will skip
+
+69
+00:03:43,410 --> 00:03:47,450
+it. The next one is movie title, which I know
+
+70
+00:03:47,450 --> 00:03:52,530
+is, Toy Story, so I will add that. After that, is the movie
+
+71
+00:03:52,530 --> 00:03:57,540
+storyline, so I will type that in next. A Story. Of
+
+72
+00:03:57,540 --> 00:04:02,350
+a boy and his toys that come to
+
+73
+00:04:02,350 --> 00:04:07,700
+life. The next one is, the power image, so I will add that.
+
+74
+00:04:07,700 --> 00:04:12,970
+[SOUND] I had previously gone on Wikipedia and found a link to, Toy Story's
+
+75
+00:04:12,970 --> 00:04:18,970
+poster, so I added that and finally, the Youtube trailer, which I will add also.
+
+76
+00:04:21,050 --> 00:04:23,450
+[SOUND] There it is. Now, let me just scroll
+
+77
+00:04:23,450 --> 00:04:24,990
+back so we can see the beginning of the
+
+78
+00:04:24,990 --> 00:04:28,240
+code. Here, I recognize that you can't see all
+
+79
+00:04:28,240 --> 00:04:30,690
+of the code, so what I've done is, take an
+
+80
+00:04:30,690 --> 00:04:32,910
+image of the code, and put it in the
+
+81
+00:04:32,910 --> 00:04:35,760
+instructor notes for you to look at. All right,
+
+82
+00:04:35,760 --> 00:04:37,870
+the last thing I'm going to do here, is
+
+83
+00:04:37,870 --> 00:04:42,490
+type Toy Story's story line. Let me save this file,
+
+84
+00:04:44,890 --> 00:04:50,740
+and then go back to my class Movie file, and save that one also. And then
+
+85
+00:04:50,740 --> 00:04:55,850
+come back again, to my entertainment_center.py file. Now
+
+86
+00:04:55,850 --> 00:04:58,430
+here, if everything goes correctly, my program should
+
+87
+00:04:58,430 --> 00:05:03,220
+print out, toy_story.storyline. Let's run it. And there
+
+88
+00:05:03,220 --> 00:05:06,300
+it is, Toy story, storyline is getting printed.
+
+89
+00:05:06,300 --> 00:05:07,600
+Okay, so, in the next video we are
+
+90
+00:05:07,600 --> 00:05:09,970
+going to see what happens behind the scenes when
+
+91
+00:05:09,970 --> 00:05:11,020
+we run this piece of code.

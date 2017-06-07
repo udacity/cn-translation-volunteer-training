@@ -76,7 +76,7 @@ concepts:
         key: '6374183361'
         locale: zh-cn
         version: 1.0.0
-        title: 简介
+        title: 卷积神经网络简介
         semantic_type: VideoAtom
         updated_at: 'Wed Apr 19 2017 21:33:31 GMT+0000 (UTC)'
         is_public: true
@@ -182,7 +182,7 @@ concepts:
         key: 49b8168f-fa5e-490d-86a2-45d87cd1f4b3
         locale: zh-cn
         version: 1.0.0
-        title: Statistical Invariance
+        title: 统计不变性
         semantic_type: VideoAtom
         updated_at: 'Tue Apr 18 2017 17:02:59 GMT+0000 (UTC)'
         is_public: true
@@ -216,7 +216,7 @@ concepts:
         key: e3f5d200-347f-455a-a1bb-e19e0dceb53e
         locale: zh-cn
         version: 1.0.0
-        title: Convolutional Networks
+        title: 卷积网络
         semantic_type: VideoAtom
         updated_at: 'Tue Apr 18 2017 17:03:17 GMT+0000 (UTC)'
         is_public: true
@@ -268,7 +268,7 @@ concepts:
         text: |-
           ### 直观感受
 
-          让我们对卷积神经网络如何工作有一个直观的理解。我们先看下人怎样识别图片，然后再看CNNs如何用一个近似的方法。
+          让我们对卷积神经网络如何工作形成更好直观感受。我们先看下人怎样识别图片，然后再看 CNNs 如何用一个近似的方法来识别图片。
 
           比如说，我们想把下面这张图片识别为金毛巡回犬。
         instructor_notes: ''
@@ -298,9 +298,9 @@ concepts:
         text: |-
           人类是怎么做的呢？
 
-          一种做法是我们识别狗的特定部位，例如鼻子，眼睛，毛发。我们把图片分成小片，识别小片，然后把这些和在一起，得到一个狗的概念。
+          一种做法是我们识别狗的特定部位，例如鼻子，眼睛，毛发。我们把图片分成小片，识别小片，然后把这些结合在一起，得到一个狗的概念。
 
-          这种情况下，我们可以把图片分成下列组合
+          这种情况下，我们可以把图片分成下列组合：
 
           - 一个鼻子
           - 两只眼睛
@@ -402,7 +402,7 @@ concepts:
         updated_at: 'Mon Apr 24 2017 14:14:16 GMT+0000 (UTC)'
         is_public: true
         text: |-
-          广义上来说，这就是CNN学着做的。它学习识别基本的直线，曲线，然后是形状，点块，然后是图片中更复杂的物体。最终CNN分类器把这些大的，复杂的物体综合起来识别图片
+          广义上来说，这就是 CNN 的学习方式。它学习识别基本的直线，曲线，然后是形状，点块，然后是图片中更复杂的物体。最终 CNN 分类器把这些大的，复杂的物体综合起来识别图片。
 
           在我们的例子中，层级关系是：
 
@@ -410,9 +410,9 @@ concepts:
           - 复杂的物体（简单形状的组合），例如眼睛，鼻子，毛发
           - 狗的整体（复杂物体的组合）
 
-          有了深度学习，我们不需要设定CNN来识别特定的特征。相反，CNN通过正向和反向传播自己学习识别上述物体。
+          有了深度学习，我们不需要设定 CNN 来识别特定的特征。相反，CNN 通过正向和反向传播，自己学习识别上述物体。
 
-          尽管我们从来没有给CNN特定的特征来寻找，但是它级别图片的能力却好的惊人！
+          尽管我们从来没有让 CNN 寻找特定的特征信息，但是它识别图片的能力却好的惊人！
         instructor_notes: ''
         resources: null
       - id: 274261
@@ -426,7 +426,7 @@ concepts:
         url: 'https://d17h27t6h515a5.cloudfront.net/topher/2016/November/583cb19d_heirarchy-diagram/heirarchy-diagram.jpg'
         width: 765
         height: 549
-        caption: 对狗图片每一层CNN可能识别物体的示意图
+        caption: 对狗图片每一层 CNN 可能识别物体的示意图
         resources: null
         instructor_notes: null
       - id: 274262
@@ -438,20 +438,20 @@ concepts:
         updated_at: 'Sun Apr 09 2017 09:06:18 GMT+0000 (UTC)'
         is_public: true
         text: |-
-          CNN可能有几层网络，每个层可能捕获对象层次结构中的不同级别。第一层是层级结构的最底级，CNN一般来把图片中的小部分识别成简单的形状，例如水平、竖直的直线，简单色色块。紧接着一层是层级结构的上级，一般来说识别更复杂的形状（线的组合），最终识别整个物体，例如狗。
+          CNN 可能有几层网络，每个层可能捕获对象抽象层次中的不同级别。第一层是抽象层次的最底级，CNN 一般把图片中的较小的部分识别成简单的形状，例如水平、竖直的直线，简单的色块。下一层将会上升到更高的抽象层次，一般会识别更复杂的概念，例如形状（线的组合），以此类推直至最终识别整个物体，例如狗。
 
-          再次强调，CNN 是**自主学习**。我们不需要告诉CNN去寻找任何直线、曲线、鼻子、毛发等等。CNN 从训练集中学习并发现金毛巡回犬值得寻找的特征。
+          再次强调，CNN 是**自主学习**。我们不需要告诉 CNN 去寻找任何直线、曲线、鼻子、毛发等等。CNN 从训练集中学习并发现金毛巡回犬值得寻找的特征。
 
-          通过这样一个开始，希望你对CNNs如何工作有了一个很直观的了解。
+          这是个不错的开始！希望你对 CNNs 如何工作有了直观的了解。
 
-          接下来我们看看实现上地一些细节。
+          接下来我们看看实现的细节。
         instructor_notes: ''
         resources: null
   - id: 274456
     key: bed725a8-0738-4b00-92bd-d2062f005a7c
     locale: zh-cn
     version: 1.0.0
-    title: Filters 滤波器
+    title: 滤波器 Filters
     semantic_type: Concept
     updated_at: 'Sun Apr 09 2017 15:22:41 GMT+0000 (UTC)'
     is_public: true
@@ -483,9 +483,9 @@ concepts:
         text: |-
           ### 分解一张图片
 
-          CNN的第一步是把图片分成小块。我们选择一个宽度和高度来定义一个滤波器。
+          CNN 的第一步是把图片分成小块。我们通过选取一个给定宽度和高度的滤波器来实现这一步。
 
-          滤波器会照在图片的小块 patch （图像区块）上。这些 patches 的大小与滤波器一样大。
+          滤波器会照在图片的小块 patch （图像区块）上。这些 patch 的大小与滤波器一样大。
         instructor_notes: ''
         resources: null
       - id: 274264
@@ -499,7 +499,7 @@ concepts:
         url: 'https://d17h27t6h515a5.cloudfront.net/topher/2016/November/58377d67_vlcsnap-2016-11-24-15h52m47s438/vlcsnap-2016-11-24-15h52m47s438.png'
         width: 1280
         height: 738
-        caption: 如之前视频所示，CNN用滤波器来把图片分割成更小的 patches，patch 的大小跟滤波器大小相同。
+        caption: 如之前视频所示，CNN 用滤波器来把图片分割成更小的 patch，patch 的大小跟滤波器大小相同。
         resources: null
         instructor_notes: null
       - id: 274265
@@ -513,7 +513,7 @@ concepts:
         text: |-
           我们可以在水平方向，或者竖直方向滑动滤波器对图片的不同部分进行聚焦。
 
-          滤波器滑动的间隔被称作'stride'（步长）。他是你，作为工程师，可以调节的一个超参数。增大 stride 会通过减少每层观察总 patches 的数量来减小你模型的大小。
+          滤波器滑动的间隔被称作'stride'（步长）。这是你可以调节的一个超参数。增大 stride 值后，会减少每层总 patch 数量，因此也减小了模型大小。通常这也会降低图像精度。
 
           让我们看一个例子，在这个放大的狗图片中，我们从红框开始，我们滤波器的高和宽决定了这个正方形的大小。
         instructor_notes: ''
@@ -540,7 +540,7 @@ concepts:
         semantic_type: TextAtom
         updated_at: 'Sun Apr 09 2017 15:16:17 GMT+0000 (UTC)'
         is_public: true
-        text: 然后我们向右把方块移动一个给定的步长（这里是2），得到另一块。
+        text: 然后我们向右把方块移动一个给定的步长（这里是2），得到另一块 patch。
         instructor_notes: ''
         resources: null
       - id: 274268
@@ -568,9 +568,9 @@ concepts:
         text: |-
           这里最重要的是我们把相邻的像素**聚在一起**，把他们视作一个集合。
 
-          在普通非卷积的神经网络中，我们忽略了这种临近性。在普通网络中，我们把输入图片中的每一个像素与下一层的神经元相连。这样做我们没有有效利用图片中相邻像素在一起是有原因的，这有特殊意义。
+          在普通非卷积的神经网络中，我们忽略了这种临近性。在普通网络中，我们把输入图片中的每一个像素与下一层的神经元相连。图片中相邻像素在一起是有原因的，并且有着特殊意义，但普通网络没有有效利用好这些信息。
 
-          要利用这种临近结构，我们的CNN就要学习如何分类临近模式，例如图片中的形状和物体。
+          要利用这种临近结构，我们的 CNN 就要学习如何分类临近模式，例如图片中的形状和物体。
         instructor_notes: ''
         resources: null
       - id: 274270
@@ -582,7 +582,7 @@ concepts:
         updated_at: 'Sun Apr 09 2017 16:15:28 GMT+0000 (UTC)'
         is_public: true
         text: |-
-          ### 滤波器深度
+          ### 滤波器深度 Filter Depth
 
           通常都会有多余一个滤波器，不同滤波器提取一个 patch 的不同特性。例如，一个滤波器寻找特定颜色，另一个寻找特定物体的特定形状。卷积层滤波器的数量被称为**滤波器深度**。
         instructor_notes: ''
@@ -599,7 +599,7 @@ concepts:
         width: 353
         height: 258
         caption: |-
-          上述例子中，一个 patch 与下一层的神经元相连 
+          上述例子中，一个 patch 与下一层的神经元相连
 
           来源: MIchael Neilsen
         resources: null
@@ -613,9 +613,9 @@ concepts:
         updated_at: 'Sun Apr 09 2017 16:26:51 GMT+0000 (UTC)'
         is_public: true
         text: |-
-          每一个 patch 连接到多少神经元呢？
+          每个 patch 连接多少神经元？
 
-          这取决于我们滤波器的深度，如果我们的深度是 `k`，我们把每个 patch 与下一层的 `k` 个神经元相连。这样我们下一层的高度就是 `k`，如下图所示。实际操作中，`k`是一个我们可以调节的超参数，大多数的CNNs倾向于选择相同的起始值。
+          这取决于滤波器的深度，如果深度是 `k`，我们把每个 patch 与下一层的 `k` 个神经元相连。这样下一层的高度就是 `k`，如下图所示。实际操作中，`k`是一个我们可以调节的超参数，大多数的 CNNs 倾向于选择相同的起始值。
         instructor_notes: ''
         resources: null
       - id: 274273
@@ -629,7 +629,7 @@ concepts:
         url: 'https://d17h27t6h515a5.cloudfront.net/topher/2016/December/5840ffda_filter-depth/filter-depth.png'
         width: 606
         height: 1010
-        caption: 滤波器的深度为`k`，与下次的`k`个神经元相连
+        caption: 滤波器的深度为`k`，与下一层的`k`个神经元相连
         resources: null
         instructor_notes: null
       - id: 274274
@@ -643,9 +643,9 @@ concepts:
         text: |-
           为什么我们把一个 patch 与下一层的多个神经元相连呢？一个神经元不够好吗？
 
-          多个神经元的作用在于，一个 patch 可以有多个有意义的特点我们可以提取。
+          多个神经元的作用在于，一个 patch 可以有多个有意义的，可供提取的特点。
 
-          例如，一个 patch 可能包括白牙，金色的须，红舌头的一部分。在这种情况下，我们想要一个深度至少为3的滤波器，一个为了牙，一个为了须，一个为舌头。
+          例如，一个 patch 可能包括白牙，金色的须，红舌头的一部分。在这种情况下，我们需要一个深度至少为3的滤波器，一个识别牙，一个识别须，一个识别舌头。
         instructor_notes: ''
         resources: null
       - id: 274275
@@ -659,7 +659,7 @@ concepts:
         url: 'https://d17h27t6h515a5.cloudfront.net/topher/2016/December/584104c8_teeth-whiskers-tongue/teeth-whiskers-tongue.png'
         width: 388
         height: 420
-        caption: 这个狗的patch 有很多有意思的特征需要提取。包括牙、须以及粉红色的舌头。
+        caption: 这个狗的 patch 有很多有意思的特征需要提取。包括牙、须以及粉红色的舌头。
         resources: null
         instructor_notes: null
       - id: 274276
@@ -671,9 +671,9 @@ concepts:
         updated_at: 'Sun Apr 09 2017 16:34:11 GMT+0000 (UTC)'
         is_public: true
         text: |-
-          一个patch连接有多个神经元可以保证我们的 CNNs 学会提取任何它觉得重要的特征。
+          一个 patch 连接有多个神经元可以保证我们的 CNNs 学会提取任何它觉得重要的特征。
 
-          记住，CNN并没有被规定寻找特定特征。与之相反，它**自我学习**什么特征值得注意。
+          记住，CNN 并没有被规定寻找特定特征。与之相反，它**自我学习**什么特征值得注意。
         instructor_notes: ''
         resources: null
   - id: 274457
@@ -724,9 +724,9 @@ concepts:
         is_public: true
         question:
           prompt: |-
-            What are the width, height and depth for padding = 'same', stride = 1?
+            当padding = 'same'，stride = 1时，width、height、depth各是多少？
 
-            Enter your answers in the format "width, height, depth"
+            以此格式输入答案： "width, height, depth"
           default_feedback: null
           correct_feedback: Good job!
           video_feedback: null
@@ -747,11 +747,11 @@ concepts:
         is_public: true
         question:
           prompt: |-
-            What are the width, height and depth for padding = 'valid', stride = 1?
+            当padding = 'valid'， stride = 1时，width、height、depth各是多少？
 
-            Enter your answers in the format "width, height, depth"
+            以此格式输入答案： "width, height, depth"
           default_feedback: null
-          correct_feedback: Great job!
+          correct_feedback: 做得好!
           video_feedback: null
           matchers:
             - semantic_type: RegexMatcher
@@ -770,11 +770,11 @@ concepts:
         is_public: true
         question:
           prompt: |-
-            What are the width, height and depth for padding = 'valid', stride = 2?
+            当padding = 'valid'，stride = 2时，width、height、depth各是多少？
 
-            Enter your answers in the format "width, height, depth"
+            以此格式输入答案： "width, height, depth"
           default_feedback: null
-          correct_feedback: Nicely done!
+          correct_feedback: 完成得不错!
           video_feedback: null
           matchers:
             - semantic_type: RegexMatcher
@@ -821,12 +821,12 @@ concepts:
         key: d5576aaf-8a77-4013-a3c8-c2d5a9a2b8bc
         locale: zh-cn
         version: 1.0.0
-        title: Convolutions Cont.
+        title: 继续卷积
         semantic_type: VideoAtom
         updated_at: 'Tue Apr 18 2017 17:00:55 GMT+0000 (UTC)'
         is_public: true
         tags: []
-        instructor_notes: 注意，全链接层是一个标准的，非卷积层。它所有的输入跟输出神经相连，这也被称为 dense 层。
+        instructor_notes: 注意，全链接层是一个标准的，非卷积层。它的输入与所有的输出神经相连，也被称为 dense 层，这也是我们前两课中一直在用的连接层。
         resources: null
         video:
           youtube_id: utOv-BKI_vo
@@ -881,7 +881,7 @@ concepts:
         url: 'https://d17h27t6h515a5.cloudfront.net/topher/2016/November/58377f77_vlcsnap-2016-11-24-16h01m35s262/vlcsnap-2016-11-24-16h01m35s262.png'
         width: 1280
         height: 738
-        caption: 在CNN的一层中的 patches 中共享权重 `w` ，无论猫在图片的哪个位置都可以找到。
+        caption: 在 CNN 的一层中的 patch 中共享权重 `w` ，无论猫在图片的哪个位置都可以找到。
         resources: null
         instructor_notes: null
       - id: 274285
@@ -893,15 +893,15 @@ concepts:
         updated_at: 'Tue Apr 11 2017 03:49:34 GMT+0000 (UTC)'
         is_public: true
         text: |-
-          当我们试图识别一个猫的图片的时候，我们并不在意猫出现在哪个位置。无论是左上角，右下角，它在你眼里都是一只猫。我们希望CNNs能够无差别的识别，这如何做到呢？
+          当我们试图识别一个猫的图片的时候，我们并不在意猫出现在哪个位置。无论是左上角，右下角，它在你眼里都是一只猫。我们希望 CNNs 能够无差别的识别，这如何做到呢？
 
           如我们之前所见，一个给定的 patch 的分类，是由 patch 对应的权重和偏置项决定的。
 
           如果我们想让左上角的猫与右下角的猫以同样的方式被识别，他们的权重和偏置项需要一样，这样他们才能以同一种方法识别。
 
-          这正是我们在CNNs中做的。一个给定输出层学到的权重和偏置项会共享在输入层所有的patches里。注意，当我们增大滤波器的深度的时候，我们需要学习的权重和偏置项的数量也会增加，因为权重并没有共享在所有输出的 channel里。
+          这正是我们在 CNNs 中做的。一个给定输出层学到的权重和偏置项会共享在输入层所有的 patch 里。注意，当我们增大滤波器的深度的时候，我们需要学习的权重和偏置项的数量也会增加，因为权重并没有共享在所有输出的 channel 里。
 
-          共享参数还有一个额外的好处。如果我们不再所有的 patches 里用相同的权重，我们必须对每一个 patch 和它对应的隐藏层神经元学习新的参数。这不利于规模化，特别对于高清图片。因此， 共享权重不仅帮我们平移不变，还给我们一个更小，可以规模化的模型。
+          共享参数还有一个额外的好处。如果我们不在所有的 patch 里用相同的权重，我们必须对每一个 patch 和它对应的隐藏层神经元学习新的参数。这不利于规模化，特别对于高清图片。因此，共享权重不仅帮我们平移不变，还给我们一个更小，可以规模化的模型。
         instructor_notes: ''
         resources: null
       - id: 274286
@@ -927,7 +927,7 @@ concepts:
         url: 'https://d17h27t6h515a5.cloudfront.net/topher/2016/November/5837d4d5_screen-shot-2016-11-24-at-10.05.37-pm/screen-shot-2016-11-24-at-10.05.37-pm.png'
         width: 278
         height: 278
-        caption: 'A `5x5` grid with a `3x3` filter. Source: Andrej Karpathy.'
+        caption: "一个 `5x5` 的网格附带一个 `3x3` 的滤波器。 来源: Andrej Karpathy。"
         resources: null
         instructor_notes: null
       - id: 274291
@@ -939,9 +939,9 @@ concepts:
         updated_at: 'Mon Mar 06 2017 02:57:26 GMT+0000 (UTC)'
         is_public: true
         text: |-
-          Let's say we have a `5x5` grid (as shown above) and a filter of size `3x3` with a stride of `1`. What's the width and height of the next layer? We see that we can fit at most three patches in each direction, giving us a dimension of `3x3` in our next layer. As we can see, the width and height of each subsequent layer decreases in such a scheme.
+          假设现在有一个 `5x5` 网格 (如上图所示) 和一个尺寸为 `3x3` stride值为 `1` 的滤波器(filter)。 下一层的 width 和 height 是多少呢？ 如图中所示，在水平和竖直方向都可以在3个不同的位置放置 patch， 下一层的维度即为 `3x3` 。下一层宽和高的尺寸就会按此规则缩放。
 
-          In an ideal world, we'd be able to maintain the same width and height across layers so that we can continue to add layers without worrying about the dimensionality shrinking and so that we have consistency. How might we achieve this? One way is to simply add a border of `0`s to our original `5x5` image. You can see what this looks like in the below image.
+          在理想状态下，我们可以在层间保持相同的宽度和高度，以便继续添加图层，保持网络的一致性，而不用担心维度的缩小。如何实现这一构想？其中一种简单的办法是，在 `5x5` 原始图片的外层包裹一圈 `0` ，如下图所示。
         instructor_notes: ''
         resources: null
       - id: 274292
@@ -955,7 +955,7 @@ concepts:
         url: 'https://d17h27t6h515a5.cloudfront.net/topher/2016/November/5837d4ee_screen-shot-2016-11-24-at-10.05.46-pm/screen-shot-2016-11-24-at-10.05.46-pm.png'
         width: 388
         height: 390
-        caption: 'The same grid with `0` padding. Source: Andrej Karpathy.'
+        caption: '加了 `0` padding的相同网格。 来源: Andrej Karpathy。'
         resources: null
         instructor_notes: null
       - id: 274288
@@ -966,7 +966,7 @@ concepts:
         semantic_type: TextAtom
         updated_at: 'Mon Mar 06 2017 02:57:26 GMT+0000 (UTC)'
         is_public: true
-        text: ' This would expand our original image to a `7x7`. With this, we now see how our next layer''s size is again a `5x5`, keeping our dimensionality consistent.'
+        text: ' 这将会把原始图片扩展到 `7x7`。 现在我们知道如何让下一层图片的尺寸维持在 `5x5`，保持维度的一致性。'
         instructor_notes: ''
         resources: null
       - id: 274289
@@ -978,20 +978,20 @@ concepts:
         updated_at: 'Mon Mar 06 2017 02:57:26 GMT+0000 (UTC)'
         is_public: true
         text: |-
-          ### Dimensionality
+          ### 维度
 
-          From what we've learned so far, how can we calculate the number of neurons of each layer in our CNN? 
+          综合目前所学的知识，我们应该如何计算 CNN 中每一层神经元的数量呢？
 
-          Given our input layer has a volume of `W`, our filter has a volume (```height * width * depth```) of `F`, we have a stride of `S`, and a padding of `P`, the following formula gives us the volume of the next layer: ```(W−F+2P)/S+1```. 
+          输入层(input layer) 维度值为`W`， 滤波器(filter)的维度值为 `F` (```height * width * depth```)， stride 的数值为 `S`， padding 的数值为 `P`， 下一层的维度值可用如下公式表示: ```(W−F+2P)/S+1```。
 
-          Knowing the dimensionality of each additional layer helps us understand how large our model is and how our decisions around filter size and stride affect the size of our network.
+          我们可以通过每一层神经元的维度信息，得知模型的规模，并了解到我们设定的 filter size 和 stride 如何影响整个神经网络的尺寸。
         instructor_notes: ''
         resources: null
   - id: 274459
     key: 4f028128-6c6a-41e1-80cd-58f54189615d
     locale: zh-cn
     version: 1.0.0
-    title: 练习：卷积输出形状
+    title: 练习：卷积输出维度
     semantic_type: Concept
     updated_at: 'Tue Apr 11 2017 04:00:50 GMT+0000 (UTC)'
     is_public: true
@@ -1011,14 +1011,14 @@ concepts:
         text: |-
           ### 介绍
 
-          接下来的几个练习我们检测你对CNNs维度的理解，理解维度可以帮你在模型大小和表现直接做精确的权衡。你将会了解，一些参数对模型大小的影响会远大于另外一些。
+          接下来的几个练习将检测你对 CNNs 维度的理解，理解维度可以帮你在模型大小和模型质量上，做精确的权衡。你将会了解，一些参数对模型大小的影响会远大于另外一些。
 
           ### 设置
 
           H = height, W = width, D = depth
 
-          * 我们有一个输入形状是 32x32x3 (HxWxD)
-          * 20个形状为 8x8x3 (HxWxD) 的过滤器
+          * 我们有一个输入维度是 32x32x3 (HxWxD)
+          * 20个维度为 8x8x3 (HxWxD) 的滤波器
           * 高和宽的stride（步长）都为 2。(S)
           * padding 大小为1 (P)
 
@@ -1034,15 +1034,15 @@ concepts:
         key: 627fa396-81d9-47f2-81bc-63f049bdf72f
         locale: zh-cn
         version: 1.0.0
-        title: 卷积层输出形状
+        title: 卷积层输出维度
         semantic_type: ValidatedQuizAtom
         updated_at: 'Tue Apr 11 2017 04:07:06 GMT+0000 (UTC)'
         is_public: true
         question:
           prompt: |-
-            输出的形状是？
+            输出的维度(shape)是什么？
 
-            答案写成 **HxWxD** 的形式。假设你认为新的告诉是 9，新的宽度是 9，新的深度是 5，你在答案框中输入 9x9x5。
+            答案写成 **HxWxD** 的形式。假设你认为新的高度是 9，新的宽度是 9，新的深度是 5，则在答案框中输入 9x9x5。
           default_feedback: |-
             记住，我们可以用下面的公式计算高度和宽度：
 
@@ -1126,7 +1126,7 @@ concepts:
         updated_at: 'Tue Apr 11 2017 04:17:22 GMT+0000 (UTC)'
         is_public: true
         text: |-
-          这对应的代码是：
+          对应如下代码：
 
           ```python
           input = tf.placeholder(tf.float32, (None, 32, 32, 3))
@@ -1138,6 +1138,22 @@ concepts:
           ```
 
           注意，这里的`conv` 输出的是 [1, 13, 13, 20]。这是对应 batch size 的 4D 大小，重要的是它不是  [1, 14, 14, 20]。这是因为 TensorFlow 的 padding 算法与上面的并不完全相同。一个可替换方案是把 `padding` 从 `'VALID'` 改为`'SAME'`，这样得到的结果是 [1, 16, 16, 20]。如果你想了解 TensorFlow 中的 padding 如何工作，可以看这个[文档](https://www.tensorflow.org/api_guides/python/nn#Convolution)。
+
+          总之，TensorFlow 使用如下等式计算 `SAME` 、`PADDING`
+
+          **SAME Padding**， 输出的高和宽，计算如下：
+
+          `out_height` = ceil(float(in_height) / float(strides1))
+
+          `out_width` = ceil(float(in_width) / float(strides[2]))
+
+
+          **VALID Padding**， 输出的高和宽，计算如下：
+
+          `out_height` = ceil(float(in_height - filter_height + 1) / float(strides1))
+
+          `out_width` = ceil(float(in_width - filter_width + 1) / float(strides[2]))
+
         instructor_notes: ''
         resources: null
   - id: 274462
@@ -1162,16 +1178,16 @@ concepts:
         updated_at: 'Tue Apr 11 2017 04:51:55 GMT+0000 (UTC)'
         is_public: true
         text: |-
-          我们要计算卷积层的参数的数量，上一个练习的答案这里可以用在这里！
+          我们要计算卷积层的参数的数量，在此将使用上一个练习的答案！
 
-          能够计算神经网络里面的参数数量很有用，因为我们想控制神经网络使用了多少内存空间
+          能够计算神经网络里面的参数数量很有用，因为我们想控制神经网络使用的内存空间。
 
           ### 设置
 
           H = height, W = width, D = depth
-          - 我们有一个输入形状是 32x32x3 (HxWxD)
-          - 20个形状为 8x8x3 (HxWxD) 的过滤器
-          - 高和宽的stride（步长）都为 2。(S)
+          - 输入数据，维度为 32x32x3 (HxWxD)
+          - 20个滤波器，维度为 8x8x3 (HxWxD)
+          - stride（步长）高和宽的都为 2 (S)
           - padding 大小为1 (P)
 
           ### 输出层
@@ -1269,15 +1285,16 @@ concepts:
         updated_at: 'Tue Apr 11 2017 06:36:09 GMT+0000 (UTC)'
         is_public: true
         text: |-
-          如果输出层的每个神经元与其它同样通道的神经元共享参数。现在我们想让你来计算卷积层的总数量，
-          这是实际卷积层使用的参数的数量 ([`tf.nn.conv2d()`](https://www.tensorflow.org/api_docs/python/tf/nn/conv2d))。
+          如果输出层的每个神经元与其它同样通道的神经元共享参数，现在我们想让你来计算卷积层的参数数量。
+
+          这是实际卷积层([`tf.nn.conv2d()`](https://www.tensorflow.org/api_docs/python/tf/nn/conv2d))使用的参数数量。
 
           ### 设置
 
           H = height, W = width, D = depth
 
-          - 我们有一个输入形状是 32x32x3 (HxWxD)
-          - 20个形状为 8x8x3 (HxWxD) 的过滤器
+          - 我们有一个输入维度是 32x32x3 (HxWxD)
+          - 20个维度为 8x8x3 (HxWxD) 的滤波器
           - 高和宽的stride（步长）都为 2。(S)
           - padding 大小为1 (P)
 
@@ -1308,7 +1325,7 @@ concepts:
 
             ```(8 * 8 * 3 + 1) * 20 = 3840 + 20 = 3860```
 
-            ```3840``` 个权值与 ```20``` 个偏置。这与之前练习的答案类似，区别就是```20```，而不是 (```14 * 14 * 20```)。记住，有了权值共享，一整个深度切片，我们用同一个滤波器。所以我们可以拿掉```14 * 14```只留下```20```。
+            ```3840``` 个权值与 ```20``` 个偏置。这与之前练习的答案类似，区别就是 ```20```，而不是 (```14 * 14 * 20```)。记住，有了权值共享，一整个深度切片，我们用同一个滤波器。所以我们可以拿掉 ```14 * 14``` 只留下 ```20```。
           video_feedback: null
           matchers:
             - semantic_type: RegexMatcher
@@ -1396,9 +1413,9 @@ concepts:
         text: |-
           ### CNNs 可视化
 
-          让我们看一个CNN的例子，了解它如何运作。
+          让我们看一个 CNN 的例子，了解它如何运作。
 
-          我们看的CNN的例子是由 ImageNet 训练的 [Zeiler 和 Fergus 的论文链接](http://www.matthewzeiler.com/pubs/arxive2013/eccv2014.pdf) 在下图中（来自论文），我们会看到网络中的每一层侦测到什么，看到每一层如何侦测更复杂的概念。
+          我们看到的训练 ImageNet 的 CNN 例子，来自 Zeiler 和 Fergus 的[论文](http://www.matthewzeiler.com/pubs/arxive2013/eccv2014.pdf) 。在下图中（同样取自此论文），我们会看到网络中的每一层侦测到什么，看到每一层如何侦测更复杂的概念。
         instructor_notes: ''
         resources: null
       - id: 274303
@@ -1435,9 +1452,9 @@ concepts:
         updated_at: 'Tue Apr 11 2017 07:33:02 GMT+0000 (UTC)'
         is_public: true
         text: |-
-          图片来自 Matthew Zeiler 和 Rob Fergus' [deep visualization toolbox](https://www.youtube.com/watch?v=ghEmQSxT6tw)，让我们可以可视化地看到CNN每一层的关注的点是什么。
+          图片来自 Matthew Zeiler 和 Rob Fergus 的 [deep visualization toolbox](https://www.youtube.com/watch?v=ghEmQSxT6tw)，让我们可以可视化地看到 CNN 每一层的关注的点是什么。
 
-          上述格子中的每一个图片都代表一个激活神经元的图案。换句话说，他们是第一层认出的图案。左上角的图有一条负45度的直线，上方中间的图有一个正45度的直线。如下所示：
+          上述格子中的每一个图片都代表一个激活神经元的图案。换句话说，这些是第一层认出的图案。左上角的图有一条-45度的直线，上方中间的图有一个+45度的直线。如下所示：
         instructor_notes: ''
         resources: null
       - id: 274306
@@ -1451,7 +1468,7 @@ concepts:
         url: 'https://d17h27t6h515a5.cloudfront.net/topher/2016/November/583cbba2_diagonal-line-1/diagonal-line-1.png'
         width: 55
         height: 53
-        caption: 可以看到第一层识别出的负45度的直线
+        caption: 可以看到第一层识别出的-45度的直线
         resources: null
         instructor_notes: null
       - id: 274307
@@ -1465,7 +1482,7 @@ concepts:
         url: 'https://d17h27t6h515a5.cloudfront.net/topher/2016/November/583cbc02_diagonal-line-2/diagonal-line-2.png'
         width: 58
         height: 58
-        caption: CNN的第一层还识别除了正45度的直线
+        caption: CNN 的第一层还识别除了+45度的直线
         resources: null
         instructor_notes: null
       - id: 274308
@@ -1501,7 +1518,7 @@ concepts:
         semantic_type: TextAtom
         updated_at: 'Tue Apr 11 2017 07:38:51 GMT+0000 (UTC)'
         is_public: true
-        text: 所以CNN的第一层很清楚的选择了非常简单的形状，图案，例如直线和色块。
+        text: 所以 CNN 的第一层很清楚的选择了非常简单的形状、图案，例如直线和色块。
         instructor_notes: ''
         resources: null
       - id: 274311
@@ -1526,7 +1543,7 @@ concepts:
         url: 'https://d17h27t6h515a5.cloudfront.net/topher/2016/November/583780f3_screen-shot-2016-11-24-at-12.09.02-pm/screen-shot-2016-11-24-at-12.09.02-pm.png'
         width: 1888
         height: 922
-        caption: CNN第二层的可视化。可以发现它注意到更复杂的概念例如圈，条纹。左边的图表示这一次CNN的激活状况（看到什么），右边是引起这些状况的原始图片。
+        caption: CNN 第二层的可视化。可以发现它注意到更复杂的概念例如圈，条纹。左边的图表示这一次 CNN 的激活状况（或者说它“看到”了什么），右边是引起这些状况的原始图片。
         resources: null
         instructor_notes: null
       - id: 274313
@@ -1538,11 +1555,11 @@ concepts:
         updated_at: 'Tue Apr 11 2017 08:02:26 GMT+0000 (UTC)'
         is_public: true
         text: |-
-          CNN的第二层捕捉了些一复杂的概念。
+          CNN 的第二层捕捉了一些复杂的概念。
 
-          如上图所示，CNN的第二层认出了圈（第二行第二栏），条纹（第一行第二栏）和长方形（右下角）。
+          如上图所示，CNN 的第二层认出了圈（第二行第二栏），条纹（第一行第二栏）和长方形（右下角）。
 
-          **CNN是自己学着做这些事情的。** 没有指定让CNN的更深层专注于复杂的事情上。这就是当你把训练数据给到CNN会自然发生的事情。
+          ** CNN 是自己学着做这些事情的。** 我们并没有设定让更深的网络层聚焦于更复杂的事物上。只要把训练数据输入 CNN，自然就会发生这样的事情。
         instructor_notes: ''
         resources: null
       - id: 274314
@@ -1567,7 +1584,7 @@ concepts:
         url: 'https://d17h27t6h515a5.cloudfront.net/topher/2016/November/5837811f_screen-shot-2016-11-24-at-12.09.24-pm/screen-shot-2016-11-24-at-12.09.24-pm.png'
         width: 2294
         height: 848
-        caption: CNN第三层的可视化图。左边的网格表示CNN的激活（它看到什么）。右边是相对应的原始图片。
+        caption: CNN 第三层的可视化图。左边的网格表示 CNN 的激活（或者说它“看到”了什么）。右边是相对应的原始图片。
         resources: null
         instructor_notes: null
       - id: 274316
@@ -1603,7 +1620,7 @@ concepts:
         url: 'https://d17h27t6h515a5.cloudfront.net/topher/2016/November/58378151_screen-shot-2016-11-24-at-12.08.11-pm/screen-shot-2016-11-24-at-12.08.11-pm.png'
         width: 1198
         height: 1484
-        caption: CNN第五层，也是最后一层的可视化。左边的网格表示CNN的激活（它看到什么）。右边是相对应的原始图片。
+        caption: CNN 第五层，也是最后一层的可视化。左边的灰色网格表示 CNN 的激活（或者说它“看到”了什么）。右边是相对应的原始图片。
         resources: null
         instructor_notes: null
       - id: 274319
@@ -1615,13 +1632,13 @@ concepts:
         updated_at: 'Tue Apr 11 2017 08:13:42 GMT+0000 (UTC)'
         is_public: true
         text: |-
-          我们跳过了第四层，它遵循这个规律，直接跳到这个CNN的第五层，也是最后一层。
+          我们跳过了第四层（这一层同样遵循这个规律），直接跳到 CNN 的第五层，也是最后一层。
 
-          最后一层选取了我们对分类最关心的概念，例如狗的脸，鸟的脸，自行车。
+          最后一层选取了我们最关心的，可用作分类的概念，例如狗的脸，鸟的脸，自行车。
 
-          ### 回到 TensorFlow 
+          ### 回到 TensorFlow
 
-          这就是我们对卷积神经网络高层次讨论。
+          我们对卷积神经网络的高层次讨论就此告一段落。
 
           接下来你要在 TensorFlow 里面构建这些网络。
         instructor_notes: ''
@@ -1694,12 +1711,11 @@ concepts:
           conv_layer = tf.nn.relu(conv_layer)
           ```
 
-          上述代码用了  [`tf.nn.conv2d()`](https://www.tensorflow.org/api_docs/python/tf/nn/conv2d) 函数来计算卷积，`weights` 作为滤波器，`[1, 2, 2, 1]` 作为 strides。TensorFlow 对每一个 `input` 维度使用一个 stride，`[batch, input_height, input_width, input_channels]`。我们通常把`batch` and `input_channels` （`strides` 序列中的第一个第四个）的 stride 设为 `1`。
+          上述代码用了  [`tf.nn.conv2d()`](https://www.tensorflow.org/api_docs/python/tf/nn/conv2d) 函数来计算卷积，`weights` 作为滤波器，`[1, 2, 2, 1]` 作为 strides。TensorFlow 对每一个 `input` 维度使用一个单独的 stride 参数，`[batch, input_height, input_width, input_channels]`。我们通常把 `batch` 和 `input_channels` （`strides` 序列中的第一个第四个）的 stride 设为 `1`。
 
-          你可以专注于改变`input_height` 和  `input_width`， `batch` 和 `input_channels` 都设置成 1。`input_height` 和 `input_width` strides 表示滤波器在`input` 上移动的步长。上述例子用了一个 5x5 ，stride 为 2 在 `input` 上。
+          你可以专注于修改 `input_height` 和  `input_width`， `batch` 和 `input_channels` 都设置成 1。`input_height` 和 `input_width` strides 表示滤波器在`input` 上移动的步长。上述例子中，在 `input` 之后，设置了一个 5x5 ，stride 为 2 的滤波器。
 
-          [`tf.nn.bias_add()`](https://www.tensorflow.org/api_docs/python/tf/nn/bias_add) 函数对矩阵的最后一维加了
-           bias。
+          [`tf.nn.bias_add()`](https://www.tensorflow.org/api_docs/python/tf/nn/bias_add) 函数对矩阵的最后一维加了bias。
         instructor_notes: ''
         resources: null
   - id: 274468
@@ -1718,7 +1734,7 @@ concepts:
         key: 567cc4c1-3ecb-41dd-a2dc-908cb1245dea
         locale: zh-cn
         version: 1.0.0
-        title: Explore the Design Space
+        title: 探索设计空间
         semantic_type: VideoAtom
         updated_at: 'Tue Apr 18 2017 17:02:59 GMT+0000 (UTC)'
         is_public: true
@@ -1772,7 +1788,7 @@ concepts:
         url: 'https://d17h27t6h515a5.cloudfront.net/topher/2016/November/582aac09_max-pooling/max-pooling.png'
         width: 570
         height: 330
-        caption: 'By Aphex34 (Own work) [CC BY-SA 4.0 (http://creativecommons.org/licenses/by-sa/4.0)], via Wikimedia Commons'
+        caption: '由 Aphex34 (自己的作品) [CC BY-SA 4.0](http://creativecommons.org/licenses/by-sa/4.0)， 通过 Wikimedia Commons 共享'
         resources: null
         instructor_notes: null
       - id: 274325
@@ -1784,12 +1800,12 @@ concepts:
         updated_at: 'Tue Apr 11 2017 09:10:40 GMT+0000 (UTC)'
         is_public: true
         text: |-
-          这是一个最大池化的例子[max pooling](https://en.wikipedia.org/wiki/Convolutional_neural_network#Pooling_layer) 用了 2x2 的滤波器 stride 为 2。.  四个 2x2 的颜色代表每一次滤波器应用来寻找最大值。
+          这是一个最大池化的例子[max pooling](https://en.wikipedia.org/wiki/Convolutional_neural_network#Pooling_layer) 用了 2x2 的滤波器 stride 为 2。四个 2x2 的颜色代表滤波器移动每个步长所产出的最大值。
 
-          例如 `[[1, 0], [4, 6]]` 就是`6`，因为 `6` 是最大的。同理 `[[2, 3], [6, 8]]` 是 `8`。
-          概念上来说，最大池化操作的好处是减少输入的大小，使得神经网络能够专注于最重要的元素。最大池化只取覆盖区域中的最大值，其它的值都丢弃。
+          例如 `[[1, 0], [4, 6]]` 生成 `6`，因为 `6` 是这4个数字中最大的。同理 `[[2, 3], [6, 8]]` 生成 `8`。
+          理论上，最大池化操作的好处是减小输入大小，使得神经网络能够专注于最重要的元素。最大池化只取覆盖区域中的最大值，其它的值都丢弃。
 
-          TensorFlow 提供了一个 [`tf.nn.max_pool()`](https://www.tensorflow.org/api_docs/python/tf/nn/max_pool) 函数来对你的卷积层实现 [最大池化](https://en.wikipedia.org/wiki/Convolutional_neural_network#Pooling_layer) 。
+          TensorFlow 提供了 [`tf.nn.max_pool()`](https://www.tensorflow.org/api_docs/python/tf/nn/max_pool) 函数，用于对卷积层实现 [最大池化](https://en.wikipedia.org/wiki/Convolutional_neural_network#Pooling_layer) 。
 
           ```python
           ...
@@ -1904,8 +1920,8 @@ concepts:
         text: |-
           近期，池化层并不是很受青睐。部分原因是：
 
-          - 现在的数据集又大又复杂，我们更关心欠拟合问题
-          - Dropout 是一个更好的正则化方法
+          - 现在的数据集又大又复杂，我们更关心欠拟合问题。
+          - Dropout 是一个更好的正则化方法。
           - 池化导致信息损失。想想最大池化的例子，*n* 个数字中我们只保留最大的，把余下的 *n-1* 完全舍弃了。
         instructor_notes: ''
         resources: null
@@ -1937,10 +1953,10 @@ concepts:
           H = height, W = width, D = depth
 
           * 输入维度是 4x4x5 (HxWxD)
-          * 滤波器大小 2x2 (HxW) 
-          * 长款 stride 都是 2 (S)
+          * 滤波器大小 2x2 (HxW)
+          * stride 的高和宽都是 2 (S)
 
-          新的高宽的公式是：
+          新的高和宽的公式是：
 
           ```
           new_height = (input_height - filter_height)/S + 1
@@ -1975,7 +1991,7 @@ concepts:
         updated_at: 'Wed Apr 12 2017 03:41:54 GMT+0000 (UTC)'
         is_public: true
         question:
-          prompt: 输出的大小是？格式写成 **HxWxD**.
+          prompt: 输出的维度大小是什么？格式写成 **HxWxD**。
           default_feedback: |-
             用下列公式计算高度和深度：
 
@@ -2068,7 +2084,7 @@ concepts:
           pool = tf.nn.max_pool(input, filter_shape, strides, padding)
           ```
 
-          输出是 `pool` 是 [1, 2, 2, 5]，即使把 `padding` 改成 `'SAME'` 也是一样。
+          `pool` 的输出维度是 [1, 2, 2, 5]，即使把 `padding` 改成 `'SAME'` 也是一样。
         instructor_notes: ''
         resources: null
   - id: 274474
@@ -2113,7 +2129,7 @@ concepts:
                [4, 0, 5, 6],
                [15, 1, 2, 3]]]
             ```
-            滤波器大小 2x2，stride 长宽都是 2。输出结果是 2x2x1。
+            滤波器大小 2x2，stride 高和宽都是 2。输出维度是 2x2x1。
 
             答案是4个数字，用（英文）逗号隔开。示例：`1,2,3,4`。
 
@@ -2201,7 +2217,7 @@ concepts:
                [4, 0, 5, 6],
                [15, 1, 2, 3]]]
             ```
-            滤波器大小 2x2，stride 长宽都是 2。输出结果是 2x2x1。
+            滤波器大小 2x2，stride 高和宽都是 2。输出维度是 2x2x1。
 
             答案是4个数字，用（英文）逗号隔开。示例：`1,2,3,4`。
 
@@ -2275,7 +2291,7 @@ concepts:
         key: 4ac9d501-014e-419b-b8cd-fb6ff6f49ac3
         locale: zh-cn
         version: 1.0.0
-        title: 1x1 Convolutions
+        title: 1x1 卷积
         semantic_type: VideoAtom
         updated_at: 'Tue Apr 18 2017 17:02:59 GMT+0000 (UTC)'
         is_public: true
@@ -2309,7 +2325,7 @@ concepts:
         key: 65a832c6-e35e-4e6d-9ff8-ea0790b729f3
         locale: zh-cn
         version: 1.0.0
-        title: Inception Module
+        title: Inception 模块
         semantic_type: VideoAtom
         updated_at: 'Tue Apr 18 2017 17:03:00 GMT+0000 (UTC)'
         is_public: true
@@ -2358,11 +2374,11 @@ concepts:
         text: |-
           # TensorFlow 中的卷积网络
 
-          是时候看一下 TensorFlow 中的卷积神经网络的例子了
+          是时候看一下 TensorFlow 中的卷积神经网络(CNN)的例子了。
 
           网络的结构跟经典的 CNNs 结构一样，是卷积层，最大池化层和全链接层的混合。
 
-          这里你看到的代码与你在[TensorFlow 深度神经网络](https://classroom.udacity.com/nanodegrees/nd009/parts/9f359353-1efd-4eec-a336-ed2539f6bb29/modules/a796fac4-f76f-454f-a224-662d78ce5cb2/lessons/cb4ae92e-abf2-49c9-afae-e497dd25f3fb/concepts/83a3a2a2-a9bd-4b7b-95b0-eb924ab14432#)的代码类似，我们按CNN重新组织了结构。
+          这里你看到的代码与你在[TensorFlow 深度神经网络](https://classroom.udacity.com/nanodegrees/nd009/parts/9f359353-1efd-4eec-a336-ed2539f6bb29/modules/a796fac4-f76f-454f-a224-662d78ce5cb2/lessons/cb4ae92e-abf2-49c9-afae-e497dd25f3fb/concepts/83a3a2a2-a9bd-4b7b-95b0-eb924ab14432#)的代码类似，我们按 CNN 重新组织了结构。
 
           如那一节一样，这里你将会学习如何分解一行一行的代码。你还可以[下载](https://d17h27t6h515a5.cloudfront.net/topher/2017/February/58a61ca1_cnn/cnn.zip)代码自己运行。
 
@@ -2382,7 +2398,7 @@ concepts:
           import tensorflow as tf
 
           # Parameters
-          # 参数
+
           learning_rate = 0.00001
           epochs = 10
           batch_size = 128
@@ -2394,7 +2410,6 @@ concepts:
           test_valid_size = 256
 
           # Network Parameters
-          # 神经网络参数
           n_classes = 10  # MNIST total classes (0-9 digits)
           dropout = 0.75  # Dropout, probability to keep units
           ```
@@ -2430,7 +2445,7 @@ concepts:
         url: 'https://d17h27t6h515a5.cloudfront.net/topher/2016/November/581a58be_convolution-schematic/convolution-schematic.gif'
         width: 263
         height: 192
-        caption: '3×3 卷积滤波器。Source: http://deeplearning.stanford.edu/wiki/index.php/Feature_extraction_using_convolution'
+        caption: '3×3 卷积滤波器。来源: http://deeplearning.stanford.edu/wiki/index.php/Feature_extraction_using_convolution'
         resources: null
         instructor_notes: null
       - id: 274343
@@ -2461,9 +2476,9 @@ concepts:
           ```
           [`tf.nn.conv2d()`](https://www.tensorflow.org/api_docs/python/tf/nn/conv2d) 函数与权值 `W` 做卷积。
 
-          在 TensorFlow 中，`strides` 是一个4个元素的序列；第一个位置指的是对 batch 的stride，最后一个位置指对特征的 stride。最好的移除 batches 和 特征的方法是你直接在数据集中把他们忽略，而不是使用 stride。要使用所有的 batches 和特征，你可以把第一个和最后一个元素设成 1。
+          在 TensorFlow 中，`strides` 是一个4个元素的序列；第一个位置表示 stride 的 batch 参数，最后一个位置表示 stride 的特征(feature)参数。最好的移除 batch 和特征(feature)的方法是你直接在数据集中把他们忽略，而不是使用 stride。要使用所有的 batch 和特征(feature)，你可以把第一个和最后一个元素设成1。
 
-          中间两个元素指横向和纵向的 stride，之前也提到过 stride 通常是正方形，`height = width`。当别人说 stride 是 3 的时候，他们意思是 `tf.nn.conv2d(x, W, strides=[1, 3, 3, 1])`。
+          中间两个元素指纵向(height)和横向(width)的 stride，之前也提到过 stride 通常是正方形，`height = width`。当别人说 stride 是 3 的时候，他们意思是 `tf.nn.conv2d(x, W, strides=[1, 3, 3, 1])`。
 
           为了更简洁，这里的代码用了[`tf.nn.bias_add()`](https://www.tensorflow.org/api_docs/python/tf/nn/bias_add) 来添加偏置。  [`tf.add()`](https://www.tensorflow.org/api_docs/python/tf/add) 这里不能使用，因为 tensors 的维度不同。
 
@@ -2481,7 +2496,7 @@ concepts:
         url: 'https://d17h27t6h515a5.cloudfront.net/topher/2016/November/581a57fe_maxpool/maxpool.jpeg'
         width: 787
         height: 368
-        caption: 'Max Pooling with 2x2 filter and stride of 2.  Source: http://cs231n.github.io/convolutional-networks/'
+        caption: '带有 2x2 滤波器 和 stride 为 2 的最大池化  来源: http://cs231n.github.io/convolutional-networks/'
         resources: null
         instructor_notes: null
       - id: 274347
@@ -2540,7 +2555,7 @@ concepts:
         updated_at: 'Wed Apr 12 2017 07:57:27 GMT+0000 (UTC)'
         is_public: true
         text: |-
-          在下面的代码中，我们创建了 3 层来实现卷积，最大池化以及全链接层和输出层。每一层对维度的改变都写在注释里。例如第一层在卷积部分把图片从 28x28x1 变成了 28x28x32。后面应用了最大池化，每个样本变成了 14x14x32。从 `conv1` 到 `output` 产生了 10 个分类。
+          在下面的代码中，我们创建了 3 层来实现卷积，最大池化以及全链接层和输出层。每一层对维度的改变都写在注释里。例如第一层在卷积部分把图片从 28x28x1 变成了 28x28x32。后面应用了最大池化，每个样本变成了 14x14x32。从 `conv1` 经过多层网络，最后到 `output` 生成 10 个分类。
 
           ```python
           def conv_net(x, weights, biases, dropout):
@@ -2564,7 +2579,7 @@ concepts:
           ```
 
           ### Session
-          Now let's run it!
+          现在让我们开始运行神经网络！
           ```python
           # tf Graph input
           x = tf.placeholder(tf.float32, [None, 28, 28, 1])
@@ -2650,17 +2665,17 @@ concepts:
         text: |-
           ### 使用 TensorFlow 做卷积
 
-          让我们用所学知识在 TensorFlow 里构建真的 CNNs。在下面的练习中，你需要设定卷积核（filters）大小，weights，biases。这在很大程度上来说是 TensorFlow CNNs 最难的部分。一旦你有了如何设置这些属性的大小，应用 CNNs 会很方便。
+          让我们用所学知识在 TensorFlow 里构建真的 CNNs。在下面的练习中，你需要设定卷积核滤波器（filters）的维度，weight，bias。这在很大程度上来说是 TensorFlow CNNs 最难的部分。一旦你知道如何设置这些属性的大小，应用 CNNs 会很方便。
 
           ### 回顾
 
-          你应该看一下[二维卷积的文档](https://www.tensorflow.org/api_guides/python/nn#Convolution)。文档大部分都很清楚，`padding` 会根据你给出的 `'VALID'` 或者 `'SAME'` 做相应改变。
+          你应该看一下[二维卷积的文档](https://www.tensorflow.org/api_guides/python/nn#Convolution)。文档大部分都很清楚，padding这一部分，可能会有点难以理解。`padding` 会根据你给出的 `'VALID'` 或者 `'SAME'` 参数，做相应改变。
 
           这些也是需要你回顾的：
 
-          1. [TensorFlow Variables](https://classroom.udacity.com/nanodegrees/nd009/parts/9f359353-1efd-4eec-a336-ed2539f6bb29/modules/fe7d3745-38da-4893-9b8c-ec539c39d383/lessons/6ec4ffd6-4f5c-4b88-bdf6-f169119834f0/concepts/baf36422-c1b4-4005-960f-63a550e635d4#).
-          2. [Truncated Normal Distributions](https://classroom.udacity.com/nanodegrees/nd009/parts/9f359353-1efd-4eec-a336-ed2539f6bb29/modules/fe7d3745-38da-4893-9b8c-ec539c39d383/lessons/6ec4ffd6-4f5c-4b88-bdf6-f169119834f0/concepts/baf36422-c1b4-4005-960f-63a550e635d4#) 在 TensorFlow。(你需要在一个正态分布的区间中初始化你的权值)
-          3. 根据输入大小来决定输出大小，滤波器大小（如下所示）。你用这个来决定滤波器应该是什么样：
+          1. [TensorFlow Variables](https://classroom.udacity.com/nanodegrees/nd009/parts/9f359353-1efd-4eec-a336-ed2539f6bb29/modules/fe7d3745-38da-4893-9b8c-ec539c39d383/lessons/6ec4ffd6-4f5c-4b88-bdf6-f169119834f0/concepts/baf36422-c1b4-4005-960f-63a550e635d4#)。
+          2. [Truncated Normal Distributions](https://classroom.udacity.com/nanodegrees/nd009/parts/9f359353-1efd-4eec-a336-ed2539f6bb29/modules/fe7d3745-38da-4893-9b8c-ec539c39d383/lessons/6ec4ffd6-4f5c-4b88-bdf6-f169119834f0/concepts/baf36422-c1b4-4005-960f-63a550e635d4#) 在 TensorFlow 中你需要在一个正态分布的区间中初始化你的权值。
+          3. 根据输入大小、滤波器大小，来决定输出维度（如下所示）。你用这个来决定滤波器应该是什么样：
 
              ```
               new_height = (input_height - filter_height + 2 * P)/S + 1
@@ -2670,7 +2685,7 @@ concepts:
           ### 说明
 
           1. 在`conv2d`函数中完成所有 `TODO`。
-          2. 设定 `strides`, `padding`, filter 和 weight/bias (`F_w` and `F_b`) 输出是 `(1, 2, 2, 3)`。除了 `strides` 所有这些都应该是 TensorFlow variables。
+          2. 设定 `strides` 、 `padding` 、 filter weight/bias (`F_w` and `F_b`) 输出是 `(1, 2, 2, 3)`。除了 `strides` 所有变量的类型都应该为 TensorFlow variables。
         instructor_notes: ''
         resources: null
       - id: 274352
@@ -2705,22 +2720,22 @@ concepts:
                   strides = [1, 2, 2, 1]
                   padding = 'VALID'
                   return tf.nn.conv2d(input, F_W, strides, padding) + F_b
-                  
+
               try:
                   import conv
-                  
+
                   X = tf.constant(np.random.randn(1, 4, 4, 1), dtype=tf.float32)
                   ours = solution(X)
                   theirs = conv.conv2d(X)
                   dim_names = ['Batch', 'Height', 'Width', 'Depth']
-                  
+
                   with tf.Session() as sess:
                       sess.run(tf.initialize_all_variables())
                       our_shape = ours.get_shape().as_list()
                       their_shape = theirs.get_shape().as_list()
-                      
+
                       did_pass = False
-                      
+
                       try:
                           for dn, ov, tv in zip(dim_names, our_shape, their_shape):
                               if ov != tv:
@@ -2733,7 +2748,7 @@ concepts:
                               did_pass = False
                       except:
                           did_pass = False
-                          
+
                       if did_pass:
                           result['is_correct'] = True
                       else:
@@ -2850,7 +2865,7 @@ concepts:
         updated_at: 'Wed Apr 12 2017 08:46:11 GMT+0000 (UTC)'
         is_public: true
         text: |-
-          我想要把输入的 `(1, 4, 4, 1)` 转变成 `(1, 2, 2, 3)`。padding 方法我选择 `'VALID'`。我觉得他更容易理解，也得到了我想要的结果。
+          我想要把输入的 `(1, 4, 4, 1)` 转变成 `(1, 2, 2, 3)`。padding 方法我选择 `'VALID'`。我觉得这更容易理解，也得到了我想要的结果。
 
           ```python
           out_height = ceil(float(in_height - filter_height + 1) / float(strides[1]))
@@ -2864,7 +2879,7 @@ concepts:
           out_width  = ceil(float(4 - 2 + 1) / float(2)) = ceil(1.5) = 2
           ```
 
-          要把深度从 1 变成 3。我要把我滤波器的输出做相应地设置：
+          要把深度从 1 变成 3。我要把我滤波器的输出做相应的设置：
 
           ```python
           F_W = tf.Variable(tf.truncated_normal((2, 2, 1, 3))) # (height, width, input_depth, output_depth)
@@ -2901,9 +2916,9 @@ concepts:
 
           ### 说明
 
-          1. 完成`maxpool`函数中所有的 `TODO`。
+          1. 完成 `maxpool` 函数中所有的 `TODO`。
 
-          2. 设定 `strides`, `padding` 和 `ksize` 使得池化的结果维度为 `(1, 2, 2, 1)`。
+          2. 设定 `strides`，`padding` 和 `ksize` 使得池化的结果维度为 `(1, 2, 2, 1)`。
         instructor_notes: ''
         resources: null
       - id: 274357
@@ -2937,21 +2952,21 @@ concepts:
                   padding = 'VALID'
                   # https://www.tensorflow.org/versions/r0.11/api_docs/python/nn.html#max_pool
                   return tf.nn.max_pool(X, ksize, strides, padding)
-                  
+
               try:
                   import pool
-                  
+
                   X = tf.constant(np.random.randn(1, 4, 4, 1), dtype=tf.float32)
                   ours = solution(X)
                   theirs = pool.maxpool(X)
                   dim_names = ['Batch', 'Height', 'Width', 'Depth']
-                  
+
                   with tf.Session() as sess:
                       our_shape = ours.get_shape().as_list()
                       their_shape = theirs.get_shape().as_list()
-                      
+
                       did_pass = False
-                      
+
                       try:
                           for dn, ov, tv in zip(dim_names, our_shape, their_shape):
                               if ov != tv:
@@ -2964,7 +2979,7 @@ concepts:
                               did_pass = False
                       except:
                           did_pass = False
-                          
+
                       if did_pass:
                           result['is_correct'] = True
                       else:
@@ -2982,7 +2997,7 @@ concepts:
               import pool
               import tensorflow as tf
 
-                  
+
               def prevent_tf_error():
                   """
                   Prevent TF_DeleteStatus error - https://udacity.atlassian.net/browse/DRIVE-1507
@@ -3094,7 +3109,7 @@ concepts:
           out_width  = ceil(float(4 - 2 + 1) / float(2)) = ceil(1.5) = 2
           ```
 
-          深度在池化的时候不变，所以不用担心
+          深度在池化的时候不变，所以不用担心。
 
         instructor_notes: ''
         resources: null
@@ -3123,7 +3138,7 @@ concepts:
 
           有很多免费的资源可以让你对卷积神经网络有更深入的了解。在本课中，我们的目标是让你了解这个概念如何解决现实问题。你也有了能力来继续探索。我们强烈推荐你参考下列资源来强化你的理解以及了解更多概念。
 
-          这是我们特别推荐的
+          我们特别推荐的阅读材料如下：
 
           - Andrej Karpathy's [CS231n Stanford course](http://cs231n.github.io/) on Convolutional Neural Networks.
           - Michael Nielsen's [free book](http://neuralnetworksanddeeplearning.com) on Deep Learning.

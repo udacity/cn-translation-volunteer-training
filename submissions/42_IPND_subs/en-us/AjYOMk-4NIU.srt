@@ -328,7 +328,7 @@ the last thing I'm going to do here, is
 
 83
 00:04:37,870 --> 00:04:42,490
-type Toy Story's story line. Let me save this file,
+print Toy Story's story line. Let me save this file,
 
 84
 00:04:44,890 --> 00:04:50,740

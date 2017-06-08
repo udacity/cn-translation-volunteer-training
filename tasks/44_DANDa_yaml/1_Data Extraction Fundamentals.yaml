@@ -1,0 +1,1259 @@
+id: 109178
+key: '491558559'
+locale: en-us
+version: 1.0.0
+title: Data Extraction Fundamentals
+semantic_type: Lesson
+updated_at: 'Wed Apr 26 2017 19:26:46 GMT+0000 (UTC)'
+is_public: true
+image:
+  url: 'https://d17h27t6h515a5.cloudfront.net/topher/2017/April/58fdc7d7_596921579/596921579.jpg'
+  width: 500
+  height: 500
+video: null
+summary: Review the fundamentals of tabular data formats CSV and Excel and learn about the JSON format.
+duration: 600
+is_project_lesson: false
+_concepts_ids:
+  - 119513
+  - 45800
+  - 88335
+  - 69741
+  - 54798
+  - 104908
+  - 43207
+  - 129811
+  - 116633
+  - 83605
+  - 81599
+  - 59986
+  - 44975
+  - 73626
+  - 59987
+  - 70055
+  - 84998
+  - 38459
+_project_id: null
+concepts:
+  - id: 119513
+    key: '8165990800923'
+    locale: en-us
+    version: 1.0.0
+    title: Intro
+    semantic_type: Concept
+    updated_at: 'Tue May 31 2016 02:45:11 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 120732
+    atoms:
+      - id: 120732
+        key: '816599080'
+        locale: en-us
+        version: 1.0.0
+        title: Intro
+        semantic_type: VideoAtom
+        updated_at: 'Wed Apr 19 2017 21:37:00 GMT+0000 (UTC)'
+        is_public: true
+        tags: null
+        instructor_notes: null
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        video:
+          youtube_id: UJyJm79RS88
+          subtitles:
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d27bbc_intro-data-wrangling-with-mongodb/subtitles/lang_pt-br_vs9.srt'
+              language_code: pt-br
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d27bbc_intro-data-wrangling-with-mongodb/subtitles/lang_en-us_vs1.srt'
+              language_code: en-us
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d27bbc_intro-data-wrangling-with-mongodb/subtitles/lang_en_vs2.srt'
+              language_code: en
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d27bbc_intro-data-wrangling-with-mongodb/subtitles/lang_ar_vs1.srt'
+              language_code: ar
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d27bbc_intro-data-wrangling-with-mongodb/subtitles/lang_es_vs1.srt'
+              language_code: es
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d27bbc_intro-data-wrangling-with-mongodb/subtitles/lang_zh-cn_vs4.srt'
+              language_code: zh-cn
+          transcodings:
+            uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d27bbc_intro-data-wrangling-with-mongodb/intro-data-wrangling-with-mongodb_480p.mp4'
+            uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d27bbc_intro-data-wrangling-with-mongodb/intro-data-wrangling-with-mongodb_480p_1000kbps.mp4'
+            uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d27bbc_intro-data-wrangling-with-mongodb/intro-data-wrangling-with-mongodb_480p.ogg'
+            uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d27bbc_intro-data-wrangling-with-mongodb/intro-data-wrangling-with-mongodb_720p.mp4'
+            uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d27bbc_intro-data-wrangling-with-mongodb/hls/playlist.m3u8'
+  - id: 45800
+    key: '7262492270923'
+    locale: en-us
+    version: 1.0.0
+    title: Action Time
+    semantic_type: Concept
+    updated_at: 'Tue May 31 2016 02:45:11 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 49985
+    atoms:
+      - id: 49985
+        key: '726249227'
+        locale: en-us
+        version: 1.0.0
+        title: Action Time
+        semantic_type: QuizAtom
+        updated_at: 'Wed Apr 19 2017 22:00:55 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: ''
+        instruction:
+          video:
+            youtube_id: 80DSWU8ZUoQ
+            subtitles:
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0972a_action-time-data-wranging-with-mongodb/subtitles/lang_zh-cn_vs2.srt'
+                language_code: zh-cn
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0972a_action-time-data-wranging-with-mongodb/subtitles/lang_en_vs2.srt'
+                language_code: en
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0972a_action-time-data-wranging-with-mongodb/subtitles/lang_ar_vs1.srt'
+                language_code: ar
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0972a_action-time-data-wranging-with-mongodb/subtitles/lang_pt-br_vs8.srt'
+                language_code: pt-br
+            transcodings:
+              uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0972a_action-time-data-wranging-with-mongodb/action-time-data-wranging-with-mongodb_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0972a_action-time-data-wranging-with-mongodb/action-time-data-wranging-with-mongodb_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0972a_action-time-data-wranging-with-mongodb/action-time-data-wranging-with-mongodb_480p.ogg'
+              uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0972a_action-time-data-wranging-with-mongodb/action-time-data-wranging-with-mongodb_720p.mp4'
+              uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0972a_action-time-data-wranging-with-mongodb/hls/playlist.m3u8'
+          text: null
+        question:
+          title: Action Time
+          background_image: '//lh6.ggpht.com/vSP74HO3fq4WerwV9BOJpfabfZphijON_Ey3cnpAWZjo4sTMG_XBgwsYB2s88B1HfAyQ1kPvQnxsOUn3t7o=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '726249228'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 88335
+    key: '7341492300923'
+    locale: en-us
+    version: 1.0.0
+    title: Assessing the Quality of Data Pt. 1
+    semantic_type: Concept
+    updated_at: 'Tue May 31 2016 02:45:11 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 35163
+    atoms:
+      - id: 35163
+        key: '734149230'
+        locale: en-us
+        version: 1.0.0
+        title: Assessing the Quality of Data Pt. 1
+        semantic_type: VideoAtom
+        updated_at: 'Wed Apr 19 2017 21:28:11 GMT+0000 (UTC)'
+        is_public: true
+        tags: null
+        instructor_notes: null
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        video:
+          youtube_id: Dezhyk312lQ
+          subtitles:
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0afea_assessing-the-quality-of-data-pt.-1-data-wranging-with-mongodb/subtitles/lang_zh-cn_vs1.srt'
+              language_code: zh-cn
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0afea_assessing-the-quality-of-data-pt.-1-data-wranging-with-mongodb/subtitles/lang_en_vs2.srt'
+              language_code: en
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0afea_assessing-the-quality-of-data-pt.-1-data-wranging-with-mongodb/subtitles/lang_ar_vs1.srt'
+              language_code: ar
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0afea_assessing-the-quality-of-data-pt.-1-data-wranging-with-mongodb/subtitles/lang_pt-br_vs8.srt'
+              language_code: pt-br
+          transcodings:
+            uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0afea_assessing-the-quality-of-data-pt.-1-data-wranging-with-mongodb/assessing-the-quality-of-data-pt.-1-data-wranging-with-mongodb_480p.mp4'
+            uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0afea_assessing-the-quality-of-data-pt.-1-data-wranging-with-mongodb/assessing-the-quality-of-data-pt.-1-data-wranging-with-mongodb_480p_1000kbps.mp4'
+            uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0afea_assessing-the-quality-of-data-pt.-1-data-wranging-with-mongodb/assessing-the-quality-of-data-pt.-1-data-wranging-with-mongodb_480p.ogg'
+            uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0afea_assessing-the-quality-of-data-pt.-1-data-wranging-with-mongodb/assessing-the-quality-of-data-pt.-1-data-wranging-with-mongodb_720p.mp4'
+            uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0afea_assessing-the-quality-of-data-pt.-1-data-wranging-with-mongodb/hls/playlist.m3u8'
+  - id: 69741
+    key: '6991189930923'
+    locale: en-us
+    version: 1.0.0
+    title: Assessing the Quality of Data Pt. 2
+    semantic_type: Concept
+    updated_at: 'Tue May 31 2016 02:45:11 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 66290
+    atoms:
+      - id: 66290
+        key: '699118993'
+        locale: en-us
+        version: 1.0.0
+        title: Assessing the Quality of Data Pt. 2
+        semantic_type: VideoAtom
+        updated_at: 'Wed Apr 19 2017 21:39:50 GMT+0000 (UTC)'
+        is_public: true
+        tags: null
+        instructor_notes: null
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        video:
+          youtube_id: 8onBHqvvrig
+          subtitles:
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d098ab_assessing-the-quality-of-data-pt.-2-data-wranging-with-mongodb/subtitles/lang_zh-cn_vs1.srt'
+              language_code: zh-cn
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d098ab_assessing-the-quality-of-data-pt.-2-data-wranging-with-mongodb/subtitles/lang_en_vs2.srt'
+              language_code: en
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d098ab_assessing-the-quality-of-data-pt.-2-data-wranging-with-mongodb/subtitles/lang_ar_vs1.srt'
+              language_code: ar
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d098ab_assessing-the-quality-of-data-pt.-2-data-wranging-with-mongodb/subtitles/lang_pt-br_vs9.srt'
+              language_code: pt-br
+          transcodings:
+            uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d098ab_assessing-the-quality-of-data-pt.-2-data-wranging-with-mongodb/assessing-the-quality-of-data-pt.-2-data-wranging-with-mongodb_480p.mp4'
+            uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d098ab_assessing-the-quality-of-data-pt.-2-data-wranging-with-mongodb/assessing-the-quality-of-data-pt.-2-data-wranging-with-mongodb_480p_1000kbps.mp4'
+            uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d098ab_assessing-the-quality-of-data-pt.-2-data-wranging-with-mongodb/assessing-the-quality-of-data-pt.-2-data-wranging-with-mongodb_480p.ogg'
+            uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d098ab_assessing-the-quality-of-data-pt.-2-data-wranging-with-mongodb/assessing-the-quality-of-data-pt.-2-data-wranging-with-mongodb_720p.mp4'
+            uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d098ab_assessing-the-quality-of-data-pt.-2-data-wranging-with-mongodb/hls/playlist.m3u8'
+  - id: 54798
+    key: '7419485420923'
+    locale: en-us
+    version: 1.0.0
+    title: Tabular Formats
+    semantic_type: Concept
+    updated_at: 'Tue May 31 2016 02:45:11 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 35739
+    atoms:
+      - id: 35739
+        key: '741948542'
+        locale: en-us
+        version: 1.0.0
+        title: Tabular Formats
+        semantic_type: VideoAtom
+        updated_at: 'Wed Apr 19 2017 21:28:09 GMT+0000 (UTC)'
+        is_public: true
+        tags: null
+        instructor_notes: null
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        video:
+          youtube_id: 5Vq530Lijb0
+          subtitles:
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d087d3_tabular-formats-data-wranging-with-mongodb/subtitles/lang_zh-cn_vs1.srt'
+              language_code: zh-cn
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d087d3_tabular-formats-data-wranging-with-mongodb/subtitles/lang_en_vs2.srt'
+              language_code: en
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d087d3_tabular-formats-data-wranging-with-mongodb/subtitles/lang_ar_vs1.srt'
+              language_code: ar
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d087d3_tabular-formats-data-wranging-with-mongodb/subtitles/lang_pt-br_vs9.srt'
+              language_code: pt-br
+          transcodings:
+            uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d087d3_tabular-formats-data-wranging-with-mongodb/tabular-formats-data-wranging-with-mongodb_480p.mp4'
+            uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d087d3_tabular-formats-data-wranging-with-mongodb/tabular-formats-data-wranging-with-mongodb_480p_1000kbps.mp4'
+            uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d087d3_tabular-formats-data-wranging-with-mongodb/tabular-formats-data-wranging-with-mongodb_480p.ogg'
+            uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d087d3_tabular-formats-data-wranging-with-mongodb/tabular-formats-data-wranging-with-mongodb_720p.mp4'
+            uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d087d3_tabular-formats-data-wranging-with-mongodb/hls/playlist.m3u8'
+  - id: 104908
+    key: '7419485430923'
+    locale: en-us
+    version: 1.0.0
+    title: CSV Format
+    semantic_type: Concept
+    updated_at: 'Tue Mar 07 2017 02:30:15 GMT+0000 (UTC)'
+    is_public: true
+    resources:
+      files:
+        - name: Beatles Discography (csv)
+          uri: 'https://d17h27t6h515a5.cloudfront.net/topher/2017/March/58be1b1f_beatles-discography/beatles-discography.csv'
+      google_plus_link: null
+      career_resource_center_link: null
+      coaching_appointments_link: null
+      office_hours_link: null
+    _atoms_ids:
+      - 48283
+    atoms:
+      - id: 48283
+        key: '741948543'
+        locale: en-us
+        version: 1.0.0
+        title: CSV Format
+        semantic_type: VideoAtom
+        updated_at: 'Wed Apr 19 2017 21:29:51 GMT+0000 (UTC)'
+        is_public: true
+        tags: []
+        instructor_notes: |-
+          You can download the datafiles from the Supporting Materials link on this page or the <a href="https://www.udacity.com/wiki/ud032#datasets-used-in-this-course" target="_blank">Course Materials</a> page.
+
+          Pick the data format supported by your spreadsheet application, download the file, open it in the spreadsheet, then export it as "csv" file. 
+
+          Compare the size of the spreadsheet file with the size of the csv file!
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        video:
+          youtube_id: ra93hy88cok
+          subtitles:
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1d6a3_csv-format-data-wranging-with-mongodb/subtitles/lang_en_vs2.srt'
+              language_code: en
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1d6a3_csv-format-data-wranging-with-mongodb/subtitles/lang_ar_vs1.srt'
+              language_code: ar
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1d6a3_csv-format-data-wranging-with-mongodb/subtitles/lang_zh-cn_vs1.srt'
+              language_code: zh-cn
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1d6a3_csv-format-data-wranging-with-mongodb/subtitles/lang_pt-br_vs9.srt'
+              language_code: pt-br
+          transcodings:
+            uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1d6a3_csv-format-data-wranging-with-mongodb/csv-format-data-wranging-with-mongodb_480p.mp4'
+            uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1d6a3_csv-format-data-wranging-with-mongodb/csv-format-data-wranging-with-mongodb_480p_1000kbps.mp4'
+            uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1d6a3_csv-format-data-wranging-with-mongodb/csv-format-data-wranging-with-mongodb_480p.ogg'
+            uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1d6a3_csv-format-data-wranging-with-mongodb/csv-format-data-wranging-with-mongodb_720p.mp4'
+            uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1d6a3_csv-format-data-wranging-with-mongodb/hls/playlist.m3u8'
+  - id: 43207
+    key: '4872487160923'
+    locale: en-us
+    version: 1.0.0
+    title: Parsing CSV Files
+    semantic_type: Concept
+    updated_at: 'Tue Jun 14 2016 19:49:43 GMT+0000 (UTC)'
+    is_public: true
+    resources:
+      files:
+        - name: beatles-diskography.csv
+          uri: 'https://www.udacity.com/api/nodes/493468536/supplemental_media/beatles-diskographycsv/download'
+      google_plus_link: null
+      career_resource_center_link: null
+      coaching_appointments_link: null
+      office_hours_link: null
+    _atoms_ids:
+      - 77953
+    atoms:
+      - id: 77953
+        key: '487248716'
+        locale: en-us
+        version: 1.0.0
+        title: Parsing CSV Files
+        semantic_type: QuizAtom
+        updated_at: 'Wed Apr 19 2017 22:00:16 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |-
+          You can check the data in the dropdown in the top-left corner of the quiz starter code or download the datafile beatles-diskography.csv in the Supporting Materials below.
+
+          Python string method `strip()` will come in handy to get rid of the extra whitespace (that includes newline character at the end of line)
+        instruction:
+          video:
+            youtube_id: fo4MJMkwhYU
+            subtitles:
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0e3b9_parsing-csv-files-data-wranging-with-mongodb/subtitles/lang_zh-cn_vs1.srt'
+                language_code: zh-cn
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0e3b9_parsing-csv-files-data-wranging-with-mongodb/subtitles/lang_en_vs2.srt'
+                language_code: en
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0e3b9_parsing-csv-files-data-wranging-with-mongodb/subtitles/lang_ar_vs1.srt'
+                language_code: ar
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0e3b9_parsing-csv-files-data-wranging-with-mongodb/subtitles/lang_pt-br_vs9.srt'
+                language_code: pt-br
+            transcodings:
+              uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0e3b9_parsing-csv-files-data-wranging-with-mongodb/parsing-csv-files-data-wranging-with-mongodb_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0e3b9_parsing-csv-files-data-wranging-with-mongodb/parsing-csv-files-data-wranging-with-mongodb_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0e3b9_parsing-csv-files-data-wranging-with-mongodb/parsing-csv-files-data-wranging-with-mongodb_480p.ogg'
+              uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0e3b9_parsing-csv-files-data-wranging-with-mongodb/parsing-csv-files-data-wranging-with-mongodb_720p.mp4'
+              uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0e3b9_parsing-csv-files-data-wranging-with-mongodb/hls/playlist.m3u8'
+          text: null
+        question:
+          title: Parsing CSV Files
+          semantic_type: ProgrammingQuestion
+          evaluation_id: '493468536'
+          evaluator:
+            model: ProgramEvaluator
+            execution_language: python
+            executor_grading_code: |-
+              import sys, traceback
+              import os
+
+              class RedirectStdStreams(object):
+                  def __init__(self, stdout=None, stderr=None):
+                      self._stdout = stdout or sys.stdout
+                      self._stderr = stderr or sys.stderr
+
+                  def __enter__(self):
+                      self.old_stdout, self.old_stderr = sys.stdout, sys.stderr
+                      self.old_stdout.flush(); self.old_stderr.flush()
+                      sys.stdout, sys.stderr = self._stdout, self._stderr
+
+                  def __exit__(self, exc_type, exc_value, traceback):
+                      self._stdout.flush(); self._stderr.flush()
+                      sys.stdout = self.old_stdout
+                      sys.stderr = self.old_stderr
+
+              def test():
+                  try:
+                      from simple import parse_file
+                  except Exception, e:
+                      exc_type, exc_value, exc_traceback = sys.exc_info()
+                      ex = traceback.format_exc().splitlines()
+                      return "NO" + "Unable to import file: '{0}'\n\n{1}\n\n{2}\n{3}\n{4}".format(e, ex[0], ex[-3], ex[-2], ex[-1])
+
+                  # Some tests here for example:
+
+                  d7 = {'Title': "The Beatles' Long Tall Sally", 'UK Chart Position': '-', 'Label': 'Capitol(CAN)', 'Released': '11 May 1964', 'US Chart Position': '-', 'RIAA Certification': '', 'BPI Certification': ''}
+                  result = ""
+                  correct = 0
+
+                  try:        
+                      datafile = "beatles-diskography.csv"
+                      data = parse_file(datafile)
+                      
+                      if data[7] == d7:
+                          correct += 1
+                          result = "The resulting dictionary is correct"
+                      else:
+                          result = "Incorrect. Expected: \n{0}\n got:\n{1}".format(d7, data[7])
+                          
+                  except Exception, e:
+                      exc_type, exc_value, exc_traceback = sys.exc_info()
+                      ex = traceback.format_exc().splitlines()
+                      return "NO" + "Your program raised an Exception '{0}'\n\n{1}\n\n{2}\n{3}\n{4}".format(e, ex[0], ex[-3], ex[-2], ex[-1])
+
+                  if correct == 1:
+                      return "OK" + result
+                  return "NO" + result
+
+              devnull = open(os.devnull, 'w')
+              with RedirectStdStreams(stdout=devnull):
+                  result =  test()
+              print result
+            executor_test_code: import simple
+            gae_grading_code: |-
+              try:
+                  response = executor_result['stdout'][2:]
+                  result = executor_result['stdout'][:2]
+                  
+                  if len(executor_result['stderr']) > 0:
+                      grade_result['comment'] = executor_result['stderr']
+                      grade_result['correct'] = False
+                  else:
+                      grade_result['comment'] = response
+                      if result == "OK":
+                          grade_result['correct'] = True
+                      else:
+                          grade_result['correct'] = False
+              except:
+                  raise
+            requires_gpu: false
+            deadline_seconds: 10
+            legacy_template_refs: []
+            included_text_files: []
+        answer:
+          text: null
+          video:
+            youtube_id: hmhlyOVAVOs
+            subtitles:
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d10eab_parsing-csv-files-data-wranging-with-mongodb/subtitles/lang_zh-cn_vs1.srt'
+                language_code: zh-cn
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d10eab_parsing-csv-files-data-wranging-with-mongodb/subtitles/lang_en_vs2.srt'
+                language_code: en
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d10eab_parsing-csv-files-data-wranging-with-mongodb/subtitles/lang_ar_vs1.srt'
+                language_code: ar
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d10eab_parsing-csv-files-data-wranging-with-mongodb/subtitles/lang_pt-br_vs9.srt'
+                language_code: pt-br
+            transcodings:
+              uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d10eab_parsing-csv-files-data-wranging-with-mongodb/parsing-csv-files-data-wranging-with-mongodb_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d10eab_parsing-csv-files-data-wranging-with-mongodb/parsing-csv-files-data-wranging-with-mongodb_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d10eab_parsing-csv-files-data-wranging-with-mongodb/parsing-csv-files-data-wranging-with-mongodb_480p.ogg'
+              uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d10eab_parsing-csv-files-data-wranging-with-mongodb/parsing-csv-files-data-wranging-with-mongodb_720p.mp4'
+              uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d10eab_parsing-csv-files-data-wranging-with-mongodb/hls/playlist.m3u8'
+  - id: 129811
+    key: '7373985570923'
+    locale: en-us
+    version: 1.0.0
+    title: Problematic Line
+    semantic_type: Concept
+    updated_at: 'Tue May 31 2016 02:45:11 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 81595
+    atoms:
+      - id: 81595
+        key: '737398557'
+        locale: en-us
+        version: 1.0.0
+        title: Problematic Line
+        semantic_type: QuizAtom
+        updated_at: 'Wed Apr 19 2017 21:57:36 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: ''
+        instruction:
+          video:
+            youtube_id: 9bNGgRojUC0
+            subtitles:
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d099af_problematic-line-data-wranging-with-mongodb/subtitles/lang_zh-cn_vs1.srt'
+                language_code: zh-cn
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d099af_problematic-line-data-wranging-with-mongodb/subtitles/lang_en_vs2.srt'
+                language_code: en
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d099af_problematic-line-data-wranging-with-mongodb/subtitles/lang_ar_vs1.srt'
+                language_code: ar
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d099af_problematic-line-data-wranging-with-mongodb/subtitles/lang_pt-br_vs9.srt'
+                language_code: pt-br
+            transcodings:
+              uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d099af_problematic-line-data-wranging-with-mongodb/problematic-line-data-wranging-with-mongodb_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d099af_problematic-line-data-wranging-with-mongodb/problematic-line-data-wranging-with-mongodb_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d099af_problematic-line-data-wranging-with-mongodb/problematic-line-data-wranging-with-mongodb_480p.ogg'
+              uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d099af_problematic-line-data-wranging-with-mongodb/problematic-line-data-wranging-with-mongodb_720p.mp4'
+              uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d099af_problematic-line-data-wranging-with-mongodb/hls/playlist.m3u8'
+          text: null
+        question:
+          title: Problematic Line
+          background_image: '//lh6.ggpht.com/JWdvmdrV01_zk5R-G-jkUv0NbKGX0Z4brln2urCjHRxzpdMH5wXRrH-VkRKlAWdfwlpahLPJfNhlvUfgOpU=s0#w=1075&h=485'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '737398558'
+        answer:
+          text: null
+          video:
+            youtube_id: X_5v9jxuLrQ
+            subtitles:
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1d014_problematic-line-data-wranging-with-mongodb/subtitles/lang_en_vs2.srt'
+                language_code: en
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1d014_problematic-line-data-wranging-with-mongodb/subtitles/lang_zh-cn_vs1.srt'
+                language_code: zh-cn
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1d014_problematic-line-data-wranging-with-mongodb/subtitles/lang_ar_vs1.srt'
+                language_code: ar
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1d014_problematic-line-data-wranging-with-mongodb/subtitles/lang_pt-br_vs9.srt'
+                language_code: pt-br
+            transcodings:
+              uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1d014_problematic-line-data-wranging-with-mongodb/problematic-line-data-wranging-with-mongodb_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1d014_problematic-line-data-wranging-with-mongodb/problematic-line-data-wranging-with-mongodb_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1d014_problematic-line-data-wranging-with-mongodb/problematic-line-data-wranging-with-mongodb_480p.ogg'
+              uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1d014_problematic-line-data-wranging-with-mongodb/problematic-line-data-wranging-with-mongodb_720p.mp4'
+              uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1d014_problematic-line-data-wranging-with-mongodb/hls/playlist.m3u8'
+  - id: 116633
+    key: '7892285370923'
+    locale: en-us
+    version: 1.0.0
+    title: Using CSV Module
+    semantic_type: Concept
+    updated_at: 'Tue May 31 2016 02:45:11 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 67093
+    atoms:
+      - id: 67093
+        key: '789228537'
+        locale: en-us
+        version: 1.0.0
+        title: Using CSV Module
+        semantic_type: VideoAtom
+        updated_at: 'Wed Apr 19 2017 21:34:47 GMT+0000 (UTC)'
+        is_public: true
+        tags: null
+        instructor_notes: |-
+          You can read more about the python csv module at the link below:  
+          <a href="http://docs.python.org/2/library/csv.html" target="_blank">http://docs.python.org/2/library/csv.html</a>
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        video:
+          youtube_id: '-S4vc6tvxoI'
+          subtitles:
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d06ae0_using-csv-module-data-wranging-with-mongodb/subtitles/lang_pt-br_vs10.srt'
+              language_code: pt-br
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d06ae0_using-csv-module-data-wranging-with-mongodb/subtitles/lang_ar_vs3.srt'
+              language_code: ar
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d06ae0_using-csv-module-data-wranging-with-mongodb/subtitles/lang_en_vs5.srt'
+              language_code: en
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d06ae0_using-csv-module-data-wranging-with-mongodb/subtitles/lang_zh-cn_vs1.srt'
+              language_code: zh-cn
+          transcodings:
+            uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d06ae0_using-csv-module-data-wranging-with-mongodb/using-csv-module-data-wranging-with-mongodb_480p.mp4'
+            uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d06ae0_using-csv-module-data-wranging-with-mongodb/using-csv-module-data-wranging-with-mongodb_480p_1000kbps.mp4'
+            uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d06ae0_using-csv-module-data-wranging-with-mongodb/using-csv-module-data-wranging-with-mongodb_480p.ogg'
+            uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d06ae0_using-csv-module-data-wranging-with-mongodb/using-csv-module-data-wranging-with-mongodb_720p.mp4'
+            uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d06ae0_using-csv-module-data-wranging-with-mongodb/hls/playlist.m3u8'
+  - id: 83605
+    key: '8657085480923'
+    locale: en-us
+    version: 1.0.0
+    title: Intro to XLRD
+    semantic_type: Concept
+    updated_at: 'Tue May 31 2016 02:45:11 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 45235
+    atoms:
+      - id: 45235
+        key: '865708548'
+        locale: en-us
+        version: 1.0.0
+        title: Intro to XLRD
+        semantic_type: VideoAtom
+        updated_at: 'Wed Apr 19 2017 21:41:16 GMT+0000 (UTC)'
+        is_public: true
+        tags: null
+        instructor_notes: |-
+          You might find this video a lot more exciting if you try to run this code locally along the video! You can download the datafile from <a href="https://www.udacity.com/wiki/ud032#datasets-used-in-this-course" target="_blank">Course Materials</a>. You can also install the xlrd library locally on your computer via python pip and the following command:    
+
+              pip install xlrd
+
+          The example code:
+
+              import xlrd
+
+              datafile = "2013_ERCOT_Hourly_Load_Data.xls"
+
+
+              def parse_file(datafile):
+                  workbook = xlrd.open_workbook(datafile)
+                  sheet = workbook.sheet_by_index(0)
+
+                  data = [[sheet.cell_value(r, col) 
+                              for col in range(sheet.ncols)] 
+                                  for r in range(sheet.nrows)]
+
+                  print "\nList Comprehension"
+                  print "data[3][2]:",
+                  print data[3][2]
+
+                  print "\nCells in a nested loop:"    
+                  for row in range(sheet.nrows):
+                      for col in range(sheet.ncols):
+                          if row == 50:
+                              print sheet.cell_value(row, col),
+
+
+                  ### other useful methods:
+                  print "\nROWS, COLUMNS, and CELLS:"
+                  print "Number of rows in the sheet:", 
+                  print sheet.nrows
+                  print "Type of data in cell (row 3, col 2):", 
+                  print sheet.cell_type(3, 2)
+                  print "Value in cell (row 3, col 2):", 
+                  print sheet.cell_value(3, 2)
+                  print "Get a slice of values in column 3, from rows 1-3:"
+                  print sheet.col_values(3, start_rowx=1, end_rowx=4)
+
+                  print "\nDATES:"
+                  print "Type of data in cell (row 1, col 0):", 
+                  print sheet.cell_type(1, 0)
+                  exceltime = sheet.cell_value(1, 0)
+                  print "Time in Excel format:",
+                  print exceltime
+                  print "Convert time to a Python datetime tuple, from the Excel float:",
+                  print xlrd.xldate_as_tuple(exceltime, 0)
+
+                  return data
+
+              data = parse_file(datafile)
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        video:
+          youtube_id: TcWtpvLSoG0
+          subtitles:
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d2658c_intro-to-xlrd-data-wranging-with-mongodb/subtitles/lang_zh-cn_vs3.srt'
+              language_code: zh-cn
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d2658c_intro-to-xlrd-data-wranging-with-mongodb/subtitles/lang_en_vs2.srt'
+              language_code: en
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d2658c_intro-to-xlrd-data-wranging-with-mongodb/subtitles/lang_pt-br_vs9.srt'
+              language_code: pt-br
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d2658c_intro-to-xlrd-data-wranging-with-mongodb/subtitles/lang_ar_vs1.srt'
+              language_code: ar
+          transcodings:
+            uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d2658c_intro-to-xlrd-data-wranging-with-mongodb/intro-to-xlrd-data-wranging-with-mongodb_480p.mp4'
+            uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d2658c_intro-to-xlrd-data-wranging-with-mongodb/intro-to-xlrd-data-wranging-with-mongodb_480p_1000kbps.mp4'
+            uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d2658c_intro-to-xlrd-data-wranging-with-mongodb/intro-to-xlrd-data-wranging-with-mongodb_480p.ogg'
+            uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d2658c_intro-to-xlrd-data-wranging-with-mongodb/intro-to-xlrd-data-wranging-with-mongodb_720p.mp4'
+            uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d2658c_intro-to-xlrd-data-wranging-with-mongodb/hls/playlist.m3u8'
+  - id: 81599
+    key: '6442388440923'
+    locale: en-us
+    version: 1.0.0
+    title: Reading Excel Files
+    semantic_type: Concept
+    updated_at: 'Tue Mar 07 2017 02:19:27 GMT+0000 (UTC)'
+    is_public: true
+    resources:
+      files:
+        - name: 2013 ERCOT hourly load data
+          uri: 'https://d17h27t6h515a5.cloudfront.net/topher/2017/March/58be1893_2013-ercot-hourly-load-data/2013-ercot-hourly-load-data.zip'
+      google_plus_link: null
+      career_resource_center_link: null
+      coaching_appointments_link: null
+      office_hours_link: null
+    _atoms_ids:
+      - 67155
+    atoms:
+      - id: 67155
+        key: '644238844'
+        locale: en-us
+        version: 1.0.0
+        title: Reading Excel Files
+        semantic_type: QuizAtom
+        updated_at: 'Wed Apr 19 2017 21:56:55 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |-
+          You can download the "2013_ERCOT_Hourly_Load_Data.xls" datafile from the Supporting Materials section on this page or from this <a href="https://www.udacity.com/wiki/ud032#datasets-used-in-this-course" target="_blank">Course Materials</a> page.
+          You can also install the xlrd library locally on your computer via python pip and the following command:    
+              `pip install xlrd`
+        instruction:
+          video:
+            youtube_id: _Lp_3KUltFk
+            subtitles:
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d09cac_reading-excel-files-data-wranging-with-mongodb/subtitles/lang_zh-cn_vs2.srt'
+                language_code: zh-cn
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d09cac_reading-excel-files-data-wranging-with-mongodb/subtitles/lang_ar_vs1.srt'
+                language_code: ar
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d09cac_reading-excel-files-data-wranging-with-mongodb/subtitles/lang_pt-br_vs9.srt'
+                language_code: pt-br
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d09cac_reading-excel-files-data-wranging-with-mongodb/subtitles/lang_en_vs2.srt'
+                language_code: en
+            transcodings:
+              uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d09cac_reading-excel-files-data-wranging-with-mongodb/reading-excel-files-data-wranging-with-mongodb_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d09cac_reading-excel-files-data-wranging-with-mongodb/reading-excel-files-data-wranging-with-mongodb_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d09cac_reading-excel-files-data-wranging-with-mongodb/reading-excel-files-data-wranging-with-mongodb_480p.ogg'
+              uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d09cac_reading-excel-files-data-wranging-with-mongodb/reading-excel-files-data-wranging-with-mongodb_720p.mp4'
+              uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d09cac_reading-excel-files-data-wranging-with-mongodb/hls/playlist.m3u8'
+          text: null
+        question:
+          title: Reading Excel Files
+          semantic_type: ProgrammingQuestion
+          evaluation_id: '640749175'
+          evaluator:
+            model: ProgramEvaluator
+            execution_language: python
+            executor_grading_code: |-
+              import sys, traceback
+              import os
+              from zipfile import ZipFile
+              import xlrd
+
+
+              class RedirectStdStreams(object):
+                  def __init__(self, stdout=None, stderr=None):
+                      self._stdout = stdout or sys.stdout
+                      self._stderr = stderr or sys.stderr
+
+                  def __enter__(self):
+                      self.old_stdout, self.old_stderr = sys.stdout, sys.stderr
+                      self.old_stdout.flush(); self.old_stderr.flush()
+                      sys.stdout, sys.stderr = self._stdout, self._stderr
+
+                  def __exit__(self, exc_type, exc_value, traceback):
+                      self._stdout.flush(); self._stderr.flush()
+                      sys.stdout = self.old_stdout
+                      sys.stderr = self.old_stderr
+
+              def test():
+                  try:
+                      from readxls import open_zip, parse_file
+                  except Exception, e:
+                      exc_type, exc_value, exc_traceback = sys.exc_info()
+                      ex = traceback.format_exc().splitlines()
+                      return "NO" + "Unable to import file: '{0}'\n\n{1}\n\n{2}\n{3}\n{4}".format(e, ex[0], ex[-3], ex[-2], ex[-1])
+
+                  # Some tests here for example:
+
+                  result = ""
+                  correct = 0
+                  ans = {'avgcoast': 10976.933460679751,
+                                   'maxtime': (2013, 8, 13, 17, 0, 0),
+                                   'maxvalue': 18779.025510000003,
+                                   'mintime': (2013, 2, 3, 4, 0, 0),
+                                   'minvalue': 6602.113898999982}
+                  
+                  try:        
+                      datafile = "2013_ERCOT_Hourly_Load_Data.xls"
+                      open_zip(datafile)
+                      data = parse_file(datafile)
+                      
+                      for k in ans:
+                          try:
+                              if type(ans[k]) == float and round(ans[k], 8) == round(data[k], 8):
+                                  correct +=1
+                              elif data[k] == ans[k]:
+                                  correct +=1
+                              else:
+                                  result += "Value of '{0}' is incorrect. Expected: {1}, got {2}\n".format(k, ans[k], data[k])
+                          except:
+                              result += "Value for '{0}' is not set\n".format(k)
+                              
+                          
+                  except Exception, e:
+                      exc_type, exc_value, exc_traceback = sys.exc_info()
+                      ex = traceback.format_exc().splitlines()
+                      return "NO" + "Your program raised an Exception '{0}'\n\n{1}\n\n{2}\n{3}\n{4}".format(e, ex[0], ex[-3], ex[-2], ex[-1])
+
+                  if correct == len(ans):
+                      result += "Congratulations, your solution is correct!"
+                      return "OK" + result
+                  return "NO" + result
+
+              devnull = open(os.devnull, 'w')
+              with RedirectStdStreams(stdout=devnull):
+                  result =  test()
+              print result
+            executor_test_code: import readxls
+            gae_grading_code: |-
+              try:
+                  response = executor_result['stdout'][2:]
+                  result = executor_result['stdout'][:2]
+                  
+                  if len(executor_result['stderr']) > 0:
+                      grade_result['comment'] = executor_result['stderr']
+                      grade_result['correct'] = False
+                  else:
+                      grade_result['comment'] = response
+                      if result == "OK":
+                          grade_result['correct'] = True
+                      else:
+                          grade_result['correct'] = False
+              except:
+                  raise
+            requires_gpu: false
+            deadline_seconds: 0
+            legacy_template_refs:
+              - key: '6437457518133248'
+                ref: ProgramTemplate
+            included_text_files: []
+        answer:
+          text: null
+          video:
+            youtube_id: 9L9bhMCHQ-M
+            subtitles:
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d09aa4_reading-excel-files-data-wranging-with-mongodb/subtitles/lang_zh-cn_vs1.srt'
+                language_code: zh-cn
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d09aa4_reading-excel-files-data-wranging-with-mongodb/subtitles/lang_en_vs2.srt'
+                language_code: en
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d09aa4_reading-excel-files-data-wranging-with-mongodb/subtitles/lang_ar_vs1.srt'
+                language_code: ar
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d09aa4_reading-excel-files-data-wranging-with-mongodb/subtitles/lang_pt-br_vs9.srt'
+                language_code: pt-br
+            transcodings:
+              uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d09aa4_reading-excel-files-data-wranging-with-mongodb/reading-excel-files-data-wranging-with-mongodb_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d09aa4_reading-excel-files-data-wranging-with-mongodb/reading-excel-files-data-wranging-with-mongodb_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d09aa4_reading-excel-files-data-wranging-with-mongodb/reading-excel-files-data-wranging-with-mongodb_480p.ogg'
+              uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d09aa4_reading-excel-files-data-wranging-with-mongodb/reading-excel-files-data-wranging-with-mongodb_720p.mp4'
+              uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d09aa4_reading-excel-files-data-wranging-with-mongodb/hls/playlist.m3u8'
+  - id: 59986
+    key: '7419485510923'
+    locale: en-us
+    version: 1.0.0
+    title: Intro to JSON
+    semantic_type: Concept
+    updated_at: 'Tue May 31 2016 02:45:11 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 35834
+    atoms:
+      - id: 35834
+        key: '741948551'
+        locale: en-us
+        version: 1.0.0
+        title: Intro to JSON
+        semantic_type: VideoAtom
+        updated_at: 'Wed Apr 19 2017 21:41:46 GMT+0000 (UTC)'
+        is_public: true
+        tags: null
+        instructor_notes: null
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        video:
+          youtube_id: Fi7RjhBLobY
+          subtitles:
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0e02a_intro-to-json-data-wranging-with-mongodb/subtitles/lang_zh-cn_vs2.srt'
+              language_code: zh-cn
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0e02a_intro-to-json-data-wranging-with-mongodb/subtitles/lang_en_vs2.srt'
+              language_code: en
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0e02a_intro-to-json-data-wranging-with-mongodb/subtitles/lang_ar_vs1.srt'
+              language_code: ar
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0e02a_intro-to-json-data-wranging-with-mongodb/subtitles/lang_pt-br_vs9.srt'
+              language_code: pt-br
+          transcodings:
+            uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0e02a_intro-to-json-data-wranging-with-mongodb/intro-to-json-data-wranging-with-mongodb_480p.mp4'
+            uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0e02a_intro-to-json-data-wranging-with-mongodb/intro-to-json-data-wranging-with-mongodb_480p_1000kbps.mp4'
+            uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0e02a_intro-to-json-data-wranging-with-mongodb/intro-to-json-data-wranging-with-mongodb_480p.ogg'
+            uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0e02a_intro-to-json-data-wranging-with-mongodb/intro-to-json-data-wranging-with-mongodb_720p.mp4'
+            uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0e02a_intro-to-json-data-wranging-with-mongodb/hls/playlist.m3u8'
+  - id: 44975
+    key: '8649089380923'
+    locale: en-us
+    version: 1.0.0
+    title: Data Modeling in JSON
+    semantic_type: Concept
+    updated_at: 'Tue May 31 2016 02:45:11 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 36378
+    atoms:
+      - id: 36378
+        key: '864908938'
+        locale: en-us
+        version: 1.0.0
+        title: Data Modeling in JSON
+        semantic_type: VideoAtom
+        updated_at: 'Wed Apr 19 2017 21:33:16 GMT+0000 (UTC)'
+        is_public: true
+        tags: null
+        instructor_notes: null
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        video:
+          youtube_id: '-rnzkOofIv0'
+          subtitles:
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d06ab7_data-modeling-in-json-data-wrangling-with-mongodb/subtitles/lang_ar_vs3.srt'
+              language_code: ar
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d06ab7_data-modeling-in-json-data-wrangling-with-mongodb/subtitles/lang_zh-cn_vs1.srt'
+              language_code: zh-cn
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d06ab7_data-modeling-in-json-data-wrangling-with-mongodb/subtitles/lang_pt-br_vs10.srt'
+              language_code: pt-br
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d06ab7_data-modeling-in-json-data-wrangling-with-mongodb/subtitles/lang_en_vs5.srt'
+              language_code: en
+          transcodings:
+            uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d06ab7_data-modeling-in-json-data-wrangling-with-mongodb/data-modeling-in-json-data-wrangling-with-mongodb_480p.mp4'
+            uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d06ab7_data-modeling-in-json-data-wrangling-with-mongodb/data-modeling-in-json-data-wrangling-with-mongodb_480p_1000kbps.mp4'
+            uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d06ab7_data-modeling-in-json-data-wrangling-with-mongodb/data-modeling-in-json-data-wrangling-with-mongodb_480p.ogg'
+            uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d06ab7_data-modeling-in-json-data-wrangling-with-mongodb/data-modeling-in-json-data-wrangling-with-mongodb_720p.mp4'
+            uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d06ab7_data-modeling-in-json-data-wrangling-with-mongodb/hls/playlist.m3u8'
+  - id: 73626
+    key: '33228886560923'
+    locale: en-us
+    version: 1.0.0
+    title: JSON Resources
+    semantic_type: Concept
+    updated_at: 'Tue May 31 2016 02:45:09 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 4824
+    atoms:
+      - id: 4824
+        key: '3322888656'
+        locale: en-us
+        version: 1.0.0
+        title: JSON Resources
+        semantic_type: TextAtom
+        updated_at: 'Mon Feb 13 2017 19:48:05 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          ## Extra Info
+
+          If you're unfamiliar with JSON, or would just like a refresher, W3Schools has a great tutorial on the subject.
+
+          <a href="http://www.w3schools.com/js/js_json_intro.asp" target="_blank"> JSON Tutorial </a>
+
+          You can also check out
+
+          <a href="http://www.json.org/" target="_blank">http://www.json.org/</a>
+
+          You can find information about Python's `json` module on [this page](https://docs.python.org/2/library/json.html) of the Python documentation. Note that JSON arrays are interpreted as lists and JSON objects as dictionaries, so you can use the standard Python approaches to inspect JSON data. You'll get some practice exploring some data of this type in the next quiz.
+        instructor_notes: ''
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+  - id: 59987
+    key: '6410189830923'
+    locale: en-us
+    version: 1.0.0
+    title: JSON Playground
+    semantic_type: Concept
+    updated_at: 'Tue May 31 2016 02:45:11 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 122161
+    atoms:
+      - id: 122161
+        key: '641018983'
+        locale: en-us
+        version: 1.0.0
+        title: JSON Playground
+        semantic_type: QuizAtom
+        updated_at: 'Tue May 02 2017 20:44:27 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |-
+          You can check the data in the dropdown in the top-left corner of the quiz starter code.
+
+          'Run locally' means that you have to <a href="https://www.udacity.com/wiki/ud032#exercise-and-example-code" target="_blank">download</a> or copy the file contents to your local machine, modify it and run. 
+
+          To be able to do that you need to have Python installed, as well as the requests module. Please see <a href="http://requests.readthedocs.org/en/latest/user/install/#install" target="_blank">Requests installation documentation</a>. If you have "<a href="http://www.pip-installer.org/" target="_blank">pip</a>" installed (as you should, if you use Python), you can install Requests by running the following command:
+
+              pip install requests
+
+          To learn more about the requests module, see <a href="http://requests.readthedocs.org/en/latest/" target="_blank"> the documentation here.</a>
+        instruction:
+          video:
+            youtube_id: la_rboWWjQI
+            subtitles:
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d15557_json-playground-data-wranging-with-mongodb/subtitles/lang_pt-br_vs8.srt'
+                language_code: pt-br
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d15557_json-playground-data-wranging-with-mongodb/subtitles/lang_zh-cn_vs2.srt'
+                language_code: zh-cn
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d15557_json-playground-data-wranging-with-mongodb/subtitles/lang_ar_vs1.srt'
+                language_code: ar
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d15557_json-playground-data-wranging-with-mongodb/subtitles/lang_en_vs2.srt'
+                language_code: en
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d15557_json-playground-data-wranging-with-mongodb/subtitles/lang_en-us_vs1.srt'
+                language_code: en-us
+            transcodings:
+              uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d15557_json-playground-data-wranging-with-mongodb/json-playground-data-wranging-with-mongodb_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d15557_json-playground-data-wranging-with-mongodb/json-playground-data-wranging-with-mongodb_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d15557_json-playground-data-wranging-with-mongodb/json-playground-data-wranging-with-mongodb_480p.ogg'
+              uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d15557_json-playground-data-wranging-with-mongodb/json-playground-data-wranging-with-mongodb_720p.mp4'
+              uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d15557_json-playground-data-wranging-with-mongodb/hls/playlist.m3u8'
+          text: null
+        question:
+          title: JSON Playground
+          semantic_type: ProgrammingQuestion
+          evaluation_id: '635148552'
+          evaluator:
+            model: ProgramEvaluator
+            execution_language: python
+            executor_grading_code: print "OK"
+            executor_test_code: 'print "You have to run this code locally to query the web service!\nPress Submit, then ''Continue'' to see what questions you have to answer!"'
+            gae_grading_code: |-
+              grade_result['comment'] = "You have to run this code locally to query the web service!\nPress Submit, then 'Continue' to see what questions you have to answer!"
+              grade_result['correct'] = True
+            requires_gpu: false
+            deadline_seconds: 0
+            legacy_template_refs: []
+            included_text_files: []
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 70055
+    key: '7086090880923'
+    locale: en-us
+    version: 1.0.0
+    title: Exploring JSON
+    semantic_type: Concept
+    updated_at: 'Tue May 31 2016 02:45:11 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 44526
+    atoms:
+      - id: 44526
+        key: '708609088'
+        locale: en-us
+        version: 1.0.0
+        title: Exploring JSON
+        semantic_type: QuizAtom
+        updated_at: 'Wed Apr 19 2017 21:56:03 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: Use the coding environment from the previous quiz (JSON Playground) to get the answers to this quiz!
+        instruction:
+          video:
+            youtube_id: kT0jBsXOouw
+            subtitles:
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d14d11_exploring-json-data-wranging-with-mongodb/subtitles/lang_zh-cn_vs2.srt'
+                language_code: zh-cn
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d14d11_exploring-json-data-wranging-with-mongodb/subtitles/lang_en_vs2.srt'
+                language_code: en
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d14d11_exploring-json-data-wranging-with-mongodb/subtitles/lang_ar_vs1.srt'
+                language_code: ar
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d14d11_exploring-json-data-wranging-with-mongodb/subtitles/lang_pt-br_vs9.srt'
+                language_code: pt-br
+            transcodings:
+              uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d14d11_exploring-json-data-wranging-with-mongodb/exploring-json-data-wranging-with-mongodb_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d14d11_exploring-json-data-wranging-with-mongodb/exploring-json-data-wranging-with-mongodb_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d14d11_exploring-json-data-wranging-with-mongodb/exploring-json-data-wranging-with-mongodb_480p.ogg'
+              uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d14d11_exploring-json-data-wranging-with-mongodb/exploring-json-data-wranging-with-mongodb_720p.mp4'
+              uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d14d11_exploring-json-data-wranging-with-mongodb/hls/playlist.m3u8'
+          text: null
+        question:
+          title: Exploring JSON
+          background_image: '//lh4.ggpht.com/YrzZU_DGtzcDhJhvl7LSx23OUyACYh3TnBz7Sr5Zlwtj2yT0AwI7SRkxDJ0a3jjZVJOrRYeli0ibIarSfd8=s0#w=1437&h=803'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '717659061'
+        answer:
+          text: null
+          video:
+            youtube_id: QCakJ5gxF5w
+            subtitles:
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1c681_exploring-json-data-wranging-with-mongodb/subtitles/lang_ar_vs1.srt'
+                language_code: ar
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1c681_exploring-json-data-wranging-with-mongodb/subtitles/lang_en_vs2.srt'
+                language_code: en
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1c681_exploring-json-data-wranging-with-mongodb/subtitles/lang_pt-br_vs9.srt'
+                language_code: pt-br
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1c681_exploring-json-data-wranging-with-mongodb/subtitles/lang_zh-cn_vs2.srt'
+                language_code: zh-cn
+            transcodings:
+              uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1c681_exploring-json-data-wranging-with-mongodb/exploring-json-data-wranging-with-mongodb_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1c681_exploring-json-data-wranging-with-mongodb/exploring-json-data-wranging-with-mongodb_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1c681_exploring-json-data-wranging-with-mongodb/exploring-json-data-wranging-with-mongodb_480p.ogg'
+              uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1c681_exploring-json-data-wranging-with-mongodb/exploring-json-data-wranging-with-mongodb_720p.mp4'
+              uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1c681_exploring-json-data-wranging-with-mongodb/hls/playlist.m3u8'
+  - id: 84998
+    key: '8079285380923'
+    locale: en-us
+    version: 1.0.0
+    title: Check You Out
+    semantic_type: Concept
+    updated_at: 'Tue May 31 2016 02:45:11 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 67125
+    atoms:
+      - id: 67125
+        key: '807928538'
+        locale: en-us
+        version: 1.0.0
+        title: Check You Out
+        semantic_type: VideoAtom
+        updated_at: 'Wed Apr 19 2017 21:34:47 GMT+0000 (UTC)'
+        is_public: true
+        tags: null
+        instructor_notes: null
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        video:
+          youtube_id: tgni8KzxWzA
+          subtitles:
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d267fb_check-you-out-data-wranging-with-mongodb/subtitles/lang_zh-cn_vs5.srt'
+              language_code: zh-cn
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d267fb_check-you-out-data-wranging-with-mongodb/subtitles/lang_pt-br_vs8.srt'
+              language_code: pt-br
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d267fb_check-you-out-data-wranging-with-mongodb/subtitles/lang_en_vs2.srt'
+              language_code: en
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d267fb_check-you-out-data-wranging-with-mongodb/subtitles/lang_ar_vs1.srt'
+              language_code: ar
+          transcodings:
+            uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d267fb_check-you-out-data-wranging-with-mongodb/check-you-out-data-wranging-with-mongodb_480p.mp4'
+            uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d267fb_check-you-out-data-wranging-with-mongodb/check-you-out-data-wranging-with-mongodb_480p_1000kbps.mp4'
+            uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d267fb_check-you-out-data-wranging-with-mongodb/check-you-out-data-wranging-with-mongodb_480p.ogg'
+            uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d267fb_check-you-out-data-wranging-with-mongodb/check-you-out-data-wranging-with-mongodb_720p.mp4'
+            uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d267fb_check-you-out-data-wranging-with-mongodb/hls/playlist.m3u8'
+  - id: 38459
+    key: '19263086652589030923'
+    locale: en-us
+    version: 1.0.0
+    title: Survey Says!
+    semantic_type: Concept
+    updated_at: 'Tue Jun 28 2016 21:07:18 GMT+0000 (UTC)'
+    is_public: false
+    resources: null
+    _atoms_ids:
+      - 135583
+    atoms:
+      - id: 135583
+        key: '1926308665258903'
+        locale: en-us
+        version: 1.0.0
+        title: Survey Says!
+        semantic_type: QuizAtom
+        updated_at: 'Tue Jun 28 2016 21:06:48 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |-
+          Link to survey: http://goo.gl/QA3hGF.
+
+          Thanks in advance!
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: Survey Says!
+          background_image: '//lh5.ggpht.com/kjf6XQfrGr5VLqDZBZid7ksrZSmBQ9LxEQXDISAI0YTV6vStYv6fX11TwdqwUA4pE-ag74SYJp9CpNMj-Tw=s0#w=1440&h=810'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '1926308665'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null

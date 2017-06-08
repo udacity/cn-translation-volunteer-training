@@ -1,0 +1,700 @@
+id: 178204
+key: '727710540'
+locale: zh-cn
+version: 1.0.0
+title: 习题集：更复杂格式的数据
+semantic_type: Lesson
+updated_at: 'Mon Aug 29 2016 06:25:35 GMT+0000 (UTC)'
+is_public: true
+image: null
+video: null
+summary: 了解 XML，练习使用 BeautifulSoup 解析 HTML。
+duration: 360
+is_project_lesson: false
+_concepts_ids:
+  - 176586
+  - 176587
+  - 176591
+  - 176595
+  - 176585
+  - 176596
+_project_id: null
+concepts:
+  - id: 176586
+    key: '7478590320923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 运营商列表
+    semantic_type: Concept
+    updated_at: 'Mon Aug 29 2016 06:25:31 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174209
+    atoms:
+      - id: 174209
+        key: '747859032'
+        locale: zh-cn
+        version: 1.0.0
+        title: 运营商列表
+        semantic_type: QuizAtom
+        updated_at: 'Tue Oct 11 2016 09:19:14 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |-
+          ## 说明
+
+          请注意函数 'make_request' 仅供为参考。实际情况中，你是无法从优达学城的网页 UI 中使用它的。你所有的修改都应该在函数 'extract_carrier' 中。并且注意该 html 文件是基于原网页删减过的版本。
+
+          这个练习中，你的任务是获取一个包含所有航空公司的列表。在你所返回的数据中要去掉所有类似 “All U.S. Carriers” 的组合。最终你应该返回一个含有运营商编码的列表。
+
+          如果你只想在本地查看完整的 HTML 文件，你可以从原始 [TranStats 网站](http://www.transtats.bts.gov/Data_Elements.aspx?Data=2)下载。
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 运营商列表
+          semantic_type: ProgrammingQuestion
+          evaluation_id: '736089417'
+          evaluator:
+            model: ProgramEvaluator
+            execution_language: python
+            executor_grading_code: |-
+              import sys, traceback
+              import os
+              from bs4 import BeautifulSoup
+              import requests
+              import json
+
+
+              class RedirectStdStreams(object):
+                  def __init__(self, stdout=None, stderr=None):
+                      self._stdout = stdout or sys.stdout
+                      self._stderr = stderr or sys.stderr
+
+                  def __enter__(self):
+                      self.old_stdout, self.old_stderr = sys.stdout, sys.stderr
+                      self.old_stdout.flush(); self.old_stderr.flush()
+                      sys.stdout, sys.stderr = self._stdout, self._stderr
+
+                  def __exit__(self, exc_type, exc_value, traceback):
+                      self._stdout.flush(); self._stderr.flush()
+                      sys.stdout = self.old_stdout
+                      sys.stderr = self.old_stderr
+
+              def test():
+                  try:
+                      from carriers import extract_carriers
+                  except Exception, e:
+                      exc_type, exc_value, exc_traceback = sys.exc_info()
+                      ex = traceback.format_exc().splitlines()
+                      return "NO" + "Unable to import file: '{0}'\n\n{1}\n\n{2}\n{3}\n{4}".format(e, ex[0], ex[-3], ex[-2], ex[-1])
+
+                  # Some tests here for example:
+
+                  result = ""
+                  correct = 0
+
+                  try:
+                      html_page = "options.html"
+                      data = extract_carriers(html_page)
+                  except Exception, e:
+                      exc_type, exc_value, exc_traceback = sys.exc_info()
+                      ex = traceback.format_exc().splitlines()
+                      return "NO" + "Your program raised an Exception '{0}'\n\n{1}\n\n{2}\n{3}\n{4}".format(e, ex[0], ex[-3], ex[-2], ex[-1])
+
+                  ans = set(['FL', 'AS', 'AA', 'MQ', '5Y', 'DL', 'EV', 'F9', 'HA', 'B6', 'OO', 'WN', 'NK', 'US', 'UA', 'VX'])
+
+                  if type(data) != list:
+                      result += "You should return a list!\n"
+                  elif set(data) == ans:
+                      result += "Congratulations, your solution is correct!"
+                      return "OK" + result
+                  elif len(data) == len(ans):
+                      result += "The length of the list is correct, but the content is not correct!\n"
+                  else:
+                      result += "Your solution is not correct.\nPlease check the provided test code and make sure the assertions pass!\n"
+
+                  return "NO" + result
+
+              devnull = open(os.devnull, 'w')
+              with RedirectStdStreams(stdout=devnull):
+                  result =  test()
+              print result
+            executor_test_code: |-
+              import carriers
+              carriers.test()
+            gae_grading_code: |-
+              try:
+                  response = executor_result['stdout'][2:]
+                  result = executor_result['stdout'][:2]
+
+                  if len(executor_result['stderr']) > 0:
+                      grade_result['comment'] = executor_result['stderr']
+                      grade_result['correct'] = False
+                  else:
+                      grade_result['comment'] = response
+                      if result == "OK":
+                          grade_result['correct'] = True
+                      else:
+                          grade_result['correct'] = False
+              except:
+                  raise
+            requires_gpu: false
+            deadline_seconds: 0
+            legacy_template_refs: []
+            included_text_files: []
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 176587
+    key: '7286500690923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 机场列表
+    semantic_type: Concept
+    updated_at: 'Mon Aug 29 2016 06:25:32 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174211
+    atoms:
+      - id: 174211
+        key: '728650069'
+        locale: zh-cn
+        version: 1.0.0
+        title: 机场列表
+        semantic_type: QuizAtom
+        updated_at: 'Mon Aug 29 2016 06:25:32 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: ''
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 机场列表
+          semantic_type: ProgrammingQuestion
+          evaluation_id: '766598567'
+          evaluator:
+            model: ProgramEvaluator
+            execution_language: python
+            executor_grading_code: |-
+              import sys, traceback
+              import os
+              from bs4 import BeautifulSoup
+              import requests
+              import json
+
+
+              class RedirectStdStreams(object):
+                  def __init__(self, stdout=None, stderr=None):
+                      self._stdout = stdout or sys.stdout
+                      self._stderr = stderr or sys.stderr
+
+                  def __enter__(self):
+                      self.old_stdout, self.old_stderr = sys.stdout, sys.stderr
+                      self.old_stdout.flush(); self.old_stderr.flush()
+                      sys.stdout, sys.stderr = self._stdout, self._stderr
+
+                  def __exit__(self, exc_type, exc_value, traceback):
+                      self._stdout.flush(); self._stderr.flush()
+                      sys.stdout = self.old_stdout
+                      sys.stderr = self.old_stderr
+
+              def test():
+                  try:
+                      from airports import extract_airports
+                  except Exception, e:
+                      exc_type, exc_value, exc_traceback = sys.exc_info()
+                      ex = traceback.format_exc().splitlines()
+                      return "NO" + "Unable to import file: '{0}'\n\n{1}\n\n{2}\n{3}\n{4}".format(e, ex[0], ex[-3], ex[-2], ex[-1])
+
+                  # Some tests here for example:
+
+                  result = ""
+                  correct = 0
+
+                  try:
+                      html_page = "options.html"
+                      data = extract_airports(html_page)
+                  except Exception, e:
+                      exc_type, exc_value, exc_traceback = sys.exc_info()
+                      ex = traceback.format_exc().splitlines()
+                      return "NO" + "Your program raised an Exception '{0}'\n\n{1}\n\n{2}\n{3}\n{4}".format(e, ex[0], ex[-3], ex[-2], ex[-1])
+
+                  ans = set(['ATL', 'BWI', 'BOS', 'CLT', 'MDW', 'ORD', 'DFW', 'DEN', 'DTW', 'FLL', 'IAH', 'LAS', 'LAX', 'ABR', 'ABI'])
+
+                  if type(data) != list:
+                      result += "You should return a list!\n"
+                  elif set(data) == ans:
+                      result += "Congratulations, your solution is correct!"
+                      return "OK" + result
+                  elif len(data) == len(ans):
+                      result += "The length of the list is correct, but the content is not correct!\n"
+                  else:
+                      result += "Your solution is not correct.\nPlease check the provided test code and make sure the assertions pass!\n"
+
+                  return "NO" + result
+
+              devnull = open(os.devnull, 'w')
+              with RedirectStdStreams(stdout=devnull):
+                  result =  test()
+              print result
+            executor_test_code: |-
+              import airports
+              airports.test()
+            gae_grading_code: |-
+              try:
+                  response = executor_result['stdout'][2:]
+                  result = executor_result['stdout'][:2]
+
+                  if len(executor_result['stderr']) > 0:
+                      grade_result['comment'] = executor_result['stderr']
+                      grade_result['correct'] = False
+                  else:
+                      grade_result['comment'] = response
+                      if result == "OK":
+                          grade_result['correct'] = True
+                      else:
+                          grade_result['correct'] = False
+              except:
+                  raise
+            requires_gpu: false
+            deadline_seconds: 0
+            legacy_template_refs: []
+            included_text_files: []
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 176591
+    key: '7329693490923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 处理所有数据
+    semantic_type: Concept
+    updated_at: 'Mon Aug 29 2016 06:25:33 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174212
+    atoms:
+      - id: 174212
+        key: '732969349'
+        locale: zh-cn
+        version: 1.0.0
+        title: 处理所有数据
+        semantic_type: QuizAtom
+        updated_at: 'Mon Aug 29 2016 06:25:32 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: ''
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 处理所有数据
+          semantic_type: ProgrammingQuestion
+          evaluation_id: '703549814'
+          evaluator:
+            model: ProgramEvaluator
+            execution_language: python
+            executor_grading_code: |-
+              import sys, traceback
+              import os
+              from bs4 import BeautifulSoup
+              from zipfile import ZipFile
+
+
+              class RedirectStdStreams(object):
+                  def __init__(self, stdout=None, stderr=None):
+                      self._stdout = stdout or sys.stdout
+                      self._stderr = stderr or sys.stderr
+
+                  def __enter__(self):
+                      self.old_stdout, self.old_stderr = sys.stdout, sys.stderr
+                      self.old_stdout.flush(); self.old_stderr.flush()
+                      sys.stdout, sys.stderr = self._stdout, self._stderr
+
+                  def __exit__(self, exc_type, exc_value, traceback):
+                      self._stdout.flush(); self._stderr.flush()
+                      sys.stdout = self.old_stdout
+                      sys.stderr = self.old_stderr
+
+
+              def open_zip(datadir):
+                  with ZipFile('{0}.zip'.format(datadir), 'r') as myzip:
+                      myzip.extractall()
+
+              def test():
+                  try:
+                      from process import process_all, process_file
+                  except Exception, e:
+                      exc_type, exc_value, exc_traceback = sys.exc_info()
+                      ex = traceback.format_exc().splitlines()
+                      return "NO" + "Unable to import file: '{0}'\n\n{1}\n\n{2}\n{3}\n{4}".format(e, ex[0], ex[-3], ex[-2], ex[-1])
+
+                  # Some tests here for example:
+
+                  result = ""
+                  correct = 0
+
+                  try:
+                      datadir = "data"
+                      open_zip(datadir)
+                      files = process_all(datadir)
+                      data = []
+                      for f in files:
+                          data += process_file(f)
+                  except Exception, e:
+                      exc_type, exc_value, exc_traceback = sys.exc_info()
+                      ex = traceback.format_exc().splitlines()
+                      return "NO" + "Your program raised an Exception '{0}'\n\n{1}\n\n{2}\n{3}\n{4}".format(e, ex[0], ex[-3], ex[-2], ex[-1])
+
+                  if len(data) == 399:
+                      correct += 1
+                  else:
+                      result += ("The number of entries is not correct.\n"
+                                 "Make sure to process all files and add an entry for each row\n"
+                                 "besides the header and TOTAL rows.\n")
+                  for entry in data[:3]:
+                      if type(entry["year"]) == int and type(entry["month"]) == int:
+                          correct += 1
+                      else:
+                          result += "The value type for 'year' and 'month' should be int\n"
+                      if type(entry["flights"]["domestic"]) == int:
+                          correct += 1
+                      else:
+                          result += "The value type for 'domestic' and 'international' should be int\n"
+                      if len(entry["airport"]) == 3:
+                          correct += 1
+                      else:
+                          "{} is not a valid IATA airport code".format(entry["airport"])
+                      if len(entry["courier"]) == 2:
+                          correct += 1
+                      else:
+                          "{} is not a valid IATA airline code".format(entry["courier"])
+
+                  # Test last entry more thoroughly
+                  last_entry = {
+                      "airport": "ATL",
+                      "courier": "FL",
+                      "flights": {
+                          "international": 108289,
+                          "domestic": 701425
+                      },
+                      "month": 10,
+                      "year": 2013,
+                  }
+                  if data[-1] == last_entry:
+                          correct += 1
+                  else:
+                      result += ("The last entry is incorrect. Expected ATL-FL 2013/10 with\n"
+                                 "following flight count: {'international': 108289, 'domestic': 701425}\n")
+
+                  if correct == 14:
+                      result += "Congratulations, your solution is correct!"
+                      return "OK" + result
+                  else:
+                      result += ("\nYour solution is not correct.\n"
+                                 "Please check the provided test code and make sure the assertions pass!\n")
+
+                  return "NO" + result
+
+              devnull = open(os.devnull, 'w')
+              with RedirectStdStreams(stdout=devnull):
+                  result =  test()
+              print result
+            executor_test_code: |-
+              import process
+              process.test()
+            gae_grading_code: |-
+              try:
+                  response = executor_result['stdout'][2:]
+                  result = executor_result['stdout'][:2]
+
+                  if len(executor_result['stderr']) > 0:
+                      grade_result['comment'] = executor_result['stderr']
+                      grade_result['correct'] = False
+                  else:
+                      grade_result['comment'] = response
+                      if result == "OK":
+                          grade_result['correct'] = True
+                      else:
+                          grade_result['correct'] = False
+              except:
+                  raise
+            requires_gpu: false
+            deadline_seconds: 0
+            legacy_template_refs:
+              - key: '4568063070437376'
+                ref: ProgramTemplate
+            included_text_files: []
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 176595
+    key: '7241899770923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 专利数据库
+    semantic_type: Concept
+    updated_at: 'Mon Aug 29 2016 06:25:34 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174215
+    atoms:
+      - id: 174215
+        key: '724189977'
+        locale: zh-cn
+        version: 1.0.0
+        title: 专利数据库
+        semantic_type: QuizAtom
+        updated_at: 'Mon Aug 29 2016 06:25:33 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: 查看下一道测试题，以了解与该 XML 文件有关的特定问题。
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 专利数据库
+          semantic_type: ProgrammingQuestion
+          evaluation_id: '709679384'
+          evaluator:
+            model: ProgramEvaluator
+            execution_language: python
+            executor_grading_code: ''
+            executor_test_code: import patent
+            gae_grading_code: |-
+              grade_result['comment'] = "Enter your answer in the quiz that follows!"
+              grade_result['correct'] = True
+            requires_gpu: false
+            deadline_seconds: 0
+            legacy_template_refs: []
+            included_text_files: []
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 176585
+    key: '7356192890923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 数据文件解析结果
+    semantic_type: Concept
+    updated_at: 'Mon Aug 29 2016 06:25:34 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174210
+    atoms:
+      - id: 174210
+        key: '735619289'
+        locale: zh-cn
+        version: 1.0.0
+        title: 数据文件解析结果
+        semantic_type: QuizAtom
+        updated_at: 'Mon Aug 29 2016 06:25:34 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: ''
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 数据文件解析结果
+          background_image: '//lh3.ggpht.com/_K_asty5Tr9qO9xx7B8TB7AvmELeEmdeJiCTjCXdSyVogm4XTT2z3BRnWm2BJCvhiGtWXVp4uNZrJP3kOQPH=s0#w=1334&h=804'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '700269734'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 176596
+    key: '7227090150923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 处理专利
+    semantic_type: Concept
+    updated_at: 'Mon Aug 29 2016 06:25:35 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174218
+    atoms:
+      - id: 174218
+        key: '722709015'
+        locale: zh-cn
+        version: 1.0.0
+        title: 处理专利
+        semantic_type: QuizAtom
+        updated_at: 'Mon Aug 29 2016 06:25:35 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: ''
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 处理专利
+          semantic_type: ProgrammingQuestion
+          evaluation_id: '709019315'
+          evaluator:
+            model: ProgramEvaluator
+            execution_language: python
+            executor_grading_code: |-
+              import sys, traceback
+              import os
+              import xml.etree.ElementTree as ET
+
+
+              class RedirectStdStreams(object):
+                  def __init__(self, stdout=None, stderr=None):
+                      self._stdout = stdout or sys.stdout
+                      self._stderr = stderr or sys.stderr
+
+                  def __enter__(self):
+                      self.old_stdout, self.old_stderr = sys.stdout, sys.stderr
+                      self.old_stdout.flush(); self.old_stderr.flush()
+                      sys.stdout, sys.stderr = self._stdout, self._stderr
+
+                  def __exit__(self, exc_type, exc_value, traceback):
+                      self._stdout.flush(); self._stderr.flush()
+                      sys.stdout = self.old_stdout
+                      sys.stderr = self.old_stderr
+
+              def test():
+                  PATENTS = 'patent.data'
+                  try:
+                      from split_data import split_file
+                  except Exception, e:
+                      exc_type, exc_value, exc_traceback = sys.exc_info()
+                      ex = traceback.format_exc().splitlines()
+                      return "NO" + "Unable to import file: '{0}'\n\n{1}\n\n{2}\n{3}\n{4}".format(e, ex[0], ex[-3], ex[-2], ex[-1])
+
+                  # Some tests here for example:
+
+                  result = ""
+                  correct = 0
+
+                  try:
+                      split_file(PATENTS)
+                      for n in range(4):
+                          try:
+                              fname = "{}-{}".format(PATENTS, n)
+                              f = open(fname, "r")
+                              if not f.readline().startswith("<?xml"):
+                                  result += "You have not split the file {} in the correct boundary!\n".format(fname)
+                              else:
+                                  correct += 1
+                              f.close()
+                          except:
+                              result += "Could not find file {}. Check if the filename is correct!\n".format(fname)
+                  except Exception, e:
+                      exc_type, exc_value, exc_traceback = sys.exc_info()
+                      ex = traceback.format_exc().splitlines()
+                      return "NO" + "Your program raised an Exception '{0}'\n\n{1}\n\n{2}\n{3}\n{4}".format(e, ex[0], ex[-3], ex[-2], ex[-1])
+
+                  if correct == 4:
+                      result += "Congratulations, your solution is correct!\n"
+                      return "OK" + result
+                  else:
+                      result += "Your solution is not correct.\nPlease check the provided test code and make sure the assertions pass!\n"
+
+                  return "NO" + result
+
+              devnull = open(os.devnull, 'w')
+              with RedirectStdStreams(stdout=devnull):
+                  result =  test()
+              print result
+            executor_test_code: import split_data
+            gae_grading_code: |-
+              try:
+                  response = executor_result['stdout'][2:]
+                  result = executor_result['stdout'][:2]
+
+                  if len(executor_result['stderr']) > 0:
+                      grade_result['comment'] = executor_result['stderr']
+                      grade_result['correct'] = False
+                  else:
+                      grade_result['comment'] = response
+                      if result == "OK":
+                          grade_result['correct'] = True
+                      else:
+                          grade_result['correct'] = False
+              except:
+                  raise
+            requires_gpu: false
+            deadline_seconds: 0
+            legacy_template_refs: []
+            included_text_files: []
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null

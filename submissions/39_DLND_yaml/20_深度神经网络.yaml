@@ -46,7 +46,7 @@ concepts:
     title: 深度神经网络简介
     semantic_type: Concept
     updated_at: 'Tue Apr 25 2017 08:10:20 GMT+0000 (UTC)'
-    is_public: false
+    is_public: true
     resources: null
     _atoms_ids:
       - 300387
@@ -111,7 +111,7 @@ concepts:
 
           在本课程中，你会学到如何用 TensorFlow 构建多层神经网络。之前你应该了解，在网络里面添加一个隐藏层，可以让它构建更复杂的模型。而且，在隐藏层用非线性激活函数可以让它对非线性函数建模。
 
-          一个常用的非线性函数叫 [ReLU（rectified linear unit）](https://en.wikipedia.org/wiki/Rectifier_(neural_networks))。ReLU 函数对所有负的输入，返回 0；所有 <span class='mathquill'>x >0</span> 的输入，返回 <span class='mathquill'>x</span>。
+          一个常用的非线性函数叫 [ReLU（rectified linear unit）](https://en.wikipedia.org/wiki/Rectifier_(neural_networks)。ReLU 函数对所有负的输入，返回 0；所有 <span class='mathquill'>x >0</span> 的输入，返回 <span class='mathquill'>x</span>。
 
           接下来你会看到如何在 TensorFlow 里实现一个 ReLU 隐藏层。
         instructor_notes: ''
@@ -144,6 +144,7 @@ concepts:
           TensorFlow 提供了 ReLU 函数 [`tf.nn.relu()`](https://www.tensorflow.org/api_docs/python/tf/nn/relu)，如下所示：
 
           ```python
+          # Hidden Layer with ReLU activation function
           # 隐藏层用 ReLU 作为激活函数
           hidden_layer = tf.add(tf.matmul(features, hidden_weights), hidden_biases)
           hidden_layer = tf.nn.relu(hidden_layer)
@@ -151,7 +152,7 @@ concepts:
           output = tf.add(tf.matmul(hidden_layer, output_weights), output_biases)
           ```
 
-          上面的代码把[`tf.nn.relu()`](https://www.tensorflow.org/api_docs/python/tf/nn/relu) 放到`隐藏层`，就像开关一样把负权重关掉了。添加像`输出层`这样额外的层在激活函数后，就把模型变成了非线性函数。这个非线性的特征使得网络可以解决更复杂的问题。
+          上面的代码把[`tf.nn.relu()`](https://www.tensorflow.org/api_docs/python/tf/nn/relu) 放到`隐藏层`，就像开关一样把负权重关掉了。在激活函数之后，添加像`输出层`这样额外的层，就把模型变成了非线性函数。这个非线性的特征使得网络可以解决更复杂的问题。
 
           ## 练习
 
@@ -235,25 +236,25 @@ concepts:
                           yield where
                       finally:
                           sys.stdout = sys.__stdout__
-                          
+
                   def student_output(output_type=None):
                       out = io.StringIO()
-                      
+
                       # Capture stdout
                       with stdout_redirect(out):
                           import quiz
-                      
+
                       # Get output
                       out.seek(0)
                       out = out.read()
-                      
+
                       if output_type:
                           # Convert output to a specified type
                           try:
                               out = output_type(out)
                           except Exception:
                               raise Exception('Output is the wrong type.  It should be {}.'.format(output_type.__name__))
-                      
+
                       return out
                 name: all.py
               - text: |-
@@ -266,7 +267,7 @@ concepts:
                       """
                       Run unit tests against <student_func>
                       """
-                      
+
                       answer = np.array([
                           [5.11000013, 8.44000053],
                           [0., 0.],
@@ -278,12 +279,12 @@ concepts:
 
                       try:
                           output = student_output()
-                          
+
                           try:
                               output = np.fromstring(re.sub('[\[\]]', '', output) , sep=' ').reshape((3, 2))
                           except Exception:
                               raise Exception('Output is the wrong type or wrong dimension.')
-                          
+
                           if np.allclose(output, answer):
                               result['correct'] = True
                               result['feedback'] = 'You got it!  That\'s how you use a ReLU.'
@@ -344,12 +345,12 @@ concepts:
 
           你可以使用 TensorFlow 提供的 MNIST 数据集，他把分批和独热码都帮你处理好了。
 
-          ### 参数学习
+          ### 学习参数 Learning Parameters
 
           ```python
           import tensorflow as tf
 
-          # 参数
+          # Parameters
           learning_rate = 0.001
           training_epochs = 20
           batch_size = 128  # 如果没有足够内存，可以降低 batch size
@@ -361,17 +362,18 @@ concepts:
 
           这里的关注点是多层神经网络的架构，不是调参，所以这里直接给你了学习的参数。
 
-          ### 隐藏层参数
+          ### 隐藏层参数 Hidden Layer Parameters
 
           ```python
-          n_hidden_layer = 256 # 层特征数量
+          n_hidden_layer = 256 # layer number of features 特征的层数
           ```
 
           `n_hidden_layer` 决定了神经网络隐藏层的大小。也被称作层的宽度。
 
-          ### 权重和偏置项
+          ### 权重和偏置项 Weights and Biases
 
           ```python
+          # Store layers weight & bias
           # 层权重和偏置项的储存
           weights = {
               'hidden_layer': tf.Variable(tf.random_normal([n_input, n_hidden_layer])),
@@ -383,9 +385,9 @@ concepts:
           }
           ```
 
-          深度神经网络有多个层，每个层有自己的权重和偏置项。`'hidden_layer'`的权重和偏置项只对隐藏层， `'out'`的权重和偏置项只对输出层。如果神经网络比这更深，那每一层都有权重和偏置项。
+          深度神经网络有多个层，每个层有自己的权重和偏置项。`'hidden_layer'`的权重和偏置项只属于隐藏层(hidden_layer)， `'out'`的权重和偏置项只属于输出层(output layer)。如果神经网络比这更深，那每一层都有权重和偏置项。
 
-          ### 输入
+          ### 输入 Input
 
           ```python
           # tf Graph input
@@ -395,9 +397,9 @@ concepts:
           x_flat = tf.reshape(x, [-1, n_input])
           ```
 
-          MNIST 数据集是由 28px 乘 28px 单[通道](https://en.wikipedia.org/wiki/Channel_(digital_image%29)图片组成。`tf.reshape()`函数把 28px 乘 28px 的矩阵换成了 784px by 1px 的向量 `x`。 
+          MNIST 数据集是由 28px \* 28px 单[通道](https://en.wikipedia.org/wiki/Channel_(digital_image%29)图片组成。`tf.reshape()`函数把 28px \* 28px 的矩阵转换成了 784px \* 1px 的单行向量 `x`。
 
-          ### 多层感知器
+          ### 多层感知器 Multilayer Perceptron
         instructor_notes: ''
         resources: null
       - id: 274200
@@ -424,44 +426,53 @@ concepts:
         is_public: true
         text: |-
           ```python
+          # Hidden layer with RELU activation
           # ReLU作为隐藏层激活函数
           layer_1 = tf.add(tf.matmul(x_flat, weights['hidden_layer']),\
               biases['hidden_layer'])
           layer_1 = tf.nn.relu(layer_1)
+
+          # Output layer with linear activation
           # 输出层的线性激活函数
           logits = tf.add(tf.matmul(layer_1, weights['out']), biases['out'])
           ```
 
-          你之前已经见过 `tf.add(tf.matmul(x_flat, weights['hidden_layer']), biases['hidden_layer'])`，也就是 `xw + b`。把线性函数与ReLU组合在一起，给你一个两层网络。
+          你之前已经见过 `tf.add(tf.matmul(x_flat, weights['hidden_layer']), biases['hidden_layer'])`，也就是 `xw + b`。把线性函数与ReLU组合在一起，形成一个2层网络。
 
           ### 优化器 Optimizer
 
           ```python
           # Define loss and optimizer
+          # 定义误差值和优化器
           cost = tf.reduce_mean(\
               tf.nn.softmax_cross_entropy_with_logits(logits=logits, labels=y))
           optimizer = tf.train.GradientDescentOptimizer(learning_rate=learning_rate)\
               .minimize(cost)
           ```
 
-          这跟 Intro to TensorFlow lab 里用到的优化技巧一样。
+          这跟 Intro to TensorFlow lab 里用到的优化技术一样。
 
           ### Session
 
           ```python
           # Initializing the variables
+          # 初始化变量
           init = tf.global_variables_initializer()
 
           # Launch the graph
           with tf.Session() as sess:
               sess.run(init)
               # Training cycle
+              # 训练循环
               for epoch in range(training_epochs):
                   total_batch = int(mnist.train.num_examples/batch_size)
                   # Loop over all batches
+                  # 遍历所有batch
                   for i in range(total_batch):
                       batch_x, batch_y = mnist.train.next_batch(batch_size)
+
                       # Run optimization op (backprop) and cost op (to get loss value)
+                      # 运行优化器进行反向传导、计算cost(获取loss值)
                       sess.run(optimizer, feed_dict={x: batch_x, y: batch_y})
           ```
 
@@ -533,7 +544,7 @@ concepts:
     key: ef0cdafb-57ec-497b-8f45-11c142c367d7
     locale: zh-cn
     version: 1.0.0
-    title: 存取 TensorFlow 模型
+    title: 保存和读取 TensorFlow 模型
     semantic_type: Concept
     updated_at: 'Wed Apr 05 2017 15:56:46 GMT+0000 (UTC)'
     is_public: true
@@ -601,14 +612,14 @@ concepts:
               # Initialize all the Variables
               # 初始化所有变量
               sess.run(tf.global_variables_initializer())
-              
+
               # Show the values of weights and bias
              # 显示变量和权重
               print('Weights:')
               print(sess.run(weights))
               print('Bias:')
               print(sess.run(bias))
-              
+
               # Save the model
               # 保存模型
               saver.save(sess, save_file)
@@ -636,7 +647,7 @@ concepts:
 
           `weights` 和 `bias` Tensors 用 [`tf.truncated_normal()`](https://www.tensorflow.org/api_docs/python/tf/truncated_normal) 函数设定了随机值。用  [`tf.train.Saver.save()`](https://www.tensorflow.org/api_docs/python/tf/train/Saver#save) 函数把这些值被保存在`save_file` 位置，命名为 "model.ckpt"，（".ckpt" 扩展名表示"checkpoint"）。
 
-          如果你使用 TensorFlow 0.11.0RC1 或者更新版，一个叫做  "model.ckpt.meta" 的文件也会生成。它包含了 TensorFlow graph。
+          如果你使用 TensorFlow 0.11.0RC1 或者更新版，还会生成一个包含了 TensorFlow graph  的文件"model.ckpt.meta"。
 
           ## 加载变量
 
@@ -670,7 +681,7 @@ concepts:
               # Load the weights and bias
               # 加载权重和偏置项
               saver.restore(sess, save_file)
-              
+
               # Show the values of weights and bias
               # 显示权重和偏置项
               print('Weight:')
@@ -699,7 +710,7 @@ concepts:
 
           >[ 1.62978125 -0.37812829  0.64723819]
 
-          你注意到，你依然需要在 Python 中创建 `weights` 和 `bias`。[`tf.train.Saver.restore()`](https://www.tensorflow.org/api_docs/python/tf/train/Saver#restore) 函数把保存的数据加载到  `weights` 和 `bias` 当中。
+          注意，你依然需要在 Python 中创建 `weights` 和 `bias` Tensors。[`tf.train.Saver.restore()`](https://www.tensorflow.org/api_docs/python/tf/train/Saver#restore) 函数把之前保存的数据加载到  `weights` 和 `bias` 当中。
 
           因为 [`tf.train.Saver.restore()`](https://www.tensorflow.org/api_docs/python/tf/train/Saver#restore) 设定了 TensorFlow 变量，这里你不需要调用  [`tf.global_variables_initializer()`](https://www.tensorflow.org/api_docs/python/tf/global_variables_initializer)了。
 
@@ -792,14 +803,17 @@ concepts:
           saver = tf.train.Saver()
 
           # Launch the graph
+          # 启动图
           with tf.Session() as sess:
               sess.run(tf.global_variables_initializer())
 
               # Training cycle
+              # 训练循环
               for epoch in range(n_epochs):
                   total_batch = math.ceil(mnist.train.num_examples / batch_size)
 
                   # Loop over all batches
+                  # 遍历所有batch
                   for i in range(total_batch):
                       batch_features, batch_labels = mnist.train.next_batch(batch_size)
                       sess.run(
@@ -807,6 +821,7 @@ concepts:
                           feed_dict={features: batch_features, labels: batch_labels})
 
                   # Print status for every 10 epochs
+                  # 每运行10个epoch打印一次状态
                   if epoch % 10 == 0:
                       valid_accuracy = sess.run(
                           accuracy,
@@ -818,6 +833,7 @@ concepts:
                           valid_accuracy))
 
               # Save the model
+              # 保存模型
               saver.save(sess, save_file)
               print('Trained Model Saved.')
           ```
@@ -856,7 +872,7 @@ concepts:
 
           ## 加载训练好的模型
 
-          让我们从磁盘中加载权重和偏置项，验证测试集准确率
+          让我们从磁盘中加载权重和偏置项，验证测试集准确率。
         instructor_notes: ''
         resources: null
       - id: 274214
@@ -872,6 +888,7 @@ concepts:
           saver = tf.train.Saver()
 
           # Launch the graph
+          # 加载图
           with tf.Session() as sess:
               saver.restore(sess, save_file)
 
@@ -894,7 +911,7 @@ concepts:
         text: |-
           >Test Accuracy: 0.7229999899864197
 
-          就是这样！你现在知道如何保存再加载一个 TensorFlow 的训练模型了。下一章节让我们看看如何把权重和偏置项加载到已经修改的模型中。
+          就是这样！你现在知道如何保存再加载一个 TensorFlow 的训练模型了。下一章节让我们看看如何把权重和偏置项加载到修改过的模型中。
         instructor_notes: ''
         resources: null
   - id: 274446
@@ -928,7 +945,7 @@ concepts:
 
           ## 命名报错
 
-          TensorFlow 对 Tensor 和计算使用一个叫 `name` 的字符串辨识器，如果名称没有给，TensorFlow 会自动创建一个。TensorFlow 会把第一个节点命名为 `<Type>`，把后续的命名为`<Type>_<number>`。让我们看看这对加载一个有不同顺序权重和偏置项的模型有哪些影响： 
+          TensorFlow 对 Tensor 和计算使用一个叫 `name` 的字符串辨识器，如果没有定义name，TensorFlow 会自动创建一个。TensorFlow 会把第一个节点命名为 `<Type>`，把后续的命名为`<Type>_<number>`。让我们看看这对加载一个有不同顺序权重和偏置项的模型有哪些影响：
         instructor_notes: ''
         resources: null
       - id: 274217
@@ -964,7 +981,7 @@ concepts:
           with tf.Session() as sess:
               sess.run(tf.global_variables_initializer())
               saver.save(sess, save_file)
-              
+
           # Remove the previous weights and bias
           # 移除之前的权重和偏置项
           tf.reset_default_graph()
@@ -997,7 +1014,7 @@ concepts:
         updated_at: 'Sun Apr 09 2017 06:27:51 GMT+0000 (UTC)'
         is_public: true
         text: |-
-          上述代码会有下列输出
+          上述代码会有下列输出：
 
           >Save Weights: Variable:0
 
@@ -1041,14 +1058,16 @@ concepts:
           saver = tf.train.Saver()
 
           # Print the name of Weights and Bias
+          # 打印权重和偏置项的名称
           print('Save Weights: {}'.format(weights.name))
           print('Save Bias: {}'.format(bias.name))
 
           with tf.Session() as sess:
               sess.run(tf.global_variables_initializer())
               saver.save(sess, save_file)
-              
+
           # Remove the previous weights and bias
+          # 移除之前的权重和偏置项
           tf.reset_default_graph()
 
           # Two Variables: weights and bias
@@ -1058,13 +1077,15 @@ concepts:
           saver = tf.train.Saver()
 
           # Print the name of Weights and Bias
+          # 打印权重和偏置项的名称
           print('Load Weights: {}'.format(weights.name))
           print('Load Bias: {}'.format(bias.name))
 
           with tf.Session() as sess:
               # Load the weights and bias - No Error
+              # 加载权重和偏置项 - 没有报错
               saver.restore(sess, save_file)
-              
+
           print('Loaded Weights and Bias successfully.')
           ```
         instructor_notes: ''
@@ -1088,14 +1109,14 @@ concepts:
 
           >Loaded Weights and Bias successfully.
 
-          这次没问题！Tensor 名称批评正确，数据正确加载。
+          这次没问题！Tensor 名称匹配正确，数据被正确加载。
         instructor_notes: ''
         resources: null
   - id: 273157
     key: e3468217-af9b-4d31-bc87-316a42553692
     locale: zh-cn
     version: 1.0.0
-    title: Regularization Intro
+    title: 正则化简介
     semantic_type: Concept
     updated_at: 'Mon Mar 06 2017 02:57:23 GMT+0000 (UTC)'
     is_public: false
@@ -1192,7 +1213,7 @@ concepts:
         key: a86a2a1d-a213-42f9-9691-d776b0cebd08
         locale: zh-cn
         version: 1.0.0
-        title: Regularization-Question
+        title: 正则化问题
         semantic_type: VideoAtom
         updated_at: 'Tue Apr 18 2017 17:04:03 GMT+0000 (UTC)'
         is_public: true
@@ -1214,7 +1235,7 @@ concepts:
         key: 67cc2259-1540-4717-8596-4e28ea103f7f
         locale: zh-cn
         version: 1.0.0
-        title: Regularization
+        title: 正则化
         semantic_type: RadioQuizAtom
         updated_at: 'Mon Apr 17 2017 23:50:12 GMT+0000 (UTC)'
         is_public: true
@@ -1370,11 +1391,13 @@ concepts:
         updated_at: 'Sun Apr 09 2017 07:08:53 GMT+0000 (UTC)'
         is_public: true
         text: |-
-          Dropout 是一个降低过拟合的正则化技术。它在网络中暂时的丢弃一些单位([神经元](https://en.wikipedia.org/wiki/Artificial_neuron))，以及它们的前后连接，图一是一个 dropout 如何工作的示意图
+          Dropout 是一个降低过拟合的正则化技术。它在网络中暂时的丢弃一些单元([神经元](https://en.wikipedia.org/wiki/Artificial_neuron))，以及与它们的前后相连的所有节点。
+
+          图1 是 dropout 的工作示意图
 
           TensorFlow 提供了一个 [`tf.nn.dropout()`](https://www.tensorflow.org/api_docs/python/tf/nn/dropout) 函数，你可以用来实现 dropout。
 
-          让我们来看一个如何使用 [`tf.nn.dropout()`](https://www.tensorflow.org/api_docs/python/tf/nn/dropout)的例子。
+          让我们来看一个 [`tf.nn.dropout()`](https://www.tensorflow.org/api_docs/python/tf/nn/dropout)的使用例子。
 
           ```python
           keep_prob = tf.placeholder(tf.float32) # probability to keep units
@@ -1386,20 +1409,20 @@ concepts:
           logits = tf.add(tf.matmul(hidden_layer, weights[1]), biases[1])
           ```
 
-          上面的代码展示了如何在神经网络中应用dropout
+          上面的代码展示了如何在神经网络中应用 dropout。
 
           [`tf.nn.dropout()`](https://www.tensorflow.org/api_docs/python/tf/nn/dropout)函数有两个参数：
           1. `hidden_layer`：你要应用 dropout 的 tensor
-          2. `keep_prob`：任何一个给定单位的留存率（**没有**丢弃的）
+          2. `keep_prob`：任何一个给定单元的留存率（**没有**被丢弃的单元）
 
-          `keep_prob` 可以让你调整 drop 单位的数量。为了补偿被丢弃的单位，[`tf.nn.dropout()`](https://www.tensorflow.org/api_docs/python/tf/nn/dropout) 把所有保留下来的单位（**没有**丢弃的）乘 `1/keep_prob`
+          `keep_prob` 可以让你调整丢弃单元的数量。为了补偿被丢弃的单元，[`tf.nn.dropout()`](https://www.tensorflow.org/api_docs/python/tf/nn/dropout) 把所有保留下来的单元（**没有**被丢弃的单元）\* `1/keep_prob`
 
           在训练时，一个好的`keep_prob`初始值是`0.5`。
 
-          在测试时，把 `keep_prob` 值设为`1.0` ，这样保留所有的单位，最大化模型的能力。
+          在测试时，把 `keep_prob` 值设为`1.0` ，这样保留所有的单元，最大化模型的能力。
 
-          ## 练习1
-          看下下面的代码，哪里出问题了？
+          ## 练习 1
+          下面的代码，哪里出问题了？
 
           语法没问题，但是测试准确率很低。
           ```python
@@ -1417,16 +1440,16 @@ concepts:
 
           with tf.Session() as sess:
               sess.run(tf.global_variables_initializer())
-              
+
               for epoch_i in range(epochs):
                   for batch_i in range(batches):
                       ....
-              
+
                       sess.run(optimizer, feed_dict={
                           features: batch_features,
                           labels: batch_labels,
                           keep_prob: 0.5})
-              
+
               validation_accuracy = sess.run(accuracy, feed_dict={
                   features: test_features,
                   labels: test_labels,
@@ -1475,10 +1498,10 @@ concepts:
         text: |-
           ## 练习 2
 
-          这个练习的代码来自ReLU的练习，应用一个dropout层。用ReLU层和dropout层构建一个模型，`keep_prob`值设为
+          这个练习的代码来自 ReLU 的练习，应用一个 dropout 层。用 ReLU 层和 dropout 层构建一个模型，`keep_prob`值设为
           `0.5`。打印这个模型的logits。
 
-          注意: 由于dropout的随机性，每次运行代码输出会有所不同。
+          注意: 由于dropout会随机丢弃单元，每次运行代码输出会有所不同。
         instructor_notes: ''
         resources: null
       - id: 274232
@@ -1544,25 +1567,25 @@ concepts:
                           yield where
                       finally:
                           sys.stdout = sys.__stdout__
-                          
+
                   def student_output(output_type=None):
                       out = io.StringIO()
-                      
+
                       # Capture stdout
                       with stdout_redirect(out):
                           import quiz
-                      
+
                       # Get output
                       out.seek(0)
                       out = out.read()
-                      
+
                       if output_type:
                           # Convert output to a specified type
                           try:
                               out = output_type(out)
                           except Exception:
                               raise Exception('Output is the wrong type.  It should be {}.'.format(output_type.__name__))
-                      
+
                       return out
                 name: all.py
               - text: |-
@@ -1576,7 +1599,7 @@ concepts:
                       """
                       Run unit tests against <student_func>
                       """
-                      
+
                       answer = np.array([
                           [9.55999947, 16.],
                           [0.11200001, 0.67200011],
@@ -1593,12 +1616,12 @@ concepts:
                       try:
                           tf.set_random_seed(123456)
                           output = student_output()
-                          
+
                           try:
                               output = np.fromstring(re.sub('[\[\]]', '', output) , sep=' ').reshape((3, 2))
                           except Exception:
                               raise Exception('Output is the wrong type or wrong dimension.')
-                          
+
                           if output.shape == answer.shape and np.allclose(output, answer):
                               result['correct'] = True
                               result['feedback'] = 'You got it!  That\'s how you use dropout.'

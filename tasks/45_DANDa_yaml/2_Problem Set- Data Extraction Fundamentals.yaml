@@ -1,0 +1,530 @@
+id: 109016
+key: '756808598'
+locale: en-us
+version: 1.0.0
+title: 'Problem Set: Data Extraction Fundamentals'
+semantic_type: Lesson
+updated_at: 'Tue May 31 2016 02:45:07 GMT+0000 (UTC)'
+is_public: true
+image: null
+video: null
+summary: Gain experience working with .csv files and wrangling JSON.
+duration: 360
+is_project_lesson: false
+_concepts_ids:
+  - 129588
+  - 43191
+  - 130066
+_project_id: null
+concepts:
+  - id: 129588
+    key: '8077389600923'
+    locale: en-us
+    version: 1.0.0
+    title: Using CSV Module
+    semantic_type: Concept
+    updated_at: 'Tue Jun 14 2016 19:49:46 GMT+0000 (UTC)'
+    is_public: true
+    resources:
+      files:
+        - name: 745090.csv
+          uri: 'https://www.udacity.com/api/nodes/813758553/supplemental_media/745090csv/download'
+      google_plus_link: null
+      career_resource_center_link: null
+      coaching_appointments_link: null
+      office_hours_link: null
+    _atoms_ids:
+      - 114534
+    atoms:
+      - id: 114534
+        key: '807738960'
+        locale: en-us
+        version: 1.0.0
+        title: Using CSV Module
+        semantic_type: QuizAtom
+        updated_at: 'Thu Sep 01 2016 21:41:50 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |-
+          You can check the data in the dropdown in the top-left corner of the quiz starter code.
+
+          Data comes from <a href="http://www.nrel.gov/" target="_blank">NREL</a> website. The datafile in this exercise is a small subset from the full file for one of the stations. You can download it from the Downloadables section > or see the full data files for other stations on the <a href="http://rredc.nrel.gov/solar/old_data/nsrdb/1991-2005/tmy3/by_USAFN.html" target="_blank">National Solar Radiation Data Base</a>.
+
+          <a href="http://docs.python.org/2/library/csv.html#csv.reader" target="_blank">Documentation on `csv.reader` on docs.python.org</a>
+
+          <a href="http://docs.python.org/2/library/csv.html#reader-objects" target="_blank">Documentation on Reader object methods on docs.python.org</a>
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: Using CSV Module
+          semantic_type: ProgrammingQuestion
+          evaluation_id: '813758553'
+          evaluator:
+            model: ProgramEvaluator
+            execution_language: python
+            executor_grading_code: |-
+              import sys, traceback
+              import os
+
+              class RedirectStdStreams(object):
+                  def __init__(self, stdout=None, stderr=None):
+                      self._stdout = stdout or sys.stdout
+                      self._stderr = stderr or sys.stderr
+
+                  def __enter__(self):
+                      self.old_stdout, self.old_stderr = sys.stdout, sys.stderr
+                      self.old_stdout.flush(); self.old_stderr.flush()
+                      sys.stdout, sys.stderr = self._stdout, self._stderr
+
+                  def __exit__(self, exc_type, exc_value, traceback):
+                      self._stdout.flush(); self._stderr.flush()
+                      sys.stdout = self.old_stdout
+                      sys.stderr = self.old_stderr
+
+              def test():
+                  try:
+                      from parsecsv import parse_file
+                  except Exception, e:
+                      exc_type, exc_value, exc_traceback = sys.exc_info()
+                      ex = traceback.format_exc().splitlines()
+                      return "NO" + "Unable to import file: '{0}'\n\n{1}\n\n{2}\n{3}\n{4}".format(e, ex[0], ex[-3], ex[-2], ex[-1])
+
+                  # Some tests here for example:
+
+                  result = ""
+                  correct = 0
+
+                  try:
+                      datafile = "745090.csv"
+                      name, data = parse_file(datafile)
+
+                      if name == "MOUNTAIN VIEW MOFFETT FLD NAS":
+                          correct += 1
+                      else:
+                          result += "name of the datasource is incorrect.\n"
+                      if len(data) != 98:
+                          result += "Length of the data list is incorrect.\n"
+                      elif data[1][1] == "02:00" and data[30][0] == "01/02/2005" and data[32][2] == "252":
+                          correct += 1
+                          result += "All data values are correct!\n"
+                      else:
+                          result += "Data values are incorrect. Please make sure that the Test Run assertions pass.\n"
+
+                  except Exception, e:
+                      exc_type, exc_value, exc_traceback = sys.exc_info()
+                      ex = traceback.format_exc().splitlines()
+                      return "NO" + "Your program raised an Exception '{0}'\n\n{1}\n\n{2}\n{3}\n{4}".format(e, ex[0], ex[-3], ex[-2], ex[-1])
+
+                  if correct == 2:
+                      return "OK" + result
+                  return "NO" + result
+
+              devnull = open(os.devnull, 'w')
+              with RedirectStdStreams(stdout=devnull):
+                  result =  test()
+              print result
+            executor_test_code: |-
+              import parsecsv
+
+              parsecsv.test()
+            gae_grading_code: |-
+              try:
+                  response = executor_result['stdout'][2:]
+                  result = executor_result['stdout'][:2]
+
+                  if len(executor_result['stderr']) > 0:
+                      grade_result['comment'] = executor_result['stderr']
+                      grade_result['correct'] = False
+                  else:
+                      grade_result['comment'] = response
+                      if result == "OK":
+                          grade_result['correct'] = True
+                      else:
+                          grade_result['correct'] = False
+              except:
+                  raise
+            requires_gpu: false
+            deadline_seconds: 0
+            legacy_template_refs: []
+            included_text_files: []
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 43191
+    key: '5146785840923'
+    locale: en-us
+    version: 1.0.0
+    title: Excel To CSV
+    semantic_type: Concept
+    updated_at: 'Tue Mar 07 2017 02:32:47 GMT+0000 (UTC)'
+    is_public: true
+    resources:
+      files:
+        - name: 2013 ERCOT Hourly Load Data
+          uri: 'https://d17h27t6h515a5.cloudfront.net/topher/2017/March/58be1893_2013-ercot-hourly-load-data/2013-ercot-hourly-load-data.zip'
+      google_plus_link: null
+      career_resource_center_link: null
+      coaching_appointments_link: null
+      office_hours_link: null
+    _atoms_ids:
+      - 52130
+    atoms:
+      - id: 52130
+        key: '514678584'
+        locale: en-us
+        version: 1.0.0
+        title: Excel To CSV
+        semantic_type: QuizAtom
+        updated_at: 'Tue Oct 04 2016 17:40:26 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |-
+          See csv module documentation on how to use different delimeters for csv.writer- <a href="http://docs.python.org/2/library/csv.html" target="_blank">http://docs.python.org/2/library/csv.html</a>
+
+          You can check an example of the expected output in the dropdown in the top-left corner of the quiz starter code.
+
+          You can download the datafile from <a href="https://www.udacity.com/wiki/ud032#datasets-used-in-this-course" target="_blank">Course Materials</a>.
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: Excel To CSV
+          semantic_type: ProgrammingQuestion
+          evaluation_id: '522828541'
+          evaluator:
+            model: ProgramEvaluator
+            execution_language: python
+            executor_grading_code: |-
+              import sys, traceback
+              import os
+              from zipfile import ZipFile
+              import xlrd
+              import csv
+
+
+              class RedirectStdStreams(object):
+                  def __init__(self, stdout=None, stderr=None):
+                      self._stdout = stdout or sys.stdout
+                      self._stderr = stderr or sys.stderr
+
+                  def __enter__(self):
+                      self.old_stdout, self.old_stderr = sys.stdout, sys.stderr
+                      self.old_stdout.flush(); self.old_stderr.flush()
+                      sys.stdout, sys.stderr = self._stdout, self._stderr
+
+                  def __exit__(self, exc_type, exc_value, traceback):
+                      self._stdout.flush(); self._stderr.flush()
+                      sys.stdout = self.old_stdout
+                      sys.stderr = self.old_stderr
+
+              def test():
+                  try:
+                      from excel_csv import open_zip, parse_file, save_file
+                  except Exception, e:
+                      exc_type, exc_value, exc_traceback = sys.exc_info()
+                      ex = traceback.format_exc().splitlines()
+                      return "NO" + "Unable to import file: '{0}'\n\n{1}\n\n{2}\n{3}\n{4}".format(e, ex[0], ex[-3], ex[-2], ex[-1])
+
+                  # Some tests here for example:
+
+                  result = ""
+                  correct = 0
+
+                  try:
+                      datafile = "2013_ERCOT_Hourly_Load_Data.xls"
+                      outfile = "2013_Max_Loads.csv"
+                      open_zip(datafile)
+                      data = parse_file(datafile)
+                      save_file(data, outfile)
+
+                      try:
+                          with open(outfile) as of:
+                              correct += 1
+                      except:
+                          result += "Cannot open the csv file.\n\n"
+                          return "NO" + result
+
+                  except Exception, e:
+                      exc_type, exc_value, exc_traceback = sys.exc_info()
+                      ex = traceback.format_exc().splitlines()
+                      return "NO" + "Your program raised an Exception '{0}'\n\n{1}\n\n{2}\n{3}\n{4}".format(e, ex[0], ex[-3], ex[-2], ex[-1])
+
+                  ans = {'FAR_WEST': {'Max Load': "2281.2722140000024", 'Year': "2013", "Month": "6", "Day": "26", "Hour": "17"},
+                         'NORTH': {'Max Load': "1544.7707140000005", 'Year': "2013", "Month": "8", "Day": "7", "Hour": "17"},
+                         'WEST': {'Max Load': "1862.6137649999998", 'Year': "2013", "Month": "8", "Day": "7", "Hour": "17"},
+                         'SOUTHERN': {'Max Load': "5494.157645", 'Year': "2013", "Month": "8", "Day": "8", "Hour": "16"},
+                         'SOUTH_C': {'Max Load': "11433.30491600001", 'Year': "2013", "Month": "8", "Day": "8", "Hour": "18"},
+                         'COAST': {'Max Load': "18779.025510000003", 'Year': "2013", "Month": "8", "Day": "13", "Hour": "17"},
+                         'NORTH_C': {'Max Load': "24415.570226999993", 'Year': "2013", "Month": "8", "Day": "7", "Hour": "18"},
+                         'EAST': {'Max Load': "2380.1654089999956", 'Year': "2013", "Month": "8", "Day": "5", "Hour": "17"}}
+
+                  # check number of lines and accurate values
+                  fields = ["Year", "Month", "Day", "Hour", "Max Load"]
+                  with open(outfile) as of:
+                      csvfile = csv.DictReader(of, delimiter="|")
+                      nlines = 0
+                      for line in csvfile:
+                          nlines += 1
+                          s = line["Station"]
+                          if s not in ans:
+                              result += "Station {} should not be in the file\n\n".format(s)
+                              continue
+
+                          for field in fields:
+                              if field == 'Max Load':
+                                  max_answer = round(float(ans[s][field]), 1)
+                                  max_line = round(float(line[field]), 1)
+                                  # Check if 'Max Load' is within .1 of answer
+                                  if max_answer == max_line:
+                                      correct += 1
+                              elif ans[s][field] == line[field]:
+                                  correct += 1
+                              else:
+                                  result += "Value for {station} {field} is incorrect\n\n".format(station=s, field=field)
+
+                  # check for number of saved lines
+                  if nlines < 8:
+                      return "NO" + "Your saved file had too few lines."
+
+                  # check for number of correct values
+                  if correct == 41:
+                      result += "Congratulations, your solution is correct!"
+                      return "OK" + result
+                  else:
+                      result += "The expected number of correct values was not returned!"
+                  return "NO" + result
+
+              devnull = open(os.devnull, 'w')
+              with RedirectStdStreams(stdout=devnull):
+                  result =  test()
+              print result
+            executor_test_code: |-
+              import excel_csv
+
+              excel_csv.test()
+            gae_grading_code: |-
+              try:
+                  response = executor_result['stdout'][2:]
+                  result = executor_result['stdout'][:2]
+
+                  if len(executor_result['stderr']) > 0:
+                      grade_result['comment'] = executor_result['stderr']
+                      grade_result['correct'] = False
+                  else:
+                      grade_result['comment'] = response
+                      if result == "OK":
+                          grade_result['correct'] = True
+                      else:
+                          grade_result['correct'] = False
+              except:
+                  raise
+            requires_gpu: false
+            deadline_seconds: 10
+            legacy_template_refs:
+              - key: '6437457518133248'
+                ref: ProgramTemplate
+            included_text_files: []
+        answer:
+          text: |-
+            One of possible solutions is below:
+
+
+                def parse_file(datafile):
+                    workbook = xlrd.open_workbook(datafile)
+                    sheet = workbook.sheet_by_index(0)
+                    data = {}
+                    # process all rows that contain station data
+                    for n in range (1, 9):
+                        station = sheet.cell_value(0, n)
+                        cv = sheet.col_values(n, start_rowx=1, end_rowx=None)
+
+                        maxval = max(cv)
+                        maxpos = cv.index(maxval) + 1
+                        maxtime = sheet.cell_value(maxpos, 0)
+                        realtime = xlrd.xldate_as_tuple(maxtime, 0)
+                        data[station] = {"maxval": maxval,
+                                         "maxtime": realtime}
+
+                    print data
+                    return data
+
+                def save_file(data, filename):
+                    with open(filename, "w") as f:
+                        w = csv.writer(f, delimiter='|')
+                        w.writerow(["Station", "Year", "Month", "Day", "Hour", "Max Load"])
+                        for s in data:
+                            year, month, day, hour, _ , _= data[s]["maxtime"]
+                            w.writerow([s, year, month, day, hour, data[s]["maxval"]])
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 130066
+    key: '7469700120923'
+    locale: en-us
+    version: 1.0.0
+    title: Wrangling JSON
+    semantic_type: Concept
+    updated_at: 'Tue May 31 2016 02:45:11 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 44357
+    atoms:
+      - id: 44357
+        key: '746970012'
+        locale: en-us
+        version: 1.0.0
+        title: Wrangling JSON
+        semantic_type: QuizAtom
+        updated_at: 'Tue Nov 29 2016 01:26:27 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |-
+          You can check the data in the dropdown in the top-left corner of the quiz starter code.
+
+          If you want to know more, or query the site by yourself, please read the <a href="http://developer.nytimes.com/docs/most_popular_api/" target="_blank">NYTimes Developer Documentation for the Most Popular API</a> and <a href="http://developer.nytimes.com/page" target="_blank">apply for your own API Key for NY Times</a>.
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: Wrangling JSON
+          semantic_type: ProgrammingQuestion
+          evaluation_id: '703499741'
+          evaluator:
+            model: ProgramEvaluator
+            execution_language: python
+            executor_grading_code: |-
+              import sys, traceback
+              import os
+
+              class RedirectStdStreams(object):
+                  def __init__(self, stdout=None, stderr=None):
+                      self._stdout = stdout or sys.stdout
+                      self._stderr = stderr or sys.stderr
+
+                  def __enter__(self):
+                      self.old_stdout, self.old_stderr = sys.stdout, sys.stderr
+                      self.old_stdout.flush(); self.old_stderr.flush()
+                      sys.stdout, sys.stderr = self._stdout, self._stderr
+
+                  def __exit__(self, exc_type, exc_value, traceback):
+                      self._stdout.flush(); self._stderr.flush()
+                      sys.stdout = self.old_stdout
+                      sys.stderr = self.old_stderr
+
+              def test():
+                  try:
+                      from nytimes import article_overview
+                  except Exception, e:
+                      exc_type, exc_value, exc_traceback = sys.exc_info()
+                      ex = traceback.format_exc().splitlines()
+                      return "NO" + "Unable to import file: '{0}'\n\n{1}\n\n{2}\n{3}\n{4}".format(e, ex[0], ex[-3], ex[-2], ex[-1])
+
+                  # Some tests here for example:
+
+                  result = ""
+                  correct = 0
+
+                  try:
+                      titles, urls = article_overview("viewed", 1)
+
+                      if len(titles) == 20 and len(urls) == 30:
+                          correct += 1
+                          if titles[7] == {'Sports': 'A Mad Dash for Salt Rescues Olympic Slopes'}:
+                              correct += 1
+                          if urls[2] == 'http://graphics8.nytimes.com/images/2014/02/16/sunday-review/16DOWD/16DOWD-thumbStandard.jpg':
+                              correct += 1
+                      else:
+                          result += "Length of returned lists is not correct! Please make sure that the Test Run assertions pass.\n"
+
+                  except Exception, e:
+                      exc_type, exc_value, exc_traceback = sys.exc_info()
+                      ex = traceback.format_exc().splitlines()
+                      return "NO" + "Your program raised an Exception '{0}'\n\n{1}\n\n{2}\n{3}\n{4}".format(e, ex[0], ex[-3], ex[-2], ex[-1])
+
+                  if correct == 3:
+                      result = "Your program returned the expected data.\n"
+                      return "OK" + result
+                  return "NOSome of your data was incorrect. Please try again.\n" + result
+
+              devnull = open(os.devnull, 'w')
+              with RedirectStdStreams(stdout=devnull):
+                  result =  test()
+              print result
+            executor_test_code: |-
+              import nytimes
+              nytimes.test()
+            gae_grading_code: |-
+              try:
+                  response = executor_result['stdout'][2:]
+                  result = executor_result['stdout'][:2]
+
+                  if len(executor_result['stderr']) > 0:
+                      grade_result['comment'] = executor_result['stderr']
+                      grade_result['correct'] = False
+                  else:
+                      grade_result['comment'] = response
+                      if result == "OK":
+                          grade_result['correct'] = True
+                      else:
+                          grade_result['correct'] = False
+              except:
+                  raise
+            requires_gpu: false
+            deadline_seconds: 0
+            legacy_template_refs: []
+            included_text_files: []
+        answer:
+          text: |-
+            To solve this exercise you should look at the example file and see what is the data structure. Once you do that, extracting the required values is not that complicated:
+
+
+
+                def article_overview(kind, period):
+                    data = get_from_file(kind, period)
+                    titles = []
+                    urls =[]
+
+                    for article in data:
+                        section = article["section"]
+                        title = article["title"]
+                        titles.append({section: title})
+                        if "media" in article:
+                            for m in article["media"]:
+                                for mm in m["media-metadata"]:
+                                    if mm["format"] == "Standard Thumbnail":
+                                        urls.append(mm["url"])
+                    return (titles, urls)
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null

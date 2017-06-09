@@ -1,0 +1,994 @@
+id: 282539
+key: 77557128-b1c7-4918-95bd-83b7d50e8022
+locale: zh-cn
+version: 1.0.0
+title: 迷你项目：画乌龟
+semantic_type: Lesson
+updated_at: 'Wed May 10 2017 08:21:55 GMT+0000 (UTC)'
+is_public: true
+image: null
+video: null
+summary: 通过 Turtle 学习如何使用 Python 里的类来画形状。
+duration: 240
+is_project_lesson: false
+_concepts_ids:
+  - 181098
+  - 181100
+  - 181101
+  - 181102
+  - 181103
+  - 281780
+  - 181105
+  - 181106
+  - 181107
+  - 181108
+  - 281781
+  - 181109
+  - 281782
+  - 281783
+  - 281784
+  - 181114
+_project_id: null
+resources:
+  files:
+    - name: Videos Zip File
+      uri: 'http://d2uz2655q5g6b2.cloudfront.net/77557128-b1c7-4918-95bd-83b7d50e8022/263800/Draw%20Turtles%20Videos.zip'
+  google_plus_link: null
+  career_resource_center_link: null
+  coaching_appointments_link: null
+  office_hours_link: null
+concepts:
+  - id: 181098
+    key: '10133888270923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 课程地图
+    semantic_type: Concept
+    updated_at: 'Fri Mar 31 2017 09:53:13 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 179922
+    atoms:
+      - id: 179922
+        key: '1013388827'
+        locale: zh-cn
+        version: 1.0.0
+        title: 课程地图
+        semantic_type: VideoAtom
+        updated_at: 'Wed Apr 19 2017 21:27:38 GMT+0000 (UTC)'
+        is_public: true
+        tags: null
+        instructor_notes: null
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        video:
+          youtube_id: GDLbBxd4cLc
+          subtitles:
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0f0fa_course-map-programming-foundations-with-python/subtitles/lang_ja_vs1.srt'
+              language_code: ja
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0f0fa_course-map-programming-foundations-with-python/subtitles/lang_pt-br_vs4.srt'
+              language_code: pt-br
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0f0fa_course-map-programming-foundations-with-python/subtitles/lang_ar_vs1.srt'
+              language_code: ar
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0f0fa_course-map-programming-foundations-with-python/subtitles/lang_zh-cn_vs1.srt'
+              language_code: zh-cn
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0f0fa_course-map-programming-foundations-with-python/subtitles/lang_es-mx_vs1.srt'
+              language_code: es-mx
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0f0fa_course-map-programming-foundations-with-python/subtitles/lang_en_vs4.srt'
+              language_code: en
+          transcodings:
+            uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0f0fa_course-map-programming-foundations-with-python/course-map-programming-foundations-with-python_480p.mp4'
+            uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0f0fa_course-map-programming-foundations-with-python/course-map-programming-foundations-with-python_480p_1000kbps.mp4'
+            uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0f0fa_course-map-programming-foundations-with-python/course-map-programming-foundations-with-python_480p.ogg'
+            uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0f0fa_course-map-programming-foundations-with-python/course-map-programming-foundations-with-python_720p.mp4'
+            uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0f0fa_course-map-programming-foundations-with-python/hls/playlist.m3u8'
+  - id: 181100
+    key: '10133888280923'
+    locale: zh-cn
+    version: 1.0.0
+    title: “画乌龟”（背景故事）
+    semantic_type: Concept
+    updated_at: 'Fri Mar 31 2017 09:53:14 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 179924
+    atoms:
+      - id: 179924
+        key: '1013388828'
+        locale: zh-cn
+        version: 1.0.0
+        title: “画乌龟”（背景故事）
+        semantic_type: VideoAtom
+        updated_at: 'Wed Apr 19 2017 21:36:30 GMT+0000 (UTC)'
+        is_public: true
+        tags: null
+        instructor_notes: null
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        video:
+          youtube_id: rPi80SwbEDI
+          subtitles:
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1e15e_drawing-turtles-story-programming-foundations-with-python/subtitles/lang_pt-br_vs4.srt'
+              language_code: pt-br
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1e15e_drawing-turtles-story-programming-foundations-with-python/subtitles/lang_en_vs4.srt'
+              language_code: en
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1e15e_drawing-turtles-story-programming-foundations-with-python/subtitles/lang_zh-cn_vs1.srt'
+              language_code: zh-cn
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1e15e_drawing-turtles-story-programming-foundations-with-python/subtitles/lang_ar_vs1.srt'
+              language_code: ar
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1e15e_drawing-turtles-story-programming-foundations-with-python/subtitles/lang_es-mx_vs1.srt'
+              language_code: es-mx
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1e15e_drawing-turtles-story-programming-foundations-with-python/subtitles/lang_ja_vs1.srt'
+              language_code: ja
+          transcodings:
+            uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1e15e_drawing-turtles-story-programming-foundations-with-python/drawing-turtles-story-programming-foundations-with-python_480p.mp4'
+            uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1e15e_drawing-turtles-story-programming-foundations-with-python/drawing-turtles-story-programming-foundations-with-python_480p_1000kbps.mp4'
+            uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1e15e_drawing-turtles-story-programming-foundations-with-python/drawing-turtles-story-programming-foundations-with-python_480p.ogg'
+            uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1e15e_drawing-turtles-story-programming-foundations-with-python/drawing-turtles-story-programming-foundations-with-python_720p.mp4'
+            uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1e15e_drawing-turtles-story-programming-foundations-with-python/hls/playlist.m3u8'
+  - id: 181101
+    key: '10133888290923'
+    locale: zh-cn
+    version: 1.0.0
+    title: “画乌龟”（输出结果）
+    semantic_type: Concept
+    updated_at: 'Fri Mar 31 2017 09:53:14 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 179925
+    atoms:
+      - id: 179925
+        key: '1013388829'
+        locale: zh-cn
+        version: 1.0.0
+        title: “画乌龟”（输出结果）
+        semantic_type: VideoAtom
+        updated_at: 'Wed Apr 19 2017 21:36:29 GMT+0000 (UTC)'
+        is_public: true
+        tags: null
+        instructor_notes: null
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        video:
+          youtube_id: 1cM05mJK4JQ
+          subtitles:
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d07315_drawing-turtles-output-programming-foundations-with-python/subtitles/lang_ja_vs1.srt'
+              language_code: ja
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d07315_drawing-turtles-output-programming-foundations-with-python/subtitles/lang_pt-br_vs4.srt'
+              language_code: pt-br
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d07315_drawing-turtles-output-programming-foundations-with-python/subtitles/lang_ar_vs2.srt'
+              language_code: ar
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d07315_drawing-turtles-output-programming-foundations-with-python/subtitles/lang_zh-cn_vs1.srt'
+              language_code: zh-cn
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d07315_drawing-turtles-output-programming-foundations-with-python/subtitles/lang_es-mx_vs1.srt'
+              language_code: es-mx
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d07315_drawing-turtles-output-programming-foundations-with-python/subtitles/lang_en_vs5.srt'
+              language_code: en
+          transcodings:
+            uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d07315_drawing-turtles-output-programming-foundations-with-python/drawing-turtles-output-programming-foundations-with-python_480p.mp4'
+            uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d07315_drawing-turtles-output-programming-foundations-with-python/drawing-turtles-output-programming-foundations-with-python_480p_1000kbps.mp4'
+            uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d07315_drawing-turtles-output-programming-foundations-with-python/drawing-turtles-output-programming-foundations-with-python_480p.ogg'
+            uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d07315_drawing-turtles-output-programming-foundations-with-python/drawing-turtles-output-programming-foundations-with-python_720p.mp4'
+            uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d07315_drawing-turtles-output-programming-foundations-with-python/hls/playlist.m3u8'
+  - id: 181102
+    key: '9944900960923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 如何画一个方形
+    semantic_type: Concept
+    updated_at: 'Fri Mar 31 2017 09:53:15 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 179926
+    atoms:
+      - id: 179926
+        key: '994490096'
+        locale: zh-cn
+        version: 1.0.0
+        title: 如何画一个方形
+        semantic_type: QuizAtom
+        updated_at: 'Wed Apr 19 2017 22:02:18 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: ''
+        instruction:
+          video:
+            youtube_id: ZPvQOJIovA8
+            subtitles:
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1bb6d_how-to-draw-a-square-programming-foundations-with-python/subtitles/lang_zh-cn_vs1.srt'
+                language_code: zh-cn
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1bb6d_how-to-draw-a-square-programming-foundations-with-python/subtitles/lang_es-mx_vs1.srt'
+                language_code: es-mx
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1bb6d_how-to-draw-a-square-programming-foundations-with-python/subtitles/lang_ar_vs1.srt'
+                language_code: ar
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1bb6d_how-to-draw-a-square-programming-foundations-with-python/subtitles/lang_en_vs4.srt'
+                language_code: en
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1bb6d_how-to-draw-a-square-programming-foundations-with-python/subtitles/lang_ja_vs1.srt'
+                language_code: ja
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1bb6d_how-to-draw-a-square-programming-foundations-with-python/subtitles/lang_pt-br_vs4.srt'
+                language_code: pt-br
+            transcodings:
+              uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1bb6d_how-to-draw-a-square-programming-foundations-with-python/how-to-draw-a-square-programming-foundations-with-python_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1bb6d_how-to-draw-a-square-programming-foundations-with-python/how-to-draw-a-square-programming-foundations-with-python_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1bb6d_how-to-draw-a-square-programming-foundations-with-python/how-to-draw-a-square-programming-foundations-with-python_480p.ogg'
+              uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1bb6d_how-to-draw-a-square-programming-foundations-with-python/how-to-draw-a-square-programming-foundations-with-python_720p.mp4'
+              uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1bb6d_how-to-draw-a-square-programming-foundations-with-python/hls/playlist.m3u8'
+          text: null
+        question:
+          title: 如何画一个方形
+          background_image: '//lh6.ggpht.com/Fg7UKNPXsblKDhQxV-yjZCia-BbIjyUGEoxQUCSFlpdG-iFpjCWm3GtBGalGythdXTBoIqQMn-UqCQdVpA=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '994490097'
+        answer:
+          text: null
+          video:
+            youtube_id: BmPHi8M8iZo
+            subtitles:
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0a568_how-to-draw-a-square-solution-programming-foundations-with-python/subtitles/lang_ja_vs1.srt'
+                language_code: ja
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0a568_how-to-draw-a-square-solution-programming-foundations-with-python/subtitles/lang_pt-br_vs4.srt'
+                language_code: pt-br
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0a568_how-to-draw-a-square-solution-programming-foundations-with-python/subtitles/lang_ar_vs1.srt'
+                language_code: ar
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0a568_how-to-draw-a-square-solution-programming-foundations-with-python/subtitles/lang_zh-cn_vs1.srt'
+                language_code: zh-cn
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0a568_how-to-draw-a-square-solution-programming-foundations-with-python/subtitles/lang_es-mx_vs1.srt'
+                language_code: es-mx
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0a568_how-to-draw-a-square-solution-programming-foundations-with-python/subtitles/lang_en_vs4.srt'
+                language_code: en
+            transcodings:
+              uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0a568_how-to-draw-a-square-solution-programming-foundations-with-python/how-to-draw-a-square-solution-programming-foundations-with-python_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0a568_how-to-draw-a-square-solution-programming-foundations-with-python/how-to-draw-a-square-solution-programming-foundations-with-python_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0a568_how-to-draw-a-square-solution-programming-foundations-with-python/how-to-draw-a-square-solution-programming-foundations-with-python_480p.ogg'
+              uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0a568_how-to-draw-a-square-solution-programming-foundations-with-python/how-to-draw-a-square-solution-programming-foundations-with-python_720p.mp4'
+              uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0a568_how-to-draw-a-square-solution-programming-foundations-with-python/hls/playlist.m3u8'
+  - id: 181103
+    key: '10133888330923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 画一个方形
+    semantic_type: Concept
+    updated_at: 'Fri Mar 31 2017 09:53:15 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 179927
+    atoms:
+      - id: 179927
+        key: '1013388833'
+        locale: zh-cn
+        version: 1.0.0
+        title: 画一个方形
+        semantic_type: VideoAtom
+        updated_at: 'Wed Apr 19 2017 21:39:52 GMT+0000 (UTC)'
+        is_public: true
+        tags: null
+        instructor_notes: null
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        video:
+          youtube_id: yXvD0K443O0
+          subtitles:
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1d00a_drawing-a-square-programming-foundations-with-python/subtitles/lang_pt-br_vs4.srt'
+              language_code: pt-br
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1d00a_drawing-a-square-programming-foundations-with-python/subtitles/lang_es-mx_vs2.srt'
+              language_code: es-mx
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1d00a_drawing-a-square-programming-foundations-with-python/subtitles/lang_zh-cn_vs1.srt'
+              language_code: zh-cn
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1d00a_drawing-a-square-programming-foundations-with-python/subtitles/lang_en_vs4.srt'
+              language_code: en
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1d00a_drawing-a-square-programming-foundations-with-python/subtitles/lang_ja_vs1.srt'
+              language_code: ja
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1d00a_drawing-a-square-programming-foundations-with-python/subtitles/lang_ar_vs1.srt'
+              language_code: ar
+          transcodings:
+            uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1d00a_drawing-a-square-programming-foundations-with-python/drawing-a-square-programming-foundations-with-python_480p.mp4'
+            uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1d00a_drawing-a-square-programming-foundations-with-python/drawing-a-square-programming-foundations-with-python_480p_1000kbps.mp4'
+            uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1d00a_drawing-a-square-programming-foundations-with-python/drawing-a-square-programming-foundations-with-python_480p.ogg'
+            uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1d00a_drawing-a-square-programming-foundations-with-python/drawing-a-square-programming-foundations-with-python_720p.mp4'
+            uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1d00a_drawing-a-square-programming-foundations-with-python/hls/playlist.m3u8'
+  - id: 281780
+    key: d00965ea-7b73-4197-81f5-ebe85cd8de66
+    locale: zh-cn
+    version: 1.0.0
+    title: 改变乌龟的属性
+    semantic_type: Concept
+    updated_at: 'Fri Mar 31 2017 09:53:17 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 280944
+      - 280943
+      - 280945
+    atoms:
+      - id: 280944
+        key: 5db6e3f4-e702-4a22-ba72-cbbe404aee33
+        locale: zh-cn
+        version: 1.0.0
+        title: 改变乌龟的形状
+        semantic_type: VideoAtom
+        updated_at: 'Tue Apr 18 2017 17:02:39 GMT+0000 (UTC)'
+        is_public: true
+        tags: []
+        instructor_notes: ''
+        resources: null
+        video:
+          youtube_id: AL6SxBVdFAk
+          subtitles:
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d09f74_change-turtle-shape/subtitles/lang_ja_vs1.srt'
+              language_code: ja
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d09f74_change-turtle-shape/subtitles/lang_pt-br_vs4.srt'
+              language_code: pt-br
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d09f74_change-turtle-shape/subtitles/lang_ar_vs1.srt'
+              language_code: ar
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d09f74_change-turtle-shape/subtitles/lang_zh-cn_vs1.srt'
+              language_code: zh-cn
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d09f74_change-turtle-shape/subtitles/lang_es-mx_vs1.srt'
+              language_code: es-mx
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d09f74_change-turtle-shape/subtitles/lang_en_vs4.srt'
+              language_code: en
+          transcodings:
+            uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d09f74_change-turtle-shape/change-turtle-shape_480p.mp4'
+            uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d09f74_change-turtle-shape/change-turtle-shape_480p_1000kbps.mp4'
+            uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d09f74_change-turtle-shape/change-turtle-shape_480p.ogg'
+            uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d09f74_change-turtle-shape/change-turtle-shape_720p.mp4'
+            uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d09f74_change-turtle-shape/hls/playlist.m3u8'
+      - id: 280943
+        key: c247d73e-4c21-45bb-a780-e1908187cc11
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Thu May 11 2017 14:57:54 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          ### 论坛
+
+          在[这里](https://discussions.youdaxue.com/t/topic/37903)分享你的截屏！
+        instructor_notes: ''
+        resources: null
+      - id: 280945
+        key: de28a1c0-0eda-4254-bac1-c548bcb74f28
+        locale: zh-cn
+        version: 1.0.0
+        title: ''
+        semantic_type: TaskListAtom
+        updated_at: 'Thu May 11 2017 14:57:57 GMT+0000 (UTC)'
+        is_public: true
+        tasks:
+          - 是的，当然！
+        positive_feedback: 棒极了！
+        video_feedback: null
+        description: 你在论坛分享了你的截屏了吗？
+  - id: 181105
+    key: '10133888360923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 乌龟来自哪里？
+    semantic_type: Concept
+    updated_at: 'Fri Mar 31 2017 09:53:17 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 179929
+    atoms:
+      - id: 179929
+        key: '1013388836'
+        locale: zh-cn
+        version: 1.0.0
+        title: 乌龟来自哪里？
+        semantic_type: VideoAtom
+        updated_at: 'Wed Apr 19 2017 21:17:32 GMT+0000 (UTC)'
+        is_public: true
+        tags: null
+        instructor_notes: null
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        video:
+          youtube_id: G_Mo57uoMb4
+          subtitles:
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0ef08_where-does-turtle-come-from-programming-foundations-with-python/subtitles/lang_ja_vs1.srt'
+              language_code: ja
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0ef08_where-does-turtle-come-from-programming-foundations-with-python/subtitles/lang_pt-br_vs4.srt'
+              language_code: pt-br
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0ef08_where-does-turtle-come-from-programming-foundations-with-python/subtitles/lang_ar_vs1.srt'
+              language_code: ar
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0ef08_where-does-turtle-come-from-programming-foundations-with-python/subtitles/lang_zh-cn_vs1.srt'
+              language_code: zh-cn
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0ef08_where-does-turtle-come-from-programming-foundations-with-python/subtitles/lang_es-mx_vs1.srt'
+              language_code: es-mx
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0ef08_where-does-turtle-come-from-programming-foundations-with-python/subtitles/lang_en_vs5.srt'
+              language_code: en
+          transcodings:
+            uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0ef08_where-does-turtle-come-from-programming-foundations-with-python/where-does-turtle-come-from-programming-foundations-with-python_480p.mp4'
+            uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0ef08_where-does-turtle-come-from-programming-foundations-with-python/where-does-turtle-come-from-programming-foundations-with-python_480p_1000kbps.mp4'
+            uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0ef08_where-does-turtle-come-from-programming-foundations-with-python/where-does-turtle-come-from-programming-foundations-with-python_480p.ogg'
+            uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0ef08_where-does-turtle-come-from-programming-foundations-with-python/where-does-turtle-come-from-programming-foundations-with-python_720p.mp4'
+            uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0ef08_where-does-turtle-come-from-programming-foundations-with-python/hls/playlist.m3u8'
+  - id: 181106
+    key: '10133888370923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 阅读 Turtle 文档
+    semantic_type: Concept
+    updated_at: 'Fri Mar 31 2017 09:53:18 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 179930
+    atoms:
+      - id: 179930
+        key: '1013388837'
+        locale: zh-cn
+        version: 1.0.0
+        title: 阅读 Turtle 文档
+        semantic_type: VideoAtom
+        updated_at: 'Wed Apr 19 2017 21:39:52 GMT+0000 (UTC)'
+        is_public: true
+        tags: null
+        instructor_notes: '<a href="http://docs.python.org/2/library/turtle.html" target="_blank">模块 <b>turtle</b> 的文档</a>'
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        video:
+          youtube_id: ESMZI8djuFo
+          subtitles:
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0d2ca_reading-turtle-documentation-programming-foundations-with-python/subtitles/lang_ja_vs1.srt'
+              language_code: ja
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0d2ca_reading-turtle-documentation-programming-foundations-with-python/subtitles/lang_pt-br_vs4.srt'
+              language_code: pt-br
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0d2ca_reading-turtle-documentation-programming-foundations-with-python/subtitles/lang_ar_vs1.srt'
+              language_code: ar
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0d2ca_reading-turtle-documentation-programming-foundations-with-python/subtitles/lang_zh-cn_vs1.srt'
+              language_code: zh-cn
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0d2ca_reading-turtle-documentation-programming-foundations-with-python/subtitles/lang_es-mx_vs1.srt'
+              language_code: es-mx
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0d2ca_reading-turtle-documentation-programming-foundations-with-python/subtitles/lang_en_vs4.srt'
+              language_code: en
+          transcodings:
+            uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0d2ca_reading-turtle-documentation-programming-foundations-with-python/reading-turtle-documentation-programming-foundations-with-python_480p.mp4'
+            uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0d2ca_reading-turtle-documentation-programming-foundations-with-python/reading-turtle-documentation-programming-foundations-with-python_480p_1000kbps.mp4'
+            uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0d2ca_reading-turtle-documentation-programming-foundations-with-python/reading-turtle-documentation-programming-foundations-with-python_480p.ogg'
+            uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0d2ca_reading-turtle-documentation-programming-foundations-with-python/reading-turtle-documentation-programming-foundations-with-python_720p.mp4'
+            uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0d2ca_reading-turtle-documentation-programming-foundations-with-python/hls/playlist.m3u8'
+  - id: 181107
+    key: '10133888380923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 两只乌龟
+    semantic_type: Concept
+    updated_at: 'Fri Mar 31 2017 09:53:18 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 179931
+    atoms:
+      - id: 179931
+        key: '1013388838'
+        locale: zh-cn
+        version: 1.0.0
+        title: 两只乌龟
+        semantic_type: VideoAtom
+        updated_at: 'Wed Apr 19 2017 21:36:28 GMT+0000 (UTC)'
+        is_public: true
+        tags: null
+        instructor_notes: null
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        video:
+          youtube_id: D1ZD1d_xx8Y
+          subtitles:
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0aef2_two-turtles-programming-foundations-with-python/subtitles/lang_ja_vs1.srt'
+              language_code: ja
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0aef2_two-turtles-programming-foundations-with-python/subtitles/lang_pt-br_vs4.srt'
+              language_code: pt-br
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0aef2_two-turtles-programming-foundations-with-python/subtitles/lang_ar_vs1.srt'
+              language_code: ar
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0aef2_two-turtles-programming-foundations-with-python/subtitles/lang_zh-cn_vs1.srt'
+              language_code: zh-cn
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0aef2_two-turtles-programming-foundations-with-python/subtitles/lang_es-mx_vs1.srt'
+              language_code: es-mx
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0aef2_two-turtles-programming-foundations-with-python/subtitles/lang_en_vs4.srt'
+              language_code: en
+          transcodings:
+            uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0aef2_two-turtles-programming-foundations-with-python/two-turtles-programming-foundations-with-python_480p.mp4'
+            uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0aef2_two-turtles-programming-foundations-with-python/two-turtles-programming-foundations-with-python_480p_1000kbps.mp4'
+            uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0aef2_two-turtles-programming-foundations-with-python/two-turtles-programming-foundations-with-python_480p.ogg'
+            uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0aef2_two-turtles-programming-foundations-with-python/two-turtles-programming-foundations-with-python_720p.mp4'
+            uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0aef2_two-turtles-programming-foundations-with-python/hls/playlist.m3u8'
+  - id: 181108
+    key: '9944901000923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 代码出了什么问题？
+    semantic_type: Concept
+    updated_at: 'Fri Mar 31 2017 09:53:19 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 179932
+    atoms:
+      - id: 179932
+        key: '994490100'
+        locale: zh-cn
+        version: 1.0.0
+        title: 代码出了什么问题？
+        semantic_type: QuizAtom
+        updated_at: 'Wed Apr 19 2017 21:57:38 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: ''
+        instruction:
+          video:
+            youtube_id: 4HT4BwV-bqs
+            subtitles:
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d07c75_whats-wrong-with-this-code-programming-foundations-with-python/subtitles/lang_ja_vs1.srt'
+                language_code: ja
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d07c75_whats-wrong-with-this-code-programming-foundations-with-python/subtitles/lang_pt-br_vs4.srt'
+                language_code: pt-br
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d07c75_whats-wrong-with-this-code-programming-foundations-with-python/subtitles/lang_ar_vs2.srt'
+                language_code: ar
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d07c75_whats-wrong-with-this-code-programming-foundations-with-python/subtitles/lang_zh-cn_vs1.srt'
+                language_code: zh-cn
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d07c75_whats-wrong-with-this-code-programming-foundations-with-python/subtitles/lang_es-mx_vs1.srt'
+                language_code: es-mx
+              - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d07c75_whats-wrong-with-this-code-programming-foundations-with-python/subtitles/lang_en_vs4.srt'
+                language_code: en
+            transcodings:
+              uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d07c75_whats-wrong-with-this-code-programming-foundations-with-python/whats-wrong-with-this-code-programming-foundations-with-python_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d07c75_whats-wrong-with-this-code-programming-foundations-with-python/whats-wrong-with-this-code-programming-foundations-with-python_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d07c75_whats-wrong-with-this-code-programming-foundations-with-python/whats-wrong-with-this-code-programming-foundations-with-python_480p.ogg'
+              uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d07c75_whats-wrong-with-this-code-programming-foundations-with-python/whats-wrong-with-this-code-programming-foundations-with-python_720p.mp4'
+              uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d07c75_whats-wrong-with-this-code-programming-foundations-with-python/hls/playlist.m3u8'
+          text: null
+        question:
+          title: 代码出了什么问题？
+          background_image: '//lh3.ggpht.com/oKW1aHIw4d4ZdJf3kf_HjK38BSCaVhMxf4OzRa69i5dRt6q_PtlUCawg1vwXmQJ28CGbiiuuixU4hOhW3VU=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '994490101'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 281781
+    key: 8779a694-9830-4503-89a3-7e8fda2197e0
+    locale: zh-cn
+    version: 1.0.0
+    title: 改进代码的质量
+    semantic_type: Concept
+    updated_at: 'Fri Mar 31 2017 09:53:20 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 280947
+      - 280948
+      - 280949
+    atoms:
+      - id: 280947
+        key: 4460e1cc-f87a-47f4-a00f-839fd7d8df78
+        locale: zh-cn
+        version: 1.0.0
+        title: 改进代码的质量 - Python 编程基础
+        semantic_type: VideoAtom
+        updated_at: 'Tue Apr 18 2017 17:02:39 GMT+0000 (UTC)'
+        is_public: true
+        tags: []
+        instructor_notes: ''
+        resources: null
+        video:
+          youtube_id: fIjQioYtiDw
+          subtitles:
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0e061_improving-code-quality-programming-foundations-with-python/subtitles/lang_ja_vs1.srt'
+              language_code: ja
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0e061_improving-code-quality-programming-foundations-with-python/subtitles/lang_pt-br_vs4.srt'
+              language_code: pt-br
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0e061_improving-code-quality-programming-foundations-with-python/subtitles/lang_ar_vs1.srt'
+              language_code: ar
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0e061_improving-code-quality-programming-foundations-with-python/subtitles/lang_zh-cn_vs1.srt'
+              language_code: zh-cn
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0e061_improving-code-quality-programming-foundations-with-python/subtitles/lang_es-mx_vs2.srt'
+              language_code: es-mx
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0e061_improving-code-quality-programming-foundations-with-python/subtitles/lang_en_vs4.srt'
+              language_code: en
+          transcodings:
+            uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0e061_improving-code-quality-programming-foundations-with-python/improving-code-quality-programming-foundations-with-python_480p.mp4'
+            uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0e061_improving-code-quality-programming-foundations-with-python/improving-code-quality-programming-foundations-with-python_480p_1000kbps.mp4'
+            uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0e061_improving-code-quality-programming-foundations-with-python/improving-code-quality-programming-foundations-with-python_480p.ogg'
+            uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0e061_improving-code-quality-programming-foundations-with-python/improving-code-quality-programming-foundations-with-python_720p.mp4'
+            uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0e061_improving-code-quality-programming-foundations-with-python/hls/playlist.m3u8'
+      - id: 280948
+        key: 37529434-b206-4292-90ed-f33e9597b794
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Wed Apr 05 2017 05:30:48 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          ### 论坛
+          在[这里](https://discussions.youdaxue.com/t/topic/37912)分享！
+        instructor_notes: ''
+        resources: null
+      - id: 280949
+        key: 350bf644-4bf2-481e-a1c3-972d16b8720e
+        locale: zh-cn
+        version: 1.0.0
+        title: ''
+        semantic_type: TaskListAtom
+        updated_at: 'Thu May 11 2017 15:01:41 GMT+0000 (UTC)'
+        is_public: true
+        tasks:
+          - 是的，我已经在论坛分享了！
+        positive_feedback: 谢谢！
+        video_feedback: null
+        description: 你已经在论坛分享了吗？我猜你已经做了！
+  - id: 181109
+    key: '10434885390923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 什么是类？
+    semantic_type: Concept
+    updated_at: 'Fri Mar 31 2017 09:53:21 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 179934
+    atoms:
+      - id: 179934
+        key: '1043488539'
+        locale: zh-cn
+        version: 1.0.0
+        title: 什么是类？
+        semantic_type: VideoAtom
+        updated_at: 'Wed Apr 19 2017 21:30:47 GMT+0000 (UTC)'
+        is_public: true
+        tags: null
+        instructor_notes: |-
+          Kunal 提示：从 0:48 开始，“类 Turtle 就像蓝图一样，包含了乌龟的某些信息：乌龟的大小、颜色、乌龟可以往前移动…”
+
+          更准确的说法应该是类 Turtle 表明乌龟具有尺寸和颜色。Turtle 的单个实例将包含乌龟大小和颜色的信息。
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        video:
+          youtube_id: vSznJAwSd78
+          subtitles:
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d2894b_what-is-a-class-programming-foundations-with-python/subtitles/lang_ar_vs1.srt'
+              language_code: ar
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d2894b_what-is-a-class-programming-foundations-with-python/subtitles/lang_zh-cn_vs2.srt'
+              language_code: zh-cn
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d2894b_what-is-a-class-programming-foundations-with-python/subtitles/lang_pt-br_vs4.srt'
+              language_code: pt-br
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d2894b_what-is-a-class-programming-foundations-with-python/subtitles/lang_ja_vs1.srt'
+              language_code: ja
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d2894b_what-is-a-class-programming-foundations-with-python/subtitles/lang_en_vs4.srt'
+              language_code: en
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d2894b_what-is-a-class-programming-foundations-with-python/subtitles/lang_es-mx_vs1.srt'
+              language_code: es-mx
+          transcodings:
+            uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d2894b_what-is-a-class-programming-foundations-with-python/what-is-a-class-programming-foundations-with-python_480p.mp4'
+            uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d2894b_what-is-a-class-programming-foundations-with-python/what-is-a-class-programming-foundations-with-python_480p_1000kbps.mp4'
+            uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d2894b_what-is-a-class-programming-foundations-with-python/what-is-a-class-programming-foundations-with-python_480p.ogg'
+            uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d2894b_what-is-a-class-programming-foundations-with-python/what-is-a-class-programming-foundations-with-python_720p.mp4'
+            uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d2894b_what-is-a-class-programming-foundations-with-python/hls/playlist.m3u8'
+  - id: 281782
+    key: a179237e-7e90-4dab-8567-45b587e06c53
+    locale: zh-cn
+    version: 1.0.0
+    title: 用正方形来画圆圈
+    semantic_type: Concept
+    updated_at: 'Fri Mar 31 2017 09:53:22 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 280954
+      - 280955
+      - 280956
+    atoms:
+      - id: 280954
+        key: b8476a26-d352-4d00-a22a-d8151adf52a7
+        locale: zh-cn
+        version: 1.0.0
+        title: 用正方形来画圆圈
+        semantic_type: VideoAtom
+        updated_at: 'Tue Apr 18 2017 17:06:22 GMT+0000 (UTC)'
+        is_public: true
+        tags: []
+        instructor_notes: ''
+        resources: null
+        video:
+          youtube_id: P2wRyGo_xXA
+          subtitles:
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1b087_making-a-circle-out-of-squares-programming-foundations-with-python/subtitles/lang_zh-cn_vs2.srt'
+              language_code: zh-cn
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1b087_making-a-circle-out-of-squares-programming-foundations-with-python/subtitles/lang_es-mx_vs1.srt'
+              language_code: es-mx
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1b087_making-a-circle-out-of-squares-programming-foundations-with-python/subtitles/lang_pt-br_vs4.srt'
+              language_code: pt-br
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1b087_making-a-circle-out-of-squares-programming-foundations-with-python/subtitles/lang_ja_vs1.srt'
+              language_code: ja
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1b087_making-a-circle-out-of-squares-programming-foundations-with-python/subtitles/lang_en_vs4.srt'
+              language_code: en
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1b087_making-a-circle-out-of-squares-programming-foundations-with-python/subtitles/lang_ar_vs1.srt'
+              language_code: ar
+          transcodings:
+            uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1b087_making-a-circle-out-of-squares-programming-foundations-with-python/making-a-circle-out-of-squares-programming-foundations-with-python_480p.mp4'
+            uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1b087_making-a-circle-out-of-squares-programming-foundations-with-python/making-a-circle-out-of-squares-programming-foundations-with-python_480p_1000kbps.mp4'
+            uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1b087_making-a-circle-out-of-squares-programming-foundations-with-python/making-a-circle-out-of-squares-programming-foundations-with-python_480p.ogg'
+            uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1b087_making-a-circle-out-of-squares-programming-foundations-with-python/making-a-circle-out-of-squares-programming-foundations-with-python_720p.mp4'
+            uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d1b087_making-a-circle-out-of-squares-programming-foundations-with-python/hls/playlist.m3u8'
+      - id: 280955
+        key: 302344f3-2a2e-4bee-9e07-83918a55f6ce
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Wed Apr 05 2017 07:43:24 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          ### 论坛
+          在[这里](https://discussions.youdaxue.com/t/topic/37914)分享你是如何做到的。
+        instructor_notes: ''
+        resources: null
+      - id: 280956
+        key: 6f134f36-e9b3-40cb-9d93-0c51c637b478
+        locale: zh-cn
+        version: 1.0.0
+        title: ''
+        semantic_type: TaskListAtom
+        updated_at: 'Wed Apr 05 2017 07:43:24 GMT+0000 (UTC)'
+        is_public: true
+        tasks:
+          - 我已经在论坛分享啦!
+        positive_feedback: Excellent - excited to read it!
+        video_feedback: null
+        description: 在论坛分享了你的计划后，勾选下方的方框。
+  - id: 281783
+    key: d3964f3a-76df-414b-894d-7a72b2617f28
+    locale: zh-cn
+    version: 1.0.0
+    title: 画乌龟迷你项目
+    semantic_type: Concept
+    updated_at: 'Thu May 11 2017 15:02:55 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 280957
+      - 280958
+      - 280959
+    atoms:
+      - id: 280957
+        key: 6163f3ca-05ad-4094-9683-ad765c906f47
+        locale: zh-cn
+        version: 1.0.0
+        title: “画乌龟”迷你项目 - Python 编程基础
+        semantic_type: VideoAtom
+        updated_at: 'Tue Apr 18 2017 17:02:43 GMT+0000 (UTC)'
+        is_public: true
+        tags: []
+        instructor_notes: ''
+        resources: null
+        video:
+          youtube_id: 4Ea22iSyAK4
+          subtitles:
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d07c2a_turtle-mini-project-programming-foundations-with-python/subtitles/lang_ja_vs1.srt'
+              language_code: ja
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d07c2a_turtle-mini-project-programming-foundations-with-python/subtitles/lang_pt-br_vs4.srt'
+              language_code: pt-br
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d07c2a_turtle-mini-project-programming-foundations-with-python/subtitles/lang_ar_vs2.srt'
+              language_code: ar
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d07c2a_turtle-mini-project-programming-foundations-with-python/subtitles/lang_zh-cn_vs1.srt'
+              language_code: zh-cn
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d07c2a_turtle-mini-project-programming-foundations-with-python/subtitles/lang_es-mx_vs1.srt'
+              language_code: es-mx
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d07c2a_turtle-mini-project-programming-foundations-with-python/subtitles/lang_en_vs4.srt'
+              language_code: en
+          transcodings:
+            uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d07c2a_turtle-mini-project-programming-foundations-with-python/turtle-mini-project-programming-foundations-with-python_480p.mp4'
+            uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d07c2a_turtle-mini-project-programming-foundations-with-python/turtle-mini-project-programming-foundations-with-python_480p_1000kbps.mp4'
+            uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d07c2a_turtle-mini-project-programming-foundations-with-python/turtle-mini-project-programming-foundations-with-python_480p.ogg'
+            uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d07c2a_turtle-mini-project-programming-foundations-with-python/turtle-mini-project-programming-foundations-with-python_720p.mp4'
+            uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d07c2a_turtle-mini-project-programming-foundations-with-python/hls/playlist.m3u8'
+      - id: 280958
+        key: 037d128a-2208-46a0-8f13-87cd2dac7c27
+        locale: zh-cn
+        version: 1.0.0
+        title: null
+        semantic_type: TextAtom
+        updated_at: 'Thu May 11 2017 15:03:39 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          ### 论坛
+
+          [点击这里](https://discussions.youdaxue.com/t/topic/38152)，在论坛上分享你的迷你项目。
+        instructor_notes: ''
+        resources: null
+      - id: 280959
+        key: 793d581f-6746-488c-9134-85dfafb6f8ad
+        locale: zh-cn
+        version: 1.0.0
+        title: ''
+        semantic_type: TaskListAtom
+        updated_at: 'Thu May 11 2017 15:03:39 GMT+0000 (UTC)'
+        is_public: true
+        tasks:
+          - 是的！
+        positive_feedback: 真棒！
+        video_feedback: null
+        description: 你在论坛上分享了你的迷你项目了吗？
+  - id: 281784
+    key: 4735f281-e6ce-4dd7-ab6c-a662004b8f07
+    locale: zh-cn
+    version: 1.0.0
+    title: 信心度
+    semantic_type: Concept
+    updated_at: 'Fri Mar 31 2017 09:53:24 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 280960
+      - 280961
+    atoms:
+      - id: 280960
+        key: 7c4b64a3-a56f-419c-a9a4-654b0d0806aa
+        locale: zh-cn
+        version: 1.0.0
+        title: 信心度
+        semantic_type: VideoAtom
+        updated_at: 'Tue Apr 18 2017 17:02:43 GMT+0000 (UTC)'
+        is_public: true
+        tags: []
+        instructor_notes: ''
+        resources: null
+        video:
+          youtube_id: yBBwkpUbNS8
+          subtitles:
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57cfadd0_comfort-level-programming-foundations-with-python/subtitles/lang_ja_vs1.srt'
+              language_code: ja
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57cfadd0_comfort-level-programming-foundations-with-python/subtitles/lang_pt-br_vs4.srt'
+              language_code: pt-br
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57cfadd0_comfort-level-programming-foundations-with-python/subtitles/lang_es-mx_vs1.srt'
+              language_code: es-mx
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57cfadd0_comfort-level-programming-foundations-with-python/subtitles/lang_zh-cn_vs1.srt'
+              language_code: zh-cn
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57cfadd0_comfort-level-programming-foundations-with-python/subtitles/lang_en_vs4.srt'
+              language_code: en
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57cfadd0_comfort-level-programming-foundations-with-python/subtitles/lang_ar_vs1.srt'
+              language_code: ar
+          transcodings:
+            uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57cfadd0_comfort-level-programming-foundations-with-python/comfort-level-programming-foundations-with-python_480p.mp4'
+            uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57cfadd0_comfort-level-programming-foundations-with-python/comfort-level-programming-foundations-with-python_480p_1000kbps.mp4'
+            uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57cfadd0_comfort-level-programming-foundations-with-python/comfort-level-programming-foundations-with-python_480p.ogg'
+            uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57cfadd0_comfort-level-programming-foundations-with-python/comfort-level-programming-foundations-with-python_720p.mp4'
+            uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57cfadd0_comfort-level-programming-foundations-with-python/hls/playlist.m3u8'
+      - id: 280961
+        key: 56a1e6bb-1e65-4e99-a235-a5023d18c98a
+        locale: zh-cn
+        version: 1.0.0
+        title: 信心度
+        semantic_type: RadioQuizAtom
+        updated_at: 'Fri Mar 31 2017 09:53:23 GMT+0000 (UTC)'
+        is_public: true
+        question:
+          prompt: 你对自己写代码的能力有多自信？
+          correct_feedback: Thank you for sharing your reflection with us!
+          video_feedback: null
+          default_feedback: null
+          answers:
+            - id: a1486552557657
+              text: 1 - 完全没有自信
+              is_correct: true
+              incorrect_feedback: null
+            - id: a1486552588783
+              text: 2 - 稍微有一点自信
+              is_correct: false
+              incorrect_feedback: null
+            - id: a1486552596631
+              text: 3 - 有些自信
+              is_correct: false
+              incorrect_feedback: null
+            - id: a1486552604655
+              text: 4 - 非常自信
+              is_correct: false
+              incorrect_feedback: null
+            - id: a1486552611231
+              text: 5 - 绝对自信
+              is_correct: false
+              incorrect_feedback: null
+  - id: 181114
+    key: '10133888510923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 它们看起来很相似
+    semantic_type: Concept
+    updated_at: 'Fri Mar 31 2017 09:53:24 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 179938
+    atoms:
+      - id: 179938
+        key: '1013388851'
+        locale: zh-cn
+        version: 1.0.0
+        title: 它们看起来很相似
+        semantic_type: VideoAtom
+        updated_at: 'Wed Apr 19 2017 21:36:28 GMT+0000 (UTC)'
+        is_public: true
+        tags: null
+        instructor_notes: null
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        video:
+          youtube_id: d4RZ6fIqKOg
+          subtitles:
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0af12_they-look-so-similar-programming-foundations-with-python/subtitles/lang_ja_vs1.srt'
+              language_code: ja
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0af12_they-look-so-similar-programming-foundations-with-python/subtitles/lang_pt-br_vs4.srt'
+              language_code: pt-br
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0af12_they-look-so-similar-programming-foundations-with-python/subtitles/lang_ar_vs1.srt'
+              language_code: ar
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0af12_they-look-so-similar-programming-foundations-with-python/subtitles/lang_zh-cn_vs1.srt'
+              language_code: zh-cn
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0af12_they-look-so-similar-programming-foundations-with-python/subtitles/lang_es-mx_vs1.srt'
+              language_code: es-mx
+            - url: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0af12_they-look-so-similar-programming-foundations-with-python/subtitles/lang_en_vs4.srt'
+              language_code: en
+          transcodings:
+            uri_480p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0af12_they-look-so-similar-programming-foundations-with-python/they-look-so-similar-programming-foundations-with-python_480p.mp4'
+            uri_480p_1000kbps_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0af12_they-look-so-similar-programming-foundations-with-python/they-look-so-similar-programming-foundations-with-python_480p_1000kbps.mp4'
+            uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0af12_they-look-so-similar-programming-foundations-with-python/they-look-so-similar-programming-foundations-with-python_480p.ogg'
+            uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0af12_they-look-so-similar-programming-foundations-with-python/they-look-so-similar-programming-foundations-with-python_720p.mp4'
+            uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0af12_they-look-so-similar-programming-foundations-with-python/hls/playlist.m3u8'

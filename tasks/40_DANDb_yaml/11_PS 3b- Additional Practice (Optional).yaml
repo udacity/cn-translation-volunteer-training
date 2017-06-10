@@ -1,0 +1,551 @@
+id: 23547
+key: '4594888601'
+locale: en-us
+version: 1.0.0
+title: 'PS 3b: Additional Practice (Optional)'
+semantic_type: Lesson
+updated_at: 'Tue May 31 2016 02:40:28 GMT+0000 (UTC)'
+is_public: true
+image: null
+video: null
+summary: Apply your understanding of central tendency on additional problems.
+duration: 60
+is_project_lesson: false
+_concepts_ids:
+  - 138809
+  - 8207
+  - 22909
+  - 77710
+  - 866
+  - 8231
+  - 125571
+  - 90069
+  - 107698
+  - 64534
+  - 117305
+_project_id: null
+concepts:
+  - id: 138809
+    key: '2517598530923'
+    locale: en-us
+    version: 1.0.0
+    title: 11. Deal or No Deal? (Median)
+    semantic_type: Concept
+    updated_at: 'Tue May 31 2016 02:45:43 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 111685
+    atoms:
+      - id: 111685
+        key: '251759853'
+        locale: en-us
+        version: 1.0.0
+        title: 11. Deal or No Deal? (Median)
+        semantic_type: QuizAtom
+        updated_at: 'Tue Jun 21 2016 22:14:25 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |-
+          <a target="_blank" href="https://docs.google.com/spreadsheet/ccc?key=0Alo47BBiqLE0dGw1RFBDd2xCSC1fLUREQW1EM1BrYUE&usp=sharing">Deal or No Deal?</a>
+
+          Copy and paste the data into your own spreadsheet to perform the calculations. From <a href="https://drive.google.com/" target = "_blank">Google Drive</a> (at the top of the page once you're signed in to your Google account), click the button on the left that says "CREATE" and click "Spreadsheet."
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 11. Deal or No Deal? (Median)
+          background_image: '//lh6.ggpht.com/jfY_5NqiOmqmKfYll8WG1c6AVvY0f0EIt0kDZuHkR8Qq3O4cbrlz1Slq_uwfOynpyZsWacKcDeGI-yBKyw=s0#w=1280&h=720'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '66418605'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 8207
+    key: '2517598540923'
+    locale: en-us
+    version: 1.0.0
+    title: 12. Deal or No Deal? (Mode)
+    semantic_type: Concept
+    updated_at: 'Tue May 31 2016 02:45:43 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 111774
+    atoms:
+      - id: 111774
+        key: '251759854'
+        locale: en-us
+        version: 1.0.0
+        title: 12. Deal or No Deal? (Mode)
+        semantic_type: QuizAtom
+        updated_at: 'Tue Jun 21 2016 22:14:23 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |-
+          <a target="_blank" href="https://docs.google.com/spreadsheet/ccc?key=0Alo47BBiqLE0dGw1RFBDd2xCSC1fLUREQW1EM1BrYUE&usp=sharing">Deal or No Deal?</a>
+
+          Copy and paste the data into your own spreadsheet to perform the calculations. From <a href="https://drive.google.com/" target = "_blank">Google Drive</a> (at the top of the page once you're signed in to your Google account), click the button on the left that says "CREATE" and click "Spreadsheet."
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 12. Deal or No Deal? (Mode)
+          background_image: '//lh6.ggpht.com/ZkNXXhXdK6kz7hs6EKyM8KEIsDBsCKahJ_gL4ptrBAxgee7G3mEQ_zlzO3xmq1500fd3Jqe6BtbD-OdgO7JI=s0#w=1280&h=720'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '66418606'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 22909
+    key: '2517598550923'
+    locale: en-us
+    version: 1.0.0
+    title: 13. Deal or No Deal? (Number)
+    semantic_type: Concept
+    updated_at: 'Tue May 31 2016 02:45:43 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 92697
+    atoms:
+      - id: 92697
+        key: '251759855'
+        locale: en-us
+        version: 1.0.0
+        title: 13. Deal or No Deal? (Number)
+        semantic_type: QuizAtom
+        updated_at: 'Tue Jun 21 2016 22:16:17 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |-
+          <a target="_blank" href="https://docs.google.com/spreadsheet/ccc?key=0Alo47BBiqLE0dGw1RFBDd2xCSC1fLUREQW1EM1BrYUE&usp=sharing">Deal or No Deal?</a>
+
+          Copy and paste the data into your own spreadsheet to perform the calculations. From <a href="https://drive.google.com/" target = "_blank">Google Drive</a> (at the top of the page once you're signed in to your Google account), click the button on the left that says "CREATE" and click "Spreadsheet."
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 13. Deal or No Deal? (Number)
+          background_image: '//lh6.ggpht.com/hA7T9Tchgp4JrOXkRJS9TWnz4bTzQmscn-8YSijtvIYyNmDmy13ctJ1AVj0laJbrOu-79BqBI6_yUkjI0Q=s0#w=1280&h=720'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '66418607'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 77710
+    key: '2517598560923'
+    locale: en-us
+    version: 1.0.0
+    title: 14. Deal or No Deal? (Mean vs. Median)
+    semantic_type: Concept
+    updated_at: 'Tue May 31 2016 02:45:43 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 108267
+    atoms:
+      - id: 108267
+        key: '251759856'
+        locale: en-us
+        version: 1.0.0
+        title: 14. Deal or No Deal? (Mean vs. Median)
+        semantic_type: QuizAtom
+        updated_at: 'Tue Jun 21 2016 22:15:26 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |-
+          <a target="_blank" href="https://docs.google.com/spreadsheet/ccc?key=0Alo47BBiqLE0dGw1RFBDd2xCSC1fLUREQW1EM1BrYUE&usp=sharing">Deal or No Deal?</a>
+
+          Copy and paste the data into your own spreadsheet to perform the calculations. From <a href="https://drive.google.com/" target = "_blank">Google Drive</a> (at the top of the page once you're signed in to your Google account), click the button on the left that says "CREATE" and click "Spreadsheet."
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 14. Deal or No Deal? (Mean vs. Median)
+          background_image: '//lh6.ggpht.com/D3DwZhTjEYHIftoimqHzlrSrmPwlO_dnJZid9kilfWa2qS1q88So0UdIhzbF_fPegIoavUQDtsGP_tHtqA=s0#w=1280&h=720'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '66418608'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 866
+    key: '2517598570923'
+    locale: en-us
+    version: 1.0.0
+    title: 15. Deal or No Deal? (Mean)
+    semantic_type: Concept
+    updated_at: 'Tue May 31 2016 02:45:43 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 112099
+    atoms:
+      - id: 112099
+        key: '251759857'
+        locale: en-us
+        version: 1.0.0
+        title: 15. Deal or No Deal? (Mean)
+        semantic_type: QuizAtom
+        updated_at: 'Tue Jun 21 2016 22:14:14 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |-
+          <a target="_blank" href="https://docs.google.com/spreadsheet/ccc?key=0Alo47BBiqLE0dGw1RFBDd2xCSC1fLUREQW1EM1BrYUE&usp=sharing">Deal or No Deal?</a>
+
+          Copy and paste the data into your own spreadsheet to perform the calculations. From <a href="https://drive.google.com/" target = "_blank">Google Drive</a> (at the top of the page once you're signed in to your Google account), click the button on the left that says "CREATE" and click "Spreadsheet."
+
+          Write your answer as a number without any special characters (including $ or commas).
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 15. Deal or No Deal? (Mean)
+          background_image: '//lh5.ggpht.com/27R2R4Lw0wtSMA1_WEvP4oDlqD5QWyVmkHcvyGWj38qmVOMJpHxZQ9pWFhqkK_QJIL2RgdTJbcbdssYboA=s0#w=1280&h=720'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '66418609'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 8231
+    key: '2517598580923'
+    locale: en-us
+    version: 1.0.0
+    title: 16. Deal or No Deal? (Proportion)
+    semantic_type: Concept
+    updated_at: 'Tue May 31 2016 02:45:43 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 111722
+    atoms:
+      - id: 111722
+        key: '251759858'
+        locale: en-us
+        version: 1.0.0
+        title: 16. Deal or No Deal? (Proportion)
+        semantic_type: QuizAtom
+        updated_at: 'Tue Jun 21 2016 22:14:23 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |-
+          <a target="_blank" href="https://docs.google.com/spreadsheet/ccc?key=0Alo47BBiqLE0dGw1RFBDd2xCSC1fLUREQW1EM1BrYUE&usp=sharing">Deal or No Deal?</a>
+
+          Copy and paste the data into your own spreadsheet to perform the calculations. From <a href="https://drive.google.com/" target = "_blank">Google Drive</a> (at the top of the page once you're signed in to your Google account), click the button on the left that says "CREATE" and click "Spreadsheet."
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 16. Deal or No Deal? (Proportion)
+          background_image: '//lh3.ggpht.com/M-WgtMDuWzBT9OmgBraqHTpTWx23xXixPJObC7kr1cSDUDoBDMk9iALic_FIyQ9cL2_Uosc-jpzQ36lfJNnc=s0#w=1280&h=720'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '66418610'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 125571
+    key: '2517598590923'
+    locale: en-us
+    version: 1.0.0
+    title: 17. Deal or No Deal? (Frequency)
+    semantic_type: Concept
+    updated_at: 'Tue May 31 2016 02:45:43 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 105665
+    atoms:
+      - id: 105665
+        key: '251759859'
+        locale: en-us
+        version: 1.0.0
+        title: 17. Deal or No Deal? (Frequency)
+        semantic_type: QuizAtom
+        updated_at: 'Tue Jun 21 2016 22:16:47 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |-
+          <a target="_blank" href="https://docs.google.com/spreadsheet/ccc?key=0Alo47BBiqLE0dGw1RFBDd2xCSC1fLUREQW1EM1BrYUE&usp=sharing">Deal or No Deal?</a>
+
+          Copy and paste the data into your own spreadsheet to perform the calculations. From <a href="https://drive.google.com/" target = "_blank">Google Drive</a> (at the top of the page once you're signed in to your Google account), click the button on the left that says "CREATE" and click "Spreadsheet."
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 17. Deal or No Deal? (Frequency)
+          background_image: '//lh4.ggpht.com/wpOdd91EnmaYdRwaNEzXyp7hCE4pmm2pgJV6NTGocjE3yoFS7Kn2l3AsarR7uBU9v6cW3XYOZYOD_DHS9w=s0#w=1280&h=720'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '66418613'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 90069
+    key: '2517598600923'
+    locale: en-us
+    version: 1.0.0
+    title: 18. Deal or No Deal? (Distribution)
+    semantic_type: Concept
+    updated_at: 'Tue May 31 2016 02:45:43 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 105700
+    atoms:
+      - id: 105700
+        key: '251759860'
+        locale: en-us
+        version: 1.0.0
+        title: 18. Deal or No Deal? (Distribution)
+        semantic_type: QuizAtom
+        updated_at: 'Tue Jun 21 2016 22:16:47 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |-
+          <a target="_blank" href="https://docs.google.com/spreadsheet/ccc?key=0Alo47BBiqLE0dGw1RFBDd2xCSC1fLUREQW1EM1BrYUE&usp=sharing">Deal or No Deal?</a>
+
+          Copy and paste the data into your own spreadsheet to perform the calculations. From <a href="https://drive.google.com/" target = "_blank">Google Drive</a> (at the top of the page once you're signed in to your Google account), click the button on the left that says "CREATE" and click "Spreadsheet."
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 18. Deal or No Deal? (Distribution)
+          background_image: '//lh4.ggpht.com/J5XEZTsvKp119toc96SGFyZPUKHfGWNXF99uP8TKeJM98hbxBl8b3s4KD4mQk159guqMkDNnHIA2VD0FtA=s0#w=1280&h=720'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '66418611'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 107698
+    key: '2517598610923'
+    locale: en-us
+    version: 1.0.0
+    title: 19. Deal or No Deal? (Center)
+    semantic_type: Concept
+    updated_at: 'Tue May 31 2016 02:45:43 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 99245
+    atoms:
+      - id: 99245
+        key: '251759861'
+        locale: en-us
+        version: 1.0.0
+        title: 19. Deal or No Deal? (Center)
+        semantic_type: QuizAtom
+        updated_at: 'Tue Jun 21 2016 22:16:30 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |-
+          <a target="_blank" href="https://docs.google.com/spreadsheet/ccc?key=0Alo47BBiqLE0dGw1RFBDd2xCSC1fLUREQW1EM1BrYUE&usp=sharing">Deal or No Deal?</a>
+
+          Copy and paste the data into your own spreadsheet to perform the calculations. From <a href="https://drive.google.com/" target = "_blank">Google Drive</a> (at the top of the page once you're signed in to your Google account), click the button on the left that says "CREATE" and click "Spreadsheet."
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 19. Deal or No Deal? (Center)
+          background_image: '//lh4.ggpht.com/8eqfPOaiNfOVgmccFqn7DXvB_1unxYSPWkT0qZ4o4GXZIS8reNcLTTLQx0srzFBVr72rZH9VnR5l4AocbNA=s0#w=1280&h=720'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '66418612'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 64534
+    key: '2517598650923'
+    locale: en-us
+    version: 1.0.0
+    title: 23. Which Distributions?
+    semantic_type: Concept
+    updated_at: 'Tue May 31 2016 02:45:43 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 44192
+    atoms:
+      - id: 44192
+        key: '251759865'
+        locale: en-us
+        version: 1.0.0
+        title: 23. Which Distributions?
+        semantic_type: QuizAtom
+        updated_at: 'Tue Jun 21 2016 22:14:33 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: ''
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 23. Which Distributions?
+          background_image: '//lh3.ggpht.com/Qw3FQAT3WYtyrWX6rYEzgA2ludJPCiw3DAcMauAvw-9gpo2pSuQddjuNMjxsg_lPEkTRrdnNtWYOES1kmBZ9=s0#w=1280&h=720'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '66418626'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 117305
+    key: '2079680440923'
+    locale: en-us
+    version: 1.0.0
+    title: 24. Median Given Histogram
+    semantic_type: Concept
+    updated_at: 'Tue May 31 2016 02:45:46 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 103863
+    atoms:
+      - id: 103863
+        key: '207968044'
+        locale: en-us
+        version: 1.0.0
+        title: 24. Median Given Histogram
+        semantic_type: QuizAtom
+        updated_at: 'Tue Jun 21 2016 22:16:38 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: ''
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 24. Median Given Histogram
+          background_image: '//lh3.ggpht.com/iB0almbkZfGwf0q-zNCYvEzZaiaXispudwhuKk4HtcEN9maejUYmg4v7v3OA78tcnKll_eRyPupCjMJCHKUc=s0#w=1280&h=720'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '207968045'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null

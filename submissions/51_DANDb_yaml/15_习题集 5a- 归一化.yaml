@@ -1,0 +1,712 @@
+id: 178218
+key: '4618138583'
+locale: zh-cn
+version: 1.0.0
+title: '习题集 5a: 归一化'
+semantic_type: Lesson
+updated_at: 'Mon Aug 22 2016 08:18:22 GMT+0000 (UTC)'
+is_public: true
+image: null
+video: null
+summary: 检验你对归一化的掌握程度。
+duration: 60
+is_project_lesson: false
+_concepts_ids:
+  - 176796
+  - 176799
+  - 176802
+  - 176801
+  - 176803
+  - 176800
+  - 176805
+  - 176804
+  - 176808
+  - 176806
+  - 176807
+  - 176809
+  - 176810
+  - 176811
+_project_id: null
+concepts:
+  - id: 176796
+    key: '2515351750923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 1. 分布的对应关系
+    semantic_type: Concept
+    updated_at: 'Mon Aug 22 2016 03:14:42 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174526
+    atoms:
+      - id: 174526
+        key: '251535175'
+        locale: zh-cn
+        version: 1.0.0
+        title: 1. 分布的对应关系
+        semantic_type: QuizAtom
+        updated_at: 'Fri Sep 09 2016 07:58:17 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |-
+          ## 哪一个分布是
+
+          - 均值为50，标准偏差为5的正态分布？□（A 还是 B？）
+          - 均值为50，标准偏差为10的正态分布？□（A 还是 B？）
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 1. 分布的对应关系
+          background_image: '//lh5.ggpht.com/JGMQOf2ILjT8zhC_nIqmzRtzl3rUJXXogoyQCK85u9cGbWkIVvFE-0Rk4x5vTiMrJb3XHaWvGZ2LcAF7Hg=s0#w=1280&h=720'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '81459574'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 176799
+    key: '2515351760923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 2. Z-值
+    semantic_type: Concept
+    updated_at: 'Mon Aug 22 2016 03:14:43 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174527
+    atoms:
+      - id: 174527
+        key: '251535176'
+        locale: zh-cn
+        version: 1.0.0
+        title: 2. Z-值
+        semantic_type: QuizAtom
+        updated_at: 'Fri Sep 09 2016 08:00:21 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |-
+          ## 有一个均值为20，标准偏差为3的正态分布。以下值的 Z-值是多少？
+
+          - □ 20
+          - □ 17
+          - □ 21.5
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 2. Z-值
+          background_image: '//lh5.ggpht.com/rvLDm-rchh-F5-v4pwTHLRDAQNncSIXs03byQ0Y9o9aUOky-kwy57Qj2qBD3kj5RBCLpX4mjFTHUL5fhXQ=s0#w=1280&h=720'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '81459575'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 176802
+    key: '2515351770923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 3. OkCupid
+    semantic_type: Concept
+    updated_at: 'Mon Aug 22 2016 03:14:43 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174528
+    atoms:
+      - id: 174528
+        key: '251535177'
+        locale: zh-cn
+        version: 1.0.0
+        title: 3. OkCupid
+        semantic_type: QuizAtom
+        updated_at: 'Fri Sep 09 2016 08:04:49 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: '## OKCupid（一个线上相亲网站）博客分享了这张分布图。实线代表美国男性的实际身高分布，虚线代表 OKCupid 男性用户自己声称的身高分布。为什么会这样？：）'
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 3. OkCupid
+          background_image: '//lh5.ggpht.com/kSl2QcGJBC9tv3ovmYxjWqDsBqXsseUlGHBGiehRQIro9UnI31QH0JEhHP-3DcPT2q6wSUTNjenvuZhvpGw=s0#w=1280&h=720'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '81459576'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 176801
+    key: '2515351780923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 4. 社交媒体
+    semantic_type: Concept
+    updated_at: 'Mon Aug 22 2016 03:14:44 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174529
+    atoms:
+      - id: 174529
+        key: '251535178'
+        locale: zh-cn
+        version: 1.0.0
+        title: 4. 社交媒体
+        semantic_type: QuizAtom
+        updated_at: 'Fri Sep 09 2016 08:11:23 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: '## 根据 Nielsen 的 2012 社交媒体报告，一个普通的网络用户平均每月花120分钟在社交媒体上。如果社交媒体使用时间（分钟）是一个标准偏差为40的正态分布，在 X 轴下方的数字（代表离均值多少个标准方差）上方的方框里输入对应的值（使用社交媒体时间）。'
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 4. 社交媒体
+          background_image: '//lh3.ggpht.com/t_VxEZfAhq09bveOkIwQsiTFxzZM71kNFl1urMblCg8S3v0g-OmlCcVBe-9c_oLdWnhyfATcXdpD1cAo_BU=s0#w=1280&h=720'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '81459577'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 176803
+    key: '2515351790923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 5. 使用时长的 Z-值
+    semantic_type: Concept
+    updated_at: 'Fri Sep 09 2016 08:11:32 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174531
+    atoms:
+      - id: 174531
+        key: '251535179'
+        locale: zh-cn
+        version: 1.0.0
+        title: 5. 使用时长的 Z-值
+        semantic_type: QuizAtom
+        updated_at: 'Fri Sep 09 2016 08:14:34 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: '## Andy，Chantee，Vidya 和 Luis 都使用社交媒体。在下方的表格里填入他们各自的 Z-值。'
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 5. 用途的 Z-值
+          background_image: '//lh4.ggpht.com/mu9YqVk8-yEPID3jtvWVX6hGUaOzF3Ns3s_LZPuXthr7lgNr_I9fpB6vC6ErMECf5r65nP_9Sp4izt4SLrVw=s0#w=1280&h=720'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '81459578'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 176800
+    key: '2515351800923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 6. 位于分布的何处？
+    semantic_type: Concept
+    updated_at: 'Mon Aug 22 2016 03:14:45 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174530
+    atoms:
+      - id: 174530
+        key: '251535180'
+        locale: zh-cn
+        version: 1.0.0
+        title: 6. 位于分布的何处？
+        semantic_type: QuizAtom
+        updated_at: 'Fri Sep 09 2016 08:16:42 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |-
+          ## Andy，Chantee，Vidya 和 Luis 分别落在这个正态分布的哪个位置（A-F）？在下方的方框里输入他们的名字，如果没有人在那个位置，请输入 NA。
+
+          根据上个测验中数值回答这个问题。
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 6. 位于分布的何处？
+          background_image: '//lh3.ggpht.com/BT-U23z5e4LxxC8prBOxOYYqoyEruVKitmznnf0dcEOfBkKu0W0UuKckM5BMX4VWDp_aWv8JcAoM-OC89WYO=s0#w=1280&h=720'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '81459579'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 176805
+    key: '2515351840923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 10. 分数
+    semantic_type: Concept
+    updated_at: 'Mon Aug 22 2016 03:14:45 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174532
+    atoms:
+      - id: 174532
+        key: '251535184'
+        locale: zh-cn
+        version: 1.0.0
+        title: 10. 分数
+        semantic_type: QuizAtom
+        updated_at: 'Fri Sep 09 2016 08:23:27 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: '## 一次考试成绩的分布的均值为90，标准偏差为10。Sharon 的分数比均值高9分，Jill 的 Z-值为 +1.20，Steve 在均值以上 1/2 个标准偏差，Roman 的分数为 110 分。请填写下方的表格。'
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 10. 分数
+          background_image: '//lh5.ggpht.com/5QC89yW7WfJt4uqc07iKeEj8glHWgRtrBjoxuqH5B-4B_tKzEqlGa_bg9QKiWVq7BJ_s9WWhbT6rrD-JiK8=s0#w=1280&h=720'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '102415388'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 176804
+    key: '2515351850923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 11. 曲线上的成绩
+    semantic_type: Concept
+    updated_at: 'Mon Aug 22 2016 03:14:46 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174533
+    atoms:
+      - id: 174533
+        key: '251535185'
+        locale: zh-cn
+        version: 1.0.0
+        title: 11. 曲线上的成绩
+        semantic_type: QuizAtom
+        updated_at: 'Sat Nov 12 2016 09:48:02 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |-
+          ## 你的心理学课考试平均分为 72，标准偏差为 12。你的分数是 78。
+
+          ## 你的生物学课考试平均分为 56，标准偏差为 5。你的分数是 66。
+
+          ## 如果教授通过分数分布图来给成绩（A－F），你觉得你在哪门课中会获得更高的成绩？（提示：把分数转换为 Z-值）
+
+          - □ 心理学
+          - □ 生物学
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 11. 曲线上的成绩
+          background_image: '//lh5.ggpht.com/Hne7fpLfy-dW_jU4SQPoin8aCnVl3klZXmmKdSvgQ0x6pPHaUCZK7Al6TLGjRcGzCqS43ZBpTYqR_VTNJh_i=s0#w=1280&h=720'
+          alt_text: ''
+          semantic_type: ImageFormQuestion
+          evaluation_id: '102415389'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 176808
+    key: '2515351860923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 12. 极端值
+    semantic_type: Concept
+    updated_at: 'Mon Aug 22 2016 03:14:46 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174536
+    atoms:
+      - id: 174536
+        key: '251535186'
+        locale: zh-cn
+        version: 1.0.0
+        title: 12. 极端值
+        semantic_type: QuizAtom
+        updated_at: 'Fri Sep 09 2016 08:29:58 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |-
+          ## 对于一个正态分布，下面哪一个Z-值在分布图最左侧？
+
+          - □ -1.89
+          - □ -2.17
+          - □ 1.65
+          - □ 2.99
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 12. 极端值
+          background_image: '//lh3.ggpht.com/gUHeCaJjQa58cJPGAJxY22ELuE2gGUeEaRkjD_RiOzU4yjh8cL0xIdsxhmemKgHo4ilGsDuQ7BAG-HNBOmKG=s0#w=1280&h=720'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '102415390'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 176806
+    key: '2515351870923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 13. 标准偏差
+    semantic_type: Concept
+    updated_at: 'Mon Aug 22 2016 03:14:47 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174534
+    atoms:
+      - id: 174534
+        key: '251535187'
+        locale: zh-cn
+        version: 1.0.0
+        title: 13. 标准偏差
+        semantic_type: QuizAtom
+        updated_at: 'Fri Sep 09 2016 08:31:58 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: '## 一个总体的分布的均值为40。如果值为 46，它的 Z-值等于 3.0。总体的标准偏差是多少？'
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 13. 标准偏差
+          background_image: '//lh4.ggpht.com/tPtug0DycW7FuWu8FybpYu98NPNCraFNTwM7LBaAIgAOoMykNh-DhZqgZGYHmtwYa9dpH2V5OGApktEcxw=s0#w=1280&h=720'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '102415391'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 176807
+    key: '2515351890923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 15. 考试
+    semantic_type: Concept
+    updated_at: 'Mon Aug 22 2016 03:14:47 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174535
+    atoms:
+      - id: 174535
+        key: '251535189'
+        locale: zh-cn
+        version: 1.0.0
+        title: 15. 考试
+        semantic_type: QuizAtom
+        updated_at: 'Fri Sep 09 2016 10:09:02 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |-
+          ## 上周，Frans 参加了统计学和经济学考试。两场考试中，他的分数都比平均分高 15 分。你可以得出哪些结论？（选中所有正确选项）
+
+          - □ 对于这两场考试，Frans 的 Z-值相同
+          - □ 对于这两场考试，Frans 的 Z-值均为正
+          - □ 对于均值较低的那场考试，Frans 的 Z-值更高
+          - □ 以上三项我们都无法确认
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 15. 考试
+          background_image: '//lh6.ggpht.com/BeieT1JeTdcySj23gDEJiGlxbgdLVyjlxbLGmeKeiN-OplatU-J0_-xcgo4aLjLOxg2iZVHOR7SoclyvCVmS=s0#w=1280&h=720'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '102415393'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 176809
+    key: '2515351900923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 16. 哪个标准偏差？
+    semantic_type: Concept
+    updated_at: 'Mon Aug 22 2016 03:14:48 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174537
+    atoms:
+      - id: 174537
+        key: '251535190'
+        locale: zh-cn
+        version: 1.0.0
+        title: 16. 哪个标准偏差？
+        semantic_type: QuizAtom
+        updated_at: 'Sat Sep 10 2016 09:43:26 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |-
+          ## 一次统计学考试中，你的分数是48分，平均为为36分，当标准偏差等于多少时，你在考试成绩分布中的位置更高？
+
+          - □ 5
+          - □ 10
+          - □ 15
+          - □ 无法确定
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 16. 哪个标准偏差？
+          background_image: '//lh6.ggpht.com/mNCWaOPK-1_4bWZku1BJqlrPKpVsOMUTQdGofj0eZcJcHJbP_iZgQJgDQhOeJXvrQ-MY9mNXs_pK4HZ62Gg=s0#w=1280&h=720'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '102415394'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 176810
+    key: '2515351910923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 17. 最接近均值
+    semantic_type: Concept
+    updated_at: 'Sat Sep 10 2016 09:49:46 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174538
+    atoms:
+      - id: 174538
+        key: '251535191'
+        locale: zh-cn
+        version: 1.0.0
+        title: 17. 最接近均值
+        semantic_type: QuizAtom
+        updated_at: 'Sat Sep 10 2016 09:49:50 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |-
+          ## 下面哪一个Z值最接近均值？
+
+          - □ ＋0.10
+          - □ －0.02
+          - □ ＋2.00
+          - □ －1.75
+          - □ ＋0.05
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 17. 最接近平均值
+          background_image: '//lh4.ggpht.com/jlkC_1qV99CuS2vUTEy4cRxzWraMY1ND9F6ZC_BwQwpBF6i-S1j_ABIHzUFK1rcgSSHTedDPR2b_dT3QHGs=s0#w=1280&h=720'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '102415395'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 176811
+    key: '2515351930923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 19. 真或假？
+    semantic_type: Concept
+    updated_at: 'Mon Aug 22 2016 03:14:49 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174539
+    atoms:
+      - id: 174539
+        key: '251535193'
+        locale: zh-cn
+        version: 1.0.0
+        title: 19. 真或假？
+        semantic_type: QuizAtom
+        updated_at: 'Fri Sep 23 2016 11:16:15 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |-
+          ## 下面这些说法是真还是假？
+
+          - 接近0的Z值位于正态分布的尾部
+          - 标准偏差可以为负值
+          - Z值可以为负值
+          - 很少有3个标准偏差以上的值
+          - 如果一个值与均值相等，它的Z值为0
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 19. 真或假？
+          background_image: '//lh5.ggpht.com/UExgt8o724yfAvOnnA0k-5w2XcNUN8uhbFZybRULf6xC0eE7gxxkCEJCD8fv7uwHoFdrxeIa0lu-PHRhViBf=s0#w=1280&h=720'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '102415397'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null

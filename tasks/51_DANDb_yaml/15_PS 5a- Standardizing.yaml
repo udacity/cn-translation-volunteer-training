@@ -1,0 +1,660 @@
+id: 23596
+key: '4618138583'
+locale: en-us
+version: 1.0.0
+title: 'PS 5a: Standardizing'
+semantic_type: Lesson
+updated_at: 'Tue May 31 2016 02:40:28 GMT+0000 (UTC)'
+is_public: true
+image: null
+video: null
+summary: Test your knowledge of standardizing.
+duration: 60
+is_project_lesson: false
+_concepts_ids:
+  - 33996
+  - 76645
+  - 67570
+  - 23862
+  - 59639
+  - 105914
+  - 76604
+  - 33973
+  - 76643
+  - 66638
+  - 138830
+  - 74010
+  - 36102
+  - 116187
+_project_id: null
+concepts:
+  - id: 33996
+    key: '2515351750923'
+    locale: en-us
+    version: 1.0.0
+    title: 1. Which Distribution Is Which?
+    semantic_type: Concept
+    updated_at: 'Tue May 31 2016 02:45:43 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 105566
+    atoms:
+      - id: 105566
+        key: '251535175'
+        locale: en-us
+        version: 1.0.0
+        title: 1. Which Distribution Is Which?
+        semantic_type: QuizAtom
+        updated_at: 'Tue Jun 21 2016 22:16:48 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: ''
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 1. Which Distribution Is Which?
+          background_image: '//lh5.ggpht.com/JGMQOf2ILjT8zhC_nIqmzRtzl3rUJXXogoyQCK85u9cGbWkIVvFE-0Rk4x5vTiMrJb3XHaWvGZ2LcAF7Hg=s0#w=1280&h=720'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '81459574'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 76645
+    key: '2515351760923'
+    locale: en-us
+    version: 1.0.0
+    title: 2. Z-Scores
+    semantic_type: Concept
+    updated_at: 'Tue May 31 2016 02:45:43 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 103183
+    atoms:
+      - id: 103183
+        key: '251535176'
+        locale: en-us
+        version: 1.0.0
+        title: 2. Z-Scores
+        semantic_type: QuizAtom
+        updated_at: 'Tue Jun 21 2016 22:16:37 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: ''
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 2. Z-Scores
+          background_image: '//lh5.ggpht.com/rvLDm-rchh-F5-v4pwTHLRDAQNncSIXs03byQ0Y9o9aUOky-kwy57Qj2qBD3kj5RBCLpX4mjFTHUL5fhXQ=s0#w=1280&h=720'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '81459575'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 67570
+    key: '2515351770923'
+    locale: en-us
+    version: 1.0.0
+    title: 3. OkCupid
+    semantic_type: Concept
+    updated_at: 'Tue May 31 2016 02:45:43 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 99530
+    atoms:
+      - id: 99530
+        key: '251535177'
+        locale: en-us
+        version: 1.0.0
+        title: 3. OkCupid
+        semantic_type: QuizAtom
+        updated_at: 'Tue Jun 21 2016 22:16:31 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: ''
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 3. OkCupid
+          background_image: '//lh5.ggpht.com/kSl2QcGJBC9tv3ovmYxjWqDsBqXsseUlGHBGiehRQIro9UnI31QH0JEhHP-3DcPT2q6wSUTNjenvuZhvpGw=s0#w=1280&h=720'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '81459576'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 23862
+    key: '2515351780923'
+    locale: en-us
+    version: 1.0.0
+    title: 4. Social Media
+    semantic_type: Concept
+    updated_at: 'Tue May 31 2016 02:45:43 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 105543
+    atoms:
+      - id: 105543
+        key: '251535178'
+        locale: en-us
+        version: 1.0.0
+        title: 4. Social Media
+        semantic_type: QuizAtom
+        updated_at: 'Tue Jun 21 2016 22:16:48 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: ''
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 4. Social Media
+          background_image: '//lh3.ggpht.com/t_VxEZfAhq09bveOkIwQsiTFxzZM71kNFl1urMblCg8S3v0g-OmlCcVBe-9c_oLdWnhyfATcXdpD1cAo_BU=s0#w=1280&h=720'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '81459577'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 59639
+    key: '2515351790923'
+    locale: en-us
+    version: 1.0.0
+    title: 5. Z-Scores of Usage
+    semantic_type: Concept
+    updated_at: 'Tue May 31 2016 02:45:43 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 105590
+    atoms:
+      - id: 105590
+        key: '251535179'
+        locale: en-us
+        version: 1.0.0
+        title: 5. Z-Scores of Usage
+        semantic_type: QuizAtom
+        updated_at: 'Tue Jun 21 2016 22:16:48 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: ''
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 5. Z-Scores of Usage
+          background_image: '//lh4.ggpht.com/mu9YqVk8-yEPID3jtvWVX6hGUaOzF3Ns3s_LZPuXthr7lgNr_I9fpB6vC6ErMECf5r65nP_9Sp4izt4SLrVw=s0#w=1280&h=720'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '81459578'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 105914
+    key: '2515351800923'
+    locale: en-us
+    version: 1.0.0
+    title: 6. Where on the Distribution?
+    semantic_type: Concept
+    updated_at: 'Tue May 31 2016 02:45:43 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 109947
+    atoms:
+      - id: 109947
+        key: '251535180'
+        locale: en-us
+        version: 1.0.0
+        title: 6. Where on the Distribution?
+        semantic_type: QuizAtom
+        updated_at: 'Tue Jun 21 2016 22:15:02 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: Refer to the values in the previous quiz to answer this question!
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 6. Where on the Distribution?
+          background_image: '//lh3.ggpht.com/BT-U23z5e4LxxC8prBOxOYYqoyEruVKitmznnf0dcEOfBkKu0W0UuKckM5BMX4VWDp_aWv8JcAoM-OC89WYO=s0#w=1280&h=720'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '81459579'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 76604
+    key: '2515351840923'
+    locale: en-us
+    version: 1.0.0
+    title: 10. Scores
+    semantic_type: Concept
+    updated_at: 'Tue May 31 2016 02:45:43 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 105567
+    atoms:
+      - id: 105567
+        key: '251535184'
+        locale: en-us
+        version: 1.0.0
+        title: 10. Scores
+        semantic_type: QuizAtom
+        updated_at: 'Tue Jun 21 2016 22:16:48 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: ''
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 10. Scores
+          background_image: '//lh5.ggpht.com/5QC89yW7WfJt4uqc07iKeEj8glHWgRtrBjoxuqH5B-4B_tKzEqlGa_bg9QKiWVq7BJ_s9WWhbT6rrD-JiK8=s0#w=1280&h=720'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '102415388'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 33973
+    key: '2515351850923'
+    locale: en-us
+    version: 1.0.0
+    title: 11. Grade on a Curve
+    semantic_type: Concept
+    updated_at: 'Tue May 31 2016 02:45:43 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 109007
+    atoms:
+      - id: 109007
+        key: '251535185'
+        locale: en-us
+        version: 1.0.0
+        title: 11. Grade on a Curve
+        semantic_type: QuizAtom
+        updated_at: 'Tue Jun 21 2016 22:16:48 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: ''
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 11. Grade on a Curve
+          background_image: '//lh5.ggpht.com/Hne7fpLfy-dW_jU4SQPoin8aCnVl3klZXmmKdSvgQ0x6pPHaUCZK7Al6TLGjRcGzCqS43ZBpTYqR_VTNJh_i=s0#w=1280&h=720'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '102415389'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 76643
+    key: '2515351860923'
+    locale: en-us
+    version: 1.0.0
+    title: 12. Extreme
+    semantic_type: Concept
+    updated_at: 'Tue May 31 2016 02:45:43 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 105620
+    atoms:
+      - id: 105620
+        key: '251535186'
+        locale: en-us
+        version: 1.0.0
+        title: 12. Extreme
+        semantic_type: QuizAtom
+        updated_at: 'Tue Jun 21 2016 22:16:48 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: ''
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 12. Extreme
+          background_image: '//lh3.ggpht.com/gUHeCaJjQa58cJPGAJxY22ELuE2gGUeEaRkjD_RiOzU4yjh8cL0xIdsxhmemKgHo4ilGsDuQ7BAG-HNBOmKG=s0#w=1280&h=720'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '102415390'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 66638
+    key: '2515351870923'
+    locale: en-us
+    version: 1.0.0
+    title: 13. SD
+    semantic_type: Concept
+    updated_at: 'Tue May 31 2016 02:45:43 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 105621
+    atoms:
+      - id: 105621
+        key: '251535187'
+        locale: en-us
+        version: 1.0.0
+        title: 13. SD
+        semantic_type: QuizAtom
+        updated_at: 'Tue Jun 21 2016 22:16:48 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: ''
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 13. SD
+          background_image: '//lh4.ggpht.com/tPtug0DycW7FuWu8FybpYu98NPNCraFNTwM7LBaAIgAOoMykNh-DhZqgZGYHmtwYa9dpH2V5OGApktEcxw=s0#w=1280&h=720'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '102415391'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 138830
+    key: '2515351890923'
+    locale: en-us
+    version: 1.0.0
+    title: 15. Exams
+    semantic_type: Concept
+    updated_at: 'Tue May 31 2016 02:45:43 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 99514
+    atoms:
+      - id: 99514
+        key: '251535189'
+        locale: en-us
+        version: 1.0.0
+        title: 15. Exams
+        semantic_type: QuizAtom
+        updated_at: 'Tue Jun 21 2016 22:16:31 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: ''
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 15. Exams
+          background_image: '//lh6.ggpht.com/BeieT1JeTdcySj23gDEJiGlxbgdLVyjlxbLGmeKeiN-OplatU-J0_-xcgo4aLjLOxg2iZVHOR7SoclyvCVmS=s0#w=1280&h=720'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '102415393'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 74010
+    key: '2515351900923'
+    locale: en-us
+    version: 1.0.0
+    title: 16. Which SD?
+    semantic_type: Concept
+    updated_at: 'Tue May 31 2016 02:45:43 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 99485
+    atoms:
+      - id: 99485
+        key: '251535190'
+        locale: en-us
+        version: 1.0.0
+        title: 16. Which SD?
+        semantic_type: QuizAtom
+        updated_at: 'Tue Jun 21 2016 22:16:31 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: ''
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 16. Which SD?
+          background_image: '//lh6.ggpht.com/mNCWaOPK-1_4bWZku1BJqlrPKpVsOMUTQdGofj0eZcJcHJbP_iZgQJgDQhOeJXvrQ-MY9mNXs_pK4HZ62Gg=s0#w=1280&h=720'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '102415394'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 36102
+    key: '2515351910923'
+    locale: en-us
+    version: 1.0.0
+    title: 17. Closest to Mean
+    semantic_type: Concept
+    updated_at: 'Tue May 31 2016 02:45:43 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 99464
+    atoms:
+      - id: 99464
+        key: '251535191'
+        locale: en-us
+        version: 1.0.0
+        title: 17. Closest to Mean
+        semantic_type: QuizAtom
+        updated_at: 'Tue Jun 21 2016 22:16:31 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: ''
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 17. Closest to Mean
+          background_image: '//lh4.ggpht.com/jlkC_1qV99CuS2vUTEy4cRxzWraMY1ND9F6ZC_BwQwpBF6i-S1j_ABIHzUFK1rcgSSHTedDPR2b_dT3QHGs=s0#w=1280&h=720'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '102415395'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 116187
+    key: '2515351930923'
+    locale: en-us
+    version: 1.0.0
+    title: 19. True or False?
+    semantic_type: Concept
+    updated_at: 'Tue May 31 2016 02:45:43 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 105606
+    atoms:
+      - id: 105606
+        key: '251535193'
+        locale: en-us
+        version: 1.0.0
+        title: 19. True or False?
+        semantic_type: QuizAtom
+        updated_at: 'Tue Jun 21 2016 22:16:47 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: ''
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 19. True or False?
+          background_image: '//lh5.ggpht.com/UExgt8o724yfAvOnnA0k-5w2XcNUN8uhbFZybRULf6xC0eE7gxxkCEJCD8fv7uwHoFdrxeIa0lu-PHRhViBf=s0#w=1280&h=720'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '102415397'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null

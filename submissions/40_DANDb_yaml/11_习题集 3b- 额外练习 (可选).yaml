@@ -1,0 +1,649 @@
+id: 178215
+key: '4594888601'
+locale: zh-cn
+version: 1.0.0
+title: '习题集 3b: 额外练习 (可选)'
+semantic_type: Lesson
+updated_at: 'Sun Dec 18 2016 06:40:38 GMT+0000 (UTC)'
+is_public: true
+image: null
+video: null
+summary: 将你的集中趋势知识应用到实际问题中。
+duration: 60
+is_project_lesson: false
+_concepts_ids:
+  - 176747
+  - 176750
+  - 176751
+  - 176752
+  - 176753
+  - 176754
+  - 176755
+  - 176756
+  - 176757
+  - 176758
+  - 176759
+_project_id: null
+concepts:
+  - id: 176747
+    key: '2517598530923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 11. 一掷千金（中位数）
+    semantic_type: Concept
+    updated_at: 'Thu Sep 08 2016 07:02:47 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174436
+    atoms:
+      - id: 174436
+        key: '251759853'
+        locale: zh-cn
+        version: 1.0.0
+        title: 11. 一掷千金（中位数）
+        semantic_type: QuizAtom
+        updated_at: 'Thu Sep 08 2016 07:11:19 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |-
+          ## “一掷千金”是美国的一档电视游戏节目，在全球40多个国家都播出过。在这个游戏中，参与者要打开一系列有编号的箱子，每个箱子中有不同数量的奖金。
+
+          一共有26个箱子，每个箱子所含奖金的金额可以在[这个表格](https://s3.cn-north-1.amazonaws.com.cn/static-documents/nd002/Deal+or+No+Deal-+-+Problem+Set+3.xlsx)中找到。
+
+          **奖金的中位数是多少？**
+
+          ----
+
+          下载数据：[一掷千金](https://s3.cn-north-1.amazonaws.com.cn/static-documents/nd002/Deal+or+No+Deal-+-+Problem+Set+3.xlsx)
+
+          打开下载好的文档开始计算。
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 11. 一掷千金(中位数)
+          background_image: '//lh6.ggpht.com/jfY_5NqiOmqmKfYll8WG1c6AVvY0f0EIt0kDZuHkR8Qq3O4cbrlz1Slq_uwfOynpyZsWacKcDeGI-yBKyw=s0#w=1280&h=720'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '66418605'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 176750
+    key: '2517598540923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 12. 一掷千金（众数）
+    semantic_type: Concept
+    updated_at: 'Thu Sep 08 2016 07:11:46 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174438
+    atoms:
+      - id: 174438
+        key: '251759854'
+        locale: zh-cn
+        version: 1.0.0
+        title: 12. 一掷千金（众数）
+        semantic_type: QuizAtom
+        updated_at: 'Thu Sep 08 2016 07:12:28 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |-
+          ## “一掷千金”是美国的一档电视游戏节目，在全球40多个国家都播出过。在这个游戏中，参与者要打开一系列有编号的箱子，每个箱子中有不同数量的奖金。
+
+          一共有26个箱子，每个箱子所含奖金的金额可以在[这个表格](https://s3.cn-north-1.amazonaws.com.cn/static-documents/nd002/Deal+or+No+Deal-+-+Problem+Set+3.xlsx)中找到。
+
+          **奖金的众数是多少？（如果没有众数，请输入 NA）**
+
+          ----
+
+          下载数据：[一掷千金](https://s3.cn-north-1.amazonaws.com.cn/static-documents/nd002/Deal+or+No+Deal-+-+Problem+Set+3.xlsx)
+
+          打开下载好的文档开始计算。
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 12. 一掷千金(众数)
+          background_image: '//lh6.ggpht.com/ZkNXXhXdK6kz7hs6EKyM8KEIsDBsCKahJ_gL4ptrBAxgee7G3mEQ_zlzO3xmq1500fd3Jqe6BtbD-OdgO7JI=s0#w=1280&h=720'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '66418606'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 176751
+    key: '2517598550923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 13. 一掷千金（数字）
+    semantic_type: Concept
+    updated_at: 'Thu Sep 08 2016 07:14:01 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174439
+    atoms:
+      - id: 174439
+        key: '251759855'
+        locale: zh-cn
+        version: 1.0.0
+        title: 13. 一掷千金（数字）
+        semantic_type: QuizAtom
+        updated_at: 'Thu Sep 08 2016 07:14:06 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |-
+          ## “一掷千金”是美国的一档电视游戏节目，在全球40多个国家都播出过。在这个游戏中，参与者要打开一系列有编号的箱子，每个箱子中有不同数量的奖金。
+
+          一共有26个箱子，每个箱子所含奖金的金额可以在[这个表格](https://s3.cn-north-1.amazonaws.com.cn/static-documents/nd002/Deal+or+No+Deal-+-+Problem+Set+3.xlsx)中找到。
+
+          **有多少箱子的奖金少于中位数？** □ 
+
+          **有多少箱子的奖金大于中位数？** □ 
+
+          ----
+
+          下载数据：[一掷千金](https://s3.cn-north-1.amazonaws.com.cn/static-documents/nd002/Deal+or+No+Deal-+-+Problem+Set+3.xlsx)
+
+          打开下载好的文档开始计算。
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 13. 一掷千金(数字)
+          background_image: '//lh6.ggpht.com/hA7T9Tchgp4JrOXkRJS9TWnz4bTzQmscn-8YSijtvIYyNmDmy13ctJ1AVj0laJbrOu-79BqBI6_yUkjI0Q=s0#w=1280&h=720'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '66418607'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 176752
+    key: '2517598560923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 14. 一掷千金（均值和中位数）
+    semantic_type: Concept
+    updated_at: 'Thu Sep 08 2016 07:16:23 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174440
+    atoms:
+      - id: 174440
+        key: '251759856'
+        locale: zh-cn
+        version: 1.0.0
+        title: 14. 一掷千金（均值和中位数）
+        semantic_type: QuizAtom
+        updated_at: 'Thu Sep 08 2016 07:15:29 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |-
+          ## “一掷千金”是美国的一档电视游戏节目，在全球40多个国家都播出过。在这个游戏中，参与者要打开一系列有编号的箱子，每个箱子中有不同数量的奖金。
+
+          一共有26个箱子，每个箱子所含奖金的金额可以在[这个表格](https://s3.cn-north-1.amazonaws.com.cn/static-documents/nd002/Deal+or+No+Deal-+-+Problem+Set+3.xlsx)中找到。
+
+          **在不进行任何计算的情况下，你预测均值会……** 
+
+          - □ 小于中位数
+          - □ 大于中位数
+          - □ 等于中位数
+
+          ----
+
+          下载数据：[一掷千金](https://s3.cn-north-1.amazonaws.com.cn/static-documents/nd002/Deal+or+No+Deal-+-+Problem+Set+3.xlsx)
+
+          打开下载好的文档开始计算。
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 14. 一掷千金(均值和中位数)
+          background_image: '//lh6.ggpht.com/D3DwZhTjEYHIftoimqHzlrSrmPwlO_dnJZid9kilfWa2qS1q88So0UdIhzbF_fPegIoavUQDtsGP_tHtqA=s0#w=1280&h=720'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '66418608'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 176753
+    key: '2517598570923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 15. 一掷千金（均值）
+    semantic_type: Concept
+    updated_at: 'Thu Sep 08 2016 07:16:37 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174441
+    atoms:
+      - id: 174441
+        key: '251759857'
+        locale: zh-cn
+        version: 1.0.0
+        title: 15. 一掷千金（均值）
+        semantic_type: QuizAtom
+        updated_at: 'Thu Sep 08 2016 07:17:33 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |-
+          ## “一掷千金”是美国的一档电视游戏节目，在全球40多个国家都播出过。在这个游戏中，参与者要打开一系列有编号的箱子，每个箱子中有不同数量的奖金。
+
+          一共有26个箱子，每个箱子所含奖金的金额可以在[这个表格](https://s3.cn-north-1.amazonaws.com.cn/static-documents/nd002/Deal+or+No+Deal-+-+Problem+Set+3.xlsx)中找到。
+
+          **请计算均值：□ ** 
+
+          ----
+
+          下载数据：[一掷千金](https://s3.cn-north-1.amazonaws.com.cn/static-documents/nd002/Deal+or+No+Deal-+-+Problem+Set+3.xlsx)
+
+          打开下载好的文档开始计算。
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 15. 一掷千金(均值)
+          background_image: '//lh5.ggpht.com/27R2R4Lw0wtSMA1_WEvP4oDlqD5QWyVmkHcvyGWj38qmVOMJpHxZQ9pWFhqkK_QJIL2RgdTJbcbdssYboA=s0#w=1280&h=720'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '66418609'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 176754
+    key: '2517598580923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 16. 一掷千金（比例）
+    semantic_type: Concept
+    updated_at: 'Thu Sep 08 2016 07:17:41 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174442
+    atoms:
+      - id: 174442
+        key: '251759858'
+        locale: zh-cn
+        version: 1.0.0
+        title: 16. 一掷千金（比例）
+        semantic_type: QuizAtom
+        updated_at: 'Thu Sep 08 2016 07:18:29 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |-
+          ## “一掷千金”是美国的一档电视游戏节目，在全球40多个国家都播出过。在这个游戏中，参与者要打开一系列有编号的箱子，每个箱子中有不同数量的奖金。
+
+          一共有26个箱子，每个箱子所含奖金的金额可以在[这个表格](https://s3.cn-north-1.amazonaws.com.cn/static-documents/nd002/Deal+or+No+Deal-+-+Problem+Set+3.xlsx)中找到。
+
+          **有多少比例的箱子所含奖金大于均值？ ** 
+
+          ----
+
+          下载数据：[一掷千金](https://s3.cn-north-1.amazonaws.com.cn/static-documents/nd002/Deal+or+No+Deal-+-+Problem+Set+3.xlsx)
+
+          打开下载好的文档开始计算。
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 16. 一掷千金(比例)
+          background_image: '//lh3.ggpht.com/M-WgtMDuWzBT9OmgBraqHTpTWx23xXixPJObC7kr1cSDUDoBDMk9iALic_FIyQ9cL2_Uosc-jpzQ36lfJNnc=s0#w=1280&h=720'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '66418610'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 176755
+    key: '2517598590923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 17. 一掷千金（频率）
+    semantic_type: Concept
+    updated_at: 'Thu Sep 08 2016 07:18:36 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174443
+    atoms:
+      - id: 174443
+        key: '251759859'
+        locale: zh-cn
+        version: 1.0.0
+        title: 17. 一掷千金（频率）
+        semantic_type: QuizAtom
+        updated_at: 'Mon Apr 03 2017 08:32:31 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |-
+          ## “一掷千金”是美国的一档电视游戏节目，在全球40多个国家都播出过。在这个游戏中，参与者要打开一系列有编号的箱子，每个箱子中有不同数量的奖金。
+
+          一共有26个箱子，每个箱子所含奖金的金额可以在[这个表格](https://s3.cn-north-1.amazonaws.com.cn/static-documents/nd002/Deal+or+No+Deal-+-+Problem+Set+3.xlsx)中找到。
+
+          **如果创建一个组距为500的直方图，频数最高的分组是哪一个？** 
+
+          - □ 0 - 499
+          - □ 500 - 999 
+          - □ 100,000 - 100,499
+
+          频数为： □ 
+
+          ----
+
+          下载数据：[一掷千金](https://s3.cn-north-1.amazonaws.com.cn/static-documents/nd002/Deal+or+No+Deal-+-+Problem+Set+3.xlsx)
+
+          打开下载好的文档开始计算。
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 17. 一掷千金(频率)
+          background_image: '//lh4.ggpht.com/wpOdd91EnmaYdRwaNEzXyp7hCE4pmm2pgJV6NTGocjE3yoFS7Kn2l3AsarR7uBU9v6cW3XYOZYOD_DHS9w=s0#w=1280&h=720'
+          alt_text: ''
+          semantic_type: ImageFormQuestion
+          evaluation_id: '66418613'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 176756
+    key: '2517598600923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 18. 一掷千金（分布）
+    semantic_type: Concept
+    updated_at: 'Thu Sep 08 2016 07:25:27 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174444
+    atoms:
+      - id: 174444
+        key: '251759860'
+        locale: zh-cn
+        version: 1.0.0
+        title: 18. 一掷千金(分布)
+        semantic_type: QuizAtom
+        updated_at: 'Tue Sep 20 2016 14:43:49 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |-
+          ## “一掷千金”是美国的一档电视游戏节目，在全球40多个国家都播出过。在这个游戏中，参与者要打开一系列有编号的箱子，每个箱子中有不同数量的奖金。
+
+          一共有26个箱子，每个箱子所含奖金的金额可以在[这个表格](https://s3.cn-north-1.amazonaws.com.cn/static-documents/nd002/Deal+or+No+Deal-+-+Problem+Set+3.xlsx)中找到。
+
+          **奖金金额的分布是什么形状？**
+
+          - □ 负偏斜
+          - □ 正偏斜
+          - □ 正态分布
+          - □ 均匀分布
+          - □ 多峰分布
+
+          下载数据：[一掷千金](https://s3.cn-north-1.amazonaws.com.cn/static-documents/nd002/Deal+or+No+Deal-+-+Problem+Set+3.xlsx)
+
+          打开下载好的文档开始计算。
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 18. 一掷千金(分布)
+          background_image: '//lh4.ggpht.com/J5XEZTsvKp119toc96SGFyZPUKHfGWNXF99uP8TKeJM98hbxBl8b3s4KD4mQk159guqMkDNnHIA2VD0FtA=s0#w=1280&h=720'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '66418611'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 176757
+    key: '2517598610923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 19. 一掷千金（中心）
+    semantic_type: Concept
+    updated_at: 'Thu Sep 08 2016 07:27:51 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174445
+    atoms:
+      - id: 174445
+        key: '251759861'
+        locale: zh-cn
+        version: 1.0.0
+        title: 19. 一掷千金（中心）
+        semantic_type: QuizAtom
+        updated_at: 'Thu Sep 08 2016 07:29:48 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |-
+          ## “一掷千金”是美国的一档电视游戏节目，在全球40多个国家都播出过。在这个游戏中，参与者要打开一系列有编号的箱子，每个箱子中有不同数量的奖金。
+
+          一共有26个箱子，每个箱子所含奖金的金额可以在[这个表格](https://s3.cn-north-1.amazonaws.com.cn/static-documents/nd002/Deal+or+No+Deal-+-+Problem+Set+3.xlsx)中找到。
+
+          - □ 均值
+          - □ 中位数
+
+          能更准确地描述奖金分布的中心。原因是：__________。
+
+          ----
+
+          下载数据：[一掷千金](https://s3.cn-north-1.amazonaws.com.cn/static-documents/nd002/Deal+or+No+Deal-+-+Problem+Set+3.xlsx)
+
+          打开下载好的文档开始计算。
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 19. 一掷千金(中心)
+          background_image: '//lh4.ggpht.com/8eqfPOaiNfOVgmccFqn7DXvB_1unxYSPWkT0qZ4o4GXZIS8reNcLTTLQx0srzFBVr72rZH9VnR5l4AocbNA=s0#w=1280&h=720'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '66418612'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 176758
+    key: '2517598650923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 23. 哪些分布？
+    semantic_type: Concept
+    updated_at: 'Thu Sep 08 2016 07:01:54 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174446
+    atoms:
+      - id: 174446
+        key: '251759865'
+        locale: zh-cn
+        version: 1.0.0
+        title: 23. 哪些分布？
+        semantic_type: QuizAtom
+        updated_at: 'Thu Sep 08 2016 07:36:49 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |-
+          ## 一次《统计学入门》期末考试中，分数高于75分和低于75分的人数一样多。
+
+          **分数的分布图可能会是什么样子？勾选所有可能的选项**
+
+          - □ 均匀分布
+          - □ 正态分布
+          - □ 双峰分布
+          - □ 正偏斜分布
+          - □ 负偏斜分布
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 23. 哪些分布？
+          background_image: '//lh3.ggpht.com/Qw3FQAT3WYtyrWX6rYEzgA2ludJPCiw3DAcMauAvw-9gpo2pSuQddjuNMjxsg_lPEkTRrdnNtWYOES1kmBZ9=s0#w=1280&h=720'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '66418626'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 176759
+    key: '2079680440923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 24. 已给出中位数的直方图
+    semantic_type: Concept
+    updated_at: 'Thu Sep 08 2016 07:01:55 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 174447
+    atoms:
+      - id: 174447
+        key: '207968044'
+        locale: zh-cn
+        version: 1.0.0
+        title: 24. 已给出中位数的直方图
+        semantic_type: QuizAtom
+        updated_at: 'Thu Sep 08 2016 07:31:14 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: '## 中位数大约在哪里？'
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: 24. 已给出中位数的直方图
+          background_image: '//lh3.ggpht.com/iB0almbkZfGwf0q-zNCYvEzZaiaXispudwhuKk4HtcEN9maejUYmg4v7v3OA78tcnKll_eRyPupCjMJCHKUc=s0#w=1280&h=720'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '207968045'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null

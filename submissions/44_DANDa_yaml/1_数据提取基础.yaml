@@ -11,7 +11,7 @@ image:
   width: 500
   height: 500
 video: null
-summary: 复习表格数据格式和 JSON 格式基础知识。
+summary: 复习列表数据 CSV 格式和表格数据 Excel 格式的基本原理，并学习 JSON 格式。
 duration: 600
 is_project_lesson: false
 _concepts_ids:
@@ -384,7 +384,7 @@ concepts:
           coaching_appointments_link: null
           office_hours_link: null
         instructor_notes: |-
-          你可以在下方的“课程资料”中下载数据文件 beatles-diskography.csv。
+          你可以在测试初始代码的左上角的下拉菜单中查看数据，或在下方的“课程资料”中下载数据文件 beatles-diskography.csv。
 
           Python 字符串方法 `strip()` 能去除多余的空格（包括每一行末尾的换行符）。
         instruction:
@@ -602,7 +602,7 @@ concepts:
         is_public: true
         tags: []
         instructor_notes: |-
-          要了解有关 Python csv 模块的更多信息，请访问以下链接： 
+          如需了解更多有关 Python csv 模块的信息，请访问以下链接： 
 
           http://docs.python.org/2/library/csv.html
         resources:
@@ -753,7 +753,7 @@ concepts:
           coaching_appointments_link: null
           office_hours_link: null
         instructor_notes: |-
-          你可以从[课程材料](https://www.udacity.com/wiki/ud032#datasets-used-in-this-course)中下载“2013ERCOT_Hourly_Load_Data.xls”数据文件。
+          你可以从[课程材料](https://www.udacity.com/wiki/ud032#datasets-used-in-this-course)中下载“2013_ERCOT_Hourly_Load_Data.xls”数据文件。
 
           你还可以在本地计算机上通过 python pip 和以下命令安装 xlrd 库： 
 
@@ -1010,7 +1010,7 @@ concepts:
         text: |-
           ## 额外信息
 
-          如果你不熟悉 JSON，或者只是想了解新知识，W3Schools 上有一个关于此主题的优秀教程。
+          如果你不熟悉 JSON，或者你是位初学者，W3Schools 上有相关的优秀教程。
 
           <a href="http://www.w3schools.com/json/" target="_blank"> JSON 教程</a>
 
@@ -1053,7 +1053,7 @@ concepts:
         instructor_notes: |-
           “本地运行”的意思是，你必须[下载](https://www.udacity.com/wiki/ud032#exercise-and-example-code)或复制文件内容到本地计算机，对其进行修改并运行。
 
-          要能够这样做，你需要安装 Python 和 requests 模块。请参见 [Requests 安装文档](http://requests.readthedocs.org/en/latest/user/install/#install)。如果你安装了“[pip](http://www.pip-installer.org)”（如果使用 Python，则应安装它），你可以运行以下命令安装 Requests：
+          为此，你需要安装 Python 和其 requests 模块。请参见 [Requests 安装文档](http://requests.readthedocs.org/en/latest/user/install/#install)。如果你安装了“[pip](http://www.pip-installer.org)”（如果使用 Python，则应安装它），你可以运行以下命令安装 Requests：
 
 
               pip install requests

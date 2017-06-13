@@ -6,13 +6,20 @@
 2. 熟练使用 GitHub 校对别人的的翻译
 3. 熟悉字幕组要求与规范
 
-
 技能点包括但不限于：
 
 - 克隆 repo
 - 创建 branch
 - 提交 pull request
 - 修复学员在论坛的报错
+
+<br>
+
+## 开始之前
+
+可以先看看 [Wiki](https://github.com/udacity/cn-translation-volunteer-training/wiki)，熟悉如何使用 GitHub，了解字幕组的规范要求。
+
+确保自己了解试译流程，如果不确定的话，可以在微信群里与任务发布者或 Chenwei 确认。
 
 <br>
 

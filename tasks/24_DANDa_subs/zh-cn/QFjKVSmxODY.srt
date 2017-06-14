@@ -68,7 +68,7 @@
 
 18
 00:00:52,860 --> 00:00:56,220
- Airportlist 和 Carrierlist 的值 不过
+ AirportList 和 CarrierList 的值 不过
 
 19
 00:00:56,220 --> 00:00:59,030
@@ -80,7 +80,7 @@
 
 21
 00:01:02,320 --> 00:01:05,730
- Airportlist 和 Carrierlist 的所有可能组合循环遍历
+ AirportList 和 CarrierList 的所有可能组合循环遍历
 
 22
 00:01:05,730 --> 00:01:09,550

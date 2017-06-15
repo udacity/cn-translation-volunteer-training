@@ -221,7 +221,7 @@ concepts:
     key: f4ac6a33-1d45-4f86-a576-56670f08181a
     locale: zh-cn
     version: 1.0.0
-    title: 导入函数 Open
+    title: 放置函数 Open
     semantic_type: Concept
     updated_at: 'Wed Mar 15 2017 13:03:48 GMT+0000 (UTC)'
     is_public: true
@@ -234,7 +234,7 @@ concepts:
         key: e16f3178-fc12-4394-bec0-709ee2284855
         locale: zh-cn
         version: 1.0.0
-        title: 导入函数 Open
+        title: 放置函数 Open
         semantic_type: VideoAtom
         updated_at: 'Wed Mar 15 2017 13:03:45 GMT+0000 (UTC)'
         is_public: true
@@ -253,12 +253,12 @@ concepts:
         key: 28fa0668-f6d1-4882-85dc-ee0877c8d5d0
         locale: zh-cn
         version: 1.0.0
-        title: 导入函数 Open
+        title: 放置函数 Open
         semantic_type: RadioQuizAtom
         updated_at: 'Wed Mar 15 2017 13:03:45 GMT+0000 (UTC)'
         is_public: true
         question:
-          prompt: 我应该在我们的 Python 标准库模型的何处导入函数 'open'？
+          prompt: 我应该在我们的 Python 标准库模型的何处放置函数 'open'？
           correct_feedback: null
           video_feedback:
             youtube_id: cpVojM7DYqI
@@ -488,7 +488,7 @@ concepts:
     key: '9991989340923'
     locale: zh-cn
     version: 1.0.0
-    title: 小测验：放置 urllib 和 urlopen
+    title: 放置 urllib 和 urlopen
     semantic_type: Concept
     updated_at: 'Wed Feb 08 2017 06:32:35 GMT+0000 (UTC)'
     is_public: true
@@ -500,7 +500,7 @@ concepts:
         key: '999198934'
         locale: zh-cn
         version: 1.0.0
-        title: 小测验：放置 urllib 和 urlopen
+        title: 放置 urllib 和 urlopen
         semantic_type: QuizAtom
         updated_at: 'Wed Feb 08 2017 06:32:34 GMT+0000 (UTC)'
         is_public: true
@@ -522,7 +522,7 @@ concepts:
               uri_hls: null
           text: null
         question:
-          title: 小测验：放置 urllib 和 urlopen
+          title: 放置 urllib 和 urlopen
           background_image: '//lh6.ggpht.com/5LrC-NKkVx8zpVph92F5vmwi4ahBlyc8Gpd_RPy25NX0ijU0XV5mwDCqyblF6h95Qp0ktTy6bMQTAYaIwbA=s0#w=1920&h=1080'
           alt_text: null
           semantic_type: ImageFormQuestion

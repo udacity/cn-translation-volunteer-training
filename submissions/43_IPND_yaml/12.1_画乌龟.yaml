@@ -599,7 +599,7 @@ concepts:
     key: 8779a694-9830-4503-89a3-7e8fda2197e0
     locale: zh-cn
     version: 1.0.0
-    title: 改进代码的质量
+    title: 提高代码的质量
     semantic_type: Concept
     updated_at: 'Fri Mar 31 2017 09:53:20 GMT+0000 (UTC)'
     is_public: true
@@ -613,7 +613,7 @@ concepts:
         key: 4460e1cc-f87a-47f4-a00f-839fd7d8df78
         locale: zh-cn
         version: 1.0.0
-        title: 改进代码的质量 - Python 编程基础
+        title: 提高代码的质量 - Python 编程基础
         semantic_type: VideoAtom
         updated_at: 'Tue Apr 18 2017 17:02:39 GMT+0000 (UTC)'
         is_public: true
@@ -666,7 +666,7 @@ concepts:
           - 是的，我已经在论坛分享了！
         positive_feedback: 谢谢！
         video_feedback: null
-        description: 你已经在论坛分享了吗？我猜你已经做了！
+        description: 你已经在论坛分享了吗？我猜你已经这么做了！
   - id: 181109
     key: '10434885390923'
     locale: zh-cn
@@ -689,9 +689,9 @@ concepts:
         is_public: true
         tags: null
         instructor_notes: |-
-          Kunal 提示：从 0:48 开始，“类 Turtle 就像蓝图一样，包含了乌龟的某些信息：乌龟的大小、颜色、乌龟可以往前移动…”
+          Kunal 提示：从 0:48 开始，“类 Turtle 就像蓝图一样，包含了关于乌龟的某些信息：乌龟的大小、颜色、乌龟可以往前移动…”
 
-          更准确的说法应该是类 Turtle 表明乌龟具有尺寸和颜色。Turtle 的单个实例将包含乌龟大小和颜色的信息。
+          更准确的说法应该是类 Turtle 表明乌龟具有大小和颜色属性。Turtle 的单个实例将包含关于乌龟大小和颜色的信息。
         resources:
           files: []
           google_plus_link: null
@@ -723,7 +723,7 @@ concepts:
     key: a179237e-7e90-4dab-8567-45b587e06c53
     locale: zh-cn
     version: 1.0.0
-    title: 用正方形来画圆圈
+    title: 用正方形来绘制圆圈
     semantic_type: Concept
     updated_at: 'Fri Mar 31 2017 09:53:22 GMT+0000 (UTC)'
     is_public: true
@@ -737,7 +737,7 @@ concepts:
         key: b8476a26-d352-4d00-a22a-d8151adf52a7
         locale: zh-cn
         version: 1.0.0
-        title: 用正方形来画圆圈
+        title: 用正方形来绘制圆圈
         semantic_type: VideoAtom
         updated_at: 'Tue Apr 18 2017 17:06:22 GMT+0000 (UTC)'
         is_public: true
@@ -848,7 +848,7 @@ concepts:
         text: |-
           ### 论坛
 
-          [点击这里](https://discussions.youdaxue.com/t/topic/38152)，在论坛上分享你的迷你项目。
+          [点击这里](https://discussions.youdaxue.com/t/topic/38152)，在论坛上分享你完成的精彩迷你项目。
         instructor_notes: ''
         resources: null
       - id: 280959
@@ -863,7 +863,7 @@ concepts:
           - 是的！
         positive_feedback: 真棒！
         video_feedback: null
-        description: 你在论坛上分享了你的迷你项目了吗？
+        description: 你已经在论坛上分享了你的迷你项目了吗？
   - id: 281784
     key: 4735f281-e6ce-4dd7-ab6c-a662004b8f07
     locale: zh-cn

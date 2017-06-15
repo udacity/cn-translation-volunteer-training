@@ -76,7 +76,7 @@ concepts:
     key: 1880eb1e-67a4-45d9-b27d-6483e1547d92
     locale: zh-cn
     version: 1.0.0
-    title: 我的令人尴尬的故事
+    title: 一个令人尴尬的故事
     semantic_type: Concept
     updated_at: 'Wed Mar 15 2017 13:03:48 GMT+0000 (UTC)'
     is_public: true
@@ -116,9 +116,9 @@ concepts:
         text: |-
           ### 论坛
 
-          在每一步我们都会让你在论坛上分享自己的成果，使用这个[论坛目录](https://discussions.udacity.com/c/nd000-stage-3-create-a-movie-website/profanity-editor)链接来找到对应的子论坛来发布你的成果。你应该在你的浏览器上保存这个书签，以方便你每次想要分享东西时使用。
+          学习中的每一步，我们都会让你在论坛上分享自己的成果，使用这个[论坛目录](https://discussions.udacity.com/c/nd000-stage-3-create-a-movie-website/profanity-editor)链接来找到对应的子论坛来发布你的成果。我们建议您在浏览器上保存这个书签，以方便你每次想要分享东西时使用。
 
-          好好享受这个脏字检测器吧！
+          好好享受“脏字检测器”的课程吧！
         instructor_notes: ''
         resources: null
       - id: 280981
@@ -133,7 +133,7 @@ concepts:
           - '是的！我分享了！'
         positive_feedback: 很期待看到你的分享！
         video_feedback: null
-        description: 你在论坛分享了发生在你身上的一些尴尬的事情了吗？
+        description: 你在论坛分享了你曾遭遇过的尴尬境遇吗？
   - id: 281789
     key: b03b5915-b295-4242-ba56-f8a3014f305b
     locale: zh-cn
@@ -178,7 +178,7 @@ concepts:
           - '是的，我分享了我写“脏字检测器”程序的计划。'
         positive_feedback: 真棒！
         video_feedback: null
-        description: 你在论坛分享了你的步骤了吗？
+        description: 你在论坛分享了你的操作步骤了吗？
   - id: 281790
     key: a7b7df10-0d5b-4c57-acca-bb42b63e7cbf
     locale: zh-cn
@@ -258,7 +258,7 @@ concepts:
         updated_at: 'Wed Mar 15 2017 13:03:45 GMT+0000 (UTC)'
         is_public: true
         question:
-          prompt: 我应该在我们的 Python 标准库模型内放置函数 'open'？
+          prompt: 我应该在我们的 Python 标准库模型的何处放置函数 'open'？
           correct_feedback: null
           video_feedback:
             youtube_id: cpVojM7DYqI
@@ -399,10 +399,10 @@ concepts:
         updated_at: 'Wed Mar 15 2017 13:03:45 GMT+0000 (UTC)'
         is_public: true
         tasks:
-          - Yes!
-        positive_feedback: Awesome! Each student can learn something new through someone else's experience.
+          - 是的！
+        positive_feedback: 太棒了！每位同学都可以通过别人分享的经验获得新的收获。
         video_feedback: null
-        description: Did you share your experience in the forums?
+        description: 你在论坛上分享了你的经验吗？
   - id: 181139
     key: '10106586900923'
     locale: zh-cn
@@ -467,7 +467,7 @@ concepts:
         tags: null
         instructor_notes: |-
           使用 <b>What Do You Like</b> 检查冒犯用语！
-          重要提示：原始 Google 链接已被弃用，所以我们创建了一个新的网站供你查询。请在 Python 练习中使用以下链接！
+          重要提示：视频中的原始 Google 链接已被弃用，所以我们创建了一个新的网站供你查询。请在 Python 练习中使用以下链接！
           <br>
            <a href="http://www.wdylike.appspot.com/?q=shot" target="_blank">http://www.wdylike.appspot.com/?q=shot</a><br>
         resources:
@@ -560,7 +560,7 @@ concepts:
         tags: null
         instructor_notes: |-
           **辅助教程**
-          
+
            - [If 语句](http://www.tutorialspoint.com/python/python_if_else.htm)
 
         resources:

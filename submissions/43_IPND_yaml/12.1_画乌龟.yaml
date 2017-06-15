@@ -189,7 +189,7 @@ concepts:
     key: '9944900960923'
     locale: zh-cn
     version: 1.0.0
-    title: 小测验：如何画一个方形
+    title: 如何画一个方形
     semantic_type: Concept
     updated_at: 'Fri Mar 31 2017 09:53:15 GMT+0000 (UTC)'
     is_public: true
@@ -201,7 +201,7 @@ concepts:
         key: '994490096'
         locale: zh-cn
         version: 1.0.0
-        title: 小测验：如何画一个方形
+        title: 如何画一个方形
         semantic_type: QuizAtom
         updated_at: 'Wed Apr 19 2017 22:02:18 GMT+0000 (UTC)'
         is_public: true
@@ -537,7 +537,7 @@ concepts:
     key: '9944901000923'
     locale: zh-cn
     version: 1.0.0
-    title: 小测验：代码出了什么问题？
+    title: 代码出了什么问题？
     semantic_type: Concept
     updated_at: 'Fri Mar 31 2017 09:53:19 GMT+0000 (UTC)'
     is_public: true
@@ -549,7 +549,7 @@ concepts:
         key: '994490100'
         locale: zh-cn
         version: 1.0.0
-        title: 小测验：代码出了什么问题？
+        title: 代码出了什么问题？
         semantic_type: QuizAtom
         updated_at: 'Wed Apr 19 2017 21:57:38 GMT+0000 (UTC)'
         is_public: true
@@ -723,7 +723,7 @@ concepts:
     key: a179237e-7e90-4dab-8567-45b587e06c53
     locale: zh-cn
     version: 1.0.0
-    title: 用正方形来完成圆圈的绘制
+    title: 用正方形来绘制圆圈
     semantic_type: Concept
     updated_at: 'Fri Mar 31 2017 09:53:22 GMT+0000 (UTC)'
     is_public: true
@@ -737,7 +737,7 @@ concepts:
         key: b8476a26-d352-4d00-a22a-d8151adf52a7
         locale: zh-cn
         version: 1.0.0
-        title: 用正方形来完成圆圈的绘制
+        title: 用正方形来绘制圆圈
         semantic_type: VideoAtom
         updated_at: 'Tue Apr 18 2017 17:06:22 GMT+0000 (UTC)'
         is_public: true

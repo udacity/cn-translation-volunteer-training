@@ -1,5 +1,5 @@
 # AI Nanodegree Program Syllabus: Term 1, In Depth
-# AI 纳米学位计划大纲 第一项 全面
+# AI 纳米学位计划大纲 第一项 全面深入
 ![img](https://cdn-images-1.medium.com/max/800/1*nhUeHg1rMoeCUZcFYz7_iw.png)
 ![图片](https://cdn-images-1.medium.com/max/800/1*nhUeHg1rMoeCUZcFYz7_iw.png)
 Here at Udacity, we are about to kick off the first-ever term of our [Artificial Intelligence Nanodegree](http://udacity.com/ai), and we couldn’t be more excited!
@@ -15,7 +15,7 @@ So! Here is our first 3-month curriculum in depth, including all the projects th
 #### Introduction
 #### 介绍
 Meet the instructors: [Sebastian Thrun](https://en.wikipedia.org/wiki/Sebastian_Thrun), [Peter Norvig](https://en.wikipedia.org/wiki/Peter_Norvig), and [Thad Starner](https://en.wikipedia.org/wiki/Thad_Starner). These are some of the biggest names in the field of AI. Sebastian is the creator of Stanley, one of the first Self-Driving Cars. Peter is the author of the most authoritative AI textbook in the field, [Artificial Intelligence: A Modern Approach](https://www.amazon.com/Artificial-Intelligence-Modern-Approach-3rd/dp/0136042597). Finally, Thad Starner is a Professor at Georgia Tech and a researcher at Google X.
-会见导师 [Sebastian Thrun](https://en.wikipedia.org/wiki/Sebastian_Thrun) [Peter Norvig](https://en.wikipedia.org/wiki/Peter_Norvig) 和 [Thad Starner](https://en.wikipedia.org/wiki/Thad_Starner) 他们在 AI 领域都是最有名的 Sebastian 是初代自动驾驶汽车之一的 Stanley 的作者 Peter 是 AI 领域内最权威AI教科书的作者 [人工智能 一种现代方法](https://www.amazon.com/Artificial-Intelligence-Modern-Approach-3rd/dp/0136042597) 最后 Thad Starner 是 Georgia Tech 的教授，还是谷歌 X 的研究员
+会见导师 [Sebastian Thrun](https://en.wikipedia.org/wiki/Sebastian_Thrun) 、[Peter Norvig](https://en.wikipedia.org/wiki/Peter_Norvig) 和 [Thad Starner](https://en.wikipedia.org/wiki/Thad_Starner) 他们在 AI 领域都是最有名的  Sebastian 是初代自动驾驶汽车之一的 Stanley 的作者  Peter 是 AI 领域内最权威AI教科书的作者 [人工智能 一种现代方法](https://www.amazon.com/Artificial-Intelligence-Modern-Approach-3rd/dp/0136042597) 最后 Thad Starner 是 Georgia Tech 的教授 还是谷歌 X 的研究员
 Learn about what we’ll be covering in this program, and what you get from a Udacity Nanodegree program.
 了解我们在这个计划中所涉及的内容 以及您从优达学城纳米学位计划中获得的内容
 **Project: Build an AI to solve Sudoku**
@@ -25,7 +25,7 @@ Learn about what we’ll be covering in this program, and what you get from a Ud
 Your first project — use AI to solve Sudoku puzzles
 你的第一个项目——使用人工智能来解决数独谜题
 You’ll build a simple AI using Constraint Propagation and Search to solve Sudoku puzzles. You’ll extend this to solve Diagonal Sudokus and implement advanced Sudoku strategies such as the Naked Twins strategy.
-您将使用约束传播构建一个简单的 AI 和搜索解决数独谜题 您将扩展这一点来解决对角线九宫格游戏 并实现高级的数独策略 例如裸双胞胎策略。
+您将使用约束传播构( Constraint Propagation )建一个简单的 AI 和搜索解决数独谜题 您将扩展这一点来解决对角线九宫格游戏 并实现高级的数独策略 例如裸双胞胎策略 
 ------
 
 #### Deterministic AIs
@@ -37,7 +37,7 @@ You’ll build a simple AI using Constraint Propagation and Search to solve Sudo
 Google’s DeepMind recently shocked the world by creating an AI, AlphaGo, that could defeat the world champion at Go
 谷歌的 DeepMind 最近创造了一个 AI AlphaGo 震惊了世界 
 Game Playing is about teaching AI Agents to win at adversarial games ranging from Chess to Starcraft. In many ways, Game Playing is one of the hallmarks of intelligence, especially in extremely complex games such as Go. This field has long been one of the most exciting areas of exploration for AI, with landmark AIs such as IBM’s DeepBlue, and Google’s latest AlphaGo. You’ll learn about Minimax game trees and how to use alpha-beta pruning to dramatically improve results for your agent. In addition, you’ll apply iterative deepening to understand efficient ways to expand the game tree. This will be in the context of the game Isolation.
-在关于教 AI 代理如何在从象棋到星际争霸这样的对抗性游戏中获胜的博弈中 它可能会击败世界冠军 在很多方面 玩游戏是智力的标志之一 尤其是在极其复杂的游戏中 比如围棋 这一领域长期以来一直是人工智能最令人兴奋的探索领域之一 具有里程碑式的 AIs 如 IBM 的 DeepBlue 和谷歌的最新的 AlphaGo 您将了解到极小的游戏树以及如何使用 alpha-beta 剪枝来极大地提高您的代理的结果 此外 您还将应用迭代深化 以了解扩展游戏树的有效方法 这将出现在游戏隔离的上下文中 
+在关于教 AI 代理如何在从象棋到星际争霸这样的对抗性游戏中获胜的博弈中  AlphaGo 可能会击败世界冠军 在很多方面 玩游戏是智力的标志之一 尤其是在极其复杂的游戏中 比如围棋 这一领域长期以来一直是人工智能最令人兴奋的探索领域之一 具有里程碑式的 AIs 如 IBM 的 DeepBlue 和谷歌的最新的 AlphaGo 您将了解到极小的游戏树以及如何使用 alpha-beta 剪枝来极大地提高您的代理的结果 此外 您还将应用迭代深化 以了解扩展游戏树的有效方法 这将出现在游戏隔离的上下文中 
 **Project: Build a Game-Playing AI Agent to win the board game Isolation**
 **项目  建立一个游戏的AI代理来赢得棋盘游戏隔离**
 ![img](https://cdn-images-1.medium.com/max/800/1*diDa7LDI6n6uI3geUs0pvA.png)
@@ -45,7 +45,7 @@ Game Playing is about teaching AI Agents to win at adversarial games ranging fro
 Your second project — build an AI that wins at the board game Isolation
 你的第二个项目——建立一个能够在棋盘游戏隔离中获胜的 AI
 You’ll apply what you just learned about game-playing strategies to build an AI to play Isolation. We’ll have your AI compete against other AIs to see how well you’ve performed!
-你将会运用你刚学到的游戏策略来建立一个 AI 去实现隔离 我们会让你的人工智能与其他 AIs 竞争 看看你的表现如何！
+你将会运用你刚学到的游戏策略来建立一个 AI 去实现隔离 我们会让你的人工智能与其他 AI 竞争 看看你的表现如何吧！
 **Search**
 **搜索算法**
 We’ll cover Depth First Search, Breadth First Search, A* Search, and how to analyze heuristics.
@@ -55,7 +55,7 @@ We’ll cover Depth First Search, Breadth First Search, A* Search, and how to an
 ![img](https://cdn-images-1.medium.com/max/800/1*tD2bv-4POBDnHiohEemTlA.gif)
 ![图片](https://cdn-images-1.medium.com/max/800/1*tD2bv-4POBDnHiohEemTlA.gif)
 In this lab, you’ll use search techniques to help Pac-Man navigate his maze efficiently.
-在这个实验室里 你将使用搜索技术来帮助 Pac-Man 高效的浏览他的迷宫。
+在这个实验室里 你将使用搜索技术来帮助 Pac-Man 高效的浏览他的迷宫 
 We’ll be using the wonderful AI projects created by the AI Department of UC Berkeley to teach Pac-Man to navigate his world, and eat the most food in the shortest time. You’ll write your own implementations of BFS, DFS,and A* to complete this project.
 我们将使用 UC Berkeley 的 AI 分校创建的奇妙 AI 项目来教 Pac-Man 浏览他的世界 并在最短的时间内吃掉最多的食物 您将编写自己的 BFS、DFS 和 A* 算法实现来完成这个项目
 **Simulated Annealing**
@@ -115,19 +115,19 @@ Feel free to reach out to us if you have any questions, and see you in the progr
 In the second term of the program, you’ll explore the cutting edge advancements of AI - Deep Learning. You’ll learn the foundations of neural networks, understand gradient descent and backpropagation, and learn to make architecture choices. We’ll cover Convolutional Networks, Reinforcement Learning, and Recurrent Neural Networks. You’ll also choose a concentration in either Speech, Computer Vision, or Natural Language Processing. Here are our concentration partners:
 在项目的第二个阶段 你将探索 AI——深度学习( Deep Learning )的前沿发展 您将了解神经网络的基础 了解梯度下降和反向传播 并学习如何进行架构选择 我们将讨论卷积神经网络( Convolutional Networks )、强化学习( Reinforcement Learning )和循环神经网络( Recurrent Neural Networks ) 你还可以选择演讲、计算机视觉或自然语言处理的集合 以下是我们的核心合作伙伴 
 #### Concentration 1: Speech with Amazon Alexa
-#### 核心 1  与 Amazon Alexa 进行演讲
+#### 核心1  与 Amazon Alexa 进行演讲
 ![img](https://cdn-images-1.medium.com/max/800/1*GP1HbWrXTlZObhLKL7Ww9w.png)
 ![图片](https://cdn-images-1.medium.com/max/800/1*GP1HbWrXTlZObhLKL7Ww9w.png)
 You’ll learn from the team behind Amazon Alexa to work in our Speech concentration
 你将从亚马逊 Alexa 背后的团队学习到如何在我们的演讲核心中工作
 #### Concentration 2: Natural Language Processing with IBM Watson
-#### 核心 2  与 IBM Watson 进行自然语言处理
+#### 核心2  与 IBM Watson 进行自然语言处理
 ![img](https://cdn-images-1.medium.com/max/800/1*rF9zkca1rFYfqJfnBgGiuA.png)
 ![图片](https://cdn-images-1.medium.com/max/800/1*rF9zkca1rFYfqJfnBgGiuA.png)
 You’ll learn from the team behind IBM Watson in our Natural Language Processing concentration
 您将从 IBM Watson 背后的团队学习自然语言处理核心
 #### Concentration 3: Computer Vision with Affectiva
-#### 核心 3 与 Affectiva 进行计算机视觉学习
+#### 核心3 与 Affectiva 进行计算机视觉学习
 ![img](https://cdn-images-1.medium.com/max/800/1*CgTu0XRrhDCXhrcleTrgeQ.png)
 ![图片](https://cdn-images-1.medium.com/max/800/1*CgTu0XRrhDCXhrcleTrgeQ.png)
 You’ll work with the MIT PhD team behind Affectiva in our Computer Vision concentration
@@ -137,4 +137,4 @@ Stay tuned for an in-depth post on Term 2 curriculum, coming soon!
 ------
 
 With this curriculum, we believe students will receive an exciting, hands-on exposure to both the foundations—and the cutting-edge advancements—of AI that are rapidly changing technology today. In addition, **you’ll get to see how engineers in AI labs such as IBM Watson and Amazon Alexa actually use AI in practice**, giving you the chance to go beyond theory and into application. Through our AI program, we want to provide you the best entry possible into the space of AI, online or offline. Join us!
-通过这门课程 我们相信学生们将会得到一个令人兴奋的、亲身实践的机会 他们将会接触到那些正在迅速变化的技术的基础和前沿的进步 此外 **你还会看到 IBM Watson 和 Amazon Alexa 等 AI 实验室的工程师在实践中实际使用 AI ** 这将给你超越理论和应用的机会 通过我们的 AI 程序 我们想为你提供进入 AI 空间最好的可能性 在线或离线 加入我们吧！ 
+通过这门课程 我们相信学生们将会得到一个令人兴奋的、亲身实践的机会 他们将会接触到那些正在迅速变化的基础技术和前沿进展 此外 **你还会看到 IBM Watson 和 Amazon Alexa 等 AI 实验室的工程师在实践中实际运用 AI ** 这将给你超越理论和应用的机会 通过我们的 AI 程序 我们想为你提供进入 AI 空间最佳的可能性 在线或离线 加入我们吧！ 

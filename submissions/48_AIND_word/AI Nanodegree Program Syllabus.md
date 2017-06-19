@@ -37,7 +37,7 @@ You’ll build a simple AI using Constraint Propagation and Search to solve Sudo
 Google’s DeepMind recently shocked the world by creating an AI, AlphaGo, that could defeat the world champion at Go
 谷歌的 DeepMind 最近创造了一个 AI AlphaGo 震惊了世界 
 Game Playing is about teaching AI Agents to win at adversarial games ranging from Chess to Starcraft. In many ways, Game Playing is one of the hallmarks of intelligence, especially in extremely complex games such as Go. This field has long been one of the most exciting areas of exploration for AI, with landmark AIs such as IBM’s DeepBlue, and Google’s latest AlphaGo. You’ll learn about Minimax game trees and how to use alpha-beta pruning to dramatically improve results for your agent. In addition, you’ll apply iterative deepening to understand efficient ways to expand the game tree. This will be in the context of the game Isolation.
-在关于教 AI 代理如何在从象棋到星际争霸这样的对抗性游戏中获胜的博弈中 它可能会击败世界冠军
+在关于教 AI 代理如何在从象棋到星际争霸这样的对抗性游戏中获胜的博弈中 它可能会击败世界冠军 在很多方面 玩游戏是智力的标志之一 尤其是在极其复杂的游戏中 比如围棋 这一领域长期以来一直是人工智能最令人兴奋的探索领域之一 具有里程碑式的 AIs 如 IBM 的 DeepBlue 和谷歌的最新的 AlphaGo 您将了解到极小的游戏树以及如何使用 alpha-beta 剪枝来极大地提高您的代理的结果 此外 您还将应用迭代深化 以了解扩展游戏树的有效方法 这将出现在游戏隔离的上下文中 
 **Project: Build a Game-Playing AI Agent to win the board game Isolation**
 **项目  建立一个游戏的AI代理来赢得棋盘游戏隔离**
 ![img](https://cdn-images-1.medium.com/max/800/1*diDa7LDI6n6uI3geUs0pvA.png)

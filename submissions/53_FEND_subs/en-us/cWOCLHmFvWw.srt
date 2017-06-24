@@ -1,0 +1,107 @@
+1
+00:00:00,580 --> 00:00:01,680
+Hi, I'm Julia.
+
+2
+00:00:01,679 --> 00:00:02,770
+>> And, I'm James.
+
+3
+00:00:02,770 --> 00:00:06,379
+>> We'll be your instructors for
+this introductory course on JavaScript.
+
+4
+00:00:06,379 --> 00:00:09,570
+JavaScript is a programming
+language created for the web.
+
+5
+00:00:09,570 --> 00:00:13,990
+If you're familiar with using HTML and
+CSS to create webpages, JavaScript is
+
+6
+00:00:13,990 --> 00:00:17,910
+the final piece that you'll need to
+really make your websites come to life.
+
+7
+00:00:17,910 --> 00:00:22,149
+>> Back in 1995, when Brandan Eich
+created a JavaScript, it was created to
+
+8
+00:00:22,149 --> 00:00:26,299
+make it easier to add interactive and
+dynamic elements to websites.
+
+9
+00:00:26,300 --> 00:00:30,050
+But today, JavaScript is used for
+all sorts of applications.
+
+10
+00:00:30,050 --> 00:00:32,960
+>> From programming a robot with 
+Arduino to writing a game
+
+11
+00:00:32,960 --> 00:00:34,170
+script in Unity.
+
+12
+00:00:34,170 --> 00:00:37,490
+In fact, even some code editors
+were built with JavaScript.
+
+13
+00:00:37,490 --> 00:00:41,390
+The point is, the opportunities
+with JavaScript are endless.
+
+14
+00:00:41,390 --> 00:00:42,160
+>> In this course,
+
+15
+00:00:42,159 --> 00:00:45,399
+you'll learn about the foundations of
+the JavaScript programming language.
+
+16
+00:00:45,399 --> 00:00:46,100
+And along the way,
+
+17
+00:00:46,100 --> 00:00:50,170
+you'll familiarize yourself with the
+tools used by JavaScript programmers.
+
+18
+00:00:50,170 --> 00:00:52,850
+Finally, we want to make sure you get
+enough practice with the basics of
+
+19
+00:00:52,850 --> 00:00:53,441
+the language.
+
+20
+00:00:53,441 --> 00:00:56,837
+So between each section, you'll have
+access to the problem sets that
+
+21
+00:00:56,837 --> 00:00:59,450
+reinforce the topics we just learned.
+
+22
+00:00:59,450 --> 00:01:00,609
+>> Before we get started,
+
+23
+00:01:00,609 --> 00:01:03,746
+let's take a quick detour to talk
+a little bit about JavaScript's history.
+

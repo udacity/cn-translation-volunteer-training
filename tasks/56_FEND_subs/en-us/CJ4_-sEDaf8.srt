@@ -1,0 +1,154 @@
+﻿1
+00:00:00,310 --> 00:00:03,140
+A programming language is used for
+a computer to understand.
+
+2
+00:00:03,140 --> 00:00:06,769
+But as your code gets more and more
+complex, it can get harder and harder
+
+3
+00:00:06,769 --> 00:00:10,800
+for you and other humans to read your
+code and to understand what it does.
+
+4
+00:00:10,800 --> 00:00:14,530
+Comments are often used by developers to
+help clarify the meaning of your code
+
+5
+00:00:14,529 --> 00:00:16,289
+in a human-friendly language.
+
+6
+00:00:16,289 --> 00:00:20,439
+In JavaScript, a comment is any
+text after a double forward slash
+
+7
+00:00:20,440 --> 00:00:23,580
+if you want to write comments
+one line at a time like this, or
+
+8
+00:00:23,579 --> 00:00:25,949
+any text in between a slash star and
+
+9
+00:00:25,949 --> 00:00:30,039
+star slash if you know you're going
+to be writing a block of comments.
+
+10
+00:00:30,039 --> 00:00:32,990
+Comments are not executed by
+the JavaScript interpreter, so
+
+11
+00:00:32,990 --> 00:00:35,820
+you could pretty much say
+anything you want in the comment.
+
+12
+00:00:35,820 --> 00:00:38,869
+But usually you try to make them
+a little more useful than this.
+
+13
+00:00:38,869 --> 00:00:41,780
+For example, here's some code
+I wrote a while ago, and
+
+14
+00:00:41,780 --> 00:00:44,870
+it's not really obvious to me
+what I was doing with this code.
+
+15
+00:00:44,869 --> 00:00:47,549
+There's seems to be a function,
+a for loop,
+
+16
+00:00:47,549 --> 00:00:50,759
+some variables with really
+bad variable names.
+
+17
+00:00:50,759 --> 00:00:53,599
+Don't worry if you don't know
+what any of these means just yet.
+
+18
+00:00:53,600 --> 00:00:58,020
+What you need to know right now is
+that if I had used comments like this,
+
+19
+00:00:58,020 --> 00:01:00,175
+I would, and you probably would too,
+
+20
+00:01:00,174 --> 00:01:04,319
+have an easier time remembering
+what this code was originally for.
+
+21
+00:01:04,319 --> 00:01:07,780
+See, now I can tell that this function
+reverses the order of characters in
+
+22
+00:01:07,780 --> 00:01:12,599
+a word, and it does this by looping
+over the characters in reverse order and
+
+23
+00:01:12,599 --> 00:01:14,379
+adding them to a new word.
+
+24
+00:01:14,379 --> 00:01:18,500
+Some of the quizzes in this course might
+include comments that give you hints or
+
+25
+00:01:18,500 --> 00:01:20,269
+instructions to complete a quiz.
+
+26
+00:01:20,269 --> 00:01:22,829
+We encourage you to use
+comments in your own code
+
+27
+00:01:22,829 --> 00:01:26,390
+to explain any non-obvious code
+you write in your quizzes.
+
+28
+00:01:26,390 --> 00:01:28,930
+Not only will you develop
+good coding habits, but
+
+29
+00:01:28,930 --> 00:01:31,700
+you will also improve
+the readability of your code
+
+30
+00:01:31,700 --> 00:01:34,269
+if you ever need to refer back
+to these quizzes for review.
+
+31
+00:01:34,269 --> 00:01:38,030
+All right, now it's time to
+go on to your first quiz.
+
+32
+00:01:38,030 --> 00:01:38,409
+Good luck.
+

@@ -1,0 +1,97 @@
+﻿1
+00:00:00,480 --> 00:00:02,940
+Let's take a look at
+the string datatype.
+
+2
+00:00:02,940 --> 00:00:06,509
+You've actually used a string before,
+and maybe just didn't know it.
+
+3
+00:00:06,509 --> 00:00:09,150
+When you type a message
+inside console.log,
+
+4
+00:00:09,150 --> 00:00:11,509
+that message is actually
+just a JavaScript string.
+
+5
+00:00:13,000 --> 00:00:15,839
+So here, Hiya, Friend, is just a string.
+
+6
+00:00:17,140 --> 00:00:20,760
+Strings can be single letters,
+like the character h, or
+
+7
+00:00:20,760 --> 00:00:25,450
+even contain numbers,
+like the string 123.
+
+8
+00:00:25,449 --> 00:00:28,879
+The important thing is that you
+use quotes to signify a string.
+
+9
+00:00:28,879 --> 00:00:30,869
+It doesn't matter if
+the quotes are single or
+
+10
+00:00:30,870 --> 00:00:34,146
+double quotes, but
+they do have to match.
+
+11
+00:00:34,146 --> 00:00:37,929
+I used double quotes here and
+single quotes here.
+
+12
+00:00:39,100 --> 00:00:41,800
+If I try to pass the string
+to console.log but
+
+13
+00:00:41,799 --> 00:00:46,429
+forget to use the quotes,
+JavaScript will return back an error.
+
+14
+00:00:47,960 --> 00:00:51,399
+I get this reference error, because
+the JavaScript engine thinks I'm talking
+
+15
+00:00:51,399 --> 00:00:55,829
+about a variable called hello instead
+of a string with the value of hello.
+
+16
+00:00:57,000 --> 00:01:01,271
+We haven't talked about variables just
+yet, but the moral of the story here
+
+17
+00:01:01,271 --> 00:01:04,021
+is to remember to use
+quotes when using strings.
+
+18
+00:01:04,022 --> 00:01:05,435
+[BLANK_AUDIO]
+
+19
+00:01:05,435 --> 00:01:09,353
+If I add the quotes in, then the string
+gets printed out to the console.
+
+20
+00:01:09,353 --> 00:01:12,289
+[BLANK_AUDIO]
+

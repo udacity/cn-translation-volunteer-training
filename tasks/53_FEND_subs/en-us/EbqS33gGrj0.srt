@@ -1,0 +1,138 @@
+﻿1
+00:00:00,850 --> 00:00:05,419
+JavaScript is created in just 10
+days by Brendan Eich back in 1995,
+
+2
+00:00:05,419 --> 00:00:08,028
+while Eich was working
+on Netscape Navigator.
+
+3
+00:00:08,028 --> 00:00:09,529
+For those of you don't know,
+
+4
+00:00:09,529 --> 00:00:13,239
+Netscape Navigator was one of
+the Internet's first web browsers.
+
+5
+00:00:13,240 --> 00:00:15,750
+Today, you use browsers
+like Google Chrome,
+
+6
+00:00:15,750 --> 00:00:20,478
+Mozilla Firefox, Apple Safari, and
+Microsoft Edge to surf the web.
+
+7
+00:00:20,478 --> 00:00:23,910
+>> Prior to Eich's creation of
+JavaScript, websites just existed as
+
+8
+00:00:23,910 --> 00:00:28,910
+pages of HTML and CSS with
+the occasional plug-in or Java applet.
+
+9
+00:00:28,910 --> 00:00:29,969
+>> Wait, Java?
+
+10
+00:00:29,969 --> 00:00:32,129
+>> Yes, well, at least at first.
+
+11
+00:00:32,130 --> 00:00:35,440
+JavaScript, what this course is about,
+is totally different and
+
+12
+00:00:35,439 --> 00:00:38,140
+not related to Java in any way.
+
+13
+00:00:38,140 --> 00:00:43,009
+The fact is, JavaScript has had sort
+of a weird past when it comes to names.
+
+14
+00:00:43,009 --> 00:00:45,539
+JavaScript was originally
+called LiveScript but
+
+15
+00:00:45,539 --> 00:00:48,390
+it was changed back to JavaScript
+as a marketing decision in
+
+16
+00:00:48,390 --> 00:00:52,020
+order to piggyback off
+the popularity of Java at the time.
+
+17
+00:00:52,020 --> 00:00:55,550
+As the language evolved, competing
+versions of the language emerged.
+
+18
+00:00:55,549 --> 00:00:58,339
+So JavaScript was eventually
+taken to Ecma International so
+
+19
+00:00:58,340 --> 00:01:01,160
+that an official standard for
+the language could be formed.
+
+20
+00:01:01,159 --> 00:01:04,348
+>> Today, the language itself is
+still referred to as JavaScript.
+
+21
+00:01:04,349 --> 00:01:07,680
+But recent versions are referenced
+by their ECMAScript version number,
+
+22
+00:01:07,680 --> 00:01:09,720
+like ES5 or ES6.
+
+23
+00:01:09,719 --> 00:01:13,760
+Even more recently, the standards body
+has transitioned to a year-based number
+
+24
+00:01:13,760 --> 00:01:16,130
+to promote a more
+consistent release cycle.
+
+25
+00:01:16,129 --> 00:01:19,539
+So we have now have ES2016,
+ES2017, and so on.
+
+26
+00:01:20,799 --> 00:01:22,560
+I know, it's confusing.
+
+27
+00:01:22,560 --> 00:01:25,490
+>> All things considered, JavaScript
+has grown to be one of the most popular
+
+28
+00:01:25,489 --> 00:01:29,359
+languages in the world and is considered
+one of the three foundational pillars of
+
+29
+00:01:29,359 --> 00:01:30,531
+front end web development.
+

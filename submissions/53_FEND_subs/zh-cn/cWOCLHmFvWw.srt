@@ -24,7 +24,7 @@ JavaScript 就是真正让网站变得生动的最后一项必备技术
 
 7
 00:00:17,910 --> 00:00:22,149
-回溯到 1995 年 Brendan Eich 创造 JavaScript 之时
+早在 1995 年 当 Brendan Eich 创造 JavaScript 时
 
 8
 00:00:22,149 --> 00:00:26,299

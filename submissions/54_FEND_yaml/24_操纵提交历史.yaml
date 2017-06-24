@@ -1,0 +1,1946 @@
+id: 192152
+key: '2980038599'
+locale: zh-cn
+version: 1.0.0
+title: 操纵提交历史
+semantic_type: Lesson
+updated_at: 'Wed Dec 28 2016 07:56:49 GMT+0000 (UTC)'
+is_public: true
+image: null
+video: null
+summary: 学习几种不同的版本控制系统，认识 Git 为什么对程序员很重要。使用 Git 浏览一个现有项目的历史。
+duration: 180
+is_project_lesson: false
+_concepts_ids:
+  - 191482
+  - 191485
+  - 191484
+  - 191486
+  - 191488
+  - 191489
+  - 191487
+  - 191490
+  - 191491
+  - 191492
+  - 191494
+  - 191493
+  - 191495
+  - 191496
+  - 191497
+  - 191498
+  - 191499
+  - 191501
+  - 191500
+  - 191502
+  - 191503
+  - 191504
+  - 191505
+  - 191506
+  - 191511
+  - 191507
+  - 191509
+  - 191510
+  - 191508
+  - 191512
+  - 191514
+  - 191516
+  - 191515
+_project_id: null
+concepts:
+  - id: 191482
+    key: '29607789240923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 简介
+    semantic_type: Concept
+    updated_at: 'Wed Oct 12 2016 04:53:56 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 190332
+    atoms:
+      - id: 190332
+        key: '2960778924'
+        locale: zh-cn
+        version: 1.0.0
+        title: 简介
+        semantic_type: VideoAtom
+        updated_at: 'Fri Apr 14 2017 18:29:40 GMT+0000 (UTC)'
+        is_public: true
+        tags: []
+        instructor_notes: null
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        video:
+          youtube_id: Ytux4IOAR_s
+          subtitles:
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d1ce48_introduction-how-to-use-git-and-github/subtitles/lang_ar_vs1.srt'
+              language_code: ar
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d1ce48_introduction-how-to-use-git-and-github/subtitles/lang_en_vs3.srt'
+              language_code: en
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d1ce48_introduction-how-to-use-git-and-github/subtitles/lang_pt-br_vs10.srt'
+              language_code: pt-br
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d1ce48_introduction-how-to-use-git-and-github/subtitles/lang_zh-cn_vs1.srt'
+              language_code: zh-cn
+          transcodings:
+            uri_480p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.2960778924/video_99a96ce298d57f05cc7ac1e04d4c32f0_480p.mp4'
+            uri_480p_1000kbps_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.2960778924/video_99a96ce298d57f05cc7ac1e04d4c32f0_480p_1000kbps.mp4'
+            uri_480p_ogg: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.2960778924/video_99a96ce298d57f05cc7ac1e04d4c32f0_480p.ogg'
+            uri_720p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.2960778924/video_99a96ce298d57f05cc7ac1e04d4c32f0_720p.mp4'
+            uri_hls: null
+  - id: 191485
+    key: '29607789250923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 课程概述
+    semantic_type: Concept
+    updated_at: 'Tue Oct 11 2016 10:01:29 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 190333
+    atoms:
+      - id: 190333
+        key: '2960778925'
+        locale: zh-cn
+        version: 1.0.0
+        title: 课程概述
+        semantic_type: VideoAtom
+        updated_at: 'Fri Apr 14 2017 18:28:17 GMT+0000 (UTC)'
+        is_public: true
+        tags: []
+        instructor_notes: |-
+          请查阅<a href="https://www.udacity.com/wiki/ud775/command-line-instructions" target="_blank">此页面</a>，它提供了一些教程，帮助你开始使用 Unix 风格的命令行。
+
+          优达学城还开设有一门课程：<a href="https://classroom.udacity.com/courses/ud595/lessons/4597278561/concepts/46968695970923" target="_blank">Unix 命令行基础</a>，可助你立即上手！
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        video:
+          youtube_id: ht7vYtWOazI
+          subtitles:
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d11274_course-overview-how-to-use-git-and-github/subtitles/lang_zh-cn_vs1.srt'
+              language_code: zh-cn
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d11274_course-overview-how-to-use-git-and-github/subtitles/lang_en_vs3.srt'
+              language_code: en
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d11274_course-overview-how-to-use-git-and-github/subtitles/lang_ar_vs1.srt'
+              language_code: ar
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d11274_course-overview-how-to-use-git-and-github/subtitles/lang_pt-br_vs8.srt'
+              language_code: pt-br
+          transcodings:
+            uri_480p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.2960778925/video_1bbdc7c5c6d7fe149db4ac59c477edf5_480p.mp4'
+            uri_480p_1000kbps_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.2960778925/video_1bbdc7c5c6d7fe149db4ac59c477edf5_480p_1000kbps.mp4'
+            uri_480p_ogg: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.2960778925/video_1bbdc7c5c6d7fe149db4ac59c477edf5_480p.ogg'
+            uri_720p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.2960778925/video_1bbdc7c5c6d7fe149db4ac59c477edf5_720p.mp4'
+            uri_hls: null
+  - id: 191484
+    key: '33396087130923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 两个文件之间的差异
+    semantic_type: Concept
+    updated_at: 'Tue Oct 11 2016 10:01:30 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 190334
+    atoms:
+      - id: 190334
+        key: '3339608713'
+        locale: zh-cn
+        version: 1.0.0
+        title: 两个文件之间的差异
+        semantic_type: QuizAtom
+        updated_at: 'Fri Apr 14 2017 18:06:47 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: ''
+        instruction:
+          video:
+            youtube_id: PO5IwZqFdMc
+            subtitles:
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d1bb2d_differences-between-two-files-how-to-use-git-and-github/subtitles/lang_en_vs3.srt'
+                language_code: en
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d1bb2d_differences-between-two-files-how-to-use-git-and-github/subtitles/lang_pt-br_vs8.srt'
+                language_code: pt-br
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d1bb2d_differences-between-two-files-how-to-use-git-and-github/subtitles/lang_zh-cn_vs1.srt'
+                language_code: zh-cn
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d1bb2d_differences-between-two-files-how-to-use-git-and-github/subtitles/lang_ar_vs1.srt'
+                language_code: ar
+            transcodings:
+              uri_480p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3335018707/video_21e4dba18462536206436f2f9d21659f_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3335018707/video_21e4dba18462536206436f2f9d21659f_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3335018707/video_21e4dba18462536206436f2f9d21659f_480p.ogg'
+              uri_720p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3335018707/video_21e4dba18462536206436f2f9d21659f_720p.mp4'
+              uri_hls: null
+          text: null
+        question:
+          title: 两个文件之间的差异练习
+          background_image: '//lh5.ggpht.com/hPqW4KD2S6jRKVN5QHoiVZRFDRkSp9F1a8yIqFWyQ-gHXIKoAD5BJn8FVafu6Vam2y1GBnCOr2kKasidiYE6=s0#w=1440&h=810'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '3339088567'
+        answer:
+          text: null
+          video:
+            youtube_id: a7hifhLsWH4
+            subtitles:
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d09dd4_differences-between-two-files-solution-how-to-use-git-and-github/subtitles/lang_zh-cn_vs1.srt'
+                language_code: zh-cn
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d09dd4_differences-between-two-files-solution-how-to-use-git-and-github/subtitles/lang_en_vs3.srt'
+                language_code: en
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d09dd4_differences-between-two-files-solution-how-to-use-git-and-github/subtitles/lang_ar_vs1.srt'
+                language_code: ar
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d09dd4_differences-between-two-files-solution-how-to-use-git-and-github/subtitles/lang_pt-br_vs8.srt'
+                language_code: pt-br
+            transcodings:
+              uri_480p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3304928802/video_bc3741488aa094b44db80e9ad97dcf68_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3304928802/video_bc3741488aa094b44db80e9ad97dcf68_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3304928802/video_bc3741488aa094b44db80e9ad97dcf68_480p.ogg'
+              uri_720p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3304928802/video_bc3741488aa094b44db80e9ad97dcf68_720p.mp4'
+              uri_hls: null
+  - id: 191486
+    key: '29607789270923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 查找较大文件之间的差异
+    semantic_type: Concept
+    updated_at: 'Tue Oct 11 2016 10:01:30 GMT+0000 (UTC)'
+    is_public: true
+    resources:
+      files:
+        - name: game_old.js
+          uri: 'https://www.udacity.com/api/nodes/2960778928/supplemental_media/game-oldjs/download'
+        - name: game_new.js
+          uri: 'https://www.udacity.com/api/nodes/2960778928/supplemental_media/game-newjs/download'
+        - name: LICENSE
+          uri: 'https://www.udacity.com/api/nodes/2960778928/supplemental_media/license/download'
+      google_plus_link: null
+      career_resource_center_link: null
+      coaching_appointments_link: null
+      office_hours_link: null
+    _atoms_ids:
+      - 190335
+    atoms:
+      - id: 190335
+        key: '2960778927'
+        locale: zh-cn
+        version: 1.0.0
+        title: 查找较大文件之间的差异
+        semantic_type: QuizAtom
+        updated_at: 'Fri Apr 14 2017 18:06:47 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |-
+          ### 小行星（Asteroids）小游戏
+
+          如果你有兴趣，可以到 <a href="http://dougmcinnes.com/html-5-asteroids/" target="_blank">Doug 的网站</a>试玩小行星游戏。
+
+          ### 下载文件的新旧版本
+          `game.js` 文件的两个版本是：
+          - [game_old.js](https://www.udacity.com/api/nodes/2960778928/supplemental_media/game-oldjs/download?_ga=1.32442489.672083044.1467344711)
+          - [game_new.js](https://www.udacity.com/api/nodes/2960778928/supplemental_media/game-newjs/download?_ga=1.34079078.672083044.1467344711)
+
+          下面说明如何将它们下载到你的计算机中：
+
+          * 右键单击或 Control + 点击文档链接，然后选择“**另存为（Save as）**”。
+
+          请务必记住将文件下载到的位置！
+
+          当在 Mac 上显示运行“diff”后的输出时，Caroline 意外地显示了 `diff -u game_new.js game_old.js` 的输出，她输入文件名的顺序是错误的。 （她输入的命令是正确的，但显示出来的的却是错误命令运行后的输出）。 如果你正确运行了命令，输出应与 Caroline 的结果相反。她的输出中的正号应为负号，反之亦然。
+        instruction:
+          video:
+            youtube_id: MsmbtwibNQU
+            subtitles:
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d17464_finding-diffs-between-larger-files-how-to-use-git-and-github/subtitles/lang_pt-br_vs8.srt'
+                language_code: pt-br
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d17464_finding-diffs-between-larger-files-how-to-use-git-and-github/subtitles/lang_ar_vs1.srt'
+                language_code: ar
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d17464_finding-diffs-between-larger-files-how-to-use-git-and-github/subtitles/lang_en_vs3.srt'
+                language_code: en
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d17464_finding-diffs-between-larger-files-how-to-use-git-and-github/subtitles/lang_zh-cn_vs1.srt'
+                language_code: zh-cn
+            transcodings:
+              uri_480p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.2960778928/video_7142b5bf2a8801460e833a3944f326b2_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.2960778928/video_7142b5bf2a8801460e833a3944f326b2_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.2960778928/video_7142b5bf2a8801460e833a3944f326b2_480p.ogg'
+              uri_720p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.2960778928/video_7142b5bf2a8801460e833a3944f326b2_720p.mp4'
+              uri_hls: null
+          text: null
+        question:
+          title: 查找较大文件之间的差异练习
+          background_image: '//lh3.ggpht.com/Xev1rWueMpBLrXLFpAZpQP92qP2K9ziZK12tidhcwwe_9B8JyZpv-qSsXepTpX_QXNdXzrCgekVxdMZJVsA=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '2972528780'
+        answer:
+          text: null
+          video:
+            youtube_id: StbL9767tsE
+            subtitles:
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d25c45_finding-diffs-solution-how-to-use-git-and-github/subtitles/lang_pt-br_vs8.srt'
+                language_code: pt-br
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d25c45_finding-diffs-solution-how-to-use-git-and-github/subtitles/lang_zh-cn_vs1.srt'
+                language_code: zh-cn
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d25c45_finding-diffs-solution-how-to-use-git-and-github/subtitles/lang_en_vs3.srt'
+                language_code: en
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d25c45_finding-diffs-solution-how-to-use-git-and-github/subtitles/lang_ar_vs1.srt'
+                language_code: ar
+            transcodings:
+              uri_480p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.2960778930/video_3f4c428ce8cb90f656601d37550b430b_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.2960778930/video_3f4c428ce8cb90f656601d37550b430b_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.2960778930/video_3f4c428ce8cb90f656601d37550b430b_480p.ogg'
+              uri_720p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.2960778930/video_3f4c428ce8cb90f656601d37550b430b_720p.mp4'
+              uri_hls: null
+  - id: 191488
+    key: '29607789290923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 思考
+    semantic_type: Concept
+    updated_at: 'Tue Oct 11 2016 10:01:31 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 190336
+    atoms:
+      - id: 190336
+        key: '2960778929'
+        locale: zh-cn
+        version: 1.0.0
+        title: 思考
+        semantic_type: VideoAtom
+        updated_at: 'Fri Apr 14 2017 18:21:21 GMT+0000 (UTC)'
+        is_public: true
+        tags: []
+        instructor_notes: '若要更深入地了解，请查阅与该主题相关的<a href="http://184.182.233.150/rid=1LW06D9V6-26428MK-1Z64/Mezirow#39;s%20chapter,%20How%20Critical%20Refletion%20Triggers%20TL.pdf" target="_blank">这篇开创性论文</a>（共 20 页）。'
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        video:
+          youtube_id: tL_sLYEFZq4
+          subtitles:
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d26aa4_reflections-how-to-use-git-and-github/subtitles/lang_en_vs3.srt'
+              language_code: en
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d26aa4_reflections-how-to-use-git-and-github/subtitles/lang_zh-cn_vs1.srt'
+              language_code: zh-cn
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d26aa4_reflections-how-to-use-git-and-github/subtitles/lang_pt-br_vs8.srt'
+              language_code: pt-br
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d26aa4_reflections-how-to-use-git-and-github/subtitles/lang_ar_vs1.srt'
+              language_code: ar
+          transcodings:
+            uri_480p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.2960778929/video_0915f26ee9a75ce07d92ef194e7906e6_480p.mp4'
+            uri_480p_1000kbps_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.2960778929/video_0915f26ee9a75ce07d92ef194e7906e6_480p_1000kbps.mp4'
+            uri_480p_ogg: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.2960778929/video_0915f26ee9a75ce07d92ef194e7906e6_480p.ogg'
+            uri_720p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.2960778929/video_0915f26ee9a75ce07d92ef194e7906e6_720p.mp4'
+            uri_hls: null
+  - id: 191489
+    key: '29975186190923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 思考：使用 diff 查找 bug
+    semantic_type: Concept
+    updated_at: 'Tue Oct 11 2016 10:01:32 GMT+0000 (UTC)'
+    is_public: true
+    resources:
+      files:
+        - name: lesson_1_reflection_prompts.txt
+          uri: 'https://www.udacity.com/api/nodes/2997518619/supplemental_media/lesson-1-reflection-promptstxt/download'
+      google_plus_link: null
+      career_resource_center_link: null
+      coaching_appointments_link: null
+      office_hours_link: null
+    _atoms_ids:
+      - 190337
+    atoms:
+      - id: 190337
+        key: '2997518619'
+        locale: zh-cn
+        version: 1.0.0
+        title: 思考：使用 diff 查找 bug
+        semantic_type: TextAtom
+        updated_at: 'Tue Oct 11 2016 10:01:31 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          你可以在[这里](https://www.udacity.com/api/nodes/2997518619/supplemental_media/lesson-1-reflection-promptstxt/download?_ga=1.74338261.672083044.1467344711)下载 lesson-1-reflection-prompts.txt。
+
+          ## 思考：使用 diff 查找 bug
+          ### 确保你可以访问命令行
+
+          如果你使用 Windows 系统的电脑，需要安装一个软件，以便使用类 Unix 的命令行（不同于 Windows 内置的命令提示符）。 了解更多信息，请<a href="https://www.udacity.com/wiki/ud775/command-line-instructions#windows-users" target="_blank">查阅此页</a>。
+
+          ### 选择文本编辑器
+
+          正如前面视频中所述，你应使用简单的文本编辑器（例如  <a href="http://notepad-plus-plus.org/" target="_blank">Notepad++</a>、 <a href="http://www.sublimetext.com/2" target="_blank">Sublime Textxt</a>、 <a href="https://atom.io/" target="_blank">Atom</a>、emacs、vim 等）而**不是**富文本编辑器（例如 Microsoft Word 或 OpenOffice），以便能在命令行中轻松查看文件内容。
+
+          如果你没有爱用的编辑器，Sublime Text 是一个很好的选择（它在 Windows、Mac 和 Linux 上都能运行）。对于 Sublime Text，我们提供了比其他编辑器更详细的设置说明，而且在本课程的所有示例中都使用 Sublime Text。 你可在<a href="http://www.sublimetext.com/2" target="_blank">此处</a>下载 Sublime Text。
+
+          ### 确保可从命令行启动编辑器
+          能够从命令行启动文本编辑器将很有帮助。请参阅<a href="https://www.udacity.com/wiki/ud775/sublime" target="_blank">此处</a>，了解如何为 Sublime 这样做。 如果遇到问题，本节课结尾处的“在 Windows 上设置工作空间”和“在 Mac 上设置工作空间”视频将会演示此过程，你可以等到那时再这样做。
+
+          ### 设置你的课程工作环境
+          现在，你应创建一个 `version-control`（版本控制）目录（“目录”比“文件夹”更具备计算机科学含义）， 以将你在本课程中使用的所有文件都保存到一个好记的位置。然后，创建一个 `reflections` 子目录， 并在其中创建一个名为 `lesson_1_reflections.txt` 的纯文本文件，以记录你在本节课中遇到的问题。
+
+          可以通过在 Git Bash 或终端中运行以下命令来实现这一操作（# 符号后面的信息是注释，任何这些信息均不会被解释）：
+
+          <pre>
+          cd ~                          # 更改目录 directory
+          mkdir version-control         # 创建 version-control 目录
+          cd version-control            # 转到 version-control 目录
+          mkdir reflections             # 创建 reflections（思考）目录
+          cd reflections                # 转到 reflections（思考）目录
+          subl lesson_1_reflections.txt # 启动 Sublime Text，并打开名为 lesson_1_reflections.txt 的文件（如果你更喜欢使用其他编辑器，则可将 subl 替换为该编辑器的名称）
+
+          </pre>
+
+          如果愿意，你也可以从“课程资源”中下载 `lesson_1_reflections_prompts.txt` 文件，而不是从头开始创建它。然后，将该文件放入 `reflections` 目录中，并重命名。
+
+          保存文件后，如果你想仔细检查一切是否按计划进行，请尝试使用以下命令：
+          <pre>
+          pwd # 打印工作目录 - 显示你所在的目录
+          ls  # 列出此目录中所含的文件
+          </pre>
+
+          如果在这样做时遇到问题，本节课结尾处的“在 Windows 上设置工作空间”和“在 Mac 上设置工作空间”视频将会演示此过程，你可以等到那时再这样做。 与此同时，你也可以使用操作系统的文件操作图形界面（Finder、Windows 资源管理器等）来创建目录和文件。 不过，练习使用命令行很有好处，因为本课程中将大量使用命令行，因此，在观看了有关工作空间的说明后，请确保你知道如何在命令行上完成类似的操作。
+
+          你也可以使用其他命名方式，但本课程后面将会使用此文件结构，到时你需要改为相应的命名方式。
+
+          ### 使用短行
+          如果文件包含很长的行，则会降低许多命令行工具（包括 Git）的实用性。 例如，如果使用 `diff` 比较两个将所有内容都放在同一行上的文件，则 `diff` 只会显示这两个文件是不同的文件，而无法指出哪里不同。
+
+          因此，在编写反思文件或其他纯文本文件时，确保每行长短适中是一种好做法。将行限制为多长是个人喜好问题。 许多开发者都将行限制为不超过 80 到 120 个字符。 有些编辑器能自动插入换行符，但在 Sublime 等其他编辑器中，如果想另起一行，请记得按下 Enter。
+
+          ### 进行第一个思考练习
+          在 `lesson_1_reflections.txt` 中填入以下问题和你对这些问题的想法：
+
+          **查看文件的两个版本之间的差异如何帮助你了解引入的错误？**
+
+          在你创建文档、写下想法和保存文件后，单击“下一项”以了解可帮助你创建这些文件版本的一些系统。
+        instructor_notes: '若要更深入地了解，请查阅与该主题相关的<a href="http://184.182.233.150/rid=1LW06D9V6-26428MK-1Z64/Mezirow#39;s%20chapter,%20How%20Critical%20Refletion%20Triggers%20TL.pdf" target="_blank">这篇开创性论文</a>（共 20 页）。'
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+  - id: 191487
+    key: '29607789310923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 版本来自哪里？
+    semantic_type: Concept
+    updated_at: 'Tue Oct 11 2016 10:01:32 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 190338
+    atoms:
+      - id: 190338
+        key: '2960778931'
+        locale: zh-cn
+        version: 1.0.0
+        title: 版本来自哪里？
+        semantic_type: VideoAtom
+        updated_at: 'Fri Apr 14 2017 18:20:52 GMT+0000 (UTC)'
+        is_public: true
+        tags: []
+        instructor_notes: null
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        video:
+          youtube_id: '-cFdBWD_suY'
+          subtitles:
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d06942_where-do-versions-come-from-how-to-use-git-and-github/subtitles/lang_zh-cn_vs1.srt'
+              language_code: zh-cn
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d06942_where-do-versions-come-from-how-to-use-git-and-github/subtitles/lang_ro_vs2.srt'
+              language_code: ro
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d06942_where-do-versions-come-from-how-to-use-git-and-github/subtitles/lang_en_vs6.srt'
+              language_code: en
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d06942_where-do-versions-come-from-how-to-use-git-and-github/subtitles/lang_ar_vs3.srt'
+              language_code: ar
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d06942_where-do-versions-come-from-how-to-use-git-and-github/subtitles/lang_pt-br_vs9.srt'
+              language_code: pt-br
+          transcodings:
+            uri_480p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.2960778931/video_35f04af7600eb142dd6dce65fe9529f9_480p.mp4'
+            uri_480p_1000kbps_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.2960778931/video_35f04af7600eb142dd6dce65fe9529f9_480p_1000kbps.mp4'
+            uri_480p_ogg: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.2960778931/video_35f04af7600eb142dd6dce65fe9529f9_480p.ogg'
+            uri_720p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.2960778931/video_35f04af7600eb142dd6dce65fe9529f9_720p.mp4'
+            uri_hls: null
+  - id: 191490
+    key: '29498486300923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 思考：使用历史记录提高效率
+    semantic_type: Concept
+    updated_at: 'Tue Oct 11 2016 10:01:33 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 190339
+    atoms:
+      - id: 190339
+        key: '2949848630'
+        locale: zh-cn
+        version: 1.0.0
+        title: 思考：使用历史记录提高效率
+        semantic_type: TextAtom
+        updated_at: 'Tue Oct 11 2016 10:01:32 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          ## 思考：使用历史记录提高效率
+          既然你已了解一些版本控制系统和它们如何帮助你保存文件的历史记录，现在请将以下问题和你对它的想法添加到你的反思文件中：
+
+          **从长远来看，能轻松访问文件的整个历史记录将如何提高编程者的效率？**
+
+          更新文档后，单击“下一项”，了解这些版本控制系统之间的差异。
+        instructor_notes: null
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+  - id: 191491
+    key: '29607789320923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 代码 VCS 的特性
+    semantic_type: Concept
+    updated_at: 'Tue Oct 11 2016 10:01:33 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 190340
+    atoms:
+      - id: 190340
+        key: '2960778932'
+        locale: zh-cn
+        version: 1.0.0
+        title: 代码 VCS 的特性
+        semantic_type: QuizAtom
+        updated_at: 'Fri Apr 14 2017 18:06:58 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: ''
+        instruction:
+          video:
+            youtube_id: ynL0pIK0kVE
+            subtitles:
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d1cb27_properties-of-a-vcs-for-code-how-to-use-git-and-github/subtitles/lang_pt-br_vs8.srt'
+                language_code: pt-br
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d1cb27_properties-of-a-vcs-for-code-how-to-use-git-and-github/subtitles/lang_ar_vs1.srt'
+                language_code: ar
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d1cb27_properties-of-a-vcs-for-code-how-to-use-git-and-github/subtitles/lang_zh-cn_vs1.srt'
+                language_code: zh-cn
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d1cb27_properties-of-a-vcs-for-code-how-to-use-git-and-github/subtitles/lang_en_vs3.srt'
+                language_code: en
+            transcodings:
+              uri_480p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.2960778933/video_8db4725f8c15cb824607c2b9fc555b63_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.2960778933/video_8db4725f8c15cb824607c2b9fc555b63_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.2960778933/video_8db4725f8c15cb824607c2b9fc555b63_480p.ogg'
+              uri_720p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.2960778933/video_8db4725f8c15cb824607c2b9fc555b63_720p.mp4'
+              uri_hls: null
+          text: null
+        question:
+          title: 代码 VCS 的特性练习
+          background_image: '//lh6.ggpht.com/GojAM4dEhDbVj8QGQf3eXAkMgdmbrXUD0Vuekq9Ehl7PZMDi9iW6HSt4UsQ6PdYXPwBWUWgR2LxFDaCZwF2T=s0#w=1920&h=1080'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '2961208709'
+        answer:
+          text: null
+          video:
+            youtube_id: LtEkcxNqQCU
+            subtitles:
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d16094_properties-of-a-vcs-for-code-solution-how-to-use-git-and-github/subtitles/lang_ar_vs1.srt'
+                language_code: ar
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d16094_properties-of-a-vcs-for-code-solution-how-to-use-git-and-github/subtitles/lang_pt-br_vs8.srt'
+                language_code: pt-br
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d16094_properties-of-a-vcs-for-code-solution-how-to-use-git-and-github/subtitles/lang_en_vs3.srt'
+                language_code: en
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d16094_properties-of-a-vcs-for-code-solution-how-to-use-git-and-github/subtitles/lang_zh-cn_vs1.srt'
+                language_code: zh-cn
+            transcodings:
+              uri_480p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.2960778934/video_8c51479d32184ecbba93c3eaa4ece1b7_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.2960778934/video_8c51479d32184ecbba93c3eaa4ece1b7_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.2960778934/video_8c51479d32184ecbba93c3eaa4ece1b7_480p.ogg'
+              uri_720p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.2960778934/video_8c51479d32184ecbba93c3eaa4ece1b7_720p.mp4'
+              uri_hls: null
+  - id: 191492
+    key: '29607789350923'
+    locale: zh-cn
+    version: 1.0.0
+    title: Git 中的手动提交
+    semantic_type: Concept
+    updated_at: 'Tue Oct 11 2016 10:01:34 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 190341
+    atoms:
+      - id: 190341
+        key: '2960778935'
+        locale: zh-cn
+        version: 1.0.0
+        title: Git 中的手动提交
+        semantic_type: VideoAtom
+        updated_at: 'Fri Apr 14 2017 18:21:21 GMT+0000 (UTC)'
+        is_public: true
+        tags: []
+        instructor_notes: null
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        video:
+          youtube_id: zrpkdHVSG-0
+          subtitles:
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d1bc34_manual-commits-in-git-how-to-use-git-and-github/subtitles/lang_ar_vs1.srt'
+              language_code: ar
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d1bc34_manual-commits-in-git-how-to-use-git-and-github/subtitles/lang_zh-cn_vs1.srt'
+              language_code: zh-cn
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d1bc34_manual-commits-in-git-how-to-use-git-and-github/subtitles/lang_pt-br_vs8.srt'
+              language_code: pt-br
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d1bc34_manual-commits-in-git-how-to-use-git-and-github/subtitles/lang_en_vs3.srt'
+              language_code: en
+          transcodings:
+            uri_480p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.2960778935/video_4a3a12acbca7498753f8533609656598_480p.mp4'
+            uri_480p_1000kbps_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.2960778935/video_4a3a12acbca7498753f8533609656598_480p_1000kbps.mp4'
+            uri_480p_ogg: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.2960778935/video_4a3a12acbca7498753f8533609656598_480p.ogg'
+            uri_720p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.2960778935/video_4a3a12acbca7498753f8533609656598_720p.mp4'
+            uri_hls: null
+  - id: 191494
+    key: '29607789360923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 创建概念图
+    semantic_type: Concept
+    updated_at: 'Tue Oct 11 2016 10:01:34 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 190342
+    atoms:
+      - id: 190342
+        key: '2960778936'
+        locale: zh-cn
+        version: 1.0.0
+        title: 创建概念图
+        semantic_type: VideoAtom
+        updated_at: 'Fri Apr 14 2017 18:21:21 GMT+0000 (UTC)'
+        is_public: true
+        tags: []
+        instructor_notes: null
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        video:
+          youtube_id: y_YKHXuJ-ak
+          subtitles:
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d1c643_creating-a-concept-map-how-to-use-git-and-github/subtitles/lang_en_vs3.srt'
+              language_code: en
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d1c643_creating-a-concept-map-how-to-use-git-and-github/subtitles/lang_pt-br_vs8.srt'
+              language_code: pt-br
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d1c643_creating-a-concept-map-how-to-use-git-and-github/subtitles/lang_zh-cn_vs1.srt'
+              language_code: zh-cn
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d1c643_creating-a-concept-map-how-to-use-git-and-github/subtitles/lang_ar_vs1.srt'
+              language_code: ar
+          transcodings:
+            uri_480p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.2960778936/video_eb6c9dd2155d77f62ae8e61b37b4db1e_480p.mp4'
+            uri_480p_1000kbps_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.2960778936/video_eb6c9dd2155d77f62ae8e61b37b4db1e_480p_1000kbps.mp4'
+            uri_480p_ogg: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.2960778936/video_eb6c9dd2155d77f62ae8e61b37b4db1e_480p.ogg'
+            uri_720p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.2960778936/video_eb6c9dd2155d77f62ae8e61b37b4db1e_720p.mp4'
+            uri_hls: null
+  - id: 191493
+    key: '29607789370923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 使用 Git 浏览历史
+    semantic_type: Concept
+    updated_at: 'Tue Oct 11 2016 10:01:35 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 190343
+    atoms:
+      - id: 190343
+        key: '2960778937'
+        locale: zh-cn
+        version: 1.0.0
+        title: 使用 Git 浏览历史
+        semantic_type: VideoAtom
+        updated_at: 'Fri Apr 14 2017 18:28:17 GMT+0000 (UTC)'
+        is_public: true
+        tags: []
+        instructor_notes: null
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        video:
+          youtube_id: w1JOF67Kaew
+          subtitles:
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d28e0a_using-git-to-view-history/subtitles/lang_pt-br_vs9.srt'
+              language_code: pt-br
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d28e0a_using-git-to-view-history/subtitles/lang_zh-cn_vs1.srt'
+              language_code: zh-cn
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d28e0a_using-git-to-view-history/subtitles/lang_ar_vs1.srt'
+              language_code: ar
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d28e0a_using-git-to-view-history/subtitles/lang_en_vs3.srt'
+              language_code: en
+          transcodings:
+            uri_480p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.2960778937/video_a309ae13baa0ad3c8894af2a6fa9f59c_480p.mp4'
+            uri_480p_1000kbps_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.2960778937/video_a309ae13baa0ad3c8894af2a6fa9f59c_480p_1000kbps.mp4'
+            uri_480p_ogg: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.2960778937/video_a309ae13baa0ad3c8894af2a6fa9f59c_480p.ogg'
+            uri_720p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.2960778937/video_a309ae13baa0ad3c8894af2a6fa9f59c_720p.mp4'
+            uri_hls: null
+  - id: 191495
+    key: '29756785830923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 概念图：diff
+    semantic_type: Concept
+    updated_at: 'Tue Oct 11 2016 10:01:35 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 190344
+    atoms:
+      - id: 190344
+        key: '2975678583'
+        locale: zh-cn
+        version: 1.0.0
+        title: 概念图：diff
+        semantic_type: QuizAtom
+        updated_at: 'Fri Apr 14 2017 18:06:58 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |-
+          ## 概念图：diff
+
+          既然你已了解 *git diff*，现在可将其添加到概念图中。
+
+          ### 新増内容
+
+          请记住，我们努力让概念图保持整洁，因此，请仅添加图上已有的其他关系无法表明的关系。
+
+          如果你将“git diff”放在图上，你会将以下哪个现有的概念直接与其关联？
+
+          * commit
+          * Google Docs
+          * git
+          * Version Control
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: ''
+        question:
+          title: 概念图：diff 练习
+          background_image: '//lh3.ggpht.com/hLAcvV_210wvxi6U5sHW7BlZiT1_bin0HsLvalnFX1tx2Eou9uy7Oaq3bl5VCplLYwQLLqiq2AyJWYURCQ=s0#w=730&h=378'
+          alt_text: ''
+          semantic_type: ImageFormQuestion
+          evaluation_id: '2962428778'
+        answer:
+          text: null
+          video:
+            youtube_id: '-8gvW51AywA'
+            subtitles:
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d068cf_concept-map-diff-solution-how-to-use-git-and-github/subtitles/lang_zh-cn_vs1.srt'
+                language_code: zh-cn
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d068cf_concept-map-diff-solution-how-to-use-git-and-github/subtitles/lang_en_vs7.srt'
+                language_code: en
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d068cf_concept-map-diff-solution-how-to-use-git-and-github/subtitles/lang_ar_vs3.srt'
+                language_code: ar
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d068cf_concept-map-diff-solution-how-to-use-git-and-github/subtitles/lang_pt-br_vs9.srt'
+                language_code: pt-br
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d068cf_concept-map-diff-solution-how-to-use-git-and-github/subtitles/lang_en-us_vs1.srt'
+                language_code: en-us
+            transcodings:
+              uri_480p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.2960778938/video_3ccb18452750de6785784e45ce99cbca_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.2960778938/video_3ccb18452750de6785784e45ce99cbca_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.2960778938/video_3ccb18452750de6785784e45ce99cbca_480p.ogg'
+              uri_720p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.2960778938/video_3ccb18452750de6785784e45ce99cbca_720p.mp4'
+              uri_hls: null
+  - id: 191496
+    key: '24198785820923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 为每项合逻辑的更改进行一次提交
+    semantic_type: Concept
+    updated_at: 'Tue Oct 11 2016 10:01:36 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 190345
+    atoms:
+      - id: 190345
+        key: '2419878582'
+        locale: zh-cn
+        version: 1.0.0
+        title: 为每项合逻辑的更改进行一次提交
+        semantic_type: QuizAtom
+        updated_at: 'Tue Oct 11 2016 10:01:36 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |-
+          ### 什么是 README 文档？
+          许多项目都包含一个名为“README”的文件，该文件概述了项目的用途和使用方法。在使用项目做任何事情之前，通常最好先阅读该文件，因此，该文件被命名为此名称，以便用户更有可能阅读它。
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: |-
+            ## 提交频率
+            由于可以选择何时进行提交，因此，你可能想知道该多久提交一次更改。保持较小的提交通常是一个好做法。随着两个版本之间的差异越来越大，易于理解性和实用性都会越来越低。但是，你也不希望使提交过小。如果总是在每次更改一行代码后保存提交，则历史记录会因短时间内包含大量提交而变得难以读懂。
+
+            **为每项逻辑更改进行一次提交**是很好的经验法则。例如，如果改正了一处打字错误，然后在文件的另一部分中改正了一个错误，则应为每项更改进行一次提交，因为这两项更改在逻辑上是独立的。如果这样做，每次提交都将具有一个易于理解的目的。Git 允许你在每次提交时都编写一条简短的信息来说明更改了什么。如果每次提交都包含一项逻辑更改，这条信息会更有用。
+
+            ## 提交大小练习
+            在下一个练习中，你要思考隔多久提交一次，并标明你是否认为以下是合适的提交大小。如果不是，则指出你是否认为此提交过小并想等到以后再提交，或者你是否认为它过大并想更早地提交。这是主观判断题，因此并没有任何明确的正确或错误答案，但在每种情况下请选出你认为最好的答案。
+
+            * 你已经花了一周来开发一项新功能，现在，你提交添加这项新功能所需的所有更改。从你开始开发它以来，你一直没有进行提交。
+            * 你在 README 中发现了三处打字错误。你改正并提交第一处错误。
+            * 你已经花了一小时来开发一项新功能，现在，你提交添加这项新功能所需的所有更改。
+            * 你改正了不同函数中的两个小错误，然后同时提交两者。
+        question:
+          title: 为每项合逻辑的更改进行一次提交 Quiz
+          background_image: '//lh5.ggpht.com/MucPMQp6NLE90G_mdCyFTjDRx--RBZs5L7Gqwnc5kJgs7mRaGipizjsz_7QReckUafJnAdow34kx_ozcQA=s0#w=776&h=434'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '2413318551'
+        answer:
+          text: |-
+            ## 为每项合逻辑的更改进行一次提交解决方案
+
+            **你已经花了一周时间来开发一项新功能，现在，你提交添加这项新功能所需的所有更改。从你开始开发它以来，你一直没有进行提交。**
+
+            此提交似乎过大。如果每个提交只做了一项工作并且比较小，则理解每个提交所做的工作会变得更容易。在一周内不进行任何提交并非上策。
+
+            **你在 README 中发现了三处打字错误。你改正并提交第一处错误。**
+
+            此提交似乎过小。改正所有三处打字错误后再一并提交会更好。这样一来，历史记录不会因打字错误的改正而变得过于混乱。此外，你无需担心会给 README 招致错误，因此，将更改捆绑在一起更可能会是一个好主意。
+
+            **你已经花了一小时来开发一项新功能，现在，你提交添加这项新功能所需的所有更改。**
+
+            这可能是大小适中的提交。所有工作均与一项功能有关，因此，提交的逻辑目的很清晰。一小时后，diff 可能累积了相当多的内容，但并未多到无法理解。
+
+            另一方面，有时在工作了一小时后，你将会遇到一个以上的自然提交点，这时你会想将功能分解为多个较小的提交。因此，“过大”在这里也可能是一个合理的回答。
+
+            **你改正了不同函数中的两个小错误，然后同时提交两者。**
+
+            此提交可能过大。在改正第一个错误后提交将会更好，因为这两个错误的改正互不相关。
+
+            ## 主观判断
+
+            选择何时提交是一种主观判断，而且不一定一成不变。在选择是否提交时，只需记住：每个提交都应具有一个清晰的逻辑目的，而且绝不应在不进行提交的情况下完成过多工作。
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 191497
+    key: '25015285430923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 思考：手动提交
+    semantic_type: Concept
+    updated_at: 'Tue Oct 11 2016 10:01:37 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 190346
+    atoms:
+      - id: 190346
+        key: '2501528543'
+        locale: zh-cn
+        version: 1.0.0
+        title: 思考：手动提交
+        semantic_type: TextAtom
+        updated_at: 'Tue Oct 11 2016 10:01:36 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          ## 思考：手动提交
+
+          既然你已了解 Git 提交，并思考了哪些时候适合提交，现在请将以下问题和你对它的想法添加到你的反思文件中：
+
+
+          **你认为，手动选择何时创建提交（像在 Git 中做的那样）与自动保存版本（如 Google Docs 所做的那样）各有何优缺点？**
+
+
+          在你更新文档后，单击“下一项”，Sarah 将会说明各种版本控制系统之间的另一个不同之处。
+        instructor_notes: ''
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+  - id: 191498
+    key: '29607789400923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 追踪多个文件
+    semantic_type: Concept
+    updated_at: 'Tue Oct 11 2016 10:01:37 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 190347
+    atoms:
+      - id: 190347
+        key: '2960778940'
+        locale: zh-cn
+        version: 1.0.0
+        title: 追踪多个文件
+        semantic_type: QuizAtom
+        updated_at: 'Fri Apr 14 2017 18:06:58 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: ''
+        instruction:
+          video:
+            youtube_id: Rx4PIZiYAl4
+            subtitles:
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d1e205_tracking-across-multiple-files-how-to-use-git-and-github/subtitles/lang_pt-br_vs8.srt'
+                language_code: pt-br
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d1e205_tracking-across-multiple-files-how-to-use-git-and-github/subtitles/lang_ar_vs1.srt'
+                language_code: ar
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d1e205_tracking-across-multiple-files-how-to-use-git-and-github/subtitles/lang_en_vs3.srt'
+                language_code: en
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d1e205_tracking-across-multiple-files-how-to-use-git-and-github/subtitles/lang_zh-cn_vs1.srt'
+                language_code: zh-cn
+            transcodings:
+              uri_480p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.2960778939/video_b3689d1dcc5847daafe8e60393f7a533_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.2960778939/video_b3689d1dcc5847daafe8e60393f7a533_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.2960778939/video_b3689d1dcc5847daafe8e60393f7a533_480p.ogg'
+              uri_720p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.2960778939/video_b3689d1dcc5847daafe8e60393f7a533_720p.mp4'
+              uri_hls: null
+          text: null
+        question:
+          title: 追踪多个文件 - 练习
+          background_image: '//lh4.ggpht.com/5TM02GD05YXNKsbfDTGnOVEhINUC1m2A7yqB4gYXP53RmYC1eAxShj7HOZjjoGaQbFMN4Ms-IPx4VUA4cj8=s0#w=1920&h=1080'
+          alt_text: ''
+          semantic_type: ImageFormQuestion
+          evaluation_id: '2960778941'
+        answer:
+          text: null
+          video:
+            youtube_id: 4t8msUHX0PE
+            subtitles:
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d07de2_tracking-across-multiple-files-solution-how-to-use-git-and-github/subtitles/lang_zh-cn_vs1.srt'
+                language_code: zh-cn
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d07de2_tracking-across-multiple-files-solution-how-to-use-git-and-github/subtitles/lang_en_vs3.srt'
+                language_code: en
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d07de2_tracking-across-multiple-files-solution-how-to-use-git-and-github/subtitles/lang_ar_vs2.srt'
+                language_code: ar
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d07de2_tracking-across-multiple-files-solution-how-to-use-git-and-github/subtitles/lang_pt-br_vs8.srt'
+                language_code: pt-br
+            transcodings:
+              uri_480p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.2960778942/video_45708cc14732369b521ec28d57ca502a_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.2960778942/video_45708cc14732369b521ec28d57ca502a_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.2960778942/video_45708cc14732369b521ec28d57ca502a_480p.ogg'
+              uri_720p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.2960778942/video_45708cc14732369b521ec28d57ca502a_720p.mp4'
+              uri_hls: null
+  - id: 191499
+    key: '29607789430923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 多文件 Git 提交
+    semantic_type: Concept
+    updated_at: 'Tue Oct 11 2016 10:01:38 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 190348
+    atoms:
+      - id: 190348
+        key: '2960778943'
+        locale: zh-cn
+        version: 1.0.0
+        title: 多文件 Git 提交
+        semantic_type: VideoAtom
+        updated_at: 'Fri Apr 14 2017 18:21:21 GMT+0000 (UTC)'
+        is_public: true
+        tags: []
+        instructor_notes: null
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        video:
+          youtube_id: kBOXmGll8N0
+          subtitles:
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d03c03_git-commits-across-multiple-files-how-to-use-git-and-github/subtitles/lang_zh-cn_vs1.srt'
+              language_code: zh-cn
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d03c03_git-commits-across-multiple-files-how-to-use-git-and-github/subtitles/lang_en_vs3.srt'
+              language_code: en
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d03c03_git-commits-across-multiple-files-how-to-use-git-and-github/subtitles/lang_pt-br_vs8.srt'
+              language_code: pt-br
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d03c03_git-commits-across-multiple-files-how-to-use-git-and-github/subtitles/lang_ar_vs1.srt'
+              language_code: ar
+          transcodings:
+            uri_480p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.2960778943/video_91b2a1f829cc4467876d2582ee27d6da_480p.mp4'
+            uri_480p_1000kbps_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.2960778943/video_91b2a1f829cc4467876d2582ee27d6da_480p_1000kbps.mp4'
+            uri_480p_ogg: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.2960778943/video_91b2a1f829cc4467876d2582ee27d6da_480p.ogg'
+            uri_720p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.2960778943/video_91b2a1f829cc4467876d2582ee27d6da_720p.mp4'
+            uri_hls: null
+  - id: 191501
+    key: '24987385350923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 思考：多文件提交
+    semantic_type: Concept
+    updated_at: 'Tue Oct 11 2016 10:01:39 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 190349
+    atoms:
+      - id: 190349
+        key: '2498738535'
+        locale: zh-cn
+        version: 1.0.0
+        title: 思考：多文件提交
+        semantic_type: TextAtom
+        updated_at: 'Tue Oct 11 2016 10:01:38 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          ## 思考：多文件提交
+
+          将以下问题和你对它的想法添加到你的反思文件中：
+
+          **何你认为一些版本控制系统（例如 Git）允许在一次提交中保存多个文件，而其他系统（例如 Google Docs）单独对待每个文件？**
+
+          在你更新了文档后，单击“下一项”，一位资深的 Git 用户将会述说为何版本控制对他很有用。
+        instructor_notes: ''
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+  - id: 191500
+    key: '29557586110923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 采访 Jeffrey Middleton
+    semantic_type: Concept
+    updated_at: 'Tue Oct 11 2016 10:01:40 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 190350
+    atoms:
+      - id: 190350
+        key: '2955758611'
+        locale: zh-cn
+        version: 1.0.0
+        title: 采访 Jeffrey Middleton
+        semantic_type: VideoAtom
+        updated_at: 'Fri Apr 14 2017 18:20:52 GMT+0000 (UTC)'
+        is_public: true
+        tags: []
+        instructor_notes: null
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        video:
+          youtube_id: 8N-OLiAMr0g
+          subtitles:
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57cfb68b_interview-with-jeffrey-middleton-how-to-use-git-and-github/subtitles/lang_zh-cn_vs1.srt'
+              language_code: zh-cn
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57cfb68b_interview-with-jeffrey-middleton-how-to-use-git-and-github/subtitles/lang_en_vs3.srt'
+              language_code: en
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57cfb68b_interview-with-jeffrey-middleton-how-to-use-git-and-github/subtitles/lang_ar_vs1.srt'
+              language_code: ar
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57cfb68b_interview-with-jeffrey-middleton-how-to-use-git-and-github/subtitles/lang_pt-br_vs8.srt'
+              language_code: pt-br
+          transcodings:
+            uri_480p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.2955758611/video_37b228568e943460f05a2abc52286f83_480p.mp4'
+            uri_480p_1000kbps_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.2955758611/video_37b228568e943460f05a2abc52286f83_480p_1000kbps.mp4'
+            uri_480p_ogg: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.2955758611/video_37b228568e943460f05a2abc52286f83_480p.ogg'
+            uri_720p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.2955758611/video_37b228568e943460f05a2abc52286f83_720p.mp4'
+            uri_hls: null
+  - id: 191502
+    key: '24736985660923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 安装 Git
+    semantic_type: Concept
+    updated_at: 'Tue Oct 11 2016 10:01:41 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 190351
+    atoms:
+      - id: 190351
+        key: '2473698566'
+        locale: zh-cn
+        version: 1.0.0
+        title: 安装 Git
+        semantic_type: TextAtom
+        updated_at: 'Tue Oct 11 2016 10:01:40 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          ## 安装 Git
+
+          现在，你将有机会亲自使用 Git，并在 Asteroids 版本库上练习使用这些命令。为此，必须安装 Git。如果已安装 Git，请使用命令 `git --version` 查看其版本。如果版本为 1.8 或更高，则可以继续观看下一个视频。否则，强烈建议你进行升级，因为 Git 在版本 1.8 中添加了许多新功能，而且我们假定你装有该版本。
+
+          如果你还未安装 Git，或者如果需要升级，现在请按照<a href="https://www.udacity.com/wiki/ud775/install-git" target="_blank">此 Wiki 页面</a>上的说明来执行操作。如果遇到问题，请在论坛中发贴求助。安装了 Git 之后，单击“下一项”，Caroline 会演示如何下载 Asteroids 版本库。
+        instructor_notes: ''
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+  - id: 191503
+    key: '29607789440923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 克隆和探索版本库
+    semantic_type: Concept
+    updated_at: 'Tue Oct 11 2016 10:01:42 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 190352
+    atoms:
+      - id: 190352
+        key: '2960778944'
+        locale: zh-cn
+        version: 1.0.0
+        title: 克隆和探索版本库
+        semantic_type: QuizAtom
+        updated_at: 'Fri Apr 14 2017 18:06:58 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |-
+          ### 克隆版本库
+
+          要克隆版本库，请运行 `git clone`（后跟空格和版本库 URL）。
+
+          ### Asteroids URL
+
+          使用以下 URL 克隆 Asteroids 版本库：https://github.com/udacity/asteroids.git
+
+          ### 退出 `git log`
+
+          要停止查看 `git log` 的输出，请按 `q`（表示退出）。
+
+          ### 获得彩色输出
+
+          要获得彩色的 diff 输出，请运行 `git config --global color.ui auto`
+
+          ### 从命令行复制并粘贴
+
+          为了完成本测试题，需要复制并粘贴一些提交的 ID。
+
+          **Windows**
+
+          要在 Git Bash 中复制并粘贴，请按照<a href="https://www.udacity.com/wiki/ud775/git-bash-copy-paste" target="_blank">此页面</a>中的说明执行操作。
+
+          **Mac**  
+
+          要在 Mac 上的终端中复制并粘贴，请使用 Cmd+C 和 Cmd+V。
+
+          **Ubuntu**  
+
+          要在 Ubuntu 上的终端中复制并粘贴，请使用 Ctrl+Shift+C 和 Ctrl+Shift+V。
+
+          ### 使用 `git log` 和 `git diff`
+
+          请注意，运行 `git log` 会列出最近的提交及其相关信息（包括提交 ID）。运行 `git diff`（后跟两个提交 ID）会比较这两个提交的代码版本。如果需要复习，可以重新观看[此视频](https://classroom.udacity.com/courses/ud775/lessons/2980038599/concepts/29607789370923).
+
+          ### 输入提交 ID
+
+          如果输入提交 ID 的前四个或更多个字符更为轻松，则你可以这样做，而不必粘贴整个 ID。
+        instruction:
+          video:
+            youtube_id: WQjNhypqwNE
+            subtitles:
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d29a92_cloning-and-exploring-the-repo-how-to-use-git-and-github/subtitles/lang_pt-br_vs8.srt'
+                language_code: pt-br
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d29a92_cloning-and-exploring-the-repo-how-to-use-git-and-github/subtitles/lang_en_vs3.srt'
+                language_code: en
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d29a92_cloning-and-exploring-the-repo-how-to-use-git-and-github/subtitles/lang_zh-cn_vs1.srt'
+                language_code: zh-cn
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d29a92_cloning-and-exploring-the-repo-how-to-use-git-and-github/subtitles/lang_ar_vs1.srt'
+                language_code: ar
+            transcodings:
+              uri_480p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.2960778945/video_9e755bae32aa20b655ab230818e26c97_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.2960778945/video_9e755bae32aa20b655ab230818e26c97_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.2960778945/video_9e755bae32aa20b655ab230818e26c97_480p.ogg'
+              uri_720p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.2960778945/video_9e755bae32aa20b655ab230818e26c97_720p.mp4'
+              uri_hls: null
+          text: null
+        question:
+          title: 克隆和探索版本库 - 练习
+          background_image: '//lh6.ggpht.com/THgvu-_1hB9IuQZKxIRJWGIPs6z10ROOALoKaLmtairDA8GgMc2Rv0aS6hdcJ3FS4ra4UUzPCUHLi-Xqow=s0#w=1440&h=810'
+          alt_text: ''
+          semantic_type: ImageFormQuestion
+          evaluation_id: '2960778946'
+        answer:
+          text: null
+          video:
+            youtube_id: veiruOagdkk
+            subtitles:
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d2819c_cloning-and-exploring-the-repo-solution-how-to-use-git-and-github/subtitles/lang_zh-cn_vs1.srt'
+                language_code: zh-cn
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d2819c_cloning-and-exploring-the-repo-solution-how-to-use-git-and-github/subtitles/lang_pt-br_vs10.srt'
+                language_code: pt-br
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d2819c_cloning-and-exploring-the-repo-solution-how-to-use-git-and-github/subtitles/lang_en_vs3.srt'
+                language_code: en
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d2819c_cloning-and-exploring-the-repo-solution-how-to-use-git-and-github/subtitles/lang_ar_vs1.srt'
+                language_code: ar
+            transcodings:
+              uri_480p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.2960778947/video_6d0fcaa93ac4bf0cf153e94b3f1025f0_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.2960778947/video_6d0fcaa93ac4bf0cf153e94b3f1025f0_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.2960778947/video_6d0fcaa93ac4bf0cf153e94b3f1025f0_480p.ogg'
+              uri_720p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.2960778947/video_6d0fcaa93ac4bf0cf153e94b3f1025f0_720p.mp4'
+              uri_hls: null
+  - id: 191504
+    key: '24261685380923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 思考：使用 Git 浏览历史
+    semantic_type: Concept
+    updated_at: 'Tue Oct 11 2016 10:01:43 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 190353
+    atoms:
+      - id: 190353
+        key: '2426168538'
+        locale: zh-cn
+        version: 1.0.0
+        title: 思考：使用 Git 浏览历史
+        semantic_type: TextAtom
+        updated_at: 'Tue Oct 11 2016 10:01:42 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          ## 思考：使用 Git 浏览历史
+
+
+          既然你已具有亲自使用 Git 的经验，现在请将以下问题和你对它的想法添加到你的反思文件中：
+
+
+          **如何使用命令 git log 和 git diff 来查看文件的历史记录？**
+
+
+          在你更新了文档后，单击“下一项”，与 Sarah 一起将更多概念添加到图中。然后，你将学习如何使用 Git 恢复到文件的以前版本。
+        instructor_notes: ''
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+  - id: 191505
+    key: '29607789480923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 概念图：版本库、克隆、日志
+    semantic_type: Concept
+    updated_at: 'Tue Oct 11 2016 10:01:43 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 190354
+    atoms:
+      - id: 190354
+        key: '2960778948'
+        locale: zh-cn
+        version: 1.0.0
+        title: 概念图：版本库、克隆、日志
+        semantic_type: QuizAtom
+        updated_at: 'Fri Apr 14 2017 18:06:58 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |-
+          ### 说明
+          选中你认为 `log` 应连接到的每个概念。对于你选中的每个概念，在其旁边的方框中填写你认为适用的连接类型 ("type-of"，"part-of"，或 "operates-on") 。如果没有正确的连接类型，请填写 "other"。
+        instruction:
+          video:
+            youtube_id: u_jU9rFonuY
+            subtitles:
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d2764f_concept-map-repository/subtitles/lang_ar_vs1.srt'
+                language_code: ar
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d2764f_concept-map-repository/subtitles/lang_pt-br_vs8.srt'
+                language_code: pt-br
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d2764f_concept-map-repository/subtitles/lang_en_vs3.srt'
+                language_code: en
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d2764f_concept-map-repository/subtitles/lang_zh-cn_vs1.srt'
+                language_code: zh-cn
+            transcodings:
+              uri_480p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.2960778950/video_b3903572616fdcfa1813ce7913025ec2_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.2960778950/video_b3903572616fdcfa1813ce7913025ec2_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.2960778950/video_b3903572616fdcfa1813ce7913025ec2_480p.ogg'
+              uri_720p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.2960778950/video_b3903572616fdcfa1813ce7913025ec2_720p.mp4'
+              uri_hls: null
+          text: null
+        question:
+          title: 概念图：版本库、克隆、日志
+          background_image: '//lh6.ggpht.com/xgxW9z_VRwE2Z-L75QIhTRF1dyj7WLY9v85N2fW0v54TK7I8Fy7ATgAe-r-SgOATY-39z67xGYQsd7G-Kms=s0#w=800&h=480'
+          alt_text: ''
+          semantic_type: ImageFormQuestion
+          evaluation_id: '2960778949'
+        answer:
+          text: null
+          video:
+            youtube_id: rzZxzedLHKw
+            subtitles:
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d1e3aa_cm-repository/subtitles/lang_zh-cn_vs1.srt'
+                language_code: zh-cn
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d1e3aa_cm-repository/subtitles/lang_en_vs3.srt'
+                language_code: en
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d1e3aa_cm-repository/subtitles/lang_pt-br_vs8.srt'
+                language_code: pt-br
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d1e3aa_cm-repository/subtitles/lang_ar_vs1.srt'
+                language_code: ar
+            transcodings:
+              uri_480p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.2960778951/video_16b109c09981c2a482003ac3caaab8c2_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.2960778951/video_16b109c09981c2a482003ac3caaab8c2_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.2960778951/video_16b109c09981c2a482003ac3caaab8c2_480p.ogg'
+              uri_720p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.2960778951/video_16b109c09981c2a482003ac3caaab8c2_720p.mp4'
+              uri_hls: null
+  - id: 191506
+    key: '29937485730923'
+    locale: zh-cn
+    version: 1.0.0
+    title: Git 错误和警告
+    semantic_type: Concept
+    updated_at: 'Tue Oct 11 2016 10:01:44 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 190355
+    atoms:
+      - id: 190355
+        key: '2993748573'
+        locale: zh-cn
+        version: 1.0.0
+        title: Git 错误和警告
+        semantic_type: QuizAtom
+        updated_at: 'Tue Oct 11 2016 10:01:44 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: ''
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: Git 错误和警告
+          background_image: '//lh5.ggpht.com/X7zhrVJvLtO9gT3Zhuw655uWiuCK-8kfY7JWmzw-_RoUh5_2v7UFT7YkRW0x4VjIo9EQ5YftBPj2rpM-koav=s0#w=720&h=405'
+          alt_text: ''
+          semantic_type: ImageFormQuestion
+          evaluation_id: '2952808956'
+        answer:
+          text: |-
+            ## Git 错误和警告解决方案
+
+            **Should not be doing an octopus（不应执行 octopus）**  
+
+            Octopus 是 Git 用来合并多个不同代码版本的一种策略。如果在不合适的情况下尝试使用该策略，则可能会出现此消息。
+
+            **You are in 'detached HEAD' state（你处于“分离的 HEAD”状态）**  
+
+            Git 将你目前所在的提交称为 HEAD。可通过切换到前一个提交来“分离”HEAD，这在下一个视频中有说明。虽然此警告听起来不太好，但分离 HEAD 实际上不是坏事。Git 只是向你发出警告，以便你知道自己正在这样做。
+
+            **Panic! (the 'impossible' happened)（（天哪！“不可能的事”发生了））**  
+
+            这是真正的错误消息，但它不是由 Git 输出的，而是由 GHC（编程语言 Haskell 的编译器）输出的。它仅在发生特别让人惊讶的错误时才会出现！
+
+            **结论**
+            我们希望，这些错误和警告能让你像我们一样会心一笑！既然你已知道 Git 可能会引发的错误类型，现在你可以准备开始和 Caroline 一起检查文件的以前版本了。
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+  - id: 191511
+    key: '29607789520923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 检出代码的旧版本
+    semantic_type: Concept
+    updated_at: 'Tue Oct 11 2016 10:01:45 GMT+0000 (UTC)'
+    is_public: true
+    resources:
+      files:
+        - name: troubleshooting_guide.pdf
+          uri: 'https://www.udacity.com/api/nodes/2960778953/supplemental_media/troubleshooting-guidepdf/download'
+      google_plus_link: null
+      career_resource_center_link: null
+      coaching_appointments_link: null
+      office_hours_link: null
+    _atoms_ids:
+      - 190360
+    atoms:
+      - id: 190360
+        key: '2960778952'
+        locale: zh-cn
+        version: 1.0.0
+        title: 检出代码的旧版本
+        semantic_type: QuizAtom
+        updated_at: 'Fri Apr 14 2017 18:05:10 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |-
+          ### 快速编辑模式
+
+          要开启快速编辑模式以便在 GitBash 中更轻松地进行复制和粘贴，请按照<a href="https://www.udacity.com/wiki/ud775/git-bash-copy-paste" target="_blank">此处</a>的说明操作。
+
+          ### 最新的提交
+
+          最新的提交的提交 ID 为 `3884eab839af1e82c44267484cf2945a766081f3`。在检出较旧的提交后，可使用此提交 ID 返回到最新的提交。
+
+          ### `git checkout` 的格式
+
+          Caroline 为检出“Revert controls”提交而键入的命令是 `git checkout b0678b161fcf74467ed3a63110557e3d6229cfa6`。
+
+          ### Windows 资源管理器
+
+          当 Caroline 提到在 Windows 上打开“文件导航 GUI”时，她是指打开 Windows 资源管理器。
+
+          ### 输入提交 ID
+
+          如果输入提交 ID 的前四个或更多个字符更为轻松，则你可以这样做，而不必粘贴整个 ID。
+        instruction:
+          video:
+            youtube_id: enodgfNvUsc
+            subtitles:
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d0d050_checking-out-old-versions-of-code-how-to-use-git-and-github/subtitles/lang_zh-cn_vs1.srt'
+                language_code: zh-cn
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d0d050_checking-out-old-versions-of-code-how-to-use-git-and-github/subtitles/lang_en_vs3.srt'
+                language_code: en
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d0d050_checking-out-old-versions-of-code-how-to-use-git-and-github/subtitles/lang_ar_vs1.srt'
+                language_code: ar
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d0d050_checking-out-old-versions-of-code-how-to-use-git-and-github/subtitles/lang_pt-br_vs8.srt'
+                language_code: pt-br
+            transcodings:
+              uri_480p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.2960778953/video_dcd14c4b591d71379c9184ca00f38cbe_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.2960778953/video_dcd14c4b591d71379c9184ca00f38cbe_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.2960778953/video_dcd14c4b591d71379c9184ca00f38cbe_480p.ogg'
+              uri_720p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.2960778953/video_dcd14c4b591d71379c9184ca00f38cbe_720p.mp4'
+              uri_hls: null
+          text: null
+        question:
+          title: Checking Out Old Versions of Code Quiz
+          background_image: '//lh5.ggpht.com/J5vFUDZ1vh8ruvz78GmzChuKUgmyCb2_FkeodatwG4_TKAs7U6SY_6mwsYmKOqLU6ICqsWYKSNqUvimhPA=s0#w=1920&h=1080'
+          alt_text: ''
+          semantic_type: ImageFormQuestion
+          evaluation_id: '2960778954'
+        answer:
+          text: null
+          video:
+            youtube_id: LDsb4zc2GbU
+            subtitles:
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57cfac13_checking-out-old-versions-solution-how-to-use-git-and-github/subtitles/lang_en_vs3.srt'
+                language_code: en
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57cfac13_checking-out-old-versions-solution-how-to-use-git-and-github/subtitles/lang_ar_vs1.srt'
+                language_code: ar
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57cfac13_checking-out-old-versions-solution-how-to-use-git-and-github/subtitles/lang_pt-br_vs8.srt'
+                language_code: pt-br
+              - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57cfac13_checking-out-old-versions-solution-how-to-use-git-and-github/subtitles/lang_zh-cn_vs1.srt'
+                language_code: zh-cn
+            transcodings:
+              uri_480p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.2960778955/video_fb06ac51d5afa86ed95727fd6279ad01_480p.mp4'
+              uri_480p_1000kbps_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.2960778955/video_fb06ac51d5afa86ed95727fd6279ad01_480p_1000kbps.mp4'
+              uri_480p_ogg: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.2960778955/video_fb06ac51d5afa86ed95727fd6279ad01_480p.ogg'
+              uri_720p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.2960778955/video_fb06ac51d5afa86ed95727fd6279ad01_720p.mp4'
+              uri_hls: null
+  - id: 191507
+    key: '29987985520923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 思考：对版本控制的信心
+    semantic_type: Concept
+    updated_at: 'Tue Oct 11 2016 10:01:45 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 190356
+    atoms:
+      - id: 190356
+        key: '2998798552'
+        locale: zh-cn
+        version: 1.0.0
+        title: 思考：对版本控制的信心
+        semantic_type: TextAtom
+        updated_at: 'Tue Oct 11 2016 10:01:45 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          ## 思考：对版本控制的信心
+
+
+          既然你已知道如何使用 Git 恢复到文件的以前版本，现在请将以下问题和你对它的想法添加到你的反思文件中：
+
+
+          **使用版本控制，如何让你更有信心进行有可能会造成破坏的更改？**
+
+
+          在你更新文档后，单击“下一项”，开始配置将让你更高效地使用 Git 的工作空间。
+        instructor_notes: ''
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+  - id: 191509
+    key: '29860285790923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 采访 Lewis Kaneshiro
+    semantic_type: Concept
+    updated_at: 'Tue Oct 11 2016 10:01:46 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 190357
+    atoms:
+      - id: 190357
+        key: '2986028579'
+        locale: zh-cn
+        version: 1.0.0
+        title: 采访 Lewis Kaneshiro
+        semantic_type: VideoAtom
+        updated_at: 'Fri Apr 14 2017 18:20:52 GMT+0000 (UTC)'
+        is_public: true
+        tags: []
+        instructor_notes: null
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        video:
+          youtube_id: THmul1MlYvI
+          subtitles:
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d26887_interview-with-lewis-kaneshiro-how-to-use-git-and-github/subtitles/lang_ar_vs1.srt'
+              language_code: ar
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d26887_interview-with-lewis-kaneshiro-how-to-use-git-and-github/subtitles/lang_zh-cn_vs1.srt'
+              language_code: zh-cn
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d26887_interview-with-lewis-kaneshiro-how-to-use-git-and-github/subtitles/lang_pt-br_vs9.srt'
+              language_code: pt-br
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d26887_interview-with-lewis-kaneshiro-how-to-use-git-and-github/subtitles/lang_en_vs3.srt'
+              language_code: en
+          transcodings:
+            uri_480p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.2986028579/video_dee23c87835fe99459098533efa8cafc_480p.mp4'
+            uri_480p_1000kbps_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.2986028579/video_dee23c87835fe99459098533efa8cafc_480p_1000kbps.mp4'
+            uri_480p_ogg: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.2986028579/video_dee23c87835fe99459098533efa8cafc_480p.ogg'
+            uri_720p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.2986028579/video_dee23c87835fe99459098533efa8cafc_720p.mp4'
+            uri_hls: null
+  - id: 191510
+    key: '29607789560923'
+    locale: zh-cn
+    version: 1.0.0
+    title: Git 工作空间
+    semantic_type: Concept
+    updated_at: 'Tue Oct 11 2016 10:01:46 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 190358
+    atoms:
+      - id: 190358
+        key: '2960778956'
+        locale: zh-cn
+        version: 1.0.0
+        title: Git 工作空间
+        semantic_type: VideoAtom
+        updated_at: 'Fri Apr 14 2017 18:28:14 GMT+0000 (UTC)'
+        is_public: true
+        tags: []
+        instructor_notes: ''
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        video:
+          youtube_id: XPOzPrahXgw
+          subtitles:
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d1d670_git-workspace-how-to-use-git-and-github/subtitles/lang_en_vs3.srt'
+              language_code: en
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d1d670_git-workspace-how-to-use-git-and-github/subtitles/lang_ar_vs1.srt'
+              language_code: ar
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d1d670_git-workspace-how-to-use-git-and-github/subtitles/lang_zh-cn_vs1.srt'
+              language_code: zh-cn
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d1d670_git-workspace-how-to-use-git-and-github/subtitles/lang_pt-br_vs8.srt'
+              language_code: pt-br
+          transcodings:
+            uri_480p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.2960778956/video_d5f801b345f7e8ec705aac297a3fef97_480p.mp4'
+            uri_480p_1000kbps_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.2960778956/video_d5f801b345f7e8ec705aac297a3fef97_480p_1000kbps.mp4'
+            uri_480p_ogg: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.2960778956/video_d5f801b345f7e8ec705aac297a3fef97_480p.ogg'
+            uri_720p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.2960778956/video_d5f801b345f7e8ec705aac297a3fef97_720p.mp4'
+            uri_hls: null
+  - id: 191508
+    key: '33417185870923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 在 Windows 上设置你的工作空间
+    semantic_type: Concept
+    updated_at: 'Tue Oct 11 2016 10:01:47 GMT+0000 (UTC)'
+    is_public: true
+    resources:
+      files:
+        - name: bash_profile_course
+          uri: 'https://www.udacity.com/api/nodes/3341718587/supplemental_media/bash-profile-course/download'
+      google_plus_link: null
+      career_resource_center_link: null
+      coaching_appointments_link: null
+      office_hours_link: null
+    _atoms_ids:
+      - 190359
+    atoms:
+      - id: 190359
+        key: '3341718587'
+        locale: zh-cn
+        version: 1.0.0
+        title: 在 Windows 上设置你的工作空间
+        semantic_type: VideoAtom
+        updated_at: 'Fri Apr 14 2017 18:21:21 GMT+0000 (UTC)'
+        is_public: true
+        tags: []
+        instructor_notes: |-
+          你可以在[这里](https://www.udacity.com/api/nodes/3341718587/supplemental_media/bash-profile-course/download?_ga=1.37232743.672083044.1467344711)下载 .bash_profile_course。
+
+          ### 更改背景色
+          如果不喜欢 Git Bash 的背景色为黑色，可在“颜色”选项卡下的“默认值”菜单中更改背景色。如果喜欢原来的背景色，则无需进行更改。
+
+          ### 下载必要的文件
+          * 将 <a href="https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash" target="_blank">此文件</a>保存在你的主目录中（文件名为 `git-completion.bash`）。
+          * 将 <a href="https://raw.githubusercontent.com/git/git/master/contrib/completion/git-prompt.sh" target="_blank">此文件</a>保存在你的主目录中（文件名为 `git-prompt.sh`）。
+          * 从辅助材料下载 `bash_profile_course`。
+          * 如果你的主目录中已有一个名为 `.bash_profile` 的文件，则将 `bash_profile_course` 中的内容复制并粘贴到 `.bash_profile` 的底部。如果没有，将 `bash_profile_course` 移到你的主目录中，然后将其重命名为 `.bash_profile`。（如果有兴趣详细了解 bash 提示符的工作方式，请参阅<a href="http://www.cyberciti.biz/tips/howto-linux-unix-bash-shell-setup-prompt.html" target="_blank">此页</a>。）
+
+          ### 配置 Git
+          运行以下 Git 配置命令。如果使用的文本编辑器不是 Sublime，或者 Sublime 安装在其他位置中，则需要修改第一条命令。有关适用于其他多个常见文本编辑器的正确命令，请参阅<a href="https://help.github.com/articles/associating-text-editors-with-git/" target="_blank">此页</a>。对于任何其他编辑器，你需要输入从 Git Bash 启动该编辑器时使用的命令。
+
+          <pre>
+          git config --global core.editor "'C:/Program Files/Sublime Text 2/sublime_text.exe' -n -w"
+          git config --global push.default upstream
+          git config --global merge.conflictstyle diff3
+          </pre>
+
+          ### 确保可从 Git Bash 启动编辑器
+          如果你使用 Sublime Text，则可通过将以下一行添加到 `.bash_profile` 中来这样做：
+          <pre>
+          alias subl="C:/Program\ Files/Sublime\ Text\ 2/sublime_text.exe"
+          </pre>
+
+          ### 重新启动 Git Bash
+          必须关闭 Git Bash，然后重新打开它，这样所有更改才会生效。
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        video:
+          youtube_id: IfLhXM4RnB4
+          subtitles:
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d11dcd_setting-up-your-workspace-on-windows-how-to-use-git-and-github/subtitles/lang_zh-cn_vs1.srt'
+              language_code: zh-cn
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d11dcd_setting-up-your-workspace-on-windows-how-to-use-git-and-github/subtitles/lang_en_vs3.srt'
+              language_code: en
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d11dcd_setting-up-your-workspace-on-windows-how-to-use-git-and-github/subtitles/lang_ar_vs1.srt'
+              language_code: ar
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d11dcd_setting-up-your-workspace-on-windows-how-to-use-git-and-github/subtitles/lang_pt-br_vs8.srt'
+              language_code: pt-br
+          transcodings:
+            uri_480p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3341718587/video_ff63d0e9f434691131b071ca3261243c_480p.mp4'
+            uri_480p_1000kbps_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3341718587/video_ff63d0e9f434691131b071ca3261243c_480p_1000kbps.mp4'
+            uri_480p_ogg: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3341718587/video_ff63d0e9f434691131b071ca3261243c_480p.ogg'
+            uri_720p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3341718587/video_ff63d0e9f434691131b071ca3261243c_720p.mp4'
+            uri_hls: null
+  - id: 191512
+    key: '33331589510923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 在 Mac 上设置你的工作空间
+    semantic_type: Concept
+    updated_at: 'Tue Oct 11 2016 10:01:47 GMT+0000 (UTC)'
+    is_public: true
+    resources:
+      files:
+        - name: bash_profile_course
+          uri: 'https://www.udacity.com/api/nodes/3333158951/supplemental_media/bash-profile-course/download'
+      google_plus_link: null
+      career_resource_center_link: null
+      coaching_appointments_link: null
+      office_hours_link: null
+    _atoms_ids:
+      - 190361
+    atoms:
+      - id: 190361
+        key: '3333158951'
+        locale: zh-cn
+        version: 1.0.0
+        title: 在 Mac 上设置你的工作空间
+        semantic_type: VideoAtom
+        updated_at: 'Fri Apr 14 2017 18:21:21 GMT+0000 (UTC)'
+        is_public: true
+        tags: []
+        instructor_notes: |-
+          ### 下载必要的文件
+          * 将 <a href="https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash" target="_blank">此文件</a>保存在你的主目录中（文件名为 `git-completion.bash`）。
+          * 将 <a href="https://raw.githubusercontent.com/git/git/master/contrib/completion/git-prompt.sh" target="_blank">此文件</a>保存在你的主目录中（文件名为 `git-prompt.sh`）。
+          * 从辅助材料下载 `bash_profile_course`。
+          * 如果你的主目录中已有一个名为 `.bash_profile` 的文件，则将 `bash_profile_course` 中的内容复制并粘贴到 `.bash_profile` 的底部。如果没有，将 `bash_profile_course` 移到你的主目录中，然后将其重命名为 `.bash_profile`。（如果有兴趣详细了解 bash 提示符的工作方式，请参阅<a href="http://www.cyberciti.biz/tips/howto-linux-unix-bash-shell-setup-prompt.html" target="_blank">此页</a>。）
+
+          ### 确保可从终端启动编辑器
+          如果你使用 Sublime Text，则可通过将以下一行添加到 `.bash_profile` 中来这样做（如果 Sublime 安装在其他位置中，则您可能要更改路径）：
+          <pre>
+          alias subl="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
+          </pre>
+
+          ### 配置 Git
+          运行以下 Git 配置命令。如果使用的文本编辑器不是 Sublime，或者 Sublime 安装在其他位置中，则需要修改第一条命令。有关适用于其他多个常见文本编辑器的正确命令，请参阅<a href="https://help.github.com/articles/associating-text-editors-with-git/" target="_blank">此页</a>。对于任何其他编辑器，您需要输入从终端启动该编辑器时使用的命令。
+
+          <pre>
+          git config --global core.editor "'/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl' -n -w"
+          git config --global push.default upstream
+          git config --global merge.conflictstyle diff3
+          </pre>
+
+          (你也可以不使用第一条命令，而是使用视频中所示的更简单命令 `git config --global core.editor "subl -n -w"`，但许多学员发现此命令不起作用。)
+
+          ### 新启动终端
+          必须关闭终端，然后重新打开它，这样所有更改才会生效。
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        video:
+          youtube_id: s_eFuGauy6k
+          subtitles:
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d1e680_setting-up-your-workspace-on-mac-how-to-use-git-and-github/subtitles/lang_pt-br_vs9.srt'
+              language_code: pt-br
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d1e680_setting-up-your-workspace-on-mac-how-to-use-git-and-github/subtitles/lang_zh-cn_vs1.srt'
+              language_code: zh-cn
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d1e680_setting-up-your-workspace-on-mac-how-to-use-git-and-github/subtitles/lang_en_vs3.srt'
+              language_code: en
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57d1e680_setting-up-your-workspace-on-mac-how-to-use-git-and-github/subtitles/lang_ar_vs1.srt'
+              language_code: ar
+          transcodings:
+            uri_480p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3333158951/video_082692f4d5a5e07788a6d6e2d16b74b9_480p.mp4'
+            uri_480p_1000kbps_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3333158951/video_082692f4d5a5e07788a6d6e2d16b74b9_480p_1000kbps.mp4'
+            uri_480p_ogg: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3333158951/video_082692f4d5a5e07788a6d6e2d16b74b9_480p.ogg'
+            uri_720p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.3333158951/video_082692f4d5a5e07788a6d6e2d16b74b9_720p.mp4'
+            uri_hls: null
+  - id: 191514
+    key: '29966385750923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 思考：你想如何使用 Git？
+    semantic_type: Concept
+    updated_at: 'Tue Oct 11 2016 10:01:49 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 190362
+    atoms:
+      - id: 190362
+        key: '2996638575'
+        locale: zh-cn
+        version: 1.0.0
+        title: 思考：你想如何使用 Git？
+        semantic_type: TextAtom
+        updated_at: 'Tue Oct 11 2016 10:01:48 GMT+0000 (UTC)'
+        is_public: true
+        text: |-
+          ## 思考：你想如何使用 Git？
+
+          将以下问题和你对它的想法添加到你的反思文件中：
+
+          **现在你已设置了工作空间，你想尝试使用 Git 来做些什么？**
+
+          在你更新了文档后，单击“下一项”，我们将对本节课进行小结。
+        instructor_notes: ''
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+  - id: 191516
+    key: '29607789570923'
+    locale: zh-cn
+    version: 1.0.0
+    title: 第 1 课小结
+    semantic_type: Concept
+    updated_at: 'Tue Oct 11 2016 10:01:49 GMT+0000 (UTC)'
+    is_public: true
+    resources: null
+    _atoms_ids:
+      - 190363
+    atoms:
+      - id: 190363
+        key: '2960778957'
+        locale: zh-cn
+        version: 1.0.0
+        title: 第 1 课小结
+        semantic_type: VideoAtom
+        updated_at: 'Fri Apr 14 2017 18:28:57 GMT+0000 (UTC)'
+        is_public: true
+        tags: []
+        instructor_notes: ''
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        video:
+          youtube_id: 5bZTen8j7Zw
+          subtitles:
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57cfbb45_lesson-1-summary-how-to-use-git-and-github/subtitles/lang_zh-cn_vs1.srt'
+              language_code: zh-cn
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57cfbb45_lesson-1-summary-how-to-use-git-and-github/subtitles/lang_en_vs3.srt'
+              language_code: en
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57cfbb45_lesson-1-summary-how-to-use-git-and-github/subtitles/lang_ar_vs2.srt'
+              language_code: ar
+            - url: 'http://video.udacity-staging-data.com.s3.amazonaws.com/topher/2016/September/57cfbb45_lesson-1-summary-how-to-use-git-and-github/subtitles/lang_pt-br_vs8.srt'
+              language_code: pt-br
+          transcodings:
+            uri_480p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.2960778957/video_fa9bb78538c0853519e6ddd447c5a16c_480p.mp4'
+            uri_480p_1000kbps_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.2960778957/video_fa9bb78538c0853519e6ddd447c5a16c_480p_1000kbps.mp4'
+            uri_480p_ogg: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.2960778957/video_fa9bb78538c0853519e6ddd447c5a16c_480p.ogg'
+            uri_720p_mp4: 'http://d17h27t6h515a5.cloudfront.net/alt/Node.2960778957/video_fa9bb78538c0853519e6ddd447c5a16c_720p.mp4'
+            uri_hls: null
+  - id: 191515
+    key: '30650385912589030923'
+    locale: zh-cn
+    version: 1.0.0
+    title: Survey Says!
+    semantic_type: Concept
+    updated_at: 'Tue Oct 11 2016 10:01:50 GMT+0000 (UTC)'
+    is_public: false
+    resources: null
+    _atoms_ids:
+      - 190364
+    atoms:
+      - id: 190364
+        key: '3065038591258903'
+        locale: zh-cn
+        version: 1.0.0
+        title: Survey Says!
+        semantic_type: QuizAtom
+        updated_at: 'Tue Oct 11 2016 10:01:50 GMT+0000 (UTC)'
+        is_public: true
+        resources:
+          files: []
+          google_plus_link: null
+          career_resource_center_link: null
+          coaching_appointments_link: null
+          office_hours_link: null
+        instructor_notes: |-
+          You can complete the survey <a href="http://goo.gl/Kygr2N" target="_blank">here</a>.
+
+          Thanks in advance!
+        instruction:
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null
+          text: null
+        question:
+          title: Survey Says!
+          background_image: '//lh5.ggpht.com/yTgdbSVYAm5GhLItCCO_RbKrBQcUKYmdaJkHZoMMEyU0NqXRC3CKgdi_xauUdysetSiRKmDLY8s6IfB8ww=s0#w=1440&h=810'
+          alt_text: null
+          semantic_type: ImageFormQuestion
+          evaluation_id: '3065038591'
+        answer:
+          text: null
+          video:
+            youtube_id: null
+            subtitles: null
+            transcodings: null

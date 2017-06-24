@@ -1,0 +1,63 @@
+﻿1
+00:00:00,330 --> 00:00:02,968
+Before we move on to
+the JavaScript language itself,
+
+2
+00:00:02,968 --> 00:00:05,919
+how about we recap some of
+the things you just learned?
+
+3
+00:00:05,919 --> 00:00:09,699
+First, you learned that all major
+browsers come with built-in JavaScript
+
+4
+00:00:09,699 --> 00:00:10,240
+engines.
+
+5
+00:00:10,240 --> 00:00:13,625
+This allows browsers to run and
+execute JavaScript code.
+
+6
+00:00:13,625 --> 00:00:16,649
+>> Next, you got practice
+using the JavaScript console.
+
+7
+00:00:16,649 --> 00:00:18,949
+The JavaScript console allows
+you to print strings and
+
+8
+00:00:18,949 --> 00:00:22,980
+execute lines of JavaScript code on
+the fly, right inside of your browser.
+
+9
+00:00:22,980 --> 00:00:26,710
+>> And finally, you wrap up with some
+exercises where you use JavaScript
+
+10
+00:00:26,710 --> 00:00:29,929
+to add styles and
+animations to a web page.
+
+11
+00:00:29,929 --> 00:00:32,519
+>> Hopefully, you're beginning
+to see the power of JavaScript.
+
+12
+00:00:32,520 --> 00:00:35,140
+And you're ready to dive in and
+explore the language.
+
+13
+00:00:35,140 --> 00:00:36,130
+See you in the next lesson.
+

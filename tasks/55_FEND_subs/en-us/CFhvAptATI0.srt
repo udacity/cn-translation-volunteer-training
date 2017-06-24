@@ -1,0 +1,80 @@
+1
+00:00:00,470 --> 00:00:02,450
+Developer tools allow you to debug and
+
+2
+00:00:02,450 --> 00:00:05,310
+test out your ideas
+directly in the browser.
+
+3
+00:00:05,309 --> 00:00:08,118
+If you're familiar with HTML or CSS,
+
+4
+00:00:08,118 --> 00:00:11,750
+you may have used developer tools to
+experiment with the style of a webpage.
+
+5
+00:00:11,750 --> 00:00:14,109
+But you can also use it with JavaScript.
+
+6
+00:00:14,109 --> 00:00:17,030
+>> Developer tools are often
+used as a sandbox.
+
+7
+00:00:17,030 --> 00:00:17,810
+In other words,
+
+8
+00:00:17,809 --> 00:00:22,570
+a place to mess around with any code
+without any long-term consequences.
+
+9
+00:00:22,570 --> 00:00:25,609
+You can use developer tools to
+debug problem you run in to or
+
+10
+00:00:25,609 --> 00:00:28,030
+to test a piece of code
+you've just learned.
+
+11
+00:00:28,030 --> 00:00:30,539
+If you open any website
+that uses JavaScript,
+
+12
+00:00:30,539 --> 00:00:34,129
+the console will tell you if there any
+warnings or errors on the page and
+
+13
+00:00:34,130 --> 00:00:37,625
+will also display any output,
+print it with console.log.
+
+14
+00:00:37,625 --> 00:00:40,875
+>> Note that anytime you're using
+the console on these course,
+
+15
+00:00:40,875 --> 00:00:44,405
+you might see some errors or
+warnings from the site you're visiting.
+
+16
+00:00:44,405 --> 00:00:46,835
+That's okay, this is very common and
+
+17
+00:00:46,835 --> 00:00:49,045
+will not affect the code that
+you write in these course.
+

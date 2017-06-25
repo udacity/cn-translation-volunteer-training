@@ -8,7 +8,7 @@ updated_at: 'Wed Dec 28 2016 07:56:49 GMT+0000 (UTC)'
 is_public: true
 image: null
 video: null
-summary: 学习几种不同的版本控制系统，认识 Git 为什么对程序员很重要。使用 Git 浏览一个现有项目的历史。
+summary: 学习几种不同的版本控制系统，了解为什么 Git 对程序员来说很重要。使用 Git 浏览一个现有项目的历史。
 duration: 180
 is_project_lesson: false
 _concepts_ids:
@@ -251,7 +251,7 @@ concepts:
         instructor_notes: |-
           ### 小行星（Asteroids）小游戏
 
-          如果你有兴趣，可以到 <a href="http://dougmcinnes.com/html-5-asteroids/" target="_blank">Doug 的网站</a>试玩小行星游戏。
+          如果你感兴趣，可以到 <a href="http://dougmcinnes.com/html-5-asteroids/" target="_blank">Doug 的网站</a> 试玩小行星游戏。
 
           ### 下载文件的新旧版本
           `game.js` 文件的两个版本是：
@@ -260,11 +260,11 @@ concepts:
 
           下面说明如何将它们下载到你的计算机中：
 
-          * 右键单击或 Control + 点击文档链接，然后选择“**另存为（Save as）**”。
+          * 右键单击或 Control + 点击文档链接，然后选择 “**另存为…（Save As…）**”。
 
           请务必记住将文件下载到的位置！
 
-          当在 Mac 上显示运行“diff”后的输出时，Caroline 意外地显示了 `diff -u game_new.js game_old.js` 的输出，她输入文件名的顺序是错误的。 （她输入的命令是正确的，但显示出来的的却是错误命令运行后的输出）。 如果你正确运行了命令，输出应与 Caroline 的结果相反。她的输出中的正号应为负号，反之亦然。
+          当在 Mac 上显示运行 “diff” 后的输出时，Caroline 意外地获得了 `diff -u game_new.js game_old.js` 的输出，她输入文件名的顺序是错误的。 （她输入的命令是正确的，但显示出来的的却是错误命令运行后的输出）。 如果你正确运行了命令，输出应与 Caroline 的结果相反。她的输出中的正号应为负号，反之亦然。
         instruction:
           video:
             youtube_id: MsmbtwibNQU
@@ -330,7 +330,7 @@ concepts:
         updated_at: 'Fri Apr 14 2017 18:21:21 GMT+0000 (UTC)'
         is_public: true
         tags: []
-        instructor_notes: '若要更深入地了解，请查阅与该主题相关的<a href="http://184.182.233.150/rid=1LW06D9V6-26428MK-1Z64/Mezirow#39;s%20chapter,%20How%20Critical%20Refletion%20Triggers%20TL.pdf" target="_blank">这篇开创性论文</a>（共 20 页）。'
+        instructor_notes: '若要更深入地了解，请查阅与该主题相关的 <a href="http://184.182.233.150/rid=1LW06D9V6-26428MK-1Z64/Mezirow#39;s%20chapter,%20How%20Critical%20Refletion%20Triggers%20TL.pdf" target="_blank">这篇开创性论文</a>（共 20 页）。'
         resources:
           files: []
           google_plus_link: null
@@ -387,7 +387,7 @@ concepts:
           ## 思考：使用 diff 查找 bug
           ### 确保你可以访问命令行
 
-          如果你使用 Windows 系统的电脑，需要安装一个软件，以便使用类 Unix 的命令行（不同于 Windows 内置的命令提示符）。 了解更多信息，请<a href="https://www.udacity.com/wiki/ud775/command-line-instructions#windows-users" target="_blank">查阅此页</a>。
+          如果你使用 Windows 系统的电脑，需要安装一个软件，以便使用类似 Unix 的命令行（不同于 Windows 内置的命令提示符）。 欲了解更多信息，请<a href="https://www.udacity.com/wiki/ud775/command-line-instructions#windows-users" target="_blank">查阅此页</a>。
 
           ### 选择文本编辑器
 
@@ -396,10 +396,10 @@ concepts:
           如果你没有爱用的编辑器，Sublime Text 是一个很好的选择（它在 Windows、Mac 和 Linux 上都能运行）。对于 Sublime Text，我们提供了比其他编辑器更详细的设置说明，而且在本课程的所有示例中都使用 Sublime Text。 你可在<a href="http://www.sublimetext.com/2" target="_blank">此处</a>下载 Sublime Text。
 
           ### 确保可从命令行启动编辑器
-          能够从命令行启动文本编辑器将很有帮助。请参阅<a href="https://www.udacity.com/wiki/ud775/sublime" target="_blank">此处</a>，了解如何为 Sublime 这样做。 如果遇到问题，本节课结尾处的“在 Windows 上设置工作空间”和“在 Mac 上设置工作空间”视频将会演示此过程，你可以等到那时再这样做。
+          能够从命令行启动文本编辑器将很有帮助。请参阅<a href="https://www.udacity.com/wiki/ud775/sublime" target="_blank">此处</a>，了解如何以类似方式启动 Sublime。 如果遇到问题，本节课结尾处的 “在 Windows 上设置工作空间” 和 “在 Mac 上设置工作空间” 视频将会演示此过程，你可以等到那时再这样做。
 
           ### 设置你的课程工作环境
-          现在，你应创建一个 `version-control`（版本控制）目录（“目录”比“文件夹”更具备计算机科学含义）， 以将你在本课程中使用的所有文件都保存到一个好记的位置。然后，创建一个 `reflections` 子目录， 并在其中创建一个名为 `lesson_1_reflections.txt` 的纯文本文件，以记录你在本节课中遇到的问题。
+          现在，你应创建一个 `version-control`（版本控制）目录（“目录” 比 “文件夹” 更具备计算机科学含义）， 以将你在本课程中使用的所有文件都保存到一个好记的位置。然后，创建一个 `reflections` 子目录， 并在其中创建一个名为 `lesson_1_reflections.txt` 的纯文本文件，以记录你在本节课中遇到的问题。
 
           可以通过在 Git Bash 或终端中运行以下命令来实现这一操作（# 符号后面的信息是注释，任何这些信息均不会被解释）：
 
@@ -413,15 +413,15 @@ concepts:
 
           </pre>
 
-          如果愿意，你也可以从“课程资源”中下载 `lesson_1_reflections_prompts.txt` 文件，而不是从头开始创建它。然后，将该文件放入 `reflections` 目录中，并重命名。
+          如果愿意，你也可以从 “课程资源” 中下载 `lesson_1_reflections_prompts.txt` 文件，而不是从头开始创建它。然后，将该文件放入 `reflections` 目录中，并重命名。
 
-          保存文件后，如果你想仔细检查一切是否按计划进行，请尝试使用以下命令：
+          保存文件后，如果你想仔细检查系统是否已按照预期方式成功创建所有目录及文件，请尝试使用以下命令：
           <pre>
           pwd # 打印工作目录 - 显示你所在的目录
           ls  # 列出此目录中所含的文件
           </pre>
 
-          如果在这样做时遇到问题，本节课结尾处的“在 Windows 上设置工作空间”和“在 Mac 上设置工作空间”视频将会演示此过程，你可以等到那时再这样做。 与此同时，你也可以使用操作系统的文件操作图形界面（Finder、Windows 资源管理器等）来创建目录和文件。 不过，练习使用命令行很有好处，因为本课程中将大量使用命令行，因此，在观看了有关工作空间的说明后，请确保你知道如何在命令行上完成类似的操作。
+          如果这个过程中遇到问题，本节课结尾处的“在 Windows 上设置工作空间”和“在 Mac 上设置工作空间”视频将会演示此过程，你可以等到那时再这样做。 与此同时，你也可以使用操作系统的文件操作图形界面（Finder、Windows 资源管理器等）来创建目录和文件。 不过，练习使用命令行很有好处，因为本课程中将大量使用命令行，因此，在观看了有关工作空间的说明后，请确保你知道如何在命令行上完成类似的操作。
 
           你也可以使用其他命名方式，但本课程后面将会使用此文件结构，到时你需要改为相应的命名方式。
 
@@ -435,7 +435,7 @@ concepts:
 
           **查看文件的两个版本之间的差异如何帮助你了解引入的错误？**
 
-          在你创建文档、写下想法和保存文件后，单击“下一项”以了解可帮助你创建这些文件版本的一些系统。
+          在你创建文档、写下想法并保存文件后，单击 “下一项” 以了解可帮助你创建这些文件版本的一些系统。
         instructor_notes: '若要更深入地了解，请查阅与该主题相关的<a href="http://184.182.233.150/rid=1LW06D9V6-26428MK-1Z64/Mezirow#39;s%20chapter,%20How%20Critical%20Refletion%20Triggers%20TL.pdf" target="_blank">这篇开创性论文</a>（共 20 页）。'
         resources:
           files: []
@@ -512,7 +512,7 @@ concepts:
         is_public: true
         text: |-
           ## 思考：使用历史记录提高效率
-          既然你已了解一些版本控制系统和它们如何帮助你保存文件的历史记录，现在请将以下问题和你对它的想法添加到你的反思文件中：
+          既然你已了解一些版本控制系统以及它们如何帮助你保存文件的历史记录，现在请将以下问题和你对它的想法添加到你的反思文件中：
 
           **从长远来看，能轻松访问文件的整个历史记录将如何提高编程者的效率？**
 
@@ -808,7 +808,7 @@ concepts:
     key: '24198785820923'
     locale: zh-cn
     version: 1.0.0
-    title: 为每项合逻辑的更改进行一次提交
+    title: 为每项逻辑独立的更改进行一次提交
     semantic_type: Concept
     updated_at: 'Tue Oct 11 2016 10:01:36 GMT+0000 (UTC)'
     is_public: true
@@ -820,7 +820,7 @@ concepts:
         key: '2419878582'
         locale: zh-cn
         version: 1.0.0
-        title: 为每项合逻辑的更改进行一次提交
+        title: 为每项逻辑独立的更改进行一次提交
         semantic_type: QuizAtom
         updated_at: 'Tue Oct 11 2016 10:01:36 GMT+0000 (UTC)'
         is_public: true
@@ -840,38 +840,38 @@ concepts:
             transcodings: null
           text: |-
             ## 提交频率
-            由于可以选择何时进行提交，因此，你可能想知道该多久提交一次更改。保持较小的提交通常是一个好做法。随着两个版本之间的差异越来越大，易于理解性和实用性都会越来越低。但是，你也不希望使提交过小。如果总是在每次更改一行代码后保存提交，则历史记录会因短时间内包含大量提交而变得难以读懂。
+            由于可以在任意时候进行提交，因此，你可能想知道该多久提交一次更改。保持提交较小的更改通常是一个好做法。随着两个版本之间的差异越来越大，易于理解性和实用性都会越来越低。但是，你也不希望使提交的文件变化过小。如果总是在每次更改一行代码后保存提交，则历史记录会因短时间内包含大量提交而变得难以读懂。
 
-            **为每项逻辑更改进行一次提交**是很好的经验法则。例如，如果改正了一处打字错误，然后在文件的另一部分中改正了一个错误，则应为每项更改进行一次提交，因为这两项更改在逻辑上是独立的。如果这样做，每次提交都将具有一个易于理解的目的。Git 允许你在每次提交时都编写一条简短的信息来说明更改了什么。如果每次提交都包含一项逻辑更改，这条信息会更有用。
+            **为每项逻辑更改进行一次提交操作**是很好的经验法则。例如，如果改正了一处打字错误，然后在文件的另一部分中改正了一个错误，则应为每项更改进行一次提交操作，因为这两项更改在逻辑上是独立的。如果这样做，每次提交操作都将具有一个易于理解的目的。Git 允许你在每次提交时都编写一条简短的信息来说明更改了什么。如果每次提交都包含一项逻辑更改，这条信息会更有用。
 
-            ## 提交大小练习
+            ## 有关提交的内容大小的练习
             在下一个练习中，你要思考隔多久提交一次，并标明你是否认为以下是合适的提交大小。如果不是，则指出你是否认为此提交过小并想等到以后再提交，或者你是否认为它过大并想更早地提交。这是主观判断题，因此并没有任何明确的正确或错误答案，但在每种情况下请选出你认为最好的答案。
 
-            * 你已经花了一周来开发一项新功能，现在，你提交添加这项新功能所需的所有更改。从你开始开发它以来，你一直没有进行提交。
+            * 你已经花了一周来开发一项新功能，现在，你提交添加这项新功能所需的所有更改。从你开始开发它以来，你一直没有进行提交操作。
             * 你在 README 中发现了三处打字错误。你改正并提交第一处错误。
             * 你已经花了一小时来开发一项新功能，现在，你提交添加这项新功能所需的所有更改。
             * 你改正了不同函数中的两个小错误，然后同时提交两者。
         question:
-          title: 为每项合逻辑的更改进行一次提交 Quiz
+          title: 为每项逻辑独立的更改进行一次提交 Quiz
           background_image: '//lh5.ggpht.com/MucPMQp6NLE90G_mdCyFTjDRx--RBZs5L7Gqwnc5kJgs7mRaGipizjsz_7QReckUafJnAdow34kx_ozcQA=s0#w=776&h=434'
           alt_text: null
           semantic_type: ImageFormQuestion
           evaluation_id: '2413318551'
         answer:
           text: |-
-            ## 为每项合逻辑的更改进行一次提交解决方案
+            ## 为每项逻辑独立的更改进行一次提交解决方案
 
-            **你已经花了一周时间来开发一项新功能，现在，你提交添加这项新功能所需的所有更改。从你开始开发它以来，你一直没有进行提交。**
+            **你已经花了一周时间来开发一项新功能，现在，你提交添加这项新功能所需的所有更改。从你开始开发它以来，你一直没有提交任何更改。**
 
-            此提交似乎过大。如果每个提交只做了一项工作并且比较小，则理解每个提交所做的工作会变得更容易。在一周内不进行任何提交并非上策。
+            此提交似乎过大。如果每个提交只做了一项工作并且比较小，则理解每个提交的更改对应的作用会变得更容易。在一周内不提交任何更改并非上策。
 
-            **你在 README 中发现了三处打字错误。你改正并提交第一处错误。**
+            **你在 README 文件中发现了三处打字错误。你改正并提交第一处错误。**
 
-            此提交似乎过小。改正所有三处打字错误后再一并提交会更好。这样一来，历史记录不会因打字错误的改正而变得过于混乱。此外，你无需担心会给 README 招致错误，因此，将更改捆绑在一起更可能会是一个好主意。
+            此提交似乎过小。改正所有三处打字错误后再一并提交会更好。这样一来，历史记录不会因打字错误的改正而变得过于混乱。此外，你无需担心会给 README 文件造成损坏，因此，将更改捆绑在一起可能是一个更好主意。
 
             **你已经花了一小时来开发一项新功能，现在，你提交添加这项新功能所需的所有更改。**
 
-            这可能是大小适中的提交。所有工作均与一项功能有关，因此，提交的逻辑目的很清晰。一小时后，diff 可能累积了相当多的内容，但并未多到无法理解。
+            这可能是大小适中的更改。所有工作均与一项功能有关，因此，提交的内容的逻辑目的很清晰。一小时后，diff 可能累积了相当多的内容，但并未多到无法理解。
 
             另一方面，有时在工作了一小时后，你将会遇到一个以上的自然提交点，这时你会想将功能分解为多个较小的提交。因此，“过大”在这里也可能是一个合理的回答。
 
@@ -881,7 +881,7 @@ concepts:
 
             ## 主观判断
 
-            选择何时提交是一种主观判断，而且不一定一成不变。在选择是否提交时，只需记住：每个提交都应具有一个清晰的逻辑目的，而且绝不应在不进行提交的情况下完成过多工作。
+            选择何时提交是一种主观判断，而且不一定一成不变。在选择是否提交时，只需记住：每个提交操作都应具有一个清晰的逻辑目的，而且绝不应在不进行提交的情况下完成过多工作。
           video:
             youtube_id: null
             subtitles: null
@@ -912,7 +912,7 @@ concepts:
           既然你已了解 Git 提交，并思考了哪些时候适合提交，现在请将以下问题和你对它的想法添加到你的反思文件中：
 
 
-          **你认为，手动选择何时创建提交（像在 Git 中做的那样）与自动保存版本（如 Google Docs 所做的那样）各有何优缺点？**
+          **依你之见，手动选择何时创建提交（像在 Git 中做的那样）与自动保存版本（如 Google Docs 所做的那样）各有何优缺点？**
 
 
           在你更新文档后，单击“下一项”，Sarah 将会说明各种版本控制系统之间的另一个不同之处。
@@ -998,7 +998,7 @@ concepts:
     key: '29607789430923'
     locale: zh-cn
     version: 1.0.0
-    title: 多文件 Git 提交
+    title: 用 Git 同时提交多个文件
     semantic_type: Concept
     updated_at: 'Tue Oct 11 2016 10:01:38 GMT+0000 (UTC)'
     is_public: true
@@ -1010,7 +1010,7 @@ concepts:
         key: '2960778943'
         locale: zh-cn
         version: 1.0.0
-        title: 多文件 Git 提交
+        title: 用 Git 同时提交多个文件
         semantic_type: VideoAtom
         updated_at: 'Fri Apr 14 2017 18:21:21 GMT+0000 (UTC)'
         is_public: true
@@ -1043,7 +1043,7 @@ concepts:
     key: '24987385350923'
     locale: zh-cn
     version: 1.0.0
-    title: 思考：多文件提交
+    title: 思考：用 Git 同时提交多个文件
     semantic_type: Concept
     updated_at: 'Tue Oct 11 2016 10:01:39 GMT+0000 (UTC)'
     is_public: true
@@ -1055,16 +1055,16 @@ concepts:
         key: '2498738535'
         locale: zh-cn
         version: 1.0.0
-        title: 思考：多文件提交
+        title: 思考：用 Git 同时提交多个文件
         semantic_type: TextAtom
         updated_at: 'Tue Oct 11 2016 10:01:38 GMT+0000 (UTC)'
         is_public: true
         text: |-
-          ## 思考：多文件提交
+          ## 思考：用 Git 同时提交多个文件
 
           将以下问题和你对它的想法添加到你的反思文件中：
 
-          **何你认为一些版本控制系统（例如 Git）允许在一次提交中保存多个文件，而其他系统（例如 Google Docs）单独对待每个文件？**
+          **在你看来，为何一些版本控制系统（例如 Git）允许在一次提交并保存多个文件，而其他系统（例如 Google Docs）单独对待每个文件？**
 
           在你更新了文档后，单击“下一项”，一位资深的 Git 用户将会述说为何版本控制对他很有用。
         instructor_notes: ''
@@ -1144,7 +1144,7 @@ concepts:
 
           现在，你将有机会亲自使用 Git，并在 Asteroids 版本库上练习使用这些命令。为此，必须安装 Git。如果已安装 Git，请使用命令 `git --version` 查看其版本。如果版本为 1.8 或更高，则可以继续观看下一个视频。否则，强烈建议你进行升级，因为 Git 在版本 1.8 中添加了许多新功能，而且我们假定你装有该版本。
 
-          如果你还未安装 Git，或者如果需要升级，现在请按照<a href="https://www.udacity.com/wiki/ud775/install-git" target="_blank">此 Wiki 页面</a>上的说明来执行操作。如果遇到问题，请在论坛中发贴求助。安装了 Git 之后，单击“下一项”，Caroline 会演示如何下载 Asteroids 版本库。
+          如果你还未安装或者需要升级 Git，现在请按照<a href="https://www.udacity.com/wiki/ud775/install-git" target="_blank">此 Wiki 页面</a>上的说明来执行操作。如果遇到问题，请在论坛中发贴求助。安装了 Git 之后，单击“下一项”，Caroline 会演示如何下载 Asteroids 版本库。
         instructor_notes: ''
         resources:
           files: []
@@ -1203,21 +1203,21 @@ concepts:
 
           要在 Git Bash 中复制并粘贴，请按照<a href="https://www.udacity.com/wiki/ud775/git-bash-copy-paste" target="_blank">此页面</a>中的说明执行操作。
 
-          **Mac**  
+          **Mac**
 
           要在 Mac 上的终端中复制并粘贴，请使用 Cmd+C 和 Cmd+V。
 
-          **Ubuntu**  
+          **Ubuntu**
 
           要在 Ubuntu 上的终端中复制并粘贴，请使用 Ctrl+Shift+C 和 Ctrl+Shift+V。
 
           ### 使用 `git log` 和 `git diff`
 
-          请注意，运行 `git log` 会列出最近的提交及其相关信息（包括提交 ID）。运行 `git diff`（后跟两个提交 ID）会比较这两个提交的代码版本。如果需要复习，可以重新观看[此视频](https://classroom.udacity.com/courses/ud775/lessons/2980038599/concepts/29607789370923).
+          请注意，运行 `git log` 会列出最近的提交及其相关信息（包括提交 ID）。运行 `git diff`（后跟两个提交操作对应的 ID）会比较这两个提交的代码版本。如果需要复习，可以重新观看[此视频](https://classroom.udacity.com/courses/ud775/lessons/2980038599/concepts/29607789370923).
 
-          ### 输入提交 ID
+          ### 输入提交操作对应的 ID
 
-          如果输入提交 ID 的前四个或更多个字符更为轻松，则你可以这样做，而不必粘贴整个 ID。
+          如果输入提交操作对应的 ID 的前四个或更多个字符更为轻松，则你可以这样做，而不必粘贴整个 ID。
         instruction:
           video:
             youtube_id: WQjNhypqwNE
@@ -1266,7 +1266,7 @@ concepts:
     key: '24261685380923'
     locale: zh-cn
     version: 1.0.0
-    title: 思考：使用 Git 浏览历史
+    title: 思考：使用 Git 浏览提交操作历史
     semantic_type: Concept
     updated_at: 'Tue Oct 11 2016 10:01:43 GMT+0000 (UTC)'
     is_public: true
@@ -1278,18 +1278,18 @@ concepts:
         key: '2426168538'
         locale: zh-cn
         version: 1.0.0
-        title: 思考：使用 Git 浏览历史
+        title: 思考：使用 Git 浏览提交操作历史
         semantic_type: TextAtom
         updated_at: 'Tue Oct 11 2016 10:01:42 GMT+0000 (UTC)'
         is_public: true
         text: |-
-          ## 思考：使用 Git 浏览历史
+          ## 思考：使用 Git 浏览提交操作历史
 
 
           既然你已具有亲自使用 Git 的经验，现在请将以下问题和你对它的想法添加到你的反思文件中：
 
 
-          **如何使用命令 git log 和 git diff 来查看文件的历史记录？**
+          **如何使用命令 git log 和 git diff 来查看文件的提交操作历史记录？**
 
 
           在你更新了文档后，单击“下一项”，与 Sarah 一起将更多概念添加到图中。然后，你将学习如何使用 Git 恢复到文件的以前版本。
@@ -1416,15 +1416,15 @@ concepts:
           text: |-
             ## Git 错误和警告解决方案
 
-            **Should not be doing an octopus（不应执行 octopus）**  
+            **Should not be doing an octopus（不应执行 octopus）**
 
             Octopus 是 Git 用来合并多个不同代码版本的一种策略。如果在不合适的情况下尝试使用该策略，则可能会出现此消息。
 
-            **You are in 'detached HEAD' state（你处于“分离的 HEAD”状态）**  
+            **You are in 'detached HEAD' state（你处于 “分离的 HEAD” 状态）**
 
-            Git 将你目前所在的提交称为 HEAD。可通过切换到前一个提交来“分离”HEAD，这在下一个视频中有说明。虽然此警告听起来不太好，但分离 HEAD 实际上不是坏事。Git 只是向你发出警告，以便你知道自己正在这样做。
+            Git 将你目前查看的提交内容称为 HEAD。可通过切换到上一次提交的内容来 “分离” HEAD，这在下一个视频中有说明。虽然此警告听起来不太好，但分离 HEAD 实际上不是坏事。Git 只是向你发出警告，以便你知道自己正在这样做。
 
-            **Panic! (the 'impossible' happened)（（天哪！“不可能的事”发生了））**  
+            **Panic! (the 'impossible' happened)（（天哪！“不可能的事” 发生了））**
 
             这是真正的错误消息，但它不是由 Git 输出的，而是由 GHC（编程语言 Haskell 的编译器）输出的。它仅在发生特别让人惊讶的错误时才会出现！
 
@@ -1472,9 +1472,9 @@ concepts:
 
           要开启快速编辑模式以便在 GitBash 中更轻松地进行复制和粘贴，请按照<a href="https://www.udacity.com/wiki/ud775/git-bash-copy-paste" target="_blank">此处</a>的说明操作。
 
-          ### 最新的提交
+          ### 最新的提交操作
 
-          最新的提交的提交 ID 为 `3884eab839af1e82c44267484cf2945a766081f3`。在检出较旧的提交后，可使用此提交 ID 返回到最新的提交。
+          最新的提交操作对应的 ID 为 `3884eab839af1e82c44267484cf2945a766081f3`。在检出较旧的提交后，可使用此提交 ID 返回到最新提交的代码版本。
 
           ### `git checkout` 的格式
 
@@ -1482,11 +1482,11 @@ concepts:
 
           ### Windows 资源管理器
 
-          当 Caroline 提到在 Windows 上打开“文件导航 GUI”时，她是指打开 Windows 资源管理器。
+          当 Caroline 提到在 Windows 上打开 “文件导航 GUI” 时，她是指打开 Windows 资源管理器。
 
-          ### 输入提交 ID
+          ### 输入提交操作对应的 ID
 
-          如果输入提交 ID 的前四个或更多个字符更为轻松，则你可以这样做，而不必粘贴整个 ID。
+          如果输入提交操作对应的 ID 的前四个或更多个字符更为轻松，则你可以这样做，而不必粘贴整个 ID。
         instruction:
           video:
             youtube_id: enodgfNvUsc
@@ -1691,7 +1691,7 @@ concepts:
           你可以在[这里](https://www.udacity.com/api/nodes/3341718587/supplemental_media/bash-profile-course/download?_ga=1.37232743.672083044.1467344711)下载 .bash_profile_course。
 
           ### 更改背景色
-          如果不喜欢 Git Bash 的背景色为黑色，可在“颜色”选项卡下的“默认值”菜单中更改背景色。如果喜欢原来的背景色，则无需进行更改。
+          如果不喜欢以黑色作为 Git Bash 的背景色，可在 “颜色” 选项卡下的 “默认值” 菜单中更改背景色。如果喜欢原来的背景色，则无需进行更改。
 
           ### 下载必要的文件
           * 将 <a href="https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash" target="_blank">此文件</a>保存在你的主目录中（文件名为 `git-completion.bash`）。
@@ -1701,7 +1701,7 @@ concepts:
 
           ### 配置 Git
           运行以下 Git 配置命令。如果使用的文本编辑器不是 Sublime，或者 Sublime 安装在其他位置中，则需要修改第一条命令。有关适用于其他多个常见文本编辑器的正确命令，请参阅<a href="https://help.github.com/articles/associating-text-editors-with-git/" target="_blank">此页</a>。对于任何其他编辑器，你需要输入从 Git Bash 启动该编辑器时使用的命令。
-
+f
           <pre>
           git config --global core.editor "'C:/Program Files/Sublime Text 2/sublime_text.exe' -n -w"
           git config --global push.default upstream
@@ -1900,7 +1900,7 @@ concepts:
     key: '30650385912589030923'
     locale: zh-cn
     version: 1.0.0
-    title: Survey Says!
+    title: 调查问卷的呼唤!
     semantic_type: Concept
     updated_at: 'Tue Oct 11 2016 10:01:50 GMT+0000 (UTC)'
     is_public: false
@@ -1912,7 +1912,7 @@ concepts:
         key: '3065038591258903'
         locale: zh-cn
         version: 1.0.0
-        title: Survey Says!
+        title: 调查问卷的呼唤！
         semantic_type: QuizAtom
         updated_at: 'Tue Oct 11 2016 10:01:50 GMT+0000 (UTC)'
         is_public: true
@@ -1923,9 +1923,9 @@ concepts:
           coaching_appointments_link: null
           office_hours_link: null
         instructor_notes: |-
-          You can complete the survey <a href="http://goo.gl/Kygr2N" target="_blank">here</a>.
+          你可以在 <a href="http://goo.gl/Kygr2N" target="_blank">此处</a> 完成这个调查问卷。
 
-          Thanks in advance!
+          提前感谢你！
         instruction:
           video:
             youtube_id: null
@@ -1933,7 +1933,7 @@ concepts:
             transcodings: null
           text: null
         question:
-          title: Survey Says!
+          title: 调查问卷的呼唤！
           background_image: '//lh5.ggpht.com/yTgdbSVYAm5GhLItCCO_RbKrBQcUKYmdaJkHZoMMEyU0NqXRC3CKgdi_xauUdysetSiRKmDLY8s6IfB8ww=s0#w=1440&h=810'
           alt_text: null
           semantic_type: ImageFormQuestion

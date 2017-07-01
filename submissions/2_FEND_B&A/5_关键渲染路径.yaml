@@ -165,9 +165,9 @@ concepts:
         is_public: true
         tags: []
         instructor_notes: |-
-          **Ilya 说**：我知道你在想什么...“请稍等，但每位用户的标题都不相同，因为你一旦注册，右上角就会出现自定义图标和导航！”...对吗？
+          **Ilya 说**：我知道你在想什么...“请稍等，但每位用户的标题区都不相同，因为你一旦注册，右上角就会出现自定义图标和导航！”...对吗？
 
-          此优化仍然有效！Google 搜索团队已经构建了一项优化服务，能够检索和构建自定义标题，其中包括在请求首次到达服务器后几微秒内的自定义用户信息 - 因此，即使在解析搜索查询前，它们也可以将标题反冲到客户端中。或者，许多站点使用静态标题，然后使用 JavaScript 来填充自定义位 - 这使它们能够为相同的标题提供服务，而无论用户状态如何。
+          此优化仍然有效！Google 搜索团队已经构建了一项优化服务，能够检索和构建自定义标题区，其中包括在请求首次到达服务器后几微秒内的自定义用户信息 - 因此，即使在解析搜索查询前，它们也可以将个人的标题区返回到客户端中。或者，许多站点使用静态标题，然后使用 JavaScript 来填充自定义用户个人信息 - 这使它们能够提供相同的标题区，而无论用户状态如何。
 
           在任何一种情况下，重要的部分都在于服务器不需要等待渲染完整响应，然后再将其返回至客户端。你刷新某些数据的速度越快，浏览器可以开始构建 DOM 并发现和分配其他关键资源的请求的速度也越快。
 
@@ -205,7 +205,7 @@ concepts:
     key: '16135285350923'
     locale: zh-cn
     version: 1.0.0
-    title: 探索时间线踪迹
+    title: 探索 Timeline 踪迹
     semantic_type: Concept
     updated_at: 'Tue Feb 28 2017 14:52:31 GMT+0000 (UTC)'
     is_public: true
@@ -217,7 +217,7 @@ concepts:
         key: '1613528535'
         locale: zh-cn
         version: 1.0.0
-        title: 探索时间线踪迹
+        title: 探索 Timeline 踪迹
         semantic_type: QuizAtom
         updated_at: 'Fri Apr 14 2017 18:12:32 GMT+0000 (UTC)'
         is_public: true
@@ -228,18 +228,20 @@ concepts:
           coaching_appointments_link: null
           office_hours_link: null
         instructor_notes: |-
-          详细了解 Chrome 开发者工具中的时间线面板：[如何使用 Timeline 工具](https://developers.google.com/web/tools/chrome-devtools/evaluate-performance/timeline-tool)
-
-          如果 DevTools 中的“时间线”选项卡与视频中显示的不一样，请注意，Chrome Canary 和 Chrome 是不断变化的平台，会不断推出新版本。遇到自己努力尝试过后也无法解决的问题，请在[论坛](http://discussions.youdaxue.com/c/nd001-website-optimization)提问。
+          详细了解 Chrome 开发者工具中的 Timeline 面板：
+          [如何使用 Timeline 工具](https://developers.google.com/web/tools/chrome-devtools/evaluate-performance/timeline-tool)
+          [Timeline 性能统计](https://developer.chrome.com/devtools/docs/timeline)
+          [Timeline 事件参考](https://developer.chrome.com/devtools/docs/timeline#timeline-event-reference)
+          如果 DevTools 中的 “Timeline” 选项卡与视频中显示的不一样，请注意，Chrome Canary 和 Chrome 是不断变化的平台，会不断推出新版本。请尝试比较你和视频中 Canary 和 Chrome 的视图，然后参考[论坛](https://discussions.udacity.com/t/important-note-re-devtools-timeline-visual-discrepancy-esp-if-youre-confused/28598)和前面的链接，努力解决问题。
 
           Cameron 将在回答视频中分析 <a href="http://www.cnn.com" target="_blank">cnn.com</a>。
 
           <ul>
           <li>在 Windows 上使用 **Ctrl+Shift+I** 或者在 Mac 上使用 **Cmd+Opt+I** 以打开开发者工具。
-          <li>在 Windows 上使用 **Ctrl+Shift+R** 或者在 Mac 上使用 **Cmd+Shift+R** 来重新加载页面并捕捉时间线。
+          <li>在 Windows 上使用 **Ctrl+Shift+R** 或者在 Mac 上使用 **Cmd+Shift+R** 来重新加载页面并捕捉 timeline。
           </ul>
 
-          高级技巧：要使用硬重新加载技巧来捕捉完整踪迹，你需要先加载页面，在开发者工具中打开时间线，开始和停止录制，然后使用上述快捷方式重新加载页面。基本上，打开开发者工具并点击录制按钮两次，然后再执行硬重新加载。
+          高级技巧：要使用硬重新加载技巧来捕捉完整踪迹，你需要先加载页面，在开发者工具中打开 timeline，开始和停止记录，然后使用上述快捷方式重新加载页面。基本上，打开开发者工具并点击记录按钮两次，然后重新硬加载。
 
           请查看 <a href="https://developer.chrome.com/devtools/docs/mobile-emulation" target="_blank">开发者工具模拟文档</a>，详细了解如何模拟移动设备。
 
@@ -269,7 +271,7 @@ concepts:
               uri_hls: null
           text: null
         question:
-          title: 探索时间线踪迹
+          title: 探索 Timeline 踪迹
           background_image: '//lh3.ggpht.com/-0LG8CYEAS1UAFouT-jkwaYj_n4VS4o7COrnj5uNrbMAM-sbp0n5if7WvsgVvNKK_uRGjkx8dEuiJpbdGUE=s0#w=1920&h=1080'
           alt_text: ''
           semantic_type: ImageFormQuestion
@@ -605,7 +607,8 @@ concepts:
         updated_at: 'Fri Apr 14 2017 18:17:37 GMT+0000 (UTC)'
         is_public: true
         tags: []
-        instructor_notes: '详细了解<a href="https://developer.chrome.com/devtools/docs/timeline#saving-and-loading-recordings" target="_blank">如何使用时间轴工具</a>'
+        instructor_notes: '详细了解<a href="https://developer.chrome.com/devtools/docs/timeline#saving-and-loading-recordings" target="_blank">如何使用 Timeline 工具</a>'
+                          '**Cameron：** 很不巧， 在本课程发布后，Google 修改了 Chrome 的 timeline文件格式。上面链接的追踪不会加载，但是我们正在生成一个新的。同时，希望你继续关注从 timelines 里能学到什么。'
         resources:
           files: []
           google_plus_link: null
@@ -842,7 +845,7 @@ concepts:
           career_resource_center_link: null
           coaching_appointments_link: null
           office_hours_link: null
-        instructor_notes: '**Cameron：** 优达学城的学生 Aliaksei 和 everdimension 已经提醒我注意，`<em>` 和 `<span>` 实际上是 `inline` 元素。除非它们转换为 `display: block` 或 `display: inline-block`，否则它们的宽度将由其包含的文本确定。'
+        instructor_notes: '**Cameron：** 优达学城的学生 Aliaksei 和 everdimension 已经提醒我注意，`<em>` 和 `<span>` 实际上是 `inline` 元素。除非它们转换为 `display: block` 或 `display: inline-block`，否则它们的宽度将由其包含的内容确定。'
         instruction:
           video:
             youtube_id: ReQ1m0n3Kmc
@@ -951,7 +954,7 @@ concepts:
     key: '15290985670923'
     locale: zh-cn
     version: 1.0.0
-    title: 查找昂贵布局的示例
+    title: 查找成本高的布局示例
     semantic_type: Concept
     updated_at: 'Tue Feb 28 2017 15:12:26 GMT+0000 (UTC)'
     is_public: true
@@ -963,7 +966,7 @@ concepts:
         key: '1529098567'
         locale: zh-cn
         version: 1.0.0
-        title: 查找昂贵布局的示例
+        title: 查找成本高的布局示例
         semantic_type: QuizAtom
         updated_at: 'Fri Apr 14 2017 18:06:58 GMT+0000 (UTC)'
         is_public: true
@@ -982,9 +985,9 @@ concepts:
 
           <ul>
           <li>在 Windows 上使用 **Ctrl+Shift+I** 或者在 Mac 上使用 **Cmd+Opt+I** 以打开 DevTools。
-          <li>在 Windows 上使用 **Ctrl+Shift+R** 或者在 Mac 上使用 **Cmd+Shift+R** 来重新加载页面并捕捉时间线。
+          <li>在 Windows 上使用 **Ctrl+Shift+R** 或者在 Mac 上使用 **Cmd+Shift+R** 来重新加载页面并捕捉 timeline。
           </ul>
-          要使用硬重新加载技巧来捕捉完整踪迹，你需要先加载页面，在 DevTools 中打开时间线，开始和停止录制，然后使用上述快捷方式重新加载页面。基本上，打开 DevTools 并点击录制按钮两次，然后再执行硬重新加载。
+          要使用硬重新加载技巧来捕捉完整踪迹，你需要先加载页面，在 DevTools 中打开 Timeline，开始和停止记录，然后使用上述快捷方式重新加载页面。基本上，打开 DevTools 并点击录制按钮两次，然后重新硬加载。
 
           请查看 <a href="https://developer.chrome.com/devtools/docs/mobile-emulation" target="_blank">DevTools 模拟文档</a>，详细了解如何模拟移动设备。
         instruction:
@@ -1011,7 +1014,7 @@ concepts:
               uri_hls: null
           text: null
         question:
-          title: 查找昂贵布局的示例
+          title: 查找成本高的布局示例
           background_image: '//lh4.ggpht.com/WQdG2ACMXccxjUu_QlINfILbjxGYcvIsLuPmOKxOw9ESiotQZbJhh0YiEr1KTcUfx8Yaiwt_PSiqOb7QNfA=s0#w=960&h=540'
           alt_text: null
           semantic_type: ImageFormQuestion
@@ -1065,7 +1068,7 @@ concepts:
           career_resource_center_link: null
           coaching_appointments_link: null
           office_hours_link: null
-        instructor_notes: '详细了解<a href="https://developers.google.com/web/fundamentals/performance/critical-rendering-path/render-tree-construction" target="_blank">渲染树的结构、布局和绘制</a>'
+        instructor_notes: '详细了解<a href="https://developers.google.com/web/fundamentals/performance/critical-rendering-path/render-tree-construction" target="_blank">渲染树的构造、布局和绘制</a>'
         instruction:
           video:
             youtube_id: tEKq_tMJ8oY
@@ -1396,6 +1399,7 @@ concepts:
           coaching_appointments_link: null
           office_hours_link: null
         instructor_notes: |-
+          **<a href="https://discussions.udacity.com/t/optimization-suggestions/16163" target="_blank">Link to Optimization Suggestions forum discussion</a> **
           Cameron 将在回答视频中分析 <a href="http://www.netflix.com" target="_blank">Netflix</a>。
 
           Cameron 说：Netflix 很有可能会在本视频录制后发生更改。你查看后可能会发现某些操作与我的操作不同。

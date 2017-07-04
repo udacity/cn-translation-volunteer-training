@@ -1,0 +1,126 @@
+﻿1
+00:00:00,670 --> 00:00:02,020
+Data is everywhere.
+
+2
+00:00:02,020 --> 00:00:04,099
+It's the grade you made
+on your first math test,
+
+3
+00:00:04,099 --> 00:00:06,139
+it's the conversation you
+have with a loved one and
+
+4
+00:00:06,139 --> 00:00:08,609
+it's the decision you made to
+sit down and watch this video.
+
+5
+00:00:09,859 --> 00:00:11,910
+All of these things can
+be represented as data.
+
+6
+00:00:13,039 --> 00:00:16,730
+Data's important because it helps us
+understand the world, recognize trends,
+
+7
+00:00:16,730 --> 00:00:19,960
+make educated guesses and
+inform our future decisions.
+
+8
+00:00:19,960 --> 00:00:22,060
+>> This is no different in programming.
+
+9
+00:00:22,059 --> 00:00:25,780
+Data and data types are the building
+blocks of any programming language
+
+10
+00:00:25,780 --> 00:00:28,199
+because they help us
+organize information and
+
+11
+00:00:28,199 --> 00:00:30,195
+determine how our programs will run.
+
+12
+00:00:30,195 --> 00:00:33,256
+>> When you look on your Facebook
+profile, what do you see?
+
+13
+00:00:33,256 --> 00:00:36,856
+Your name, the number of friends you
+have, the date of your last post,
+
+14
+00:00:36,856 --> 00:00:41,810
+list of status updates and whether you
+liked the comment your friend just made.
+
+15
+00:00:41,810 --> 00:00:44,590
+All this information is being gathered,
+calculated and
+
+16
+00:00:44,590 --> 00:00:47,860
+presented to your friends and
+family visiting your profile.
+
+17
+00:00:47,859 --> 00:00:50,729
+>> And when you look at your
+bank account, what do you see?
+
+18
+00:00:50,729 --> 00:00:54,899
+An account number, an account balance,
+dates of each transaction and
+
+19
+00:00:54,899 --> 00:00:57,729
+the name of the company that
+you made a purchase from.
+
+20
+00:00:57,729 --> 00:01:01,149
+It's important to be aware of what
+types of data you're using and
+
+21
+00:01:01,149 --> 00:01:02,519
+when it's appropriate to use each type.
+
+22
+00:01:03,539 --> 00:01:06,409
+>> In this lesson, we'll start
+by learning how to define and
+
+23
+00:01:06,409 --> 00:01:09,390
+manipulate the primitive
+data types of JavaScript.
+
+24
+00:01:09,390 --> 00:01:14,010
+Numbers, strings, Booleans,
+undefined and null.
+
+25
+00:01:14,010 --> 00:01:17,160
+Once you're familiar with these data
+types, you'll see how you can store data
+
+26
+00:01:17,159 --> 00:01:20,840
+into variables so you can reuse and
+manipulate data throughout your code.
+

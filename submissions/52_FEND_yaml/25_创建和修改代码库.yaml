@@ -320,7 +320,7 @@ concepts:
 
           **初始化版本库时会发生什么情况？为什么你需要这样做？**
 
-          创建此文件后，你可能还要运行 git status。此时，你应看到这两个文件均列出为未被跟踪的文件。
+          创建此文件后，你可能还要运行 <code>git status</code> 。此时，你应看到这两个文件均列出为未被跟踪的文件。
 
           创建并更新了第 2 课的思考文档后，单击“下一项”。
         instructor_notes: ''
@@ -356,7 +356,7 @@ concepts:
           career_resource_center_link: null
           coaching_appointments_link: null
           office_hours_link: null
-        instructor_notes: 如果你意外地将某个文件添加到暂存区中，可以使用 <code>git reset</code> 删除它。例如，如果你意外地添加了 lesson_2_reflections.txt，但不想提交它，请运行 <code>git reset lesson_2_reflections.txt</code>，此命令会从暂存区中删除该文件，但它仍在你的工作目录中。
+        instructor_notes: 如果你意外地将某个文件添加到暂存区中，可以使用 <code>git reset</code> 删除它。例如，如果你意外地添加了 `lesson_2_reflections.txt` ，但不想提交它，请运行 <code>git reset lesson_2_reflections.txt</code>，此命令会从暂存区中删除该文件，但它仍在你的工作目录中。
         instruction:
           video:
             youtube_id: t6GMcIoCD9Q
@@ -444,7 +444,7 @@ concepts:
             * working directory  （工作目录）
 
             ### 前一个版本
-            还记得上一课中的概念图吗？下面是我们上次添加新概念时的概念图外观。
+            还记得上一课中的概念图吗？下面是我们上次添加新概念时的概念图。
 
             ![Concept Map from last time](//lh5.ggpht.com/sEID_-UrxpMAWGxZeZ3wLkZLQY88K3FH7sWSRaVAslq_a3xQUpGKWJopOgTENGhilICMJsT8URIpqflutkU=s300)
 
@@ -537,13 +537,13 @@ concepts:
         text: |-
           ## 如何编写提交信息
 
-          你将向你的反思版本库进行第一次提交。在你这样做时，需要编写提交信息，以说明所做的更改。在第 1 课快要结束时提供了适用于你的平台的“设置工作空间”视频，如果你遵循此视频中的说明，则在运行 `git commit` 时，所选的编辑器将会出现，让你可以编写提交信息。如果收到错误消息，则应尝试重温第 1 课中的说明，并确保正确设置了文本编辑器。
+          你将向你的反思版本库进行第一次提交。提交时，你需要编写提交信息，以说明所做的更改。在第 1 课尾声提供了适用于你的平台的“设置工作空间”视频，如果你遵循此视频中的说明，在运行 `git commit` 后，你所选的编辑器将会出现，让你可以编写提交信息。如果收到错误消息，则应尝试重温第 1 课中的说明，并确保正确设置了文本编辑器。
 
           你也可以通过命令行指定提交信息，即运行 `git commit -m "Commit message"`，而不是 `git commit`。设置编辑器仍然是一种好的做法，因为这可让你更轻松地编写较长的提交信息，以全面说明所做的更改。
 
           ## 提交信息的风格
 
-          虽然提交信息的风格因人而异，但<a href="https://gdgdocs.org/document/d/1HZ9Bo1mDKhe3JZzmFvekL5P2WHafpCaEXTymj__FUYw/pub?embedded=true" target="_blank">此风格指南</a>介绍了在编写提交信息时的一些常见最佳做法。
+          虽然提交信息的风格因人而异，但此<a href="https://gdgdocs.org/document/d/1HZ9Bo1mDKhe3JZzmFvekL5P2WHafpCaEXTymj__FUYw/pub?embedded=true" target="_blank">风格指南</a>介绍了在编写提交信息时一些常见的最佳做法。
         instructor_notes: ''
         resources:
           files: []
@@ -580,7 +580,7 @@ concepts:
         instructor_notes: |-
           ### Git 命令速查表
 
-          你刚才非常快速地学习了几条 Git 命令。如果想获得帮助以记住这些命令，你可能会对<a href="https://training.github.com/kit/downloads/github-git-cheat-sheet.pdf" target="_blank">此 Git 命令速查表</a>感兴趣。到目前为止，我们介绍了“配置工具”、“创建版本库”和“进行更改”部分中的命令。在本课程的余下部分中，你将学习此速查表上的其余许多命令。
+          你刚才非常快速地学习了几条 Git 命令。如果想获得帮助以记住这些命令，你可能会对此<a href="https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf" target="_blank"> Git 命令速查表</a>感兴趣。到目前为止，我们介绍了“配置工具”、“创建版本库”和“进行更改”部分中的命令。在本课程的余下部分中，你将学习此速查表上剩余的更多命令。
         instruction:
           video:
             youtube_id: 2AOLeYpVHzk
@@ -773,7 +773,7 @@ concepts:
         text: |-
           ## 思考：提交大小
 
-          现在，你已使用暂存区提交了更改，现在请将以下问题和你对它的想法添加到 `lesson_2_reflections` 文件中：
+          现在，你已使用暂存区提交了更改，请将以下问题和你对它的想法添加到 `lesson_2_reflections` 文件中：
 
           **如何使用暂存区确保为每项逻辑更改进行一次提交？**
 
@@ -924,7 +924,7 @@ concepts:
         text: |-
           ## 思考：何时使用分支
 
-          现在，你已了解如何在 Git 中创建分支，现在请将以下问题和你对它的想法添加到你的思考文件中：
+          现在，你已了解如何在 Git 中创建分支，请将以下问题和你对它的想法添加到你的思考文件中：
 
           **在哪些情况下，分支可以帮助你有序地组织历史记录？分支将如何提供帮助？**
 
@@ -1198,9 +1198,9 @@ concepts:
         text: |-
           ## 思考：利用图表直观显示内容
 
-          现在，你已具有创建分支和绘制历史记录图表的经验，现在请将以下问题和你对它的想法添加到你的思考文件中：
+          现在，你已具有创建分支和绘制历史记录图表的经验，请将以下问题和你对它的想法添加到你的思考文件中：
 
-          **图表如何帮助你直观显示分支结构？**
+          **图表如何帮助你直观地显示分支结构？**
 
           你可能还要提交对此文件所做的更改。在你准备好继续时，单击“下一项”。
         instructor_notes: ''
@@ -1378,7 +1378,7 @@ concepts:
           career_resource_center_link: null
           coaching_appointments_link: null
           office_hours_link: null
-        instructor_notes: 如果删除某个分支并导致无法从现有的分支访问一些提交，则在 Git 的垃圾收集过程运行之前，仍可继续通过提交 ID 访问这些提交。除非你主动关闭此过程，否则它将不时自动运行。也可以通过命令 `git gc` 手动运行此过程。
+        instructor_notes: 如果删除某个分支并导致无法从现有的分支访问一些提交，在 Git 的垃圾收集进程运行之前，你仍可继续通过提交 ID 访问这些提交。除非你主动关闭此进程，否则它将不时自动运行。你也可以通过命令 `git gc` 手动运行此进程。
         instruction:
           video:
             youtube_id: IaXmT7A5FBY
@@ -1456,9 +1456,9 @@ concepts:
 
           ### 有关 `git merge` 的说明
 
-          <code>git merge</code> 还将在合并的版本中包含当前检出的分支。因此，如果检出了 branch1，并且运行 <code>git merge branch2 branch3</code>，则合并的版本会将 branch1 以及 branch2 和 branch3 组合起来。由于在你进行合并提交后 branch1 标签将会更新，因此，你不想将 branch1 中的更改包含在合并中是不可能的。有鉴于此，在合并之前应始终检出你打算合并的两个分支之一。应检出哪个分支取决于你想让哪个分支标签指向新的提交。
+          <code>git merge</code> 还将在合并的版本中包含当前检出的分支。因此，如果检出了 branch1 分支，并且运行 <code>git merge branch2 branch3</code>，则合并的版本会将 branch1 分支、 branch2 分支和 branch3 分支组合起来。由于在你进行合并提交后 branch1 分支的标签将会更新，因此，你不想将 branch1 分支中的更改包含在合并中是不可能的。有鉴于此，在合并之前应始终检出你打算合并的两个分支之一。应检出哪个分支取决于你想让哪个分支标签指向新的提交。
 
-          由于检出的分支始终包含在合并中，因此，你可能已猜到，在合并两个分支时，无需在命令行上将两者都指定为 `git merge` 的参数。如果想将 branch2 合并到 branch1 中，只需键入 `git checkout branch1`，然后键入 `git merge branch2` 即可。键入 `git merge branch1 branch2` 的唯一原因是，它能帮助你对要合并的分支更加心中有数。
+          由于检出的分支始终包含在合并中，因此，你可能已猜到，在合并两个分支时，无需在命令行上将两者都指定为 `git merge` 的参数。如果想将 branch2 分支合并到 branch1 分支中，只需键入 `git checkout branch1`，然后键入 `git merge branch2` 即可。键入 `git merge branch1 branch2` 的唯一原因是，它能帮助你对要合并的分支更加心中有数。
 
           另外，由于是合并两个分支，因此在命令行中按何顺序键入分支并不重要。关键是要记住，`git merge` 始终将所有指定的分支合并到当前检出的分支中，并为该分支新建一个提交。
 
@@ -1730,10 +1730,10 @@ concepts:
 
             ### 图表的以前版本
 
-            ![old diagram](//lh6.ggpht.com/4Z1H9ULiwr6p2zn8ISqJtlleMX7BFMLAEpXbXEqNoQz4JboVxjdJNN2leARBL6lzPFBTHy-V4WS0XIZccQ=s600#w=1920&h=1080)  
+            ![old diagram](//lh6.ggpht.com/4Z1H9ULiwr6p2zn8ISqJtlleMX7BFMLAEpXbXEqNoQz4JboVxjdJNN2leARBL6lzPFBTHy-V4WS0XIZccQ=s600#w=1920&h=1080)
 
             ### 绘制更新后的图表
-            如果将 master 合并到 easy-mode 分支，历史记录之后看起来会是什么样子？请花一分钟时间使用你最喜欢的方法绘制新的历史记录。你可能需要使用铅笔和纸，或者创建一个包含星号和短划线（类似于 <code>git log --graph</code> 的输出）的文本文件，也可以使用在线图表工具（例如 [gliffy](https://www.gliffy.com/) 或 [yUML](http://yuml.me/diagram/activity/draw)）。完成后，观看解决方案，将你的图表与 Sarah 的图表进行对比。
+            如果将 master 合并到 easy-mode 分支，之后的历史记录看起来会是什么样子？请花一分钟时间使用你最喜欢的方法绘制新的历史记录。你可能需要使用铅笔和纸，或者创建一个包含星号和短划线（类似于 <code>git log --graph</code> 的输出）的文本文件，也可以使用在线图表工具（例如 [gliffy](https://www.gliffy.com/) 或 [yUML](http://yuml.me/diagram/activity/draw)）。完成后，观看解决方案，将你的图表与 Sarah 的图表进行对比。
         question:
           title: Update Easy Mode Quiz
           background_image: '//lh3.ggpht.com/p-q4OYFQkJQrxSqT7gp19gGP5hZVc0lub0fPumkKyppI6aR_Q06m_CLdk6Kq51OvIphwq_SBP5wP9uZiog=s0#w=1386&h=780'
@@ -1897,22 +1897,22 @@ concepts:
                     print "problem"
                 output = "\n".join(output)
                 return output
-                  
+
               def full_strip(text):
                   return re.sub(r'\s+', '', text)
 
               def split_lines(text):
                   lines = [full_strip(line) for line in text.split('\n')]
                   return set([line for line in lines if line])
-                  
+
               def read_code(file_name):
                   with open(file_name) as f:
                       code = f.read()
-                  
+
                   return full_strip(code), split_lines(code)
-                  
-                  
-                  
+
+
+
               if __name__ == '__main__':
                   try:
                       #subprocess.check_output(['unzip', '-o', '-j', 'Archive.zip'], stderr=subprocess.STDOUT)
@@ -1927,7 +1927,7 @@ concepts:
                           #print output
                           #print "--------------"
                           output = format_output(output)
-                      
+
                       student_code, student_lines = read_code('app.js')
                       correct_code, _ = read_code('correct.js')
                       keep_comment_code, _ = read_code('keep-comment.js')
@@ -1937,12 +1937,12 @@ concepts:
                       no_function_code, _ = read_code('removed_function.js')
                       _, intersect_lines = read_code('intersection.js')
                       _, union_lines = read_code('starter_code.js')
-                      
+
                       comment = "Your solution doesn't match what we were expecting, but our grader isn't sure " + \
                           "what's wrong with it either.  Please watch the solution video and compare your solution " + \
                           'to ours.'
                       correct = False
-                          
+
                       if student_code == correct_code:
                           correct = True
                           comment = 'Good job!'
@@ -1952,7 +1952,7 @@ concepts:
               That's okay, since the comment is still accurate, but it probably would have been
               better to leave it out.  (Sarah deleted the comment because her function is named
               breakIntoFragments, so the comment didn\'t add much anymore.)'''
-                             
+
                       elif re.search(r'<<<|>>>|===|\|\|\|', student_code):
                           comment = "It looks like you haven't removed all the special Git lines yet."
                       elif student_code == base_code:
@@ -1980,21 +1980,21 @@ concepts:
                       elif intersect_lines - student_lines:
                           comment = '''Your solution is missing some code that is present in both versions of the
               file.  Please make sure you don't delete anything.'''
-                              
+
                       if not re.search(r'^\s*$', output):
                           comment += "\n\nYour code's output:\n"
                           comment += output
-                          
+
                       result = {
                           'correct': correct,
                           'comment': comment
                       }
-                      
+
                       json.dump(result, sys.stdout)
-                      
+
                       # print output
                       #print error
-                      
+
                       process = subprocess.Popen(['ls', '-l', '-a'],
                           stderr=subprocess.PIPE, stdout=subprocess.PIPE, shell=True)
                       #print output
@@ -2087,7 +2087,7 @@ concepts:
                 output = "\n".join(output)
                 output = output.strip()
                 return output
-                  
+
               if __name__ == '__main__':
                   try:
                       #subprocess.check_output(['unzip', '-o', '-j', 'Archive.zip'], stderr=subprocess.STDOUT)
@@ -2101,13 +2101,13 @@ concepts:
                       #print output
                       #print "---------"
                       output = format_output(output)
-                      
+
                       if re.search(r'^\s*$', output):
                           print "Your code ran without errors.  Try submitting to see if your solution is correct."
                       else:
                           print output
                       #print error
-                      
+
                       process = subprocess.Popen(['ls', '-l', '-a'],
                           stderr=subprocess.PIPE, stdout=subprocess.PIPE, shell=True)
                       #print output
@@ -2258,7 +2258,7 @@ concepts:
             ![Concept Map branch and merge](//lh3.ggpht.com/-Xk8Mi7vOfVQDRPES-yvjNtPSaWraY7qFAgJYVh2txL4u3E63JA2yUeSiVHF3E5jbalSSoPl6fFAOCJr9nM=s300#w=1920&h=1080)
 
             ### 新概念
-            我们讨论了一些新概念，其中最重要的就是**分支（branching）**和**合并（merging）**。
+            我们讨论了一些新概念，其中最重要的就是**分支（branch）**和**合并（merge）**。
 
             在概念图中，分支和合并最适合放在哪里？请继续到练习，以将它们添加到图中。
 
@@ -2311,7 +2311,7 @@ concepts:
         text: |-
           ## 思考：自动合并与手动合并
 
-          现在，你已了解 Git 何时无法自动合并分支，以及它无法这样做时会发生什么情况，现在请将以下问题和你对它的想法添加到你的思考文件中：
+          现在，你已了解 Git 何时无法自动合并分支，以及它无法这样做时会发生什么情况，请将以下问题和你对它的想法添加到你的思考文件中：
 
           **Git 的自动合并与始终手动进行合并各有何优缺点？**
 

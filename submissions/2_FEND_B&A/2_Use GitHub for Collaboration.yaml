@@ -160,7 +160,7 @@ concepts:
         is_public: true
         text: |-
           ## 创建 GitHub 账户
-          在本节课中，你将在 GitHub 上分享更改，因此，你需要使用 GitHub 帐户。如果尚没有此帐户，可以访问 <a href="https://github.com/" target="_blank">github.com</a> 并单击“注册 GitHub”来创建一个帐户。
+          在本节课中，你将在 GitHub 上分享更改，因此，你需要使用 GitHub 帐户。如果尚没有此帐户，可以访问 <a href="https://github.com/" target="_blank">github.com</a> 并单击“Sign up for GitHub”来创建一个帐户。
 
           在该网站要求你选择套餐时，可选择免费套餐，因为本课程不会使用任何付费功能。
 
@@ -783,7 +783,7 @@ concepts:
             在你自己的计算机上，为你喜欢的食物添加新配方，然后在 master 分支上提交它。
 
             ## 推送更改
-            将 master 分支推送到你的Fork版本库。完成后，继续查看下一个屏幕，回答有关你的提交在不同的时间点位于何处的问题。
+            将 master 分支推送到你的Fork版本库。如果你忘记了怎么推送，可以重新看一次本小节的视频。完成后，继续查看下一个屏幕，回答有关你的提交在不同的时间点位于何处的问题。
         question:
           title: 推送更改到菜谱版本库 练习
           background_image: '//lh3.ggpht.com/uU2-Ds7z_Z6JEFDYMDqI_ptVq0kVMfgIc6Yb_49jh1Dxh5KInG1oMjGdwXhgPjYJ84kOaym1ZR4ZoiFoKvc=s0#w=1440&h=810'
@@ -1023,7 +1023,7 @@ concepts:
             transcodings: null
           text: |-
             ## 模拟 Sarah 的更改
-            在“辅助材料”部分中，有一个名为 `sarah_changes.sh` 的文件，它包含了代码，看起来像是 Sarah 修改了你在 GitHub 上的Fork。要运行此代码，请下载该文件，然后使用 Git Bash 或终端键入 `cd`，以切换到该文件的保存目录。然后，键入 `bash sarah_changes.sh`（后跟一个空格和Fork的 URL）。例如，如果 Caroline 要运行该代码，她将键入 `bash sarah_changes.sh https://github.com/cbuckey-uda/recipes.git`，但你应使用你的Fork而不是 Caroline 的Fork的 URL。如果你没有设置密码缓存，系统会提示你输入 GitHub 用户名和密码。
+            在“辅助材料”部分中，有一个名为 `sarah_changes.sh` 的文件，它包含了代码，看起来像是 Sarah 修改了你在 GitHub 上 fork 的版本库。要运行此代码，请下载该文件，然后使用 Git Bash 或终端键入 `cd`，以切换到该文件的保存目录。然后，键入 `bash sarah_changes.sh`（后跟一个空格和你的fork的URL）。例如，如果 Caroline 要运行该代码，她将键入 `bash sarah_changes.sh https://github.com/cbuckey-uda/recipes.git`，但你应使用你的Fork而不是 Caroline 的Fork的 URL。如果你没有设置密码缓存，系统会提示你输入 GitHub 用户名和密码。
         question:
           title: 模拟 Sarah 的更改 练习
           background_image: '//lh3.ggpht.com/Uh0tG7o1lYJ3quixG8DwJ9Ytf21-YYsvQgAeL3v0ewsYt4gXk1ZahVYgbV6mpQJriFqwADN1Lrs1HuZSeJo=s0#w=1440&h=810'
@@ -1556,6 +1556,9 @@ concepts:
           ### 确保你在 master 分支上
           在按照说明视频中的步骤操作之前，你要确保检出了 master 分支。
 
+          ### 确保你在 master 分支上
+          在你按照视频中指导的步骤之前，请确保你在 master 分支上。
+
           ### 在提交前对冲突的文件执行 `git add`
           就像在第 2 课中一样，在运行 `git commit` 以创建合并提交之前，需要使用 `git add` 将含有冲突的任何文件添加到暂存区中。
         instruction:
@@ -1869,6 +1872,7 @@ concepts:
 
           ## 如有必要，更新拉取请求
           如果某人合并你的拉取请求或发表评论，GitHub 会向你发送电子邮件并通知你。如果要求你进行一些更改，请将这些更改推送到你的Fork，以更新拉取请求。请确保让评审老师知道，他们应再看一次！
+          如果你的拉取请求发生了冲突，而且你不知道怎么解决，请参考下一个视频和指导。
         instructor_notes: null
         resources:
           files: []

@@ -1,0 +1,143 @@
+﻿1
+00:00:00,270 --> 00:00:01,540
+My name is Sebastian.
+
+2
+00:00:01,540 --> 00:00:03,390
+I welcome you to our
+self driving car nanodegree
+
+3
+00:00:03,390 --> 00:00:06,390
+The self driving car
+started when I was 18.
+
+4
+00:00:06,389 --> 00:00:11,550
+One of my best friends in the
+neighborhood died in a traffic accident.
+
+5
+00:00:11,550 --> 00:00:13,150
+His life went away in no time.
+
+6
+00:00:13,150 --> 00:00:17,769
+And back in the day, I asked myself,
+why is it that we have these machines
+
+7
+00:00:17,769 --> 00:00:22,109
+that are great on one hand,
+but still kill so many people?
+
+8
+00:00:22,109 --> 00:00:24,829
+It stuck with me for a long time.
+
+9
+00:00:24,829 --> 00:00:28,299
+And when I joined Stanford in 2003,
+the US government
+
+10
+00:00:28,300 --> 00:00:33,160
+had just launched a competition
+called the DARPA Grand Challenge.
+
+11
+00:00:33,159 --> 00:00:38,089
+It's a competition where a self driven
+car had to drive through an empty desert
+
+12
+00:00:38,090 --> 00:00:39,620
+in California.
+
+13
+00:00:39,619 --> 00:00:40,719
+Our car Stanley,
+
+14
+00:00:40,719 --> 00:00:46,320
+named after Stanford was a blue,
+beautiful Volkswagen Touareg.
+
+15
+00:00:46,320 --> 00:00:49,920
+And lo and
+behold we won the competition.
+
+16
+00:00:49,920 --> 00:00:53,490
+My team joined Google in 2009 to build
+
+17
+00:00:53,490 --> 00:00:57,990
+a self driving car that could drive
+on public streets where we all drive.
+
+18
+00:00:57,990 --> 00:01:00,450
+And when we were ready to
+tell the public about it,
+
+19
+00:01:00,450 --> 00:01:05,236
+we had driven not just 100,000 unique
+miles for the self driving cars.
+
+20
+00:01:05,236 --> 00:01:09,070
+But we've also driven pretty much
+the hardest streets in California you
+
+21
+00:01:09,069 --> 00:01:11,769
+can imagine, completely self driven.
+
+22
+00:01:11,769 --> 00:01:14,259
+We drove from San Francisco
+to Los Angeles.
+
+23
+00:01:14,260 --> 00:01:17,130
+The technology has been in
+development for many, many decades,
+
+24
+00:01:17,129 --> 00:01:20,115
+but the breakthroughs
+are often most recent years.
+
+25
+00:01:20,115 --> 00:01:24,019
+More than self driven cars
+now we have proven others can
+
+26
+00:01:24,019 --> 00:01:27,649
+drive safer than humans can drive and
+automotive companies and
+
+27
+00:01:27,650 --> 00:01:30,846
+tech companies are struggling to
+find great engineers to keep up.
+
+28
+00:01:30,846 --> 00:01:34,972
+This is the self driven program and
+when you are finished,
+
+29
+00:01:34,972 --> 00:01:39,709
+you will have the skills to drawing
+this cutting edge industry.
+
+30
+00:01:39,709 --> 00:01:42,640
+We are super excited
+to have you with us.
+

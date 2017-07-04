@@ -852,14 +852,14 @@ concepts:
             * 你已经花了一小时来开发一项新功能，现在，你提交添加这项新功能所需的所有更改。
             * 你改正了不同函数中的两个小错误，然后同时提交两者。
         question:
-          title: 为每项逻辑独立的更改进行一次提交 Quiz
+          title: 为每一项合理的修改进行一次提交 Quiz
           background_image: '//lh5.ggpht.com/MucPMQp6NLE90G_mdCyFTjDRx--RBZs5L7Gqwnc5kJgs7mRaGipizjsz_7QReckUafJnAdow34kx_ozcQA=s0#w=776&h=434'
           alt_text: null
           semantic_type: ImageFormQuestion
           evaluation_id: '2413318551'
         answer:
           text: |-
-            ## 为每项逻辑独立的更改进行一次提交解决方案
+            ## 为每一项合乎逻辑的更改进行一次提交的方案
 
             **你已经花了一周时间来开发一项新功能，现在，你提交添加这项新功能所需的所有更改。从你开始开发它以来，你一直没有提交任何更改。**
 

@@ -1,0 +1,148 @@
+﻿1
+00:00:00,590 --> 00:00:04,035
+So you have all of these numbers,
+strings, and booleans, but
+
+2
+00:00:04,035 --> 00:00:06,115
+what are you supposed to do with them?
+
+3
+00:00:06,115 --> 00:00:10,865
+All of this data you've worked with so
+far has been for a one time use only.
+
+4
+00:00:10,865 --> 00:00:15,280
+You define the string, Hello,
+it's returned and that's it.
+
+5
+00:00:15,279 --> 00:00:16,429
+That's the end.
+
+6
+00:00:16,429 --> 00:00:18,530
+The string Hello is now gone.
+
+7
+00:00:18,530 --> 00:00:21,520
+>> You need a way to be able to store
+data, so that you can use it or
+
+8
+00:00:21,519 --> 00:00:22,989
+change it later.
+
+9
+00:00:22,989 --> 00:00:25,599
+To do this, you can use variables.
+
+10
+00:00:25,600 --> 00:00:29,242
+You've probably heard of variables
+before, maybe in a math class.
+
+11
+00:00:29,242 --> 00:00:32,980
+Let's say you have a variable called X,
+and it's assigned the value 5.
+
+12
+00:00:32,979 --> 00:00:36,521
+And then let's say we have
+the expression X + 1.
+
+13
+00:00:36,521 --> 00:00:41,989
+Since X has a value of 5, we can
+substitute the value of 5 in for X.
+
+14
+00:00:41,990 --> 00:00:45,902
+So the expression becomes 5 + 1 = 6.
+
+15
+00:00:45,902 --> 00:00:48,564
+>> In JavaScript, variable stored data,
+
+16
+00:00:48,564 --> 00:00:52,649
+much like how the variable you
+just saw stored the value of 5.
+
+17
+00:00:52,649 --> 00:00:56,356
+And they're not limit to
+the storing just numerical values,
+
+18
+00:00:56,356 --> 00:00:58,720
+you can store any data in two variable.
+
+19
+00:00:58,720 --> 00:01:03,919
+To create a variable, use the var
+keyword followed by the variableName,
+
+20
+00:01:03,920 --> 00:01:05,670
+and the assignment operator.
+
+21
+00:01:05,670 --> 00:01:08,239
+The assignment operator
+is the equal sign.
+
+22
+00:01:08,239 --> 00:01:10,489
+And then on the right side
+of the assignment operator,
+
+23
+00:01:10,489 --> 00:01:13,250
+put the value you want to
+assign to the variable.
+
+24
+00:01:13,250 --> 00:01:16,069
+As an example, here's my cat Zoe.
+
+25
+00:01:16,069 --> 00:01:20,629
+We can use a variable called name and
+set it equal to the string Zoe for
+
+26
+00:01:20,629 --> 00:01:21,819
+her name.
+
+27
+00:01:21,819 --> 00:01:25,379
+And for her age,
+we can create a variable called age, and
+
+28
+00:01:25,379 --> 00:01:28,000
+set that to the number 4,
+since Zoe's 4 years old.
+
+29
+00:01:29,379 --> 00:01:32,060
+Eventually, when Zoe
+has her next birthday,
+
+30
+00:01:32,060 --> 00:01:36,469
+I'll be able to use the age variable I
+created to increment Zoe's age by 1, so
+
+31
+00:01:36,469 --> 00:01:39,819
+the variable age will return
+Zoe's updated age of 5.
+
+32
+00:01:39,819 --> 00:01:41,279
+Now, Zoe's 5 years old.
+

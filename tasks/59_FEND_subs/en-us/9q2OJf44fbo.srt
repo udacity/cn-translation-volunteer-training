@@ -1,0 +1,107 @@
+﻿1
+00:00:00,450 --> 00:00:04,750
+So far, we've looked at the data
+types number, string, and boolean.
+
+2
+00:00:04,750 --> 00:00:08,955
+But there are couple more we need
+to look at, and those are null and
+
+3
+00:00:08,955 --> 00:00:09,806
+undefined.
+
+4
+00:00:09,807 --> 00:00:11,515
+At first,
+they might seem somewhat confusing,
+
+5
+00:00:11,515 --> 00:00:13,580
+because they are pretty similar.
+
+6
+00:00:13,580 --> 00:00:16,940
+So you might want to replay this
+explanation a couple of times.
+
+7
+00:00:16,940 --> 00:00:19,980
+Null is a data type that has no value,
+
+8
+00:00:19,980 --> 00:00:22,890
+just like how you can set
+a variable to a value of 10.
+
+9
+00:00:22,890 --> 00:00:26,560
+You could explicitly set
+a variable to a value of null.
+
+10
+00:00:27,760 --> 00:00:32,700
+Undefined is a data type that
+indicates the absence of value.
+
+11
+00:00:32,700 --> 00:00:35,600
+It's a bit confusing, but
+it's not the same as null.
+
+12
+00:00:36,719 --> 00:00:40,759
+Null is a value that means nothing or
+totally empty.
+
+13
+00:00:40,759 --> 00:00:45,299
+But undefined actually means
+does not have a value,
+
+14
+00:00:45,299 --> 00:00:47,159
+not even a value of nothing.
+
+15
+00:00:47,159 --> 00:00:53,659
+You could declare a variable x and try
+to use it, and it will return undefined.
+
+16
+00:00:53,659 --> 00:00:56,839
+It's undefined because
+the variable x exists,
+
+17
+00:00:56,840 --> 00:00:58,110
+it just doesn't have a value yet.
+
+18
+00:00:59,170 --> 00:01:01,289
+If you set a variable to
+the value of null and
+
+19
+00:01:01,289 --> 00:01:04,560
+try to use it, it will return null.
+
+20
+00:01:04,560 --> 00:01:05,609
+In other words,
+
+21
+00:01:05,609 --> 00:01:10,099
+undefined will be returned to you, if
+you didn't assign a value to something.
+
+22
+00:01:10,099 --> 00:01:12,699
+Null will be returned
+if you purposefully
+
+23
+00:01:12,700 --> 00:01:14,260
+assigned the value to nothing.
+

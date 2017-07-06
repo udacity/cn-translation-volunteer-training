@@ -68,7 +68,7 @@ we've actually hard coded in the value for
 
 18
 00:00:52,860 --> 00:00:56,220
-airport less and carrier list. But of course, what
+airport list and carrier list. But of course, what
 
 19
 00:00:56,220 --> 00:00:59,030

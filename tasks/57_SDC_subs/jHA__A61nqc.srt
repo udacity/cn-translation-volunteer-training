@@ -128,7 +128,7 @@ find great engineers to keep up.
 
 28
 00:01:30,846 --> 00:01:34,972
-This is the self driven program and
+This is the self driving car nanodegree program and
 when you are finished,
 
 29

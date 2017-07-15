@@ -1,83 +1,84 @@
 1
 00:00:00,190 --> 00:00:04,700
 Now, let's say we have a random sample of ten people who each told us how
-
+现在 我们随机抽取十个人，其中每个人都告诉我们
 2
 00:00:04,700 --> 00:00:07,260
 many hours they slept the night before and
-
+他们前一晚睡了多长时间
 3
 00:00:07,260 --> 00:00:10,860
 their temporal memory score on the BBC test. Is
-
+和他们在 BBC 测试中得到的短时记忆分数
 4
 00:00:10,860 --> 00:00:14,690
 there a relationship between these two variables? Well,
-
+这两个变量之间有没有关系？
 5
 00:00:14,690 --> 00:00:17,870
 it's very difficult to judge relationships based on
-
+仅仅靠几个数据列表很难判断是否存在某种关系
 6
 00:00:17,870 --> 00:00:21,450
 just lists of data. So let's visualize it.
-
+所以让我们把它（数据）具象化
 7
 00:00:22,460 --> 00:00:25,800
 This scatter plot visualizes the data in the table.
-
+这个散点图把表格中的数据形象化了
 8
 00:00:25,800 --> 00:00:29,410
 Each point represents one row of the table.
-
+每一个点都代表表格中的一行
 9
 00:00:29,410 --> 00:00:31,940
 Here you can see that the hours slept
-
+在这里你能够看到睡眠时间
 10
 00:00:31,940 --> 00:00:35,190
 was about five and the temporal memory score
-
+是五个小时 而短时记忆分数
 11
 00:00:35,190 --> 00:00:39,084
 looked to be about 55. That must correspond
-
+看起来是55分 那个一定和
 12
 00:00:39,084 --> 00:00:44,706
 to this row here, 56. You can see that hours slept is on the X axis and
-
+这里的这一行 56 一致 你可以看到睡眠时间在 X 轴上而
 13
 00:00:44,706 --> 00:00:52,050
 temporal memory score is on the Y axis. We call the variable on the X axis
-
+短时记忆分数在 y 轴上 我们把 x 轴上的这个变量
 14
 00:00:52,050 --> 00:00:57,840
 the independent variable or the predictor variable. And we call the variable on
-
+叫做自变量或者预测变量 同时我们把 y 轴上的变量
 15
 00:00:57,840 --> 00:01:00,970
 the Y axis the dependent variable, or
-
+叫做因变量
 16
 00:01:00,970 --> 00:01:04,230
 the outcome. We're trying to predict temporal
-
+或者结果 我们尝试用睡眠时间预测
 17
 00:01:04,230 --> 00:01:07,780
 memory score, using hours slept. Now that
-
+短时记忆分数 既然
 18
 00:01:07,780 --> 00:01:10,740
 you've sen this data visualized, what can
-
+你已经完成了这个数据可视化 
 19
 00:01:10,740 --> 00:01:13,130
 we say about the relationship between hours
-
+关于睡眠时间和短时记忆之间的关系我们
 20
 00:01:13,130 --> 00:01:17,540
 slept and temporal memory score? This time
-
+能得出什么结论？ 这一次
 21
 00:01:17,540 --> 00:01:19,460
 this question might be easier to answer.
+这个问题可能会更容易回答了

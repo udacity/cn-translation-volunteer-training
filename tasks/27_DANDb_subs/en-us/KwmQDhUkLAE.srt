@@ -1,39 +1,40 @@
 1
 00:00:00,012 --> 00:00:04,445
 The earliest known academic rating about the meaning of random was by John Venn
-
+已知最早的是 John Venn 于 1888 年在他的著作 The Logic of Chance 
 2
 00:00:04,457 --> 00:00:08,650
 in 1888 and his book called the logic of chance. He said, Perhaps the best
-
+对随机这一概念进行学术定义 他认为
 3
 00:00:08,662 --> 00:00:12,541
 typical example that we can give of the scientific meaning of random
-
+也许关于随机分布的科学定义的
 4
 00:00:12,553 --> 00:00:17,099
 distribution is afforded by the arrangement of the drops of rain in a shower. No
-
+最典型的例子是一场雨中雨滴落下的位置分布 没有
 5
 00:00:17,111 --> 00:00:21,430
 one can give a guess whereabouts at any instant a drop will fall, but we know
-
+人能够预测在任何瞬间一滴雨会落在哪里 但是我们知道
 6
 00:00:21,442 --> 00:00:25,837
 that if we put out a sheet of paper it will gradually become uniformly spotted
-
+如果我们放一张纸 这张纸就会渐渐均匀的淋上雨滴
 7
 00:00:25,849 --> 00:00:30,473
 over. And if we were to mark out any two equal areas on the paper, these would
-
+并且如果我们在纸上任意全出两块区域 通常这两块区域会
 8
 00:00:30,485 --> 00:00:34,880
 gradually tend to be struck equally often. Therefore, when we have a random
-
+渐渐平均的淋上雨 因此 当我们有一个随机
 9
 00:00:34,892 --> 00:00:39,504
 sample, each subject has an equal chance of being selected. And then our sample
-
+样本 其中每一个对象都有均等的机会被挑选到时 我们的样本
 10
 00:00:39,516 --> 00:00:42,111
 is more likely to approximate the population.
+更有可能估计总体

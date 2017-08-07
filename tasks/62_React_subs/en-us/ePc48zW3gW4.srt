@@ -1,0 +1,72 @@
+﻿1
+00:00:00,000 --> 00:00:02,060
+Welcome to the program,
+
+2
+00:00:02,060 --> 00:00:06,535
+I'm Richard the curriculum lead for Front-end Web Development at Udacity.
+
+3
+00:00:06,535 --> 00:00:08,480
+You're now an essential member of
+
+4
+00:00:08,480 --> 00:00:12,259
+the Udacity community and we are so excited to have you here.
+
+5
+00:00:12,259 --> 00:00:15,550
+I'm looking forward to helping guide your journey through React.
+
+6
+00:00:15,550 --> 00:00:20,425
+And in this program you'll be building applications along with Michael, Ryan and Tyler.
+
+7
+00:00:20,425 --> 00:00:24,725
+These projects are ones that you'll be building in class while learning React.
+
+8
+00:00:24,725 --> 00:00:29,405
+Here at your Udacity we can't stress enough the importance of learning by doing.
+
+9
+00:00:29,405 --> 00:00:31,515
+So in addition to the in-class projects,
+
+10
+00:00:31,515 --> 00:00:35,375
+you'll also be given some projects that you'll build on your own.
+
+11
+00:00:35,375 --> 00:00:39,298
+These projects will prove how much you've learned. It'll be great.
+
+12
+00:00:39,298 --> 00:00:43,189
+For the first project you'll build an application called My Reads.
+
+13
+00:00:43,189 --> 00:00:45,215
+This app will require you to manage state,
+
+14
+00:00:45,215 --> 00:00:48,604
+build components and leverage React Router.
+
+15
+00:00:48,603 --> 00:00:52,283
+This project is all about mastering the fundamentals of React.
+
+16
+00:00:52,283 --> 00:00:54,649
+Now by fundamentals I mean the stuff you'll be doing
+
+17
+00:00:54,649 --> 00:00:58,115
+in every single React project you create.
+
+18
+00:00:58,115 --> 00:01:02,000
+Check out the following sections for a more in-depth look at what you'll be building.
+

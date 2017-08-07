@@ -1,0 +1,24 @@
+﻿1
+00:00:00,000 --> 00:00:03,000
+Before we actually dive into the syntax of React,
+
+2
+00:00:03,000 --> 00:00:06,750
+let's go ahead and take a step back and talk about what makes React special.
+
+3
+00:00:06,750 --> 00:00:08,330
+Its compositional model.
+
+4
+00:00:08,330 --> 00:00:09,810
+Its declarative nature,
+
+5
+00:00:09,810 --> 00:00:12,233
+the way data flows through a component
+
+6
+00:00:12,233 --> 00:00:16,000
+and that React is really just JavaScript. So let's get started.
+

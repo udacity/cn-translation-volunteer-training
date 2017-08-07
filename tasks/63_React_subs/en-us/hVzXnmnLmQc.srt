@@ -1,0 +1,84 @@
+﻿1
+00:00:00,000 --> 00:00:02,805
+You're probably familiar with the idea of functions.
+
+2
+00:00:02,805 --> 00:00:08,060
+When to use a function and when not to use one probably comes pretty naturally to you.
+
+3
+00:00:08,060 --> 00:00:10,198
+One of the best parts about React is that
+
+4
+00:00:10,198 --> 00:00:12,765
+you can use the same intuition you have about functions,
+
+5
+00:00:12,765 --> 00:00:15,150
+for when you create React components.
+
+6
+00:00:15,150 --> 00:00:18,914
+However, instead of your function taking in some arguments or returning a value,
+
+7
+00:00:18,914 --> 00:00:21,149
+your function is going to take in some arguments and
+
+8
+00:00:21,149 --> 00:00:24,504
+return some UI. Let's take a look at some code.
+
+9
+00:00:24,504 --> 00:00:29,660
+Here, we have three functions and one function invocation.
+
+10
+00:00:29,660 --> 00:00:31,925
+You'll notice our code is clean and organized because
+
+11
+00:00:31,925 --> 00:00:34,783
+each function has a specific purpose.
+
+12
+00:00:34,783 --> 00:00:38,689
+We're composing our functions together by having one function get profiled
+
+13
+00:00:38,689 --> 00:00:44,695
+data whereas the other two functions getProfilePic and getProfileLink.
+
+14
+00:00:44,695 --> 00:00:47,465
+Now, when we invoke getProfileData,
+
+15
+00:00:47,465 --> 00:00:51,094
+we get an object back which represents our user.
+
+16
+00:00:51,094 --> 00:00:54,270
+Now instead of having these functions return an object with data,
+
+17
+00:00:54,270 --> 00:00:57,880
+let's modify them just a bit to return some UI.
+
+18
+00:00:57,880 --> 00:00:59,990
+Now don't freak out about the syntax.
+
+19
+00:00:59,990 --> 00:01:03,484
+We're going to cover this code much more in depth in future lessons.
+
+20
+00:01:03,484 --> 00:01:07,790
+But for now, notice that instead of composing functions to get some value,
+
+21
+00:01:07,790 --> 00:01:10,010
+we're composing functions to get some UI.
+
